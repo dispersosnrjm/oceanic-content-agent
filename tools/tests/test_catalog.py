@@ -7,6 +7,10 @@ from contextlib import redirect_stdout
 from pathlib import Path
 from unittest import mock
 
+try:
+    from tests import _netguard  # noqa: F401  (bloquea la red en las pruebas)
+except ImportError:  # unittest discover -s tests
+    import _netguard  # noqa: F401
 from oceanic import catalog, exporter, r2
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -24,6 +28,10 @@ class FakeClient:
     def head_object(self, key):
         o = self.objects.get(key)
         return None if o is None else {"sha256": o["meta"].get("sha256")}
+
+    def get_object(self, key):
+        o = self.objects.get(key)
+        return None if o is None else o["body"]
 
     def put_object(self, key, body, content_type, cache_control, metadata):
         self.puts.append(key)
@@ -183,6 +191,129 @@ class Publish(unittest.TestCase):
         self.assertEqual(old.puts.count("catalog/latest.json"), 1)
         self.assertEqual(json.loads(old.objects["catalog/latest.json"]["body"])["content_hash"],
                          self.index["catalog_hash"])
+
+    # --- historial del puntero anterior y rollback ------------------------------------------------------------
+
+    def _old_pointer(self, h="a" * 64):
+        body = (json.dumps({"schema_version": "1.0.0", "content_hash": h, "generated_at": "2026-10-01T00:00:00Z",
+                            "path": f"catalog/1.0.0/{h}/index.json"}, indent=2) + "\n").encode("utf-8")
+        return {"catalog/latest.json": {"body": body, "type": "x", "cache": "x", "meta": {"sha256": "z"}}}, body
+
+    def test_previous_pointer_is_archived_immutably_before_overwrite(self):
+        objs, body = self._old_pointer()
+        client = FakeClient(objs)
+        with mock.patch.object(catalog, "_now_stamp", return_value="20261026T153000Z"):
+            rep = catalog.publish_export(self.out, apply=True, client=client)
+        self.assertEqual(rep["errors"], [])
+        hist = "catalog/history/20261026T153000Z-" + "a" * 64 + ".json"
+        self.assertEqual(client.objects[hist]["body"], body)  # copia identica del puntero anterior
+        self.assertEqual(client.objects[hist]["cache"], "public, max-age=31536000, immutable")
+        self.assertLess(client.puts.index(hist), client.puts.index("catalog/latest.json"))  # primero la copia
+        self.assertEqual(client.puts[-1], "catalog/latest.json")
+
+    def test_no_archive_when_there_is_no_previous_pointer_or_it_is_the_same(self):
+        client = FakeClient()
+        catalog.publish_export(self.out, apply=True, client=client)
+        self.assertFalse([k for k in client.objects if k.startswith("catalog/history/")])
+        catalog.publish_export(self.out, apply=True, client=client)  # mismo puntero: ni copia ni escritura
+        self.assertFalse([k for k in client.objects if k.startswith("catalog/history/")])
+        self.assertEqual(client.puts.count("catalog/latest.json"), 1)
+
+    def test_archive_failure_aborts_without_overwriting_pointer(self):
+        objs, body = self._old_pointer()
+
+        class FailHistory(FakeClient):
+            def put_object(self, key, *a, **k):
+                if key.startswith("catalog/history/"):
+                    raise r2.R2Error("falla la copia")
+                super().put_object(key, *a, **k)
+
+        client = FailHistory(objs)
+        rep = catalog.publish_export(self.out, apply=True, client=client)
+        self.assertTrue(rep["errors"])
+        self.assertEqual(client.objects["catalog/latest.json"]["body"], body)  # el puntero anterior sigue intacto
+        self.assertNotIn("catalog/latest.json", client.puts)
+
+    def test_read_failure_of_previous_pointer_aborts(self):
+        objs, body = self._old_pointer()
+
+        class FailRead(FakeClient):
+            def get_object(self, key):
+                if key == "catalog/latest.json":
+                    raise r2.R2Error("no se pudo leer")
+                return super().get_object(key)
+
+        client = FailRead(objs)
+        rep = catalog.publish_export(self.out, apply=True, client=client)
+        self.assertTrue(rep["errors"])
+        self.assertEqual(client.objects["catalog/latest.json"]["body"], body)
+
+    def _published(self):
+        client = FakeClient()
+        catalog.publish_export(self.out, apply=True, client=client)
+        return client
+
+    def test_rollback_dry_run_then_apply(self):
+        client = self._published()
+        h = self.index["catalog_hash"]
+        older = "b" * 64
+        objs, body = self._old_pointer(older)
+        client.objects["catalog/latest.json"] = objs["catalog/latest.json"]  # el puntero actual apunta a otro catalogo
+        n = len(client.puts)
+        rep = catalog.rollback(client, h)  # simulacion
+        self.assertTrue(rep["ok"])
+        self.assertEqual((rep["previous_hash"], len(client.puts)), (older, n))
+        self.assertEqual(client.objects["catalog/latest.json"]["body"], body)
+        with mock.patch.object(catalog, "_now_stamp", return_value="20261026T160000Z"):
+            rep = catalog.rollback(client, h, apply=True)
+        self.assertTrue(rep["ok"])
+        self.assertEqual(rep["archived"], "catalog/history/20261026T160000Z-" + older + ".json")
+        ptr = json.loads(client.objects["catalog/latest.json"]["body"])
+        self.assertEqual((ptr["content_hash"], ptr["path"]), (h, f"{self.prefix}/index.json"))
+        self.assertEqual(client.objects[rep["archived"]]["body"], body)
+
+    def test_rollback_noop_when_already_there(self):
+        client = self._published()
+        n = len(client.puts)
+        rep = catalog.rollback(client, self.index["catalog_hash"], apply=True)
+        self.assertEqual((rep["ok"], rep["action"], len(client.puts)), (True, "ya apunta ahi", n))
+
+    def test_rollback_requires_an_existing_catalog_with_its_index(self):
+        client = self._published()
+        rep = catalog.rollback(client, "c" * 64, apply=True)
+        self.assertFalse(rep["ok"])
+        self.assertIn("no existe", rep["errors"][0])
+        # catalogo sin index.json (solo otros archivos): tampoco
+        client.objects[f"catalog/1.0.0/{'d' * 64}/models/x/portal.json"] = {"body": b"{}", "type": "", "cache": "", "meta": {}}
+        self.assertFalse(catalog.rollback(client, "d" * 64, apply=True)["ok"])
+        self.assertFalse(catalog.rollback(client, "no-es-un-hash", apply=True)["ok"])
+        self.assertEqual(client.puts.count("catalog/latest.json"), 1)  # solo la publicacion inicial
+
+    def test_rollback_refuses_inconsistent_or_preview_index(self):
+        client = self._published()
+        key = f"{self.prefix}/index.json"
+        idx = json.loads(client.objects[key]["body"])
+        client.objects[f"catalog/1.0.0/{'e' * 64}/index.json"] = {"body": json.dumps(idx).encode(), "type": "", "cache": "",
+                                                                  "meta": {}}  # index de otro hash
+        self.assertFalse(catalog.rollback(client, "e" * 64, apply=True)["ok"])
+        idx["preview"] = True
+        h = "f" * 64
+        idx["catalog_hash"] = h
+        client.objects[f"catalog/1.0.0/{h}/index.json"] = {"body": json.dumps(idx).encode(), "type": "", "cache": "",
+                                                           "meta": {}}
+        rep = catalog.rollback(client, h, apply=True)
+        self.assertFalse(rep["ok"])
+        self.assertIn("preview", rep["errors"][0])
+
+    def test_rollback_cli_needs_credentials_and_never_deletes(self):
+        buf = io.StringIO()
+        with mock.patch.dict(os.environ, {}, clear=True), redirect_stdout(buf):
+            rc = catalog.main_cli([f"--rollback={'a' * 64}"], ROOT)
+        self.assertEqual(rc, 2)
+        for name in r2.ENV_VARS:
+            self.assertIn(name, buf.getvalue())
+        client = self._published()
+        catalog.rollback(client, self.index["catalog_hash"], apply=True)  # FakeClient falla ante cualquier delete_*
 
     def test_verify_images_reports_missing_and_stops(self):
         client = FakeClient()

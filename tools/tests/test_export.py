@@ -5,6 +5,10 @@ import tempfile
 import unittest
 from pathlib import Path
 
+try:
+    from tests import _netguard  # noqa: F401  (bloquea la red en las pruebas)
+except ImportError:  # unittest discover -s tests
+    import _netguard  # noqa: F401
 from oceanic import exporter, mediarules
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -219,6 +223,25 @@ class WriteOutput(unittest.TestCase):
         self.assertEqual(d["images"], [])
         self.assertTrue(all(not h["available"] for h in d["candidates"]["hero_images"]))
         self.assertGreater(res["report"]["images"]["omitted"].get("sin_subir_a_r2", 0), 0)
+
+
+class RequiresReview(unittest.TestCase):
+    def test_requires_review_images_are_omitted_from_the_export(self):
+        import hashlib
+        from collections import Counter
+        with tempfile.TemporaryDirectory() as t:
+            pkg = Path(t) / "biblioteca" / "marca" / "modelo"
+            inv = pkg / "05_MULTIMEDIA" / "IMAGENES"
+            inv.mkdir(parents=True)
+            base = {"scope": "THIS_MODEL", "category": "EXTERIOR", "file": "x.webp", "width": 100, "height": 80,
+                    "sha256": hashlib.sha256(b"x").hexdigest(), "hero_rank": None, "hero_candidate": False}
+            recs = [dict(base, id="bueno", download_status="WEB_COPY"),
+                    dict(base, id="cambio", download_status="REQUIRES_REVIEW (original cambió)")]
+            (inv / "images.json").write_text(json.dumps({"images": recs}), encoding="utf-8")
+            omitted = Counter()
+            images, _, _ = exporter._build_images(pkg, "marca", "modelo", "Modelo", True, omitted, [])
+        self.assertEqual([i["id"] for i in images], ["bueno"])
+        self.assertEqual(omitted["REQUIRES_REVIEW"], 1)
 
 
 class Examples(unittest.TestCase):

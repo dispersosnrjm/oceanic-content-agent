@@ -1,6 +1,10 @@
 import copy
 import unittest
 
+try:
+    from tests import _netguard  # noqa: F401  (bloquea la red en las pruebas)
+except ImportError:  # unittest discover -s tests
+    import _netguard  # noqa: F401
 from oceanic import lint
 
 RULES = {"version": 1, "rules": [

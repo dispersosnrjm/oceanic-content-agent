@@ -31,6 +31,13 @@ Rama `integracion-portal`. Cambios aditivos: no se reformateó ningún archivo e
   archivos y, con `--verify-images`, que las claves de imagen existan en R2.
 - **`python -m oceanic media <modelo> --restore`**: repone solo las copias web ausentes o corruptas desde la web oficial,
   sin tocar `original`. Omite Solaris. Un captcha marca `requires_manual_download` con la URL exacta.
+- `media --restore` verifica cada descarga contra el hash registrado del original (`original.sha256`, o
+  `original.source_copy_sha256` en las copias de la CDN de Axopar): si coincide, `images.json` no cambia; si difiere, no
+  sobrescribe nada y marca `REQUIRES_REVIEW (original cambió)` (no se publica ni sale en el export); si no hay hash, restaura sin
+  bloquear y lo cuenta como no verificable por marca. Acepta una marca entera y `--report=<archivo.json>`.
+- `publish-export`: antes de sobrescribir `catalog/latest.json` lo lee y guarda una copia inmutable en
+  `catalog/history/<fecha UTC>-<hash>.json` (si falla, no sobrescribe); nuevo `--rollback=<hash>` (simulación por defecto).
+- `R2Client.get_object` (solo lectura).
 - `docs/OPERACION_R2.md`: instrucciones de la primera carga, por marca, de menor a mayor.
 - Pruebas nuevas: `test_mediarules`, `test_r2`, `test_restore`, `test_lint`, `test_export`, `test_catalog`.
 - Dependencias: `boto3`, `jsonschema`.

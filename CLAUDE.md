@@ -94,6 +94,7 @@ python -m oceanic media <modelo> --restore           # repone solo las copias we
 python -m oceanic publish-r2 [modelo|marca|--all] [--apply] [--verify-remote]  # sube las copias web a R2 (simulación por defecto; nunca borra)
 python -m oceanic export-portal [--out=<carpeta>] [--preview-keys]             # portal.json por modelo, brand.json e index.json (docs/EXPORT_PORTAL.md)
 python -m oceanic publish-export [--out=<carpeta>] [--apply] [--verify-images] # sube el export a R2: catalog/{schema_version}/{hash}/... y catalog/latest.json
+python -m oceanic publish-export --rollback=<hash> [--schema-version=<v>] [--apply]  # apunta catalog/latest.json a un catálogo ya publicado (simulación por defecto; archiva el puntero actual en catalog/history/)
 python -m unittest discover -s tests   # pruebas
 ```
 

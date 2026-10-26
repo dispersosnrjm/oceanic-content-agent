@@ -36,7 +36,7 @@ _sleep = time.sleep
 STATE_VERSION = 1
 
 SKIP_REASONS = ("sin_archivo", "FAILED", "PENDING", "DUPLICATE_OF", "requires_manual_download",
-                "corrupta", "categoria_invalida", "id_invalido", "otro")
+                "corrupta", "categoria_invalida", "id_invalido", "REQUIRES_REVIEW", "otro")
 
 
 class R2Error(Exception):
@@ -120,6 +120,19 @@ class R2Client:
                 return None
             raise self._wrap(exc) from None
         return {"sha256": (r.get("Metadata") or {}).get("sha256")}
+
+    def get_object(self, key: str):
+        """Solo lectura: los bytes del objeto, o None si no existe."""
+        try:
+            r = self._s3.get_object(Bucket=self._bucket, Key=key)
+            return r["Body"].read()
+        except Exception as exc:  # noqa: BLE001
+            resp = getattr(exc, "response", None) or {}
+            code = str((resp.get("Error") or {}).get("Code", ""))
+            status = (resp.get("ResponseMetadata") or {}).get("HTTPStatusCode")
+            if code in ("404", "NoSuchKey", "NotFound") or status == 404:
+                return None
+            raise self._wrap(exc) from None
 
     def put_object(self, key: str, body: bytes, content_type: str, cache_control: str, metadata: dict):
         try:
@@ -256,6 +269,9 @@ def _process_model(model_dir: Path, apply: bool, verify_remote: bool, client, wo
     cands = []
     for rec in images:
         if rec.get("scope") != "THIS_MODEL":
+            continue
+        if str(rec.get("download_status") or "").startswith("REQUIRES_REVIEW"):
+            skip("REQUIRES_REVIEW")  # el original cambio (media --restore): no se publica hasta que una persona decida
             continue
         if not rec.get("file"):
             skip(_skip_reason(rec))

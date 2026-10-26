@@ -292,6 +292,9 @@ def _build_images(pkg, brand, slug, model_name, preview_keys, omitted: Counter, 
         if status.startswith("PENDING"):
             omitted["PENDING"] += 1
             continue
+        if status.startswith("REQUIRES_REVIEW"):
+            omitted["REQUIRES_REVIEW"] += 1
+            continue
         if not rec.get("file") or not rec.get("sha256"):
             omitted["sin_archivo"] += 1
             continue

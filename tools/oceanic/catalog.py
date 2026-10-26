@@ -1,6 +1,7 @@
 """Publicacion del export del portal a R2 (python -m oceanic publish-export).
 
     python -m oceanic publish-export [--out=<carpeta>] [--apply] [--verify-remote] [--verify-images]
+    python -m oceanic publish-export --rollback=<hash> [--schema-version=<v>] [--apply]
 
 Sube index.json, cada portal.json y brand.json, portal.schema.json, media-rules.json, field-catalog.json y
 publish-rules.json a  catalog/{schema_version}/{catalog_hash}/...  y, al final, el puntero catalog/latest.json.
@@ -13,6 +14,9 @@ Garantias:
     omiten; con otro sha256 es un error y no se pisan.
   * catalog/latest.json es la UNICA clave mutable (excepcion documentada). Se escribe al final y solo si todo lo
     demas subio sin errores. Es la unica escritura permitida sobre una clave existente.
+  * Antes de sobrescribirla se lee (get_object) y, si existe, se guarda una copia inmutable en
+    catalog/history/{fecha UTC}-{hash}.json; si esa copia falla, no se sobrescribe.
+  * --rollback=<hash> apunta latest.json a un catalogo ya publicado (simulacion por defecto).
   * Credenciales solo por variables de entorno (las mismas que publish-r2); nunca se imprimen.
 """
 
@@ -23,11 +27,13 @@ import json
 import re
 import sys
 from concurrent.futures import ThreadPoolExecutor
+from datetime import datetime, timezone
 from pathlib import Path
 
 from . import exporter, r2
 
 LATEST_KEY = "catalog/latest.json"  # unica clave mutable
+HISTORY_PREFIX = "catalog/history"  # copias inmutables de cada puntero anterior: {fecha UTC}-{hash}.json
 IMMUTABLE_CACHE = "public, max-age=31536000, immutable"
 POINTER_CACHE = "no-cache"
 JSON_TYPE = "application/json; charset=utf-8"
@@ -131,15 +137,103 @@ def _put_immutable(client, item: dict) -> str:
     return "uploaded"
 
 
-def _put_pointer(client, index: dict) -> str:
-    """Unica escritura sobre una clave mutable: LATEST_KEY, con la clave fija."""
+def _now_stamp(now: datetime | None = None) -> str:
+    return (now or datetime.now(timezone.utc)).strftime("%Y%m%dT%H%M%SZ")
+
+
+def _archive_current_pointer(client, new_sha: str, now: datetime | None = None):
+    """Lee catalog/latest.json (get_object) y, si existe, guarda una copia INMUTABLE en
+    catalog/history/{fecha UTC}-{hash}.json antes de sobrescribirlo.
+
+    Devuelve (estado, clave): 'absent' (no habia puntero), 'same' (ya es el nuevo: nada que hacer) o 'archived'.
+    Si la lectura o la copia fallan, lanza R2Error y el puntero NO se sobrescribe.
+    """
+    old = r2._with_retry(client.get_object, LATEST_KEY)
+    if old is None:
+        return "absent", None
+    if _sha(old) == new_sha:
+        return "same", None
+    try:
+        old_hash = json.loads(old.decode("utf-8")).get("content_hash")
+    except (ValueError, AttributeError):
+        old_hash = None
+    if not (isinstance(old_hash, str) and re.fullmatch(r"[0-9a-f]{64}", old_hash)):
+        old_hash = _sha(old)  # puntero ilegible: se archiva igual, con el hash de sus bytes
+    key = f"{HISTORY_PREFIX}/{_now_stamp(now)}-{old_hash}.json"
+    if r2._with_retry(client.head_object, key) is not None:
+        raise r2.R2Error("la copia historica ya existe; no se pisa")
+    r2._with_retry(client.put_object, key, old, JSON_TYPE, IMMUTABLE_CACHE, {"sha256": _sha(old)})
+    return "archived", key
+
+
+def _put_pointer(client, index: dict, now: datetime | None = None) -> str:
+    """Unica escritura sobre una clave mutable: LATEST_KEY, con la clave fija.
+
+    Antes de sobrescribirla guarda una copia inmutable del puntero anterior; si esa copia falla, aborta.
+    """
     data = pointer_bytes(index)
     sha = _sha(data)
-    head = r2._with_retry(client.head_object, LATEST_KEY)
-    if head is not None and head.get("sha256") == sha:
+    state, _ = _archive_current_pointer(client, sha, now)
+    if state == "same":
         return "skipped"
     r2._with_retry(client.put_object, LATEST_KEY, data, JSON_TYPE, POINTER_CACHE, {"sha256": sha})
     return "uploaded"
+
+
+def rollback(client, content_hash: str, schema_version: str | None = None, apply: bool = False,
+             now: datetime | None = None) -> dict:
+    """Apunta catalog/latest.json a un catalogo ya publicado. Simulacion por defecto; nunca borra.
+
+    Verifica que catalog/{schema_version}/{hash}/index.json exista en R2 y sea coherente (catalog_hash,
+    schema_version, preview false). Con apply, archiva el puntero actual (catalog/history/) y luego escribe el nuevo.
+    """
+    schema_version = schema_version or exporter.SCHEMA_VERSION
+    rep = {"hash": content_hash, "schema_version": schema_version, "apply": apply, "ok": False, "action": None,
+           "errors": [], "archived": None, "previous_hash": None}
+    if not re.fullmatch(r"[0-9a-f]{64}", content_hash or ""):
+        rep["errors"].append("el hash debe tener 64 caracteres hexadecimales en minusculas")
+        return rep
+    prefix = f"catalog/{schema_version}/{content_hash}"
+    raw = r2._with_retry(client.get_object, f"{prefix}/index.json")
+    if raw is None:
+        rep["errors"].append(f"no existe {prefix}/index.json en R2: no hay catalogo con ese hash")
+        return rep
+    try:
+        index = json.loads(raw.decode("utf-8"))
+    except ValueError:
+        rep["errors"].append("el index.json de ese catalogo no es JSON valido")
+        return rep
+    if index.get("catalog_hash") != content_hash or index.get("schema_version") != schema_version:
+        rep["errors"].append("el index.json no corresponde al hash o a la schema_version pedidos")
+        return rep
+    if index.get("preview") is not False:
+        rep["errors"].append("ese catalogo tiene preview: true (o no lo declara): no se apunta latest.json ahi")
+        return rep
+    data = pointer_bytes(index)
+    sha = _sha(data)
+    current = r2._with_retry(client.get_object, LATEST_KEY)
+    if current is not None:
+        try:
+            rep["previous_hash"] = json.loads(current.decode("utf-8")).get("content_hash")
+        except ValueError:
+            pass
+    if current is not None and _sha(current) == sha:
+        rep.update(ok=True, action="ya apunta ahi")
+        return rep
+    rep["ok"] = True
+    if not apply:
+        rep["action"] = "simulacion: se apuntaria latest.json ahi"
+        return rep
+    try:
+        _state, key = _archive_current_pointer(client, sha, now)
+        rep["archived"] = key
+        r2._with_retry(client.put_object, LATEST_KEY, data, JSON_TYPE, POINTER_CACHE, {"sha256": sha})
+    except r2.R2Error as exc:
+        rep["ok"] = False
+        rep["errors"].append(f"{exc}")
+        return rep
+    rep["action"] = "latest.json apunta ahora a ese catalogo"
+    return rep
 
 
 def publish_export(out: Path, apply: bool = False, verify_remote: bool = False, verify_images: bool = False,
@@ -221,7 +315,35 @@ def format_report(rep: dict) -> str:
     return "\n".join(lines)
 
 
+def format_rollback(rep: dict) -> str:
+    mode = "APPLY" if rep["apply"] else "simulacion: no se escribio nada"
+    lines = [f"Rollback a catalog/{rep['schema_version']}/{rep['hash']}/  [{mode}]"]
+    if rep["previous_hash"]:
+        lines.append(f"Puntero actual: {rep['previous_hash']}")
+    if rep["action"]:
+        lines.append(rep["action"])
+    if rep["archived"]:
+        lines.append(f"Copia del puntero anterior: {rep['archived']}")
+    lines += [f"ERROR {e}" for e in rep["errors"]]
+    return "\n".join(lines)
+
+
 def main_cli(args: list[str], root: Path) -> int:
+    back = next((a.split("=", 1)[1] for a in args if a.startswith("--rollback=")), None)
+    if back is not None:
+        missing = r2.missing_credentials()
+        if missing:
+            print("ERROR faltan variables de entorno: " + ", ".join(missing))
+            return 2
+        try:
+            client = r2.R2Client()
+        except Exception as exc:  # noqa: BLE001
+            print(f"ERROR no se pudo crear el cliente R2: {type(exc).__name__}")
+            return 2
+        schema_version = next((a.split("=", 1)[1] for a in args if a.startswith("--schema-version=")), None)
+        rep = rollback(client, back.strip().lower(), schema_version, apply="--apply" in args)
+        print(format_rollback(rep))
+        return 0 if rep["ok"] else 1
     out = next((a.split("=", 1)[1] for a in args if a.startswith("--out=")), None)
     out = Path(out) if out else Path(root) / "dist" / "portal"
     apply, verify, verify_images = "--apply" in args, "--verify-remote" in args, "--verify-images" in args

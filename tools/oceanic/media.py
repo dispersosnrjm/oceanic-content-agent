@@ -331,36 +331,93 @@ def _webp_ok(path: Path) -> bool:
         return False
 
 
+def _check_inside(model_dir: Path, rel, image_id=None) -> Path:
+    """The resolved path of a record's `file` must stay inside the model folder; ValueError otherwise."""
+    base = Path(model_dir).resolve()
+    try:
+        target = (base / str(rel)).resolve()
+        inside = target.is_relative_to(base) and target != base
+    except (OSError, ValueError):
+        inside = False
+    if not inside:
+        raise ValueError(f"{base.name}: la ruta de la copia de la imagen {image_id!r} ({str(rel)[:80]!r}) sale de la "
+                         f"carpeta del modelo; no se lee ni se escribe. Corrige `file` en images.json.")
+    return target
+
+
+def _restore_plan(rec: dict) -> tuple[list[str], str | None, str | None]:
+    """URLs to try, in order, plus the (url, sha256) pair that the downloaded bytes can be checked against.
+
+    * original.sha256 present: the original's URL (`original.fetched_from`) goes first and is the one that can be verified.
+    * only original.source_copy_sha256 present (copies made with `--cdn`): the CDN URL the copy came from
+      (`downloaded_from`) goes first; its raw bytes are what source_copy_sha256 fingerprints.
+    * neither: nothing to compare (not verifiable).
+    """
+    orig = rec.get("original") or {}
+    fetched, dfrom = orig.get("fetched_from"), rec.get("downloaded_from")
+    if orig.get("sha256"):
+        order = (fetched, dfrom, rec.get("source_url"), orig.get("url"), rec.get("cdn_url"))
+        check_url, expected = fetched, orig["sha256"]
+    elif orig.get("source_copy_sha256"):
+        order = (dfrom, fetched, rec.get("source_url"), orig.get("url"), rec.get("cdn_url"))
+        check_url, expected = dfrom, orig["source_copy_sha256"]
+    else:
+        order = (dfrom, fetched, rec.get("source_url"), orig.get("url"), rec.get("cdn_url"))
+        check_url, expected = None, None
+    urls = []
+    for u in order:
+        if isinstance(u, str) and u.startswith(("http://", "https://")) and u not in urls:
+            urls.append(u)
+    if check_url not in urls:
+        check_url, expected = None, None
+    return urls, check_url, expected
+
+
 def restore_images(model_dir: Path, fetch=None, brand: str | None = None) -> dict:
     """Restore only missing/corrupt web copies from the official sites; never touches `original`.
 
     Records on disk that open as WebP are left alone. Solaris is skipped (anti-bot captcha: `media --from-dir`).
     A captcha response is never bypassed: the record gets `requires_manual_download` + `manual_download_url`.
+
+    Each download is checked against the hash registered for what was fetched (see `_restore_plan`):
+      * matches       -> `restored_verified`: the copy is written to the registered path and images.json is NOT
+                         modified (not even downloaded_at), so a correct restore leaves no diff;
+      * differs       -> `changed`: nothing is written, the record becomes `REQUIRES_REVIEW (original cambió)` (not
+                         publishable) and keeps all its fields;
+      * not checkable -> `restored_unverifiable`: the copy is written; the record is only filled in when it had no
+                         copy registered yet.
     """
     fetch = fetch or _fetch
     model_dir = Path(model_dir)
     brand = brand or model_dir.parent.name
-    stats = {"restored": 0, "ok_on_disk": 0, "failed": 0, "requires_manual_download": 0,
-             "skipped_solaris": 0, "manual": []}
+    stats = {"brand": brand, "model": model_dir.name, "restored": 0, "restored_verified": 0, "restored_unverifiable": 0,
+             "changed": 0, "changed_list": [], "ok_on_disk": 0, "failed": 0, "no_url": 0,
+             "requires_manual_download": 0, "skipped_solaris": 0, "identical_copy": 0, "manual": []}
     inv_path = model_dir / "05_MULTIMEDIA" / "IMAGENES" / "images.json"
     inv = json.loads(inv_path.read_text(encoding="utf-8"))
+    for rec in inv["images"]:  # antes de leer, descargar o escribir nada: todas las rutas deben quedar dentro del modelo
+        if rec.get("file"):
+            _check_inside(model_dir, rec["file"], rec.get("id"))
     changed = False
     for rec in inv["images"]:
-        if rec.get("scope") != "THIS_MODEL" or str(rec.get("download_status") or "").startswith("DUPLICATE_OF"):
+        status = str(rec.get("download_status") or "")
+        if rec.get("scope") != "THIS_MODEL" or status.startswith("DUPLICATE_OF"):
             continue
+        if status.startswith("REQUIRES_REVIEW"):
+            continue  # decision pendiente de una persona: no se vuelve a descargar ni a publicar
         if rec.get("file") and _webp_ok(model_dir / rec["file"]):
             stats["ok_on_disk"] += 1
             continue
         if brand.lower() == "solaris":
             stats["skipped_solaris"] += 1
             continue
-        orig = rec.get("original") or {}
-        urls = []
-        # downloaded_from primero: reproduce como se hizo la copia (p. ej. la CDN 2560 px de Axopar, sin bajar el original)
-        for u in (rec.get("downloaded_from"), orig.get("fetched_from"), rec.get("source_url"), orig.get("url"), rec.get("cdn_url")):
-            if isinstance(u, str) and u.startswith(("http://", "https://")) and u not in urls:
-                urls.append(u)
-        data, err, captcha_url = None, "sin URL oficial", None
+        urls, check_url, expected = _restore_plan(rec)
+        if not urls:
+            rec["download_status"] = "FAILED (sin URL oficial)"
+            stats["no_url"] += 1
+            changed = True
+            continue
+        data, err, captcha_url, used = None, "sin URL oficial", None, None
         for url in urls:
             try:
                 got = fetch(url)
@@ -368,7 +425,7 @@ def restore_images(model_dir: Path, fetch=None, brand: str | None = None) -> dic
                 err = f"{type(exc).__name__}: {exc}"
                 continue
             if _image_info(got)[0]:
-                data = got
+                data, used = got, url
                 break
             if "captcha" in got[:200].decode("utf-8", "replace").lower():
                 captcha_url = captcha_url or url
@@ -386,46 +443,109 @@ def restore_images(model_dir: Path, fetch=None, brand: str | None = None) -> dic
                 stats["failed"] += 1
             changed = True
             continue
+        got_sha = hashlib.sha256(data).hexdigest()
+        if expected and used == check_url and got_sha != expected:
+            rec["download_status"] = "REQUIRES_REVIEW (original cambió)"
+            rec["restore_check"] = {"url": used, "expected_sha256": expected, "downloaded_sha256": got_sha}
+            stats["changed"] += 1
+            stats["changed_list"].append({"id": rec["id"], "url": used, "expected_sha256": expected,
+                                          "downloaded_sha256": got_sha})
+            changed = True
+            continue
+        verified = bool(expected and used == check_url)
         category = rec["category"] if rec.get("category") in IMAGE_CATEGORIES else "OTHER"
         edge = WEB_MAX_EDGE["hero" if rec.get("hero_rank") is not None or category == "HERO" else "default"]
         web, ww, wh = _web_copy(data, edge)
-        dest = model_dir / "05_MULTIMEDIA" / "IMAGENES" / category / f"{rec['id']}.webp"
+        fill = not rec.get("file") or not rec.get("sha256")
+        rel = rec["file"] if rec.get("file") else f"05_MULTIMEDIA/IMAGENES/{category}/{rec['id']}.webp"
+        dest = _check_inside(model_dir, rel, rec.get("id"))
         dest.parent.mkdir(parents=True, exist_ok=True)
         dest.write_bytes(web)
-        rec.update(file=str(dest.relative_to(model_dir)).replace("\\", "/"),
-                   sha256=hashlib.sha256(web).hexdigest(), format="webp", width=ww, height=wh,
-                   bytes=len(web), web_quality=WEB_QUALITY, downloaded_at=date.today().isoformat())
-        rec.pop("manual_download_url", None)
-        if not str(rec.get("download_status") or "").startswith("WEB_COPY"):
-            rec["download_status"] = "WEB_COPY"  # was PENDING / FAILED / requires_manual_download
+        web_sha = hashlib.sha256(web).hexdigest()
+        stats["identical_copy"] += web_sha == rec.get("sha256")
         stats["restored"] += 1
-        changed = True
+        stats["restored_verified" if verified else "restored_unverifiable"] += 1
+        if fill:  # the inventory had no copy registered: fill it in; otherwise the record stays exactly as it was
+            rec.update(file=rel.replace("\\", "/"), sha256=web_sha, format="webp", width=ww, height=wh,
+                       bytes=len(web), web_quality=WEB_QUALITY, downloaded_at=date.today().isoformat())
+            rec.pop("manual_download_url", None)
+            if not str(rec.get("download_status") or "").startswith("WEB_COPY"):
+                rec["download_status"] = "WEB_COPY"  # was PENDING / FAILED / requires_manual_download
+            changed = True
     if changed:
         with open(inv_path, "w", encoding="utf-8", newline="\n") as fh:
             fh.write(json.dumps(inv, ensure_ascii=False, indent=2) + "\n")
     return stats
 
 
-def restore_main(args: list[str], root: Path) -> int:
-    """`python -m oceanic media <modelo> --restore`: only images.json of the model may change."""
+def _resolve_restore_targets(arg: str, root: Path) -> list[Path]:
+    """A model folder, a model slug, or a brand folder (all its models)."""
+    root = Path(root)
+    for cand in (Path(arg), root / arg, root / "biblioteca" / arg):
+        if (cand / "05_MULTIMEDIA" / "IMAGENES" / "images.json").exists():
+            return [cand]
+        if cand.is_dir():
+            models = sorted(p.parent.parent.parent for p in cand.glob("*/05_MULTIMEDIA/IMAGENES/images.json"))
+            if models:
+                return models
+    hits = sorted((root / "biblioteca").glob(f"*/{arg}"))
+    return [h for h in hits if (h / "05_MULTIMEDIA" / "IMAGENES" / "images.json").exists()]
+
+
+def restore_report(all_stats: list[dict]) -> dict:
+    """Totals and per-brand counts of a restore run."""
+    keys = ("restored", "restored_verified", "restored_unverifiable", "changed", "ok_on_disk", "failed", "no_url",
+            "requires_manual_download", "skipped_solaris", "identical_copy")
+    total = {k: sum(s[k] for s in all_stats) for k in keys}
+    by_brand = {}
+    for s in all_stats:
+        b = by_brand.setdefault(s["brand"], {k: 0 for k in keys})
+        for k in keys:
+            b[k] += s[k]
+    return {"total": total, "by_brand": by_brand,
+            "changed": [{"model": f"{s['brand']}/{s['model']}", **c} for s in all_stats for c in s["changed_list"]],
+            "manual": [{"model": f"{s['brand']}/{s['model']}", **m} for s in all_stats for m in s["manual"]]}
+
+
+def restore_main(args: list[str], root: Path, fetch=None) -> int:
+    """`python -m oceanic media <modelo|marca> --restore [--report=<archivo.json>]`: only images.json may change."""
     pos = [a for a in args if not a.startswith("--")]
     if not pos:
-        print("uso: python -m oceanic media <modelo> --restore")
+        print("uso: python -m oceanic media <modelo|marca> --restore")
         return 1
-    model = Path(pos[0])
-    if not (model / "05_MULTIMEDIA").exists():
-        model = Path(root) / pos[0]
-    if not (model / "05_MULTIMEDIA").exists():
-        hits = sorted((Path(root) / "biblioteca").glob(f"*/{pos[0]}"))
-        model = hits[0] if hits else model
-    if not (model / "05_MULTIMEDIA" / "IMAGENES" / "images.json").exists():
-        print(f"no existe images.json en {model}")
+    targets = _resolve_restore_targets(pos[0], root)
+    if not targets:
+        print(f"no existe images.json para {pos[0]}")
         return 1
-    st = restore_images(model)
-    print(f"{model.name}: repuestas {st['restored']}, ok en disco {st['ok_on_disk']}, fallidas {st['failed']}, "
-          f"descarga manual {st['requires_manual_download']}, omitidas Solaris {st['skipped_solaris']}")
-    for m in st["manual"]:
-        print(f"  manual: {m['id']} -> {m['url']}")
-    if st["skipped_solaris"]:
+    all_stats = []
+    for model in targets:
+        try:
+            st = restore_images(model, fetch=fetch)
+        except ValueError as exc:  # ruta de copia fuera de la carpeta del modelo
+            print(f"ERROR {exc}")
+            return 1
+        all_stats.append(st)
+        if len(targets) == 1 or st["restored"] or st["changed"] or st["failed"] or st["no_url"] \
+                or st["requires_manual_download"]:
+            print(f"{st['brand']}/{st['model']}: repuestas {st['restored']} (verificadas {st['restored_verified']}, "
+                  f"no verificables {st['restored_unverifiable']}), cambiadas {st['changed']}, ok en disco "
+                  f"{st['ok_on_disk']}, fallidas {st['failed']}, sin URL {st['no_url']}, "
+                  f"descarga manual {st['requires_manual_download']}, omitidas Solaris {st['skipped_solaris']}")
+    rep = restore_report(all_stats)
+    t = rep["total"]
+    print(f"TOTAL ({len(targets)} modelos): restauradas y verificadas {t['restored_verified']} · cambiadas "
+          f"(REQUIRES_REVIEW) {t['changed']} · no verificables {t['restored_unverifiable']} · sin URL {t['no_url']} · "
+          f"fallidas {t['failed']} · descarga manual {t['requires_manual_download']} · ya en disco {t['ok_on_disk']}")
+    for brand, b in sorted(rep["by_brand"].items()):
+        if b["restored_unverifiable"]:
+            print(f"  no verificables en {brand}: {b['restored_unverifiable']}")
+    for c in rep["changed"]:
+        print(f"  CAMBIÓ el original ({c['model']}): {c['id']} {c['url']}")
+    for m in rep["manual"]:
+        print(f"  manual: {m['model']} {m['id']} -> {m['url']}")
+    if t["skipped_solaris"]:
         print("  Solaris: usar `media <modelo> --from-dir=<carpeta>`")
-    return 1 if st["failed"] else 0
+    out = next((a.split("=", 1)[1] for a in args if a.startswith("--report=")), None)
+    if out:
+        Path(out).write_text(json.dumps(rep, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n")
+    return 1 if t["failed"] else 0

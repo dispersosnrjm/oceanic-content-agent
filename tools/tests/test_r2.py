@@ -10,6 +10,10 @@ from unittest import mock
 
 from PIL import Image
 
+try:
+    from tests import _netguard  # noqa: F401  (bloquea la red en las pruebas)
+except ImportError:  # unittest discover -s tests
+    import _netguard  # noqa: F401
 from oceanic import mediarules, r2
 
 SECRETS = {"R2_ACCOUNT_ID": "acct123secret", "R2_ACCESS_KEY_ID": "AKIAKEYSECRET99",
@@ -300,9 +304,10 @@ class NoDeleteTests(R2Base):
         src = Path(r2.__file__).read_text(encoding="utf-8").lower()
         self.assertNotIn("delete", src)
 
-    def test_client_has_only_head_and_put(self):
+    def test_client_has_only_head_get_and_put(self):
+        # get_object es de solo lectura (catalog/latest.json antes de sobrescribirlo); no hay ningun metodo de borrado
         public = {n for n in dir(r2.R2Client) if not n.startswith("_")}
-        self.assertEqual(public, {"head_object", "put_object"})
+        self.assertEqual(public, {"head_object", "get_object", "put_object"})
 
     def test_publish_never_calls_delete(self):
         md = self.lib.model("marca", "uno", [{"id": "a", "seed": 1}])
@@ -380,6 +385,17 @@ class CliTests(R2Base):
         out = io.StringIO()
         with contextlib.redirect_stdout(out):
             self.assertEqual(r2.main_cli(["nada"], self.lib.root), 2)
+
+    def test_requires_review_images_are_never_published(self):
+        md = self.lib.model("marca", "uno", [
+            {"id": "ok", "seed": 1},
+            {"id": "cambio", "seed": 2, "status": "REQUIRES_REVIEW (original cambió)"}])  # hay un archivo viejo en disco
+        rep = r2.publish([md])
+        m = rep["models"][0]
+        self.assertEqual(m["eligible"], 1)
+        self.assertEqual(m["skipped"], {"REQUIRES_REVIEW": 1})
+        self.assertEqual(len(m["keys"]), 1)
+        self.assertIn("/ok-", m["keys"][0])
 
     def test_windows_separator_in_keys(self):
         md = self.lib.model("marca", "uno", [{"id": "a", "seed": 1, "category": "PLANS"}])

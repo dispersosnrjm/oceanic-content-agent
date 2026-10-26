@@ -50,8 +50,10 @@ Sustituye `<marca>` por el nombre de la carpeta en `biblioteca\` (`oceanic-power
 ```powershell
 $m = '<marca>'
 
-# 1. Reponer las copias web que falten (puede tardar; si se corta, repítelo: solo repone lo que falta)
-Get-ChildItem ..\biblioteca\$m -Directory | ForEach-Object { python -m oceanic media $_.FullName --restore }
+# 1. Reponer las copias web que falten (puede tardar; si se corta, repítelo: solo repone lo que falta).
+#    Acepta una marca entera o un modelo. El informe JSON va FUERA del repositorio (la carpeta temporal de tu usuario):
+#    dist\ no está ignorada por git para este tipo de archivo, así que no lo guardes ahí
+python -m oceanic media $m --restore --report="$env:TEMP\oceanic-restore-$m.json"
 
 # 2. Simulación: revisa el informe (elegibles, por subir, omitidas con su motivo)
 python -m oceanic publish-r2 $m
@@ -66,10 +68,25 @@ python -m oceanic publish-r2 $m --verify-remote
 cd ..; git status --short; cd tools
 ```
 
+### Cómo verifica `--restore` lo que descarga
+
+Cada descarga se compara con el hash registrado de lo que se bajó (nunca con el del WebP, que depende del codificador):
+
+| Resultado | Qué significa | Qué hace con `images.json` |
+| --- | --- | --- |
+| **verificada** | El archivo oficial es el mismo que revisó Nico (`original.sha256`; en las copias de la CDN de Axopar, `original.source_copy_sha256`) | **No cambia nada** (ni `downloaded_at`): git diff vacío. Escribe la copia en disco |
+| **cambiada** | El archivo oficial ya no es el mismo | **No escribe la copia** ni toca sus campos. Marca `REQUIRES_REVIEW (original cambió)` y guarda `restore_check` (URL, hash esperado y hash descargado). No se publica ni se vuelve a descargar hasta que una persona decida. Se lista en el informe |
+| **no verificable** | No hay hash registrado con el que comparar | Escribe la copia; el registro no cambia. Se cuenta por marca en el informe y no bloquea |
+| **sin URL** | El registro no tiene ninguna URL oficial | Marca `FAILED (sin URL oficial)` y se cuenta aparte |
+
+El resumen final da: restauradas y verificadas, cambiadas (REQUIRES_REVIEW), no verificables (por marca), sin URL, fallidas y
+descargas manuales. Una imagen `REQUIRES_REVIEW` no se sube con `publish-r2` ni sale en el export. Los hashes del WebP regenerado
+pueden diferir de los registrados (versión de Pillow): `publish-r2` sube con el hash real del archivo y lo avisa.
+
 Qué debe aparecer en `git status` tras el ciclo (y solo esto):
 
-- `biblioteca\<marca>\<modelo>\05_MULTIMEDIA\IMAGENES\images.json` modificado: solo los campos de la copia (`sha256`, `bytes`,
-  `width`, `height`, `downloaded_at`) de lo que se repuso. `original` no cambia.
+- Con descargas **verificadas**, `images.json` no cambia. Se modifica solo si hubo imágenes **cambiadas** (`REQUIRES_REVIEW`),
+  **fallidas**, con **captcha** (`requires_manual_download`) o registros que no tenían copia inventariada. `original` nunca cambia.
 - `biblioteca\<marca>\<modelo>\05_MULTIMEDIA\IMAGENES\r2.json` nuevo (clave, sha256, fecha; sin cuenta ni bucket).
 - Para el paquete curated de Axopar, su registro va en `biblioteca\axopar\_r2\axopar-37-xc-cross-cabin.json` y el paquete
   no se toca.
@@ -150,6 +167,20 @@ python -m oceanic publish-export --out=..\dist\portal --verify-images
 # Subir el catálogo: catalog/{schema_version}/{catalog_hash}/... y, al final, catalog/latest.json
 python -m oceanic publish-export --out=..\dist\portal --apply
 ```
+
+### Historial del puntero y rollback
+
+Antes de sobrescribir `catalog/latest.json`, `publish-export --apply` lo **lee** y, si existe, guarda una copia inmutable en
+`catalog/history/<fecha UTC>-<hash>.json` (el hash es el del catálogo al que apuntaba). Si esa copia falla, **no sobrescribe**
+el puntero. Para volver a un catálogo ya publicado (necesita las variables `R2_*`, también en simulación, porque lee R2):
+
+```powershell
+python -m oceanic publish-export --rollback=<hash>             # simulación: verifica que catalog/<schema_version>/<hash>/index.json existe
+python -m oceanic publish-export --rollback=<hash> --apply     # archiva el puntero actual y apunta latest.json a ese catálogo
+```
+
+Verifica que el `index.json` de ese catálogo exista y sea coherente (hash, `schema_version`, `preview: false`). Nunca borra:
+los catálogos y las copias del historial se conservan.
 
 `publish-export` se niega a subir un export con `preview: true` (el que se genera con `--preview-keys`) o con hashes o
 archivos inconsistentes. `catalog/latest.json` es la única clave que se sobrescribe y solo se escribe al final, si todo lo

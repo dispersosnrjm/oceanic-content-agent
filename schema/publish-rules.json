@@ -1,0 +1,60 @@
+{
+  "_doc": "Niveles de publicación. El motor solo INFORMA el nivel (publish_tier) en el export; no publica. Las reglas las aprueban personas: este archivo no se amplía sin aprobación. Modo sombra y reversión viven en el portal.",
+  "schema_version": "1.0.0",
+  "status": "pending_approval",
+  "approved_by": null,
+  "approved_at": null,
+  "tiers": {
+    "auto": {
+      "description": "Se puede publicar sin revisión editorial.",
+      "rules": [
+        {
+          "id": "image-same-model",
+          "applies_to": "image",
+          "description": "Imagen nueva o reemplazada del mismo modelo que pasa schema/media-rules.json."
+        },
+        {
+          "id": "spec-source-change",
+          "applies_to": "spec",
+          "description": "Dato de ficha técnica que cambió en la fuente oficial; se conserva el valor anterior (previous_value).",
+          "requires": "comparación contra el catálogo anterior (después del lanzamiento)"
+        }
+      ]
+    },
+    "review": {
+      "description": "Requiere revisión de una persona antes de publicar.",
+      "rules": [
+        { "id": "editorial-text", "applies_to": "text", "description": "Texto editorial nuevo o modificado (se informa también lint_ok)." },
+        { "id": "new-model", "applies_to": "model", "description": "Modelo nuevo." },
+        { "id": "hero-image", "applies_to": "hero", "description": "Portada (imagen hero)." },
+        { "id": "headline", "applies_to": "headline", "description": "Titular." }
+      ]
+    },
+    "blocked": {
+      "description": "No se publica.",
+      "rules": [
+        {
+          "id": "brand-not-authorized",
+          "applies_to": "brand",
+          "description": "Marca sin autorización registrada. El motor exporta brand_authorization: \"unknown\"; el portal aplica blocked hasta que el administrador la registre."
+        }
+      ]
+    }
+  },
+  "alerts": [
+    {
+      "id": "video-unverified",
+      "applies_to": "video",
+      "description": "Video sin la marca third_party en el inventario: se publica con alerta visible; el administrador puede marcarlo verificado o retirarlo.",
+      "publishes": true,
+      "tier": "auto",
+      "alert_code": "VIDEO_UNVERIFIED",
+      "note": "El nivel de un video sin verificar es auto con la alerta VIDEO_UNVERIFIED: se publica con alerta visible, sin revisión previa."
+    }
+  ],
+  "change_kind": {
+    "values": ["new", "changed", "unchanged"],
+    "current_mode": "static",
+    "note": "Hasta que exista la comparación contra una línea base, todo cambio se informa como \"new\" y el nivel sale solo de las reglas estáticas."
+  }
+}

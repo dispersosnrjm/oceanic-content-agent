@@ -49,11 +49,22 @@ def main(argv: list[str]) -> int:
         return 1 if errors else 0
     if cmd == "media":
         model = Path(args[0])
+        if "--restore" in args:
+            return media.restore_main(args, ROOT)
         local = next((a.split("=", 1)[1] for a in args if a.startswith("--from-dir=")), None)
         print("imágenes:", media.download_images(model, f"dir:{local}" if local else "cdn" if "--cdn" in args else "original"))
         print("documentos:", media.download_documents(model))
         readiness.write(model)
         return 0
+    if cmd == "publish-r2":
+        from . import r2
+        return r2.main_cli(args, ROOT)
+    if cmd == "publish-export":
+        from . import catalog
+        return catalog.main_cli(args, ROOT)
+    if cmd == "export-portal":
+        from . import exporter
+        return exporter.main_cli(args, ROOT)
     if cmd == "optimize":
         for model in sorted(p.parent.parent for p in Path(args[0]).rglob("00_MODELO/00_MODELO.md")):
             st = media.optimize_images(model)

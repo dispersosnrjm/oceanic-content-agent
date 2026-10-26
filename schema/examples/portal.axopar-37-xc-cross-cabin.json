@@ -1,0 +1,2630 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-10-19T12:00:00Z",
+  "identity": {
+    "brand": {
+      "slug": "axopar",
+      "name": "Axopar"
+    },
+    "model": "Axopar 37 XC Cross Cabin",
+    "slug": "axopar-37-xc-cross-cabin",
+    "boat_type": "motor",
+    "model_year": "2027",
+    "range": "Axopar 37",
+    "variant": "XC Cross Cabin",
+    "content_hash": "4596ae3b24f97d4e3a076402a0707f99e2a822e3403413cf0b25d4da4877f174",
+    "source_url": "https://www.axopar.com/boat-models/axopar-37/axopar-37-xc-cross-cabin/"
+  },
+  "texts": {
+    "es": {
+      "introduccion": {
+        "text": "**Descripción**\n\nEl 37 XC Cross Cabin es la versión cerrada del Axopar 37. Conserva lo que hizo conocido al 37: cubierta walk-around, motores fueraborda y casco de doble step. Y le agrega una timonera completamente cerrada, con puertas correderas a ambos lados y un techo de lona que se abre.\n\n**Concepto**\n\nUn barco abierto y un barco con cabina en el mismo casco. Con buen tiempo se abren el techo y las puertas. Cuando cambia el clima se cierra todo y se sigue navegando.\n\n**Posicionamiento**\n\nLa gama 37 es la más conocida de Axopar: más de 3.000 unidades vendidas y, según el fabricante, la fueraborda más vendida de su segmento en Estados Unidos en 2024 y 2025. El XC es la versión de la gama pensada para navegar todo el año.\n\n**Características diferenciales** (todas con respaldo en S1)\n\n- Timonera totalmente cerrada con puertas correderas extra anchas y con llave, a ambos lados.\n- Techo de lona corredizo de gran tamaño (eléctrico como opción).\n- Casco de doble step con proa \"sharp entry\" en V de 22°.\n- Cabina de proa con cama queen y WC eléctrico integrado; cabina de popa opcional para dos personas más.\n- Popa modular: abierta, banca, wet bar, multi-guardado, sofá en U o cabina.\n\n**Contexto de uso** (según la web oficial)\n\nCategoría CE B (Offshore) con hasta 10 personas y C (Coastal) con hasta 12. Axopar lo describe como un barco para travesías largas y seguras, con comodidad aunque el clima cambie, y con capacidad para pernoctar.",
+        "draft_marker_removed": true,
+        "internal_notes_removed": 0
+      },
+      "diseno": {
+        "text": "**Diseño exterior**\n\nParabrisas y ventanas laterales en vidrio templado, techo de GRP blanco con una gran lona corrediza y la firma \"37\" iluminada. El perfil es inconfundiblemente Axopar: proa alta y afilada, y una cabina que se integra al casco en lugar de montarse sobre él.\n\n**Diseño interior**\n\nLa cabina de proa se renovó con materiales y colores más claros. Arriba, la timonera funciona como sala: sofá en L, mesa plegable de wengué y cuatro portavasos bajo la ventana trasera.\n\n**Arquitectura y distribución**\n\nCubierta walk-around: se circula alrededor de la cabina sin atravesarla. La popa es modular y se elige de fábrica: abierta (estándar), banca con guardado, wet bar, multi-guardado, sofá en U o cabina para dos.\n\n**Ergonomía**\n\nUn puesto de mando despejado, con el piso rebajado, reposapiés de acero inoxidable y asientos giratorios y regulables. Axopar lo compara con manejar un auto: todo a mano y buena visibilidad en todas direcciones.\n\n**Materiales**\n\nWengué en mesa y umbrales, tela Silvertex en la tapicería, soft touch en el tablero, volante de cuero y herrajes de acero inoxidable 316.",
+        "draft_marker_removed": true,
+        "internal_notes_removed": 0
+      },
+      "performance": {
+        "text": "**Velocidad**\n\nEntre 38 y 56 nudos de velocidad máxima, según la motorización (el fabricante no indica qué motor corresponde a cada extremo).\n\n**Crucero y consumo**\n\n2,3 litros por milla náutica a 28 nudos con dos Mercury de 300 hp. Frente al modelo anterior, Axopar declara hasta 30 % menos consumo entre 20 y 40 nudos.\n\n**Autonomía**\n\nAxopar no publica una autonomía absoluta; declara unas 75 millas náuticas más que el modelo anterior.\n\n**Motorización**\n\nDos fueraborda Mercury Verado: V8 de 300 hp, V10 de 350 hp o V10 de 400 hp.\n\n**Comportamiento**\n\nRespuesta rápida y manejo deportivo. Según Axopar, es simple de maniobrar incluso con una sola persona, gracias a la visibilidad desde la timonera y al casco.",
+        "draft_marker_removed": true,
+        "internal_notes_removed": 2
+      },
+      "ingenieria": {
+        "text": "**Casco**\n\nCasco de doble step en V de 22° con proa \"sharp entry\". Axopar diseña cada barco empezando por el casco, bajo la línea de flotación, y aplica el mismo principio desde el primer Axopar 28, en 2014. Su animación técnica explica el efecto de los steps: menos superficie mojada.\n\n**Construcción**\n\nCasco de GRP laminado a mano, con una primera capa de resina viniléster contra la osmosis. El soporte de los fueraborda va integrado al casco. El estanque de combustible es de aluminio y tiene protección contra rebalse.\n\n**Tecnología**\n\nLa app Axopar Connect da acceso remoto a los sistemas del barco y envía alertas de seguridad en tiempo real. En las pantallas Simrad controla navegación, diagnóstico y entretenimiento. La consola admite pantallas táctiles Glass Bridge opcionales.\n\n**Sistemas y soluciones técnicas**\n\nCubierta y cockpit autovaciantes, dos bombas de sentina eléctricas automáticas y una manual en popa, flaps con joystick y el casco preparado para instalar una hélice de proa.\n\n**Estructura y certificación**\n\nCertificación CE categoría B (Offshore) con hasta 10 personas y categoría C (Coastal) con hasta 12.",
+        "draft_marker_removed": true,
+        "internal_notes_removed": 0
+      },
+      "experiencia_a_bordo": {
+        "text": "**Timonera**\n\nEs el centro del barco. Tiene puertas correderas anchas a ambos lados, sofá en L con mesa y un techo de lona que se abre. Con buen tiempo queda abierta al aire; si el tiempo cambia, se cierra entera.\n\n**Dormir a bordo**\n\nEn proa hay una cama queen con sofá en L y WC eléctrico integrado. Con la cabina de popa opcional, que se abre levantando la parte central del sofá, duermen dos personas más.\n\n**Cockpit y popa**\n\nLa popa se elige de fábrica según el uso: abierta para cargar equipo, sofá en U que pasa de comedor a solárium, wet bar para cocinar afuera, o cabina para sumar camas.\n\n**Proa**\n\nProa amplia con sofá y respaldo, y un pozo de ancla grande para ancla, defensas y cabos. Como opción se puede agregar un solárium fijo con guardado bajo llave.\n\n**Circulación**\n\nCubierta walk-around con barandas y escalones de abordaje a ambos lados del puesto de mando: se pasa de proa a popa sin entrar a la cabina.",
+        "draft_marker_removed": true,
+        "internal_notes_removed": 0
+      }
+    }
+  },
+  "candidates": {
+    "headlines": {
+      "es": [
+        "Abierto cuando se puede. Cerrado cuando hace falta.",
+        "Un walkaround con cabina cerrada.",
+        "El Gran Turismo de Axopar, con techo que se abre."
+      ]
+    },
+    "short_descriptions": {
+      "es": [
+        "La maniobrabilidad y la circulación de un walkaround fueraborda, con una timonera completamente cerrada. Techo de lona corredizo, puertas laterales anchas y casco de doble step para salir con cualquier clima."
+      ]
+    },
+    "hero_images": [
+      {
+        "image_id": "axopar-37-xc-cross-cabin-099a1865",
+        "hero_rank": 1,
+        "reason": "Exterior MY2026 del 37 XC (tags out, my26), el más reciente del DAM; ya usado a ancho completo en la web oficial; 8004x5339.",
+        "available": true,
+        "key": "axopar/axopar-37-xc-cross-cabin/exterior/axopar-37-xc-cross-cabin-099a1865-d5b23ee3.webp"
+      },
+      {
+        "image_id": "axopar-37-xc-cross-cabin-099a8696",
+        "hero_rank": 2,
+        "reason": "Exterior MY2025 (tags out, my25), 8192x5464, sin gráficas de paquete en el título.",
+        "available": true,
+        "key": "axopar/axopar-37-xc-cross-cabin/exterior/axopar-37-xc-cross-cabin-099a8696-1d0817a6.webp"
+      },
+      {
+        "image_id": "axopar-37-xc-cross-cabin-my2024-2",
+        "hero_rank": 3,
+        "reason": "Navegando (tags out, my24, prio2), transmite performance; 4414x2943.",
+        "available": true,
+        "key": "axopar/axopar-37-xc-cross-cabin/underway/axopar-37-xc-cross-cabin-my2024-2-0017cad0.webp"
+      },
+      {
+        "image_id": "axopar-37-xc-bltp-dji-0254-axedit",
+        "hero_rank": 4,
+        "reason": "Aérea con dron del 37 XC; muestra el concepto completo del casco y la cabina.",
+        "available": true,
+        "key": "axopar/axopar-37-xc-cross-cabin/exterior/axopar-37-xc-bltp-dji-0254-axedit-85214ce8.webp"
+      },
+      {
+        "image_id": "axopar-37-xc-cross-cabin-brabus-performance-line-kbp00230",
+        "hero_rank": 5,
+        "reason": "Exterior MY2025 de gran impacto, pero muestra el paquete BRABUS Performance Line (gráficas), no el barco base.",
+        "available": true,
+        "key": "axopar/axopar-37-xc-cross-cabin/exterior/axopar-37-xc-cross-cabin-brabus-performance-line-kbp00230-33c3f9cb.webp"
+      }
+    ]
+  },
+  "specs": [
+    {
+      "key": "eslora_total",
+      "label": {
+        "es": "Eslora Total"
+      },
+      "display_value": "11,50 m",
+      "unit": "m",
+      "model_year": "2027",
+      "source": {
+        "id": "S1",
+        "url": "https://www.axopar.com/boat-models/axopar-37/axopar-37-xc-cross-cabin/",
+        "accessed_at": "2026-09-23"
+      }
+    },
+    {
+      "key": "manga_casco",
+      "label": {
+        "es": "Manga Casco"
+      },
+      "display_value": "3,35 m",
+      "unit": "m",
+      "model_year": "2027",
+      "source": {
+        "id": "S1",
+        "url": "https://www.axopar.com/boat-models/axopar-37/axopar-37-xc-cross-cabin/",
+        "accessed_at": "2026-09-23"
+      }
+    },
+    {
+      "key": "calado",
+      "label": {
+        "es": "Calado"
+      },
+      "display_value": "0,85 m",
+      "unit": "m",
+      "model_year": "2027",
+      "source": {
+        "id": "S1",
+        "url": "https://www.axopar.com/boat-models/axopar-37/axopar-37-xc-cross-cabin/",
+        "accessed_at": "2026-09-23"
+      }
+    },
+    {
+      "key": "desplazamiento",
+      "label": {
+        "es": "Desplazamiento en rosca"
+      },
+      "display_value": "3.770 kg",
+      "unit": "kg",
+      "model_year": "2027",
+      "source": {
+        "id": "S1",
+        "url": "https://www.axopar.com/boat-models/axopar-37/axopar-37-xc-cross-cabin/",
+        "accessed_at": "2026-09-23"
+      }
+    },
+    {
+      "key": "literas",
+      "label": {
+        "es": "Literas"
+      },
+      "display_value": "2 (2 + 2 con cabina de popa opcional)",
+      "unit": null,
+      "model_year": "2027",
+      "source": {
+        "id": "S1",
+        "url": "https://www.axopar.com/boat-models/axopar-37/axopar-37-xc-cross-cabin/",
+        "accessed_at": "2026-09-23"
+      }
+    },
+    {
+      "key": "camarotes",
+      "label": {
+        "es": "Camarotes"
+      },
+      "display_value": "1 (+1 opcional)",
+      "unit": null,
+      "model_year": "2027",
+      "source": {
+        "id": "S1",
+        "url": "https://www.axopar.com/boat-models/axopar-37/axopar-37-xc-cross-cabin/",
+        "accessed_at": "2026-09-23"
+      }
+    },
+    {
+      "key": "banos",
+      "label": {
+        "es": "Baños"
+      },
+      "display_value": "1",
+      "unit": null,
+      "model_year": "2027",
+      "source": {
+        "id": "S1",
+        "url": "https://www.axopar.com/boat-models/axopar-37/axopar-37-xc-cross-cabin/",
+        "accessed_at": "2026-09-23"
+      }
+    },
+    {
+      "key": "certificacion",
+      "label": {
+        "es": "Certificación"
+      },
+      "display_value": "B10 / C12",
+      "unit": "personas",
+      "model_year": "2027",
+      "source": {
+        "id": "S1",
+        "url": "https://www.axopar.com/boat-models/axopar-37/axopar-37-xc-cross-cabin/",
+        "accessed_at": "2026-09-23"
+      }
+    },
+    {
+      "key": "construccion",
+      "label": {
+        "es": "Construcción"
+      },
+      "display_value": "GRP (poliéster reforzado con fibra de vidrio)",
+      "unit": null,
+      "model_year": "2027",
+      "source": {
+        "id": "S1",
+        "url": "https://www.axopar.com/boat-models/axopar-37/axopar-37-xc-cross-cabin/",
+        "accessed_at": "2026-09-23"
+      }
+    },
+    {
+      "key": "diseno_casco",
+      "label": {
+        "es": "Diseño de casco"
+      },
+      "display_value": "Doble step, V de 22°, proa “Sharp entry”",
+      "unit": null,
+      "model_year": "2027",
+      "source": {
+        "id": "S1",
+        "url": "https://www.axopar.com/boat-models/axopar-37/axopar-37-xc-cross-cabin/",
+        "accessed_at": "2026-09-23"
+      }
+    },
+    {
+      "key": "capacidad_combustible",
+      "label": {
+        "es": "Capacidad Combustible"
+      },
+      "display_value": "722 l",
+      "unit": "l",
+      "model_year": "2027",
+      "source": {
+        "id": "S1",
+        "url": "https://www.axopar.com/boat-models/axopar-37/axopar-37-xc-cross-cabin/",
+        "accessed_at": "2026-09-23"
+      }
+    },
+    {
+      "key": "capacidad_agua_dulce",
+      "label": {
+        "es": "Capacidad Agua Dulce"
+      },
+      "display_value": "100 l",
+      "unit": "l",
+      "model_year": "2027",
+      "source": {
+        "id": "S1",
+        "url": "https://www.axopar.com/boat-models/axopar-37/axopar-37-xc-cross-cabin/",
+        "accessed_at": "2026-09-23"
+      }
+    },
+    {
+      "key": "capacidad_aguas_negras",
+      "label": {
+        "es": "Tanque de aguas negras"
+      },
+      "display_value": "70 l",
+      "unit": "l",
+      "model_year": "2027",
+      "source": {
+        "id": "S1",
+        "url": "https://www.axopar.com/boat-models/axopar-37/axopar-37-xc-cross-cabin/",
+        "accessed_at": "2026-09-23"
+      }
+    },
+    {
+      "key": "motorizacion",
+      "label": {
+        "es": "Motorización"
+      },
+      "display_value": "Fueraborda, 2 x 300 – 2 x 400 hp",
+      "unit": "hp",
+      "model_year": "2027",
+      "source": {
+        "id": "S1",
+        "url": "https://www.axopar.com/boat-models/axopar-37/axopar-37-xc-cross-cabin/",
+        "accessed_at": "2026-09-23"
+      }
+    },
+    {
+      "key": "potencia_motor_maxima",
+      "label": {
+        "es": "Potencia motor máx"
+      },
+      "display_value": "2 x 400 hp",
+      "unit": "hp",
+      "model_year": "2027",
+      "source": {
+        "id": "S1",
+        "url": "https://www.axopar.com/boat-models/axopar-37/axopar-37-xc-cross-cabin/",
+        "accessed_at": "2026-09-23"
+      }
+    },
+    {
+      "key": "velocidad_maxima",
+      "label": {
+        "es": "Velocidad máxima"
+      },
+      "display_value": "38 – 56 nudos",
+      "unit": "nudos",
+      "model_year": "2027",
+      "source": {
+        "id": "S1",
+        "url": "https://www.axopar.com/boat-models/axopar-37/axopar-37-xc-cross-cabin/",
+        "accessed_at": "2026-09-23"
+      }
+    },
+    {
+      "key": "consumo_crucero",
+      "label": {
+        "es": "Consumo crucero"
+      },
+      "display_value": "2,3 l/mn",
+      "unit": "l/mn",
+      "model_year": "2027",
+      "source": {
+        "id": "S1",
+        "url": "https://www.axopar.com/boat-models/axopar-37/axopar-37-xc-cross-cabin/",
+        "accessed_at": "2026-09-23"
+      }
+    }
+  ],
+  "features": {
+    "origin": "manufacturer_literal",
+    "lang": "en",
+    "source_url": "https://www.axopar.com/boat-models/axopar-37/axopar-37-xc-cross-cabin/",
+    "items": [
+      {
+        "label": "For Sociable Moments",
+        "text": "A light, airy and comfortable pilothouse with easy access thanks to wide sliding doors on both sides. A perfect place to socialize and entertain guests is by the L-shaped sofa and table in the rear."
+      },
+      {
+        "label": "Built-in Electric Toilet",
+        "text": "The built-in electric flush toilet with an 70l septic tank is easily accessible under the L-sofa in front cabin."
+      },
+      {
+        "label": "Multipurpose Pilothouse",
+        "text": "Open up the large sliding canvas roof for sunshine and fresh air, or when the weather throws a surprise close it up for full-weather protection. The large sliding canvas roof really combines the best of open and enclosed boating."
+      },
+      {
+        "label": "Panorama View",
+        "text": "Large windscreen and side windows provide excellent all-around visibility and give full panoramic views when enjoying memorable moments inside the cosy cabin."
+      },
+      {
+        "label": "Spacious Fore Deck",
+        "text": "The spacious foredeck is perfect for an early-morning coffee in the sun and a great place to sit back and enjoy sunny days. A large anchor box in the bow will hold the anchor, fenders, and ropes easily, as well as other equipment you need for your journey."
+      },
+      {
+        "label": "Additional Overnight Possibilities",
+        "text": "By sliding the mid-section of the sofa upwards, you can easily access the spacious optional aft cabin that comfortably sleeps two persons."
+      },
+      {
+        "label": "U-Sofa",
+        "text": "Every foot on board is used for socializing and practical living, infused with a myriad range of new onboard solutions and functions. The optional U-Sofa on the aft deck can be used as a dining space and converted into a sunbed. With storage underneath, of course."
+      },
+      {
+        "label": "Fixed Sunbed on Foredeck",
+        "text": "Wide sun bed mattress and backrest in Silvertex fabric with diamond pattern stitching for foredeck. Openable and lockable storage box under sunbed in GRP. Including a harbor cover for a sun bed."
+      },
+      {
+        "label": "Gullwing Doors",
+        "text": "The Gullwing Doors redefines how an enclosed front cabin can be best utilised to provide a more sociable feeling and full interaction with one's surroundings, making the front cabin feel like it's part of the outdoors."
+      },
+      {
+        "label": "Driver experience",
+        "text": "A clean and uncluttered helm station creates a driving sensation similar to the feel and simplicity of driving a car. Steering console can be equipped with an optional Glass Bridge/Information Display touch screens."
+      },
+      {
+        "label": "Axopar Connect",
+        "text": "Our Axopar Connect app brings smarter, more personal boating to life. With remote access to your boat's systems, real-time safety alerts, and customizable settings, the app transforms how you interact with your vessel. The intuitive user interface, on Simrad's multifunction displays, offers seamless control over navigation, diagnostics, and entertainment."
+      },
+      {
+        "label": "Mejora declarada frente al predecesor",
+        "text": "Up to 30% better fuel-economy across the 20 to 40 knot speed range, compared to the predecessor. Resulting in an extended cruising range, on average with 35% or +75 additional nautical miles. Up to +35% increase in 'comfortable' and most efficient cruising speed at steady 3500rpm, up from 22knots to 29 knots"
+      }
+    ]
+  },
+  "equipment": {
+    "standard": {
+      "origin": "manufacturer_literal",
+      "lang": "en",
+      "source_url": "https://www.axopar.com/boat-models/axopar-37/axopar-37-xc-cross-cabin/",
+      "items": [
+        {
+          "label": "Timonera / puesto de mando / Wheelhouse / Cockpit",
+          "text": "Clean helm layout"
+        },
+        {
+          "label": "Timonera / puesto de mando / Wheelhouse / Cockpit",
+          "text": "Dashboard & console top panels in dark grey soft touch finish"
+        },
+        {
+          "label": "Timonera / puesto de mando / Wheelhouse / Cockpit",
+          "text": "Center console panels in black high-gloss finish"
+        },
+        {
+          "label": "Timonera / puesto de mando / Wheelhouse / Cockpit",
+          "text": "Control switch panel in glass with illuminated push buttons"
+        },
+        {
+          "label": "Timonera / puesto de mando / Wheelhouse / Cockpit",
+          "text": "Main control panel with remote controlled battery switches"
+        },
+        {
+          "label": "Timonera / puesto de mando / Wheelhouse / Cockpit",
+          "text": "Steering wheel in leather with Axopar logo"
+        },
+        {
+          "label": "Timonera / puesto de mando / Wheelhouse / Cockpit",
+          "text": "Lockable access hatch to front cabin with grab rail in leather"
+        },
+        {
+          "label": "Timonera / puesto de mando / Wheelhouse / Cockpit",
+          "text": "Sliding door to front cabin in dark grey soft touch finish"
+        },
+        {
+          "label": "Timonera / puesto de mando / Wheelhouse / Cockpit",
+          "text": "Cup holder on dashboard"
+        },
+        {
+          "label": "Timonera / puesto de mando / Wheelhouse / Cockpit",
+          "text": "Splash proof USB outlet in console wall"
+        },
+        {
+          "label": "Timonera / puesto de mando / Wheelhouse / Cockpit",
+          "text": "Document pocket on console wall"
+        },
+        {
+          "label": "Timonera / puesto de mando / Wheelhouse / Cockpit",
+          "text": "Footrest in stainless steel & support with Axopar logo"
+        },
+        {
+          "label": "Timonera / puesto de mando / Wheelhouse / Cockpit",
+          "text": "Lowered floor level at helm section"
+        },
+        {
+          "label": "Timonera / puesto de mando / Wheelhouse / Cockpit",
+          "text": "2 x LED deck lights in helm floor"
+        },
+        {
+          "label": "Timonera / puesto de mando / Wheelhouse / Cockpit",
+          "text": "Front seats, rotating & length adjustable with flip-up bolster"
+        },
+        {
+          "label": "Timonera / puesto de mando / Wheelhouse / Cockpit",
+          "text": "Large L-shaped lounge sofa with cushions"
+        },
+        {
+          "label": "Timonera / puesto de mando / Wheelhouse / Cockpit",
+          "text": "Foldable and adjustable cockpit table in wenge"
+        },
+        {
+          "label": "Timonera / puesto de mando / Wheelhouse / Cockpit",
+          "text": "Cupholders under rear window x 4"
+        },
+        {
+          "label": "Timonera / puesto de mando / Wheelhouse / Cockpit",
+          "text": "Raised floor level around L-sofa and entry-way thresholds in wenge"
+        },
+        {
+          "label": "Timonera / puesto de mando / Wheelhouse / Cockpit",
+          "text": "Large storage under centre seat / aft sofa"
+        },
+        {
+          "label": "Timonera / puesto de mando / Wheelhouse / Cockpit",
+          "text": "Storage under L-sofa couch on port side"
+        },
+        {
+          "label": "Timonera / puesto de mando / Wheelhouse / Cockpit",
+          "text": "Storage locker under raised floor"
+        },
+        {
+          "label": "Timonera / puesto de mando / Wheelhouse / Cockpit",
+          "text": "Small storage pocket on Port side side with cupholders"
+        },
+        {
+          "label": "Timonera / puesto de mando / Wheelhouse / Cockpit",
+          "text": "Storage pockets with fabric lining on sliding doors"
+        },
+        {
+          "label": "Timonera / puesto de mando / Wheelhouse / Cockpit",
+          "text": "2 x roof grab rails"
+        },
+        {
+          "label": "Timonera / puesto de mando / Wheelhouse / Cockpit",
+          "text": "4 x recessed LED roof lights"
+        },
+        {
+          "label": "Timonera / puesto de mando / Wheelhouse / Cockpit",
+          "text": "2 x LED deck lights in pilothouse floor"
+        },
+        {
+          "label": "Timonera / puesto de mando / Wheelhouse / Cockpit",
+          "text": "Fire & CO2 alarms"
+        },
+        {
+          "label": "Timonera / puesto de mando / Wheelhouse / Cockpit",
+          "text": "Silvertex fabric on all seats and upholstery"
+        },
+        {
+          "label": "Timonera / puesto de mando / Wheelhouse / Cockpit",
+          "text": "Curved roof panels in Vintage Steel fabric"
+        },
+        {
+          "label": "Timonera / puesto de mando / Wheelhouse / Cockpit",
+          "text": "Carpet in black"
+        },
+        {
+          "label": "General / General",
+          "text": "Hand laminated hull in Vinylester resin for the first coat for osmosis preventation of the hull in GRP material"
+        },
+        {
+          "label": "General / General",
+          "text": "Twin-stepped hull with “sharp entry bow”"
+        },
+        {
+          "label": "General / General",
+          "text": "Integrated engine bracket in hull for outboard engines"
+        },
+        {
+          "label": "General / General",
+          "text": "Fixed aluminum fuel tank 730l with overflow prevention"
+        },
+        {
+          "label": "General / General",
+          "text": "Freshwater tank 100l"
+        },
+        {
+          "label": "General / General",
+          "text": "Heavy-duty rub rail with rubber end caps in grey"
+        },
+        {
+          "label": "General / General",
+          "text": "Heavy-duty rub rail around swim platforms"
+        },
+        {
+          "label": "General / General",
+          "text": "Axopar 3D signature chrome logo on both sides of hull"
+        },
+        {
+          "label": "General / General",
+          "text": "Bow thruster tunnel preparation in hull"
+        },
+        {
+          "label": "General / General",
+          "text": "Walk-around deck layout with open aft deck"
+        },
+        {
+          "label": "General / General",
+          "text": "Anti-skid finishing on working deck areas and deck hatches"
+        },
+        {
+          "label": "General / General",
+          "text": "Self-draining deck area with quick drain aft deck"
+        },
+        {
+          "label": "General / General",
+          "text": "Self-bailing cockpit & helm area"
+        },
+        {
+          "label": "General / General",
+          "text": "All hardware, pulpits, locks, hinges, filler caps & cockpit grab rails in 316 stainless steel"
+        },
+        {
+          "label": "General / General",
+          "text": "8 x cleats on aft, midships and fore deck"
+        },
+        {
+          "label": "General / General",
+          "text": "Additional hooking points for safety harness around side deck areas"
+        },
+        {
+          "label": "General / General",
+          "text": "Fore deck pulpits"
+        },
+        {
+          "label": "General / General",
+          "text": "LED navigation lights on fore deck"
+        },
+        {
+          "label": "General / General",
+          "text": "Spacious anchor locker with drainage in bow"
+        },
+        {
+          "label": "General / General",
+          "text": "Rope holders in anchor locker on fore deck & fender storages"
+        },
+        {
+          "label": "General / General",
+          "text": "Sofa with backrest on fore deck including harbor cover"
+        },
+        {
+          "label": "General / General",
+          "text": "Large skylight with harbour cover"
+        },
+        {
+          "label": "General / General",
+          "text": "Flush mounted 2 x skylights incl. harbor cover"
+        },
+        {
+          "label": "General / General",
+          "text": "Toughened glass windscreen and side windows in light green tint with illuminated 37 signature"
+        },
+        {
+          "label": "General / General",
+          "text": "Fully enclosed cabin with extra wide & lockable sliding doors"
+        },
+        {
+          "label": "General / General",
+          "text": "Roof structure in white GRP with large opening canvas roof"
+        },
+        {
+          "label": "General / General",
+          "text": "Harbour cover for opening canvas roof"
+        },
+        {
+          "label": "General / General",
+          "text": "2 x integrated & interlinked windscreen wipers"
+        },
+        {
+          "label": "General / General",
+          "text": "Windshield washer with separate reservoir"
+        },
+        {
+          "label": "General / General",
+          "text": "Grab rail under coach roof on aft deck"
+        },
+        {
+          "label": "General / General",
+          "text": "Integrated boarding steps on both sides of helm"
+        },
+        {
+          "label": "General / General",
+          "text": "Foldable light mast in white painted aluminium with anchor light"
+        },
+        {
+          "label": "General / General",
+          "text": "Twin large fender storages on aft deck with insulation /cooler boxes"
+        },
+        {
+          "label": "General / General",
+          "text": "Aft deck with large storage compartment"
+        },
+        {
+          "label": "General / General",
+          "text": "Battery / electrical compartment under aft deck storage"
+        },
+        {
+          "label": "General / General",
+          "text": "Flagpole"
+        },
+        {
+          "label": "General / General",
+          "text": "Signal horn"
+        },
+        {
+          "label": "General / General",
+          "text": "Two electric bilge pumps with auto-function"
+        },
+        {
+          "label": "General / General",
+          "text": "Manual bilge pump for aft deck section"
+        },
+        {
+          "label": "General / General",
+          "text": "Trim-tabs with joystick control"
+        },
+        {
+          "label": "General / General",
+          "text": "Side rails"
+        },
+        {
+          "label": "General / General",
+          "text": "Integrated swim platforms and telescopic bathing ladder"
+        },
+        {
+          "label": "Cabina de proa / Front Cabin",
+          "text": "Front cabin with L-shaped lounge sofa & seating"
+        },
+        {
+          "label": "Cabina de proa / Front Cabin",
+          "text": "Large queen size bed with soft side bolsters"
+        },
+        {
+          "label": "Cabina de proa / Front Cabin",
+          "text": "All upholstery in Torres Grey fabric"
+        },
+        {
+          "label": "Cabina de proa / Front Cabin",
+          "text": "Roof panels in Vintage Steel fabric"
+        },
+        {
+          "label": "Cabina de proa / Front Cabin",
+          "text": "Portlight towards fore deck with openable hatch"
+        },
+        {
+          "label": "Cabina de proa / Front Cabin",
+          "text": "Mirror in forward bulkhead"
+        },
+        {
+          "label": "Cabina de proa / Front Cabin",
+          "text": "2 x foldable wooden shelves beside the bed"
+        },
+        {
+          "label": "Cabina de proa / Front Cabin",
+          "text": "Cabinet upholstered in Vintage Steel fabric with wenge top"
+        },
+        {
+          "label": "Cabina de proa / Front Cabin",
+          "text": "Mirror above cabinet"
+        },
+        {
+          "label": "Cabina de proa / Front Cabin",
+          "text": "4 x pop up clothes hangers"
+        },
+        {
+          "label": "Cabina de proa / Front Cabin",
+          "text": "Built-in electric flush toilet under L-sofa with septic tank 70l and deck/hull outlets"
+        },
+        {
+          "label": "Cabina de proa / Front Cabin",
+          "text": "Main 12V fuse panel with automatic fuses"
+        },
+        {
+          "label": "Cabina de proa / Front Cabin",
+          "text": "12V & USB outlet in front cabin"
+        },
+        {
+          "label": "Cabina de proa / Front Cabin",
+          "text": "Fire & CO2 alarms"
+        },
+        {
+          "label": "Cabina de proa / Front Cabin",
+          "text": "6 x LED roof spotlights"
+        },
+        {
+          "label": "Cabina de proa / Front Cabin",
+          "text": "LED roof light strip between skylights"
+        },
+        {
+          "label": "Cabina de proa / Front Cabin",
+          "text": "Two manual “mushroom” roof vents"
+        },
+        {
+          "label": "Cabina de proa / Front Cabin",
+          "text": "Carpet in black"
+        }
+      ]
+    },
+    "optional": {
+      "origin": "manufacturer_literal",
+      "lang": "en",
+      "source_url": "https://www.axopar.com/boat-models/axopar-37/axopar-37-xc-cross-cabin/",
+      "items": [
+        {
+          "label": "Color de tapicería / Upholstery Color",
+          "text": "Seats and Upholstery S/ST, Petrol"
+        },
+        {
+          "label": "Mediterrana / Lounge / Mediterrana / Lounge",
+          "text": "Aft Deck Folding Seats Mediterrana Taupe"
+        },
+        {
+          "label": "Mediterrana / Lounge / Mediterrana / Lounge",
+          "text": "Aft Deck Folding Seats Mediterrana Taupe, BRABUS Line, black"
+        },
+        {
+          "label": "Mediterrana / Lounge / Mediterrana / Lounge",
+          "text": "Aft Deck Folding Seats Mediterrana Anthracite"
+        },
+        {
+          "label": "Mediterrana / Lounge / Mediterrana / Lounge",
+          "text": "Aft Deck Folding Seats Mediterrana Anthracite, BRABUS Line"
+        },
+        {
+          "label": "Mediterrana / Lounge / Mediterrana / Lounge",
+          "text": "Aft Deck Folding Seats Mediterrana Natural"
+        },
+        {
+          "label": "Mediterrana / Lounge / Mediterrana / Lounge",
+          "text": "Aft Deck Folding Seats Mediterrana Natural, BRABUS Line"
+        },
+        {
+          "label": "Cubierta de popa / Aft Deck Layout",
+          "text": "Aft Deck Folding Seats, Petrol"
+        },
+        {
+          "label": "Cubierta de popa / Aft Deck Layout",
+          "text": "Aft Deck Folding Seats, Baltic"
+        },
+        {
+          "label": "Cubierta de popa / Aft Deck Layout",
+          "text": "Aft Deck Folding Seats, Cobre"
+        },
+        {
+          "label": "Cubierta de popa / Aft Deck Layout",
+          "text": "Aft Deck Folding Seats, Sandstone"
+        },
+        {
+          "label": "Cubierta de popa / Aft Deck Layout",
+          "text": "Removable Cushions for Aft Fender Boxes, Petrol"
+        },
+        {
+          "label": "Cubierta de popa / Aft Deck Layout",
+          "text": "Removable Cushions for Aft Fender Boxes, Baltic"
+        },
+        {
+          "label": "Cubierta de popa / Aft Deck Layout",
+          "text": "Removable Cushions For Aft Fender Boxes, Cobre"
+        },
+        {
+          "label": "Cubierta de popa / Aft Deck Layout",
+          "text": "Removable Cushions for Aft Fender Boxes, Sandstone"
+        },
+        {
+          "label": "Cubierta de popa / Aft Deck Layout",
+          "text": "Aft Deck Folding Seats, Petrol BRABUS Line Black"
+        },
+        {
+          "label": "Cubierta de popa / Aft Deck Layout",
+          "text": "Aft Deck Folding Seats, Baltic, BRABUS Line, Black"
+        },
+        {
+          "label": "Cubierta de popa / Aft Deck Layout",
+          "text": "Aft Deck Folding Seats, Cobre, BRABUS Line, Black"
+        },
+        {
+          "label": "Cubierta de popa / Aft Deck Layout",
+          "text": "Aft Deck Folding Seats, Sandstone, BRABUS Line, Black"
+        },
+        {
+          "label": "Cubierta de proa / Fore deck setup",
+          "text": "Anchor Hatch and Gullwing Mattresses, Petrol"
+        },
+        {
+          "label": "Cubierta de proa / Fore deck setup",
+          "text": "Anchor Hatch and Gullwing Mattresses, Baltic"
+        },
+        {
+          "label": "Cubierta de proa / Fore deck setup",
+          "text": "Anchor Hatch and Gullwing Mattresses, Cobre"
+        },
+        {
+          "label": "Cubierta de proa / Fore deck setup",
+          "text": "Anchor Hatch and Gullwing Mattresses, Sandstone"
+        },
+        {
+          "label": "Cubierta de proa / Fore deck setup",
+          "text": "Fixed Sunbed on Front Deck with Storage, Petrol"
+        },
+        {
+          "label": "Cubierta de proa / Fore deck setup",
+          "text": "Fixed Sunbed on Front Deck with Storage, Baltic"
+        },
+        {
+          "label": "Cubierta de proa / Fore deck setup",
+          "text": "Fixed Sunbed in Bow with Storage, Cobre"
+        },
+        {
+          "label": "Cubierta de proa / Fore deck setup",
+          "text": "Fixed Sunbed in Bow with Storage, Sandstone"
+        },
+        {
+          "label": "Cubierta de proa / Fore deck setup",
+          "text": "Gullwing Doors"
+        },
+        {
+          "label": "Cubierta de proa / Fore deck setup",
+          "text": "Table in Bow"
+        },
+        {
+          "label": "Energía y sistemas / Power Management and Systems",
+          "text": "Shore Power 230V with 40Ah Charger"
+        },
+        {
+          "label": "Energía y sistemas / Power Management and Systems",
+          "text": "Shore Power 110V with 40Ah Charger, US Standard"
+        },
+        {
+          "label": "Energía y sistemas / Power Management and Systems",
+          "text": "Windlass in Bow, EU"
+        },
+        {
+          "label": "Energía y sistemas / Power Management and Systems",
+          "text": "Windlass in Bow, US"
+        },
+        {
+          "label": "Energía y sistemas / Power Management and Systems",
+          "text": "Lighting Package - XC"
+        },
+        {
+          "label": "Energía y sistemas / Power Management and Systems",
+          "text": "Lighting Package / Aft Cabin - XC"
+        },
+        {
+          "label": "Energía y sistemas / Power Management and Systems",
+          "text": "Underwater Lights, 2in1, Dual Color"
+        },
+        {
+          "label": "Energía y sistemas / Power Management and Systems",
+          "text": "Searchlight including remote control"
+        },
+        {
+          "label": "Energía y sistemas / Power Management and Systems",
+          "text": "Bow Thruster Side-Power SE60"
+        },
+        {
+          "label": "Energía y sistemas / Power Management and Systems",
+          "text": "AX37XC, Solar Battery Trickle Charger System"
+        },
+        {
+          "label": "Energía y sistemas / Power Management and Systems",
+          "text": "Electrical Sliding Canvas Roof System Webasto"
+        },
+        {
+          "label": "Energía y sistemas / Power Management and Systems",
+          "text": "Inverter, 110V"
+        },
+        {
+          "label": "Energía y sistemas / Power Management and Systems",
+          "text": "Inverter, 230V"
+        },
+        {
+          "label": "Navegación / Navigation Options",
+          "text": "Axopar Connectivity"
+        },
+        {
+          "label": "Navegación / Navigation Options",
+          "text": "VHF Simrad RS100-B"
+        },
+        {
+          "label": "Navegación / Navigation Options",
+          "text": "Radar Simrad HALO20+"
+        },
+        {
+          "label": "Navegación / Navigation Options",
+          "text": "Echo Sounder, Thru Hull"
+        },
+        {
+          "label": "Navegación / Navigation Options",
+          "text": "Echo Sounder, Active Imaging 3-in-1"
+        },
+        {
+          "label": "Navegación / Navigation Options",
+          "text": "FLIR Marine Thermal Camera"
+        },
+        {
+          "label": "Entretenimiento / Entertainment",
+          "text": "Basic Audio Entertainment System, Clarion"
+        },
+        {
+          "label": "Entretenimiento / Entertainment",
+          "text": "Extended Audio Entertainment System - Clarion"
+        },
+        {
+          "label": "Entretenimiento / Entertainment",
+          "text": "Premium Audio Entertainment System, JL Audio"
+        },
+        {
+          "label": "Entretenimiento / Entertainment",
+          "text": "Premium Audio Entertainment System, BRABUS Line, JL Audio"
+        },
+        {
+          "label": "Layout cabina de proa / Front Cabin Layout",
+          "text": "Toilet compartment"
+        },
+        {
+          "label": "Layout cabina de proa / Front Cabin Layout",
+          "text": "Extended Front Cabin Wardrobe/Storage"
+        },
+        {
+          "label": "Módulo cabina de proa / Front Cabin Module",
+          "text": "Warm water system, EU"
+        },
+        {
+          "label": "Módulo cabina de proa / Front Cabin Module",
+          "text": "Warm water system, US"
+        },
+        {
+          "label": "Módulo cabina de proa / Front Cabin Module",
+          "text": "Sink and Faucet for Front Cabin Cabinet"
+        },
+        {
+          "label": "Módulo cabina de proa / Front Cabin Module",
+          "text": "Shower in Toilet Compartment"
+        },
+        {
+          "label": "Módulo cabina de proa / Front Cabin Module",
+          "text": "Shower on Aft Deck, Cold/Warm"
+        },
+        {
+          "label": "Módulo cabina de proa / Front Cabin Module",
+          "text": "Shower on Aft Deck, Cold"
+        },
+        {
+          "label": "Operación / Operation",
+          "text": "Additional Bathing Ladder"
+        },
+        {
+          "label": "Operación / Operation",
+          "text": "Fishing Targa Arch, Polished - XC"
+        },
+        {
+          "label": "Operación / Operation",
+          "text": "Sunshade, Fore Deck"
+        },
+        {
+          "label": "Operación / Operation",
+          "text": "Sunshade, Aft Deck"
+        },
+        {
+          "label": "Operación / Operation",
+          "text": "Roof Racks, White"
+        },
+        {
+          "label": "Operación / Operation",
+          "text": "Fishing Targa Arch, BRABUS line black - XC"
+        },
+        {
+          "label": "Operación / Operation",
+          "text": "Sunshade, Fore Deck, BRABUS Line, Black"
+        },
+        {
+          "label": "Operación / Operation",
+          "text": "Sunshade, Aft Deck, BRABUS Line, black"
+        },
+        {
+          "label": "Operación / Operation",
+          "text": "Roof Racks, BRABUS Line, Black"
+        },
+        {
+          "label": "Operación / Operation",
+          "text": "Engine Frame, EU"
+        },
+        {
+          "label": "Operación / Operation",
+          "text": "Engine Frame, EU, Black"
+        },
+        {
+          "label": "Otros opcionales / Optional Equipment",
+          "text": "Antifouling, White"
+        },
+        {
+          "label": "Otros opcionales / Optional Equipment",
+          "text": "Antifouling, Grey"
+        },
+        {
+          "label": "Otros opcionales / Optional Equipment",
+          "text": "Livewell in STBD Fender Box"
+        },
+        {
+          "label": "Otros opcionales / Optional Equipment",
+          "text": "Wet Bar in Port Fender Box, with Hot & Cold Water"
+        },
+        {
+          "label": "Otros opcionales / Optional Equipment",
+          "text": "Wet Bar in Port Fender Box, with Cold Water"
+        },
+        {
+          "label": "Otros opcionales / Optional Equipment",
+          "text": "Axopar Safety Bag"
+        },
+        {
+          "label": "Otros opcionales / Optional Equipment",
+          "text": "Aft deck gates"
+        },
+        {
+          "label": "Otros opcionales / Optional Equipment",
+          "text": "Mooring Package"
+        },
+        {
+          "label": "Pre-instalaciones / Pre-Rigging",
+          "text": "Pre Rig, VesselView 703"
+        },
+        {
+          "label": "Pre-instalaciones / Pre-Rigging",
+          "text": "Pre Rig, Twin, Mercury V8"
+        },
+        {
+          "label": "Pre-instalaciones / Pre-Rigging",
+          "text": "Pre Rig, V8 Electric Steering JPO"
+        },
+        {
+          "label": "Pre-instalaciones / Pre-Rigging",
+          "text": "Pre Rig, Twin, Mercury Verado V10"
+        },
+        {
+          "label": "Pre-instalaciones / Pre-Rigging",
+          "text": "Pre Rig, V10 Electric Steering JPO"
+        },
+        {
+          "label": "Pre-instalaciones / Pre-Rigging",
+          "text": "Pre Rig, V10 Electric Steering JPO installation (400hp)"
+        },
+        {
+          "label": "Pre-instalaciones / Pre-Rigging",
+          "text": "Mercury First Mate - Dual Engine"
+        },
+        {
+          "label": "Hélices / Propellers",
+          "text": "Twin Propellers Enertia Eco 19\""
+        },
+        {
+          "label": "Hélices / Propellers",
+          "text": "Twin Propellers Revolution X 22\""
+        },
+        {
+          "label": "Hélices / Propellers",
+          "text": "Twin Propellers Revolution X 23\""
+        },
+        {
+          "label": "Hélices / Propellers",
+          "text": "Twin propellers Revolution4 20\""
+        },
+        {
+          "label": "Logística / Logistics",
+          "text": "Aft folding seats delivered uninstalled"
+        }
+      ]
+    },
+    "packages": {
+      "origin": "manufacturer_literal",
+      "lang": "en",
+      "source_url": "https://www.axopar.com/boat-models/axopar-37/axopar-37-xc-cross-cabin/",
+      "items": [
+        {
+          "label": "The Iconic Edition",
+          "text": "The Iconic Edition features the ever-so-popular BRABUS Line, offering refined interior and exterior styling enhancements with subtle yet distinctive design details."
+        },
+        {
+          "label": "The Iconic Edition",
+          "text": "The Iconic Edition features the familiar, beloved BRABUS Line colors: Miami Blue and Platinum Grey. Additionally, we are spicing things up with two new colors, familiar from the BRABUS Marine lineup: Glacier Blue and Icon Grey."
+        },
+        {
+          "label": "The Iconic Edition",
+          "text": "Show your personality by choosing your favorites among Silvertex Petrol with Seine PE Steel accents, Silvertex Sandstone with Seine PE Taupe accents, Silvertex Cobre with Seine PE Ochre accents, or Silvertex Baltic with Seine PE Navy accents to match your adventure spirit."
+        },
+        {
+          "label": "The Iconic Edition",
+          "text": "We're sweetening the deal with the widely popular Roof Racks in black and the Electric Sliding Roof to make it even easier for you to"
+        },
+        {
+          "label": "BRABUS Performance Line",
+          "text": "The BRABUS Performance Line is a thrilling extension to the BRABUS Line that boosts the performance and enhances the boat's appearance with a stylish hull & roof wrap. The BRABUS Performance Line includes stylish hull and roof graphics and extra power on the transom with Twin Mercury Verado V10 400hp to get you to your adventure destination promptly."
+        },
+        {
+          "label": "The Mediterrana Edition",
+          "text": "Inspired by a laid-back Mediterranean spirit, and a love for lounging and socialising onboard, we have developed the Mediterrana Edition for the Axopar 37 range. We have now fully utilized the perfect layout of the Axopar 37s, further enhancing its appearance with a more relaxed, elegant look and greater on-board comfort."
+        },
+        {
+          "label": "Wet Bar Package - XC",
+          "text": "Module Selection Stern"
+        },
+        {
+          "label": "Aft Cabin Package - XC",
+          "text": "Module Selection Stern"
+        },
+        {
+          "label": "Lighting Package - XC",
+          "text": "Power Management and Systems"
+        },
+        {
+          "label": "Lighting Package / Aft Cabin - XC",
+          "text": "Power Management and Systems"
+        },
+        {
+          "label": "Mooring Package",
+          "text": "Optional Equipment"
+        }
+      ]
+    },
+    "configurations": {
+      "origin": "manufacturer_literal",
+      "lang": "en",
+      "source_url": "https://www.axopar.com/boat-models/axopar-37/axopar-37-xc-cross-cabin/",
+      "items": [
+        {
+          "label": "Layout de popa (Module Selection Stern)",
+          "text": "The modular nature of Axopars and our multi-platform approach enable you to customize your boat with an aft layout that suits your everyday needs. As standard, the Axopar 37 XC Cross Cabin comes with a spacious open aft deck as standard. The aft deck can also be equipped with an optional Aft Deck Bench, Wet Bar, U-sofa, or an Aft Cabin.\" — S1, Alternatives for Aft Deck"
+        },
+        {
+          "label": "Open Aft",
+          "text": "STANDARD"
+        },
+        {
+          "label": "Aft Deck Bench with Storage - XC",
+          "text": "OPTIONAL"
+        },
+        {
+          "label": "Multi-Storage - XC",
+          "text": "OPTIONAL"
+        },
+        {
+          "label": "Wet Bar Package - XC",
+          "text": "OPTIONAL"
+        },
+        {
+          "label": "Aft Cabin Package - XC",
+          "text": "OPTIONAL"
+        },
+        {
+          "label": "U-Sofa",
+          "text": "OPTIONAL"
+        },
+        {
+          "label": "Aft Bench",
+          "text": "with an optional sink and faucet for the front cab. cabinet w. optional Squash upholstery."
+        },
+        {
+          "label": "Wet Bar",
+          "text": "with an optional enclosed toilet in the forward cabin, w. standard Petrol upholstery."
+        },
+        {
+          "label": "Multi Storage Compartment",
+          "text": "with optional Hunter upholstery."
+        },
+        {
+          "label": "Aft Cabin",
+          "text": "with optional Squash upholstery."
+        },
+        {
+          "label": "Aft Cabin",
+          "text": "with an optional fixed sunbed on the front deck with storage, w. standard Petrol upholstery."
+        },
+        {
+          "label": "Versión de mercado (EU/US version)",
+          "text": "Axopar 37 EU Version"
+        },
+        {
+          "label": "Versión de mercado (EU/US version)",
+          "text": "Axopar 37 US version"
+        },
+        {
+          "label": "Versión de mercado (EU/US version)",
+          "text": "Fuel System - EPA"
+        },
+        {
+          "label": "Motorización (Engine)",
+          "text": "Twin Mercury Verado V8 300hp, White"
+        },
+        {
+          "label": "Motorización (Engine)",
+          "text": "Twin Mercury Verado V8 300hp, Black"
+        },
+        {
+          "label": "Motorización (Engine)",
+          "text": "Twin Mercury Verado V8 300hp, JPO, white"
+        },
+        {
+          "label": "Motorización (Engine)",
+          "text": "Twin Mercury Verado V8 300hp, JPO, Black"
+        },
+        {
+          "label": "Motorización (Engine)",
+          "text": "Twin Mercury Verado V10 350hp, White"
+        },
+        {
+          "label": "Motorización (Engine)",
+          "text": "Twin Mercury Verado V10 350hp, Black"
+        },
+        {
+          "label": "Motorización (Engine)",
+          "text": "Twin Mercury Verado V10 350hp, JPO, White"
+        },
+        {
+          "label": "Motorización (Engine)",
+          "text": "Twin Mercury Verado V10 350hp, JPO, Black"
+        },
+        {
+          "label": "Motorización (Engine)",
+          "text": "Twin Mercury Verado V10 400hp, White"
+        },
+        {
+          "label": "Motorización (Engine)",
+          "text": "Twin Mercury Verado V10 400hp, Black"
+        },
+        {
+          "label": "Motorización (Engine)",
+          "text": "Twin Mercury Verado V10 400hp, JPO, White"
+        },
+        {
+          "label": "Motorización (Engine)",
+          "text": "Twin Mercury Verado V10 400hp, JPO, Black"
+        },
+        {
+          "label": "Silvertex Petrol",
+          "text": "With Seine PE Steel (Standard)"
+        },
+        {
+          "label": "Silvertex Hunter",
+          "text": "With Seine PE Sage"
+        },
+        {
+          "label": "Silvertex Squash",
+          "text": "With Seine PE Corn"
+        },
+        {
+          "label": "Seine PE Taupe",
+          "text": "Mediterrana Edition Upholstery Option"
+        },
+        {
+          "label": "Seine PE Natural",
+          "text": "Mediterrana Edition Upholstery Option"
+        },
+        {
+          "label": "Seine PE Antracite",
+          "text": "Mediterrana Edition Upholstery Option"
+        }
+      ]
+    }
+  },
+  "images": [
+    {
+      "id": "axopar-37-xc-cross-cabin-099a1865",
+      "category": "EXTERIOR",
+      "key": "axopar/axopar-37-xc-cross-cabin/exterior/axopar-37-xc-cross-cabin-099a1865-d5b23ee3.webp",
+      "width": 2560,
+      "height": 1708,
+      "hero_rank": 1,
+      "copyright_notice": "© 2025 Axopar Boats Oy",
+      "alt": {
+        "es": "Axopar 37 XC Cross Cabin, exterior"
+      }
+    },
+    {
+      "id": "axopar-37-xc-cross-cabin-099a8696",
+      "category": "EXTERIOR",
+      "key": "axopar/axopar-37-xc-cross-cabin/exterior/axopar-37-xc-cross-cabin-099a8696-1d0817a6.webp",
+      "width": 2560,
+      "height": 1708,
+      "hero_rank": 2,
+      "copyright_notice": "© 2025 Axopar Boats Oy",
+      "alt": {
+        "es": "Axopar 37 XC Cross Cabin, exterior"
+      }
+    },
+    {
+      "id": "axopar-37-xc-cross-cabin-my2024-2",
+      "category": "UNDERWAY",
+      "key": "axopar/axopar-37-xc-cross-cabin/underway/axopar-37-xc-cross-cabin-my2024-2-0017cad0.webp",
+      "width": 2560,
+      "height": 1707,
+      "hero_rank": 3,
+      "copyright_notice": "Axopar Boats 2023 ©",
+      "alt": {
+        "es": "Axopar 37 XC Cross Cabin, navegando"
+      }
+    },
+    {
+      "id": "axopar-37-xc-bltp-dji-0254-axedit",
+      "category": "EXTERIOR",
+      "key": "axopar/axopar-37-xc-cross-cabin/exterior/axopar-37-xc-bltp-dji-0254-axedit-85214ce8.webp",
+      "width": 2560,
+      "height": 1706,
+      "hero_rank": 4,
+      "copyright_notice": null,
+      "alt": {
+        "es": "Axopar 37 XC Cross Cabin, exterior"
+      }
+    },
+    {
+      "id": "axopar-37-xc-cross-cabin-brabus-performance-line-kbp00230",
+      "category": "EXTERIOR",
+      "key": "axopar/axopar-37-xc-cross-cabin/exterior/axopar-37-xc-cross-cabin-brabus-performance-line-kbp00230-33c3f9cb.webp",
+      "width": 2560,
+      "height": 1707,
+      "hero_rank": 5,
+      "copyright_notice": "© 2025 Axopar Boats Oy",
+      "alt": {
+        "es": "Axopar 37 XC Cross Cabin, exterior"
+      }
+    },
+    {
+      "id": "aft-bench",
+      "category": "OTHER",
+      "key": "axopar/axopar-37-xc-cross-cabin/other/aft-bench-25a4341b.webp",
+      "width": 1259,
+      "height": 1600,
+      "hero_rank": null,
+      "copyright_notice": null,
+      "alt": {
+        "es": "Axopar 37 XC Cross Cabin, otra vista"
+      }
+    },
+    {
+      "id": "aft-cabin-std",
+      "category": "OTHER",
+      "key": "axopar/axopar-37-xc-cross-cabin/other/aft-cabin-std-6688f701.webp",
+      "width": 1259,
+      "height": 1600,
+      "hero_rank": null,
+      "copyright_notice": null,
+      "alt": {
+        "es": "Axopar 37 XC Cross Cabin, otra vista"
+      }
+    },
+    {
+      "id": "antracite",
+      "category": "DETAIL",
+      "key": "axopar/axopar-37-xc-cross-cabin/detail/antracite-97535b2b.webp",
+      "width": 1233,
+      "height": 1233,
+      "hero_rank": null,
+      "copyright_notice": null,
+      "alt": {
+        "es": "Axopar 37 XC Cross Cabin, detalle"
+      }
+    },
+    {
+      "id": "ax37xc-aft-bench",
+      "category": "OTHER",
+      "key": "axopar/axopar-37-xc-cross-cabin/other/ax37xc-aft-bench-7fcac511.webp",
+      "width": 1353,
+      "height": 1600,
+      "hero_rank": null,
+      "copyright_notice": null,
+      "alt": {
+        "es": "Axopar 37 XC Cross Cabin, otra vista"
+      }
+    },
+    {
+      "id": "ax37xc-aftcabin-petrol-hires",
+      "category": "OTHER",
+      "key": "axopar/axopar-37-xc-cross-cabin/other/ax37xc-aftcabin-petrol-hires-26c57a37.webp",
+      "width": 1259,
+      "height": 1600,
+      "hero_rank": null,
+      "copyright_notice": null,
+      "alt": {
+        "es": "Axopar 37 XC Cross Cabin, otra vista"
+      }
+    },
+    {
+      "id": "ax37xc-agate-baltic",
+      "category": "OTHER",
+      "key": "axopar/axopar-37-xc-cross-cabin/other/ax37xc-agate-baltic-6b5d000e.webp",
+      "width": 1600,
+      "height": 1600,
+      "hero_rank": null,
+      "copyright_notice": null,
+      "alt": {
+        "es": "Axopar 37 XC Cross Cabin, otra vista"
+      }
+    },
+    {
+      "id": "ax37xc-glacier-blue-cobre",
+      "category": "OTHER",
+      "key": "axopar/axopar-37-xc-cross-cabin/other/ax37xc-glacier-blue-cobre-be337325.webp",
+      "width": 1600,
+      "height": 1600,
+      "hero_rank": null,
+      "copyright_notice": null,
+      "alt": {
+        "es": "Axopar 37 XC Cross Cabin, otra vista"
+      }
+    },
+    {
+      "id": "ax37xc-miami-blue-sandstone",
+      "category": "OTHER",
+      "key": "axopar/axopar-37-xc-cross-cabin/other/ax37xc-miami-blue-sandstone-c83ab80f.webp",
+      "width": 1600,
+      "height": 1600,
+      "hero_rank": null,
+      "copyright_notice": null,
+      "alt": {
+        "es": "Axopar 37 XC Cross Cabin, otra vista"
+      }
+    },
+    {
+      "id": "ax37xc-multi-storage",
+      "category": "OTHER",
+      "key": "axopar/axopar-37-xc-cross-cabin/other/ax37xc-multi-storage-6deb0ef0.webp",
+      "width": 1353,
+      "height": 1600,
+      "hero_rank": null,
+      "copyright_notice": null,
+      "alt": {
+        "es": "Axopar 37 XC Cross Cabin, otra vista"
+      }
+    },
+    {
+      "id": "ax37xc-platinum-grey-petrol",
+      "category": "OTHER",
+      "key": "axopar/axopar-37-xc-cross-cabin/other/ax37xc-platinum-grey-petrol-53786814.webp",
+      "width": 1600,
+      "height": 1600,
+      "hero_rank": null,
+      "copyright_notice": null,
+      "alt": {
+        "es": "Axopar 37 XC Cross Cabin, otra vista"
+      }
+    },
+    {
+      "id": "ax37xcxc-wetbar-petrol-hires",
+      "category": "OTHER",
+      "key": "axopar/axopar-37-xc-cross-cabin/other/ax37xcxc-wetbar-petrol-hires-2c191795.webp",
+      "width": 1259,
+      "height": 1600,
+      "hero_rank": null,
+      "copyright_notice": null,
+      "alt": {
+        "es": "Axopar 37 XC Cross Cabin, otra vista"
+      }
+    },
+    {
+      "id": "axcopar-37-xc-cross-cabin-iconic-edition-surroundings",
+      "category": "OTHER",
+      "key": "axopar/axopar-37-xc-cross-cabin/other/axcopar-37-xc-cross-cabin-iconic-edition-surroundings-e2ed1915.webp",
+      "width": 1600,
+      "height": 802,
+      "hero_rank": null,
+      "copyright_notice": null,
+      "alt": {
+        "es": "Axopar 37 XC Cross Cabin, otra vista"
+      }
+    },
+    {
+      "id": "axopar-37-xc-bltp-662a1511",
+      "category": "OTHER",
+      "key": "axopar/axopar-37-xc-cross-cabin/other/axopar-37-xc-bltp-662a1511-f2702288.webp",
+      "width": 1600,
+      "height": 1068,
+      "hero_rank": null,
+      "copyright_notice": "Copyright © 2021 Dolf Vermeulen",
+      "alt": {
+        "es": "Axopar 37 XC Cross Cabin, otra vista"
+      }
+    },
+    {
+      "id": "axopar-37-xc-bltp-my2020-a45i3759",
+      "category": "EXTERIOR",
+      "key": "axopar/axopar-37-xc-cross-cabin/exterior/axopar-37-xc-bltp-my2020-a45i3759-b93c7b74.webp",
+      "width": 1067,
+      "height": 1600,
+      "hero_rank": null,
+      "copyright_notice": "Copyright © 2020 Dolf Vermeulen",
+      "alt": {
+        "es": "Axopar 37 XC Cross Cabin, exterior"
+      }
+    },
+    {
+      "id": "axopar-37-xc-bltp-my2020-dji-0858",
+      "category": "EXTERIOR",
+      "key": "axopar/axopar-37-xc-cross-cabin/exterior/axopar-37-xc-bltp-my2020-dji-0858-8a45b45d.webp",
+      "width": 1066,
+      "height": 1600,
+      "hero_rank": null,
+      "copyright_notice": "Copyright © 2020 Dolf Vermeulen",
+      "alt": {
+        "es": "Axopar 37 XC Cross Cabin, exterior"
+      }
+    },
+    {
+      "id": "axopar-37-xc-bltp-r7a1726-axedit",
+      "category": "EXTERIOR",
+      "key": "axopar/axopar-37-xc-cross-cabin/exterior/axopar-37-xc-bltp-r7a1726-axedit-8eef1ef9.webp",
+      "width": 1600,
+      "height": 1067,
+      "hero_rank": null,
+      "copyright_notice": "© 2020 Axopar Boats Oy",
+      "alt": {
+        "es": "Axopar 37 XC Cross Cabin, exterior"
+      }
+    },
+    {
+      "id": "axopar-37-xc-bltp-r7a2211",
+      "category": "CABIN",
+      "key": "axopar/axopar-37-xc-cross-cabin/cabin/axopar-37-xc-bltp-r7a2211-452f0785.webp",
+      "width": 1600,
+      "height": 1067,
+      "hero_rank": null,
+      "copyright_notice": "© 2020 Axopar Boats Oy",
+      "alt": {
+        "es": "Axopar 37 XC Cross Cabin, camarote"
+      }
+    },
+    {
+      "id": "axopar-37-xc-cross-cabin",
+      "category": "OTHER",
+      "key": "axopar/axopar-37-xc-cross-cabin/other/axopar-37-xc-cross-cabin-60516548.webp",
+      "width": 1600,
+      "height": 1200,
+      "hero_rank": null,
+      "copyright_notice": null,
+      "alt": {
+        "es": "Axopar 37 XC Cross Cabin, otra vista"
+      }
+    },
+    {
+      "id": "axopar-37-xc-cross-cabin-099a9348",
+      "category": "INTERIOR",
+      "key": "axopar/axopar-37-xc-cross-cabin/interior/axopar-37-xc-cross-cabin-099a9348-a71d4ae4.webp",
+      "width": 1600,
+      "height": 1068,
+      "hero_rank": null,
+      "copyright_notice": "© 2025 Axopar Boats Oy",
+      "alt": {
+        "es": "Axopar 37 XC Cross Cabin, interior"
+      }
+    },
+    {
+      "id": "axopar-37-xc-cross-cabin-8569",
+      "category": "OTHER",
+      "key": "axopar/axopar-37-xc-cross-cabin/other/axopar-37-xc-cross-cabin-8569-0d1ab393.webp",
+      "width": 1600,
+      "height": 1067,
+      "hero_rank": null,
+      "copyright_notice": "Niklas Frank",
+      "alt": {
+        "es": "Axopar 37 XC Cross Cabin, otra vista"
+      }
+    },
+    {
+      "id": "axopar-37-xc-cross-cabin-9664-axedit",
+      "category": "EXTERIOR",
+      "key": "axopar/axopar-37-xc-cross-cabin/exterior/axopar-37-xc-cross-cabin-9664-axedit-3892b922.webp",
+      "width": 1600,
+      "height": 1067,
+      "hero_rank": null,
+      "copyright_notice": "Niklas Frank",
+      "alt": {
+        "es": "Axopar 37 XC Cross Cabin, exterior"
+      }
+    },
+    {
+      "id": "axopar-37-xc-cross-cabin-brabus-performance-line-kbp00210",
+      "category": "COCKPIT",
+      "key": "axopar/axopar-37-xc-cross-cabin/cockpit/axopar-37-xc-cross-cabin-brabus-performance-line-kbp00210-be49660f.webp",
+      "width": 1600,
+      "height": 1067,
+      "hero_rank": null,
+      "copyright_notice": "© 2025 Axopar Boats Oy",
+      "alt": {
+        "es": "Axopar 37 XC Cross Cabin, cockpit"
+      }
+    },
+    {
+      "id": "axopar-37-xc-cross-cabin-brabus-performance-line-kbp00227-axedit-2",
+      "category": "INTERIOR",
+      "key": "axopar/axopar-37-xc-cross-cabin/interior/axopar-37-xc-cross-cabin-brabus-performance-line-kbp00227-axedit-2-7025e1ab.webp",
+      "width": 1600,
+      "height": 1067,
+      "hero_rank": null,
+      "copyright_notice": "© 2025 Axopar Boats Oy",
+      "alt": {
+        "es": "Axopar 37 XC Cross Cabin, interior"
+      }
+    },
+    {
+      "id": "axopar-37-xc-cross-cabin-brabus-performance-line-kbp01223",
+      "category": "EXTERIOR",
+      "key": "axopar/axopar-37-xc-cross-cabin/exterior/axopar-37-xc-cross-cabin-brabus-performance-line-kbp01223-ba0b0a19.webp",
+      "width": 1600,
+      "height": 1067,
+      "hero_rank": null,
+      "copyright_notice": "© 2025 Axopar Boats Oy",
+      "alt": {
+        "es": "Axopar 37 XC Cross Cabin, exterior"
+      }
+    },
+    {
+      "id": "axopar-37-xc-cross-cabin-iconic-edition-surroundings-mobile-2",
+      "category": "OTHER",
+      "key": "axopar/axopar-37-xc-cross-cabin/other/axopar-37-xc-cross-cabin-iconic-edition-surroundings-mobile-2-70732b28.webp",
+      "width": 803,
+      "height": 1600,
+      "hero_rank": null,
+      "copyright_notice": null,
+      "alt": {
+        "es": "Axopar 37 XC Cross Cabin, otra vista"
+      }
+    },
+    {
+      "id": "axopar-37-xc-cross-cabin-my2024-099a3604",
+      "category": "INTERIOR",
+      "key": "axopar/axopar-37-xc-cross-cabin/interior/axopar-37-xc-cross-cabin-my2024-099a3604-3bb7c0b9.webp",
+      "width": 1600,
+      "height": 1068,
+      "hero_rank": null,
+      "copyright_notice": "Axopar Boats 2023 ©",
+      "alt": {
+        "es": "Axopar 37 XC Cross Cabin, interior"
+      }
+    },
+    {
+      "id": "axopar-37-xc-cross-cabin-my2024-099a3613",
+      "category": "HELM",
+      "key": "axopar/axopar-37-xc-cross-cabin/helm/axopar-37-xc-cross-cabin-my2024-099a3613-a594ae76.webp",
+      "width": 1600,
+      "height": 1068,
+      "hero_rank": null,
+      "copyright_notice": "Axopar Boats 2023 ©",
+      "alt": {
+        "es": "Axopar 37 XC Cross Cabin, puesto de mando"
+      }
+    },
+    {
+      "id": "axopar-37-xc-cross-cabin-my2024-5",
+      "category": "HELM",
+      "key": "axopar/axopar-37-xc-cross-cabin/helm/axopar-37-xc-cross-cabin-my2024-5-20a8b00e.webp",
+      "width": 1600,
+      "height": 1068,
+      "hero_rank": null,
+      "copyright_notice": "Axopar Boats 2023 ©",
+      "alt": {
+        "es": "Axopar 37 XC Cross Cabin, puesto de mando"
+      }
+    },
+    {
+      "id": "axopar-37-xc-cross-cabin-my2024-9",
+      "category": "EXTERIOR",
+      "key": "axopar/axopar-37-xc-cross-cabin/exterior/axopar-37-xc-cross-cabin-my2024-9-bbf8b866.webp",
+      "width": 1600,
+      "height": 1068,
+      "hero_rank": null,
+      "copyright_notice": "Axopar Boats 2023 ©",
+      "alt": {
+        "es": "Axopar 37 XC Cross Cabin, exterior"
+      }
+    },
+    {
+      "id": "axopar-37-xc-mediterrana-c4a4285",
+      "category": "OTHER",
+      "key": "axopar/axopar-37-xc-cross-cabin/other/axopar-37-xc-mediterrana-c4a4285-6af307d5.webp",
+      "width": 1600,
+      "height": 1068,
+      "hero_rank": null,
+      "copyright_notice": "© 2022 Axopar Boats Oy",
+      "alt": {
+        "es": "Axopar 37 XC Cross Cabin, otra vista"
+      }
+    },
+    {
+      "id": "axopar-37-xc-mediterrana-c4a4929",
+      "category": "OTHER",
+      "key": "axopar/axopar-37-xc-cross-cabin/other/axopar-37-xc-mediterrana-c4a4929-ed70a073.webp",
+      "width": 1600,
+      "height": 1068,
+      "hero_rank": null,
+      "copyright_notice": "© 2022 Axopar Boats Oy",
+      "alt": {
+        "es": "Axopar 37 XC Cross Cabin, otra vista"
+      }
+    },
+    {
+      "id": "axopar-37-xc-mediterrana-c4a5052",
+      "category": "OTHER",
+      "key": "axopar/axopar-37-xc-cross-cabin/other/axopar-37-xc-mediterrana-c4a5052-b29e3dd1.webp",
+      "width": 1600,
+      "height": 1068,
+      "hero_rank": null,
+      "copyright_notice": "© 2022 Axopar Boats Oy",
+      "alt": {
+        "es": "Axopar 37 XC Cross Cabin, otra vista"
+      }
+    },
+    {
+      "id": "axopar-37-xc-mediterrana-c4a5133",
+      "category": "INTERIOR",
+      "key": "axopar/axopar-37-xc-cross-cabin/interior/axopar-37-xc-mediterrana-c4a5133-e17f44b4.webp",
+      "width": 1600,
+      "height": 1068,
+      "hero_rank": null,
+      "copyright_notice": "© 2022 Axopar Boats Oy",
+      "alt": {
+        "es": "Axopar 37 XC Cross Cabin, interior"
+      }
+    },
+    {
+      "id": "axopar-37-xc-mediterrana-my2023-c4a5238",
+      "category": "INTERIOR",
+      "key": "axopar/axopar-37-xc-cross-cabin/interior/axopar-37-xc-mediterrana-my2023-c4a5238-1ab4e5df.webp",
+      "width": 1600,
+      "height": 1068,
+      "hero_rank": null,
+      "copyright_notice": "© 2022 Axopar Boats Oy",
+      "alt": {
+        "es": "Axopar 37 XC Cross Cabin, interior"
+      }
+    },
+    {
+      "id": "hunter-sage",
+      "category": "DETAIL",
+      "key": "axopar/axopar-37-xc-cross-cabin/detail/hunter-sage-86df985a.webp",
+      "width": 1600,
+      "height": 1067,
+      "hero_rank": null,
+      "copyright_notice": "Niklas Frank",
+      "alt": {
+        "es": "Axopar 37 XC Cross Cabin, detalle"
+      }
+    },
+    {
+      "id": "multi-storage",
+      "category": "OTHER",
+      "key": "axopar/axopar-37-xc-cross-cabin/other/multi-storage-5e7ab644.webp",
+      "width": 1259,
+      "height": 1600,
+      "hero_rank": null,
+      "copyright_notice": null,
+      "alt": {
+        "es": "Axopar 37 XC Cross Cabin, otra vista"
+      }
+    },
+    {
+      "id": "natural",
+      "category": "DETAIL",
+      "key": "axopar/axopar-37-xc-cross-cabin/detail/natural-8a3c9811.webp",
+      "width": 1233,
+      "height": 1233,
+      "hero_rank": null,
+      "copyright_notice": null,
+      "alt": {
+        "es": "Axopar 37 XC Cross Cabin, detalle"
+      }
+    },
+    {
+      "id": "petrol-front",
+      "category": "DETAIL",
+      "key": "axopar/axopar-37-xc-cross-cabin/detail/petrol-front-f221dadf.webp",
+      "width": 1600,
+      "height": 1067,
+      "hero_rank": null,
+      "copyright_notice": "Niklas Frank",
+      "alt": {
+        "es": "Axopar 37 XC Cross Cabin, detalle"
+      }
+    },
+    {
+      "id": "squash-corn",
+      "category": "DETAIL",
+      "key": "axopar/axopar-37-xc-cross-cabin/detail/squash-corn-48157de5.webp",
+      "width": 1600,
+      "height": 1067,
+      "hero_rank": null,
+      "copyright_notice": "Niklas Frank",
+      "alt": {
+        "es": "Axopar 37 XC Cross Cabin, detalle"
+      }
+    },
+    {
+      "id": "taupe",
+      "category": "DETAIL",
+      "key": "axopar/axopar-37-xc-cross-cabin/detail/taupe-cbca9564.webp",
+      "width": 1233,
+      "height": 1233,
+      "hero_rank": null,
+      "copyright_notice": null,
+      "alt": {
+        "es": "Axopar 37 XC Cross Cabin, detalle"
+      }
+    },
+    {
+      "id": "wbg-0000-ax37xc-wet-bar",
+      "category": "OTHER",
+      "key": "axopar/axopar-37-xc-cross-cabin/other/wbg-0000-ax37xc-wet-bar-57b4f80b.webp",
+      "width": 1353,
+      "height": 1600,
+      "hero_rank": null,
+      "copyright_notice": null,
+      "alt": {
+        "es": "Axopar 37 XC Cross Cabin, otra vista"
+      }
+    },
+    {
+      "id": "wbg-0001-ax37xc-usofa",
+      "category": "OTHER",
+      "key": "axopar/axopar-37-xc-cross-cabin/other/wbg-0001-ax37xc-usofa-33045496.webp",
+      "width": 1353,
+      "height": 1600,
+      "hero_rank": null,
+      "copyright_notice": null,
+      "alt": {
+        "es": "Axopar 37 XC Cross Cabin, otra vista"
+      }
+    },
+    {
+      "id": "wbg-0002-ax37xc-usofa-table",
+      "category": "OTHER",
+      "key": "axopar/axopar-37-xc-cross-cabin/other/wbg-0002-ax37xc-usofa-table-3615505e.webp",
+      "width": 1353,
+      "height": 1600,
+      "hero_rank": null,
+      "copyright_notice": null,
+      "alt": {
+        "es": "Axopar 37 XC Cross Cabin, otra vista"
+      }
+    },
+    {
+      "id": "wbg-0003-ax37xc-open-aft",
+      "category": "OTHER",
+      "key": "axopar/axopar-37-xc-cross-cabin/other/wbg-0003-ax37xc-open-aft-d51592c5.webp",
+      "width": 1353,
+      "height": 1600,
+      "hero_rank": null,
+      "copyright_notice": null,
+      "alt": {
+        "es": "Axopar 37 XC Cross Cabin, otra vista"
+      }
+    },
+    {
+      "id": "wbg-0006-ax37xc-aft-cabin",
+      "category": "OTHER",
+      "key": "axopar/axopar-37-xc-cross-cabin/other/wbg-0006-ax37xc-aft-cabin-42ffcf4d.webp",
+      "width": 1353,
+      "height": 1600,
+      "hero_rank": null,
+      "copyright_notice": null,
+      "alt": {
+        "es": "Axopar 37 XC Cross Cabin, otra vista"
+      }
+    }
+  ],
+  "videos": [
+    {
+      "id": "axopar-37-xc-webloop",
+      "title": "Axopar 37 XC webloop",
+      "url": "https://media.ffycdn.net/eu/axopar/93qkutVcETsjd6DbDESm.mp4",
+      "host": "media.ffycdn.net",
+      "platform": "Axopar CDN (media.ffycdn.net / Frontify DAM)",
+      "cover_image": null,
+      "resolution": "3840x2160",
+      "third_party": null,
+      "review_status": "unverified",
+      "alert": {
+        "level": "warning",
+        "code": "VIDEO_UNVERIFIED",
+        "message": {
+          "es": "Video sin verificar: confirmar que es oficial del modelo o retirarlo."
+        },
+        "actions": [
+          "mark_verified",
+          "remove"
+        ]
+      }
+    },
+    {
+      "id": "walkthrough-of-the-axopar-37-xc-cross-cabin-mediterrana-edition",
+      "title": "WALKTHROUGH OF THE AXOPAR 37 XC CROSS CABIN MEDITERRANA EDITION",
+      "url": "https://media.ffycdn.net/eu/axopar/HZquji439x25do7uTgCx.mp4",
+      "host": "media.ffycdn.net",
+      "platform": "Axopar CDN (media.ffycdn.net / Frontify DAM)",
+      "cover_image": "https://media.ffycdn.net/eu/axopar/EhCCq3Cvy2rZRMrQvm5s.jpg",
+      "resolution": "3840x2160",
+      "third_party": null,
+      "review_status": "unverified",
+      "alert": {
+        "level": "warning",
+        "code": "VIDEO_UNVERIFIED",
+        "message": {
+          "es": "Video sin verificar: confirmar que es oficial del modelo o retirarlo."
+        },
+        "actions": [
+          "mark_verified",
+          "remove"
+        ]
+      }
+    },
+    {
+      "id": "reaching-new-heights",
+      "title": "REACHING NEW HEIGHTS",
+      "url": "https://media.ffycdn.net/eu/axopar/yUpgut1yDiVMU4KqHQow.mp4",
+      "host": "media.ffycdn.net",
+      "platform": "Axopar CDN (media.ffycdn.net / Frontify DAM)",
+      "cover_image": "https://media.ffycdn.net/eu/axopar/xned7xrsbQoWnzVxwCUY.jpg",
+      "resolution": "1920x1080",
+      "third_party": null,
+      "review_status": "unverified",
+      "alert": {
+        "level": "warning",
+        "code": "VIDEO_UNVERIFIED",
+        "message": {
+          "es": "Video sin verificar: confirmar que es oficial del modelo o retirarlo."
+        },
+        "actions": [
+          "mark_verified",
+          "remove"
+        ]
+      }
+    },
+    {
+      "id": "midnight-serenity",
+      "title": "MIDNIGHT SERENITY",
+      "url": "https://media.ffycdn.net/eu/axopar/HZvfrn7KyVGV6jXJf585.mp4",
+      "host": "media.ffycdn.net",
+      "platform": "Axopar CDN (media.ffycdn.net / Frontify DAM)",
+      "cover_image": "https://media.ffycdn.net/eu/axopar/dhaVfuVj4yZpGXKj9XHB.jpeg",
+      "resolution": "3840x1576",
+      "third_party": null,
+      "review_status": "unverified",
+      "alert": {
+        "level": "warning",
+        "code": "VIDEO_UNVERIFIED",
+        "message": {
+          "es": "Video sin verificar: confirmar que es oficial del modelo o retirarlo."
+        },
+        "actions": [
+          "mark_verified",
+          "remove"
+        ]
+      }
+    },
+    {
+      "id": "lighthouse-island",
+      "title": "LIGHTHOUSE ISLAND",
+      "url": "https://media.ffycdn.net/eu/axopar/WP5QdGeYZU2DtJGFDsjL.mp4",
+      "host": "media.ffycdn.net",
+      "platform": "Axopar CDN (media.ffycdn.net / Frontify DAM)",
+      "cover_image": "https://media.ffycdn.net/eu/axopar/HQAVUuy35H49MqSFUveA.jpg",
+      "resolution": "3840x2160",
+      "third_party": null,
+      "review_status": "unverified",
+      "alert": {
+        "level": "warning",
+        "code": "VIDEO_UNVERIFIED",
+        "message": {
+          "es": "Video sin verificar: confirmar que es oficial del modelo o retirarlo."
+        },
+        "actions": [
+          "mark_verified",
+          "remove"
+        ]
+      }
+    },
+    {
+      "id": "timeless-moments",
+      "title": "TIMELESS MOMENTS",
+      "url": "https://media.ffycdn.net/eu/axopar/YW6UakGf3pD1fD843Npj.mp4",
+      "host": "media.ffycdn.net",
+      "platform": "Axopar CDN (media.ffycdn.net / Frontify DAM)",
+      "cover_image": "https://media.ffycdn.net/eu/axopar/g2hFS3nbjuCsjZ8YDw9N.jpg",
+      "resolution": "3840x2160",
+      "third_party": null,
+      "review_status": "unverified",
+      "alert": {
+        "level": "warning",
+        "code": "VIDEO_UNVERIFIED",
+        "message": {
+          "es": "Video sin verificar: confirmar que es oficial del modelo o retirarlo."
+        },
+        "actions": [
+          "mark_verified",
+          "remove"
+        ]
+      }
+    },
+    {
+      "id": "sharing-moments",
+      "title": "SHARING MOMENTS",
+      "url": "https://media.ffycdn.net/eu/axopar/qy7u2vp7QmwmHHxJrSxV.mp4",
+      "host": "media.ffycdn.net",
+      "platform": "Axopar CDN (media.ffycdn.net / Frontify DAM)",
+      "cover_image": "https://media.ffycdn.net/eu/axopar/cu59zL7t9sBMBcbLrZoh.jpg",
+      "resolution": "3840x2160",
+      "third_party": null,
+      "review_status": "unverified",
+      "alert": {
+        "level": "warning",
+        "code": "VIDEO_UNVERIFIED",
+        "message": {
+          "es": "Video sin verificar: confirmar que es oficial del modelo o retirarlo."
+        },
+        "actions": [
+          "mark_verified",
+          "remove"
+        ]
+      }
+    },
+    {
+      "id": "live-your-adventure",
+      "title": "LIVE YOUR ADVENTURE",
+      "url": "https://media.ffycdn.net/eu/axopar/6nRnDTRhRBTuHLxTFjZ3.mp4",
+      "host": "media.ffycdn.net",
+      "platform": "Axopar CDN (media.ffycdn.net / Frontify DAM)",
+      "cover_image": "https://media.ffycdn.net/eu/axopar/XYVrDwshk7EtuByKek9h.jpg",
+      "resolution": "3840x2160",
+      "third_party": null,
+      "review_status": "unverified",
+      "alert": {
+        "level": "warning",
+        "code": "VIDEO_UNVERIFIED",
+        "message": {
+          "es": "Video sin verificar: confirmar que es oficial del modelo o retirarlo."
+        },
+        "actions": [
+          "mark_verified",
+          "remove"
+        ]
+      }
+    },
+    {
+      "id": "nordic-crayfish-party",
+      "title": "NORDIC CRAYFISH PARTY",
+      "url": "https://media.ffycdn.net/eu/axopar/edWzucMQwq8MQseucoRc.mp4",
+      "host": "media.ffycdn.net",
+      "platform": "Axopar CDN (media.ffycdn.net / Frontify DAM)",
+      "cover_image": "https://media.ffycdn.net/eu/axopar/TWkMnhzDVSPQTvJ4afDo.jpg",
+      "resolution": "1920x1080",
+      "third_party": null,
+      "review_status": "unverified",
+      "alert": {
+        "level": "warning",
+        "code": "VIDEO_UNVERIFIED",
+        "message": {
+          "es": "Video sin verificar: confirmar que es oficial del modelo o retirarlo."
+        },
+        "actions": [
+          "mark_verified",
+          "remove"
+        ]
+      }
+    },
+    {
+      "id": "a-kite-surfer-s-kick",
+      "title": "A KITE SURFER'S KICK",
+      "url": "https://media.ffycdn.net/eu/axopar/pJxyaXKaBuWypizdE3hY.mp4",
+      "host": "media.ffycdn.net",
+      "platform": "Axopar CDN (media.ffycdn.net / Frontify DAM)",
+      "cover_image": "https://media.ffycdn.net/eu/axopar/ruAHH76b6A1a3tJTVGAn.jpg",
+      "resolution": "3840x2160",
+      "third_party": null,
+      "review_status": "unverified",
+      "alert": {
+        "level": "warning",
+        "code": "VIDEO_UNVERIFIED",
+        "message": {
+          "es": "Video sin verificar: confirmar que es oficial del modelo o retirarlo."
+        },
+        "actions": [
+          "mark_verified",
+          "remove"
+        ]
+      }
+    },
+    {
+      "id": "fishing-with-friends",
+      "title": "FISHING WITH FRIENDS",
+      "url": "https://media.ffycdn.net/eu/axopar/FKUULtLyfzPFGdELyoDX.mp4",
+      "host": "media.ffycdn.net",
+      "platform": "Axopar CDN (media.ffycdn.net / Frontify DAM)",
+      "cover_image": "https://media.ffycdn.net/eu/axopar/p4aTy4DTXKHnFWtxvYM9.jpg",
+      "resolution": "1920x1080",
+      "third_party": null,
+      "review_status": "unverified",
+      "alert": {
+        "level": "warning",
+        "code": "VIDEO_UNVERIFIED",
+        "message": {
+          "es": "Video sin verificar: confirmar que es oficial del modelo o retirarlo."
+        },
+        "actions": [
+          "mark_verified",
+          "remove"
+        ]
+      }
+    },
+    {
+      "id": "get-into-gear-on-the-high-coast-trails",
+      "title": "GET INTO GEAR ON THE HIGH COAST TRAILS",
+      "url": "https://media.ffycdn.net/eu/axopar/f6TQ427tSqBE1xoBZWr7.mp4",
+      "host": "media.ffycdn.net",
+      "platform": "Axopar CDN (media.ffycdn.net / Frontify DAM)",
+      "cover_image": "https://media.ffycdn.net/eu/axopar/rqqcMfMgwDSFwujRXfnM.jpg",
+      "resolution": "1920x1080",
+      "third_party": null,
+      "review_status": "unverified",
+      "alert": {
+        "level": "warning",
+        "code": "VIDEO_UNVERIFIED",
+        "message": {
+          "es": "Video sin verificar: confirmar que es oficial del modelo o retirarlo."
+        },
+        "actions": [
+          "mark_verified",
+          "remove"
+        ]
+      }
+    }
+  ],
+  "documents": [
+    {
+      "id": "owner-manual-my2025-2027",
+      "title": "Axopar 37 XC Cross Cabin - Model Year 2025-2027 - Owner's Manual",
+      "category": "MANUALS",
+      "url": "https://manuals.axopar.com/content/p8len/1.24.1.0/en/Axopar%2037%20XC%20Cross%20Cabin%20-%20Model%20Year%202025-2027%20-%20Owner's%20Manual.pdf",
+      "format": null
+    }
+  ],
+  "readiness": {
+    "content_status": "YELLOW",
+    "completeness_pct": 92,
+    "critical_missing": [],
+    "unresolved_conflicts": [],
+    "missing": [
+      {
+        "item": "brochure",
+        "group": "DOCUMENTOS",
+        "status": "MISSING",
+        "detail": "no encontrado en fuentes oficiales"
+      },
+      {
+        "item": "technical",
+        "group": "DOCUMENTOS",
+        "status": "PARTIAL",
+        "detail": "1 identificado(s) · requiere revisión"
+      }
+    ]
+  },
+  "lint_ok": true,
+  "lint_violations": [],
+  "publish_tier": {
+    "overall": "review",
+    "mode": "static",
+    "rules_version": "1.0.0",
+    "changes": [
+      {
+        "target": "model",
+        "change_kind": "new",
+        "tier": "review",
+        "rule": "new-model"
+      },
+      {
+        "target": "headlines",
+        "change_kind": "new",
+        "tier": "review",
+        "rule": "headline"
+      },
+      {
+        "target": "short_descriptions",
+        "change_kind": "new",
+        "tier": "review",
+        "rule": "editorial-text"
+      },
+      {
+        "target": "text:introduccion",
+        "change_kind": "new",
+        "tier": "review",
+        "rule": "editorial-text"
+      },
+      {
+        "target": "text:diseno",
+        "change_kind": "new",
+        "tier": "review",
+        "rule": "editorial-text"
+      },
+      {
+        "target": "text:performance",
+        "change_kind": "new",
+        "tier": "review",
+        "rule": "editorial-text",
+        "reason": "nota interna junto a una posible cifra calculada: revisar la frase vecina"
+      },
+      {
+        "target": "text:ingenieria",
+        "change_kind": "new",
+        "tier": "review",
+        "rule": "editorial-text"
+      },
+      {
+        "target": "text:experiencia_a_bordo",
+        "change_kind": "new",
+        "tier": "review",
+        "rule": "editorial-text"
+      },
+      {
+        "target": "hero",
+        "change_kind": "new",
+        "tier": "review",
+        "rule": "hero-image"
+      },
+      {
+        "target": "image:aft-bench",
+        "change_kind": "new",
+        "tier": "auto",
+        "rule": "image-same-model"
+      },
+      {
+        "target": "image:aft-cabin-std",
+        "change_kind": "new",
+        "tier": "auto",
+        "rule": "image-same-model"
+      },
+      {
+        "target": "image:antracite",
+        "change_kind": "new",
+        "tier": "auto",
+        "rule": "image-same-model"
+      },
+      {
+        "target": "image:ax37xc-aft-bench",
+        "change_kind": "new",
+        "tier": "auto",
+        "rule": "image-same-model"
+      },
+      {
+        "target": "image:ax37xc-aftcabin-petrol-hires",
+        "change_kind": "new",
+        "tier": "auto",
+        "rule": "image-same-model"
+      },
+      {
+        "target": "image:ax37xc-agate-baltic",
+        "change_kind": "new",
+        "tier": "auto",
+        "rule": "image-same-model"
+      },
+      {
+        "target": "image:ax37xc-glacier-blue-cobre",
+        "change_kind": "new",
+        "tier": "auto",
+        "rule": "image-same-model"
+      },
+      {
+        "target": "image:ax37xc-miami-blue-sandstone",
+        "change_kind": "new",
+        "tier": "auto",
+        "rule": "image-same-model"
+      },
+      {
+        "target": "image:ax37xc-multi-storage",
+        "change_kind": "new",
+        "tier": "auto",
+        "rule": "image-same-model"
+      },
+      {
+        "target": "image:ax37xc-platinum-grey-petrol",
+        "change_kind": "new",
+        "tier": "auto",
+        "rule": "image-same-model"
+      },
+      {
+        "target": "image:ax37xcxc-wetbar-petrol-hires",
+        "change_kind": "new",
+        "tier": "auto",
+        "rule": "image-same-model"
+      },
+      {
+        "target": "image:axcopar-37-xc-cross-cabin-iconic-edition-surroundings",
+        "change_kind": "new",
+        "tier": "auto",
+        "rule": "image-same-model"
+      },
+      {
+        "target": "image:axopar-37-xc-bltp-662a1511",
+        "change_kind": "new",
+        "tier": "auto",
+        "rule": "image-same-model"
+      },
+      {
+        "target": "image:axopar-37-xc-bltp-my2020-a45i3759",
+        "change_kind": "new",
+        "tier": "auto",
+        "rule": "image-same-model"
+      },
+      {
+        "target": "image:axopar-37-xc-bltp-my2020-dji-0858",
+        "change_kind": "new",
+        "tier": "auto",
+        "rule": "image-same-model"
+      },
+      {
+        "target": "image:axopar-37-xc-bltp-r7a1726-axedit",
+        "change_kind": "new",
+        "tier": "auto",
+        "rule": "image-same-model"
+      },
+      {
+        "target": "image:axopar-37-xc-bltp-r7a2211",
+        "change_kind": "new",
+        "tier": "auto",
+        "rule": "image-same-model"
+      },
+      {
+        "target": "image:axopar-37-xc-cross-cabin",
+        "change_kind": "new",
+        "tier": "auto",
+        "rule": "image-same-model"
+      },
+      {
+        "target": "image:axopar-37-xc-cross-cabin-099a9348",
+        "change_kind": "new",
+        "tier": "auto",
+        "rule": "image-same-model"
+      },
+      {
+        "target": "image:axopar-37-xc-cross-cabin-8569",
+        "change_kind": "new",
+        "tier": "auto",
+        "rule": "image-same-model"
+      },
+      {
+        "target": "image:axopar-37-xc-cross-cabin-9664-axedit",
+        "change_kind": "new",
+        "tier": "auto",
+        "rule": "image-same-model"
+      },
+      {
+        "target": "image:axopar-37-xc-cross-cabin-brabus-performance-line-kbp00210",
+        "change_kind": "new",
+        "tier": "auto",
+        "rule": "image-same-model"
+      },
+      {
+        "target": "image:axopar-37-xc-cross-cabin-brabus-performance-line-kbp00227-axedit-2",
+        "change_kind": "new",
+        "tier": "auto",
+        "rule": "image-same-model"
+      },
+      {
+        "target": "image:axopar-37-xc-cross-cabin-brabus-performance-line-kbp01223",
+        "change_kind": "new",
+        "tier": "auto",
+        "rule": "image-same-model"
+      },
+      {
+        "target": "image:axopar-37-xc-cross-cabin-iconic-edition-surroundings-mobile-2",
+        "change_kind": "new",
+        "tier": "auto",
+        "rule": "image-same-model"
+      },
+      {
+        "target": "image:axopar-37-xc-cross-cabin-my2024-099a3604",
+        "change_kind": "new",
+        "tier": "auto",
+        "rule": "image-same-model"
+      },
+      {
+        "target": "image:axopar-37-xc-cross-cabin-my2024-099a3613",
+        "change_kind": "new",
+        "tier": "auto",
+        "rule": "image-same-model"
+      },
+      {
+        "target": "image:axopar-37-xc-cross-cabin-my2024-5",
+        "change_kind": "new",
+        "tier": "auto",
+        "rule": "image-same-model"
+      },
+      {
+        "target": "image:axopar-37-xc-cross-cabin-my2024-9",
+        "change_kind": "new",
+        "tier": "auto",
+        "rule": "image-same-model"
+      },
+      {
+        "target": "image:axopar-37-xc-mediterrana-c4a4285",
+        "change_kind": "new",
+        "tier": "auto",
+        "rule": "image-same-model"
+      },
+      {
+        "target": "image:axopar-37-xc-mediterrana-c4a4929",
+        "change_kind": "new",
+        "tier": "auto",
+        "rule": "image-same-model"
+      },
+      {
+        "target": "image:axopar-37-xc-mediterrana-c4a5052",
+        "change_kind": "new",
+        "tier": "auto",
+        "rule": "image-same-model"
+      },
+      {
+        "target": "image:axopar-37-xc-mediterrana-c4a5133",
+        "change_kind": "new",
+        "tier": "auto",
+        "rule": "image-same-model"
+      },
+      {
+        "target": "image:axopar-37-xc-mediterrana-my2023-c4a5238",
+        "change_kind": "new",
+        "tier": "auto",
+        "rule": "image-same-model"
+      },
+      {
+        "target": "image:hunter-sage",
+        "change_kind": "new",
+        "tier": "auto",
+        "rule": "image-same-model"
+      },
+      {
+        "target": "image:multi-storage",
+        "change_kind": "new",
+        "tier": "auto",
+        "rule": "image-same-model"
+      },
+      {
+        "target": "image:natural",
+        "change_kind": "new",
+        "tier": "auto",
+        "rule": "image-same-model"
+      },
+      {
+        "target": "image:petrol-front",
+        "change_kind": "new",
+        "tier": "auto",
+        "rule": "image-same-model"
+      },
+      {
+        "target": "image:squash-corn",
+        "change_kind": "new",
+        "tier": "auto",
+        "rule": "image-same-model"
+      },
+      {
+        "target": "image:taupe",
+        "change_kind": "new",
+        "tier": "auto",
+        "rule": "image-same-model"
+      },
+      {
+        "target": "image:wbg-0000-ax37xc-wet-bar",
+        "change_kind": "new",
+        "tier": "auto",
+        "rule": "image-same-model"
+      },
+      {
+        "target": "image:wbg-0001-ax37xc-usofa",
+        "change_kind": "new",
+        "tier": "auto",
+        "rule": "image-same-model"
+      },
+      {
+        "target": "image:wbg-0002-ax37xc-usofa-table",
+        "change_kind": "new",
+        "tier": "auto",
+        "rule": "image-same-model"
+      },
+      {
+        "target": "image:wbg-0003-ax37xc-open-aft",
+        "change_kind": "new",
+        "tier": "auto",
+        "rule": "image-same-model"
+      },
+      {
+        "target": "image:wbg-0006-ax37xc-aft-cabin",
+        "change_kind": "new",
+        "tier": "auto",
+        "rule": "image-same-model"
+      },
+      {
+        "target": "video:axopar-37-xc-webloop",
+        "change_kind": "new",
+        "tier": "auto",
+        "rule": "video-unverified"
+      },
+      {
+        "target": "video:walkthrough-of-the-axopar-37-xc-cross-cabin-mediterrana-edition",
+        "change_kind": "new",
+        "tier": "auto",
+        "rule": "video-unverified"
+      },
+      {
+        "target": "video:reaching-new-heights",
+        "change_kind": "new",
+        "tier": "auto",
+        "rule": "video-unverified"
+      },
+      {
+        "target": "video:midnight-serenity",
+        "change_kind": "new",
+        "tier": "auto",
+        "rule": "video-unverified"
+      },
+      {
+        "target": "video:lighthouse-island",
+        "change_kind": "new",
+        "tier": "auto",
+        "rule": "video-unverified"
+      },
+      {
+        "target": "video:timeless-moments",
+        "change_kind": "new",
+        "tier": "auto",
+        "rule": "video-unverified"
+      },
+      {
+        "target": "video:sharing-moments",
+        "change_kind": "new",
+        "tier": "auto",
+        "rule": "video-unverified"
+      },
+      {
+        "target": "video:live-your-adventure",
+        "change_kind": "new",
+        "tier": "auto",
+        "rule": "video-unverified"
+      },
+      {
+        "target": "video:nordic-crayfish-party",
+        "change_kind": "new",
+        "tier": "auto",
+        "rule": "video-unverified"
+      },
+      {
+        "target": "video:a-kite-surfer-s-kick",
+        "change_kind": "new",
+        "tier": "auto",
+        "rule": "video-unverified"
+      },
+      {
+        "target": "video:fishing-with-friends",
+        "change_kind": "new",
+        "tier": "auto",
+        "rule": "video-unverified"
+      },
+      {
+        "target": "video:get-into-gear-on-the-high-coast-trails",
+        "change_kind": "new",
+        "tier": "auto",
+        "rule": "video-unverified"
+      }
+    ]
+  }
+}

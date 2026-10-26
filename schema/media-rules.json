@@ -1,0 +1,101 @@
+{
+  "_doc": "Reglas de medios compartidas entre el motor (python -m oceanic) y el administrador del portal. Fuente única: si cambia una regla, cambia este archivo y sube schema_version.",
+  "schema_version": "1.0.0",
+  "categories": [
+    { "key": "HERO", "folder": "hero", "label_es": "portada", "alt_label_es": "vista principal" },
+    { "key": "EXTERIOR", "folder": "exterior", "label_es": "exterior", "alt_label_es": "exterior" },
+    { "key": "INTERIOR", "folder": "interior", "label_es": "interior", "alt_label_es": "interior" },
+    { "key": "COCKPIT", "folder": "cockpit", "label_es": "cockpit", "alt_label_es": "cockpit" },
+    { "key": "CABIN", "folder": "cabin", "label_es": "camarote", "alt_label_es": "camarote" },
+    { "key": "HELM", "folder": "helm", "label_es": "puesto de mando", "alt_label_es": "puesto de mando" },
+    { "key": "DETAIL", "folder": "detail", "label_es": "detalle", "alt_label_es": "detalle" },
+    { "key": "UNDERWAY", "folder": "underway", "label_es": "navegando", "alt_label_es": "navegando" },
+    { "key": "PLANS", "folder": "plans", "label_es": "planos", "alt_label_es": "planos" },
+    { "key": "OTHER", "folder": "other", "label_es": "galería", "alt_label_es": "otra vista" }
+  ],
+  "formats": {
+    "input": ["jpeg", "png", "webp"],
+    "output": "webp"
+  },
+  "dimensions": {
+    "max_long_edge_px": { "hero": 2560, "default": 1600 },
+    "hero_definition": "Cuenta como hero toda imagen con hero_rank no nulo (portada candidata, en cualquier categoría: en el 37 XC las 5 candidatas están en EXTERIOR o UNDERWAY) y toda imagen de la categoría HERO. El resto usa el máximo default.",
+    "upscale": false
+  },
+  "webp": { "quality": 75, "method": 6, "keep_alpha": true },
+  "patterns": {
+    "slug": "^[a-z0-9]+(-[a-z0-9]+)*$",
+    "image_id": "^[a-z0-9]+(-[a-z0-9]+)*$",
+    "image_id_max_length": 120,
+    "file_name": "^[a-z0-9]+(-[a-z0-9]+)*(-[0-9a-f]{8})?\\.webp$",
+    "slug_rules": "minúsculas, letras y números separados por guion; '+' se escribe 'plus'; sin acentos"
+  },
+  "duplicates": {
+    "rule": "Dentro del mismo modelo (o aviso de usados), dos imágenes con el mismo sha256 del archivo original son duplicadas: se conserva la primera y las demás quedan DUPLICATE_OF <id> sin subirse.",
+    "hash": "sha256"
+  },
+  "r2": {
+    "key_patterns": {
+      "library": "{marca}/{modelo}/{categoria}/{id}-{sha256_8}.webp",
+      "usados": "usados/{slug}/{categoria}/{id}-{sha256_8}.webp"
+    },
+    "placeholders": {
+      "marca": "nombre de carpeta de la marca (slug)",
+      "modelo": "nombre de carpeta del modelo (slug)",
+      "slug": "slug del aviso de usados",
+      "categoria": "campo 'folder' de la categoría (minúsculas)",
+      "id": "id de la imagen (patterns.image_id)",
+      "sha256_8": "primeros 8 caracteres hex del sha256 del archivo WebP final que se sube"
+    },
+    "headers": {
+      "Content-Type": "image/webp",
+      "Cache-Control": "public, max-age=31536000, immutable"
+    },
+    "immutable": true,
+    "metadata": { "sha256": "sha256 completo del archivo subido (x-amz-meta-sha256)" }
+  },
+  "alt_text": {
+    "format_es": "<modelo>, <alt_label_es>",
+    "model": "nombre del modelo tal como está en specifications.json › model.model (sin marca)",
+    "category": "alt_label_es de la categoría de la imagen (distinto de label_es solo en HERO y OTHER)",
+    "example": "Antares 11 Coupe, exterior",
+    "note": "Determinista: no se inventan descripciones. label_es es para la interfaz del administrador; alt_label_es solo para el texto alternativo. El administrador puede editar el alt de una imagen concreta; cambiar alt_label_es solo cambia el alt al reexportar (no pisa ediciones por imagen)."
+  },
+  "test_vectors": [
+    {
+      "name": "clave de biblioteca",
+      "input": { "marca": "beneteau", "modelo": "antares-11-coupe", "categoria": "EXTERIOR", "id": "antares-11-coupe-header", "sha256": "5f1c2a9e0000000000000000000000000000000000000000000000000000abcd" },
+      "expect_key": "beneteau/antares-11-coupe/exterior/antares-11-coupe-header-5f1c2a9e.webp"
+    },
+    {
+      "name": "clave de usados",
+      "input": { "slug": "axopar-28-2019", "categoria": "CABIN", "id": "camarote-proa", "sha256": "a0b1c2d3e4f5000000000000000000000000000000000000000000000000ffff" },
+      "expect_key": "usados/axopar-28-2019/cabin/camarote-proa-a0b1c2d3.webp"
+    },
+    { "name": "id de imagen real más largo (82)", "input": "axopar-38-cross-top-brabus-performance-line-glacier-blue-d1-drone-photo-dji-2026-5", "expect_valid_image_id": true },
+    { "name": "id de imagen de 120", "input": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa", "expect_valid_image_id": true },
+    { "name": "id de imagen de 121", "input": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa", "expect_valid_image_id": false },
+    { "name": "id de imagen con mayúsculas", "input": "Foto-1", "expect_valid_image_id": false },
+    { "name": "slug válido", "input": "xo-explr-10-sport-plus", "expect_valid": true },
+    { "name": "slug con +", "input": "xo-explr-10-sport+", "expect_valid": false },
+    { "name": "slug con mayúsculas", "input": "Axopar-37", "expect_valid": false },
+    {
+      "name": "alt",
+      "input": { "modelo": "Antares 11 Coupe", "categoria": "EXTERIOR" },
+      "expect_alt": "Antares 11 Coupe, exterior"
+    },
+    { "name": "máximo: portada candidata en EXTERIOR", "input": { "categoria": "EXTERIOR", "hero_rank": 1 }, "expect_max_edge": 2560 },
+    { "name": "máximo: categoría HERO sin rank", "input": { "categoria": "HERO", "hero_rank": null }, "expect_max_edge": 2560 },
+    { "name": "máximo: imagen normal", "input": { "categoria": "EXTERIOR", "hero_rank": null }, "expect_max_edge": 1600 },
+    {
+      "name": "alt portada",
+      "input": { "modelo": "Antares 11 Coupe", "categoria": "HERO" },
+      "expect_alt": "Antares 11 Coupe, vista principal"
+    },
+    {
+      "name": "alt otra vista",
+      "input": { "modelo": "Antares 11 Coupe", "categoria": "OTHER" },
+      "expect_alt": "Antares 11 Coupe, otra vista"
+    }
+  ]
+}

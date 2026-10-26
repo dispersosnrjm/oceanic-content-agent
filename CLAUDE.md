@@ -89,13 +89,31 @@ python -m oceanic build <marca> <extract.json>...  # axopar | beneteau | lagoon 
 python -m oceanic media <modelo> --cdn               # copias web desde el CDN (rápido, sin bajar originales)
 python -m oceanic media <modelo> --from-dir=<carpeta> # importa originales bajados a mano en el navegador (webs con captcha anti-bots)
 python -m oceanic optimize <carpeta>                 # recomprime copias web ya bajadas al estándar actual (sin re-descargar)
-python -m oceanic zip <dir>...                       # ZIP en dist/ para subir a Drive
+python -m oceanic zip <dir>...                       # ZIP en dist/ (solo para los usados; las imágenes de la biblioteca van a R2)
+python -m oceanic media <modelo> --restore           # repone solo las copias web que faltan o están corruptas, desde la web oficial (no toca `original`; omite Solaris)
+python -m oceanic publish-r2 [modelo|marca|--all] [--apply] [--verify-remote]  # sube las copias web a R2 (simulación por defecto; nunca borra)
+python -m oceanic export-portal [--out=<carpeta>] [--preview-keys]             # portal.json por modelo, brand.json e index.json (docs/EXPORT_PORTAL.md)
+python -m oceanic publish-export [--out=<carpeta>] [--apply] [--verify-images] # sube el export a R2: catalog/{schema_version}/{hash}/... y catalog/latest.json
 python -m unittest discover -s tests   # pruebas
 ```
 
 **Dónde vive cada cosa:** GitHub guarda motor, textos, datos e inventarios (`images.json` con URL del original).
-Las copias web de imágenes NO se versionan (`.gitignore`): van en el ZIP que el usuario sube a mano a Drive
-(`python -m oceanic zip`). Se pueden regenerar en cualquier momento con `media --cdn`.
+Las copias web de imágenes NO se versionan (`.gitignore`): **R2 es el destino único** (`publish-r2`); el registro de lo subido
+(`05_MULTIMEDIA/IMAGENES/r2.json`: clave, sha256, fecha; sin cuenta ni bucket) sí se versiona, y el paquete curated lo guarda
+fuera de su carpeta (`biblioteca/<marca>/_r2/<modelo>.json`). Las copias se regeneran con `media --restore`. `zip` queda solo para
+los usados. El portal importa siempre desde R2, nunca desde carpetas locales. Operación de la carga: `docs/OPERACION_R2.md`.
+Este repositorio entrega contenido y candidatos; el portal (administrador con base de datos) decide qué se publica: aprobación,
+portada, titular y autorización de cada marca no se registran aquí.
+
+**Contrato con el portal (versionado, fuente única):** `schema/media-rules.json` (categorías, formatos, dimensiones, calidad,
+patrones de nombre y de clave R2, también para usados), `schema/portal.schema.json` (formato del export),
+`schema/publish-rules.json` (niveles de publicación; los aprueban personas, no el agente; el export solo informa el nivel),
+`schema/text-lint.json` (lint de texto) y `docs/EXPORT_PORTAL.md`. Un cambio de contrato sube `schema_version`.
+
+**Credenciales (repositorio público):** solo por variables de entorno de la sesión (`R2_ACCOUNT_ID`, `R2_ACCESS_KEY_ID`,
+`R2_SECRET_ACCESS_KEY`, `R2_BUCKET`) o secretos del repositorio. Nunca en archivos, logs, mensajes de error ni commits. El motor
+nunca borra objetos en R2; `catalog/latest.json` es la única clave que se sobrescribe (excepción documentada) y `publish-export`
+se niega a subir un export con `preview: true`.
 
 **Generación masiva (Axopar):** `tools/oceanic/builders/axopar.py` aplica todas las reglas de este archivo. Los textos
 OCEANIC CONTENT salen de `drafts/axopar/<slug>.json` (redactados a mano, solo con lo que dice la web); sin draft,

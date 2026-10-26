@@ -1,0 +1,20 @@
+{
+  "_doc": "Reglas de lint de texto para el contenido Oceanic. Formato: {\"version\": 1, \"rules\": [...]}. Cada regla tiene: \"id\" (único), \"type\" (\"literal\" = texto exacto, \"regex\" = expresión regular de Python), \"pattern\", \"flags\" (opcional, solo regex: letras i, m, s, x; p. ej. \"i\" ignora mayúsculas), \"severity\" (\"error\" bloquea; \"warn\" solo avisa), \"message\" (texto para el editor) y \"scope\" (opcional: lista con valores de texts, headlines, short_descriptions, brand; si falta, la regla aplica a todos los ámbitos). Para añadir un patrón prohibido basta agregar una regla a la lista; no hace falta tocar código. Las reglas se evalúan línea por línea.",
+  "version": 1,
+  "rules": [
+    {
+      "id": "em-dash",
+      "type": "literal",
+      "pattern": "—",
+      "severity": "error",
+      "message": "No usar rayas largas"
+    },
+    {
+      "id": "internal-note-residue",
+      "type": "regex",
+      "pattern": "\\*\\([^*\\n]*\\)\\*",
+      "severity": "error",
+      "message": "Nota interna sin quitar"
+    }
+  ]
+}

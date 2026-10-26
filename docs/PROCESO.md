@@ -59,6 +59,13 @@ distintos, CONFLICT con un solo valor, campo crítico ausente, fuente no registr
 - `videos.json` y `documents.json`.
 - Descarga, cuando la red lo permita: `python -m oceanic media ../biblioteca/<marca>/<modelo>`. Guarda los archivos
   por categoría y registra sha256, formato y dimensiones reales. Omite duplicados y lo que no sea `THIS_MODEL`.
+- Reponer copias web que falten (clon nuevo o carpetas vacías): `python -m oceanic media <modelo> --restore`. Repone solo lo
+  ausente o corrupto desde la web oficial, sin tocar `original`; omite Solaris (captcha: `--from-dir`). Un captcha deja la
+  imagen como `requires_manual_download` con la URL exacta.
+- Publicar a R2 (destino único de las copias web): `python -m oceanic publish-r2 <marca>` (simulación) y `--apply`; después
+  `--verify-remote`. Ver `docs/OPERACION_R2.md`.
+- Export para el portal: `python -m oceanic export-portal` y `publish-export` (ver `docs/EXPORT_PORTAL.md`). El orden es
+  copias web → `publish-r2` → `export-portal` (sin `--preview-keys`) → `publish-export`.
 
 ## 7. Readiness y cierre
 

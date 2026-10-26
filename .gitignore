@@ -10,3 +10,6 @@ dist/*.zip
 
 # Fotos de usados: van en el ZIP, no en git
 usados/*/fotos/
+
+# Salida del export para el portal (se regenera con python -m oceanic export-portal)
+dist/portal/

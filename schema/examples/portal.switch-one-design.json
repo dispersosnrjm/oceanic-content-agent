@@ -1,0 +1,524 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-10-19T12:00:00Z",
+  "identity": {
+    "brand": {
+      "slug": "switch",
+      "name": "Switch"
+    },
+    "model": "Switch One Design",
+    "slug": "switch-one-design",
+    "boat_type": "vela",
+    "model_year": null,
+    "range": "One Design",
+    "variant": "Switch One Design",
+    "content_hash": "535499defd72799f6e0486519b69ec139b04bbdc03958b07d7218ec041d9b031",
+    "source_url": "https://www.switchonedesign.com/"
+  },
+  "texts": {
+    "es": {
+      "introduccion": {
+        "text": "Con el Switch One Design cualquier regatista puede disfrutar de la emoción del foil en un dinghy íntegramente de composite de carbono, de última generación, y competir en una clase one-design de alto rendimiento.",
+        "draft_marker_removed": true,
+        "internal_notes_removed": 0
+      },
+      "diseno": {
+        "text": "Una sola plataforma con tres aparejos y tres categorías (juvenil, femenina y masculina). Cambiando solo la base del mástil se pasa de la vela de 6,5 a la de 7,5 o 8,5; la parte alta y media del mástil son comunes, así que un regatista juvenil puede subir de aparejo con el mismo casco, foils, botavara y jarcia.",
+        "draft_marker_removed": true,
+        "internal_notes_removed": 0
+      },
+      "performance": {
+        "text": "Más de 19 nudos en ceñida, más de 30 nudos en popa y despegue con unos 6 nudos de viento.",
+        "draft_marker_removed": true,
+        "internal_notes_removed": 0
+      },
+      "ingenieria": {
+        "text": "Casco de laminado carbono-epoxi con núcleo de PVC y gelcoat fino, fácil de reparar. Alas de tres conjuntos con piezas preimpregnadas y tubos de carbono CST. Mástil de carbono en tres piezas, botavara de carbono curvada 15° y foils de preimpregnado de alto y medio módulo. Moldes y utillaje CNC y control de calidad de cada componente.",
+        "draft_marker_removed": true,
+        "internal_notes_removed": 0
+      },
+      "experiencia_a_bordo": {
+        "text": "Listo para regatear desde el primer día: cabos empalmados y controles pre-reglados. Solo 4 controles (Cunningham, contra, altura y cabeceo). Se desmonta fácilmente para guardarlo o viajar; mástil, botavara y vela pueden ir en avión.",
+        "draft_marker_removed": true,
+        "internal_notes_removed": 0
+      }
+    }
+  },
+  "candidates": {
+    "headlines": {
+      "es": [
+        "Únete a la revolución del foil.",
+        "Despega con 6 nudos.",
+        "Una plataforma, tres aparejos."
+      ]
+    },
+    "short_descriptions": {
+      "es": [
+        "Foiler one-design de carbono de 3,9 m y unos 25 kg de plataforma, con tres aparejos de 6,5, 7,5 y 8,4 m² y más de 30 nudos en popa."
+      ]
+    },
+    "hero_images": [
+      {
+        "image_id": "812873-1cf5bc9083984895aafc6431b91c023df000",
+        "hero_rank": 1,
+        "reason": "Exterior horizontal del modelo; Solo en la página del modelo (sección 'Página home'). Categoría EXTERIOR por revisión visual (2026-10-01).",
+        "available": true,
+        "key": "switch/switch-one-design/exterior/812873-1cf5bc9083984895aafc6431b91c023df000-029ced3a.webp"
+      },
+      {
+        "image_id": "812873-aca22ddcd50f4870854d27e2dbf9aa09-mv2",
+        "hero_rank": 2,
+        "reason": "Exterior horizontal del modelo; Solo en la página del modelo (sección 'Página home'). Categoría UNDERWAY por revisión visual (2026-10-01).",
+        "available": true,
+        "key": "switch/switch-one-design/underway/812873-aca22ddcd50f4870854d27e2dbf9aa09-mv2-621e74c8.webp"
+      },
+      {
+        "image_id": "812873-6c212ac952ef4f96909807cf5d4809dd-mv2",
+        "hero_rank": 3,
+        "reason": "Exterior horizontal del modelo; Solo en la página del modelo (sección 'Página home'). Categoría UNDERWAY por revisión visual (2026-10-01).",
+        "available": true,
+        "key": "switch/switch-one-design/underway/812873-6c212ac952ef4f96909807cf5d4809dd-mv2-be4c21d6.webp"
+      }
+    ]
+  },
+  "specs": [
+    {
+      "key": "eslora_total",
+      "label": {
+        "es": "Eslora Total"
+      },
+      "display_value": "3,90 m",
+      "unit": "m",
+      "model_year": null,
+      "source": {
+        "id": "S1",
+        "url": "https://www.switchonedesign.com/",
+        "accessed_at": "2026-10-01"
+      }
+    },
+    {
+      "key": "manga_casco",
+      "label": {
+        "es": "Manga Casco"
+      },
+      "display_value": "2,25 m",
+      "unit": "m",
+      "model_year": null,
+      "source": {
+        "id": "S1",
+        "url": "https://www.switchonedesign.com/",
+        "accessed_at": "2026-10-01"
+      }
+    },
+    {
+      "key": "desplazamiento",
+      "label": {
+        "es": "Desplazamiento en rosca"
+      },
+      "display_value": "25 kg (aprox.)",
+      "unit": "kg",
+      "model_year": null,
+      "source": {
+        "id": "S1",
+        "url": "https://www.switchonedesign.com/",
+        "accessed_at": "2026-10-01"
+      }
+    },
+    {
+      "key": "superficie_velica",
+      "label": {
+        "es": "Superficie vélica"
+      },
+      "display_value": "6,5 / 7,5 / 8,4 m² (según aparejo)",
+      "unit": "m²",
+      "model_year": null,
+      "source": {
+        "id": "S1",
+        "url": "https://www.switchonedesign.com/",
+        "accessed_at": "2026-10-01"
+      }
+    },
+    {
+      "key": "velocidad_maxima",
+      "label": {
+        "es": "Velocidad máxima"
+      },
+      "display_value": "> 30 nudos (en popa)",
+      "unit": "nudos",
+      "model_year": null,
+      "source": {
+        "id": "S1",
+        "url": "https://www.switchonedesign.com/",
+        "accessed_at": "2026-10-01"
+      }
+    },
+    {
+      "key": "construccion",
+      "label": {
+        "es": "Construcción"
+      },
+      "display_value": "Fibra de carbono - epoxi",
+      "unit": null,
+      "model_year": null,
+      "source": {
+        "id": "S3",
+        "url": "https://www.switchonedesign.com/technology",
+        "accessed_at": "2026-10-01"
+      }
+    }
+  ],
+  "features": null,
+  "equipment": {
+    "standard": null,
+    "optional": null,
+    "packages": null,
+    "configurations": null
+  },
+  "images": [
+    {
+      "id": "812873-1cf5bc9083984895aafc6431b91c023df000",
+      "category": "EXTERIOR",
+      "key": "switch/switch-one-design/exterior/812873-1cf5bc9083984895aafc6431b91c023df000-029ced3a.webp",
+      "width": 1920,
+      "height": 1080,
+      "hero_rank": 1,
+      "copyright_notice": null,
+      "alt": {
+        "es": "Switch One Design, exterior"
+      }
+    },
+    {
+      "id": "812873-aca22ddcd50f4870854d27e2dbf9aa09-mv2",
+      "category": "UNDERWAY",
+      "key": "switch/switch-one-design/underway/812873-aca22ddcd50f4870854d27e2dbf9aa09-mv2-621e74c8.webp",
+      "width": 1184,
+      "height": 844,
+      "hero_rank": 2,
+      "copyright_notice": null,
+      "alt": {
+        "es": "Switch One Design, navegando"
+      }
+    },
+    {
+      "id": "812873-6c212ac952ef4f96909807cf5d4809dd-mv2",
+      "category": "UNDERWAY",
+      "key": "switch/switch-one-design/underway/812873-6c212ac952ef4f96909807cf5d4809dd-mv2-be4c21d6.webp",
+      "width": 1637,
+      "height": 973,
+      "hero_rank": 3,
+      "copyright_notice": null,
+      "alt": {
+        "es": "Switch One Design, navegando"
+      }
+    },
+    {
+      "id": "812873-0f0c080cfb13486b9509a61014be0d6d-mv2",
+      "category": "DETAIL",
+      "key": "switch/switch-one-design/detail/812873-0f0c080cfb13486b9509a61014be0d6d-mv2-f61bbcbd.webp",
+      "width": 1080,
+      "height": 1080,
+      "hero_rank": null,
+      "copyright_notice": null,
+      "alt": {
+        "es": "Switch One Design, detalle"
+      }
+    },
+    {
+      "id": "812873-0fe4d663964f489b9368382abeea8cbd-mv2",
+      "category": "UNDERWAY",
+      "key": "switch/switch-one-design/underway/812873-0fe4d663964f489b9368382abeea8cbd-mv2-b95dee1d.webp",
+      "width": 1080,
+      "height": 1080,
+      "hero_rank": null,
+      "copyright_notice": null,
+      "alt": {
+        "es": "Switch One Design, navegando"
+      }
+    },
+    {
+      "id": "812873-3fd20a857ade40fe9a635948e7fcb737-mv2",
+      "category": "DETAIL",
+      "key": "switch/switch-one-design/detail/812873-3fd20a857ade40fe9a635948e7fcb737-mv2-1a07d07b.webp",
+      "width": 1600,
+      "height": 1046,
+      "hero_rank": null,
+      "copyright_notice": null,
+      "alt": {
+        "es": "Switch One Design, detalle"
+      }
+    },
+    {
+      "id": "812873-5e70edeeb8d04cb7aaab473d1cd2c789-mv2",
+      "category": "UNDERWAY",
+      "key": "switch/switch-one-design/underway/812873-5e70edeeb8d04cb7aaab473d1cd2c789-mv2-deaea901.webp",
+      "width": 1600,
+      "height": 694,
+      "hero_rank": null,
+      "copyright_notice": null,
+      "alt": {
+        "es": "Switch One Design, navegando"
+      }
+    },
+    {
+      "id": "812873-6d4bdc5197e34aa9ade27be8d5f49a04-mv2",
+      "category": "EXTERIOR",
+      "key": "switch/switch-one-design/exterior/812873-6d4bdc5197e34aa9ade27be8d5f49a04-mv2-682b7429.webp",
+      "width": 918,
+      "height": 1600,
+      "hero_rank": null,
+      "copyright_notice": null,
+      "alt": {
+        "es": "Switch One Design, exterior"
+      }
+    },
+    {
+      "id": "812873-884c8293d1aa4909b4fc6f79989f366c-mv2",
+      "category": "DETAIL",
+      "key": "switch/switch-one-design/detail/812873-884c8293d1aa4909b4fc6f79989f366c-mv2-e652e778.webp",
+      "width": 1080,
+      "height": 1080,
+      "hero_rank": null,
+      "copyright_notice": null,
+      "alt": {
+        "es": "Switch One Design, detalle"
+      }
+    },
+    {
+      "id": "812873-9eea8b64eac04c968f10f12f765e1ffb-mv2",
+      "category": "UNDERWAY",
+      "key": "switch/switch-one-design/underway/812873-9eea8b64eac04c968f10f12f765e1ffb-mv2-1fb86cd1.webp",
+      "width": 1080,
+      "height": 1080,
+      "hero_rank": null,
+      "copyright_notice": null,
+      "alt": {
+        "es": "Switch One Design, navegando"
+      }
+    },
+    {
+      "id": "812873-c690e0eaafa44136b9ed16255613a426-mv2",
+      "category": "DETAIL",
+      "key": "switch/switch-one-design/detail/812873-c690e0eaafa44136b9ed16255613a426-mv2-b74596a9.webp",
+      "width": 1600,
+      "height": 759,
+      "hero_rank": null,
+      "copyright_notice": null,
+      "alt": {
+        "es": "Switch One Design, detalle"
+      }
+    },
+    {
+      "id": "812873-f32d3f6f9b014643ae131db48931ff79-mv2",
+      "category": "UNDERWAY",
+      "key": "switch/switch-one-design/underway/812873-f32d3f6f9b014643ae131db48931ff79-mv2-e1ed61be.webp",
+      "width": 1600,
+      "height": 694,
+      "hero_rank": null,
+      "copyright_notice": null,
+      "alt": {
+        "es": "Switch One Design, navegando"
+      }
+    }
+  ],
+  "videos": [],
+  "documents": [],
+  "readiness": {
+    "content_status": "RED",
+    "completeness_pct": 47,
+    "critical_missing": [
+      "tabla_tecnica"
+    ],
+    "unresolved_conflicts": [],
+    "missing": [
+      {
+        "item": "tabla_tecnica",
+        "group": "DATOS",
+        "status": "MISSING",
+        "detail": "tabla base 4/9 verificada · faltan: camarotes, capacidad_combustible, capacidad_agua_dulce, certificacion, potencia_motor_auxiliar"
+      },
+      {
+        "item": "especificaciones",
+        "group": "DATOS",
+        "status": "PARTIAL",
+        "detail": "6 campos con fuente"
+      },
+      {
+        "item": "caracteristicas",
+        "group": "DATOS",
+        "status": "MISSING",
+        "detail": "no existe"
+      },
+      {
+        "item": "equipamiento",
+        "group": "DATOS",
+        "status": "MISSING",
+        "detail": "sin standard/optional"
+      },
+      {
+        "item": "diseno",
+        "group": "EDITORIAL",
+        "status": "PARTIAL",
+        "detail": "10 palabras fuente"
+      },
+      {
+        "item": "experiencia",
+        "group": "EDITORIAL",
+        "status": "PARTIAL",
+        "detail": "10 palabras fuente"
+      },
+      {
+        "item": "performance",
+        "group": "EDITORIAL",
+        "status": "PARTIAL",
+        "detail": "10 palabras fuente"
+      },
+      {
+        "item": "interior",
+        "group": "MULTIMEDIA",
+        "status": "MISSING",
+        "detail": "0 en inventario (mín. 2) · descargadas 12/12"
+      },
+      {
+        "item": "video",
+        "group": "MULTIMEDIA",
+        "status": "MISSING",
+        "detail": "0 videos del modelo"
+      },
+      {
+        "item": "brochure",
+        "group": "DOCUMENTOS",
+        "status": "MISSING",
+        "detail": "no encontrado en fuentes oficiales"
+      },
+      {
+        "item": "technical",
+        "group": "DOCUMENTOS",
+        "status": "MISSING",
+        "detail": "no encontrado en fuentes oficiales"
+      },
+      {
+        "item": "manual",
+        "group": "DOCUMENTOS",
+        "status": "PARTIAL",
+        "detail": "1 identificado(s) · requiere revisión"
+      }
+    ]
+  },
+  "lint_ok": true,
+  "lint_violations": [],
+  "publish_tier": {
+    "overall": "review",
+    "mode": "static",
+    "rules_version": "1.0.0",
+    "changes": [
+      {
+        "target": "model",
+        "change_kind": "new",
+        "tier": "review",
+        "rule": "new-model"
+      },
+      {
+        "target": "headlines",
+        "change_kind": "new",
+        "tier": "review",
+        "rule": "headline"
+      },
+      {
+        "target": "short_descriptions",
+        "change_kind": "new",
+        "tier": "review",
+        "rule": "editorial-text"
+      },
+      {
+        "target": "text:introduccion",
+        "change_kind": "new",
+        "tier": "review",
+        "rule": "editorial-text"
+      },
+      {
+        "target": "text:diseno",
+        "change_kind": "new",
+        "tier": "review",
+        "rule": "editorial-text"
+      },
+      {
+        "target": "text:performance",
+        "change_kind": "new",
+        "tier": "review",
+        "rule": "editorial-text"
+      },
+      {
+        "target": "text:ingenieria",
+        "change_kind": "new",
+        "tier": "review",
+        "rule": "editorial-text"
+      },
+      {
+        "target": "text:experiencia_a_bordo",
+        "change_kind": "new",
+        "tier": "review",
+        "rule": "editorial-text"
+      },
+      {
+        "target": "hero",
+        "change_kind": "new",
+        "tier": "review",
+        "rule": "hero-image"
+      },
+      {
+        "target": "image:812873-0f0c080cfb13486b9509a61014be0d6d-mv2",
+        "change_kind": "new",
+        "tier": "auto",
+        "rule": "image-same-model"
+      },
+      {
+        "target": "image:812873-0fe4d663964f489b9368382abeea8cbd-mv2",
+        "change_kind": "new",
+        "tier": "auto",
+        "rule": "image-same-model"
+      },
+      {
+        "target": "image:812873-3fd20a857ade40fe9a635948e7fcb737-mv2",
+        "change_kind": "new",
+        "tier": "auto",
+        "rule": "image-same-model"
+      },
+      {
+        "target": "image:812873-5e70edeeb8d04cb7aaab473d1cd2c789-mv2",
+        "change_kind": "new",
+        "tier": "auto",
+        "rule": "image-same-model"
+      },
+      {
+        "target": "image:812873-6d4bdc5197e34aa9ade27be8d5f49a04-mv2",
+        "change_kind": "new",
+        "tier": "auto",
+        "rule": "image-same-model"
+      },
+      {
+        "target": "image:812873-884c8293d1aa4909b4fc6f79989f366c-mv2",
+        "change_kind": "new",
+        "tier": "auto",
+        "rule": "image-same-model"
+      },
+      {
+        "target": "image:812873-9eea8b64eac04c968f10f12f765e1ffb-mv2",
+        "change_kind": "new",
+        "tier": "auto",
+        "rule": "image-same-model"
+      },
+      {
+        "target": "image:812873-c690e0eaafa44136b9ed16255613a426-mv2",
+        "change_kind": "new",
+        "tier": "auto",
+        "rule": "image-same-model"
+      },
+      {
+        "target": "image:812873-f32d3f6f9b014643ae131db48931ff79-mv2",
+        "change_kind": "new",
+        "tier": "auto",
+        "rule": "image-same-model"
+      }
+    ]
+  }
+}

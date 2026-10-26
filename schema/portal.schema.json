@@ -1,0 +1,401 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://oceanic.cl/schema/portal.schema.json",
+  "title": "Oceanic Content Engine · portal.json",
+  "description": "Contrato de exportación para el portal. El documento raíz es portal.json (un modelo); $defs.brand valida brand.json y $defs.index valida index.json. Todo texto visible va por idioma ({ \"es\": ... }); hoy solo existe es.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "generated_at", "identity", "texts", "candidates", "specs", "features", "equipment",
+               "images", "videos", "documents", "readiness", "lint_ok", "lint_violations", "publish_tier"],
+  "properties": {
+    "schema_version": { "$ref": "#/$defs/semver" },
+    "generated_at": { "type": "string", "format": "date-time" },
+    "identity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["brand", "model", "slug", "boat_type", "model_year", "content_hash", "source_url"],
+      "properties": {
+        "brand": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["slug", "name"],
+          "properties": { "slug": { "$ref": "#/$defs/slug" }, "name": { "type": "string", "minLength": 1 } }
+        },
+        "model": { "type": "string", "minLength": 1, "description": "Nombre del modelo (specifications.json › model.model), sin marca." },
+        "slug": { "$ref": "#/$defs/slug" },
+        "boat_type": { "enum": ["catamaran_motor", "catamaran_vela", "motor", "motor_electrico", "vela"] },
+        "model_year": { "type": ["string", "null"], "description": "Tal como lo declara la web oficial; null si el sitio no lo declara (el export no emite 'NO DECLARADO')." },
+        "range": { "type": ["string", "null"] },
+        "variant": { "type": ["string", "null"] },
+        "content_hash": { "$ref": "#/$defs/sha256", "description": "sha256 del JSON canónico del modelo sin marcas de tiempo; cambia solo si cambia el contenido." },
+        "source_url": { "type": "string", "format": "uri" }
+      }
+    },
+    "texts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["es"],
+      "patternProperties": { "^[a-z]{2}$": { "$ref": "#/$defs/text_set" } }
+    },
+    "candidates": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["headlines", "short_descriptions", "hero_images"],
+      "properties": {
+        "headlines": { "$ref": "#/$defs/string_list_by_lang" },
+        "short_descriptions": { "$ref": "#/$defs/string_list_by_lang" },
+        "hero_images": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["image_id", "hero_rank", "reason", "available", "key"],
+            "properties": {
+              "image_id": { "$ref": "#/$defs/image_id" },
+              "hero_rank": { "type": ["integer", "null"], "minimum": 1 },
+              "reason": { "type": ["string", "null"], "description": "Motivo registrado en images.json (hero_reason)." },
+              "available": { "type": "boolean", "description": "true si la imagen está en images[] con archivo y clave R2." },
+              "key": { "type": ["string", "null"] }
+            }
+          }
+        }
+      }
+    },
+    "specs": {
+      "type": "array",
+      "description": "Solo campos VERIFIED.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["key", "label", "display_value", "unit", "model_year", "source"],
+        "properties": {
+          "key": { "type": "string", "pattern": "^[a-z0-9_]+$" },
+          "label": { "$ref": "#/$defs/i18n_string" },
+          "display_value": { "type": "string" },
+          "unit": { "type": ["string", "null"] },
+          "model_year": { "type": ["string", "null"], "description": "null si el sitio no lo declara." },
+          "source": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["id", "url", "accessed_at"],
+            "properties": {
+              "id": { "type": "string" },
+              "url": { "type": "string", "format": "uri" },
+              "accessed_at": { "type": "string", "format": "date" }
+            }
+          }
+        }
+      }
+    },
+    "features": { "$ref": "#/$defs/literal_block" },
+    "equipment": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["standard", "optional", "packages", "configurations"],
+      "properties": {
+        "standard": { "$ref": "#/$defs/literal_block" },
+        "optional": { "$ref": "#/$defs/literal_block" },
+        "packages": { "$ref": "#/$defs/literal_block" },
+        "configurations": { "$ref": "#/$defs/literal_block" }
+      }
+    },
+    "images": {
+      "type": "array",
+      "description": "Solo scope THIS_MODEL con archivo y clave R2.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "category", "key", "width", "height", "hero_rank", "copyright_notice", "alt"],
+        "properties": {
+          "id": { "$ref": "#/$defs/image_id" },
+          "category": { "enum": ["HERO", "EXTERIOR", "INTERIOR", "COCKPIT", "CABIN", "HELM", "DETAIL", "UNDERWAY", "PLANS", "OTHER"] },
+          "key": { "type": "string", "pattern": "^[a-z0-9-]+/[a-z0-9-]+/[a-z]+/[a-z0-9-]+-[0-9a-f]{8}\\.webp$", "description": "Clave R2 (media-rules.json › r2.key_patterns.library)." },
+          "width": { "type": "integer", "minimum": 1 },
+          "height": { "type": "integer", "minimum": 1 },
+          "hero_rank": { "type": ["integer", "null"], "minimum": 1 },
+          "copyright_notice": { "type": ["string", "null"] },
+          "alt": { "$ref": "#/$defs/i18n_string", "description": "Formato exacto '<modelo>, <categoría en español>'." }
+        }
+      }
+    },
+    "videos": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "title", "url", "host", "platform", "cover_image", "resolution", "third_party", "review_status", "alert"],
+        "properties": {
+          "id": { "type": "string" },
+          "title": { "type": "string" },
+          "url": { "type": "string", "format": "uri" },
+          "host": { "type": "string", "pattern": "^[a-z0-9.-]+$", "description": "Dominio de la URL del video (p. ej. media.ffycdn.net, www.youtube.com)." },
+          "platform": { "type": "string" },
+          "cover_image": { "type": ["string", "null"] },
+          "resolution": { "type": ["string", "null"], "description": "Para que el portal no reproduzca 4K automáticamente." },
+          "third_party": { "type": ["boolean", "null"], "description": "null = el inventario no trae la marca." },
+          "review_status": { "enum": ["verified", "unverified"] },
+          "alert": { "oneOf": [{ "type": "null" }, { "$ref": "#/$defs/alert" }] }
+        },
+        "allOf": [
+          {
+            "if": { "properties": { "third_party": { "const": null } } },
+            "then": { "properties": { "review_status": { "const": "unverified" }, "alert": { "$ref": "#/$defs/alert" } } }
+          },
+          {
+            "if": { "properties": { "third_party": { "type": "boolean" } } },
+            "then": { "properties": { "review_status": { "const": "verified" }, "alert": { "type": "null" } } }
+          }
+        ]
+      }
+    },
+    "documents": {
+      "type": "array",
+      "description": "Solo enlaces directos disponibles.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "title", "category", "url", "format"],
+        "properties": {
+          "id": { "type": "string" },
+          "title": { "type": "string" },
+          "category": { "enum": ["BROCHURES", "TECHNICAL", "MANUALS", "OTHER"] },
+          "url": { "type": "string", "format": "uri" },
+          "format": { "type": ["string", "null"] }
+        }
+      }
+    },
+    "readiness": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["content_status", "completeness_pct", "critical_missing", "unresolved_conflicts", "missing"],
+      "properties": {
+        "content_status": { "enum": ["RED", "YELLOW", "GREEN"] },
+        "completeness_pct": { "type": "integer", "minimum": 0, "maximum": 100 },
+        "critical_missing": { "type": "array", "items": { "type": "string" } },
+        "unresolved_conflicts": { "type": "array", "items": { "type": "string" } },
+        "missing": {
+          "type": "array",
+          "description": "Ítems de readiness que no están OK, con su detalle.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["item", "group", "status", "detail"],
+            "properties": {
+              "item": { "type": "string" },
+              "group": { "enum": ["DATOS", "EDITORIAL", "MULTIMEDIA", "DOCUMENTOS"] },
+              "status": { "enum": ["PARTIAL", "MISSING"] },
+              "detail": { "type": "string" }
+            }
+          }
+        }
+      }
+    },
+    "lint_ok": { "type": "boolean" },
+    "lint_violations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["scope", "section", "rule", "severity", "line", "excerpt"],
+        "properties": {
+          "scope": { "enum": ["texts", "headlines", "short_descriptions", "brand"] },
+          "section": { "type": "string" },
+          "rule": { "type": "string" },
+          "severity": { "enum": ["error", "warn"] },
+          "line": { "type": "integer", "minimum": 1 },
+          "excerpt": { "type": "string" }
+        }
+      }
+    },
+    "publish_tier": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["overall", "mode", "changes"],
+      "properties": {
+        "overall": { "enum": ["auto", "review", "blocked"], "description": "El más restrictivo entre los cambios. 'blocked' lo aplica el portal (marca sin autorización); el motor no lo emite hoy." },
+        "mode": { "enum": ["static"], "description": "Sin comparación contra línea base: todo es change_kind 'new'." },
+        "rules_version": { "$ref": "#/$defs/semver" },
+        "changes": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["target", "change_kind", "tier"],
+            "properties": {
+              "target": { "type": "string", "pattern": "^(model|text:[a-z_]+|headlines|short_descriptions|hero|image:[a-z0-9-]+|video:.+|spec:[a-z0-9_]+)$" },
+              "change_kind": { "enum": ["new", "changed", "unchanged"] },
+              "tier": { "enum": ["auto", "review", "blocked"] },
+              "rule": { "type": "string" },
+              "reason": { "type": "string", "description": "Motivo adicional para el revisor (p. ej. nota interna junto a una posible cifra calculada)." },
+              "previous_value": {}
+            }
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "semver": { "type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$" },
+    "sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+    "slug": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+    "image_id": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$", "maxLength": 120 },
+    "i18n_string": {
+      "type": "object",
+      "required": ["es"],
+      "patternProperties": { "^[a-z]{2}$": { "type": "string" } },
+      "additionalProperties": false
+    },
+    "string_list_by_lang": {
+      "type": "object",
+      "required": ["es"],
+      "patternProperties": { "^[a-z]{2}$": { "type": "array", "items": { "type": "string", "minLength": 1 } } },
+      "additionalProperties": false
+    },
+    "text_section": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["text", "draft_marker_removed", "internal_notes_removed"],
+      "properties": {
+        "text": {
+          "type": ["string", "null"],
+          "description": "Markdown simple (solo OCEANIC CONTENT), sin '>' de cita: ninguna línea empieza con '>'. Los subtítulos son líneas en negrita (**Subtítulo**) sin cita. null si no hay candidato.",
+          "pattern": "^(?!\\s*>)(?![\\s\\S]*\\n\\s*>)"
+        },
+        "draft_marker_removed": { "type": "boolean", "description": "true si se quitó una marca BORRADOR al limpiar la sección." },
+        "internal_notes_removed": { "type": "integer", "minimum": 0, "description": "Notas internas *( )* quitadas de la sección en el export." }
+      }
+    },
+    "text_set": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["introduccion", "diseno", "performance", "ingenieria", "experiencia_a_bordo"],
+      "properties": {
+        "introduccion": { "$ref": "#/$defs/text_section" },
+        "diseno": { "$ref": "#/$defs/text_section" },
+        "performance": { "$ref": "#/$defs/text_section" },
+        "ingenieria": { "$ref": "#/$defs/text_section" },
+        "experiencia_a_bordo": { "$ref": "#/$defs/text_section" }
+      }
+    },
+    "literal_block": {
+      "description": "Texto literal del fabricante (no traducido). null si el paquete no tiene el archivo.",
+      "oneOf": [
+        { "type": "null" },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["origin", "lang", "source_url", "items"],
+          "properties": {
+            "origin": { "const": "manufacturer_literal" },
+            "lang": { "type": "string", "pattern": "^[a-z]{2}$" },
+            "source_url": { "type": ["string", "null"] },
+            "items": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": ["label", "text"],
+                "properties": { "label": { "type": "string" }, "text": { "type": "string" } }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "alert": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["level", "code", "message", "actions"],
+      "properties": {
+        "level": { "enum": ["info", "warning", "error"] },
+        "code": { "enum": ["VIDEO_UNVERIFIED"] },
+        "message": { "$ref": "#/$defs/i18n_string" },
+        "actions": { "type": "array", "items": { "enum": ["mark_verified", "remove"] }, "minItems": 1 }
+      }
+    },
+    "brand": {
+      "title": "brand.json",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["schema_version", "generated_at", "brand", "texts", "brand_authorization", "source", "lint_ok", "lint_violations"],
+      "properties": {
+        "schema_version": { "$ref": "#/$defs/semver" },
+        "generated_at": { "type": "string", "format": "date-time" },
+        "brand": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["slug", "name"],
+          "properties": { "slug": { "$ref": "#/$defs/slug" }, "name": { "type": "string" } }
+        },
+        "texts": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["es"],
+          "properties": {
+            "es": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["text", "draft_marker_removed", "internal_notes_removed"],
+              "properties": {
+                "text": { "type": "string", "description": "Texto de marcas/<marca>/es.md sin cabecera BORRADOR ni 'Nota para la web'." },
+                "draft_marker_removed": { "type": "boolean" },
+                "internal_notes_removed": { "type": "integer", "minimum": 0 }
+              }
+            }
+          }
+        },
+        "brand_authorization": { "enum": ["unknown"], "description": "El motor no conoce la autorización; el portal aplica 'blocked' hasta que el administrador la registre." },
+        "source": { "type": "object", "required": ["file"], "properties": { "file": { "type": "string" } } },
+        "lint_ok": { "type": "boolean" },
+        "lint_violations": { "type": "array" }
+      }
+    },
+    "index": {
+      "title": "index.json",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["schema_version", "generated_at", "catalog_hash", "preview", "brands", "models"],
+      "properties": {
+        "schema_version": { "$ref": "#/$defs/semver" },
+        "generated_at": { "type": "string", "format": "date-time" },
+        "preview": { "type": "boolean", "description": "true si el export usa claves de vista previa (--preview-keys), no verificadas en R2. publish-export se niega a subirlo." },
+        "catalog_hash": { "$ref": "#/$defs/sha256", "description": "sha256 del index.json canónico sin marcas de tiempo; es el segmento {content_hash} de catalog/{schema_version}/{content_hash}/." },
+        "brands": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["slug", "name", "path", "models", "brand_authorization"],
+            "properties": {
+              "slug": { "$ref": "#/$defs/slug" },
+              "name": { "type": "string" },
+              "path": { "type": "string" },
+              "models": { "type": "integer", "minimum": 0 },
+              "brand_authorization": { "enum": ["unknown"] }
+            }
+          }
+        },
+        "models": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["brand", "slug", "model", "path", "content_hash", "content_status", "lint_ok", "publish_tier", "images", "videos"],
+            "properties": {
+              "brand": { "$ref": "#/$defs/slug" },
+              "slug": { "$ref": "#/$defs/slug" },
+              "model": { "type": "string" },
+              "path": { "type": "string" },
+              "content_hash": { "$ref": "#/$defs/sha256" },
+              "content_status": { "enum": ["RED", "YELLOW", "GREEN"] },
+              "lint_ok": { "type": "boolean" },
+              "publish_tier": { "enum": ["auto", "review", "blocked"] },
+              "images": { "type": "integer", "minimum": 0 },
+              "videos": { "type": "integer", "minimum": 0 }
+            }
+          }
+        }
+      }
+    }
+  }
+}

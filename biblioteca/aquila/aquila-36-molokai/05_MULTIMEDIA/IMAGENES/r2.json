@@ -1,0 +1,257 @@
+{
+ "version": 1,
+ "images": [
+  {
+   "id": "36mc-model-art-609x278",
+   "key": "aquila/aquila-36-molokai/plans/36mc-model-art-609x278-65da8001.webp",
+   "sha256": "65da8001402679bbb7ef1c9b1e8fd7b1936858c7ce52f68df6e29d652916d56a",
+   "bytes": 10860,
+   "uploaded_at": "2026-10-28T17:52:16+00:00",
+   "original_sha256": "66169f8f218f0e9f72d0895689ebe8873e07d96f248d2a5d6c1b3b4d399c4761",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "36mc-exterior-running-10-1042x450",
+   "key": "aquila/aquila-36-molokai/underway/36mc-exterior-running-10-1042x450-3d5ea856.webp",
+   "sha256": "3d5ea8567ecd95f75e25341d796eb294488701988ccecda12621698cf04d5945",
+   "bytes": 47162,
+   "uploaded_at": "2026-10-28T17:52:16+00:00",
+   "original_sha256": "984b60aa98652088c2b31a814fb506bd5c195ebaa3ad8c4a9f81fabb5c6eaca5",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "36mc-fishing-4-1042x450",
+   "key": "aquila/aquila-36-molokai/exterior/36mc-fishing-4-1042x450-19536ffb.webp",
+   "sha256": "19536ffbb1e7e405f8405a6d844e1ffb31da0bace62f3050599f304b71bfeccd",
+   "bytes": 43196,
+   "uploaded_at": "2026-10-28T17:52:16+00:00",
+   "original_sha256": "a5bb4236fa6500b746e88ef32664f2df43bcfe0fae435a7e9933d46d437cd0d0",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "36mc-lifestyle-14-1042x450",
+   "key": "aquila/aquila-36-molokai/exterior/36mc-lifestyle-14-1042x450-0661c2e8.webp",
+   "sha256": "0661c2e8af17bb6fc240e800a5c37cba22ae321fe33c28cf39f8164cd3467edb",
+   "bytes": 48184,
+   "uploaded_at": "2026-10-28T17:52:16+00:00",
+   "original_sha256": "ea81457a33f12390be66e9454609d96f8d684fee0a034adc2234085ce2aa878c",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "36mc-helm-8-1042x450",
+   "key": "aquila/aquila-36-molokai/helm/36mc-helm-8-1042x450-38a4f35c.webp",
+   "sha256": "38a4f35c2b0c28cf73bf82a41ab452f35c6a7cbe465a97f971f34723e9df7e4d",
+   "bytes": 47264,
+   "uploaded_at": "2026-10-28T17:52:16+00:00",
+   "original_sha256": "5f5f379998ebe8af913453314d3e4ee158b5f9fb17c898375622c60a4e497d6d",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "36mc-helm-7-1042x450",
+   "key": "aquila/aquila-36-molokai/helm/36mc-helm-7-1042x450-38f3c937.webp",
+   "sha256": "38f3c93757a5a4618d5e88a0b0a8e12338d30dce5f09c7f6c6941965cac1c1b6",
+   "bytes": 40174,
+   "uploaded_at": "2026-10-28T17:52:16+00:00",
+   "original_sha256": "1a0ec975fdc43b91b982162e21ec78f77742c7ff7dc18bad808754560f46007e",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "36mc-helm-5-1042x450",
+   "key": "aquila/aquila-36-molokai/helm/36mc-helm-5-1042x450-b34e2f75.webp",
+   "sha256": "b34e2f75c1fb3a2fb41ddd653d5e6792fab37ff827a5f2d59c9826ae500b2843",
+   "bytes": 45404,
+   "uploaded_at": "2026-10-28T17:52:16+00:00",
+   "original_sha256": "cad9ca271ae08c406c3f144a1f846c7db4770608566517661887d92035988a23",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "36mc-lifestyle-23-1042x450",
+   "key": "aquila/aquila-36-molokai/cockpit/36mc-lifestyle-23-1042x450-dd9c1f74.webp",
+   "sha256": "dd9c1f74f5ec3defa83e6105e3bb7047933275dd2ef66636e4c935a78339d465",
+   "bytes": 30050,
+   "uploaded_at": "2026-10-28T17:52:16+00:00",
+   "original_sha256": "e2b89755b7ab084c2a32ecdb1ae65d966a9fd85710b5182350fd1ceea0f9603a",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "36mc-fishing-6-1042x450",
+   "key": "aquila/aquila-36-molokai/cockpit/36mc-fishing-6-1042x450-8be166b8.webp",
+   "sha256": "8be166b893c887c598640e3dda1b56d9ddba5587924815c81e18dd846ca300d4",
+   "bytes": 65474,
+   "uploaded_at": "2026-10-28T17:52:16+00:00",
+   "original_sha256": "302b6b3cc7efa6e1235fdfa5f3d3d06f3f5911ea18f30ed9034cc1707f2ea49f",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "36mc-fishing-7-1042x450",
+   "key": "aquila/aquila-36-molokai/exterior/36mc-fishing-7-1042x450-11d6ddec.webp",
+   "sha256": "11d6ddecb3439f624137d16f207ab693bd3b2c14feb96bc4d43209f075a33c9a",
+   "bytes": 63148,
+   "uploaded_at": "2026-10-28T17:52:16+00:00",
+   "original_sha256": "348f94eb905dcf5c2c186c93c05989b2b356103439cb6d96bf3a96a04b8a2866",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "36mc-fishing-11-1042x450",
+   "key": "aquila/aquila-36-molokai/cockpit/36mc-fishing-11-1042x450-ba56096f.webp",
+   "sha256": "ba56096f5e9635d073d30f43dbee218dbb1302061b6db4ac306f2754235e6ac5",
+   "bytes": 47860,
+   "uploaded_at": "2026-10-28T17:52:16+00:00",
+   "original_sha256": "7f77bb89dd9a53ee870e3ba60d741a04ccc51555ed61ca15add5c158465b9522",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "36mc-fishing-8-1042x450",
+   "key": "aquila/aquila-36-molokai/cockpit/36mc-fishing-8-1042x450-bca97d94.webp",
+   "sha256": "bca97d944b0e410f9b50961aa3b922c341a1350e90e1f8c5ab8140f015c33961",
+   "bytes": 69766,
+   "uploaded_at": "2026-10-28T17:52:16+00:00",
+   "original_sha256": "44d8d6b4066401c7b0aa43c447266297489646bb0ade108b23b187dd8619b435",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "36mc-cabin-2-1042x450",
+   "key": "aquila/aquila-36-molokai/cabin/36mc-cabin-2-1042x450-ef25dd18.webp",
+   "sha256": "ef25dd183045e529825971f27971660ba7f386531f3458b60549a9b6bf35b351",
+   "bytes": 25278,
+   "uploaded_at": "2026-10-28T17:52:17+00:00",
+   "original_sha256": "4e34ed28a053eeb575571da52e4c6bdcba6d1f4d0f64628d6d809b82bab435c4",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "36mc-lifestyle-11-1042x450",
+   "key": "aquila/aquila-36-molokai/exterior/36mc-lifestyle-11-1042x450-8be5304a.webp",
+   "sha256": "8be5304aac27eca5717f9231a8c063163cfcf773255c9a07f90fc48840231721",
+   "bytes": 56506,
+   "uploaded_at": "2026-10-28T17:52:17+00:00",
+   "original_sha256": "c611d5f0598249e3558e74486e799e6a5af5ffeeb45240dbfbfcf2be241b43fd",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "36mc-lifestyle-29-1042x450",
+   "key": "aquila/aquila-36-molokai/exterior/36mc-lifestyle-29-1042x450-84394d86.webp",
+   "sha256": "84394d86c28b17fd4e68bd9f4e28161f3b64399c6f5b86667783c1cb4492fe56",
+   "bytes": 44506,
+   "uploaded_at": "2026-10-28T17:52:17+00:00",
+   "original_sha256": "47118da2dc63b317c1655f423544b4b8ef922442d16d1bc0f1f10a1ddfce3381",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "36mc-lifestyle-17-1042x450",
+   "key": "aquila/aquila-36-molokai/underway/36mc-lifestyle-17-1042x450-df15779c.webp",
+   "sha256": "df15779cffc636072ea363bfb06bea6274016d6b7752f5cb9187e6bae1381a49",
+   "bytes": 62112,
+   "uploaded_at": "2026-10-28T17:52:17+00:00",
+   "original_sha256": "efaa9b5054ca468594cc731b733661e61dc6a707fe70b372ea1277eb197efbc3",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "36mc-exterior-running-19-1042x450",
+   "key": "aquila/aquila-36-molokai/underway/36mc-exterior-running-19-1042x450-3af3c1e5.webp",
+   "sha256": "3af3c1e5b69eb96e5549cfe89ab1d5d011b99fd224f47b200e68b9e35b678c99",
+   "bytes": 67478,
+   "uploaded_at": "2026-10-28T17:52:17+00:00",
+   "original_sha256": "cbf5aa469fe5056ea750f738e0e48d72a599b452fde5ae1fd6e82ef94e5fefb0",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "36mc-exterior-running-17-1440x400",
+   "key": "aquila/aquila-36-molokai/hero/36mc-exterior-running-17-1440x400-b9e9209c.webp",
+   "sha256": "b9e9209c7f8ea976091254da7ea3913f45fc1d72053b2833919a5ae73df09e49",
+   "bytes": 51188,
+   "uploaded_at": "2026-10-28T17:52:18+00:00",
+   "original_sha256": "2ce5d309820223e83686e6afc7abe3c9856c8905a4ecd886dd93767abae0633f",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  }
+ ]
+}

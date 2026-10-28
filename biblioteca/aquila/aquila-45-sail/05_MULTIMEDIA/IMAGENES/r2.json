@@ -1,0 +1,215 @@
+{
+ "version": 1,
+ "images": [
+  {
+   "id": "a45sail-exterior-idle-aq44-ds-perspective-front-1-609x278",
+   "key": "aquila/aquila-45-sail/plans/a45sail-exterior-idle-aq44-ds-perspective-front-1-609x278-5f7422a9.webp",
+   "sha256": "5f7422a9f07f5efacd03da620826073925c21d0d411dadf4bd119e023edf5766",
+   "bytes": 13498,
+   "uploaded_at": "2026-10-28T17:52:32+00:00",
+   "original_sha256": "910583d84e2f72ed7a6399b8b3827983482880ac557686d18f1e88d0db49114f",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "a45sail-exterior-idle-aq44-ds-perspective-front-1-1042x450",
+   "key": "aquila/aquila-45-sail/exterior/a45sail-exterior-idle-aq44-ds-perspective-front-1-1042x450-2489fa99.webp",
+   "sha256": "2489fa99195d5ae777d162a85e4c76970848b401b543fbb544e30bdce9ca86f0",
+   "bytes": 26284,
+   "uploaded_at": "2026-10-28T17:52:33+00:00",
+   "original_sha256": "0aeb16eeba91c3fe19693f35351c7f6b29e1037910367e29ba92bef15c620f69",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "a45sail-exterior-idle-aq44-ds-aft-cockpit-4-1042x450",
+   "key": "aquila/aquila-45-sail/exterior/a45sail-exterior-idle-aq44-ds-aft-cockpit-4-1042x450-d4697cc2.webp",
+   "sha256": "d4697cc2d432a4e08f17228cbb1c7110166f0425d82276116b1115f5fa917a60",
+   "bytes": 33754,
+   "uploaded_at": "2026-10-28T17:52:33+00:00",
+   "original_sha256": "08b7b0649225045febc3fd6d08d0cb5df8cae06b57001bca3a3c79c317f6e88c",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "a45sail-exterior-idle-aq45-ds-elevation-2",
+   "key": "aquila/aquila-45-sail/exterior/a45sail-exterior-idle-aq45-ds-elevation-2-82166f6a.webp",
+   "sha256": "82166f6a635e3920ea6cabf2b175e0cb4b5c15cf1cb78ae43e88a3f115bce659",
+   "bytes": 35182,
+   "uploaded_at": "2026-10-28T17:52:33+00:00",
+   "original_sha256": "87cd67bb0911294db47716431fda835047f3f1717580b4e08c8181efb829b22c",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "a45sail-exterior-perspective-aft-1-1042x450",
+   "key": "aquila/aquila-45-sail/exterior/a45sail-exterior-perspective-aft-1-1042x450-a2f1a139.webp",
+   "sha256": "a2f1a139e3cbc39ba537457b0b9cd078cb4853813ad0f42db4e379ffa02e75c9",
+   "bytes": 27208,
+   "uploaded_at": "2026-10-28T17:52:33+00:00",
+   "original_sha256": "1aadde6de7c0452d7189c884eb1646aa6fb85008dd3b4c324d9e64bc6a487443",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "a45sail-exterior-flybridge-3-1042x450",
+   "key": "aquila/aquila-45-sail/helm/a45sail-exterior-flybridge-3-1042x450-e78f98d0.webp",
+   "sha256": "e78f98d05bfc8d0b6006ef449e9d71d197dd94711dfa4c6ccad2fc9b2b167add",
+   "bytes": 48808,
+   "uploaded_at": "2026-10-28T17:52:33+00:00",
+   "original_sha256": "c4bf9e9a974603064a79019e287dba38fa2989bdb8c0d5b93387e605ef5cae1d",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "a45sail-exterior-flibridge-1-1042x450",
+   "key": "aquila/aquila-45-sail/cockpit/a45sail-exterior-flibridge-1-1042x450-8232761a.webp",
+   "sha256": "8232761af680a546964ca0b19f70f92d44333086f90ee8e2ef6f4768c25729b5",
+   "bytes": 38574,
+   "uploaded_at": "2026-10-28T17:52:33+00:00",
+   "original_sha256": "6b6ea8ebc2e5c8045255d6ddec9e90e7008c386b5af26560876a37f6624a0b15",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "a45sail-salon-view-2-1042x450",
+   "key": "aquila/aquila-45-sail/interior/a45sail-salon-view-2-1042x450-8e8cf1fa.webp",
+   "sha256": "8e8cf1fa3ebfcd5bfb159b32c51cd4eb4afabcf055ba293da0a27d8f7298eadb",
+   "bytes": 36536,
+   "uploaded_at": "2026-10-28T17:52:33+00:00",
+   "original_sha256": "302870783e44768913cabaa0164023b962a258cafa41d4d679fc93789e712089",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "a45sail-salon-view-3-1042x450",
+   "key": "aquila/aquila-45-sail/interior/a45sail-salon-view-3-1042x450-3aabc441.webp",
+   "sha256": "3aabc4414c3c23f76041e98081b44003f6c833f1546ba74145b3de92b7cf2b1c",
+   "bytes": 41118,
+   "uploaded_at": "2026-10-28T17:52:34+00:00",
+   "original_sha256": "ae9c92ca2e048bf9259a9dbedcc42d10c83fcb3405b9481abac1e9c506064038",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "a45sail-cabin-view-1-1042x450",
+   "key": "aquila/aquila-45-sail/cabin/a45sail-cabin-view-1-1042x450-d86cd895.webp",
+   "sha256": "d86cd8951bdf60e6c2fb482af7c0c271ab91452408ff86ba3e7ccac789c6c3a8",
+   "bytes": 19240,
+   "uploaded_at": "2026-10-28T17:52:34+00:00",
+   "original_sha256": "5744024d5ec8b926fd7b3f31034cd23b997a7e9c6121313c8b5596dd43c665f4",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "a45sail-cabin-view-2-1042x450",
+   "key": "aquila/aquila-45-sail/cabin/a45sail-cabin-view-2-1042x450-562fa4c3.webp",
+   "sha256": "562fa4c3d1c5f72fbb529685b48d4d15976e086069cdb0c6bf3b796be568f45d",
+   "bytes": 14878,
+   "uploaded_at": "2026-10-28T17:52:34+00:00",
+   "original_sha256": "e520df96ea35cf741c82638a5f84bca874768bc07db3007e1d9893f36a621e0f",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "a45sail-owner-cabin-view-3-1042x450",
+   "key": "aquila/aquila-45-sail/cabin/a45sail-owner-cabin-view-3-1042x450-ee9c2915.webp",
+   "sha256": "ee9c2915f1e5d35fb1b1bfff2418e0b6418bed84457fd8a3cd9e65e98c7cf26b",
+   "bytes": 18254,
+   "uploaded_at": "2026-10-28T17:52:34+00:00",
+   "original_sha256": "52bf265de5044058f58d15956ba160a73c2935cf1ccc81ee7682f635b71adebe",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "a45sail-owner-cabin-bathroom-1042x450",
+   "key": "aquila/aquila-45-sail/interior/a45sail-owner-cabin-bathroom-1042x450-545de5d0.webp",
+   "sha256": "545de5d05c48679eaa78eeed3bc9f44fc2aa8df609e6e28d33b1b87646c25e66",
+   "bytes": 16918,
+   "uploaded_at": "2026-10-28T17:52:34+00:00",
+   "original_sha256": "46639621948a260962c66fbbf4b27f15670764e06ebf2dd875303876fd6d5c8b",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "a45sail-exterior-idle-aq45-ds-perspective-front-2",
+   "key": "aquila/aquila-45-sail/exterior/a45sail-exterior-idle-aq45-ds-perspective-front-2-f4c999e4.webp",
+   "sha256": "f4c999e4a24683848b360293d7ebf543b2c9e3965b7cb98d31b916ba48fbf4f4",
+   "bytes": 39928,
+   "uploaded_at": "2026-10-28T17:52:34+00:00",
+   "original_sha256": "3d2098aef65600ddaede36a5be70bb21437df1d182f6ed871681782f1f23d20f",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "a45sail-exterior-idle-aq44-ds-perspective-front-1-1440x400",
+   "key": "aquila/aquila-45-sail/hero/a45sail-exterior-idle-aq44-ds-perspective-front-1-1440x400-f1dec9d7.webp",
+   "sha256": "f1dec9d70932b8c3ec89af315b977baddfc5909c63b6e99f426c4cb8aca2cdfe",
+   "bytes": 26032,
+   "uploaded_at": "2026-10-28T17:52:34+00:00",
+   "original_sha256": "ed6bae810ea95b1e9e0ccb21df3f7982199dc014a3fef9e3c3c14ad7f4a788fa",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  }
+ ]
+}

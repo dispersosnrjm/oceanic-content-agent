@@ -1,0 +1,257 @@
+{
+ "version": 1,
+ "images": [
+  {
+   "id": "aqu-20849-42-yacht-model-launch-flex-callout",
+   "key": "aquila/aquila-42-yacht/plans/aqu-20849-42-yacht-model-launch-flex-callout-615a837b.webp",
+   "sha256": "615a837bbf3fd9ca6cb87b2a64c6b2fff3c9812faf8e9338a5f7ff92b5757277",
+   "bytes": 12342,
+   "uploaded_at": "2026-10-28T17:52:28+00:00",
+   "original_sha256": "9cff42aa0482dd8a2390fa3eceb9becb703409b721dfea533ca6e713c81b7fc6",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "aquila-42-yacht-2",
+   "key": "aquila/aquila-42-yacht/exterior/aquila-42-yacht-2-e610eb9c.webp",
+   "sha256": "e610eb9c0633781f92003c532c15461196de8506531907d2c195b652bbbd8588",
+   "bytes": 35030,
+   "uploaded_at": "2026-10-28T17:52:28+00:00",
+   "original_sha256": "bdfd4ea26570663437cfa0e059240ea0842cee7b1e42e9a292738cca6e719659",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "aquila-42-yacht-3",
+   "key": "aquila/aquila-42-yacht/underway/aquila-42-yacht-3-17dd2a8d.webp",
+   "sha256": "17dd2a8d784de893283a48e01b81a2e4548c542d4f08baea44bb0f7357b82279",
+   "bytes": 59360,
+   "uploaded_at": "2026-10-28T17:52:29+00:00",
+   "original_sha256": "19db9f5d0dbaeab686b213039486d7cdaabb52162e07e10adf04432dd0d02a32",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "aquila-42-yacht-4",
+   "key": "aquila/aquila-42-yacht/exterior/aquila-42-yacht-4-fa04dd8d.webp",
+   "sha256": "fa04dd8dbeaf1b1afa32a56fa587b7448b0d526baba0ae703cc701c1c8569d91",
+   "bytes": 47430,
+   "uploaded_at": "2026-10-28T17:52:29+00:00",
+   "original_sha256": "f076465fafeddedace9f614809f4632da7f0e4df1ad4a5e27a0c4072882bb853",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "aquila-42-yacht-5",
+   "key": "aquila/aquila-42-yacht/exterior/aquila-42-yacht-5-9cefbfe0.webp",
+   "sha256": "9cefbfe0681821ca619168cde25c6e011cdc0ab0d8b08b1ed27085dbf98d97f5",
+   "bytes": 67784,
+   "uploaded_at": "2026-10-28T17:52:29+00:00",
+   "original_sha256": "45e1b5ca2f7b8e25388bbc85391a5e42a2e842200025a71ef064e76de3d190f9",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "aquila-42-yacht-6",
+   "key": "aquila/aquila-42-yacht/underway/aquila-42-yacht-6-79a46652.webp",
+   "sha256": "79a46652ef50bf8ca5ee0e131959d48e3e2c969021260336423b1acaf9f8e6a8",
+   "bytes": 76118,
+   "uploaded_at": "2026-10-28T17:52:29+00:00",
+   "original_sha256": "25ef182196a41dd805c2ff62b15f4866cf23e84f08e34ed626ce4605fc7078ed",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "aquila-42-yacht-7",
+   "key": "aquila/aquila-42-yacht/helm/aquila-42-yacht-7-9ff29a4f.webp",
+   "sha256": "9ff29a4fff06170c4ad6b0d5d9483232219ba47686f6203eeed0f9aa1b18abff",
+   "bytes": 58110,
+   "uploaded_at": "2026-10-28T17:52:29+00:00",
+   "original_sha256": "d0ee09ad85a9c9f876f6a157c7e5d8cf5f4f93c9d3b39bcf43f36272644aa69f",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "aquila-42-yacht-8",
+   "key": "aquila/aquila-42-yacht/helm/aquila-42-yacht-8-cac9852c.webp",
+   "sha256": "cac9852c42c4deb160cb8d232d9a457e36dc78d7a15dbd6dffeb9bfd06e3e6ee",
+   "bytes": 38230,
+   "uploaded_at": "2026-10-28T17:52:29+00:00",
+   "original_sha256": "2551c62bd42f5849370fd274ea7e0e5de6f09298aeb0b7aec657ce5aeaf308e5",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "aquila-42-yacht-9",
+   "key": "aquila/aquila-42-yacht/exterior/aquila-42-yacht-9-8ed90fd7.webp",
+   "sha256": "8ed90fd79a45f5fea1a7a4ad4902a8bc6df932dbef42c2699e188c2d603b2fe7",
+   "bytes": 55454,
+   "uploaded_at": "2026-10-28T17:52:30+00:00",
+   "original_sha256": "e21de64c60e386d5998a7efeb8828a65572c2fd3761a105e62d08b29af429cab",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "aquila-42-yacht-10",
+   "key": "aquila/aquila-42-yacht/cabin/aquila-42-yacht-10-a08e7748.webp",
+   "sha256": "a08e7748e54bc1b4b67e6512253c5b70ccb7fe20c0a6cc9b1a12a0c01f278215",
+   "bytes": 43944,
+   "uploaded_at": "2026-10-28T17:52:30+00:00",
+   "original_sha256": "0fc6fc724676d35bc5e38d49d7e7d7bec3194d046dc32ec39cc23b210e84b9ad",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "aquila-42-yacht-11",
+   "key": "aquila/aquila-42-yacht/detail/aquila-42-yacht-11-a0464e46.webp",
+   "sha256": "a0464e4695b60b03bb8f801bf1effc3e6d8b33326154141839853a11a617ba32",
+   "bytes": 19458,
+   "uploaded_at": "2026-10-28T17:52:30+00:00",
+   "original_sha256": "e6f20f85c213a0a416bfb1f08f49e7ec8c8bff637686608a1bd82c74cfaf94ab",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "aquila-42-yacht-12",
+   "key": "aquila/aquila-42-yacht/detail/aquila-42-yacht-12-dc0066f6.webp",
+   "sha256": "dc0066f6f021340db36af93824a562990ccd6fcf5a3c16145eff8f75efadff4c",
+   "bytes": 15988,
+   "uploaded_at": "2026-10-28T17:52:30+00:00",
+   "original_sha256": "8dfac65f8d4d4b5ed67aac8b071a4a06a8be415f2069b90fa1b1e055368f6f5e",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "aquila-42-yacht-13",
+   "key": "aquila/aquila-42-yacht/cabin/aquila-42-yacht-13-a5d0bfa0.webp",
+   "sha256": "a5d0bfa052ebb97de34f30fbec87192a5559e18953c5f598a9040fa2d47003e8",
+   "bytes": 33098,
+   "uploaded_at": "2026-10-28T17:52:30+00:00",
+   "original_sha256": "dc878ef667137a096f6e026fa04f78f2eaf8c45bfa8b6f0de30e9e8b65f71e39",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "aquila-42-yacht-14",
+   "key": "aquila/aquila-42-yacht/cabin/aquila-42-yacht-14-50493f3d.webp",
+   "sha256": "50493f3dc199c05eee25cb09a1c34ce5031ce8ab8b16b9744a750d1d7eabd710",
+   "bytes": 32250,
+   "uploaded_at": "2026-10-28T17:52:30+00:00",
+   "original_sha256": "05bf5b7fe1693fa63ee445fd643c734505d2041b9c5033b2b554c1d57ace5413",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "aquila-42-yacht-15",
+   "key": "aquila/aquila-42-yacht/interior/aquila-42-yacht-15-b0fefca4.webp",
+   "sha256": "b0fefca449422e40ff82cddae2b319cf24069b8a6a68c9bb9e2a04ac46e2f65a",
+   "bytes": 34508,
+   "uploaded_at": "2026-10-28T17:52:30+00:00",
+   "original_sha256": "bfc4c6692642c149f99118176976b66dca90ccf9d4b1f1024c79a20c8460495e",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "aquila-42-yacht-16",
+   "key": "aquila/aquila-42-yacht/interior/aquila-42-yacht-16-72bc4835.webp",
+   "sha256": "72bc48357603a97e1e465b2c2135baa59f2b3724d006ebedb11059c3726be23f",
+   "bytes": 52680,
+   "uploaded_at": "2026-10-28T17:52:31+00:00",
+   "original_sha256": "01e2835f751e4d4f986e557b505e639f282b5141778a72732b81a7efd4cf3286",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "aquila-42-yacht-1",
+   "key": "aquila/aquila-42-yacht/exterior/aquila-42-yacht-1-6f146347.webp",
+   "sha256": "6f1463470c57fc8df19c5234806caefeb65721e010197ee9b2d399bf9734b845",
+   "bytes": 38194,
+   "uploaded_at": "2026-10-28T17:52:31+00:00",
+   "original_sha256": "8312013a4be07a0d001cbc79b0e277fdf9f16cd90e0dc010c02a6b7e4cba6315",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "aqu-20849-42-yacht-model-launch-hero",
+   "key": "aquila/aquila-42-yacht/hero/aqu-20849-42-yacht-model-launch-hero-427646af.webp",
+   "sha256": "427646af2c8b5286317121ef829a59d36925309554f49f42dd14495200934bd9",
+   "bytes": 48198,
+   "uploaded_at": "2026-10-28T17:52:31+00:00",
+   "original_sha256": "297cd0c05c43ef255abd0c252ef78705751f6821241880d93355a46e4db891a4",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  }
+ ]
+}

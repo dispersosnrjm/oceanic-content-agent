@@ -1,0 +1,257 @@
+{
+ "version": 1,
+ "images": [
+  {
+   "id": "a46y-profile-art",
+   "key": "aquila/aquila-46-yacht/plans/a46y-profile-art-27e90a9f.webp",
+   "sha256": "27e90a9f30624a831019f998a71f3ca7e69d98b4b80142762fa7e9b5dd9b0a30",
+   "bytes": 10882,
+   "uploaded_at": "2026-10-28T17:52:45+00:00",
+   "original_sha256": "5594106464cae51cfedefad0ede82b02d606325ce5a37ce3e046511212998f23",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gallery2-46y-external-idle-a75i0013-1042x450",
+   "key": "aquila/aquila-46-yacht/exterior/gallery2-46y-external-idle-a75i0013-1042x450-fffcc22f.webp",
+   "sha256": "fffcc22fa5573f3c5ed15d4de345d4f1f38a9aeaa607ba63b99a96259dd0022c",
+   "bytes": 71174,
+   "uploaded_at": "2026-10-28T17:52:45+00:00",
+   "original_sha256": "67d38ac8d1ce68fe445e4349623c27644604dcdb8b9193c0509b3a2d01223b25",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gallery3-46y-exterior-running-a75i4894-extended-1042x450",
+   "key": "aquila/aquila-46-yacht/underway/gallery3-46y-exterior-running-a75i4894-extended-1042x450-cb9bdc40.webp",
+   "sha256": "cb9bdc408392f46b197ef7f89eeb96b8243cc5737092ec03c202e7017abc9407",
+   "bytes": 81098,
+   "uploaded_at": "2026-10-28T17:52:45+00:00",
+   "original_sha256": "2fb6d6b6fa9ba00b1f4f4f6bba0d6bb52112579657aed0e18886bd570d14ce79",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gallery4-46y-lifestyle-dji-20250906181828-0017-d-1042x450",
+   "key": "aquila/aquila-46-yacht/exterior/gallery4-46y-lifestyle-dji-20250906181828-0017-d-1042x450-8351f356.webp",
+   "sha256": "8351f356ec88a5e9c041e8656a1b81c360df5db7ac8c29ce15b3ae814293b878",
+   "bytes": 39854,
+   "uploaded_at": "2026-10-28T17:52:45+00:00",
+   "original_sha256": "1721ca7663e932b9847a3fa28ac972140c74bc32ee8f695e082a5eacc9a155ed",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gallery5-46y-aft-cockpit-a7r05296-1042x450",
+   "key": "aquila/aquila-46-yacht/cockpit/gallery5-46y-aft-cockpit-a7r05296-1042x450-4af1cace.webp",
+   "sha256": "4af1cacec7388df28355854a66adbba93031fa72b8f21de662432035a05a1125",
+   "bytes": 34956,
+   "uploaded_at": "2026-10-28T17:52:45+00:00",
+   "original_sha256": "f904c2b6ee791cd199e94457df6d5faea88d0124b26c873583f224341e101a4f",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gallery6-46y-aft-cockpit-a7r05323-1042x450",
+   "key": "aquila/aquila-46-yacht/interior/gallery6-46y-aft-cockpit-a7r05323-1042x450-d11b9b9f.webp",
+   "sha256": "d11b9b9f7a0b787aeb7c8953dccc893f1e7339186303e88bdda102111ca93ecb",
+   "bytes": 44316,
+   "uploaded_at": "2026-10-28T17:52:45+00:00",
+   "original_sha256": "2395ef163e059395b50a87759f3584ca5bc7c7e2ee6587a3dee50f6d57cc48ec",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gallery7-46y-salon-a7r05326-1042x450",
+   "key": "aquila/aquila-46-yacht/interior/gallery7-46y-salon-a7r05326-1042x450-faf0261a.webp",
+   "sha256": "faf0261a396c89c221829d65a521618e91fee6be1c8e98650dc876292a05a60e",
+   "bytes": 41170,
+   "uploaded_at": "2026-10-28T17:52:45+00:00",
+   "original_sha256": "4efaaef96ae3cee67b832883cc3265d495029017409a5b51a4c88c53d8e9461d",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gallery8-46y-salon-a7r05344-1042x450",
+   "key": "aquila/aquila-46-yacht/interior/gallery8-46y-salon-a7r05344-1042x450-2e52ba31.webp",
+   "sha256": "2e52ba31a2a2768b1d8566093d9fa6da1a655c8829cd77e3a1dfed0f716d19f3",
+   "bytes": 47382,
+   "uploaded_at": "2026-10-28T17:52:45+00:00",
+   "original_sha256": "32ebd1876615ca2e0406e09e0904ed6027308e3d7b5b61d24a983cb099b41eb1",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gallery9-46y-ownercabin-a75i4031-copie-1042x450",
+   "key": "aquila/aquila-46-yacht/cabin/gallery9-46y-ownercabin-a75i4031-copie-1042x450-134dd598.webp",
+   "sha256": "134dd598405d118a68216b8deeea962475ae66cba0cb0d4ac8a972914ad8d85f",
+   "bytes": 46608,
+   "uploaded_at": "2026-10-28T17:52:46+00:00",
+   "original_sha256": "844b31164c27bc5abb906123293118079b1184ea4f7d3ce000b9854570b41f82",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gallery10-46y-ownercabin-a75i4050-copie-1042x450",
+   "key": "aquila/aquila-46-yacht/cabin/gallery10-46y-ownercabin-a75i4050-copie-1042x450-7dbe152a.webp",
+   "sha256": "7dbe152aa103de7156d5b93a5bece196474fffa84a079fe00eb7a16ac4f644ba",
+   "bytes": 41906,
+   "uploaded_at": "2026-10-28T17:52:46+00:00",
+   "original_sha256": "17636ecb8fe835345604c67faa4b4ac0a6b1fc4f8d022d1e914bc3cd627c99bf",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gallery11-46y-ownercabin-a7r05358-1042x450",
+   "key": "aquila/aquila-46-yacht/interior/gallery11-46y-ownercabin-a7r05358-1042x450-17882774.webp",
+   "sha256": "1788277446aa944ec3d28cdfad051945c7cecd0eff02300a79b6376f0c6bb46c",
+   "bytes": 36986,
+   "uploaded_at": "2026-10-28T17:52:46+00:00",
+   "original_sha256": "29b45dda7d6263e601bd3d3c15247cf7443e5cc56703a03606fee7f060ff6eab",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gallery12-46y-lifestyle-a7r03859-1042x450",
+   "key": "aquila/aquila-46-yacht/helm/gallery12-46y-lifestyle-a7r03859-1042x450-bb95baee.webp",
+   "sha256": "bb95baeed56b831016e746bcb70e433106e564e255469d4d111065fd857aceeb",
+   "bytes": 34492,
+   "uploaded_at": "2026-10-28T17:52:46+00:00",
+   "original_sha256": "61d7ccb92fde6e68208e1b53fdb75bbeaeaff7575a0e469693813837b2b0c343",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gallery13-46y-lifestyle-a7r04100-1442x450",
+   "key": "aquila/aquila-46-yacht/exterior/gallery13-46y-lifestyle-a7r04100-1442x450-ef22d6eb.webp",
+   "sha256": "ef22d6ebfde3c3a3c42d2f6d8d55a56ec43877293d6606981943739382a2b688",
+   "bytes": 42724,
+   "uploaded_at": "2026-10-28T17:52:46+00:00",
+   "original_sha256": "1dcdbbbc6e3b529e1604f501d8dde0779328ae0f8b64019a02c15d73eba03a9e",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gallery14-46y-lifestyle-a7r04344-1042x450",
+   "key": "aquila/aquila-46-yacht/cockpit/gallery14-46y-lifestyle-a7r04344-1042x450-b94dd1c5.webp",
+   "sha256": "b94dd1c55bb5cb35e048a3009359e444be464880290c37a152a51a90f3755696",
+   "bytes": 77184,
+   "uploaded_at": "2026-10-28T17:52:46+00:00",
+   "original_sha256": "8cee6d7f44102a239286cb28e0d99523872c617072e486539be5f6f0586380ab",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gallery15-46y-lifestyle-a7r04561-1042x450",
+   "key": "aquila/aquila-46-yacht/cockpit/gallery15-46y-lifestyle-a7r04561-1042x450-7cc90104.webp",
+   "sha256": "7cc901042c69ff61e9bf8bce863a70082456733282d3f116d9ff87438a2a5468",
+   "bytes": 82022,
+   "uploaded_at": "2026-10-28T17:52:46+00:00",
+   "original_sha256": "1cb69b343e951a6517dd4a22c4cd2c2a7547e2d7ba87e77170ba4736e07407a0",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gallery16-46y-bow-a7r04152-1042x450",
+   "key": "aquila/aquila-46-yacht/exterior/gallery16-46y-bow-a7r04152-1042x450-9c31a705.webp",
+   "sha256": "9c31a7056f30a9656c9d6179925edd38cfe4911f4acabd31bac3234815e27531",
+   "bytes": 66202,
+   "uploaded_at": "2026-10-28T17:52:46+00:00",
+   "original_sha256": "03ae3d087775bc08a76c78c7221419c5613b93ab0c2d2a3329df072fdf8d2245",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gallery1-46y-external-idle-a75i0001-1042x450",
+   "key": "aquila/aquila-46-yacht/exterior/gallery1-46y-external-idle-a75i0001-1042x450-7ef2560a.webp",
+   "sha256": "7ef2560aee6ce965cd2815b98199b0f4c8de58ca29bd732319dfa59dc0407999",
+   "bytes": 58474,
+   "uploaded_at": "2026-10-28T17:52:47+00:00",
+   "original_sha256": "63137d15536eae2cea843788f36c9d018b3ef6aa1948f689771a99710e7d2e76",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "46y-exterior-running-a75i4971-1440x400",
+   "key": "aquila/aquila-46-yacht/hero/46y-exterior-running-a75i4971-1440x400-df8fc8d4.webp",
+   "sha256": "df8fc8d49a5db4c41ba15cd4bb24cd72e801e7c6dba8faee8d98f928363d013e",
+   "bytes": 92166,
+   "uploaded_at": "2026-10-28T17:52:47+00:00",
+   "original_sha256": "e43a9218ad31e7c6af21b99efeae6cdd015a9a56ec73a129dace8dec89e25e5a",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  }
+ ]
+}

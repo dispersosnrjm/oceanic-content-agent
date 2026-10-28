@@ -1,0 +1,257 @@
+{
+ "version": 1,
+ "images": [
+  {
+   "id": "50sail-model-art-609x440",
+   "key": "aquila/aquila-50-sail/plans/50sail-model-art-609x440-dfc44278.webp",
+   "sha256": "dfc44278f25ec62faa164fb0bcd390a8f8450bf32b6f597981b5b7f0c1f0fdfb",
+   "bytes": 6564,
+   "uploaded_at": "2026-10-28T17:52:53+00:00",
+   "original_sha256": "f9c2553116709f0f251f049e10a774ee7dafb49b8c70c4800b5be40727fa790d",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "a50sail-exterior-idle-aquila50sail-drone-193of275-1450x450",
+   "key": "aquila/aquila-50-sail/exterior/a50sail-exterior-idle-aquila50sail-drone-193of275-1450x450-5a58ddba.webp",
+   "sha256": "5a58ddba61b43ab6d6e7de027b55f9d5f18d1073e4e4c16a24d359c39b5e9551",
+   "bytes": 40282,
+   "uploaded_at": "2026-10-28T17:52:53+00:00",
+   "original_sha256": "27679905cddceb59581f6ade93af0c628b02bcfe53dec9dc56f40314f3a1ae85",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "a50sail-lifestyle-aquila50sail-lifestyle-105of353-1042x450",
+   "key": "aquila/aquila-50-sail/exterior/a50sail-lifestyle-aquila50sail-lifestyle-105of353-1042x450-31e2a0e8.webp",
+   "sha256": "31e2a0e85639e5909ce3daee275b4d4742ab0b82f4daa2bfc5df1e54d6a438ca",
+   "bytes": 61506,
+   "uploaded_at": "2026-10-28T17:52:53+00:00",
+   "original_sha256": "336684b32107c1629d1b1953bd99615afb0fdac6b98ffd705b3ab98d08b93a59",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "a50sail-lifestyle-aquila50sail-lifestyle-142of353-1042x450",
+   "key": "aquila/aquila-50-sail/cockpit/a50sail-lifestyle-aquila50sail-lifestyle-142of353-1042x450-2e0562ab.webp",
+   "sha256": "2e0562ab48ab4fff2cc2edbb1bb7ea5852efc5fcee113bf52ac9469c80476179",
+   "bytes": 42032,
+   "uploaded_at": "2026-10-28T17:52:53+00:00",
+   "original_sha256": "8cda43fafbbd380c3057f8733222c7140080983787df67667e1a16f2286b82ca",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "a50sail-lifestyle-aquila50sail-lifestyle-261of353-1042x450",
+   "key": "aquila/aquila-50-sail/exterior/a50sail-lifestyle-aquila50sail-lifestyle-261of353-1042x450-c7213df9.webp",
+   "sha256": "c7213df97daa337086729e3a8f185cf546930dda1566a41b6d6b5d60307dc68f",
+   "bytes": 61492,
+   "uploaded_at": "2026-10-28T17:52:53+00:00",
+   "original_sha256": "ad7d59742297fe0a857a3989d8b3f3e244df9f689020dcf68884282a07e4ce4b",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "a50sail-flybridge-aquila50sail-flybridge-23of40-1042x450",
+   "key": "aquila/aquila-50-sail/cockpit/a50sail-flybridge-aquila50sail-flybridge-23of40-1042x450-af65db09.webp",
+   "sha256": "af65db09a008c3b5f02091775f78400611dd6c7873e3e94c022d367d76237574",
+   "bytes": 45206,
+   "uploaded_at": "2026-10-28T17:52:53+00:00",
+   "original_sha256": "f993c436821949a2f043c98659e54c35d9e1004f69b87236b1b30bbf07d16198",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "a50sail-flybridge-aquila50sail-flybridge-1of40-1042x450-webp",
+   "key": "aquila/aquila-50-sail/helm/a50sail-flybridge-aquila50sail-flybridge-1of40-1042x450-webp-775e5786.webp",
+   "sha256": "775e5786fa26e7707f68539cdaaeaa245e5b5b9816e18b7db64f7ea06f97f34e",
+   "bytes": 54602,
+   "uploaded_at": "2026-10-28T17:52:53+00:00",
+   "original_sha256": "0c378c6e29b9bff28cb3ce28e3bb5292ed95fbe56df4793337f4d819485a2c4f",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "a50sail-salon-aquila50sail-salon-36of68-1042x450",
+   "key": "aquila/aquila-50-sail/interior/a50sail-salon-aquila50sail-salon-36of68-1042x450-543b3d30.webp",
+   "sha256": "543b3d3093ae357638ac759c9b252000bd2f1f0d784e665039fa44883a7b682e",
+   "bytes": 52046,
+   "uploaded_at": "2026-10-28T17:52:53+00:00",
+   "original_sha256": "e6fcd4a46ad02791b19556394c9d68314f230251aad9e86fdc168a85f63b2845",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "a50sail-salon-aquila50sail-salon-27of68-1042x450-webp",
+   "key": "aquila/aquila-50-sail/interior/a50sail-salon-aquila50sail-salon-27of68-1042x450-webp-d23c4485.webp",
+   "sha256": "d23c4485e11ef819c5380be1cf760e9b63eb3c713776f6795734d777384ea294",
+   "bytes": 46276,
+   "uploaded_at": "2026-10-28T17:52:54+00:00",
+   "original_sha256": "d657bc832eb7d7394ab954647920c2e1485ca9af32902224d7a22143f3fc39b9",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "a50sail-salon-aquila50sail-salon-42of68-1042x450",
+   "key": "aquila/aquila-50-sail/interior/a50sail-salon-aquila50sail-salon-42of68-1042x450-f02f96c6.webp",
+   "sha256": "f02f96c6e3f3b3c24ae7b563a2eb1cd8efb8bd2edf55fbe84bd502d39d22c5de",
+   "bytes": 47186,
+   "uploaded_at": "2026-10-28T17:52:54+00:00",
+   "original_sha256": "c0852d8a589ca1f3000b8ea9297c7d8eed1f7e72f27279ccafbad6c40f00bc31",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "a50sail-owner-cabin-aquila50sail-mastercabin-25of43-1042x450",
+   "key": "aquila/aquila-50-sail/cabin/a50sail-owner-cabin-aquila50sail-mastercabin-25of43-1042x450-527113ab.webp",
+   "sha256": "527113abdf79ae8250c9d278a7c4befe5b50280c255e4ada10ca486a034a7ff3",
+   "bytes": 34580,
+   "uploaded_at": "2026-10-28T17:52:55+00:00",
+   "original_sha256": "30c15a123e5368c7d2ae7be8cf740ce12460b730fbf9b1e4a0dc634e4dd25de2",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "a50sail-owner-head-aquila50sail-mastercabin-26of43-1042x450",
+   "key": "aquila/aquila-50-sail/interior/a50sail-owner-head-aquila50sail-mastercabin-26of43-1042x450-03140a0b.webp",
+   "sha256": "03140a0b7c575046874731655a8452b131bdc0674a3d27021d855b4c4aaf2a91",
+   "bytes": 28732,
+   "uploaded_at": "2026-10-28T17:52:55+00:00",
+   "original_sha256": "1233a7a885c5c0b6fec5904d66cdf4e82d44bcca1706d8b15da9c38544338a48",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "a50sail-owner-cabin-aquila50sail-mastercabin-12of43-1042x450",
+   "key": "aquila/aquila-50-sail/cabin/a50sail-owner-cabin-aquila50sail-mastercabin-12of43-1042x450-be4e3b7d.webp",
+   "sha256": "be4e3b7dbbef318429a5fb3f95cc1a8f8e97837f6120fd5b8f157199ef078e7d",
+   "bytes": 25346,
+   "uploaded_at": "2026-10-28T17:52:55+00:00",
+   "original_sha256": "4fa3401b598e29b19a62d7e5a0a7f2297aaee2e382102f831fe8acb027af289d",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "a50sail-aft-cabin-aquila50sail-aftdeckcabin-3of18-1042x450",
+   "key": "aquila/aquila-50-sail/cabin/a50sail-aft-cabin-aquila50sail-aftdeckcabin-3of18-1042x450-88ebc456.webp",
+   "sha256": "88ebc45628af49c0590565deb9e3b50c2e0ca0f849a35d61cef94f62710ca88b",
+   "bytes": 38828,
+   "uploaded_at": "2026-10-28T17:52:55+00:00",
+   "original_sha256": "ad80779a0847b67d3907f27227f382d615c1673c729a06d3ccce88e004f4e1c6",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "a50sail-bow-utility-aquila50sail-bow-cabins-8of43-1042x450",
+   "key": "aquila/aquila-50-sail/cabin/a50sail-bow-utility-aquila50sail-bow-cabins-8of43-1042x450-00241043.webp",
+   "sha256": "00241043e0bad44983f4837d76f012a26ca80cda5ea20194bf26de3f6e045a73",
+   "bytes": 25224,
+   "uploaded_at": "2026-10-28T17:52:55+00:00",
+   "original_sha256": "9d6b91b84e6123110a9ecfe88ac26e42e740b7320c67ad516e91d69d9b1481cf",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "a50sail-bow-utility-aquila50sail-bow-cabins-19of43-1042x450",
+   "key": "aquila/aquila-50-sail/cabin/a50sail-bow-utility-aquila50sail-bow-cabins-19of43-1042x450-9a1c81b9.webp",
+   "sha256": "9a1c81b97235aa0fb1c914fc6695c9c48094d0a1fd14a240f76d15ff113ddd1c",
+   "bytes": 27100,
+   "uploaded_at": "2026-10-28T17:52:55+00:00",
+   "original_sha256": "c3736bc44d96b32ece889caca07cbe58e28e2f29cda88fd2bcf1ea8132be2e0f",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "a50sail-lifestyle-aquila50sail-lifestyle-81of353-1042x450",
+   "key": "aquila/aquila-50-sail/underway/a50sail-lifestyle-aquila50sail-lifestyle-81of353-1042x450-a4967149.webp",
+   "sha256": "a496714964878278b1fed0db4db22163a458386b9f00ac78c3667f615c1fe509",
+   "bytes": 51638,
+   "uploaded_at": "2026-10-28T17:52:55+00:00",
+   "original_sha256": "2ccd333bf22ddf360aff3336bb6591c19653de750c7218f3569b500e93abbd13",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "a50sail-exterior-running-sails-up-aquila50sail-drone-221of275-1440x400",
+   "key": "aquila/aquila-50-sail/hero/a50sail-exterior-running-sails-up-aquila50sail-drone-221of275-1440x400-3a18571c.webp",
+   "sha256": "3a18571c99020dea2f14a0a5e6aadde73964b58b6ddbe3ba2b8bc71c2c2b1f93",
+   "bytes": 70350,
+   "uploaded_at": "2026-10-28T17:52:56+00:00",
+   "original_sha256": "19f4d2156f69aee2d474034c4561629db7e28f6a2d2dffd164bc3ae16803986a",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  }
+ ]
+}

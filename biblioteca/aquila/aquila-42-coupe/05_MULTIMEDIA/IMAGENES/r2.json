@@ -1,0 +1,243 @@
+{
+ "version": 1,
+ "images": [
+  {
+   "id": "aquila-42-profile-609x278",
+   "key": "aquila/aquila-42-coupe/plans/aquila-42-profile-609x278-2e4113c3.webp",
+   "sha256": "2e4113c3aa7cccb759dbb91e9403c533ad9d348b78414a392ef659c14c0d867e",
+   "bytes": 2400,
+   "uploaded_at": "2026-10-28T17:52:25+00:00",
+   "original_sha256": "66928ea24d83ec88a8b0061a5ed6d20984f02e479aa88e414db692af4521a672",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "42c-2-dji-20250222205714-1140x550",
+   "key": "aquila/aquila-42-coupe/underway/42c-2-dji-20250222205714-1140x550-726f402e.webp",
+   "sha256": "726f402e78247c59e1d482514a95c391e4c8d5ba43f7c11fc22b06ab388455ba",
+   "bytes": 34218,
+   "uploaded_at": "2026-10-28T17:52:25+00:00",
+   "original_sha256": "8b549ac503d5c4a43c3641c223d20a5a87b0ec114e99e64ca53a4a5daf48720d",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "42c-4-dji-0277-1140x550",
+   "key": "aquila/aquila-42-coupe/exterior/42c-4-dji-0277-1140x550-7b34c6dc.webp",
+   "sha256": "7b34c6dc32a7bc4a4a96304aaadfcdc6b0253ea8961d9cb49d00a66defb20e90",
+   "bytes": 85034,
+   "uploaded_at": "2026-10-28T17:52:25+00:00",
+   "original_sha256": "6663d4c1ba38244e225a0eae04adbb091f4b7513ca39c4f99fab91bf1a82574f",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "42-coupe-gallery-aft-1042x450",
+   "key": "aquila/aquila-42-coupe/exterior/42-coupe-gallery-aft-1042x450-40d8c9b0.webp",
+   "sha256": "40d8c9b02eb6c1f6e4b71867f1cd021a0727a31c8f6f2c16b595396ea84842f1",
+   "bytes": 62040,
+   "uploaded_at": "2026-10-28T17:52:25+00:00",
+   "original_sha256": "fd84c27c6f863c47fef599e44a335c90ca769f9d95f187ba80313781167a489b",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "42c-6-dji-0286-enhanced-nr-2-1140x550",
+   "key": "aquila/aquila-42-coupe/exterior/42c-6-dji-0286-enhanced-nr-2-1140x550-71370c9b.webp",
+   "sha256": "71370c9bd3d6681a22a818c9d6c101cda524acbe205169cb05a2991d33a77ce7",
+   "bytes": 71326,
+   "uploaded_at": "2026-10-28T17:52:25+00:00",
+   "original_sha256": "24e019f5ca9cdacd76ff5bf250f03330d0049eea564acfd98d5931d194600732",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "42c-8-dsc00699-1140x550",
+   "key": "aquila/aquila-42-coupe/cockpit/42c-8-dsc00699-1140x550-f73d358e.webp",
+   "sha256": "f73d358ef5d0a974364fbd155d124dbdd9fa9eccfd571efdcd58fc0be26475fc",
+   "bytes": 47844,
+   "uploaded_at": "2026-10-28T17:52:25+00:00",
+   "original_sha256": "9f78589a9189a56e0305d6fde4668c8c0a1ebaa24714641acdc757003655e219",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "42-coupe-gallery-inside-1042x450",
+   "key": "aquila/aquila-42-coupe/interior/42-coupe-gallery-inside-1042x450-0d6f2262.webp",
+   "sha256": "0d6f2262f46920b89a3aa43e2de78a5c20c503e497ea176a0bc5fb59c2573475",
+   "bytes": 53314,
+   "uploaded_at": "2026-10-28T17:52:25+00:00",
+   "original_sha256": "7459e0eab3896c04d804f75d9d28b99c3e1b555fb22534acadc2df99c7ae2619",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "42c-9-dsc00725-1140x550",
+   "key": "aquila/aquila-42-coupe/interior/42c-9-dsc00725-1140x550-7a47d73a.webp",
+   "sha256": "7a47d73a2e04ab4d67d973773b6f444190337129f1da3603965dfbaa4319b202",
+   "bytes": 38498,
+   "uploaded_at": "2026-10-28T17:52:25+00:00",
+   "original_sha256": "bbf087ec3a50c07fe9f90510e01e2ba4ab5960feb85c87558ce30097f03d2476",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "42-coupe-gallery-inside-2-1042x450",
+   "key": "aquila/aquila-42-coupe/interior/42-coupe-gallery-inside-2-1042x450-8d13aea0.webp",
+   "sha256": "8d13aea0db49707371d0baa82322aeee5158e4ab0c93531a273ea6698b32e5fa",
+   "bytes": 56538,
+   "uploaded_at": "2026-10-28T17:52:26+00:00",
+   "original_sha256": "93d1c376be33f649c0a85292e2402b1ecd68bd91ef30db00ee680c89d0fce545",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "42c-10-dsc00727-1140x550",
+   "key": "aquila/aquila-42-coupe/interior/42c-10-dsc00727-1140x550-67e61ad3.webp",
+   "sha256": "67e61ad39a64649cdcecaa48e3bfe4ed225f9d989e1bd48389448e1f3074c03a",
+   "bytes": 38252,
+   "uploaded_at": "2026-10-28T17:52:26+00:00",
+   "original_sha256": "97729f56287c57debd5ca8ff8fc0172cf720e22d88627854a5b3cb10335fc15c",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "42c-11-dsc00742-1140x550",
+   "key": "aquila/aquila-42-coupe/helm/42c-11-dsc00742-1140x550-f06cec89.webp",
+   "sha256": "f06cec89a6c7409154d44e414bb2ec0004522daa9fe354f63d5c79cc93968fa9",
+   "bytes": 33640,
+   "uploaded_at": "2026-10-28T17:52:26+00:00",
+   "original_sha256": "d33f70cfa5f6e4a88e04b034706af1912db22ab83f4618eca918b986b704a809",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "42c-12-dsc00763-1140x550",
+   "key": "aquila/aquila-42-coupe/cabin/42c-12-dsc00763-1140x550-927b159b.webp",
+   "sha256": "927b159b0681a89a25eb3b5d771580cd988f6f5d762c0ce57dc083ba88f4cfc1",
+   "bytes": 32948,
+   "uploaded_at": "2026-10-28T17:52:26+00:00",
+   "original_sha256": "a1d7bff956802b0bd9d98a4845240f998697eee0d834e28fe7dbbc06f5b85a38",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "42-coupe-gallery-overhead-1042x450",
+   "key": "aquila/aquila-42-coupe/exterior/42-coupe-gallery-overhead-1042x450-b153acbe.webp",
+   "sha256": "b153acbe74d09289650ce92c5827037e8afd5665da04388d74309d4e715b5e6d",
+   "bytes": 22292,
+   "uploaded_at": "2026-10-28T17:52:26+00:00",
+   "original_sha256": "5096be22a07dcba950c8a336df0a245cc2fdd8333d9550e18f658cab8a9bd7f9",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "42c-15-dsc00895-1140x550",
+   "key": "aquila/aquila-42-coupe/exterior/42c-15-dsc00895-1140x550-1af05390.webp",
+   "sha256": "1af05390f5aa527caf3df85fdd739277d793f574cf9ccfb114db0a97e1a969ab",
+   "bytes": 59244,
+   "uploaded_at": "2026-10-28T17:52:26+00:00",
+   "original_sha256": "b71ce3a6085f85b19f664b546c0711c18945a75ba5eca7aaef0bff6aedcf6352",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "42c-14-dsc00935-1140x550",
+   "key": "aquila/aquila-42-coupe/exterior/42c-14-dsc00935-1140x550-6297edb1.webp",
+   "sha256": "6297edb180c3a510ac5126680b46aebc18b774bc2cf56b4c92e0a3aae148dd15",
+   "bytes": 59750,
+   "uploaded_at": "2026-10-28T17:52:26+00:00",
+   "original_sha256": "b074155e6c3a912bd8ffa60926d0040d79850bd27b40af61f94e96e2cf502fdb",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "42c-1-dsc09076-1140x550",
+   "key": "aquila/aquila-42-coupe/underway/42c-1-dsc09076-1140x550-fc3c45fb.webp",
+   "sha256": "fc3c45fbb5238cd04db8b3f2fec58b33e443926f9a84755e5f49fe254dff53fc",
+   "bytes": 71586,
+   "uploaded_at": "2026-10-28T17:52:26+00:00",
+   "original_sha256": "ede804d74d270307be30f3762447bc9df484c5ca88057b953660de87ca9f1070",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "aquila-42-coupe-hero-banner-1920x500",
+   "key": "aquila/aquila-42-coupe/hero/aquila-42-coupe-hero-banner-1920x500-c7bdbc34.webp",
+   "sha256": "c7bdbc342861f869ec9669aa56a67bfaa2acf016cdd1244de13cb50ae8ef8fde",
+   "bytes": 139408,
+   "uploaded_at": "2026-10-28T17:52:27+00:00",
+   "original_sha256": "7291ad1a1f3aba0dd85eb2005df109fb2475d524f4e3eb7a01b000672fb4de41",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  }
+ ]
+}

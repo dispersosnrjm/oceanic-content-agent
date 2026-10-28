@@ -1,0 +1,257 @@
+{
+ "version": 1,
+ "images": [
+  {
+   "id": "aquila47molokaiflexcallout06282023",
+   "key": "aquila/aquila-47-molokai/plans/aquila47molokaiflexcallout06282023-d9789641.webp",
+   "sha256": "d9789641e671046c1467e6aa400a0223aeaac40a957468124cdb580cc36dee97",
+   "bytes": 5244,
+   "uploaded_at": "2026-10-28T17:52:48+00:00",
+   "original_sha256": "92a096f8ebb2a262feffb7460e58a0ddcf644f2f127bd452f60b2209500db9c8",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "aqu-30279-47-molokai-model-launch-gallery2",
+   "key": "aquila/aquila-47-molokai/cockpit/aqu-30279-47-molokai-model-launch-gallery2-ada27370.webp",
+   "sha256": "ada273705a75553051634253ffd3f1868dea88961556d77542b5af30b9f3095c",
+   "bytes": 45692,
+   "uploaded_at": "2026-10-28T17:52:48+00:00",
+   "original_sha256": "37baf798eebf51ddc0f1a4041890921953284d2851e443b72bc89bb1e8a932dc",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "aqu-30279-47-molokai-model-launch-gallery3",
+   "key": "aquila/aquila-47-molokai/cockpit/aqu-30279-47-molokai-model-launch-gallery3-0e473b7c.webp",
+   "sha256": "0e473b7c51bff9c212d037d03c6eda0e24239d3794cfc44e3b849afab3193627",
+   "bytes": 38812,
+   "uploaded_at": "2026-10-28T17:52:48+00:00",
+   "original_sha256": "929d55b2762c2366cadcecad08d1c9fbd7dbde187c8073a2bbfb8459795a14d2",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "aqu-30279-47-molokai-model-launch-gallery4",
+   "key": "aquila/aquila-47-molokai/exterior/aqu-30279-47-molokai-model-launch-gallery4-9eec04e9.webp",
+   "sha256": "9eec04e90f9401f77961fdb8f9e7450099f6b52ddaedd0fee6ebf47df25c2edd",
+   "bytes": 47386,
+   "uploaded_at": "2026-10-28T17:52:48+00:00",
+   "original_sha256": "37c107f6052b721cebcc34adbbd9bea25092d6901180a472aaf6045042385e5c",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "aqu-30279-47-molokai-model-launch-gallery5",
+   "key": "aquila/aquila-47-molokai/cockpit/aqu-30279-47-molokai-model-launch-gallery5-77e2ccbe.webp",
+   "sha256": "77e2ccbe092505b30e4e298dc64252ae447cbbbfac0a41dfccc4b30708c96dbe",
+   "bytes": 71204,
+   "uploaded_at": "2026-10-28T17:52:48+00:00",
+   "original_sha256": "4042e472df03f8790f0da5ed9d2f491bdf5b7ba0055103e5e25f3172afd77824",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "aqu-30279-47-molokai-model-launch-gallery6",
+   "key": "aquila/aquila-47-molokai/exterior/aqu-30279-47-molokai-model-launch-gallery6-b0499a6d.webp",
+   "sha256": "b0499a6d9cc1e9b69ed0b46049101220fea8792c6eb0491e21f5e408c8665273",
+   "bytes": 52368,
+   "uploaded_at": "2026-10-28T17:52:49+00:00",
+   "original_sha256": "da8980c88a9e921655e4233720bfc613999cdd06dde25c2d9c595abdce91e841",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "aqu-30279-47-molokai-model-launch-gallery7",
+   "key": "aquila/aquila-47-molokai/helm/aqu-30279-47-molokai-model-launch-gallery7-ce37fa40.webp",
+   "sha256": "ce37fa40f3fb21a11adaa2c5f9f9ead69b60518ba6bd610c6f5a0aae09c2cf0c",
+   "bytes": 45930,
+   "uploaded_at": "2026-10-28T17:52:49+00:00",
+   "original_sha256": "0bbaf379e24390bc7588f9b5911cc9fe585d0734788406c2dc33435f7c4a32f8",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "aqu-30279-47-molokai-model-launch-gallery8",
+   "key": "aquila/aquila-47-molokai/helm/aqu-30279-47-molokai-model-launch-gallery8-f0f346d5.webp",
+   "sha256": "f0f346d5884ac84efbbc80c02284f6c89edb4af9a90bf9b4167b8955c3cf7511",
+   "bytes": 45852,
+   "uploaded_at": "2026-10-28T17:52:49+00:00",
+   "original_sha256": "f70a848c9e96867c588482203bcc21864f4c5c65b2125ce6184ee73ddd3962a6",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "aqu-30279-47-molokai-model-launch-gallery9",
+   "key": "aquila/aquila-47-molokai/detail/aqu-30279-47-molokai-model-launch-gallery9-832d29cd.webp",
+   "sha256": "832d29cde4f2535aa4da987004784b1ce1e8ce594b82ab2b9bc457fda6772123",
+   "bytes": 37318,
+   "uploaded_at": "2026-10-28T17:52:50+00:00",
+   "original_sha256": "8bd9b94d9fc1f3b2570e4e89e0073edce0a9f1221c9994edf51bd5655ccb2d1e",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "mediaimagesaquilaimage-galleryaqu-30279-47-molokai-model-launch-gallery10",
+   "key": "aquila/aquila-47-molokai/detail/mediaimagesaquilaimage-galleryaqu-30279-47-molokai-model-launch-gallery10-cfa68fc6.webp",
+   "sha256": "cfa68fc6e06514767f5597e452a79f9adbf094ab3fe4d7bb91fbdccbef8c5e1e",
+   "bytes": 27726,
+   "uploaded_at": "2026-10-28T17:52:50+00:00",
+   "original_sha256": "16bf6223bb858e4e09056befa80c4b4887db5235e4dbff5b024e104b6ce060bf",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "aqu-30279-47-molokai-model-launch-gallery11",
+   "key": "aquila/aquila-47-molokai/exterior/aqu-30279-47-molokai-model-launch-gallery11-802f3c58.webp",
+   "sha256": "802f3c58d7cfe862779ab6ac6366ea413f59c72d9957905c4649439f2900ef88",
+   "bytes": 60098,
+   "uploaded_at": "2026-10-28T17:52:50+00:00",
+   "original_sha256": "ca81f1e244f25b12d648e33b028c652fc7a2876a5fa5e3b588f138937660fe61",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "aqu-30279-47-molokai-model-launch-gallery12",
+   "key": "aquila/aquila-47-molokai/cockpit/aqu-30279-47-molokai-model-launch-gallery12-24f04f88.webp",
+   "sha256": "24f04f8893569931aaa4381c7ef52d31aec5d7c73f024114460333e88486da20",
+   "bytes": 62326,
+   "uploaded_at": "2026-10-28T17:52:50+00:00",
+   "original_sha256": "82089602363b68f03b987a5ee3083cdf1515df25742a57461dbee0a2b11446cd",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "aqu-30279-47-molokai-model-launch-gallery13",
+   "key": "aquila/aquila-47-molokai/cockpit/aqu-30279-47-molokai-model-launch-gallery13-0fcb06ed.webp",
+   "sha256": "0fcb06edba60e7ae3ae1f48d968f58454aec6b069dd134233c0d25e214466139",
+   "bytes": 58156,
+   "uploaded_at": "2026-10-28T17:52:50+00:00",
+   "original_sha256": "484f4d0cf4707ae1497a615ae9d7faabd6eb5e38d23d26856896d8ce3b7b3efb",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "aqu-30279-47-molokai-model-launch-gallery14",
+   "key": "aquila/aquila-47-molokai/cabin/aqu-30279-47-molokai-model-launch-gallery14-9c4280f9.webp",
+   "sha256": "9c4280f92d1498405055f183d299b720763887a4d5057b639c7064f668c0bc16",
+   "bytes": 49542,
+   "uploaded_at": "2026-10-28T17:52:50+00:00",
+   "original_sha256": "1ffa57b736ee32c60630c22cf6bffa7be555db89c6dabd562ebf9e108c7b0bcf",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "aqu-30279-47-molokai-model-launch-gallery15",
+   "key": "aquila/aquila-47-molokai/interior/aqu-30279-47-molokai-model-launch-gallery15-a7f66840.webp",
+   "sha256": "a7f668404de8d33211e884c4dbdb745e446d0c1e484fb84336d3df48c3d224b5",
+   "bytes": 27042,
+   "uploaded_at": "2026-10-28T17:52:50+00:00",
+   "original_sha256": "3137a2d47a87d056cf7e858bf374d0d0caf122407c5f76f2cb0c4b5f584863b8",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "aqu-30279-47-molokai-model-launch-gallery16",
+   "key": "aquila/aquila-47-molokai/detail/aqu-30279-47-molokai-model-launch-gallery16-0b5c8b71.webp",
+   "sha256": "0b5c8b716b5be412132c075270514a8ece2f60db56a2e498e9a8293dff4d3b0f",
+   "bytes": 49368,
+   "uploaded_at": "2026-10-28T17:52:50+00:00",
+   "original_sha256": "7f3556c105d3dec796e4c2513836fcc963bf2c20fba331fa1fceda97a4a60bd4",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "aqu-30279-47-molokai-model-launch-gallery1",
+   "key": "aquila/aquila-47-molokai/cockpit/aqu-30279-47-molokai-model-launch-gallery1-8a87e1ce.webp",
+   "sha256": "8a87e1ce0727007a15b851e3a85e442f2bca81d26c9ae0e7d58749588f1295bf",
+   "bytes": 62492,
+   "uploaded_at": "2026-10-28T17:52:51+00:00",
+   "original_sha256": "5b742a32b9f6871d99968cc03c3f002c20d801094ca98c66e3dc35198a6c34fe",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "47molokai-herocarousel2-10102023",
+   "key": "aquila/aquila-47-molokai/hero/47molokai-herocarousel2-10102023-76c53cd2.webp",
+   "sha256": "76c53cd24ebbd9afa5ec900434cadc8d1382db0dc9a8cdbc1b34edb386cf2c43",
+   "bytes": 41852,
+   "uploaded_at": "2026-10-28T17:52:52+00:00",
+   "original_sha256": "9c1d223ed7c578dd27b48f373fbcd16fad63eddad279e34e1d5bbb5802466133",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  }
+ ]
+}

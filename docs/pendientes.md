@@ -90,3 +90,16 @@ errores, con sus `r2.json` creados.
   se reabren cuando el agente corra en más de un equipo o cuando se midan las marcas grandes.
 - **Después del lanzamiento:** workflow de GitHub Actions y `tools/pipeline.py`, línea base para `publish_tier`, videos livianos
   y traducir o decidir la publicación de las características y el equipamiento en inglés.
+
+## Notas para el Pull Request
+
+- **Aquila, aceptación por regla (cierra la sección "Aquila: 134 imágenes en REQUIRES_REVIEW").** Las 134 imágenes se aceptaron
+  el 2026-10-28 con `--accept-by-rule` (aprobador ap-001): `last_modified` anterior al registro y dimensiones iguales; cada una
+  tiene su entrada en `review_log`. Al aceptar, el estado de 104 registros pasó de `WEB_COPY (original no disponible; desde CDN)`
+  a `WEB_COPY`. No se pierde información: el bloque `original` queda idéntico y el dato equivalente sigue en
+  `original.full_resolution` (falso) y en `downloaded_from` del registro. Los `multimedia.md` se regeneraron con ese estado.
+- **4 URLs con espacios en el inventario de Aquila (las corrige Nico):** `aquila-35-sport`, `aquila-45-sport` y dos de
+  `aquila-50-sail`. `restore` las usa sin espacios y lo informa como `url_con_espacios`.
+- **Las `.webp` no se versionan** (`.gitignore`); se regeneran con `media --restore`. R2 es el destino único.
+- **`restore` reevalúa un `REQUIRES_REVIEW` solo con `--accept-by-rule`**, que exige `--by=ap-NNN` (código de aprobador; no
+  acepta correos ni nombres). Sin esa bandera, una imagen cambiada queda en `REQUIRES_REVIEW` y no se publica.

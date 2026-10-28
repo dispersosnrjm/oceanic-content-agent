@@ -2,6 +2,7 @@ import contextlib
 import hashlib
 import io
 import json
+import re
 import tempfile
 import unittest
 from pathlib import Path
@@ -13,7 +14,7 @@ try:
     from tests import _netguard  # noqa: F401  (bloquea la red en las pruebas)
 except ImportError:  # unittest discover -s tests
     import _netguard  # noqa: F401
-from oceanic import media
+from oceanic import exporter, media, r2
 
 
 def _png(color=(200, 30, 30), size=(64, 48)):
@@ -376,6 +377,325 @@ class Restore(unittest.TestCase):
                     n += 1
         self.assertGreater(n, 3000)
 
+    # --- URLs con espacios y metadatos de la descarga en el informe (images.json no cambia) -------------------
+
+    META = {"status": 200, "content_type": "image/png", "etag": '"abc123"',
+            "last_modified": "Fri, 25 Oct 2024 19:17:40 GMT"}
+
+    def _with_meta(self, meta=None):
+        def fetch(url):
+            self.calls.append(url)
+            return _png(), dict(self.META if meta is None else meta)
+        return fetch
+
+    def _row(self, record, meta=None):
+        for old in (self.imgs / "EXTERIOR").glob("*.webp"):  # estado limpio: una corrida anterior dejo la copia en disco
+            old.unlink()
+        self._write([record])
+        st = media.restore_images(self.dir, fetch=self._with_meta(meta))
+        self.assertEqual(len(st["downloads"]), 1)
+        return st["downloads"][0], st
+
+    def test_trailing_space_url_is_stripped_reported_and_inventory_not_rewritten(self):
+        spaced = "https://x.test/a.jpg "
+        self._write([_rec("a", source_url=spaced, original={"url": spaced, "fetched_from": spaced, "sha256": PNG_SHA,
+                                                            "width": 64, "height": 48, "format": "png"}),
+                     _rec("b")])
+        before = self._raw()
+        st = media.restore_images(self.dir, fetch=self._with_meta())
+        self.assertIn("https://x.test/a.jpg", self.calls)  # sin el espacio
+        self.assertNotIn(spaced, self.calls)
+        self.assertEqual((st["restored_verified"], st["failed"], st["changed"]), (2, 0, 0))  # se verifica igual
+        self.assertEqual(st["url_con_espacios"], [{"id": "a", "campos": ["original.fetched_from", "source_url", "original.url"]}])
+        self.assertEqual(self._raw(), before)  # el dato con espacio sigue en el inventario: lo corrige Nico
+        self.assertIn(spaced.encode(), self._raw())
+
+    def test_report_row_has_every_field(self):
+        row, _ = self._row(_rec("a", original={"url": "https://x.test/a.jpg", "fetched_from": "https://x.test/a.jpg",
+                                               "sha256": PNG_SHA, "width": 64, "height": 48, "format": "png"}))
+        self.assertEqual(row, {
+            "id": "a", "modelo": "marca/modelo", "url_usada": "https://x.test/a.jpg", "http": 200,
+            "content_type": "image/png", "bytes_descargados": len(_png()), "etag": '"abc123"',
+            "last_modified": "Fri, 25 Oct 2024 19:17:40 GMT", "sha256_obtenido": PNG_SHA, "sha256_esperado": PNG_SHA,
+            "formato_descargado": "png", "dimensiones_descargadas": "64x48", "formato_registrado": "png",
+            "dimensiones_registradas": "64x48", "fecha_registro": "2026-10-04",
+            "last_modified_anterior_al_registro": "sí", "dimensiones_coinciden": "sí", "resultado": "verificada"})
+
+    def test_last_modified_flag(self):
+        for lm, expected in (("Fri, 25 Oct 2024 19:17:40 GMT", "sí"),   # anterior al dia del registro
+                             ("Sun, 04 Oct 2026 03:00:00 GMT", "no"),   # el mismo dia: no se puede afirmar que sea anterior
+                             ("Tue, 20 Oct 2026 10:00:00 GMT", "no"),   # posterior
+                             (None, "desconocido"),                     # el servidor no envio Last-Modified
+                             ("no es una fecha", "desconocido")):
+            row, _ = self._row(_rec("a"), meta={**self.META, "last_modified": lm})
+            self.assertEqual(row["last_modified_anterior_al_registro"], expected, lm)
+        row, _ = self._row(_rec("a", downloaded_at=None, collected_at=None))  # sin fecha de registro
+        self.assertEqual(row["last_modified_anterior_al_registro"], "desconocido")
+        row, _ = self._row(_rec("a", downloaded_at=None, collected_at="2026-10-01"))  # usa collected_at si falta downloaded_at
+        self.assertEqual((row["fecha_registro"], row["last_modified_anterior_al_registro"]), ("2026-10-01", "sí"))
+
+    def test_dimensions_flag(self):
+        def orig(w, h):
+            return {"url": "https://x.test/a.jpg", "fetched_from": "https://x.test/a.jpg", "sha256": PNG_SHA,
+                    "width": w, "height": h, "format": "png"}
+        for w, h, expected in ((64, 48, "sí"), (4000, 3000, "no"), (None, None, "desconocido"), (64, None, "desconocido")):
+            row, _ = self._row(_rec("a", original=orig(w, h)))
+            self.assertEqual(row["dimensiones_coinciden"], expected, (w, h))
+        row, _ = self._row(_rec("a", original={"url": "https://x.test/a.jpg", "fetched_from": "https://x.test/a.jpg",
+                                               "sha256": PNG_SHA}))  # el original no registra dimensiones
+        self.assertEqual((row["dimensiones_registradas"], row["dimensiones_coinciden"]), (None, "desconocido"))
+
+    def test_fetch_without_metadata_leaves_unknown_fields(self):
+        self._write([_rec("a")])
+        st = media.restore_images(self.dir, fetch=self._fetch)  # devuelve solo bytes, como antes
+        row = st["downloads"][0]
+        self.assertEqual((row["http"], row["content_type"], row["etag"], row["last_modified"]), (None, None, None, None))
+        self.assertEqual((row["last_modified_anterior_al_registro"], row["resultado"]), ("desconocido", "verificada"))
+
+    def test_changed_and_unverifiable_rows_carry_the_right_result(self):
+        row, _ = self._row(_rec("c", original={"url": "https://x.test/c.jpg", "fetched_from": "https://x.test/c.jpg",
+                                               "sha256": "f" * 64, "width": 64, "height": 48, "format": "png"}))
+        self.assertEqual((row["resultado"], row["sha256_esperado"], row["sha256_obtenido"]), ("cambiada", "f" * 64, PNG_SHA))
+        row, _ = self._row(_rec("u", original={"url": "https://x.test/u.jpg", "fetched_from": None, "sha256": None,
+                                               "width": 64, "height": 48, "format": "png"}))
+        self.assertEqual((row["resultado"], row["sha256_esperado"]), ("no verificable", None))
+
+    def test_running_the_restore_twice_leaves_images_json_identical(self):
+        spaced = "https://x.test/s.jpg "
+        self._write([_rec("a"), _rec("s", source_url=spaced, original={"url": spaced, "fetched_from": spaced,
+                                                                         "sha256": PNG_SHA, "width": 64, "height": 48,
+                                                                         "format": "png"})])
+        before = self._raw()
+        first = io.StringIO()
+        with contextlib.redirect_stdout(first):
+            media.restore_main(["marca", "--restore", f"--report={self.root / 'r1.json'}"], self.root, fetch=self._with_meta())
+        after_first = self._raw()
+        second = io.StringIO()
+        with contextlib.redirect_stdout(second):
+            media.restore_main(["marca", "--restore", f"--report={self.root / 'r2.json'}"], self.root, fetch=self._with_meta())
+        self.assertEqual(after_first, before)  # el informe ampliado no escribe nada en images.json
+        self.assertEqual(self._raw(), after_first)  # y la segunda corrida lo deja igual
+        for forbidden in (b"last_modified", b"etag", b"bytes_descargados", b"url_con_espacios", b"sha256_obtenido"):
+            self.assertNotIn(forbidden, self._raw())
+        r1 = json.loads((self.root / "r1.json").read_text(encoding="utf-8"))
+        r2 = json.loads((self.root / "r2.json").read_text(encoding="utf-8"))
+        self.assertEqual(len(r1["descargas"]), 2)  # la primera descarga y la segunda ya no (copias en disco)
+        self.assertEqual(r2["descargas"], [])
+        self.assertEqual([u["id"] for u in r1["url_con_espacios"]], ["s"])
+        self.assertEqual([u["id"] for u in r2["url_con_espacios"]], ["s"])  # el dato sigue mal hasta que Nico lo corrija
+        self.assertEqual(r1["resumen_descargas"]["verificada"]["last_modified_anterior_al_registro"], {"sí": 2})
+        self.assertIn("url_con_espacios", first.getvalue())
+
+    def test_fetch_meta_and_fetch_strip_the_url_and_send_the_same_headers(self):
+        import email.message
+
+        class Resp:
+            status = 200
+
+            def __init__(self):
+                self.headers = email.message.Message()
+                self.headers["Content-Type"] = "image/webp"
+                self.headers["ETag"] = '"e1"'
+                self.headers["Last-Modified"] = "Thu, 16 Jul 2026 17:14:31 GMT"
+
+            def read(self):
+                return b"datos"
+
+            def getcode(self):
+                return 200
+
+            def __enter__(self):
+                return self
+
+            def __exit__(self, *a):
+                return False
+
+        requests = []
+
+        class Opener:
+            def open(self, req, timeout=None):
+                requests.append(req)
+                return Resp()
+
+        with mock.patch("urllib.request.build_opener", lambda *h: Opener()):
+            data, meta = media._fetch_meta("https://x.test/a b.webp ")
+            self.assertEqual(media._fetch("https://x.test/a.webp  "), b"datos")
+        self.assertEqual((data, meta), (b"datos", {"status": 200, "content_type": "image/webp", "etag": '"e1"',
+                                                    "last_modified": "Thu, 16 Jul 2026 17:14:31 GMT"}))
+        self.assertEqual(requests[0].full_url, "https://x.test/a%20b.webp")  # sin %20 final
+        self.assertEqual(requests[1].full_url, "https://x.test/a.webp")
+        for req in requests:
+            self.assertEqual(dict(req.header_items()), {"User-agent": media.USER_AGENT})  # las mismas cabeceras de siempre
+
+    # --- aceptacion por regla objetiva (--accept-by-rule --by=<nombre>) ----------------------------------------------
+
+    LM_BEFORE = "Fri, 25 Oct 2024 19:17:40 GMT"   # anterior al registro (2026-10-04)
+    LM_AFTER = "Tue, 20 Oct 2026 10:00:00 GMT"    # posterior
+
+    def _changed_rec(self, rid="a", width=64, height=48, **kw):
+        """El original registrado tiene OTRO sha256 que el que sirve el servidor; mismas dimensiones que `_png()`."""
+        orig = {"url": f"https://x.test/{rid}.jpg", "fetched_from": f"https://x.test/{rid}.jpg", "sha256": "f" * 64,
+                "width": width, "height": height, "format": "png", "bytes": 999, "full_resolution": True}
+        return _rec(rid, original=orig, sha256="a" * 64, **kw)
+
+    def _accept_run(self, meta=None, png=None, accept_by="Johnny"):
+        data = png or _png()
+        return media.restore_images(self.dir, fetch=lambda url: (data, dict(self.META if meta is None else meta)),
+                                    accept_by=accept_by)
+
+    def _fresh(self, *records):
+        for old in (self.imgs / "EXTERIOR").glob("*.webp"):
+            old.unlink()
+        self._write(list(records))
+
+    def test_accept_by_rule_when_last_modified_is_earlier_and_dimensions_match(self):
+        self._fresh(self._changed_rec("a"))
+        orig_before = json.dumps(self._load()[0]["original"], sort_keys=True)
+        web_before = {k: self._load()[0][k] for k in ("sha256", "bytes", "width", "height", "downloaded_at")}
+        st = self._accept_run()
+        self.assertEqual((st["accepted_by_rule"], st["changed"], st["failed"]), (1, 0, 0))
+        self.assertEqual(st["downloads"][0]["resultado"], "aceptada por regla")
+        r = self._load()[0]
+        self.assertEqual(r["download_status"], "WEB_COPY")
+        self.assertNotIn("restore_check", r)
+        self.assertEqual(json.dumps(r["original"], sort_keys=True), orig_before)  # `original` intacto
+        self.assertEqual({k: r[k] for k in web_before}, web_before)  # los campos de la copia tampoco cambian
+        self.assertTrue(media._webp_ok(self.imgs / "EXTERIOR" / "a.webp"))
+        (entry,) = r["review_log"]
+        self.assertEqual((entry["decision"], entry["rule"], entry["by"]), ("accepted_by_rule", media.ACCEPT_RULE, "Johnny"))
+        self.assertRegex(entry["at"], r"^\d{4}-\d\d-\d\dT\d\d:\d\d:\d\dZ$")
+        self.assertEqual((entry["sha256_observado"], entry["last_modified"], entry["etag"], entry["content_type"],
+                          entry["bytes"]), (PNG_SHA, self.LM_BEFORE, '"abc123"', "image/png", len(_png())))
+        self.assertEqual((entry["url"], entry["sha256_esperado_anterior"]), ("https://x.test/a.jpg", "f" * 64))
+
+    def test_rule_rejects_every_other_case_and_leaves_review_required(self):
+        cases = {
+            "last_modified posterior (no / sí)": (dict(meta={**self.META, "last_modified": self.LM_AFTER}), {}),
+            "dimensiones distintas (sí / no)": ({}, dict(width=4000, height=3000)),
+            "last_modified ausente (desconocido / sí)": (dict(meta={**self.META, "last_modified": None}), {}),
+            "last_modified ilegible (desconocido / sí)": (dict(meta={**self.META, "last_modified": "ayer"}), {}),
+            "dimensiones registradas ausentes (sí / desconocido)": ({}, dict(width=None, height=None)),
+        }
+        for label, (run_kw, rec_kw) in cases.items():
+            self._fresh(self._changed_rec("a", **rec_kw))
+            orig_before = json.dumps(self._load()[0]["original"], sort_keys=True)
+            st = self._accept_run(**run_kw)
+            r = self._load()[0]
+            self.assertEqual((st["accepted_by_rule"], st["changed"]), (0, 1), label)
+            self.assertEqual(r["download_status"], "REQUIRES_REVIEW (original cambió)", label)
+            self.assertNotIn("review_log", r, label)
+            self.assertIn("restore_check", r, label)
+            self.assertFalse((self.imgs / "EXTERIOR" / "a.webp").exists(), label)  # no se escribe la copia
+            self.assertEqual(json.dumps(r["original"], sort_keys=True), orig_before, label)
+
+    def test_without_the_option_nothing_is_accepted(self):
+        self._fresh(self._changed_rec("a"))
+        st = media.restore_images(self.dir, fetch=lambda url: (_png(), dict(self.META)))  # sin accept_by
+        r = self._load()[0]
+        self.assertEqual((st["accepted_by_rule"], st["changed"], r["download_status"]),
+                         (0, 1, "REQUIRES_REVIEW (original cambió)"))
+        self.assertNotIn("review_log", r)
+
+    def test_later_restore_verifies_against_the_accepted_hash_and_detects_a_new_change(self):
+        self._fresh(self._changed_rec("a"))
+        self._accept_run()
+        after_accept = self._raw()
+        # con la copia en disco no hay nada que hacer
+        st = self._accept_run()
+        self.assertEqual((st["ok_on_disk"], st["downloads"]), (1, []))
+        self.assertEqual(self._raw(), after_accept)
+        # sin la copia: se baja de nuevo y se verifica contra el hash ACEPTADO (con y sin la opcion)
+        for accept_by in ("Johnny", None):
+            (self.imgs / "EXTERIOR" / "a.webp").unlink()
+            st = media.restore_images(self.dir, fetch=lambda url: (_png(), dict(self.META)), accept_by=accept_by)
+            self.assertEqual((st["restored_verified"], st["changed"]), (1, 0), accept_by)
+            self.assertEqual(st["downloads"][0]["sha256_esperado"], PNG_SHA)  # el aceptado, no el original ("f"*64)
+            self.assertEqual(self._raw(), after_accept, accept_by)  # images.json idéntico
+        # el servidor cambia otra vez: vuelve a REQUIRES_REVIEW y NO se acepta una segunda vez
+        (self.imgs / "EXTERIOR" / "a.webp").unlink()
+        other = _png(color=(10, 200, 10))
+        st = self._accept_run(png=other)
+        r = self._load()[0]
+        self.assertEqual((st["accepted_by_rule"], st["changed"]), (0, 1))
+        self.assertEqual(r["download_status"], "REQUIRES_REVIEW (original cambió)")
+        self.assertEqual(len(r["review_log"]), 1)  # se conserva la aceptación anterior
+        self.assertEqual((r["restore_check"]["expected_sha256"], r["restore_check"]["downloaded_sha256"]),
+                         (PNG_SHA, hashlib.sha256(other).hexdigest()))
+        self.assertEqual(r["original"]["sha256"], "f" * 64)
+        # y una aceptada que quedo en REQUIRES_REVIEW no se reevalua aunque se use la opcion
+        again = self._raw()
+        self.calls.clear()
+        st = media.restore_images(self.dir, fetch=self._fetch, accept_by="Johnny")
+        self.assertEqual((self.calls, self._raw()), ([], again))
+
+    def test_accepting_twice_is_idempotent(self):
+        self._fresh(self._changed_rec("a"), self._changed_rec("b", width=4000, height=3000))
+        self._accept_run()
+        first = self._raw()
+        self._accept_run()
+        self.assertEqual(self._raw(), first)  # una aceptada y una pendiente: la segunda corrida no cambia nada
+        self.assertEqual([r["download_status"][:15] for r in self._load()], ["WEB_COPY", "REQUIRES_REVIEW"])
+
+    def test_requires_review_from_an_earlier_run_is_only_reevaluated_with_the_option(self):
+        flagged = self._changed_rec("a", download_status="REQUIRES_REVIEW (original cambió)")
+        flagged["restore_check"] = {"url": "https://x.test/a.jpg", "expected_sha256": "f" * 64, "downloaded_sha256": PNG_SHA}
+        self._fresh(flagged)
+        before = self._raw()
+        st = media.restore_images(self.dir, fetch=self._fetch)  # sin opcion: sigue pendiente de una persona
+        self.assertEqual((self.calls, st["accepted_by_rule"], self._raw()), ([], 0, before))
+        st = self._accept_run()
+        self.assertEqual((st["accepted_by_rule"], self._load()[0]["download_status"]), (1, "WEB_COPY"))
+
+    def test_cli_requires_by_and_reports_the_acceptance(self):
+        self._fresh(self._changed_rec("a"))
+        before = self._raw()
+        for args in (["marca", "--restore", "--accept-by-rule"], ["marca", "--restore", "--accept-by-rule", "--by="],
+                     ["marca", "--restore", "--by=Johnny"]):
+            buf = io.StringIO()
+            with contextlib.redirect_stdout(buf):
+                rc = media.restore_main(args, self.root, fetch=self._fetch)
+            self.assertEqual((rc, self.calls, self._raw()), (2, [], before), args)
+            self.assertIn("ERROR", buf.getvalue())
+        out = self.root / "informe.json"
+        buf = io.StringIO()
+        with contextlib.redirect_stdout(buf):
+            rc = media.restore_main(["marca", "--restore", "--accept-by-rule", "--by=Johnny", f"--report={out}"],
+                                    self.root, fetch=lambda url: (_png(), dict(self.META)))
+        self.assertEqual(rc, 0)
+        self.assertIn("aceptadas por regla 1 (por Johnny)", buf.getvalue())
+        rep = json.loads(out.read_text(encoding="utf-8"))
+        self.assertEqual(rep["total"]["accepted_by_rule"], 1)
+        self.assertEqual(rep["aceptadas_por_regla"][0]["id"], "a")
+        self.assertEqual(rep["resumen_descargas"]["aceptada por regla"]["total"], 1)
+
+    def test_publish_r2_and_export_respect_the_state(self):
+        # ok: aceptada por regla; no: no cumple la regla (REQUIRES_REVIEW); again: aceptada y luego cambio otra vez
+        recs = [self._changed_rec(i) for i in ("ok", "no", "again")]
+        self._fresh(*recs)
+
+        def fetch(url):
+            meta = dict(self.META, last_modified=self.LM_AFTER) if "/no." in url else dict(self.META)
+            return _png(), meta
+        media.restore_images(self.dir, fetch=fetch, accept_by="Johnny")
+        (self.imgs / "EXTERIOR" / "again.webp").unlink()
+        def second(url):  # el servidor sigue igual salvo "again", que cambia de nuevo
+            png = _png(color=(1, 2, 3)) if "/again." in url else _png()
+            return png, (dict(self.META, last_modified=self.LM_AFTER) if "/no." in url else dict(self.META))
+        media.restore_images(self.dir, fetch=second, accept_by="Johnny")
+        states = {r["id"]: r["download_status"][:15] for r in self._load()}
+        self.assertEqual(states, {"ok": "WEB_COPY", "no": "REQUIRES_REVIEW", "again": "REQUIRES_REVIEW"})
+        # publish-r2 (simulacion): solo la aceptada es elegible
+        rep = r2.publish([self.dir])
+        m = rep["models"][0]
+        self.assertEqual((m["eligible"], m["skipped"].get("REQUIRES_REVIEW")), (1, 2))
+        self.assertEqual(len(m["keys"]), 1)
+        self.assertIn("/ok-", m["keys"][0])
+        # export-portal: solo la aceptada entra en images[]
+        from collections import Counter
+        omitted = Counter()
+        images, _, _ = exporter._build_images(self.dir, "marca", "modelo", "Modelo", True, omitted, [])
+        self.assertEqual([i["id"] for i in images], ["ok"])
+        self.assertEqual(omitted["REQUIRES_REVIEW"], 2)
     # --- informe -------------------------------------------------------------------------------------------
 
     def test_report_counts_by_case_and_brand(self):

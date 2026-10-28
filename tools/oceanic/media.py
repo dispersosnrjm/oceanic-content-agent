@@ -16,7 +16,7 @@ import json
 import re
 import urllib.parse
 import urllib.request
-from datetime import date
+from datetime import date, datetime, timezone
 from pathlib import Path
 
 IMAGE_CATEGORIES = ("HERO", "EXTERIOR", "INTERIOR", "COCKPIT", "CABIN", "HELM",
@@ -33,10 +33,23 @@ def _fetch(url: str, timeout: int = 120) -> bytes:
     # Some servers (manuals.axopar.com) redirect through a cookie check, so keep cookies across redirects.
     opener = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(http.cookiejar.CookieJar()))
     # Non-ASCII file names (xoboats.com: "D8-sisältä-top.jpg") must be percent-encoded; "%" is kept as is.
-    url = urllib.parse.quote(url, safe=":/?&=%#+,;@~")
+    url = urllib.parse.quote(url.strip(), safe=":/?&=%#+,;@~")  # un espacio al final del dato daria 404 (no se reescribe el inventario)
     req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
     with opener.open(req, timeout=timeout) as resp:
         return resp.read()
+
+
+def _fetch_meta(url: str, timeout: int = 120) -> tuple[bytes, dict]:
+    """Same request as `_fetch` (same headers), but also returns what the server said about the response."""
+    opener = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(http.cookiejar.CookieJar()))
+    url = urllib.parse.quote(url.strip(), safe=":/?&=%#+,;@~")
+    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+    with opener.open(req, timeout=timeout) as resp:
+        data = resp.read()
+        headers = resp.headers
+        status = getattr(resp, "status", None) or resp.getcode()
+        return data, {"status": status, "content_type": headers.get("Content-Type"), "etag": headers.get("ETag"),
+                      "last_modified": headers.get("Last-Modified")}
 
 
 def _image_info(data: bytes) -> tuple[str | None, int | None, int | None]:
@@ -362,6 +375,47 @@ def _check_inside(model_dir: Path, rel, image_id=None) -> Path:
     return target
 
 
+URL_FIELDS = (("downloaded_from", ("downloaded_from",)), ("original.fetched_from", ("original", "fetched_from")),
+              ("source_url", ("source_url",)), ("original.url", ("original", "url")), ("cdn_url", ("cdn_url",)))
+
+
+def _url_whitespace(rec: dict) -> list[str]:
+    """Inventory URL fields that carry leading/trailing whitespace (data to fix; the inventory is never rewritten)."""
+    bad = []
+    for name, path in URL_FIELDS:
+        value = rec
+        for key in path:
+            value = value.get(key) if isinstance(value, dict) else None
+        if isinstance(value, str) and value != value.strip():
+            bad.append(name)
+    return bad
+
+
+ACCEPT_RULE = "last_modified_anterior_al_registro+dimensiones_coinciden"
+
+
+def _utc_now() -> str:
+    return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+
+
+def _accepted(rec: dict) -> dict | None:
+    """Last acceptance by rule recorded in the record's `review_log`, if any."""
+    log = [e for e in (rec.get("review_log") or []) if isinstance(e, dict) and e.get("decision") == "accepted_by_rule"]
+    return log[-1] if log else None
+
+
+def _write_web_copy(model_dir: Path, rec: dict, data: bytes):
+    """Encode and write the web copy to the registered path (or the standard one); returns (rel, web, width, height)."""
+    category = rec["category"] if rec.get("category") in IMAGE_CATEGORIES else "OTHER"
+    edge = WEB_MAX_EDGE["hero" if rec.get("hero_rank") is not None or category == "HERO" else "default"]
+    web, ww, wh = _web_copy(data, edge)
+    rel = rec["file"] if rec.get("file") else f"05_MULTIMEDIA/IMAGENES/{category}/{rec['id']}.webp"
+    dest = _check_inside(model_dir, rel, rec.get("id"))
+    dest.parent.mkdir(parents=True, exist_ok=True)
+    dest.write_bytes(web)
+    return rel, web, ww, wh
+
+
 def _restore_plan(rec: dict) -> tuple[list[str], str | None, str | None]:
     """URLs to try, in order, plus the (url, sha256) pair that the downloaded bytes can be checked against.
 
@@ -369,28 +423,73 @@ def _restore_plan(rec: dict) -> tuple[list[str], str | None, str | None]:
     * only original.source_copy_sha256 present (copies made with `--cdn`): the CDN URL the copy came from
       (`downloaded_from`) goes first; its raw bytes are what source_copy_sha256 fingerprints.
     * neither: nothing to compare (not verifiable).
+    URLs are used with leading/trailing whitespace removed; the inventory itself is not modified.
     """
+    def clean(u):
+        return u.strip() if isinstance(u, str) else u
+
     orig = rec.get("original") or {}
-    fetched, dfrom = orig.get("fetched_from"), rec.get("downloaded_from")
+    fetched, dfrom = clean(orig.get("fetched_from")), clean(rec.get("downloaded_from"))
+    tail = (clean(rec.get("source_url")), clean(orig.get("url")), clean(rec.get("cdn_url")))
     if orig.get("sha256"):
-        order = (fetched, dfrom, rec.get("source_url"), orig.get("url"), rec.get("cdn_url"))
+        order = (fetched, dfrom) + tail
         check_url, expected = fetched, orig["sha256"]
     elif orig.get("source_copy_sha256"):
-        order = (dfrom, fetched, rec.get("source_url"), orig.get("url"), rec.get("cdn_url"))
+        order = (dfrom, fetched) + tail
         check_url, expected = dfrom, orig["source_copy_sha256"]
     else:
-        order = (dfrom, fetched, rec.get("source_url"), orig.get("url"), rec.get("cdn_url"))
+        order = (dfrom, fetched) + tail
         check_url, expected = None, None
     urls = []
     for u in order:
         if isinstance(u, str) and u.startswith(("http://", "https://")) and u not in urls:
             urls.append(u)
+    acc = _accepted(rec)
+    if acc and acc.get("url") and acc.get("sha256_observado"):
+        # an image accepted by rule is verified against the hash that was accepted, not against `original`
+        accepted_url = clean(acc["url"])
+        urls = [accepted_url] + [u for u in urls if u != accepted_url]
+        check_url, expected = accepted_url, acc["sha256_observado"]
     if check_url not in urls:
         check_url, expected = None, None
     return urls, check_url, expected
 
 
-def restore_images(model_dir: Path, fetch=None, brand: str | None = None) -> dict:
+def _last_modified_before(last_modified, reg_date) -> str:
+    """'sí' if the server's Last-Modified is earlier than the registration day, 'no' if not, 'desconocido' if unknown."""
+    from email.utils import parsedate_to_datetime
+    try:
+        lm = parsedate_to_datetime(str(last_modified)).date()
+        reg = date.fromisoformat(str(reg_date)[:10])
+    except (TypeError, ValueError):
+        return "desconocido"
+    return "sí" if lm < reg else "no"
+
+
+def _dimensions_match(downloaded, registered) -> str:
+    if not downloaded or not registered:
+        return "desconocido"
+    return "sí" if downloaded == registered else "no"
+
+
+def _download_row(brand: str, model: str, rec: dict, used: str, meta: dict, data: bytes, got_sha: str,
+                  expected: str | None) -> dict:
+    """One line of the --report for a downloaded image (never written to images.json)."""
+    orig = rec.get("original") or {}
+    fmt, w, h = _image_info(data)
+    got_dims = f"{w}x{h}" if w and h else None
+    reg_dims = f"{orig['width']}x{orig['height']}" if orig.get("width") and orig.get("height") else None
+    reg_date = rec.get("downloaded_at") or rec.get("collected_at")
+    return {"id": rec["id"], "modelo": f"{brand}/{model}", "url_usada": used, "http": meta.get("status"),
+            "content_type": meta.get("content_type"), "bytes_descargados": len(data), "etag": meta.get("etag"),
+            "last_modified": meta.get("last_modified"), "sha256_obtenido": got_sha, "sha256_esperado": expected,
+            "formato_descargado": fmt, "dimensiones_descargadas": got_dims,
+            "formato_registrado": orig.get("format"), "dimensiones_registradas": reg_dims, "fecha_registro": reg_date,
+            "last_modified_anterior_al_registro": _last_modified_before(meta.get("last_modified"), reg_date),
+            "dimensiones_coinciden": _dimensions_match(got_dims, reg_dims), "resultado": None}
+
+
+def restore_images(model_dir: Path, fetch=None, brand: str | None = None, accept_by: str | None = None) -> dict:
     """Restore only missing/corrupt web copies from the official sites; never touches `original`.
 
     Records on disk that open as WebP are left alone. Solaris is skipped (anti-bot captcha: `media --from-dir`).
@@ -404,17 +503,25 @@ def restore_images(model_dir: Path, fetch=None, brand: str | None = None) -> dic
       * not checkable -> `restored_unverifiable`: the copy is written; the record is only filled in when it had no
                          copy registered yet.
 
+    `accept_by` (CLI: --accept-by-rule --by=<nombre>): a "changed" image is accepted ONLY if the server's Last-Modified is
+    earlier than the registration day AND the downloaded dimensions equal the registered ones. Then the web copy is
+    written, `download_status` is WEB_COPY and the acceptance is appended to the record's `review_log` (rule, who, when,
+    observed sha256, last_modified, etag, content_type, bytes). `original` is never modified. Later restores verify an
+    accepted image against the accepted hash; if it changes again it goes back to REQUIRES_REVIEW (no second automatic
+    acceptance). Without `accept_by` nothing is ever accepted.
+
     A failed download (DNS, timeout, 404, captcha, no URL) NEVER modifies a record that already has a registered copy
     (`has_registered_copy`): it only goes to the report (`failed_list`, `manual`). On success, a record whose
     download_status was left in another state (FAILED, requires_manual_download) is put back to WEB_COPY.
     """
-    fetch = fetch or _fetch
+    fetch = fetch or _fetch_meta
     model_dir = Path(model_dir)
     brand = brand or model_dir.parent.name
     stats = {"brand": brand, "model": model_dir.name, "restored": 0, "restored_verified": 0, "restored_unverifiable": 0,
              "changed": 0, "changed_list": [], "ok_on_disk": 0, "failed": 0, "no_url": 0,
              "requires_manual_download": 0, "skipped_solaris": 0, "identical_copy": 0, "manual": [],
-             "failed_list": [], "status_healed": 0, "inconsistent_status": []}
+             "failed_list": [], "status_healed": 0, "inconsistent_status": [], "downloads": [], "url_con_espacios": [],
+             "accepted_by_rule": 0, "accepted_list": []}
     inv_path = model_dir / "05_MULTIMEDIA" / "IMAGENES" / "images.json"
     inv = json.loads(inv_path.read_text(encoding="utf-8"))
     for rec in inv["images"]:  # antes de leer, descargar o escribir nada: todas las rutas deben quedar dentro del modelo
@@ -425,8 +532,13 @@ def restore_images(model_dir: Path, fetch=None, brand: str | None = None) -> dic
         status = str(rec.get("download_status") or "")
         if rec.get("scope") != "THIS_MODEL" or status.startswith("DUPLICATE_OF"):
             continue
-        if status.startswith("REQUIRES_REVIEW"):
-            continue  # decision pendiente de una persona: no se vuelve a descargar ni a publicar
+        spaces = _url_whitespace(rec)
+        if spaces:  # dato a corregir en el inventario (Nico); aqui solo se informa
+            stats["url_con_espacios"].append({"id": rec["id"], "campos": spaces})
+        if status.startswith("REQUIRES_REVIEW") and not (accept_by and not _accepted(rec)):
+            # decision pendiente de una persona: no se vuelve a descargar ni a publicar (con --accept-by-rule se
+            # reevaluan solo las que nunca fueron aceptadas)
+            continue
         if rec.get("file") and _webp_ok(model_dir / rec["file"]):
             stats["ok_on_disk"] += 1
             if rec.get("sha256") and not status.startswith("WEB_COPY"):
@@ -442,15 +554,16 @@ def restore_images(model_dir: Path, fetch=None, brand: str | None = None) -> dic
             stats["no_url"] += 1
             stats["failed_list"].append({"id": rec["id"], "error": "sin URL oficial", "registered": registered})
             continue
-        data, err, captcha_url, used = None, "sin URL oficial", None, None
+        data, err, captcha_url, used, dl_meta = None, "sin URL oficial", None, None, {}
         for url in urls:
             try:
                 got = fetch(url)
             except Exception as exc:
                 err = f"{type(exc).__name__}: {exc}"
                 continue
+            got, meta = got if isinstance(got, tuple) else (got, {})  # fetch puede devolver bytes o (bytes, metadatos)
             if _image_info(got)[0]:
-                data, used = got, url
+                data, used, dl_meta = got, url, meta
                 break
             if "captcha" in got[:200].decode("utf-8", "replace").lower():
                 captcha_url = captcha_url or url
@@ -471,7 +584,26 @@ def restore_images(model_dir: Path, fetch=None, brand: str | None = None) -> dic
             stats["failed_list"].append({"id": rec["id"], "error": err, "registered": registered})
             continue
         got_sha = hashlib.sha256(data).hexdigest()
+        row = _download_row(brand, model_dir.name, rec, used, dl_meta, data, got_sha,
+                            expected if used == check_url else None)
+        stats["downloads"].append(row)
         if expected and used == check_url and got_sha != expected:
+            row["resultado"] = "cambiada"
+            if (accept_by and not _accepted(rec) and row["last_modified_anterior_al_registro"] == "sí"
+                    and row["dimensiones_coinciden"] == "sí"):
+                _write_web_copy(model_dir, rec, data)  # `original` y los campos de la copia no se tocan
+                rec.setdefault("review_log", []).append({
+                    "decision": "accepted_by_rule", "rule": ACCEPT_RULE, "by": accept_by, "at": _utc_now(),
+                    "url": used, "sha256_observado": got_sha, "sha256_esperado_anterior": expected,
+                    "last_modified": dl_meta.get("last_modified"), "etag": dl_meta.get("etag"),
+                    "content_type": dl_meta.get("content_type"), "bytes": len(data)})
+                rec["download_status"] = "WEB_COPY"
+                rec.pop("restore_check", None)
+                row["resultado"] = "aceptada por regla"
+                stats["accepted_by_rule"] += 1
+                stats["accepted_list"].append({"id": rec["id"], "url": used, "sha256_observado": got_sha})
+                changed = True
+                continue
             rec["download_status"] = "REQUIRES_REVIEW (original cambió)"
             rec["restore_check"] = {"url": used, "expected_sha256": expected, "downloaded_sha256": got_sha}
             stats["changed"] += 1
@@ -480,14 +612,9 @@ def restore_images(model_dir: Path, fetch=None, brand: str | None = None) -> dic
             changed = True
             continue
         verified = bool(expected and used == check_url)
-        category = rec["category"] if rec.get("category") in IMAGE_CATEGORIES else "OTHER"
-        edge = WEB_MAX_EDGE["hero" if rec.get("hero_rank") is not None or category == "HERO" else "default"]
-        web, ww, wh = _web_copy(data, edge)
+        row["resultado"] = "verificada" if verified else "no verificable"
         fill = not rec.get("file") or not rec.get("sha256")
-        rel = rec["file"] if rec.get("file") else f"05_MULTIMEDIA/IMAGENES/{category}/{rec['id']}.webp"
-        dest = _check_inside(model_dir, rel, rec.get("id"))
-        dest.parent.mkdir(parents=True, exist_ok=True)
-        dest.write_bytes(web)
+        rel, web, ww, wh = _write_web_copy(model_dir, rec, data)
         web_sha = hashlib.sha256(web).hexdigest()
         stats["identical_copy"] += web_sha == rec.get("sha256")
         stats["restored"] += 1
@@ -500,6 +627,7 @@ def restore_images(model_dir: Path, fetch=None, brand: str | None = None) -> dic
             # restaurada con exito: el estado debe quedar coherente (estaba PENDING / FAILED / requires_manual_download)
             rec["download_status"] = "WEB_COPY"
             rec.pop("manual_download_url", None)
+            rec.pop("restore_check", None)
             stats["status_healed"] += 1
             changed = True
     if changed:
@@ -522,10 +650,22 @@ def _resolve_restore_targets(arg: str, root: Path) -> list[Path]:
     return [h for h in hits if (h / "05_MULTIMEDIA" / "IMAGENES" / "images.json").exists()]
 
 
+def _download_summary(rows: list[dict]) -> dict:
+    """Counts of each result by the two computed flags."""
+    out = {}
+    for r in rows:
+        bucket = out.setdefault(r["resultado"], {"total": 0, "last_modified_anterior_al_registro": {},
+                                                 "dimensiones_coinciden": {}})
+        bucket["total"] += 1
+        for flag in ("last_modified_anterior_al_registro", "dimensiones_coinciden"):
+            bucket[flag][r[flag]] = bucket[flag].get(r[flag], 0) + 1
+    return out
+
+
 def restore_report(all_stats: list[dict]) -> dict:
     """Totals and per-brand counts of a restore run."""
     keys = ("restored", "restored_verified", "restored_unverifiable", "changed", "ok_on_disk", "failed", "no_url",
-            "requires_manual_download", "skipped_solaris", "identical_copy", "status_healed")
+            "requires_manual_download", "skipped_solaris", "identical_copy", "status_healed", "accepted_by_rule")
     total = {k: sum(s[k] for s in all_stats) for k in keys}
     by_brand = {}
     for s in all_stats:
@@ -536,6 +676,12 @@ def restore_report(all_stats: list[dict]) -> dict:
             "changed": [{"model": f"{s['brand']}/{s['model']}", **c} for s in all_stats for c in s["changed_list"]],
             "manual": [{"model": f"{s['brand']}/{s['model']}", **m} for s in all_stats for m in s["manual"]],
             "failed": [{"model": f"{s['brand']}/{s['model']}", **f} for s in all_stats for f in s["failed_list"]],
+            "url_con_espacios": [{"model": f"{s['brand']}/{s['model']}", **u} for s in all_stats
+                                 for u in s["url_con_espacios"]],
+            "aceptadas_por_regla": [{"model": f"{s['brand']}/{s['model']}", **a} for s in all_stats
+                                    for a in s["accepted_list"]],
+            "descargas": [d for s in all_stats for d in s["downloads"]],
+            "resumen_descargas": _download_summary([d for s in all_stats for d in s["downloads"]]),
             "inconsistent_status": [{"model": f"{s['brand']}/{s['model']}", **i}
                                     for s in all_stats for i in s["inconsistent_status"]]}
 
@@ -546,6 +692,14 @@ def restore_main(args: list[str], root: Path, fetch=None) -> int:
     if not pos:
         print("uso: python -m oceanic media <modelo|marca> --restore")
         return 1
+    accept = "--accept-by-rule" in args
+    by = next((a.split("=", 1)[1].strip() for a in args if a.startswith("--by=")), "")
+    if accept and not by:
+        print("ERROR --accept-by-rule exige --by=<nombre de quien acepta>")
+        return 2
+    if by and not accept:
+        print("ERROR --by solo se usa junto con --accept-by-rule")
+        return 2
     targets = _resolve_restore_targets(pos[0], root)
     if not targets:
         print(f"no existe images.json para {pos[0]}")
@@ -553,22 +707,24 @@ def restore_main(args: list[str], root: Path, fetch=None) -> int:
     all_stats = []
     for model in targets:
         try:
-            st = restore_images(model, fetch=fetch)
+            st = restore_images(model, fetch=fetch, accept_by=by if accept else None)
         except ValueError as exc:  # ruta de copia fuera de la carpeta del modelo
             print(f"ERROR {exc}")
             return 1
         all_stats.append(st)
         if len(targets) == 1 or st["restored"] or st["changed"] or st["failed"] or st["no_url"] \
-                or st["requires_manual_download"]:
+                or st["requires_manual_download"] or st["accepted_by_rule"]:
             print(f"{st['brand']}/{st['model']}: repuestas {st['restored']} (verificadas {st['restored_verified']}, "
                   f"no verificables {st['restored_unverifiable']}), cambiadas {st['changed']}, ok en disco "
                   f"{st['ok_on_disk']}, fallidas {st['failed']}, sin URL {st['no_url']}, "
-                  f"descarga manual {st['requires_manual_download']}, omitidas Solaris {st['skipped_solaris']}")
+                  f"descarga manual {st['requires_manual_download']}, omitidas Solaris {st['skipped_solaris']}"
+                  + (f", aceptadas por regla {st['accepted_by_rule']}" if accept else ""))
     rep = restore_report(all_stats)
     t = rep["total"]
     print(f"TOTAL ({len(targets)} modelos): restauradas y verificadas {t['restored_verified']} · cambiadas "
           f"(REQUIRES_REVIEW) {t['changed']} · no verificables {t['restored_unverifiable']} · sin URL {t['no_url']} · "
-          f"fallidas {t['failed']} · descarga manual {t['requires_manual_download']} · ya en disco {t['ok_on_disk']}")
+          f"fallidas {t['failed']} · descarga manual {t['requires_manual_download']} · ya en disco {t['ok_on_disk']}"
+          + (f" · aceptadas por regla {t['accepted_by_rule']} (por {by})" if accept else ""))
     for brand, b in sorted(rep["by_brand"].items()):
         if b["restored_unverifiable"]:
             print(f"  no verificables en {brand}: {b['restored_unverifiable']}")
@@ -576,6 +732,13 @@ def restore_main(args: list[str], root: Path, fetch=None) -> int:
         print(f"  CAMBIÓ el original ({c['model']}): {c['id']} {c['url']}")
     for m in rep["manual"]:
         print(f"  manual: {m['model']} {m['id']} -> {m['url']}")
+    if rep["url_con_espacios"]:
+        ids = ", ".join(f"{u['model'].split('/')[-1]}:{u['id']}" for u in rep["url_con_espacios"][:4])
+        print(f"  AVISO url_con_espacios: {len(rep['url_con_espacios'])} registros con espacios en una URL del inventario "
+              f"(se usaron sin espacios; Nico debe corregir el dato): {ids}{' ...' if len(rep['url_con_espacios']) > 4 else ''}")
+    for result, b in rep["resumen_descargas"].items():
+        print(f"  descargas {result}: {b['total']} | last_modified anterior al registro {b['last_modified_anterior_al_registro']}"
+              f" | dimensiones coinciden {b['dimensiones_coinciden']}")
     for f in rep["failed"][:10]:
         print(f"  FALLÓ la descarga ({f['model']}): {f['id']}: {f['error'][:90]}"
               + ("  [con copia registrada: images.json no se modificó]" if f["registered"] else ""))

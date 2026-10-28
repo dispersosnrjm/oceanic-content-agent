@@ -527,7 +527,7 @@ class Restore(unittest.TestCase):
         for req in requests:
             self.assertEqual(dict(req.header_items()), {"User-agent": media.USER_AGENT})  # las mismas cabeceras de siempre
 
-    # --- aceptacion por regla objetiva (--accept-by-rule --by=<nombre>) ----------------------------------------------
+    # --- aceptacion por regla objetiva (--accept-by-rule --by=ap-NNN) ----------------------------------------------
 
     LM_BEFORE = "Fri, 25 Oct 2024 19:17:40 GMT"   # anterior al registro (2026-10-04)
     LM_AFTER = "Tue, 20 Oct 2026 10:00:00 GMT"    # posterior
@@ -538,7 +538,7 @@ class Restore(unittest.TestCase):
                 "width": width, "height": height, "format": "png", "bytes": 999, "full_resolution": True}
         return _rec(rid, original=orig, sha256="a" * 64, **kw)
 
-    def _accept_run(self, meta=None, png=None, accept_by="Johnny"):
+    def _accept_run(self, meta=None, png=None, accept_by="ap-001"):
         data = png or _png()
         return media.restore_images(self.dir, fetch=lambda url: (data, dict(self.META if meta is None else meta)),
                                     accept_by=accept_by)
@@ -562,7 +562,7 @@ class Restore(unittest.TestCase):
         self.assertEqual({k: r[k] for k in web_before}, web_before)  # los campos de la copia tampoco cambian
         self.assertTrue(media._webp_ok(self.imgs / "EXTERIOR" / "a.webp"))
         (entry,) = r["review_log"]
-        self.assertEqual((entry["decision"], entry["rule"], entry["by"]), ("accepted_by_rule", media.ACCEPT_RULE, "Johnny"))
+        self.assertEqual((entry["decision"], entry["rule"], entry["by"]), ("accepted_by_rule", media.ACCEPT_RULE, "ap-001"))
         self.assertRegex(entry["at"], r"^\d{4}-\d\d-\d\dT\d\d:\d\d:\d\dZ$")
         self.assertEqual((entry["sha256_observado"], entry["last_modified"], entry["etag"], entry["content_type"],
                           entry["bytes"]), (PNG_SHA, self.LM_BEFORE, '"abc123"', "image/png", len(_png())))
@@ -605,7 +605,7 @@ class Restore(unittest.TestCase):
         self.assertEqual((st["ok_on_disk"], st["downloads"]), (1, []))
         self.assertEqual(self._raw(), after_accept)
         # sin la copia: se baja de nuevo y se verifica contra el hash ACEPTADO (con y sin la opcion)
-        for accept_by in ("Johnny", None):
+        for accept_by in ("ap-001", None):
             (self.imgs / "EXTERIOR" / "a.webp").unlink()
             st = media.restore_images(self.dir, fetch=lambda url: (_png(), dict(self.META)), accept_by=accept_by)
             self.assertEqual((st["restored_verified"], st["changed"]), (1, 0), accept_by)
@@ -625,7 +625,7 @@ class Restore(unittest.TestCase):
         # y una aceptada que quedo en REQUIRES_REVIEW no se reevalua aunque se use la opcion
         again = self._raw()
         self.calls.clear()
-        st = media.restore_images(self.dir, fetch=self._fetch, accept_by="Johnny")
+        st = media.restore_images(self.dir, fetch=self._fetch, accept_by="ap-001")
         self.assertEqual((self.calls, self._raw()), ([], again))
 
     def test_accepting_twice_is_idempotent(self):
@@ -650,7 +650,7 @@ class Restore(unittest.TestCase):
         self._fresh(self._changed_rec("a"))
         before = self._raw()
         for args in (["marca", "--restore", "--accept-by-rule"], ["marca", "--restore", "--accept-by-rule", "--by="],
-                     ["marca", "--restore", "--by=Johnny"]):
+                     ["marca", "--restore", "--by=ap-001"]):
             buf = io.StringIO()
             with contextlib.redirect_stdout(buf):
                 rc = media.restore_main(args, self.root, fetch=self._fetch)
@@ -659,10 +659,10 @@ class Restore(unittest.TestCase):
         out = self.root / "informe.json"
         buf = io.StringIO()
         with contextlib.redirect_stdout(buf):
-            rc = media.restore_main(["marca", "--restore", "--accept-by-rule", "--by=Johnny", f"--report={out}"],
+            rc = media.restore_main(["marca", "--restore", "--accept-by-rule", "--by=ap-001", f"--report={out}"],
                                     self.root, fetch=lambda url: (_png(), dict(self.META)))
         self.assertEqual(rc, 0)
-        self.assertIn("aceptadas por regla 1 (por Johnny)", buf.getvalue())
+        self.assertIn("aceptadas por regla 1 (por ap-001)", buf.getvalue())
         rep = json.loads(out.read_text(encoding="utf-8"))
         self.assertEqual(rep["total"]["accepted_by_rule"], 1)
         self.assertEqual(rep["aceptadas_por_regla"][0]["id"], "a")
@@ -676,12 +676,12 @@ class Restore(unittest.TestCase):
         def fetch(url):
             meta = dict(self.META, last_modified=self.LM_AFTER) if "/no." in url else dict(self.META)
             return _png(), meta
-        media.restore_images(self.dir, fetch=fetch, accept_by="Johnny")
+        media.restore_images(self.dir, fetch=fetch, accept_by="ap-001")
         (self.imgs / "EXTERIOR" / "again.webp").unlink()
         def second(url):  # el servidor sigue igual salvo "again", que cambia de nuevo
             png = _png(color=(1, 2, 3)) if "/again." in url else _png()
             return png, (dict(self.META, last_modified=self.LM_AFTER) if "/no." in url else dict(self.META))
-        media.restore_images(self.dir, fetch=second, accept_by="Johnny")
+        media.restore_images(self.dir, fetch=second, accept_by="ap-001")
         states = {r["id"]: r["download_status"][:15] for r in self._load()}
         self.assertEqual(states, {"ok": "WEB_COPY", "no": "REQUIRES_REVIEW", "again": "REQUIRES_REVIEW"})
         # publish-r2 (simulacion): solo la aceptada es elegible
@@ -696,6 +696,52 @@ class Restore(unittest.TestCase):
         images, _, _ = exporter._build_images(self.dir, "marca", "modelo", "Modelo", True, omitted, [])
         self.assertEqual([i["id"] for i in images], ["ok"])
         self.assertEqual(omitted["REQUIRES_REVIEW"], 2)
+    # --- identidad: --by solo acepta codigos de aprobador ap-NNN (el repo es publico) ----------------------------------
+
+    def _bad_by_values(self):
+        at = chr(64)  # sin escribir un correo literal en el repositorio
+        return ["Johnny", "Johnny Muñoz", f"persona{at}ejemplo.com", f"{at}", "ap-", "ap-abc", "AP-001", "ap-001 ", " ap-001",
+                "ap-001;x", "ap_001", "ap-00１", "001", "ap--001", ""]
+
+    def test_valid_approver_codes(self):
+        for good in ("ap-001", "ap-002", "ap-1", "ap-0001", "ap-999999"):
+            self.assertTrue(media.valid_approver(good), good)
+        for bad in self._bad_by_values() + [None, 1, ["ap-001"]]:
+            self.assertFalse(media.valid_approver(bad), repr(bad))
+
+    def test_cli_rejects_anything_that_is_not_an_approver_code_without_touching_anything(self):
+        self._fresh(self._changed_rec("a"))
+        before = self._raw()
+        for bad in self._bad_by_values():
+            buf = io.StringIO()
+            with contextlib.redirect_stdout(buf):
+                rc = media.restore_main(["marca", "--restore", "--accept-by-rule", f"--by={bad}"], self.root, fetch=self._fetch)
+            out = buf.getvalue()
+            self.assertEqual((rc, self.calls, self._raw()), (2, [], before), repr(bad))  # nada se descarga ni se escribe
+            self.assertIn("usa el código del aprobador", out, repr(bad))
+            self.assertIn("ver aprobadores.md", out, repr(bad))
+            self.assertIn("no escribas correos ni nombres", out, repr(bad))
+            if bad.strip() and bad.strip() not in media.APPROVER_HELP:  # ("ap-" aparece en el propio mensaje de ayuda)
+                self.assertNotIn(bad.strip(), out, repr(bad))  # el valor recibido no se repite en la salida
+        self.assertFalse((self.imgs / "EXTERIOR" / "a.webp").exists())
+
+    def test_api_also_refuses_a_value_that_is_not_a_code(self):
+        self._fresh(self._changed_rec("a"))
+        before = self._raw()
+        for bad in self._bad_by_values()[:-1]:  # "" equivale a no pasar la opcion
+            with self.assertRaises(ValueError) as cm:
+                media.restore_images(self.dir, fetch=self._fetch, accept_by=bad)
+            if bad.strip() and bad.strip() not in media.APPROVER_HELP:
+                self.assertNotIn(bad.strip(), str(cm.exception))  # el valor recibido no se repite en el error
+        self.assertEqual((self.calls, self._raw()), ([], before))
+
+    def test_no_accepted_entry_carries_an_email_or_a_name(self):
+        self._fresh(self._changed_rec("a"), self._changed_rec("b"))
+        self._accept_run()
+        raw = self._raw().decode("utf-8")
+        self.assertNotIn(chr(64), raw)
+        for entry in (e for r in self._load() for e in r.get("review_log", [])):
+            self.assertRegex(entry["by"], r"^ap-[0-9]+$")
     # --- informe -------------------------------------------------------------------------------------------
 
     def test_report_counts_by_case_and_brand(self):

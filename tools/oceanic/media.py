@@ -392,6 +392,13 @@ def _url_whitespace(rec: dict) -> list[str]:
 
 
 ACCEPT_RULE = "last_modified_anterior_al_registro+dimensiones_coinciden"
+APPROVER_CODE = re.compile(r"ap-[0-9]+")  # el repo es publico: quien acepta se identifica solo por su codigo (aprobadores.md)
+APPROVER_HELP = ("usa el código del aprobador (formato ap-NNN, por ejemplo ap-001), ver aprobadores.md; "
+                 "no escribas correos ni nombres")
+
+
+def valid_approver(code) -> bool:
+    return isinstance(code, str) and APPROVER_CODE.fullmatch(code) is not None
 
 
 def _utc_now() -> str:
@@ -503,7 +510,7 @@ def restore_images(model_dir: Path, fetch=None, brand: str | None = None, accept
       * not checkable -> `restored_unverifiable`: the copy is written; the record is only filled in when it had no
                          copy registered yet.
 
-    `accept_by` (CLI: --accept-by-rule --by=<nombre>): a "changed" image is accepted ONLY if the server's Last-Modified is
+    `accept_by` (CLI: --accept-by-rule --by=ap-NNN, el código del aprobador): a "changed" image is accepted ONLY if the server's Last-Modified is
     earlier than the registration day AND the downloaded dimensions equal the registered ones. Then the web copy is
     written, `download_status` is WEB_COPY and the acceptance is appended to the record's `review_log` (rule, who, when,
     observed sha256, last_modified, etag, content_type, bytes). `original` is never modified. Later restores verify an
@@ -514,6 +521,8 @@ def restore_images(model_dir: Path, fetch=None, brand: str | None = None, accept
     (`has_registered_copy`): it only goes to the report (`failed_list`, `manual`). On success, a record whose
     download_status was left in another state (FAILED, requires_manual_download) is put back to WEB_COPY.
     """
+    if accept_by is not None and not valid_approver(accept_by):
+        raise ValueError("accept_by no es un código de aprobador válido: " + APPROVER_HELP)  # sin repetir el valor recibido
     fetch = fetch or _fetch_meta
     model_dir = Path(model_dir)
     brand = brand or model_dir.parent.name
@@ -693,9 +702,12 @@ def restore_main(args: list[str], root: Path, fetch=None) -> int:
         print("uso: python -m oceanic media <modelo|marca> --restore")
         return 1
     accept = "--accept-by-rule" in args
-    by = next((a.split("=", 1)[1].strip() for a in args if a.startswith("--by=")), "")
+    by = next((a.split("=", 1)[1] for a in args if a.startswith("--by=")), "")  # sin strip: un espacio es un valor invalido
     if accept and not by:
-        print("ERROR --accept-by-rule exige --by=<nombre de quien acepta>")
+        print("ERROR --accept-by-rule exige --by=ap-NNN: " + APPROVER_HELP)
+        return 2
+    if accept and not valid_approver(by):
+        print("ERROR --by no es un código de aprobador válido: " + APPROVER_HELP)  # no se imprime el valor recibido
         return 2
     if by and not accept:
         print("ERROR --by solo se usa junto con --accept-by-rule")

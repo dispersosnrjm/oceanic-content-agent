@@ -1,0 +1,355 @@
+{
+ "version": 1,
+ "images": [
+  {
+   "id": "xo-dfndr-9-fin-swe-9121",
+   "key": "xo/xo-dfndr-9/exterior/xo-dfndr-9-fin-swe-9121-6db5660d.webp",
+   "sha256": "6db5660d1b75af0da243ad6fed401f56f9843f0abade541b0d778b0bed3c3e01",
+   "bytes": 196778,
+   "uploaded_at": "2026-10-28T14:14:48+00:00",
+   "original_sha256": "3100fd8f90ec9008047d8a75d93b6f03330226c29f246af9c42f9f2ee81b0d4e",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "xo-dfndr-9-fin-swe-insta52-0096-copy",
+   "key": "xo/xo-dfndr-9/exterior/xo-dfndr-9-fin-swe-insta52-0096-copy-690711c9.webp",
+   "sha256": "690711c903f97cfe98e9d51c9afbdb5433a671f1cc22c1a8b0af4e4d822879c0",
+   "bytes": 364480,
+   "uploaded_at": "2026-10-28T14:14:49+00:00",
+   "original_sha256": "8b6addbd1b7b34b5fdd6fb098276f7770ee69852061935677d5cdb8cc5e9a0a1",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "xo-dfndr-9-fin-swe-8981",
+   "key": "xo/xo-dfndr-9/exterior/xo-dfndr-9-fin-swe-8981-20a0ee4e.webp",
+   "sha256": "20a0ee4e84fa12980ef6d87750f027afd9cb5f8cf8c0d0bcf111058f9b5d92b3",
+   "bytes": 181494,
+   "uploaded_at": "2026-10-28T14:14:49+00:00",
+   "original_sha256": "061567c99418f32eedd9aa591384f6332089e9a60fe6fdfa37392d17f0cd9340",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "xo-lokakuu-8900-copy-2",
+   "key": "xo/xo-dfndr-9/exterior/xo-lokakuu-8900-copy-2-19f30f1a.webp",
+   "sha256": "19f30f1af995e5a3e4b39d3233b48ab934543b14152093df9b1246a987fade7c",
+   "bytes": 54302,
+   "uploaded_at": "2026-10-28T14:14:49+00:00",
+   "original_sha256": "57dca771f4b8b776e879fc6f8e338fa93503f4e71578e5031e33e3d13a60144d",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "xo-lokakuu-8688",
+   "key": "xo/xo-dfndr-9/exterior/xo-lokakuu-8688-82efd396.webp",
+   "sha256": "82efd39615d55f6cd655972a1bbd99519cc367ede6e1b4c9d96ef15827023044",
+   "bytes": 105542,
+   "uploaded_at": "2026-10-28T14:14:49+00:00",
+   "original_sha256": "4f3f94df0f3d2a55390cd14b5e845e0033da2b8952acf9fb46d31920b3b61d7c",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "xo-boats-dfndr-9-8950",
+   "key": "xo/xo-dfndr-9/underway/xo-boats-dfndr-9-8950-2a5948f5.webp",
+   "sha256": "2a5948f55490f6bb0107a7a0bfc27be7160bc5e1b7c514d65c8b42bb28870815",
+   "bytes": 127896,
+   "uploaded_at": "2026-10-28T14:14:49+00:00",
+   "original_sha256": "da0217dbc2839bfe9aff13405116a1d370371dbf674e8fe2a6dfee648d66ff0c",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "xo-dfndr-9-fin-swe-0104",
+   "key": "xo/xo-dfndr-9/exterior/xo-dfndr-9-fin-swe-0104-463519c9.webp",
+   "sha256": "463519c937d63fb21d9cf6aa4de8fe1f9719cad91c6dbfa59176b330261ca1b1",
+   "bytes": 225274,
+   "uploaded_at": "2026-10-28T14:14:49+00:00",
+   "original_sha256": "a91742aede6cb7ac2cdf90ddb9517af243f2e9a4bdb7d91ce487c2beb2f5979f",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "dfndr4",
+   "key": "xo/xo-dfndr-9/exterior/dfndr4-10e118a5.webp",
+   "sha256": "10e118a5e714fe4675df4c923de25f6cbe3b760883602d71c5f82d502ca77345",
+   "bytes": 118990,
+   "uploaded_at": "2026-10-28T14:14:49+00:00",
+   "original_sha256": "180e25e2be9c8cbf8198b1d6f3b858d45271f6913d40b3e2050548bdf2cb3eda",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "xo-boats-dfndr9-4729b",
+   "key": "xo/xo-dfndr-9/underway/xo-boats-dfndr9-4729b-d719734b.webp",
+   "sha256": "d719734b25c541e8c004069092ddf3a4d5612d20ecf36fe7d70b0a44c1280e0c",
+   "bytes": 95940,
+   "uploaded_at": "2026-10-28T14:14:49+00:00",
+   "original_sha256": "ec88a8380d56b8bbb6082ff96b4fad5b20bc443631e0762142f022425762e548",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "xo-dfndr-9-fin-swe-0051",
+   "key": "xo/xo-dfndr-9/underway/xo-dfndr-9-fin-swe-0051-f18b71e9.webp",
+   "sha256": "f18b71e9b037ebc93ef30f7b37c95e4e43248aa2c93b026b0a26bef2ee98e0aa",
+   "bytes": 141060,
+   "uploaded_at": "2026-10-28T14:14:49+00:00",
+   "original_sha256": "66dab5aa08425eedf53f78758370377ce59829ee63bb2dcbc5a839a4cd1a297a",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "xo-boats-dfndr9-3308b",
+   "key": "xo/xo-dfndr-9/exterior/xo-boats-dfndr9-3308b-147db5c2.webp",
+   "sha256": "147db5c26fac527602d6252b8f63a86a900dc1c1bf459223859c39dd032002fd",
+   "bytes": 121566,
+   "uploaded_at": "2026-10-28T14:14:49+00:00",
+   "original_sha256": "436844c0f409a3380ae4c05ad2c55b1a0c00c7482207255e2547acd1f5d1080d",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "xo-boats-dfndr9-5296b",
+   "key": "xo/xo-dfndr-9/exterior/xo-boats-dfndr9-5296b-eff5e9f8.webp",
+   "sha256": "eff5e9f87a314eba0c6498ff59c65ad3d12d31fa17267a48200069ecd5b5a025",
+   "bytes": 104992,
+   "uploaded_at": "2026-10-28T14:14:49+00:00",
+   "original_sha256": "b8ee81ea89cfceefd3567df37acd6e1cabffd6318b28ee93efe483492e1430e8",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "x1a9020",
+   "key": "xo/xo-dfndr-9/exterior/x1a9020-9745735e.webp",
+   "sha256": "9745735e37e30c9f17f607591ff24f75305c2f1a5f34737c1c551bb4ffab60ed",
+   "bytes": 63082,
+   "uploaded_at": "2026-10-28T14:14:49+00:00",
+   "original_sha256": "1d4400f2eb697050747c83aa9a0b0ad61108eacaf410d56078aabec33c1f6f2c",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "xo-boats-dfndr9-2b",
+   "key": "xo/xo-dfndr-9/cockpit/xo-boats-dfndr9-2b-e791b779.webp",
+   "sha256": "e791b779eece85b404811831a4ba20d2a6f16c663bfc85c49b891368498cad10",
+   "bytes": 125806,
+   "uploaded_at": "2026-10-28T14:14:49+00:00",
+   "original_sha256": "33601b4a29ba6aa048650c0f864248201b9014f4175196b106b4c37f6b04b692",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "xo-boats-dfndr9-6250b",
+   "key": "xo/xo-dfndr-9/helm/xo-boats-dfndr9-6250b-60124aa1.webp",
+   "sha256": "60124aa154f923e399615a0c28a3913060b44cbc995b292efbab998b88760b72",
+   "bytes": 111986,
+   "uploaded_at": "2026-10-28T14:14:50+00:00",
+   "original_sha256": "fcd73770796b1b771941bbe15c290a1d9f2631845d93cbcb3be2b3b54949d589",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "xo-boats-dfndr-9-0269",
+   "key": "xo/xo-dfndr-9/helm/xo-boats-dfndr-9-0269-ef2aef51.webp",
+   "sha256": "ef2aef51f64834437f464118eb5d9503f8596181b23da228990880f94d64d4f6",
+   "bytes": 94102,
+   "uploaded_at": "2026-10-28T14:14:50+00:00",
+   "original_sha256": "6c903f637b3dca55118a29b8df2570c8b46108c75ac78c8c1d1551d5eb834ae0",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "xo-boats-dfndr9-3317b",
+   "key": "xo/xo-dfndr-9/helm/xo-boats-dfndr9-3317b-e7bac63c.webp",
+   "sha256": "e7bac63c23f7727f26df8836ba6ec214aa93b965f1f04504264d05d7cf954d6a",
+   "bytes": 46722,
+   "uploaded_at": "2026-10-28T14:14:50+00:00",
+   "original_sha256": "42b434f5853222081649654c0357e05c323569a522f8b1a6b98ae9612df5a701",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "dfndr9-catlog-0172",
+   "key": "xo/xo-dfndr-9/cabin/dfndr9-catlog-0172-7a5d7249.webp",
+   "sha256": "7a5d72498c3c272d1f03d2ddb9cee093690045134b057aab5ee6d8be5c9a1388",
+   "bytes": 41176,
+   "uploaded_at": "2026-10-28T14:14:50+00:00",
+   "original_sha256": "5d2bef1cb1a1ad52b1fad3073ceda5774970a85ce45dd431220f0336b6f45f76",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "xo-lokakuu-9952",
+   "key": "xo/xo-dfndr-9/exterior/xo-lokakuu-9952-58441329.webp",
+   "sha256": "5844132982c30d0fa1703efef719b6bbb8928c4b6d42f298551ca69cc414b437",
+   "bytes": 125318,
+   "uploaded_at": "2026-10-28T14:14:50+00:00",
+   "original_sha256": "3d1f1f9559d78854522affe6d0b22b1ddf2526322c6f55f6d2813b368755097e",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "dfndr9-catlog-0183",
+   "key": "xo/xo-dfndr-9/cabin/dfndr9-catlog-0183-d7fce77b.webp",
+   "sha256": "d7fce77bb54fa3de27c8dc16e9b30c5ba959b6de56a618e82df5c50b000d25d4",
+   "bytes": 40660,
+   "uploaded_at": "2026-10-28T14:14:50+00:00",
+   "original_sha256": "af3dce9eabc394d6162ab869bb67f61796f1e4277fa0400a579bf4a87c3a5948",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "xo-boats-dfndr9-6166b",
+   "key": "xo/xo-dfndr-9/underway/xo-boats-dfndr9-6166b-c2326103.webp",
+   "sha256": "c2326103e0d0840a415efd26f12be5a6284afc9e951cb61bb4d0e2bde6061f1c",
+   "bytes": 182510,
+   "uploaded_at": "2026-10-28T14:14:50+00:00",
+   "original_sha256": "97c3d1e7b15c06adfddb13b9f20b58c8f440fb81decb1a5d0528e74dcc4cc325",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "xo-lokakuu-8745",
+   "key": "xo/xo-dfndr-9/detail/xo-lokakuu-8745-e6ab7b5f.webp",
+   "sha256": "e6ab7b5f919709b9dc80a6ea13dee72cfabe728011e34242099839b428c1722b",
+   "bytes": 52794,
+   "uploaded_at": "2026-10-28T14:14:50+00:00",
+   "original_sha256": "19dd53173859946ca6ea67750b1a6dcaf150e90f7bbda117264232b6f659a8c8",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "xo-lokakuu-9971",
+   "key": "xo/xo-dfndr-9/cockpit/xo-lokakuu-9971-d4129038.webp",
+   "sha256": "d4129038e4890121f76585cc003eb3e71d43a6d2c7ad795e5d6b3f4042e0d77a",
+   "bytes": 93636,
+   "uploaded_at": "2026-10-28T14:14:50+00:00",
+   "original_sha256": "fedb1a4d9316abbb91777211d8952d152f5f4f4754aacd4d137ca81d2624ec31",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "d3-layout-katto-copy",
+   "key": "xo/xo-dfndr-9/plans/d3-layout-katto-copy-b1dae459.webp",
+   "sha256": "b1dae4598b654d21fac33b3f0e183a4be1a3d08bf0a1f78c970c8a8d49d7520e",
+   "bytes": 24404,
+   "uploaded_at": "2026-10-28T14:14:51+00:00",
+   "original_sha256": "f96ade03c208b121db30cc03168aab73eb9acec6349fddb9eaac57a9e1b798d2",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "d3-layout-katto-copy-2",
+   "key": "xo/xo-dfndr-9/plans/d3-layout-katto-copy-2-5c0f8809.webp",
+   "sha256": "5c0f880937312af52fc6fb1ea8847ce8f276ec9506fb7399d4b9b8d5e4a32cf3",
+   "bytes": 24690,
+   "uploaded_at": "2026-10-28T14:14:51+00:00",
+   "original_sha256": "636a8c6f56b684180f3fe30203f5a68edd248e28cee6c49bea11a185ecf6c55c",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  }
+ ]
+}

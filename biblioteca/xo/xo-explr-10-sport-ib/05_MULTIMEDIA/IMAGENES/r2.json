@@ -1,0 +1,75 @@
+{
+ "version": 1,
+ "images": [
+  {
+   "id": "one",
+   "key": "xo/xo-explr-10-sport-ib/underway/one-005a7e88.webp",
+   "sha256": "005a7e884ce4f3d9c4e81f0e1fe8c7607203c81bf47e5157bfdfc4af235aa32d",
+   "bytes": 161150,
+   "uploaded_at": "2026-10-28T14:15:00+00:00",
+   "original_sha256": "3f82d21cc82b133ef3af9b80c7cf04e058e438a7a77400be67d87cbdfb143d8e",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "aft-deck-setup",
+   "key": "xo/xo-explr-10-sport-ib/cockpit/aft-deck-setup-c0a5990a.webp",
+   "sha256": "c0a5990a4879c85f40d6f56cf4352d420e1c2114e1face3b02f6ba14fad6d89d",
+   "bytes": 68866,
+   "uploaded_at": "2026-10-28T14:15:00+00:00",
+   "original_sha256": "2ada480c97f331ed929dd620d10a71a681808c3c270d5431a7f80e7de3193e3d",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "jwe-6022",
+   "key": "xo/xo-explr-10-sport-ib/underway/jwe-6022-0dce267b.webp",
+   "sha256": "0dce267bd1dbf879371a19686ce7ef1e849036b79c9cd499c995c6ea6101f675",
+   "bytes": 79740,
+   "uploaded_at": "2026-10-28T14:15:00+00:00",
+   "original_sha256": "76e3a19a69d0dba8a9eaed6fe0ba5a61a28aeed94b0bec2cd3d8cb9868c33e04",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "jwe-5509",
+   "key": "xo/xo-explr-10-sport-ib/underway/jwe-5509-bd751fee.webp",
+   "sha256": "bd751fee8e794998edf74e4d4a0c2b5a39a940b63291157fbab50a2326b758f7",
+   "bytes": 77444,
+   "uploaded_at": "2026-10-28T14:15:00+00:00",
+   "original_sha256": "8f604e4b9c5683b5757e87ff412ec3a0f062d755c37c8eadc98e8c9b86cc3bdc",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "xo-explr10",
+   "key": "xo/xo-explr-10-sport-ib/plans/xo-explr10-d5895f39.webp",
+   "sha256": "d5895f39c38eb6f471cbb9c122453b32f5d5e055ac136a1fa7e3c13fe16b3440",
+   "bytes": 15906,
+   "uploaded_at": "2026-10-28T14:15:00+00:00",
+   "original_sha256": "78445605d3c69373d5577c3fa49bf84882260439e66d66de686395cd7cd0887d",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  }
+ ]
+}

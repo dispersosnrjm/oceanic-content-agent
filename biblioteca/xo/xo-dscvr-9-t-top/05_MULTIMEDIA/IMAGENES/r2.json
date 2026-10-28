@@ -1,0 +1,173 @@
+{
+ "version": 1,
+ "images": [
+  {
+   "id": "dscvr-webiin",
+   "key": "xo/xo-dscvr-9-t-top/exterior/dscvr-webiin-96189471.webp",
+   "sha256": "96189471a06a2f305b42a4d630bc543aa3474935a18be170c21eee2c0c0af5e7",
+   "bytes": 107376,
+   "uploaded_at": "2026-10-28T14:14:55+00:00",
+   "original_sha256": "468da80b7e5f088752201c497613650bcbc2fad339abc5b77a2595cb6656e377",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "xo-boats-260-dscvr-archipelago-3500-2",
+   "key": "xo/xo-dscvr-9-t-top/underway/xo-boats-260-dscvr-archipelago-3500-2-fba04895.webp",
+   "sha256": "fba04895ee008590f791a17f1bad1b54b775d6e53aac827efa9955de850d56a7",
+   "bytes": 180196,
+   "uploaded_at": "2026-10-28T14:14:55+00:00",
+   "original_sha256": "765c481f3f06e4ec8217b26ddcb6e59c476c953f10ca077562f3368d085f4771",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "i0a4103-3500",
+   "key": "xo/xo-dscvr-9-t-top/helm/i0a4103-3500-fb809e06.webp",
+   "sha256": "fb809e061fda5fef7f6632a75b8670a75a612aad77bbf556da74e89747c09428",
+   "bytes": 38656,
+   "uploaded_at": "2026-10-28T14:14:55+00:00",
+   "original_sha256": "fd5239790fc280a6220133e32e4ff9021960fadf39b36ab6b5304ec5a3bdd6ea",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "i0a3687-3500",
+   "key": "xo/xo-dscvr-9-t-top/detail/i0a3687-3500-87cd94e1.webp",
+   "sha256": "87cd94e1b6eb7c959ae25ba568db48824e8424669a66b46e49ae059425c14d67",
+   "bytes": 101720,
+   "uploaded_at": "2026-10-28T14:14:55+00:00",
+   "original_sha256": "6eab7956463aedd5af53d0b038c8b0209f442798474d865020b8aaf0cc01e8d6",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "i0a3457-3500",
+   "key": "xo/xo-dscvr-9-t-top/underway/i0a3457-3500-1ff3413c.webp",
+   "sha256": "1ff3413c3ce679b590bc9c5756da4845b136d6e266212026f835897e5bb98e55",
+   "bytes": 49436,
+   "uploaded_at": "2026-10-28T14:14:55+00:00",
+   "original_sha256": "0cdf82da9cb4fe68f289a726530a27eb7d6246c01acbe8d13f21a1c5a8cdc049",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "i0a3943-3500",
+   "key": "xo/xo-dscvr-9-t-top/underway/i0a3943-3500-88d193d2.webp",
+   "sha256": "88d193d2c2de766fcefb66a2c2edc990ddf578d4d3cee93863e7050fd7dc9b38",
+   "bytes": 80416,
+   "uploaded_at": "2026-10-28T14:14:55+00:00",
+   "original_sha256": "b7f6da1910f80a788cda930bb9a2b34e1e620fa60ed027112a3fb829a553e456",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "i0a3477-3500-copy",
+   "key": "xo/xo-dscvr-9-t-top/underway/i0a3477-3500-copy-93fd4836.webp",
+   "sha256": "93fd48362de8ef80caaccea707006ebb7dc4deec2a2bb8fd977265796c09a552",
+   "bytes": 80476,
+   "uploaded_at": "2026-10-28T14:14:55+00:00",
+   "original_sha256": "c794af2421295b363b6d5127711c2547fcc4f64185151c01414059b688abc1f7",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "i0a4160-3500",
+   "key": "xo/xo-dscvr-9-t-top/cockpit/i0a4160-3500-d0b99f7d.webp",
+   "sha256": "d0b99f7db2101a879dce97798e710ed5080357a7b0ec2db5ec19019a377b898f",
+   "bytes": 30404,
+   "uploaded_at": "2026-10-28T14:14:55+00:00",
+   "original_sha256": "f29c2affdf7e84a9dc4424c3c8c95519c6c0a0e3f9f095f9d88d3ec923dac675",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "xo-fb-mby",
+   "key": "xo/xo-dscvr-9-t-top/underway/xo-fb-mby-32e82832.webp",
+   "sha256": "32e82832f0feff879ebef88436a132e2dbd0557def8db5447c79be7c3343139b",
+   "bytes": 104132,
+   "uploaded_at": "2026-10-28T14:14:56+00:00",
+   "original_sha256": "fc762e14555ad2fb643008a733adcab845360ab1b197eb9a13be02e1f607ec95",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "xo-boats-260-dscvr-archipelago-3500-7",
+   "key": "xo/xo-dscvr-9-t-top/underway/xo-boats-260-dscvr-archipelago-3500-7-5689e50a.webp",
+   "sha256": "5689e50a61c1ffea64b958a7211a085af7cdb767070ac3fba60703245c7b75a8",
+   "bytes": 142478,
+   "uploaded_at": "2026-10-28T14:14:56+00:00",
+   "original_sha256": "b8ff50d5cf0986a0702599e8ba4e27e738dd071d9b2bf49caeb9738b01f22fbb",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "xo-boats-dscvr-3500-51-3500-50",
+   "key": "xo/xo-dscvr-9-t-top/underway/xo-boats-dscvr-3500-51-3500-50-d8b52835.webp",
+   "sha256": "d8b528350735a979bd9386b9d38a225dd0ce94da1c79884e9aaf4d58f36586d9",
+   "bytes": 140240,
+   "uploaded_at": "2026-10-28T14:14:57+00:00",
+   "original_sha256": "7f32434c5df677d2e5205179cced005ca3fcb5d4d93c36bb2ce565a4bbc54ad2",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "dscvr-9-top-01",
+   "key": "xo/xo-dscvr-9-t-top/plans/dscvr-9-top-01-d61afa4d.webp",
+   "sha256": "d61afa4d88982383e4f0a031f4985b15be4f34490096c1ea1bcc12f88ced4fea",
+   "bytes": 16728,
+   "uploaded_at": "2026-10-28T14:14:57+00:00",
+   "original_sha256": "791a5e4973b146579307a087a333861d142e282fe97d3f92cd00a52ff880cb48",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  }
+ ]
+}

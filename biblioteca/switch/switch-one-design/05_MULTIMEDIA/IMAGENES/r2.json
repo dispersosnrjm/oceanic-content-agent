@@ -1,0 +1,173 @@
+{
+ "version": 1,
+ "images": [
+  {
+   "id": "812873-1cf5bc9083984895aafc6431b91c023df000",
+   "key": "switch/switch-one-design/exterior/812873-1cf5bc9083984895aafc6431b91c023df000-06be5fed.webp",
+   "sha256": "06be5feda2e42d286fc0080a78255d7992e58cce08a287e35cd4df1ee9b043f5",
+   "bytes": 264360,
+   "uploaded_at": "2026-10-28T13:53:38+00:00",
+   "original_sha256": "6bc56b97c16396b7b2192a1a422f8d85d072c5585a1d01c4651cbff55acb2fc9",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "812873-aca22ddcd50f4870854d27e2dbf9aa09-mv2",
+   "key": "switch/switch-one-design/underway/812873-aca22ddcd50f4870854d27e2dbf9aa09-mv2-5b014a71.webp",
+   "sha256": "5b014a71e74e14f6aef50f6aed555339720c99241b4a1ca88c343d4f56250ad1",
+   "bytes": 76182,
+   "uploaded_at": "2026-10-28T13:53:53+00:00",
+   "original_sha256": "22108dc684970eaefd82b81f06a2318483bdd48d295b70da91e877d431ea5a4d",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "812873-6c212ac952ef4f96909807cf5d4809dd-mv2",
+   "key": "switch/switch-one-design/underway/812873-6c212ac952ef4f96909807cf5d4809dd-mv2-3f32ae31.webp",
+   "sha256": "3f32ae314ea4e2f761ceac2d6e35b4ae883936453217da445e08053ad4831f6c",
+   "bytes": 92388,
+   "uploaded_at": "2026-10-28T13:53:53+00:00",
+   "original_sha256": "e0b33d7e47f569bb6b4c0eb2250216bc2cd456bfb1e9e638a001d0027bd1d789",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "812873-6d4bdc5197e34aa9ade27be8d5f49a04-mv2",
+   "key": "switch/switch-one-design/exterior/812873-6d4bdc5197e34aa9ade27be8d5f49a04-mv2-532319d0.webp",
+   "sha256": "532319d09f3ab8722fb61697da786dc5562cca9b1146b44a0dd99bfd91001044",
+   "bytes": 40550,
+   "uploaded_at": "2026-10-28T13:53:53+00:00",
+   "original_sha256": "4576bff9e67bdeb4d822037137b7b3dd006b8639b538e185ae61eadd464155d4",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "812873-c690e0eaafa44136b9ed16255613a426-mv2",
+   "key": "switch/switch-one-design/detail/812873-c690e0eaafa44136b9ed16255613a426-mv2-9c4cef31.webp",
+   "sha256": "9c4cef310ae3fd38ba22208a8893d9e604572742f6b18d7841554be25875342a",
+   "bytes": 55700,
+   "uploaded_at": "2026-10-28T13:53:53+00:00",
+   "original_sha256": "84c3a9ae54d6b8dba98395d2e8d2d8536a6fb7776d7449c7b2494e96df3344bd",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "812873-9eea8b64eac04c968f10f12f765e1ffb-mv2",
+   "key": "switch/switch-one-design/underway/812873-9eea8b64eac04c968f10f12f765e1ffb-mv2-10c743e5.webp",
+   "sha256": "10c743e51b8242f2e6beda1c14a8b43783d9fcefe41dd4e7d2b8ef0dd82fab4d",
+   "bytes": 111198,
+   "uploaded_at": "2026-10-28T13:53:53+00:00",
+   "original_sha256": "78f9f3779691ddd5d9085abbdf74a40650661509582a2ddb32e407d5c3f81973",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "812873-0fe4d663964f489b9368382abeea8cbd-mv2",
+   "key": "switch/switch-one-design/underway/812873-0fe4d663964f489b9368382abeea8cbd-mv2-d57f7f1c.webp",
+   "sha256": "d57f7f1c8fc06a72be758758e11aa10000b6cbbc8c75603df298be4d88f1e192",
+   "bytes": 141008,
+   "uploaded_at": "2026-10-28T13:53:53+00:00",
+   "original_sha256": "e76d0751120672c073fa82541635a39a68e571e5adb9f463079f99697a765e7c",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "812873-884c8293d1aa4909b4fc6f79989f366c-mv2",
+   "key": "switch/switch-one-design/detail/812873-884c8293d1aa4909b4fc6f79989f366c-mv2-078154ea.webp",
+   "sha256": "078154ea9e9163e815b09cfdca463256f5400cdeb92e31a4662d034c4e9c50b3",
+   "bytes": 106256,
+   "uploaded_at": "2026-10-28T13:53:53+00:00",
+   "original_sha256": "bf9b50ee6ba0bba8ba8ac32081b6d332fcdd289c5d82ac1af69df3a017063e6c",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "812873-0f0c080cfb13486b9509a61014be0d6d-mv2",
+   "key": "switch/switch-one-design/detail/812873-0f0c080cfb13486b9509a61014be0d6d-mv2-c4024330.webp",
+   "sha256": "c4024330440d65e6f277bb8f7d0b8b06f01c6fb50f877236490bec19703e49d9",
+   "bytes": 84056,
+   "uploaded_at": "2026-10-28T13:53:53+00:00",
+   "original_sha256": "68b2ea5f96ef786a238f36f179ddb0231fa87da084a46e8defe7a5189aaf5fdb",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "812873-5e70edeeb8d04cb7aaab473d1cd2c789-mv2",
+   "key": "switch/switch-one-design/underway/812873-5e70edeeb8d04cb7aaab473d1cd2c789-mv2-eb3c43f0.webp",
+   "sha256": "eb3c43f012bcad6c959a9dca0c477547c5b5402a8d36cb327d0dee1bfd0f2f94",
+   "bytes": 143508,
+   "uploaded_at": "2026-10-28T13:53:53+00:00",
+   "original_sha256": "ba636c58d1c901e94bfc034306601f71188a0fc34e667d021fcfa7bb79b10247",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "812873-f32d3f6f9b014643ae131db48931ff79-mv2",
+   "key": "switch/switch-one-design/underway/812873-f32d3f6f9b014643ae131db48931ff79-mv2-2043d096.webp",
+   "sha256": "2043d0965a04d18f42ae195716ac2cf869913406798d91289095ae9ac7be27bf",
+   "bytes": 108404,
+   "uploaded_at": "2026-10-28T13:53:53+00:00",
+   "original_sha256": "ab17213056b24f7396b7d923fd5670d21658d37f0843ab7963aa543e36cd21d3",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "812873-3fd20a857ade40fe9a635948e7fcb737-mv2",
+   "key": "switch/switch-one-design/detail/812873-3fd20a857ade40fe9a635948e7fcb737-mv2-120c1d85.webp",
+   "sha256": "120c1d8577fb3bcdcc776c2b079d3eb5d84b9d10cc6e5b688d5099cf0a8c3cc1",
+   "bytes": 23892,
+   "uploaded_at": "2026-10-28T13:53:53+00:00",
+   "original_sha256": "151362e71c8fd0b14ff00c9b9da3181b13990b7f65715e3e9db6eb813ffb4723",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  }
+ ]
+}

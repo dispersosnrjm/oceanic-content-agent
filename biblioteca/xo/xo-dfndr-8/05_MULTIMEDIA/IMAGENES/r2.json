@@ -1,0 +1,481 @@
+{
+ "version": 1,
+ "images": [
+  {
+   "id": "xo-dfndr-8-winter-2113",
+   "key": "xo/xo-dfndr-8/underway/xo-dfndr-8-winter-2113-7e7ccd56.webp",
+   "sha256": "7e7ccd569270088a7ccb742d58baf56082067f367c8d79c795d59f956416c77c",
+   "bytes": 116250,
+   "uploaded_at": "2026-10-28T14:14:44+00:00",
+   "original_sha256": "8b62abd3873f17f292a03a8d1f39a84d927579602e7c244f12490c06797eba38",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "xo-dfndr-8-winter-2159",
+   "key": "xo/xo-dfndr-8/underway/xo-dfndr-8-winter-2159-7cbcab8c.webp",
+   "sha256": "7cbcab8c3c3d01df730a3a418a4174b4dd6693db0cc3b96c380610632237fdcd",
+   "bytes": 96822,
+   "uploaded_at": "2026-10-28T14:14:44+00:00",
+   "original_sha256": "854cacf7d4041d0e0aeb362dd7b4bbbcf79d2c1b879ed394131d957a9d14275d",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "xo-dfndr-8-winter-2096",
+   "key": "xo/xo-dfndr-8/underway/xo-dfndr-8-winter-2096-326493f6.webp",
+   "sha256": "326493f6506b08ec152ad2573ee701db727a7e579f4cdbb327115731569ca8d2",
+   "bytes": 97488,
+   "uploaded_at": "2026-10-28T14:14:44+00:00",
+   "original_sha256": "e83615d23c25bca1085380817d3a73bc02fda6c36e30ade0610597d81c240d89",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "xo-dfndr-8-winter-2324",
+   "key": "xo/xo-dfndr-8/underway/xo-dfndr-8-winter-2324-cf29a21c.webp",
+   "sha256": "cf29a21cb2b6f97956525780b60112821e2b810573e8581da26e06d1a48894a2",
+   "bytes": 235478,
+   "uploaded_at": "2026-10-28T14:14:44+00:00",
+   "original_sha256": "20909a991fc48ff9e22df61959434e87be898d95fda281c6454c14802812c24a",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "xo-dfndr-8-winter-2364",
+   "key": "xo/xo-dfndr-8/exterior/xo-dfndr-8-winter-2364-da9b4b03.webp",
+   "sha256": "da9b4b03073cdd6d8e7350af8d51991e2836d98b14e8423b2ca10a6d6b28f159",
+   "bytes": 160142,
+   "uploaded_at": "2026-10-28T14:14:44+00:00",
+   "original_sha256": "6e096624419e2088a2f5718ec34f05a977b74970b3ffaed6e7ebee8eab4756eb",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "xo-dfndr-8-winter-2157",
+   "key": "xo/xo-dfndr-8/underway/xo-dfndr-8-winter-2157-45ce3836.webp",
+   "sha256": "45ce3836f80e979810fcf5d166b8f70de28232c44cff9916b8772baeeeed9088",
+   "bytes": 72374,
+   "uploaded_at": "2026-10-28T14:14:44+00:00",
+   "original_sha256": "8dd78e999c77333dad6f481cda7c33874dfee3da6764fdc98443c4ff517b2266",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "xo-dfndr-8-winter-2107",
+   "key": "xo/xo-dfndr-8/underway/xo-dfndr-8-winter-2107-0082d7fd.webp",
+   "sha256": "0082d7fd0db06ea534789a207869ded1dbbe46af536d526bb95c5f69dbbf32b0",
+   "bytes": 165804,
+   "uploaded_at": "2026-10-28T14:14:44+00:00",
+   "original_sha256": "77f5774b8bf682dd36d5c593523e44c6d68ddd703e2ace7cf11276b8f6b34b8a",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "xo-dfndr-8-winter-2403",
+   "key": "xo/xo-dfndr-8/underway/xo-dfndr-8-winter-2403-ab37e4bc.webp",
+   "sha256": "ab37e4bc36f5257be20e93eb8de50b65fd5918527ee0fdc19f90f12be8eccd39",
+   "bytes": 109986,
+   "uploaded_at": "2026-10-28T14:14:44+00:00",
+   "original_sha256": "669d781b24b72cb24208aa6bb724ece1de46a90fbedf97208d349b4aff91a717",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "xo-dfndr-8-winter-2131",
+   "key": "xo/xo-dfndr-8/underway/xo-dfndr-8-winter-2131-7a0ed1f2.webp",
+   "sha256": "7a0ed1f26cef0330ba8171b8737ad187b8785616a6ef984101b61c15e37baf47",
+   "bytes": 53236,
+   "uploaded_at": "2026-10-28T14:14:44+00:00",
+   "original_sha256": "549d6793a9c1a39316dfb2652884890242ab1593c480b463c9294ce9d68ec39e",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "xo-dfndr-8-winter-2158",
+   "key": "xo/xo-dfndr-8/underway/xo-dfndr-8-winter-2158-5ecd4530.webp",
+   "sha256": "5ecd4530ba8da76ef5b43ca9eb6c98db97ef560a1bbe36570abbed400f0d9d48",
+   "bytes": 76910,
+   "uploaded_at": "2026-10-28T14:14:44+00:00",
+   "original_sha256": "8f9e047093e42ba625f68d73e61ad5683470911b58dc6c1c59d3734990410cd1",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "xo-dfndr-8-winter-2153",
+   "key": "xo/xo-dfndr-8/underway/xo-dfndr-8-winter-2153-b7c0d80c.webp",
+   "sha256": "b7c0d80c3729ae0dcaed6e314f61bc98ce402df000082071e55ba40ea9afd52b",
+   "bytes": 73008,
+   "uploaded_at": "2026-10-28T14:14:44+00:00",
+   "original_sha256": "4345e0419055960f5ca9a18de11a825cf67c85ef0a561a224f2e4789293541c3",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "xo-dfndr-8-winter-2168",
+   "key": "xo/xo-dfndr-8/underway/xo-dfndr-8-winter-2168-2eb994b3.webp",
+   "sha256": "2eb994b378ce1bbaa1ef65d9ad2aae058400e476e00e882ff03b445a5bc674db",
+   "bytes": 120536,
+   "uploaded_at": "2026-10-28T14:14:45+00:00",
+   "original_sha256": "2c9edf92631e41e38333fb3096f6fc76ff0fadd60ed9500afca4f3f01e84c810",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "xo-dfndr-8-winter-2432",
+   "key": "xo/xo-dfndr-8/underway/xo-dfndr-8-winter-2432-cd8e528b.webp",
+   "sha256": "cd8e528b8b1f0b000550961d96c3ba7d6c41441e29a30533f24ebbde8145e4b5",
+   "bytes": 164494,
+   "uploaded_at": "2026-10-28T14:14:45+00:00",
+   "original_sha256": "9abf9da1948217831e8ea2094bd5b8d9856a98f03158a9e9206fd13844b7669e",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "xo-dfndr-8-winter-2434",
+   "key": "xo/xo-dfndr-8/underway/xo-dfndr-8-winter-2434-8c2e4be8.webp",
+   "sha256": "8c2e4be85ebbf4b57f31618a8d89575708d82505997a5659ab62ab9b79928543",
+   "bytes": 193398,
+   "uploaded_at": "2026-10-28T14:14:45+00:00",
+   "original_sha256": "3ac05ec72a3999b6e8c2025578d85c97a941a921cf336c67e1662e75309409f9",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "xo-dfndr-8-winter-2097",
+   "key": "xo/xo-dfndr-8/underway/xo-dfndr-8-winter-2097-f4d89c0f.webp",
+   "sha256": "f4d89c0f7a2afd9937e72ed9cea6e1246152ec676f1deaeb2db185d6540553ec",
+   "bytes": 127016,
+   "uploaded_at": "2026-10-28T14:14:45+00:00",
+   "original_sha256": "72c4573b811564e621afb80888f4fb6470c72ab6f008d78e9fdc67b5d728bc0d",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "xo-dfndr-8-winter-2129",
+   "key": "xo/xo-dfndr-8/underway/xo-dfndr-8-winter-2129-ee6a3143.webp",
+   "sha256": "ee6a314356c49caeec20baf7f6cdb63033506b5e7a358ee71fbfdef8b3aae3f0",
+   "bytes": 67106,
+   "uploaded_at": "2026-10-28T14:14:45+00:00",
+   "original_sha256": "6b96f13d1c4719cd0e48ba05d0f4b6439d671ee93170e6267328b735710a78f4",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "xo-dfndr-8-winter-2139",
+   "key": "xo/xo-dfndr-8/underway/xo-dfndr-8-winter-2139-be6ef0f4.webp",
+   "sha256": "be6ef0f47840df7b806541ce9fa29bab6c5eb62da486e855b4f07d8686f39d85",
+   "bytes": 64738,
+   "uploaded_at": "2026-10-28T14:14:45+00:00",
+   "original_sha256": "5cf7fa933d89ee22c794dd8a73f997f21cf3e673a35f3e9ee14f70b9d7d735a4",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "xo-dfndr-8-winter-2122",
+   "key": "xo/xo-dfndr-8/underway/xo-dfndr-8-winter-2122-e13ed3ff.webp",
+   "sha256": "e13ed3ff43fe9bfe88fd51b34d70386fc2604873e7614124a071d17b76d00613",
+   "bytes": 134236,
+   "uploaded_at": "2026-10-28T14:14:45+00:00",
+   "original_sha256": "5918e03ab3c6925bb7022b86b2153139824d17fc06eec545b427275871c68051",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "xo-dfndr-8-3679-web",
+   "key": "xo/xo-dfndr-8/underway/xo-dfndr-8-3679-web-13fc5782.webp",
+   "sha256": "13fc5782428214c1d0d92c287c616ede4c7dea0e15aea745d65278aa3d4b32a4",
+   "bytes": 53088,
+   "uploaded_at": "2026-10-28T14:14:45+00:00",
+   "original_sha256": "275e68292a1dca90cfc93638dc23462815e05d6391fd5c44ab2781d504a4f3f1",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "xo-dfndr-8-5813-web",
+   "key": "xo/xo-dfndr-8/exterior/xo-dfndr-8-5813-web-5572d1d9.webp",
+   "sha256": "5572d1d9486b510043e249613b4f3c25ceb8036925ab984555a3c00683c7b4c3",
+   "bytes": 114574,
+   "uploaded_at": "2026-10-28T14:14:45+00:00",
+   "original_sha256": "96c9e8f5d3fd49994793b3a3f70c4ec0cfc8d8ac0877a7d4174ee02cf6b125c4",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "xo-dfndr-8-2215-web",
+   "key": "xo/xo-dfndr-8/underway/xo-dfndr-8-2215-web-ed3b6274.webp",
+   "sha256": "ed3b627478e8158409c947825b57dfb01409d84dd5ecd7afa647ca8427bd3cb3",
+   "bytes": 153376,
+   "uploaded_at": "2026-10-28T14:14:46+00:00",
+   "original_sha256": "9b3d3a045977d63468dcbc63d85943dada19fd46d0a87c10d51704b443b17de1",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "xo-dfndr-8-3181-web",
+   "key": "xo/xo-dfndr-8/exterior/xo-dfndr-8-3181-web-ad8cb675.webp",
+   "sha256": "ad8cb6753da186a319c096f0e3dd6ec095043fe8a63415b7b78de21f21d7169a",
+   "bytes": 50074,
+   "uploaded_at": "2026-10-28T14:14:46+00:00",
+   "original_sha256": "fcfffb90259a3d5a6699933b8dba5725babac63f51564910aa69e895bdeab08b",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "xo-dfndr-8-3650-web",
+   "key": "xo/xo-dfndr-8/underway/xo-dfndr-8-3650-web-efa2f084.webp",
+   "sha256": "efa2f08479dff9e5e693848e4fbd81b1a8a1059629eb03b0759d166364767fbe",
+   "bytes": 69568,
+   "uploaded_at": "2026-10-28T14:14:46+00:00",
+   "original_sha256": "f879bf2fb89029263b21b0f0c8d729530475535a7fffea28ecebeafe12c8491b",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "xo-dfndr-8-2456-web",
+   "key": "xo/xo-dfndr-8/underway/xo-dfndr-8-2456-web-06565d2c.webp",
+   "sha256": "06565d2ced48e5057d44889e09284bb0451e657c004963a6e2d595f49afd5cb6",
+   "bytes": 138820,
+   "uploaded_at": "2026-10-28T14:14:46+00:00",
+   "original_sha256": "f9d1610feb9a3b70d5a96c9529205bf7bc2954894dcbf196e4b97a3443c0626e",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "xo-dfndr-8-3591-web",
+   "key": "xo/xo-dfndr-8/underway/xo-dfndr-8-3591-web-32fb065a.webp",
+   "sha256": "32fb065a5dfc49d264b7a16477f45c5a0b8b23d76af6c6b4ee4ce87b7bd719bb",
+   "bytes": 56508,
+   "uploaded_at": "2026-10-28T14:14:46+00:00",
+   "original_sha256": "43e0ebadf01ac01b0debd15882123e8c0bafd47f0e7f71b6b587829264a4405d",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "xo-dfndr-8-2269-web",
+   "key": "xo/xo-dfndr-8/underway/xo-dfndr-8-2269-web-ff97c724.webp",
+   "sha256": "ff97c7243e6ba9bf9135a83706b3298c029508b3e839b9f52f533b52b0a854d1",
+   "bytes": 53120,
+   "uploaded_at": "2026-10-28T14:14:46+00:00",
+   "original_sha256": "5413dd0df461bce2f84c0f59e6f859eeb931a707f5605a4a6842bccaf7c49f03",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "xo-dfndr-8-2965-web",
+   "key": "xo/xo-dfndr-8/underway/xo-dfndr-8-2965-web-9236d011.webp",
+   "sha256": "9236d01109da4cfa0d750ef7c07789c451dc687941e8c2e4cbc38920629f0fae",
+   "bytes": 79764,
+   "uploaded_at": "2026-10-28T14:14:46+00:00",
+   "original_sha256": "5b778482108faa2294af50eda132b656ce14f95217c1064212a3824d76532062",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "xo-dfndr-8-2036-web",
+   "key": "xo/xo-dfndr-8/underway/xo-dfndr-8-2036-web-9b9420a2.webp",
+   "sha256": "9b9420a23358153d70cfdce414416672c9e72289a9c6689a3d71fa84c9d02380",
+   "bytes": 79862,
+   "uploaded_at": "2026-10-28T14:14:46+00:00",
+   "original_sha256": "3db63a343de46d03df86dd4883e577cea1cc19c084483a22674810f87435dd4c",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "xo-dfndr-8-5821-web",
+   "key": "xo/xo-dfndr-8/exterior/xo-dfndr-8-5821-web-1e03327e.webp",
+   "sha256": "1e03327ef496be09f13aba4fff9e52c0bbe9656e3c0c1fa2168251ef63b39cca",
+   "bytes": 130974,
+   "uploaded_at": "2026-10-28T14:14:46+00:00",
+   "original_sha256": "318fea46d2db90e1d24520f9b2f8105cec3cd6e172f571b6ea9b128815c9d513",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "xo-dfndr-8-5206-web",
+   "key": "xo/xo-dfndr-8/cockpit/xo-dfndr-8-5206-web-593e3382.webp",
+   "sha256": "593e3382b78f7cd4d678ac86754b40430a56b528c87514378560dc4cfbeb75e8",
+   "bytes": 72550,
+   "uploaded_at": "2026-10-28T14:14:47+00:00",
+   "original_sha256": "a67d633a6588aa92400c2fffed0f409065d820913ae56417bb9159a1675219cb",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "xo-dfndr-8-5619-web",
+   "key": "xo/xo-dfndr-8/helm/xo-dfndr-8-5619-web-6d202879.webp",
+   "sha256": "6d202879ca4e4ed0f912f193d0083cb37feba0dc898b4afca262a3836ab5f2f0",
+   "bytes": 62370,
+   "uploaded_at": "2026-10-28T14:14:47+00:00",
+   "original_sha256": "d9705d72b3739fae680eba735d3f464f8ad52211ce3d7e6350b7bdc4101309a1",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "xo-dfndr-8-3108-web",
+   "key": "xo/xo-dfndr-8/underway/xo-dfndr-8-3108-web-dd0e4910.webp",
+   "sha256": "dd0e491064acf51cbc2ab3718882bbcdb3ff4879e024a63d85fa665c0018dc0c",
+   "bytes": 54666,
+   "uploaded_at": "2026-10-28T14:14:47+00:00",
+   "original_sha256": "e11cfb33a7d4bd97dc670be159b2b8cf5238bcc25468a6aea38f8d38804fb40d",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "d8-ulkoa-top",
+   "key": "xo/xo-dfndr-8/plans/d8-ulkoa-top-392ff9ea.webp",
+   "sha256": "392ff9eaf4393772113098edfe2b7359d4fa32d4a262c60e91c9c6d6188c7eb3",
+   "bytes": 27612,
+   "uploaded_at": "2026-10-28T14:14:47+00:00",
+   "original_sha256": "714f94578facd3eda2aa7a23efeed219ebf0bccd5b4a6138d93a7998b0aa4283",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "d8-sisa-lta-top",
+   "key": "xo/xo-dfndr-8/plans/d8-sisa-lta-top-b32b871e.webp",
+   "sha256": "b32b871e382c3b134bede8e1818c9422216a34f01341d4f330ba50fdf43a5d8d",
+   "bytes": 27226,
+   "uploaded_at": "2026-10-28T14:14:47+00:00",
+   "original_sha256": "151d3ef20853a488fb918020f1a2772289f27f5e4c72a886c5b3b94db020dd37",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  }
+ ]
+}

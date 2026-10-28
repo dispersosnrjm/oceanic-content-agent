@@ -1,0 +1,243 @@
+{
+ "version": 1,
+ "images": [
+  {
+   "id": "23",
+   "key": "xo/xo-dscvr-9-open/exterior/23-5d8eab7c.webp",
+   "sha256": "5d8eab7c1644c9bcec1d745a92656c502936073a309c71f95a29de3ade6afae5",
+   "bytes": 194072,
+   "uploaded_at": "2026-10-28T14:14:53+00:00",
+   "original_sha256": "37fb835c5e70bfcd8b52531f16a5187a21ef8492704934e08dd07037a57f7de5",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "25",
+   "key": "xo/xo-dscvr-9-open/detail/25-1a2bf604.webp",
+   "sha256": "1a2bf6045cd84045d998f92b31ad2202a808fcd6c2fb73604d56de19c14cc5d6",
+   "bytes": 186128,
+   "uploaded_at": "2026-10-28T14:14:53+00:00",
+   "original_sha256": "b98d2b360850b1fa32115c982e1256aab931569db2a78aa671f2a9e84fb78ff5",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "24",
+   "key": "xo/xo-dscvr-9-open/exterior/24-46ac27b3.webp",
+   "sha256": "46ac27b3db4f4d8ae72101764e1c4e833adaa47ce35be5915eac04635583b437",
+   "bytes": 146048,
+   "uploaded_at": "2026-10-28T14:14:53+00:00",
+   "original_sha256": "f6a53e01d2b911c7e3867bf8201575664b5d0acc0ddc1dca02c0b2c487e388ea",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "12",
+   "key": "xo/xo-dscvr-9-open/exterior/12-f6f3dc7a.webp",
+   "sha256": "f6f3dc7a7b3e344c2fa8c14be67db189c466a4bb3618273301881181b0251676",
+   "bytes": 179124,
+   "uploaded_at": "2026-10-28T14:14:53+00:00",
+   "original_sha256": "127a8b019e8a1dc81f02c19b18040182f3940fef893e6d648ea268e2561f89bc",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "3",
+   "key": "xo/xo-dscvr-9-open/exterior/3-12f3f264.webp",
+   "sha256": "12f3f264c7fa5f4304230d3b05239c48a3a75b0800288ffd506a232c5a6da54c",
+   "bytes": 160670,
+   "uploaded_at": "2026-10-28T14:14:53+00:00",
+   "original_sha256": "37b25fe5ac9906f2dd66ba039f9a14243829a31ef349728d6c55a5cb8f06a970",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "22",
+   "key": "xo/xo-dscvr-9-open/exterior/22-5e7c55c3.webp",
+   "sha256": "5e7c55c3796be54e79e79e10d73d6dbcb07e7dafbc98a39a2e33e33dab2a98b5",
+   "bytes": 162604,
+   "uploaded_at": "2026-10-28T14:14:53+00:00",
+   "original_sha256": "5ca6244108c07ddb175704baed0c0bb6324594ae065689a76fd4de482dbd8b40",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "8",
+   "key": "xo/xo-dscvr-9-open/detail/8-d63f4643.webp",
+   "sha256": "d63f4643fe00bc0aeb634ccb680444a13d41cbcaa36086768bf97cc08e8f2f0d",
+   "bytes": 147226,
+   "uploaded_at": "2026-10-28T14:14:53+00:00",
+   "original_sha256": "286538bb9799a9484ddf4a81b5a956245524d8db7e9f508f29b767ae97f35954",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "11",
+   "key": "xo/xo-dscvr-9-open/exterior/11-fccea3c9.webp",
+   "sha256": "fccea3c9f5011a4e4fbd29556830643d26a62de6390ce7d6011afdd9e8eeea98",
+   "bytes": 112926,
+   "uploaded_at": "2026-10-28T14:14:53+00:00",
+   "original_sha256": "8c91c385405effb229f418086e9e2d0eac7f4aaca42ecc0c5201ea7c9c49866b",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "13",
+   "key": "xo/xo-dscvr-9-open/exterior/13-e0f33fd4.webp",
+   "sha256": "e0f33fd4cafc6cc85da39ffc05aa59f11a3d0bbf6cd2409ab06989cfb6bdb163",
+   "bytes": 392142,
+   "uploaded_at": "2026-10-28T14:14:53+00:00",
+   "original_sha256": "e67162ec16b5a31f402adfefd674df4882b339f4bcbf591fe6cdd86e478d50f7",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "2",
+   "key": "xo/xo-dscvr-9-open/exterior/2-e4752f7f.webp",
+   "sha256": "e4752f7f93254aef3733e3539a09942b6f84cb440d18396a2bb0c8125a89b45e",
+   "bytes": 142904,
+   "uploaded_at": "2026-10-28T14:14:53+00:00",
+   "original_sha256": "1bcc11ba2a2952da48acc2031d699482c68387fffe279236fbfef9de6849a1a4",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "15",
+   "key": "xo/xo-dscvr-9-open/detail/15-e6b1ce51.webp",
+   "sha256": "e6b1ce5107ec26aad17098ecae0f54b490a3c0f42bf7295af6b1671d7daf387a",
+   "bytes": 288114,
+   "uploaded_at": "2026-10-28T14:14:53+00:00",
+   "original_sha256": "b32b39f0e80dc36117c78ee5c7278a015492205ce7db7f40bf0945e357f92a03",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "4",
+   "key": "xo/xo-dscvr-9-open/exterior/4-d40cd7d1.webp",
+   "sha256": "d40cd7d1debd2aec96775df2b0085da770f5f255093a2d68f33b949e583fe949",
+   "bytes": 220678,
+   "uploaded_at": "2026-10-28T14:14:53+00:00",
+   "original_sha256": "557de334417893cc61e1003db60bcc6a1d48ff818d3c36db087ea1f7a309c9b6",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "5",
+   "key": "xo/xo-dscvr-9-open/detail/5-f9853423.webp",
+   "sha256": "f9853423870c5c0732ad4bdeb00f8577d99297c9e8a61258705003f6d7ae692a",
+   "bytes": 132416,
+   "uploaded_at": "2026-10-28T14:14:53+00:00",
+   "original_sha256": "bb7d3629cc626b75ac45935ff398941e9f14dd4d0f8b062d8531b3b5408ddce8",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "21",
+   "key": "xo/xo-dscvr-9-open/exterior/21-c196e4a7.webp",
+   "sha256": "c196e4a746da45cf3802639520757c20def62a45ddbc7873892dae885642268d",
+   "bytes": 215712,
+   "uploaded_at": "2026-10-28T14:14:54+00:00",
+   "original_sha256": "927ddcb9c9a57ca452b5f7cb338bd1c1f2af372867ff5c148bb4e40ab2b1a3b4",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "18",
+   "key": "xo/xo-dscvr-9-open/underway/18-7fad0d5a.webp",
+   "sha256": "7fad0d5ab142684c7a47cb14a3a224c12c7acc157d199d5719a30b9115ba889b",
+   "bytes": 221512,
+   "uploaded_at": "2026-10-28T14:14:54+00:00",
+   "original_sha256": "59a5b7c8a1c0aa3bc22afed38a75706bbd3193e872539bdf6fa129b05806c05c",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "14",
+   "key": "xo/xo-dscvr-9-open/exterior/14-1a0104ca.webp",
+   "sha256": "1a0104ca2f37c7e63475a2cf30eb56869e2093bc932dfa77fa873bec4c774cc1",
+   "bytes": 330548,
+   "uploaded_at": "2026-10-28T14:14:54+00:00",
+   "original_sha256": "5913f57ab6051d0982c0761306969b34ade48dc77f32204b50d5c794c4582769",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "dscvr-9-top-01b",
+   "key": "xo/xo-dscvr-9-open/plans/dscvr-9-top-01b-ce1417fe.webp",
+   "sha256": "ce1417fef365dc820b9bf06216e4ab0dda33327f512d7a1dcc009cc0c69978ca",
+   "bytes": 16592,
+   "uploaded_at": "2026-10-28T14:14:54+00:00",
+   "original_sha256": "5702e9d1892ed8343fd9e63c3c1997471e9113d2d6a839b01d196837622ad6bc",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  }
+ ]
+}

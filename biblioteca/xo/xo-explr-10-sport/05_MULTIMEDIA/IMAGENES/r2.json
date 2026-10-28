@@ -1,0 +1,61 @@
+{
+ "version": 1,
+ "images": [
+  {
+   "id": "20180917-081706-xo-cannes-3",
+   "key": "xo/xo-explr-10-sport/underway/20180917-081706-xo-cannes-3-9582cf48.webp",
+   "sha256": "9582cf48eacf4cc8bec74c66cb30fb420f1286b1b2f66a81f9419e45f4dc9922",
+   "bytes": 78616,
+   "uploaded_at": "2026-10-28T14:14:59+00:00",
+   "original_sha256": "28e1ff48918565c534da869420cca6f9866c1206422208a461057761eacdf866",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "cannestest-1",
+   "key": "xo/xo-explr-10-sport/underway/cannestest-1-a588b4fb.webp",
+   "sha256": "a588b4fb021cbd759cec6b0e48bcc5460fb37276b9c238afae7576084f87e14b",
+   "bytes": 60720,
+   "uploaded_at": "2026-10-28T14:14:59+00:00",
+   "original_sha256": "87f3979a326d24483f89c47d8201915e2cfa5c8c82795ce72a5469f53cd1953f",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "20180917-080857-xo-cannes",
+   "key": "xo/xo-explr-10-sport/exterior/20180917-080857-xo-cannes-2e3e3c9c.webp",
+   "sha256": "2e3e3c9c1b5a426f599732e7c0ec73db3cf00daf27ec471ef0cd6af9a09030d9",
+   "bytes": 67624,
+   "uploaded_at": "2026-10-28T14:14:59+00:00",
+   "original_sha256": "962d91988811c3265ec1881715779b960e8c774703c6ed0681f0e0f425fd7346",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "xo-explr10",
+   "key": "xo/xo-explr-10-sport/plans/xo-explr10-d5895f39.webp",
+   "sha256": "d5895f39c38eb6f471cbb9c122453b32f5d5e055ac136a1fa7e3c13fe16b3440",
+   "bytes": 15906,
+   "uploaded_at": "2026-10-28T14:14:59+00:00",
+   "original_sha256": "78445605d3c69373d5577c3fa49bf84882260439e66d66de686395cd7cd0887d",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  }
+ ]
+}

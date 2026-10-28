@@ -1,0 +1,341 @@
+{
+ "version": 1,
+ "images": [
+  {
+   "id": "flyer-9-spacedeck-header",
+   "key": "beneteau/flyer-9-spacedeck/hero/flyer-9-spacedeck-header-01a70066.webp",
+   "sha256": "01a7006621bffc0aab362c8b57cd5b0f1ee2e8aa9dcef1664436a68a9edea957",
+   "bytes": 286386,
+   "uploaded_at": "2026-10-28T22:55:08+00:00",
+   "original_sha256": "501dc72a531ac90d40a7c7a0c38de8f5a783b28e9318acbf5b45f64c53001b08",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer9space-ext1",
+   "key": "beneteau/flyer-9-spacedeck/exterior/flyer9space-ext1-8afc108b.webp",
+   "sha256": "8afc108b0347c2ee2a5f98d893fc2c0bf84a6a7a44a537337a3d058c576cf09a",
+   "bytes": 135742,
+   "uploaded_at": "2026-10-28T22:55:08+00:00",
+   "original_sha256": "21d8a1938bbdce00d1ab10f15425aa3fe869ee1371d2efdc39112444857e30df",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer9space-ext2-2",
+   "key": "beneteau/flyer-9-spacedeck/exterior/flyer9space-ext2-2-9cc9b2c0.webp",
+   "sha256": "9cc9b2c0ea98682c034ac2025fe8644c9fba15c44a51f057a698edb483eef886",
+   "bytes": 129696,
+   "uploaded_at": "2026-10-28T22:55:08+00:00",
+   "original_sha256": "0e2ff636025cf88b3a62b26fdeded132aa9294ed18c6f054561291b0877576d4",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "dji-0102-jpg-1900px-1",
+   "key": "beneteau/flyer-9-spacedeck/exterior/dji-0102-jpg-1900px-1-ea58a146.webp",
+   "sha256": "ea58a1468a23da833fb52ddf7f00679c52e54240eb8c4d0406b314c41e737c73",
+   "bytes": 94952,
+   "uploaded_at": "2026-10-28T22:55:08+00:00",
+   "original_sha256": "c4be99958be9d089706ab5fa8a7158dda38e4ff55a3011ad3f0e7138da0880f1",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "bnt-flyer9-spacedeck-2-jpg-1900px-1",
+   "key": "beneteau/flyer-9-spacedeck/exterior/bnt-flyer9-spacedeck-2-jpg-1900px-1-d33f5fe3.webp",
+   "sha256": "d33f5fe37585e0f0f37782f6fb2acf7f6a9f3b245c11ece31750424afa3d9a1b",
+   "bytes": 295290,
+   "uploaded_at": "2026-10-28T22:55:08+00:00",
+   "original_sha256": "ab02f710045e8179da165bcb13965ea60a54ebdf937fe419be9abc2ef9582ceb",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "bnt-flyer9-spacedeck-6-jpg-1900px-logo-removed",
+   "key": "beneteau/flyer-9-spacedeck/exterior/bnt-flyer9-spacedeck-6-jpg-1900px-logo-removed-8922e594.webp",
+   "sha256": "8922e59488365176cc41c59256be5d5a2a298feaa34109e7ccf469b328e7d1a0",
+   "bytes": 182664,
+   "uploaded_at": "2026-10-28T22:55:08+00:00",
+   "original_sha256": "1c24b3d3401798f250d0aeb4fff12151fe9423a53fa69e13b0d8581b5a8d65dd",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "bnt-flyer9-spacedeck-4-jpg-1900px-logo-removed",
+   "key": "beneteau/flyer-9-spacedeck/exterior/bnt-flyer9-spacedeck-4-jpg-1900px-logo-removed-14b0354a.webp",
+   "sha256": "14b0354a58cc5bcbc7b4a8c51b4a414c924b8ef3eae43f79dd2831eb3e24ae91",
+   "bytes": 135276,
+   "uploaded_at": "2026-10-28T22:55:08+00:00",
+   "original_sha256": "2682d62ae65849974c701da3ad312a8eca05e7eaa453db2a05f2d21f849c7b2b",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "bnt-flyer9-spacedeck-3-jpg-1900px-logo-removed",
+   "key": "beneteau/flyer-9-spacedeck/exterior/bnt-flyer9-spacedeck-3-jpg-1900px-logo-removed-905a7fe2.webp",
+   "sha256": "905a7fe249c952f9d4bd29a07c75bbb816818e460a4e4eb5239dd7f009d6d948",
+   "bytes": 299312,
+   "uploaded_at": "2026-10-28T22:55:08+00:00",
+   "original_sha256": "985f7fc85ee53a113412241229e2a3e73856ee9890d83dbabc81ddf2dc008ec6",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "bnt-flyer9-spacedeck-11-jpg-1900px-logo-removed",
+   "key": "beneteau/flyer-9-spacedeck/exterior/bnt-flyer9-spacedeck-11-jpg-1900px-logo-removed-8de97f25.webp",
+   "sha256": "8de97f252da42c0d20a4e2a16cac2aaf19e869ba42d2e276026aa5c7ea53bdc9",
+   "bytes": 87744,
+   "uploaded_at": "2026-10-28T22:55:09+00:00",
+   "original_sha256": "a46e2af0aabb5fe7afa484a5db7f02b82ef7d4612ebdd92126f56fdb8cde94e4",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "bnt-flyer9-spacedeck-8-jpg-1900px",
+   "key": "beneteau/flyer-9-spacedeck/exterior/bnt-flyer9-spacedeck-8-jpg-1900px-01566c52.webp",
+   "sha256": "01566c528a7da21e0ae7cc0689dbd8ce358c21ad88b404c762dbe17128d3309c",
+   "bytes": 187660,
+   "uploaded_at": "2026-10-28T22:55:09+00:00",
+   "original_sha256": "9e70db667c2cfb80547430a4072b80b40f5e7f103d4be9ad6583f008a79043f0",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "bnt-flyer9-spacedeck-9-jpg-1900px-1",
+   "key": "beneteau/flyer-9-spacedeck/exterior/bnt-flyer9-spacedeck-9-jpg-1900px-1-c7f373df.webp",
+   "sha256": "c7f373df867d45f08337c1e140bee6250276a9a451ce27da058b82c5eeaa93c5",
+   "bytes": 102042,
+   "uploaded_at": "2026-10-28T22:55:09+00:00",
+   "original_sha256": "d8de5e61715cc535d6604cea2f9416c7e4de1a6eceb942c125259dadd0b8f20a",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer-9-spacedeck-int1",
+   "key": "beneteau/flyer-9-spacedeck/interior/flyer-9-spacedeck-int1-bfaf067b.webp",
+   "sha256": "bfaf067b9c8a607e050c9be923f97686c5d2c574a9bc688cfe07699474a398f5",
+   "bytes": 56596,
+   "uploaded_at": "2026-10-28T22:55:09+00:00",
+   "original_sha256": "b844ddffcc0340fe1d8daaa8cff4f41d118327b24289553f873137120faf3d31",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer-9-spacedeck-int2",
+   "key": "beneteau/flyer-9-spacedeck/interior/flyer-9-spacedeck-int2-f12748f0.webp",
+   "sha256": "f12748f0829078b27a7ac94329b163c377eade8aec18b3e2345b341cd6b71b2c",
+   "bytes": 34018,
+   "uploaded_at": "2026-10-28T22:55:09+00:00",
+   "original_sha256": "98afdae24c5237a9858397a993aa7124ed1870608ed15c68d4e86b72f7c52d06",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer-9-spacedeck-int3",
+   "key": "beneteau/flyer-9-spacedeck/interior/flyer-9-spacedeck-int3-1d215df4.webp",
+   "sha256": "1d215df4fc6fb2bd43c17f7fe1bd8b10c400f00ee7615b719c70feb439d09c68",
+   "bytes": 51692,
+   "uploaded_at": "2026-10-28T22:55:09+00:00",
+   "original_sha256": "e7cd0dd4899bb8db3144768992c58d56a48f5146951eacbaf8ff73672e8f571f",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer9-spacedeck-pilotedition-1",
+   "key": "beneteau/flyer-9-spacedeck/helm/flyer9-spacedeck-pilotedition-1-ddcd1430.webp",
+   "sha256": "ddcd143005374521b386b6101137b4d702aa1b902c1e8b2478f7af32f583b348",
+   "bytes": 141554,
+   "uploaded_at": "2026-10-28T22:55:09+00:00",
+   "original_sha256": "4588170158ad077aa5c28a5ba5003ed2971519a75d0dfc73efa72e7aad3c6261",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer9-spacedeck-pilotedition-2",
+   "key": "beneteau/flyer-9-spacedeck/helm/flyer9-spacedeck-pilotedition-2-3ad3bba1.webp",
+   "sha256": "3ad3bba1be33ecdd7e04b16ce468e81b2552d5a82057b0c33ce5d364bd1d2b5e",
+   "bytes": 149636,
+   "uploaded_at": "2026-10-28T22:55:09+00:00",
+   "original_sha256": "04f7abf2c273c49fd7cbe5fa31850b0fd5147db5c37d63702a1d5152618fb812",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer-9-spacedeck-pointfort-terasse",
+   "key": "beneteau/flyer-9-spacedeck/detail/flyer-9-spacedeck-pointfort-terasse-1e56664b.webp",
+   "sha256": "1e56664b5a477d7ec7ccb6fed27ef73799f287d700aaa1816b6505f9a37a94d3",
+   "bytes": 104034,
+   "uploaded_at": "2026-10-28T22:55:10+00:00",
+   "original_sha256": "d23248b767c8d9b017c1efe80e2b0dc48f60f0be4b1f32d78638b38264e0ba05",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer-9-spacedeck-pointfort-cabine",
+   "key": "beneteau/flyer-9-spacedeck/cabin/flyer-9-spacedeck-pointfort-cabine-e5074dd4.webp",
+   "sha256": "e5074dd4662281763bb1170d36a08d590de6858f1c8718d5ca0a114c7d265289",
+   "bytes": 114350,
+   "uploaded_at": "2026-10-28T22:55:10+00:00",
+   "original_sha256": "9904519cfcbc67788616f7886ea4e4099f68f72b2a1ea3e9d4c73ad336a2411f",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer-9-spacedeck-pointfort-confort",
+   "key": "beneteau/flyer-9-spacedeck/detail/flyer-9-spacedeck-pointfort-confort-c40d691b.webp",
+   "sha256": "c40d691ba3b9495e5c3bc016158a309c322cc11d898ffd82fc6e9dd8f5a52ab1",
+   "bytes": 73780,
+   "uploaded_at": "2026-10-28T22:55:10+00:00",
+   "original_sha256": "ca2ec0b6c19ca581251421ed430b858008fd76b9d26ba9af27d1ce571f753177",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "profile-flyer9spacedeck",
+   "key": "beneteau/flyer-9-spacedeck/plans/profile-flyer9spacedeck-1e96ef20.webp",
+   "sha256": "1e96ef209f6afcf2198bfac1bcaa660625db243da114c792e12f5e3b8b673af0",
+   "bytes": 6548,
+   "uploaded_at": "2026-10-28T22:55:10+00:00",
+   "original_sha256": "d9fa217c4f2d634c424b40a990aa7b82a279d019798b4b21cd2a1ffd290fa0c4",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "profile-flyer9spacedeck-t-top",
+   "key": "beneteau/flyer-9-spacedeck/plans/profile-flyer9spacedeck-t-top-b0c809d4.webp",
+   "sha256": "b0c809d4bfe296929c2a6ec90d14257be3f89ca5874963591afe85622cbb8c94",
+   "bytes": 7632,
+   "uploaded_at": "2026-10-28T22:55:10+00:00",
+   "original_sha256": "1273f0db1f662367eec03249495dc9b9648417130cea45c7aa633bc2dd9d67e5",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "profile-flyer-9-spacedeck-gris-perle",
+   "key": "beneteau/flyer-9-spacedeck/plans/profile-flyer-9-spacedeck-gris-perle-13bfc348.webp",
+   "sha256": "13bfc348170e0f0cff62a52e022d75e5f35ec3175c99bbe1ee627d01da5c4305",
+   "bytes": 8310,
+   "uploaded_at": "2026-10-28T22:55:10+00:00",
+   "original_sha256": "be2eefd74eff041e5cc3b03a131e4c872ce2b294497755756f08f2dfff522e46",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer-9-spacedeck-topview",
+   "key": "beneteau/flyer-9-spacedeck/plans/flyer-9-spacedeck-topview-1c13e1d8.webp",
+   "sha256": "1c13e1d8fa5d5417a7f454929487807daf996662cba3a9faeca66683335af4b5",
+   "bytes": 9878,
+   "uploaded_at": "2026-10-28T22:55:10+00:00",
+   "original_sha256": "fb8db4c3a1369a9e8f9ffebc41a23c75c8d8a9742bd1857294c85dad5b9acce7",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer-9-spacedeck-interior",
+   "key": "beneteau/flyer-9-spacedeck/plans/flyer-9-spacedeck-interior-7d7ec678.webp",
+   "sha256": "7d7ec67807396e810a8813364204f12cecec45c99848bec6767bfd8759960ea3",
+   "bytes": 8680,
+   "uploaded_at": "2026-10-28T22:55:10+00:00",
+   "original_sha256": "fb916fb74ed638a1578f3cff54caffe8c33abc4bb6577628287e938aa7da34be",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  }
+ ]
+}

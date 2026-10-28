@@ -1,0 +1,425 @@
+{
+ "version": 1,
+ "images": [
+  {
+   "id": "swift-trawler-37-fly",
+   "key": "beneteau/swift-trawler-37-fly/hero/swift-trawler-37-fly-5b048d79.webp",
+   "sha256": "5b048d798e9119b255f3738ef9db459c50112bddf0840243db7283ea0adbbf3e",
+   "bytes": 178360,
+   "uploaded_at": "2026-10-28T22:56:08+00:00",
+   "original_sha256": "4a658b996057cdd1eb38f8fd895a2f363c498eee5188b0f189c69611950babae",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "swift-trawler-37-fly-exterieur-1",
+   "key": "beneteau/swift-trawler-37-fly/exterior/swift-trawler-37-fly-exterieur-1-8abab5e1.webp",
+   "sha256": "8abab5e1d76f628ed32c69d4e7a156c5a251a5d0d494da1456c5a6c2fd7884b0",
+   "bytes": 367834,
+   "uploaded_at": "2026-10-28T22:56:08+00:00",
+   "original_sha256": "25c461043aaeebf1049c2d43e6019070a53c6c01708a644053373f60f75a6cd5",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "swift-trawler-37-fly-exterieur-2",
+   "key": "beneteau/swift-trawler-37-fly/exterior/swift-trawler-37-fly-exterieur-2-a0d94dc9.webp",
+   "sha256": "a0d94dc987baa054b0e1f470dcbf226b802af964a52c0fbd6ed4b04be8159ea3",
+   "bytes": 241472,
+   "uploaded_at": "2026-10-28T22:56:08+00:00",
+   "original_sha256": "a1e409910175e4398abe00d092711289f7701440698eb36e17400177424fc5de",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "swift-trawler-37-fly-exterieur-3",
+   "key": "beneteau/swift-trawler-37-fly/exterior/swift-trawler-37-fly-exterieur-3-dcc1a76b.webp",
+   "sha256": "dcc1a76b39a48becc2437eea01fb5fd1319dcd036f18c9656e1c3f1fc23afb0f",
+   "bytes": 230574,
+   "uploaded_at": "2026-10-28T22:56:08+00:00",
+   "original_sha256": "ecf35c943e7fd27b09a131173b071b07ca44c7336778850e39214f044b574acb",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "swift-trawler-37-fly-exterior-design-01",
+   "key": "beneteau/swift-trawler-37-fly/exterior/swift-trawler-37-fly-exterior-design-01-ec0aed89.webp",
+   "sha256": "ec0aed891f72128059abea99f87d7f3e4b62fd3ea8305710459120412ed1f07e",
+   "bytes": 90840,
+   "uploaded_at": "2026-10-28T22:56:08+00:00",
+   "original_sha256": "7f2555e43435699f15416dcdf271610b2315fc64ec62dcb34004dacd50793565",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "swift-trawler-37-fly-exterior-design-02",
+   "key": "beneteau/swift-trawler-37-fly/exterior/swift-trawler-37-fly-exterior-design-02-8e67933d.webp",
+   "sha256": "8e67933dfa5f0f4eeb9ce725d1c503c93742d72b5b67a332318b0cabc1e6f29d",
+   "bytes": 115006,
+   "uploaded_at": "2026-10-28T22:56:08+00:00",
+   "original_sha256": "b1985c438aee37ed2133a976534c6874cbfb62b6af0d8e39b8fa405019d90caa",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "swift-trawler-37-fly-exterior-design-03",
+   "key": "beneteau/swift-trawler-37-fly/exterior/swift-trawler-37-fly-exterior-design-03-d3c70d97.webp",
+   "sha256": "d3c70d97b4b917378039cbeb844453ab6e39ce5a04ab224b645ae32edf3d5ed5",
+   "bytes": 68968,
+   "uploaded_at": "2026-10-28T22:56:08+00:00",
+   "original_sha256": "c65c480769d32984f4db6be6f3cf06cb39b7b7bae8bb151866061589cd2e6cae",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "swift-trawler-37-fly-exterior-design-04",
+   "key": "beneteau/swift-trawler-37-fly/exterior/swift-trawler-37-fly-exterior-design-04-22fdf00a.webp",
+   "sha256": "22fdf00af4986ed1a6c88b752c3c041f1425c3469067eeee6c5b4c115d5258b4",
+   "bytes": 99904,
+   "uploaded_at": "2026-10-28T22:56:08+00:00",
+   "original_sha256": "accf422c2d8a2db77a8e96d57bc63ec46c600f65b1cc1dee944120dce4b6e22f",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "swift-trawler-37-fly-exterior-design-05",
+   "key": "beneteau/swift-trawler-37-fly/exterior/swift-trawler-37-fly-exterior-design-05-149ea18e.webp",
+   "sha256": "149ea18e8f79c2f1157d2d00039fa834d6f2f97be3888248b768f99edc3c54a8",
+   "bytes": 132524,
+   "uploaded_at": "2026-10-28T22:56:09+00:00",
+   "original_sha256": "3cfeb4f083b22335340aefe52c126ac3c294d9a88fbbc0a7edbd92152319b04a",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "swift-trawler-37-fly-exterior-design-06",
+   "key": "beneteau/swift-trawler-37-fly/exterior/swift-trawler-37-fly-exterior-design-06-5166a95e.webp",
+   "sha256": "5166a95e8484d1cd9480abd0e33a46e4a31c94939d60c525ddc85d3853a89628",
+   "bytes": 83202,
+   "uploaded_at": "2026-10-28T22:56:09+00:00",
+   "original_sha256": "a528cc1786bd7918d070428d52ac0aea7cc0923d1c3974258a17d576909d34f8",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "swift-trawler-37-fly-exterior-design-07",
+   "key": "beneteau/swift-trawler-37-fly/exterior/swift-trawler-37-fly-exterior-design-07-d7cf057f.webp",
+   "sha256": "d7cf057ff39f7a0c9f27b28bdde065a34822640845946c5d5d98753fbe413eb3",
+   "bytes": 125378,
+   "uploaded_at": "2026-10-28T22:56:09+00:00",
+   "original_sha256": "547a4f78134301b534c6c7cdca790e1bbcfe8203693e6b9c534165bfd4ba42d7",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "swift-trawler-37-fly-exterior-design-08",
+   "key": "beneteau/swift-trawler-37-fly/exterior/swift-trawler-37-fly-exterior-design-08-41c9a537.webp",
+   "sha256": "41c9a5376947920c4163632e3c39d3cb6bcdf9b05ba032cafbf65aee889c34a2",
+   "bytes": 85920,
+   "uploaded_at": "2026-10-28T22:56:09+00:00",
+   "original_sha256": "4628b3032bd5c3d587c3f40369530ffc3f47488d6996d01685e358d3dca1dca8",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "swift-trawler-37-fly-exterior-design-09",
+   "key": "beneteau/swift-trawler-37-fly/exterior/swift-trawler-37-fly-exterior-design-09-040d41ad.webp",
+   "sha256": "040d41ad835ed69a449a585f94472558ee19dc5fdc324c1b2eb7259a9a446e28",
+   "bytes": 189812,
+   "uploaded_at": "2026-10-28T22:56:10+00:00",
+   "original_sha256": "cabf9a702cef0638740219d04a31461dffe710b9a22dc6733d49ea4a5b484583",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "swift-trawler-37-fly-exterior-design-10",
+   "key": "beneteau/swift-trawler-37-fly/exterior/swift-trawler-37-fly-exterior-design-10-6620d476.webp",
+   "sha256": "6620d4761f374c3fe9faa72c5d02066dc77ae231f7950aeb2ee3ba762719c5bb",
+   "bytes": 122206,
+   "uploaded_at": "2026-10-28T22:56:10+00:00",
+   "original_sha256": "6a1146538f8442fe1d026ba33cb84af898259a7653aec8ebd5da0757c61aaa1f",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "swift-trawler-37-fly-exterior-design-11-0",
+   "key": "beneteau/swift-trawler-37-fly/exterior/swift-trawler-37-fly-exterior-design-11-0-1bd20a1c.webp",
+   "sha256": "1bd20a1c97949da8d547a66bbf6ff5f8127945a4b77ffcf909a4121e1a774384",
+   "bytes": 127186,
+   "uploaded_at": "2026-10-28T22:56:10+00:00",
+   "original_sha256": "c4391de6119478a976f7cbc2b9f346254147c1632b4c75fabd2b60adee5e02ea",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "swift-trawler-37-fly-interior-design-01",
+   "key": "beneteau/swift-trawler-37-fly/interior/swift-trawler-37-fly-interior-design-01-90f50945.webp",
+   "sha256": "90f50945c90ed70f4d918b11f0409e44f749aec088bc834a737bcbd4414be97c",
+   "bytes": 128578,
+   "uploaded_at": "2026-10-28T22:56:10+00:00",
+   "original_sha256": "4320c79c775db15c30f0edc749648de90e2372545a2eaf0240fbd850359be2fe",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "swift-trawler-37-fly-interior-design-02",
+   "key": "beneteau/swift-trawler-37-fly/interior/swift-trawler-37-fly-interior-design-02-900b96e9.webp",
+   "sha256": "900b96e9a033f67977d345199aa848d24ede0fd6734f59d4c70209472c682fe1",
+   "bytes": 109514,
+   "uploaded_at": "2026-10-28T22:56:10+00:00",
+   "original_sha256": "7f676896263f724b051dd139d165b856eda502b9dd9f6b50b395f295fced9365",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "swift-trawler-37-fly-interior-design-03",
+   "key": "beneteau/swift-trawler-37-fly/interior/swift-trawler-37-fly-interior-design-03-2c6085e5.webp",
+   "sha256": "2c6085e544a0ece87d0278a85cfda97d0fe3d09413e09a164cc3a034668a96da",
+   "bytes": 131740,
+   "uploaded_at": "2026-10-28T22:56:10+00:00",
+   "original_sha256": "68686a7bec5059ec1fae5bb2150d87c59ce8c6fb2d65be315ffb1ce92b57643f",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "swift-trawler-37-fly-interior-design-04",
+   "key": "beneteau/swift-trawler-37-fly/interior/swift-trawler-37-fly-interior-design-04-f558aca9.webp",
+   "sha256": "f558aca90826a66b6de66335ddb84d6aece112ea3b6b295057a859c61b5b77da",
+   "bytes": 104252,
+   "uploaded_at": "2026-10-28T22:56:10+00:00",
+   "original_sha256": "add21d11ae7bbe32fea238796a240dfc1a141438b57e12cbf2de3214b72aff70",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "swift-trawler-37-fly-interior-design-05",
+   "key": "beneteau/swift-trawler-37-fly/interior/swift-trawler-37-fly-interior-design-05-5580dc4d.webp",
+   "sha256": "5580dc4d7a287628e57bd90cd7b6138b50ed10e8657a0b2bdf4e229ca8afc6ba",
+   "bytes": 59542,
+   "uploaded_at": "2026-10-28T22:56:10+00:00",
+   "original_sha256": "32a0fbc0c32aac963273fd262686c28f49488874092743729b9b5062cd3af9c9",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "swift-trawler-37-fly-usp-1",
+   "key": "beneteau/swift-trawler-37-fly/detail/swift-trawler-37-fly-usp-1-bb36a252.webp",
+   "sha256": "bb36a2522596bd54e90858baca968bc332ff4e669cff1bbc0374773bdafe44bf",
+   "bytes": 85272,
+   "uploaded_at": "2026-10-28T22:56:11+00:00",
+   "original_sha256": "a9af7faf602fd92961ff7878ac67b91c60d19e8f257335b31779b400f8253ca8",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "swift-trawler-37-usp-strong-look",
+   "key": "beneteau/swift-trawler-37-fly/detail/swift-trawler-37-usp-strong-look-66c392d1.webp",
+   "sha256": "66c392d1ce3e015f18d4536d32e2c47ac2152849240dd736a53b2938327928d8",
+   "bytes": 134196,
+   "uploaded_at": "2026-10-28T22:56:11+00:00",
+   "original_sha256": "0aba4479ec404cb0e238858ff8a7979375b5ac9e90daeaade74d6b14af3085b5",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "swift-trawler-37-usp-interior-design",
+   "key": "beneteau/swift-trawler-37-fly/interior/swift-trawler-37-usp-interior-design-e7bf6b86.webp",
+   "sha256": "e7bf6b8697c7952d6f9a8a26a653fb8cac0ce14b4cf1c92d8fbdb119d55aa5da",
+   "bytes": 71854,
+   "uploaded_at": "2026-10-28T22:56:11+00:00",
+   "original_sha256": "cbc555c10b90836b39842f2b272263952d1fc2e7268366eb288b42cca3a07e6f",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "st37-flybridge-profile-white",
+   "key": "beneteau/swift-trawler-37-fly/plans/st37-flybridge-profile-white-d8bba423.webp",
+   "sha256": "d8bba423643ba50faef03ebb11ccad752eae7b1773a23ccb6486cb9fae83ba56",
+   "bytes": 13716,
+   "uploaded_at": "2026-10-28T22:56:11+00:00",
+   "original_sha256": "ea192f073deca369ec69feed422ab307d99887e846fe60a1ed10c6e3e3e0451d",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "st37-flybridge-profile-grey",
+   "key": "beneteau/swift-trawler-37-fly/plans/st37-flybridge-profile-grey-5ca6910f.webp",
+   "sha256": "5ca6910fc5bcdb2fc86ac2850be4f1621428e985deecf9ce52060a49faafb657",
+   "bytes": 13676,
+   "uploaded_at": "2026-10-28T22:56:11+00:00",
+   "original_sha256": "be7e316350464035d4304c3e1c412d15c507e7c231a8755711bdab3ddd0c1b8f",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "st-37-flybridge-standard",
+   "key": "beneteau/swift-trawler-37-fly/plans/st-37-flybridge-standard-1aa2f8b5.webp",
+   "sha256": "1aa2f8b5b3732a518e3284af31e1eb3afab73fddec2262640f79c7bd4af30d2d",
+   "bytes": 39562,
+   "uploaded_at": "2026-10-28T22:56:11+00:00",
+   "original_sha256": "2d8702725b59227d93b7a55e3173a7b380a8d9d71a479a23fbb706e0b1ecca0a",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "st-37-pont-principal-standard",
+   "key": "beneteau/swift-trawler-37-fly/plans/st-37-pont-principal-standard-81c07627.webp",
+   "sha256": "81c07627967e7549d21b6245d5745cf9af37ba4baca1732c0001cb699233d9dd",
+   "bytes": 46666,
+   "uploaded_at": "2026-10-28T22:56:11+00:00",
+   "original_sha256": "a0f095f07dc9abe9041d0e68d1dec1427816bd9fb4e907099a287cb44750c233",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "st-37-pont-inf-rieur-0",
+   "key": "beneteau/swift-trawler-37-fly/plans/st-37-pont-inf-rieur-0-d4dcddf9.webp",
+   "sha256": "d4dcddf9c520173443d2aa90a09ef6391f33cb84fa9c20254b2d3a646ae897c6",
+   "bytes": 45734,
+   "uploaded_at": "2026-10-28T22:56:11+00:00",
+   "original_sha256": "00092ebc134c564f83c5975edc8821e0457f62bbcf2849d0773d9a33fa846835",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "st-37-flybridge-option-panneaux-ouvrant",
+   "key": "beneteau/swift-trawler-37-fly/plans/st-37-flybridge-option-panneaux-ouvrant-cd9c63d6.webp",
+   "sha256": "cd9c63d6670837190fad2fb77f6e0c4045419b307dbb3ce3d842c5eb5f323652",
+   "bytes": 40156,
+   "uploaded_at": "2026-10-28T22:56:11+00:00",
+   "original_sha256": "86bd7ba4865c4869e9cd02678299ad35579b3ff8d8c27d2e4fd7d2754c8fe361",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "st-37-flybridge-option-silent-boat",
+   "key": "beneteau/swift-trawler-37-fly/plans/st-37-flybridge-option-silent-boat-60419d85.webp",
+   "sha256": "60419d856c0541728db7b0f1eb9b838d2b5c38d5533d33d7a42c8deef692e25d",
+   "bytes": 47222,
+   "uploaded_at": "2026-10-28T22:56:11+00:00",
+   "original_sha256": "99ec285595abbb85f1e1ed95aa17743d00e4c912efb7f9eaaa4713a66cb9184d",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  }
+ ]
+}

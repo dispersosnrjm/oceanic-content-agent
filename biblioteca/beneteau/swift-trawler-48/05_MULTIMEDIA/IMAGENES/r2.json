@@ -1,0 +1,383 @@
+{
+ "version": 1,
+ "images": [
+  {
+   "id": "header-swift-trawler-48",
+   "key": "beneteau/swift-trawler-48/hero/header-swift-trawler-48-c824c836.webp",
+   "sha256": "c824c83609dc6fb343c749ac32dedf095711f783e7e7e1a1e07a8e3b2898bdf2",
+   "bytes": 286132,
+   "uploaded_at": "2026-10-28T22:56:23+00:00",
+   "original_sha256": "fceb2654b98be5f59454ac03eff364682a0470f40249e4c306236b24db84610b",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "7b695964-f65e-4697-8fa9-1f953040b4de-jpeg-1900px",
+   "key": "beneteau/swift-trawler-48/exterior/7b695964-f65e-4697-8fa9-1f953040b4de-jpeg-1900px-461d8914.webp",
+   "sha256": "461d8914a88f34b339e591c4f1e233145cfeebc7c9c381297359bb5e6ff77f1d",
+   "bytes": 142704,
+   "uploaded_at": "2026-10-28T22:56:23+00:00",
+   "original_sha256": "9828fe34e8017c10c6aa5cb1b09745628971b5c477736ec298e561a43babe60b",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "76f06b41-1130-453a-8737-e237763d3d1d-jpeg-1900px",
+   "key": "beneteau/swift-trawler-48/exterior/76f06b41-1130-453a-8737-e237763d3d1d-jpeg-1900px-5f13fc07.webp",
+   "sha256": "5f13fc076c8f6d7813ee4a373a9463a5c979de9e090180ad57ed11522b70bcdb",
+   "bytes": 238316,
+   "uploaded_at": "2026-10-28T22:56:23+00:00",
+   "original_sha256": "4c8f3b73a4f0eec11dc7f97a48b957c6fa60bb4241feae0bff022815de7c7b74",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "swift-trawler-48-beneteau-12",
+   "key": "beneteau/swift-trawler-48/exterior/swift-trawler-48-beneteau-12-93b9f948.webp",
+   "sha256": "93b9f948589c1e71f621737c6775e892c264b839f91129fe00f98b9b9ac0a710",
+   "bytes": 165392,
+   "uploaded_at": "2026-10-28T22:56:23+00:00",
+   "original_sha256": "ddbf53d0539ee960fd9651a049621306a57f63330ba199e6e6e630ac9dc2f864",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "9747be79-4e48-436a-bfb0-8dd3702f7f38-jpeg-1900px",
+   "key": "beneteau/swift-trawler-48/exterior/9747be79-4e48-436a-bfb0-8dd3702f7f38-jpeg-1900px-f50a44d6.webp",
+   "sha256": "f50a44d6209c6d5817044fd087c360be50bc5e7143b230eb03bcc43d698594ea",
+   "bytes": 175752,
+   "uploaded_at": "2026-10-28T22:56:23+00:00",
+   "original_sha256": "b53e38e4b32b2260cae8dac7f820bcf6dcd960ce466628be3b57c76a6918ae02",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "swift-trawler-48-beneteau-2",
+   "key": "beneteau/swift-trawler-48/exterior/swift-trawler-48-beneteau-2-499b4073.webp",
+   "sha256": "499b4073aa1ec462d261136e85e3e3a57fa333d0657b47ebe17c0f6c6ce6e6c7",
+   "bytes": 371608,
+   "uploaded_at": "2026-10-28T22:56:23+00:00",
+   "original_sha256": "a2a1d7c5921720bacbe170e647c2c4461911fbc7d427528b526065eb2cf8b0be",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "32e28bc0-1865-4384-a48c-c2575d2ccef9-jpeg-1900px",
+   "key": "beneteau/swift-trawler-48/exterior/32e28bc0-1865-4384-a48c-c2575d2ccef9-jpeg-1900px-a5f7cf79.webp",
+   "sha256": "a5f7cf794040db4f4f4ea56bbd80e1f0a067f95dec2e11ba4a41e817a4fc84a3",
+   "bytes": 274886,
+   "uploaded_at": "2026-10-28T22:56:23+00:00",
+   "original_sha256": "ba115c8bf33ccfd3c38b16c386effff7ce6942bccb271f5f4366b14f33acfe3b",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "28d366ef-a598-4ab2-bc5e-634308934044-jpeg-1900px",
+   "key": "beneteau/swift-trawler-48/exterior/28d366ef-a598-4ab2-bc5e-634308934044-jpeg-1900px-41b96a37.webp",
+   "sha256": "41b96a37fcba14cb4c8464ae5a23053dfad345b6087996a50d8df8f55fef2c9c",
+   "bytes": 227770,
+   "uploaded_at": "2026-10-28T22:56:23+00:00",
+   "original_sha256": "806ad72949c499a7d6a179b5332a8d24d252f49529ff32bb796de7600fdd26d4",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "swift-trawler-48-beneteau-8",
+   "key": "beneteau/swift-trawler-48/exterior/swift-trawler-48-beneteau-8-b8a1219b.webp",
+   "sha256": "b8a1219b3c905142eeabdd9732cd3731b1b27d2bff3a64fa80c947174346ba84",
+   "bytes": 193478,
+   "uploaded_at": "2026-10-28T22:56:23+00:00",
+   "original_sha256": "262825f8a3b6bfce104fd8dae60694b24025f390f4611ac3ca97d265a610721e",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "beneteau-swift-trawler-48-new-2",
+   "key": "beneteau/swift-trawler-48/exterior/beneteau-swift-trawler-48-new-2-eeff862c.webp",
+   "sha256": "eeff862c58b2cb402871fbfeef15906d58fdbca5e9aace5a33682a50e013e270",
+   "bytes": 197930,
+   "uploaded_at": "2026-10-28T22:56:24+00:00",
+   "original_sha256": "da6537f76504e4fae9b07e2f9e7bac9c5c8afb301f4ee167a0b4f43b2033855d",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "dd2f21c5-069f-4cfc-8c2a-44a8a07b56e6-jpeg-1900px",
+   "key": "beneteau/swift-trawler-48/exterior/dd2f21c5-069f-4cfc-8c2a-44a8a07b56e6-jpeg-1900px-4b3fd0df.webp",
+   "sha256": "4b3fd0df9d79b97d36da71b085dcfe1e4ec5c759ebcce590f85b7126d782513f",
+   "bytes": 81930,
+   "uploaded_at": "2026-10-28T22:56:24+00:00",
+   "original_sha256": "4751f2e8c4d22af96099d4ffddca3c07354a26c9f3624508220e269b9adfe664",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "571965dd-70c0-4dae-91ee-d720e8a8582d-jpeg-1900px",
+   "key": "beneteau/swift-trawler-48/exterior/571965dd-70c0-4dae-91ee-d720e8a8582d-jpeg-1900px-c170e974.webp",
+   "sha256": "c170e9747c12de945c31868488a199baa019a38ab72af40863ad8804cb3406c6",
+   "bytes": 119206,
+   "uploaded_at": "2026-10-28T22:56:24+00:00",
+   "original_sha256": "d3978d998e0cd6bc4a701560520b9498f439d7c8c86501dfeee569f1ab2e42f8",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "beneteau-swift-trawler-48-new-1",
+   "key": "beneteau/swift-trawler-48/exterior/beneteau-swift-trawler-48-new-1-ffe2bf87.webp",
+   "sha256": "ffe2bf87aa9495bfd431b3fdd9c22645a33f23ccf096520c64864fd7343df9ef",
+   "bytes": 156696,
+   "uploaded_at": "2026-10-28T22:56:24+00:00",
+   "original_sha256": "91df0f9d090b53f6945d573451d9c027e86a3e1bf09d395a55f02052a69c5e9b",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "st48-interieur1",
+   "key": "beneteau/swift-trawler-48/interior/st48-interieur1-4bf181d8.webp",
+   "sha256": "4bf181d8c7a4eaf12d8da46e663c5722af8f72e481dead191c86dbcbacdd44b7",
+   "bytes": 96992,
+   "uploaded_at": "2026-10-28T22:56:24+00:00",
+   "original_sha256": "4fa5952ec5533b22ea2c3a52e894ab2199f5c01de8873ea3954c7cbe8f7f334f",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "st48-interieur2",
+   "key": "beneteau/swift-trawler-48/interior/st48-interieur2-53965518.webp",
+   "sha256": "539655185cbf89f6e37d98389d54ea412c1420702843e3837d1b81af204c563b",
+   "bytes": 110072,
+   "uploaded_at": "2026-10-28T22:56:24+00:00",
+   "original_sha256": "94464d6ff583e6a8b4f2407589eac794cb85fa3ac266fd3e679938d7ba679aed",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "st48-interieur6",
+   "key": "beneteau/swift-trawler-48/interior/st48-interieur6-45260d80.webp",
+   "sha256": "45260d8081f526931e187cc74cac531dafe0db91c6f758966b7228050986beaf",
+   "bytes": 119106,
+   "uploaded_at": "2026-10-28T22:56:24+00:00",
+   "original_sha256": "f2d137961be6e33394f785e4a1f85d5fdf7ae0073ed41fb3fe4fb92265b528af",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "st48-interieur7",
+   "key": "beneteau/swift-trawler-48/interior/st48-interieur7-d1771cc3.webp",
+   "sha256": "d1771cc3f3ad9e4cead284a3057faf7f3ae5fced8068546353abef58fde4269b",
+   "bytes": 106742,
+   "uploaded_at": "2026-10-28T22:56:24+00:00",
+   "original_sha256": "7b4819b52c4adfd6eca2fba3c65c45c0ce3b68153d343e58a28101c864a7dcdc",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "st48-interieur3",
+   "key": "beneteau/swift-trawler-48/interior/st48-interieur3-c666e584.webp",
+   "sha256": "c666e58462f91dc84a094d8d71e2448115124f127bba300647d098bb4220a042",
+   "bytes": 106890,
+   "uploaded_at": "2026-10-28T22:56:24+00:00",
+   "original_sha256": "46a45fe0ac56aca1afeb18d36f71d0502cf8e913756511cb3aa14d4c38026505",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "st48-interieur4",
+   "key": "beneteau/swift-trawler-48/interior/st48-interieur4-684c1c54.webp",
+   "sha256": "684c1c54c4a667ecea3a31248c06468241beb024d744e4f40682cba895ae62d9",
+   "bytes": 31004,
+   "uploaded_at": "2026-10-28T22:56:24+00:00",
+   "original_sha256": "7a5802ed2c86f4f9fc067d49ba485c3bf0b020c20407e519cc62ff24a5d69757",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "st48-interieur5",
+   "key": "beneteau/swift-trawler-48/interior/st48-interieur5-74be6d03.webp",
+   "sha256": "74be6d036b799bded31e7a379e4b9252d009fcca07b9c1ae1e2d4a6d2ab3fae3",
+   "bytes": 100104,
+   "uploaded_at": "2026-10-28T22:56:24+00:00",
+   "original_sha256": "d4b8eea66169b513e941de43c493d8800dc27ead5ca3e61cc94f70b3ca36d70d",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "427fac0b-b88d-40b3-bef2-698ed7f92081-jpeg-1900px",
+   "key": "beneteau/swift-trawler-48/detail/427fac0b-b88d-40b3-bef2-698ed7f92081-jpeg-1900px-fbaeb52d.webp",
+   "sha256": "fbaeb52d64d745da989f89ec060fc335fd48019cf66c4792bde9505c76c8b9e4",
+   "bytes": 170000,
+   "uploaded_at": "2026-10-28T22:56:24+00:00",
+   "original_sha256": "f7c16a774cfcaa2efebb3fa067849c103bba7c51e397bfe414607e3022075342",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "beneteau-swift-trawler-48-new-3",
+   "key": "beneteau/swift-trawler-48/detail/beneteau-swift-trawler-48-new-3-2246c1c3.webp",
+   "sha256": "2246c1c392d84660d9b330fc95df1eef14d8c44a5feb2d8ceb52f8d053abb05b",
+   "bytes": 200882,
+   "uploaded_at": "2026-10-28T22:56:24+00:00",
+   "original_sha256": "12136a78e46fddb05d4b0efe4af4eb9c678e9600afce2e3fc3c3c62c0baeab0a",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "st48-profile-1",
+   "key": "beneteau/swift-trawler-48/plans/st48-profile-1-59f218b2.webp",
+   "sha256": "59f218b2dcc26f9797fa0956ea097e740e85b241e241cf236e5aeffcff291f18",
+   "bytes": 10658,
+   "uploaded_at": "2026-10-28T22:56:25+00:00",
+   "original_sha256": "5421011b70be84a46ba085886e9e9bfed5a0735717fc32809f5273662660ba32",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "st48-profile-2",
+   "key": "beneteau/swift-trawler-48/plans/st48-profile-2-5168911c.webp",
+   "sha256": "5168911c1d4275825260f05a20af82aa16b1c6d73ced002567980e305b424177",
+   "bytes": 11082,
+   "uploaded_at": "2026-10-28T22:56:25+00:00",
+   "original_sha256": "56e89239eea59a9b02652392140bbcde5cd4542851180fadc7c28aac7fe6a689",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "st48-layout1-0",
+   "key": "beneteau/swift-trawler-48/plans/st48-layout1-0-00d0fc30.webp",
+   "sha256": "00d0fc30290c13f24530f4e3b747375ed5e91f49ada9236e27a34c9b23dfa9d3",
+   "bytes": 13090,
+   "uploaded_at": "2026-10-28T22:56:25+00:00",
+   "original_sha256": "554bf02755ea04e80754249f17e81fde636d4eb24d32ca4ce137053c7ad7f9de",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "st48-layout-maindeck",
+   "key": "beneteau/swift-trawler-48/plans/st48-layout-maindeck-33511aa6.webp",
+   "sha256": "33511aa6fcbd4b42251d627a737cd87770fd0ebd941ad618c8dae403032aad21",
+   "bytes": 40322,
+   "uploaded_at": "2026-10-28T22:56:25+00:00",
+   "original_sha256": "185f15200694cc41612af468ea1fe443d47fce0741a06877ed8bf69991a0375e",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "st48-layout-cabine",
+   "key": "beneteau/swift-trawler-48/plans/st48-layout-cabine-a0b1ddcb.webp",
+   "sha256": "a0b1ddcb2f220850180b95082d461ed50d0d314d8e22f7fa9122b78f1bf31e52",
+   "bytes": 31308,
+   "uploaded_at": "2026-10-28T22:56:25+00:00",
+   "original_sha256": "6d3dccd42dc6d50c012ae73f8d4dd8aa5d70a8bb038d6bb71e75bb74d326d6bc",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  }
+ ]
+}

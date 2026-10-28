@@ -1,0 +1,467 @@
+{
+ "version": 1,
+ "images": [
+  {
+   "id": "gran-turismo-40-desktop",
+   "key": "beneteau/gran-turismo-40-coupe/hero/gran-turismo-40-desktop-a3d97a6a.webp",
+   "sha256": "a3d97a6afb2909d6729ebb3bc9d6ff1221ab93c855ec5dc4d2efbb19d30b7c87",
+   "bytes": 275914,
+   "uploaded_at": "2026-10-28T22:55:19+00:00",
+   "original_sha256": "6c0eecb120dfe3db0fcc1d279bbc262f3a820d4d46707cb0fa346cd5c819c976",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gran-turismo-40-exterior-design-01-1920x1080",
+   "key": "beneteau/gran-turismo-40-coupe/exterior/gran-turismo-40-exterior-design-01-1920x1080-c47a4b03.webp",
+   "sha256": "c47a4b0391f4ab101743c3a8bd754bb142b4039a967268cc82c444a525a1c63a",
+   "bytes": 253090,
+   "uploaded_at": "2026-10-28T22:55:19+00:00",
+   "original_sha256": "72dbba5fb81533ae1941bab5bba2f353de68cbde83d1336eb1bc5835f1d20799",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gran-turismo-40-exterior-design-02-1920x1080",
+   "key": "beneteau/gran-turismo-40-coupe/exterior/gran-turismo-40-exterior-design-02-1920x1080-d269373e.webp",
+   "sha256": "d269373e4c506ae91b2046ae22ac0d5d56ba65033cf89dfdce482e2527191c51",
+   "bytes": 308886,
+   "uploaded_at": "2026-10-28T22:55:19+00:00",
+   "original_sha256": "769fd43b8e7a5a8f90a4ec49a8d6f2963b3a9e89e88792d03bd49560bc41bdce",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gran-turismo-40-exterior-design-03-1920x1080",
+   "key": "beneteau/gran-turismo-40-coupe/exterior/gran-turismo-40-exterior-design-03-1920x1080-271ba413.webp",
+   "sha256": "271ba41391e2891a89e340e3c27997676b1b9c5283097a0b3629294bdc7b370a",
+   "bytes": 128808,
+   "uploaded_at": "2026-10-28T22:55:19+00:00",
+   "original_sha256": "aaa7fdc06ca81972e9376e8f7d1e501f5621e37ff9ef51056d4cdc2554258dd7",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gran-turismo-40-exterior-design-04-1920x1080",
+   "key": "beneteau/gran-turismo-40-coupe/exterior/gran-turismo-40-exterior-design-04-1920x1080-9c5c33f8.webp",
+   "sha256": "9c5c33f807de4ebc9213fb53433a138ad3ab15bb9aba952453d80e07a1a565be",
+   "bytes": 184166,
+   "uploaded_at": "2026-10-28T22:55:19+00:00",
+   "original_sha256": "6610a0f6dba37d41c3b476d7df1e7796f109661fd9c26c8a08145c9069a48b5a",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gran-turismo-40-exterior-design-05-1920x1080",
+   "key": "beneteau/gran-turismo-40-coupe/exterior/gran-turismo-40-exterior-design-05-1920x1080-b3151b2c.webp",
+   "sha256": "b3151b2c8ce8940dfa9cb85d88c5ae109335eae96cc9d585dece4803a0f5e7d7",
+   "bytes": 256504,
+   "uploaded_at": "2026-10-28T22:55:19+00:00",
+   "original_sha256": "6f1d167af767a70d58685d027c3aa48a58c160c0a01f6b6eb28f7ea5ab484d17",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gran-turismo-40-exterior-design-06-1920x1080",
+   "key": "beneteau/gran-turismo-40-coupe/exterior/gran-turismo-40-exterior-design-06-1920x1080-df96de71.webp",
+   "sha256": "df96de718520e2fefd71ba12e326bad1d0e68112b13754c1d05f484fdd830bee",
+   "bytes": 252354,
+   "uploaded_at": "2026-10-28T22:55:19+00:00",
+   "original_sha256": "42537245965f2f8ac5f0c63c726f625833a2df7f8f046a2799d6ba0fc591a7a2",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gran-turismo-40-exterior-design-07-1920x1080",
+   "key": "beneteau/gran-turismo-40-coupe/exterior/gran-turismo-40-exterior-design-07-1920x1080-2cb7cf7f.webp",
+   "sha256": "2cb7cf7fd22e8a0cb70046ba6466623bac021b6147bd06d5251c23803e0170b1",
+   "bytes": 136042,
+   "uploaded_at": "2026-10-28T22:55:19+00:00",
+   "original_sha256": "3d1270232de1fe1d275e006abfe047f5b8cea00ed5de064d55f37bd36a3f6ecb",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gran-turismo-40-exterior-design-08-1920x1080",
+   "key": "beneteau/gran-turismo-40-coupe/exterior/gran-turismo-40-exterior-design-08-1920x1080-7caa5d2d.webp",
+   "sha256": "7caa5d2d694ca549d4b7f4c0a826551534cf7320833fe161617c8da89a5cfd86",
+   "bytes": 62654,
+   "uploaded_at": "2026-10-28T22:55:20+00:00",
+   "original_sha256": "b68ad8a2b1e516a6e64d7c71abd72967a472f891200eb86a777bc391faa262b8",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gran-turismo-40-exterior-design-09-1920x1080",
+   "key": "beneteau/gran-turismo-40-coupe/exterior/gran-turismo-40-exterior-design-09-1920x1080-ce578d5b.webp",
+   "sha256": "ce578d5b7c4c4ae52d15c092ac325c9b0fa1a05ff2ff257904e9fff3a384c136",
+   "bytes": 60992,
+   "uploaded_at": "2026-10-28T22:55:20+00:00",
+   "original_sha256": "495e208e361a33ba9f5f5681483ac51a82dbc6ad1834d517aa0d97766882784c",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gran-turismo-40-exterior-design-10-1920x1080",
+   "key": "beneteau/gran-turismo-40-coupe/exterior/gran-turismo-40-exterior-design-10-1920x1080-ad8bbaa0.webp",
+   "sha256": "ad8bbaa0d7050be0839542ab41cf7661022252e3ce2fcaf451afbb44c34ce8aa",
+   "bytes": 185426,
+   "uploaded_at": "2026-10-28T22:55:20+00:00",
+   "original_sha256": "e2e49d053409c5353a0008f56ca673a3a2e9286f782e4b06e9db512c0a59e1de",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gran-turismo-40-exterior-design-11-1920x1080",
+   "key": "beneteau/gran-turismo-40-coupe/exterior/gran-turismo-40-exterior-design-11-1920x1080-efe0fda2.webp",
+   "sha256": "efe0fda2aaa38556793a1564adbb50ea7c5a03103aca96d12c6a16887e439353",
+   "bytes": 234180,
+   "uploaded_at": "2026-10-28T22:55:20+00:00",
+   "original_sha256": "59cae6887a3c0f91620a5b0ef0ee1633f9e9d095889d601c63e1136febd7d9a8",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gran-turismo-40-exterior-design-12-1920x1080",
+   "key": "beneteau/gran-turismo-40-coupe/exterior/gran-turismo-40-exterior-design-12-1920x1080-018cfa8f.webp",
+   "sha256": "018cfa8f38bf9c4070395637a9cc42460252cd1e3ce0cf2ecbcaf99f9ab5d7ac",
+   "bytes": 218048,
+   "uploaded_at": "2026-10-28T22:55:20+00:00",
+   "original_sha256": "4b96e53f300ab2f2e901d1fd280e6499a075bd20fe93226625687c1bb18b0492",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gran-turismo-40-boat-meet-slider-02",
+   "key": "beneteau/gran-turismo-40-coupe/exterior/gran-turismo-40-boat-meet-slider-02-da527e85.webp",
+   "sha256": "da527e851a9f2e7ca35bebf472cfb7112a47944511f189af32f5b3231df8023a",
+   "bytes": 107930,
+   "uploaded_at": "2026-10-28T22:55:20+00:00",
+   "original_sha256": "6bcfc5a598f1ee15fc453ddce3ff26bfc4d98684a4e17e0d9615cff03a09828a",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gran-turismo-40-exterior-design-13-1920x1080",
+   "key": "beneteau/gran-turismo-40-coupe/exterior/gran-turismo-40-exterior-design-13-1920x1080-abb15f0f.webp",
+   "sha256": "abb15f0f7aa45d862a2a9bb67db1b4bb2c29fd0516480a1273e8e538792f9292",
+   "bytes": 224012,
+   "uploaded_at": "2026-10-28T22:55:20+00:00",
+   "original_sha256": "f7e4c4eeed474d528c31b6c4dafca1c861841b447f3a1c94fc24c13faa757856",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gran-turismo-40-exterior-design-15-1920x1080",
+   "key": "beneteau/gran-turismo-40-coupe/exterior/gran-turismo-40-exterior-design-15-1920x1080-ed32f500.webp",
+   "sha256": "ed32f5000d77d5a5541a23c2eedb19cca73d1a4751897f2bb03ec9ab9b7b516a",
+   "bytes": 252418,
+   "uploaded_at": "2026-10-28T22:55:20+00:00",
+   "original_sha256": "d7a6c39dc6acd7175b26fe90e08bd5fd179e77b1d5e4326d0802b6dd08e38ccf",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gran-turismo-40-boat-meet-slider-01",
+   "key": "beneteau/gran-turismo-40-coupe/exterior/gran-turismo-40-boat-meet-slider-01-7c756ce8.webp",
+   "sha256": "7c756ce81379de920a35656399ad851b231a5b73c878f073a05af0d02dc02387",
+   "bytes": 65698,
+   "uploaded_at": "2026-10-28T22:55:20+00:00",
+   "original_sha256": "30a2761101c0fbd837bb3b9837712258ccf67eec571a5cf8f5acbc944d1c18af",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gran-turismo-40-exterior-design-16-1920x1080",
+   "key": "beneteau/gran-turismo-40-coupe/exterior/gran-turismo-40-exterior-design-16-1920x1080-ecd1948e.webp",
+   "sha256": "ecd1948e2b28a97ae29a3827b7887769fa32dcb980ef9a1b42b0b1c04e4dee8f",
+   "bytes": 143216,
+   "uploaded_at": "2026-10-28T22:55:20+00:00",
+   "original_sha256": "9ec479e981e0d76ad1e2f568fc3f023b374bf03459fcc90e1da53c77d158d0bd",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gt40-int3",
+   "key": "beneteau/gran-turismo-40-coupe/interior/gt40-int3-91cc28e3.webp",
+   "sha256": "91cc28e36e267adb6f16288f59b982bb19985044438919083a52d5359415f21d",
+   "bytes": 83556,
+   "uploaded_at": "2026-10-28T22:55:21+00:00",
+   "original_sha256": "10728e584457e3320c61eca3df1f48f5a25a5ce594bbb2928079efd805a187b3",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gt40-int10",
+   "key": "beneteau/gran-turismo-40-coupe/interior/gt40-int10-ff685185.webp",
+   "sha256": "ff685185747e38f308af0356de859680b509e28b949dadffc3e42516fb30bd15",
+   "bytes": 53800,
+   "uploaded_at": "2026-10-28T22:55:21+00:00",
+   "original_sha256": "7cc3b65f8c89a5b1faa37c49e6ef3e7f8f70cc2a542a5e7e0f75f51e4d8ff996",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gt40-int2",
+   "key": "beneteau/gran-turismo-40-coupe/interior/gt40-int2-15318ba3.webp",
+   "sha256": "15318ba36480eadbc49aca48a8d3899bcbc8003366667eb765a7fb218e71be06",
+   "bytes": 74938,
+   "uploaded_at": "2026-10-28T22:55:21+00:00",
+   "original_sha256": "f75b95c92c675e522df51007dc8b80a887f778f455d9224b8e04cacccb1a5fe2",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gt40-int1",
+   "key": "beneteau/gran-turismo-40-coupe/interior/gt40-int1-075d8a4e.webp",
+   "sha256": "075d8a4e021cc5ed18984f6166dfc2029ef1f34b43fe51f21f729ebf2b953484",
+   "bytes": 75386,
+   "uploaded_at": "2026-10-28T22:55:21+00:00",
+   "original_sha256": "bfeaaa429f57748e616a14856e0c53aae0f35b8525cbadfe573e4e2150ea43c4",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gt40-int4",
+   "key": "beneteau/gran-turismo-40-coupe/interior/gt40-int4-2026db4f.webp",
+   "sha256": "2026db4f61f2fd39af39065c66ea6f891fa0c6563904ce53f9a2e6fbdc901647",
+   "bytes": 63388,
+   "uploaded_at": "2026-10-28T22:55:21+00:00",
+   "original_sha256": "fe893bd316b62472aa2c5e742a1c3d121e5da4b5cee3adf26788b03f0be3635a",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gt40-alpine-b-00008-1",
+   "key": "beneteau/gran-turismo-40-coupe/interior/gt40-alpine-b-00008-1-c3883401.webp",
+   "sha256": "c388340115677eb3c5b95d08998cd47264db0845da65d943c3fae9c321a51b33",
+   "bytes": 80834,
+   "uploaded_at": "2026-10-28T22:55:21+00:00",
+   "original_sha256": "2936eae0398ccab274a20196bc156a48f13c42cfbcd373b9717609db44dac17c",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gran-turismo-40-profile-ib",
+   "key": "beneteau/gran-turismo-40-coupe/plans/gran-turismo-40-profile-ib-da64368e.webp",
+   "sha256": "da64368e04029907516da1603cde8234f7e7aa0a291df288538685c6a18fa9c0",
+   "bytes": 21972,
+   "uploaded_at": "2026-10-28T22:55:21+00:00",
+   "original_sha256": "a651c37659cf2be31cdf49257308e13e5c84afa69746f1d83f3e973c8cab06f8",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gran-turismo-40-profile-ob",
+   "key": "beneteau/gran-turismo-40-coupe/plans/gran-turismo-40-profile-ob-08f8251a.webp",
+   "sha256": "08f8251a33adb990e8759610f4a9f06233bb430e8f1fe9013086c472e60fddeb",
+   "bytes": 23236,
+   "uploaded_at": "2026-10-28T22:55:21+00:00",
+   "original_sha256": "1173cf8b86edfd6715fca68fc284aafdb33b918b4e232737676c2721318c20a0",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "profile-alpine-gran-turismo-40-coupe-0",
+   "key": "beneteau/gran-turismo-40-coupe/plans/profile-alpine-gran-turismo-40-coupe-0-d9f46d79.webp",
+   "sha256": "d9f46d7933463a8a1b5d677432df8238c3a4d64f39917d4caa0dc73d7d5affff",
+   "bytes": 38338,
+   "uploaded_at": "2026-10-28T22:55:21+00:00",
+   "original_sha256": "070f157034a81ce8e821f5baad2b72a83effef251ed0a085b11183a0077827e8",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gt40-top-sp-inbord",
+   "key": "beneteau/gran-turismo-40-coupe/plans/gt40-top-sp-inbord-c98baa48.webp",
+   "sha256": "c98baa48e2f29f1fc55134eb9d56d12432c4acb94d0ae167bd3c0fd38f8212bc",
+   "bytes": 43248,
+   "uploaded_at": "2026-10-28T22:55:21+00:00",
+   "original_sha256": "798f162496568b543581112e8e5bbddf90a6cbff5904def14487c727cbf1f855",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gt40-top-sp-outboard",
+   "key": "beneteau/gran-turismo-40-coupe/plans/gt40-top-sp-outboard-e43ef929.webp",
+   "sha256": "e43ef9291f98714a334878e3ef134dbad9d953710f9af46de6efee737116b629",
+   "bytes": 47564,
+   "uploaded_at": "2026-10-28T22:55:22+00:00",
+   "original_sha256": "b2165e80abbfb874cc1eba2eeb45cdafb27680dba6ebd3643ab8d4586fcc4178",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gt40-top-2-inbord",
+   "key": "beneteau/gran-turismo-40-coupe/plans/gt40-top-2-inbord-db00c5a5.webp",
+   "sha256": "db00c5a58443b85f74df5a20e1da2133fd050d0ea70d33f3e86caacef72e2cc7",
+   "bytes": 66098,
+   "uploaded_at": "2026-10-28T22:55:22+00:00",
+   "original_sha256": "f1a35d10f9f1b6ce768166eb80e7e751446be09145e32e95778e237bcdc048ca",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gt40-top-2-outbord",
+   "key": "beneteau/gran-turismo-40-coupe/plans/gt40-top-2-outbord-cd23bd79.webp",
+   "sha256": "cd23bd79ccfc3a721e08585d689400da68654c11abb2c6fad949bf6fbfb60eef",
+   "bytes": 68526,
+   "uploaded_at": "2026-10-28T22:55:22+00:00",
+   "original_sha256": "6d568167c884f89f5205e43047f5107cf0051b9cc1c7c579f581707f544f6160",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gt40-top-3-inbord",
+   "key": "beneteau/gran-turismo-40-coupe/plans/gt40-top-3-inbord-c83a3ce0.webp",
+   "sha256": "c83a3ce0cfe80f23f98c9609fe16aa72025919ad915ec02d26abf2d02a3f4483",
+   "bytes": 47462,
+   "uploaded_at": "2026-10-28T22:55:22+00:00",
+   "original_sha256": "c2f2ff0ef53de5e8e5462fef5c85d031e8294514575cdc53dbe5c1a284dc42eb",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gt3xc-top-3-outbord",
+   "key": "beneteau/gran-turismo-40-coupe/plans/gt3xc-top-3-outbord-492354c7.webp",
+   "sha256": "492354c74911583092c2afaa232199cf851f6a38b146b314f80757c499b982f5",
+   "bytes": 14314,
+   "uploaded_at": "2026-10-28T22:55:22+00:00",
+   "original_sha256": "a8cf2bcf56c6aa5d3d78cb910dd673b02d1b0eb68c16df067faa5aa5dd3e2af6",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  }
+ ]
+}

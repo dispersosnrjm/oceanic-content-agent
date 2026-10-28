@@ -373,14 +373,16 @@
       "declared_format": "jpg",
       "dam_tags": [],
       "model_year_tag": null,
-      "file": null,
-      "width": null,
-      "height": null,
-      "format": null,
-      "sha256": null,
+      "file": "05_MULTIMEDIA/IMAGENES/EXTERIOR/antares-9-exterior-design-04-0.webp",
+      "width": 1600,
+      "height": 873,
+      "format": "webp",
+      "sha256": "6b84d612d1ebe55c00d0095081db0cfb1dd263c6320ea568e69996e743790f77",
       "collected_at": "2026-09-27",
-      "downloaded_at": null,
-      "download_status": "PENDING"
+      "downloaded_at": "2026-10-28",
+      "download_status": "WEB_COPY",
+      "bytes": 58598,
+      "web_quality": 75
     },
     {
       "id": "241105-mxhpics-beneteau-d-0021",

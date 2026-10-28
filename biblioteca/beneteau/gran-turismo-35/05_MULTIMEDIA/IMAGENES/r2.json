@@ -1,0 +1,369 @@
+{
+ "version": 1,
+ "images": [
+  {
+   "id": "gran-turismo-35-desktop",
+   "key": "beneteau/gran-turismo-35/hero/gran-turismo-35-desktop-90b5717d.webp",
+   "sha256": "90b5717d6765cd54086c937077c65c0a72760f37da03cfc283f78fb2d2ff0574",
+   "bytes": 215240,
+   "uploaded_at": "2026-10-28T22:55:15+00:00",
+   "original_sha256": "8b3ffb47834ae93c4d13ab92d824280da56fd6962b31c4c8b2157b4f9f892aca",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gran-turismo-35-exterior-design-01-1920x1080",
+   "key": "beneteau/gran-turismo-35/exterior/gran-turismo-35-exterior-design-01-1920x1080-08009be6.webp",
+   "sha256": "08009be6c365bdd597cdd0c69ca8595319ea5bde1a6d84d05dd63ccd4abebeb3",
+   "bytes": 332434,
+   "uploaded_at": "2026-10-28T22:55:15+00:00",
+   "original_sha256": "d7a6c39dc6acd7175b26fe90e08bd5fd179e77b1d5e4326d0802b6dd08e38ccf",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gran-turismo-35-exterior-design-02-1920x1080",
+   "key": "beneteau/gran-turismo-35/exterior/gran-turismo-35-exterior-design-02-1920x1080-b5de4b4c.webp",
+   "sha256": "b5de4b4c2d181b7ab909f862f78e4794712d1e1b6d0db9cbe973dd97ca8c4b69",
+   "bytes": 257090,
+   "uploaded_at": "2026-10-28T22:55:15+00:00",
+   "original_sha256": "2a5087fb8a2674b2bb5daedcedc7c938f2dc97819d380054061c9da2ba6d121c",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gran-turismo-35-exterior-design-03-1920x1080",
+   "key": "beneteau/gran-turismo-35/exterior/gran-turismo-35-exterior-design-03-1920x1080-7d995df5.webp",
+   "sha256": "7d995df564e3a2566680665367b3ac08294d9f1b3c8b7581cc9ddfa82982f925",
+   "bytes": 156540,
+   "uploaded_at": "2026-10-28T22:55:15+00:00",
+   "original_sha256": "92c2f20211118561f2fb44e32718dc2cdad32e4aef4b53092e06d9bc97dc10ad",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gran-turismo-35-exterior-design-04-1920x1080",
+   "key": "beneteau/gran-turismo-35/exterior/gran-turismo-35-exterior-design-04-1920x1080-94561d67.webp",
+   "sha256": "94561d677d9936e912ba7e8fcd54b492338bba92093b832b49ba56de6ea3618e",
+   "bytes": 143314,
+   "uploaded_at": "2026-10-28T22:55:15+00:00",
+   "original_sha256": "ad9a94cd3e4a4f2798ea4b622c3f34ce46fca37bd1d97caa34ea0e8eec23bd26",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gran-turismo-35-exterior-design-05-1920x1080",
+   "key": "beneteau/gran-turismo-35/exterior/gran-turismo-35-exterior-design-05-1920x1080-f422def0.webp",
+   "sha256": "f422def041cec21a33bcc9a4b1d3eac3870c2f69836c0700c0c14457ebcfcb2f",
+   "bytes": 175230,
+   "uploaded_at": "2026-10-28T22:55:15+00:00",
+   "original_sha256": "047759e759c3b278b16877ca4f51271fa070ddb23336ff553da7f1e76ac15f51",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gran-turismo-35-exterior-design-06-990x540",
+   "key": "beneteau/gran-turismo-35/exterior/gran-turismo-35-exterior-design-06-990x540-3c2b7031.webp",
+   "sha256": "3c2b703129afb4a5e1bc1181f227b063304300d8b6ad87d2d093cead4d3957ec",
+   "bytes": 106228,
+   "uploaded_at": "2026-10-28T22:55:15+00:00",
+   "original_sha256": "a18808ffdac2f08f98b49e21a8e8cb98ffa16ffd608b3c209333292b036c835a",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gran-turismo-35-exterior-design-07-990x540",
+   "key": "beneteau/gran-turismo-35/exterior/gran-turismo-35-exterior-design-07-990x540-44cdcd14.webp",
+   "sha256": "44cdcd147316efefebd6ad445c6628df7930fe92d43a91214e13bd0bf3169eee",
+   "bytes": 130202,
+   "uploaded_at": "2026-10-28T22:55:15+00:00",
+   "original_sha256": "ae11b49062293d7b3f653f37c3c6b738caab6fba84255f3581f4169a90e89195",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gran-turismo-35-exterior-design-08-990x540",
+   "key": "beneteau/gran-turismo-35/exterior/gran-turismo-35-exterior-design-08-990x540-6b657a5d.webp",
+   "sha256": "6b657a5dad63454112df72ac3fbe268d0c63d033602aeafb222b01de2a876f14",
+   "bytes": 141186,
+   "uploaded_at": "2026-10-28T22:55:16+00:00",
+   "original_sha256": "b313b4229f6567fea4d4e13b35f6350dc2c5c93942ee6027927378d25cbd6313",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gran-turismo-35-boat-meet-slider-01",
+   "key": "beneteau/gran-turismo-35/exterior/gran-turismo-35-boat-meet-slider-01-0b197cdc.webp",
+   "sha256": "0b197cdc6d335d6cf2e3122c37a1b64b5071d2901f5130e1c97a2e7f8fc29b36",
+   "bytes": 145600,
+   "uploaded_at": "2026-10-28T22:55:16+00:00",
+   "original_sha256": "00848c14363dd0df5b0c3bd64a80cc43d701869e3f5c7b4ab9ac433d74303217",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gran-turismo-35-exterior-design-09-1920x1080",
+   "key": "beneteau/gran-turismo-35/exterior/gran-turismo-35-exterior-design-09-1920x1080-e4b2e4d5.webp",
+   "sha256": "e4b2e4d565362d0c88431843e1dd81b498798e814f8da4a2ec00388c681f6a73",
+   "bytes": 85636,
+   "uploaded_at": "2026-10-28T22:55:16+00:00",
+   "original_sha256": "d8efd60e3b3cd98a43feb2f172e140560c77ebe0f3208d43f7b5dd4f7eec6cdc",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gran-turismo-35-boat-meet-slider-02",
+   "key": "beneteau/gran-turismo-35/interior/gran-turismo-35-boat-meet-slider-02-6771d257.webp",
+   "sha256": "6771d25753c0f0c227f80cc7ae57547e035db921c83d88ff6deb7e4167ec33ac",
+   "bytes": 78264,
+   "uploaded_at": "2026-10-28T22:55:16+00:00",
+   "original_sha256": "3f243ea139bb50ba80ba418120a7930a94d09c4b19d6b5624a0aef27126848a5",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gt35-c-00010",
+   "key": "beneteau/gran-turismo-35/interior/gt35-c-00010-ad93c5fc.webp",
+   "sha256": "ad93c5fc3c29e3a41bcd422efe3c0c86d64e889040168bd282e5dc5d9f506e21",
+   "bytes": 89710,
+   "uploaded_at": "2026-10-28T22:55:16+00:00",
+   "original_sha256": "3741d48963df14808fc41e1e4316f54c008631c6c5d5352f26d0e2ab512638e2",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gt35-c-00011",
+   "key": "beneteau/gran-turismo-35/interior/gt35-c-00011-06bcfdf1.webp",
+   "sha256": "06bcfdf1b50da06b3f537a6a77289697264a026f327c8f34b2ff77c4a6358682",
+   "bytes": 33480,
+   "uploaded_at": "2026-10-28T22:55:16+00:00",
+   "original_sha256": "9156b541d905a97ae447cbb10d813be06320c0e5f19bfbd959f907d808191d73",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gt35-c-00012",
+   "key": "beneteau/gran-turismo-35/interior/gt35-c-00012-78b0b8bd.webp",
+   "sha256": "78b0b8bd97f5bd891725b0493133aa5e0dabab3fc4e52f1cf35c5876ed428d99",
+   "bytes": 77718,
+   "uploaded_at": "2026-10-28T22:55:16+00:00",
+   "original_sha256": "a5918540616a744cffc769819741d92fab3e5efd56a1a2b25f00af7f62904d51",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gt35-c-00013",
+   "key": "beneteau/gran-turismo-35/interior/gt35-c-00013-f24aa2e8.webp",
+   "sha256": "f24aa2e837846991517b308fa6431fd123d2fb88c4c07589dde840da080f2365",
+   "bytes": 99042,
+   "uploaded_at": "2026-10-28T22:55:16+00:00",
+   "original_sha256": "d7aa77589d95b8a62a5d5422ce8cc59c4ebf71b83fc31e946c50a968779bc87e",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gt35-c-00014",
+   "key": "beneteau/gran-turismo-35/interior/gt35-c-00014-5cabc4d7.webp",
+   "sha256": "5cabc4d73ab42a60aa4571641ff488be14d6e99ebec8f974e4019b65247de206",
+   "bytes": 39906,
+   "uploaded_at": "2026-10-28T22:55:16+00:00",
+   "original_sha256": "b6f024203b246c93d4a4431fb228c44ab3eb5fe721b46f95a83ac4a9f5b172e6",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gran-turismo-35-interior-design-01-990x540",
+   "key": "beneteau/gran-turismo-35/interior/gran-turismo-35-interior-design-01-990x540-e7f4dfb1.webp",
+   "sha256": "e7f4dfb16225eb61c500e61c6a23411468ed5f06392b20f98eab4b4563c55c59",
+   "bytes": 54674,
+   "uploaded_at": "2026-10-28T22:55:17+00:00",
+   "original_sha256": "cf46038a10b080470fc94bd3a9cad0a318bacc84750705ad98b745e32fca93ff",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gran-turismo-35-boat-meet-slider-03",
+   "key": "beneteau/gran-turismo-35/detail/gran-turismo-35-boat-meet-slider-03-861ddf38.webp",
+   "sha256": "861ddf38ea05e4059136bc019869153de792cc06daf38ed35fceff11dc65c475",
+   "bytes": 75844,
+   "uploaded_at": "2026-10-28T22:55:17+00:00",
+   "original_sha256": "16d06599699db310ea2c8829ad42dab9bd3bfa0f4b9109c9a8dec7739350b4e3",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gran-turismo-35-profile",
+   "key": "beneteau/gran-turismo-35/plans/gran-turismo-35-profile-a1b3744f.webp",
+   "sha256": "a1b3744f2f1d9884bc096652f1b5fb0670622dffefa96071a7026768cd3cdbaf",
+   "bytes": 24874,
+   "uploaded_at": "2026-10-28T22:55:17+00:00",
+   "original_sha256": "16d314ed20465644010a3a50bdd093ede3302809644bcd58c3c28a380843808e",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "profile-alpine-gran-turismo-35-1",
+   "key": "beneteau/gran-turismo-35/plans/profile-alpine-gran-turismo-35-1-9eb946db.webp",
+   "sha256": "9eb946db00566413b81e35bd0bb21ad11a9063a8a449fdcdfbd076e794517f57",
+   "bytes": 44540,
+   "uploaded_at": "2026-10-28T22:55:17+00:00",
+   "original_sha256": "183b11c4f0bb1aab2d4d51178c3c0c9ba5815bf9a05f1ad9a327127fa62f4e88",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gt35-top-ttop-pv-teak",
+   "key": "beneteau/gran-turismo-35/plans/gt35-top-ttop-pv-teak-ccddf883.webp",
+   "sha256": "ccddf883af999afb35197974639a46df05ab7810a6e1dac73a1c75944c6dfe24",
+   "bytes": 60616,
+   "uploaded_at": "2026-10-28T22:55:17+00:00",
+   "original_sha256": "57e886a5633d93409224e3c2a8405932919a6b88639c069cededfe5a256f9977",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gt35-top-beach-teak",
+   "key": "beneteau/gran-turismo-35/plans/gt35-top-beach-teak-ca8dcc23.webp",
+   "sha256": "ca8dcc235b9388fc87a6de0ff31d9ad7220914e9b5b4669022993616f191a719",
+   "bytes": 73090,
+   "uploaded_at": "2026-10-28T22:55:17+00:00",
+   "original_sha256": "137016525411fdc86943847f6f5642a8adff1a889ab933146c6cf661bf468488",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gt35-top-dinette-teak",
+   "key": "beneteau/gran-turismo-35/plans/gt35-top-dinette-teak-8e89b52b.webp",
+   "sha256": "8e89b52b78e2dbc48eed8302189242786cb689a7f7cb4c4c011d6e52733a05c4",
+   "bytes": 66598,
+   "uploaded_at": "2026-10-28T22:55:17+00:00",
+   "original_sha256": "9d37e6e47a648278fcfe48f95cd0e6b59a61e0b78d515fdb9cf3ea0af5e38874",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gt35-top-interior-dinette",
+   "key": "beneteau/gran-turismo-35/plans/gt35-top-interior-dinette-7eed89f0.webp",
+   "sha256": "7eed89f05df5cce39291fff1d0bda750f3dfdac80ba159b435a9b53c70571d7d",
+   "bytes": 32248,
+   "uploaded_at": "2026-10-28T22:55:17+00:00",
+   "original_sha256": "f0fbcfc8cca141cbfd79310467752488748d0c571b7a532bb765003593023934",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gt35-top-interior-beds",
+   "key": "beneteau/gran-turismo-35/plans/gt35-top-interior-beds-9560a194.webp",
+   "sha256": "9560a194a031ff49693a332346217f067e696569591e87d394b612af4ebebe31",
+   "bytes": 32358,
+   "uploaded_at": "2026-10-28T22:55:17+00:00",
+   "original_sha256": "2fd58066dd942326dfc49d12191e5c17f52483921e094b0e3bab0114fd540cd1",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  }
+ ]
+}

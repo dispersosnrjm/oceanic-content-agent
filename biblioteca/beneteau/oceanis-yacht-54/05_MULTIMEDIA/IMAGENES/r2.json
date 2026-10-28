@@ -1,0 +1,341 @@
+{
+ "version": 1,
+ "images": [
+  {
+   "id": "oceanis-yacht-54",
+   "key": "beneteau/oceanis-yacht-54/hero/oceanis-yacht-54-fafbd104.webp",
+   "sha256": "fafbd1048f4a889f4cefe991944881d42018ca06713394826b168e3947d09f70",
+   "bytes": 189744,
+   "uploaded_at": "2026-10-28T22:55:59+00:00",
+   "original_sha256": "2c773815894b71ffef5dcc637210475340da620cd46130aace06350d823d40e5",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "ocy54-exterior1",
+   "key": "beneteau/oceanis-yacht-54/exterior/ocy54-exterior1-e4185af3.webp",
+   "sha256": "e4185af3f57e9c66d82d8e84f4eeeabcd8de0776317ed43af6670b9604b8ddbf",
+   "bytes": 588202,
+   "uploaded_at": "2026-10-28T22:55:59+00:00",
+   "original_sha256": "d8b3c86732da3b3165218af06ba9fcd0d7a48f3f7c87a6bc127aaf08621b0373",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "ocy54-exterior2",
+   "key": "beneteau/oceanis-yacht-54/exterior/ocy54-exterior2-b76e3dfa.webp",
+   "sha256": "b76e3dfa84a4f18242105c56d744a0e9e3f1f427634aa85c7962c605a740c92a",
+   "bytes": 269810,
+   "uploaded_at": "2026-10-28T22:55:59+00:00",
+   "original_sha256": "e926e9be918a9642a6cf1456182a83d922484a51433017dec89c7e6f643a927b",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "ocy54-exterior3",
+   "key": "beneteau/oceanis-yacht-54/exterior/ocy54-exterior3-6ee217bf.webp",
+   "sha256": "6ee217bf95b6078afadf8ab24aa6f68254bf575547cc5dc1413b0e3ed0eed64b",
+   "bytes": 114166,
+   "uploaded_at": "2026-10-28T22:55:59+00:00",
+   "original_sha256": "bfba46e9745e043d6c5773a4c357601c0d3932e2324bff7d92d774222ab5f64e",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "ocy54-exterior4",
+   "key": "beneteau/oceanis-yacht-54/exterior/ocy54-exterior4-5cecad62.webp",
+   "sha256": "5cecad629afb6f2b3e49a4e634b7f466bb63208fe855fda741d4cbd5835154c4",
+   "bytes": 194826,
+   "uploaded_at": "2026-10-28T22:55:59+00:00",
+   "original_sha256": "59a4e18324c0769c7d728c7306ac5f07ec2d4ba4d8fd287c2e1a00a4388e5dcb",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gmr-ocy54-1118-jpg-1900px",
+   "key": "beneteau/oceanis-yacht-54/exterior/gmr-ocy54-1118-jpg-1900px-b6dc1241.webp",
+   "sha256": "b6dc12414690a26eff63d79e44c32cc87da80ffd253ee99639c4adcbbc835b84",
+   "bytes": 110756,
+   "uploaded_at": "2026-10-28T22:55:59+00:00",
+   "original_sha256": "98151680b61c2e3dd743f39064bb9e009db908adc9f439021cbf15f31de1bac0",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gmr-ocy54-1294-jpg-1900px",
+   "key": "beneteau/oceanis-yacht-54/exterior/gmr-ocy54-1294-jpg-1900px-f4dee3db.webp",
+   "sha256": "f4dee3dbe5896587c2f4cb8b80ac443fbe8486802a0eb867a8dca458ce6249c5",
+   "bytes": 138788,
+   "uploaded_at": "2026-10-28T22:55:59+00:00",
+   "original_sha256": "2e52030f1b088d2100181899957957cd94c95eb4ea20a82c0b71a5e5cf23dae6",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gmr-ocy54-0069-jpg-1900px",
+   "key": "beneteau/oceanis-yacht-54/exterior/gmr-ocy54-0069-jpg-1900px-f65988f5.webp",
+   "sha256": "f65988f5c84357b606ee1b965e5625df827d5e70e4ef4acc8f8c588411928421",
+   "bytes": 195424,
+   "uploaded_at": "2026-10-28T22:55:59+00:00",
+   "original_sha256": "a4bb405782e90acfe19a38cbec6ae0bea53a636ee7f4ed2f265ed38e3d7f741c",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gmr-ocy54-0988-jpg-1900px",
+   "key": "beneteau/oceanis-yacht-54/exterior/gmr-ocy54-0988-jpg-1900px-fd58511f.webp",
+   "sha256": "fd58511fdabcb277bc6b2b0b65d28b2afb465d5f6775da7363c343c735d8b9ca",
+   "bytes": 141286,
+   "uploaded_at": "2026-10-28T22:56:00+00:00",
+   "original_sha256": "ddd91ef942acd7671680ee85516e6e5ad32fb09462492db1df701575dbf674c5",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "dji-0252-edit",
+   "key": "beneteau/oceanis-yacht-54/exterior/dji-0252-edit-0ebf989a.webp",
+   "sha256": "0ebf989a045413f42b24a1e710ae596068a952f2f50860ae514bfabb59503468",
+   "bytes": 115132,
+   "uploaded_at": "2026-10-28T22:56:00+00:00",
+   "original_sha256": "d85bac669c3e8399d14de57dd288d9a55170b563769bf741160662e4f80fdadc",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "ocy54-interior1",
+   "key": "beneteau/oceanis-yacht-54/interior/ocy54-interior1-2ea041a6.webp",
+   "sha256": "2ea041a64d2bf34b3fbfb99921a36f2146ed6cf9cab99258b7cd687079454191",
+   "bytes": 89852,
+   "uploaded_at": "2026-10-28T22:56:00+00:00",
+   "original_sha256": "6851f95c513009ac3230e13e7c5c0e399301f27a2618f10461070f663d1b0522",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "ocy54-interior2",
+   "key": "beneteau/oceanis-yacht-54/interior/ocy54-interior2-7a10c0b2.webp",
+   "sha256": "7a10c0b29bf089f083f76c2994d167347e4b8f3e0908a0e77f1ec668c7dfb219",
+   "bytes": 103946,
+   "uploaded_at": "2026-10-28T22:56:00+00:00",
+   "original_sha256": "a96245af474904c3336953a55292bd61f4223dc3d8a5abd481f375d3f87bc25e",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "ocy54-interior3",
+   "key": "beneteau/oceanis-yacht-54/interior/ocy54-interior3-e1c6da05.webp",
+   "sha256": "e1c6da05a53bfad92b2ff1564bb02bcd8c59e09d79e6b73a2a15a4d255a2f989",
+   "bytes": 73532,
+   "uploaded_at": "2026-10-28T22:56:00+00:00",
+   "original_sha256": "a330a2a8e44d2895a066788c0e1603b9b6b1887e76a1fde889ff9865bb614f56",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "ocy54-interior4",
+   "key": "beneteau/oceanis-yacht-54/interior/ocy54-interior4-a037530d.webp",
+   "sha256": "a037530d005a77965ed1ffab93c8451f744ca0a645c4cafe45f5d149b56a7e6b",
+   "bytes": 103642,
+   "uploaded_at": "2026-10-28T22:56:00+00:00",
+   "original_sha256": "11ba68a02a98b89cd0dcbb68166cb9756c863e2dff33c88e5339413b136cad84",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "ocy54-interior5",
+   "key": "beneteau/oceanis-yacht-54/interior/ocy54-interior5-d17dc14e.webp",
+   "sha256": "d17dc14ef15c9926fbb50931d321594c1c9f79d1239c848d5004e6d65cfc1fb3",
+   "bytes": 102688,
+   "uploaded_at": "2026-10-28T22:56:00+00:00",
+   "original_sha256": "bddf7b66a9a1c5eb914376d048f5e9cea03d7444978a314ae2b7bb9d4194d863",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "ocy54-interior6",
+   "key": "beneteau/oceanis-yacht-54/interior/ocy54-interior6-b2891eea.webp",
+   "sha256": "b2891eeaee22f53a513f50b6838bbed0280e0004d9effe4a91ef3b981f0de787",
+   "bytes": 90032,
+   "uploaded_at": "2026-10-28T22:56:00+00:00",
+   "original_sha256": "a8fe74f191eb82dbd7242ad383570782c3d5709401efa984bca0417c06105e74",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "ocy54-interior7",
+   "key": "beneteau/oceanis-yacht-54/interior/ocy54-interior7-ed510c70.webp",
+   "sha256": "ed510c70b12e12230d0374c81dcc758678737fe1bbc456eaf0e5df7c14f539ae",
+   "bytes": 73488,
+   "uploaded_at": "2026-10-28T22:56:01+00:00",
+   "original_sha256": "01d7e136c50f752bbea3a1abf27a8dc77fbc9ee1ef376e164b41163b6ec2e2cd",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "ocy54-easysailing",
+   "key": "beneteau/oceanis-yacht-54/underway/ocy54-easysailing-31274451.webp",
+   "sha256": "312744519f603f8e30e63dbe610e3c4222cab0766fcd018a2a430421e0cf9b41",
+   "bytes": 66428,
+   "uploaded_at": "2026-10-28T22:56:01+00:00",
+   "original_sha256": "f52a1d5d697191e2505aef34bb32da9593d2895996d34619dd40a7d92d23a663",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "ocy54-deplacement",
+   "key": "beneteau/oceanis-yacht-54/detail/ocy54-deplacement-1defe826.webp",
+   "sha256": "1defe82617461ce2f9372fef7c47c797424b225bdae561e028d914980ad1913b",
+   "bytes": 109204,
+   "uploaded_at": "2026-10-28T22:56:01+00:00",
+   "original_sha256": "d6e38999bd75dae2668aef15ae1424cd3af0ff4c5a44514ceaa3c29fb0a81561",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "ocy54-finitionmathautdegamme",
+   "key": "beneteau/oceanis-yacht-54/detail/ocy54-finitionmathautdegamme-0dad8634.webp",
+   "sha256": "0dad8634bfcbae476e8748b555d03abf686bee07a7651a868f14fef681c34cde",
+   "bytes": 174932,
+   "uploaded_at": "2026-10-28T22:56:01+00:00",
+   "original_sha256": "1c11d40f695e6b6af171b77895de0f6799a4293e039d80b67ee86b3d0da99a9e",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "ocy54-profil",
+   "key": "beneteau/oceanis-yacht-54/plans/ocy54-profil-78e05079.webp",
+   "sha256": "78e05079ed6e4f8f8f816323c53fcc476106ffce8ac53d9471f4fd1fb0e31e3f",
+   "bytes": 2052,
+   "uploaded_at": "2026-10-28T22:56:01+00:00",
+   "original_sha256": "8931328cd8ad6577e3e3cf1bb275298f1a75711ddec86d2048f3402ee36d986d",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "ocy54-deck",
+   "key": "beneteau/oceanis-yacht-54/plans/ocy54-deck-26bb4975.webp",
+   "sha256": "26bb49757ff2659d2650b4b3b48abc700cc276e5fd4f614492d68ed1d096a280",
+   "bytes": 14810,
+   "uploaded_at": "2026-10-28T22:56:01+00:00",
+   "original_sha256": "17bf540cf83346348905797d6071ac9f8d998c878ac0af6d1d0dded2395d87fa",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "ocy54-3cab2t",
+   "key": "beneteau/oceanis-yacht-54/plans/ocy54-3cab2t-32827c82.webp",
+   "sha256": "32827c82674f7e969e6631ac986ca6e48b2ec06f24ecc8d05329b1ec94faf23d",
+   "bytes": 15086,
+   "uploaded_at": "2026-10-28T22:56:01+00:00",
+   "original_sha256": "d33c801499891425ea2b0bc4fc1bfed95ff8d7ed552d5b4d0e6bab989c3c3630",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "ocy54-3cab3t",
+   "key": "beneteau/oceanis-yacht-54/plans/ocy54-3cab3t-b39702e1.webp",
+   "sha256": "b39702e1e0b4c2f0b9dc93e1ac3c3d4f0365e506dc8b3c1b76505b164db55aa1",
+   "bytes": 15946,
+   "uploaded_at": "2026-10-28T22:56:01+00:00",
+   "original_sha256": "d5609c5f37f7f681deb0897870492e98a73df7cd1e4c29d87effbbaf4712b295",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  }
+ ]
+}

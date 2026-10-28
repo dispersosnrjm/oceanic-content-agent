@@ -1,0 +1,327 @@
+{
+ "version": 1,
+ "images": [
+  {
+   "id": "st-37-sedan-header-desktop",
+   "key": "beneteau/swift-trawler-37-sedan/hero/st-37-sedan-header-desktop-31e73df1.webp",
+   "sha256": "31e73df1a248909746ccfd7ae808ec13e94971d1c7ef8ec34f2e5d13838a43e7",
+   "bytes": 141250,
+   "uploaded_at": "2026-10-28T22:56:13+00:00",
+   "original_sha256": "4caa51023eb2859a7a37897fce58663052c9729182d7e7a5b77002e41a17eb26",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "st-37-sedan-exterieur-4",
+   "key": "beneteau/swift-trawler-37-sedan/exterior/st-37-sedan-exterieur-4-d056ce50.webp",
+   "sha256": "d056ce503ab3a27c0d3d0dc7e97d953691f5432c3478215a360e7864b7547072",
+   "bytes": 188646,
+   "uploaded_at": "2026-10-28T22:56:13+00:00",
+   "original_sha256": "f61dfc2d3609be3e5bd47ab31008baee1bfb8badc9d08bc69c31cc3dfaeb9798",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "st-37-sedan-exterieur-7",
+   "key": "beneteau/swift-trawler-37-sedan/exterior/st-37-sedan-exterieur-7-edbd754c.webp",
+   "sha256": "edbd754cdf2d9dded26ea69afb705e31dbe208d01013a91d9f645b300fb355b7",
+   "bytes": 188004,
+   "uploaded_at": "2026-10-28T22:56:13+00:00",
+   "original_sha256": "8155bc73b854c46e5407e4befbcf7e467ff76c2d20151115af986425c6614796",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "st-37-sedan-exterieur-6",
+   "key": "beneteau/swift-trawler-37-sedan/exterior/st-37-sedan-exterieur-6-0ad1073a.webp",
+   "sha256": "0ad1073a8dc32b1c144c10fa65772676b7301d8c28ada8782f0f40e8b64c9d18",
+   "bytes": 132448,
+   "uploaded_at": "2026-10-28T22:56:13+00:00",
+   "original_sha256": "f00f143a8e66e0829375f2e7d08b4e71f67ac68e4c3c69f2c2eb0a8a07641d0d",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "st-37-sedan-exterieur-3",
+   "key": "beneteau/swift-trawler-37-sedan/exterior/st-37-sedan-exterieur-3-cd8a2ea4.webp",
+   "sha256": "cd8a2ea4ea0acf49d43ece991f42415e5205dbfff7d57b7d8675dab603c41ab4",
+   "bytes": 123776,
+   "uploaded_at": "2026-10-28T22:56:13+00:00",
+   "original_sha256": "e7d035159689bf7e47d23cce28d7e6ca658e2069903bad0fa6cca53657ff7d8c",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "st-37-sedan-exterieur-1",
+   "key": "beneteau/swift-trawler-37-sedan/exterior/st-37-sedan-exterieur-1-4bd29f46.webp",
+   "sha256": "4bd29f46feaebe0bc1660afd37eec4d7635963aba488d42e944a527ca2864654",
+   "bytes": 189464,
+   "uploaded_at": "2026-10-28T22:56:13+00:00",
+   "original_sha256": "0c3c4299977a73ca64638947277451d83547a7ac605cee44c5168761af6b53fc",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "st-37-sedan-exterieur-2",
+   "key": "beneteau/swift-trawler-37-sedan/exterior/st-37-sedan-exterieur-2-39042643.webp",
+   "sha256": "39042643a14bec978eddef0e4eb2e71e866fc23a425c45cdfd6da2500e645945",
+   "bytes": 159938,
+   "uploaded_at": "2026-10-28T22:56:13+00:00",
+   "original_sha256": "e98844f4555c18e8327641776c5ee50e450d1223d820b1df9c19304b2c5f261d",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "st-37-sedan-exterieur-5",
+   "key": "beneteau/swift-trawler-37-sedan/exterior/st-37-sedan-exterieur-5-121e9fb4.webp",
+   "sha256": "121e9fb408cd1018629d29aac3fbb9fa09e1e72f4398b018365ea02010708289",
+   "bytes": 139904,
+   "uploaded_at": "2026-10-28T22:56:13+00:00",
+   "original_sha256": "c876b107146f4dcada7e639c7b1db9404f64ee640582f68306e7e42bd640f054",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "swift-trawler-37-fly-interior-design-01",
+   "key": "beneteau/swift-trawler-37-sedan/interior/swift-trawler-37-fly-interior-design-01-90f50945.webp",
+   "sha256": "90f50945c90ed70f4d918b11f0409e44f749aec088bc834a737bcbd4414be97c",
+   "bytes": 128578,
+   "uploaded_at": "2026-10-28T22:56:13+00:00",
+   "original_sha256": "4320c79c775db15c30f0edc749648de90e2372545a2eaf0240fbd850359be2fe",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "swift-trawler-37-fly-interior-design-02",
+   "key": "beneteau/swift-trawler-37-sedan/interior/swift-trawler-37-fly-interior-design-02-900b96e9.webp",
+   "sha256": "900b96e9a033f67977d345199aa848d24ede0fd6734f59d4c70209472c682fe1",
+   "bytes": 109514,
+   "uploaded_at": "2026-10-28T22:56:13+00:00",
+   "original_sha256": "7f676896263f724b051dd139d165b856eda502b9dd9f6b50b395f295fced9365",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "swift-trawler-37-fly-interior-design-03",
+   "key": "beneteau/swift-trawler-37-sedan/interior/swift-trawler-37-fly-interior-design-03-2c6085e5.webp",
+   "sha256": "2c6085e544a0ece87d0278a85cfda97d0fe3d09413e09a164cc3a034668a96da",
+   "bytes": 131740,
+   "uploaded_at": "2026-10-28T22:56:13+00:00",
+   "original_sha256": "68686a7bec5059ec1fae5bb2150d87c59ce8c6fb2d65be315ffb1ce92b57643f",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "swift-trawler-37-fly-interior-design-04",
+   "key": "beneteau/swift-trawler-37-sedan/interior/swift-trawler-37-fly-interior-design-04-f558aca9.webp",
+   "sha256": "f558aca90826a66b6de66335ddb84d6aece112ea3b6b295057a859c61b5b77da",
+   "bytes": 104252,
+   "uploaded_at": "2026-10-28T22:56:13+00:00",
+   "original_sha256": "add21d11ae7bbe32fea238796a240dfc1a141438b57e12cbf2de3214b72aff70",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "swift-trawler-37-fly-interior-design-05",
+   "key": "beneteau/swift-trawler-37-sedan/interior/swift-trawler-37-fly-interior-design-05-5580dc4d.webp",
+   "sha256": "5580dc4d7a287628e57bd90cd7b6138b50ed10e8657a0b2bdf4e229ca8afc6ba",
+   "bytes": 59542,
+   "uploaded_at": "2026-10-28T22:56:13+00:00",
+   "original_sha256": "32a0fbc0c32aac963273fd262686c28f49488874092743729b9b5062cd3af9c9",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "swift-trawler-37-usp-2",
+   "key": "beneteau/swift-trawler-37-sedan/detail/swift-trawler-37-usp-2-1ff07cfd.webp",
+   "sha256": "1ff07cfd76efd137f8d2eda8f49e98699d1161bb7ae2adad4c5bf23fc0fcab66",
+   "bytes": 122312,
+   "uploaded_at": "2026-10-28T22:56:13+00:00",
+   "original_sha256": "dc11135cf485cffdb58288fbe58108a46f63324c8043952b196f26f10c8a62e3",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "swift-trawler-37-usp-1",
+   "key": "beneteau/swift-trawler-37-sedan/detail/swift-trawler-37-usp-1-c238fb01.webp",
+   "sha256": "c238fb0164d73ddbc9a2ce0c51be9731f1b49c4c989a117e59f31aa378e9d2dd",
+   "bytes": 93174,
+   "uploaded_at": "2026-10-28T22:56:14+00:00",
+   "original_sha256": "f26d72ed8b168d40fed33d2243814083c6a16ee5b47a74b0dfe3ace75f952856",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "swift-trawler-37-usp-3-0",
+   "key": "beneteau/swift-trawler-37-sedan/detail/swift-trawler-37-usp-3-0-c42d09fa.webp",
+   "sha256": "c42d09faeab7c03775b2bcdad9c82e054b41dc8edd7c2e50dc006c5e61a2daad",
+   "bytes": 95386,
+   "uploaded_at": "2026-10-28T22:56:14+00:00",
+   "original_sha256": "89ab1f744bcb1434d0ab3309a5f18d855a8ca858f50bb4efb6a05c9fce866cb4",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "st37sedan-profile-white",
+   "key": "beneteau/swift-trawler-37-sedan/plans/st37sedan-profile-white-692549db.webp",
+   "sha256": "692549dbfd3138d649b537efcdf3a8aabe514c72667b1bc33e5ee6ee36550631",
+   "bytes": 12562,
+   "uploaded_at": "2026-10-28T22:56:14+00:00",
+   "original_sha256": "4741ea3d6d645e7b82dface3b25eff90d26439b4b6de555e7c514c5e202c8b3e",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "st37sedan-profile-grey",
+   "key": "beneteau/swift-trawler-37-sedan/plans/st37sedan-profile-grey-57a41bd3.webp",
+   "sha256": "57a41bd332ee9d14e63bfe237dd8309aa8751feb72036d2791afa6c514ea6bdf",
+   "bytes": 12478,
+   "uploaded_at": "2026-10-28T22:56:15+00:00",
+   "original_sha256": "8b844054f73f7935d93c151af3b65a62d587fa53b73fe301c68f332189e9c0d9",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "st-37-sedan-standard",
+   "key": "beneteau/swift-trawler-37-sedan/plans/st-37-sedan-standard-012b59f8.webp",
+   "sha256": "012b59f8afeda798d65ff3760fbe86874e8027bd751748edad0c2efe86aff049",
+   "bytes": 30400,
+   "uploaded_at": "2026-10-28T22:56:15+00:00",
+   "original_sha256": "ede22c3922c18ee67b00572c9d9275c423d755648bb71dade13b87e248f4e969",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "st-37-pont-principal-standard",
+   "key": "beneteau/swift-trawler-37-sedan/plans/st-37-pont-principal-standard-81c07627.webp",
+   "sha256": "81c07627967e7549d21b6245d5745cf9af37ba4baca1732c0001cb699233d9dd",
+   "bytes": 46666,
+   "uploaded_at": "2026-10-28T22:56:15+00:00",
+   "original_sha256": "a0f095f07dc9abe9041d0e68d1dec1427816bd9fb4e907099a287cb44750c233",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "st-37-pont-inf-rieur-0",
+   "key": "beneteau/swift-trawler-37-sedan/plans/st-37-pont-inf-rieur-0-d4dcddf9.webp",
+   "sha256": "d4dcddf9c520173443d2aa90a09ef6391f33cb84fa9c20254b2d3a646ae897c6",
+   "bytes": 45734,
+   "uploaded_at": "2026-10-28T22:56:15+00:00",
+   "original_sha256": "00092ebc134c564f83c5975edc8821e0457f62bbcf2849d0773d9a33fa846835",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "st-37-sedan-option-panneaux-ouvrants",
+   "key": "beneteau/swift-trawler-37-sedan/plans/st-37-sedan-option-panneaux-ouvrants-c191cc10.webp",
+   "sha256": "c191cc10343dbd2498dbc1882309d195f9ac0a65650a0aca3542d07737f106d6",
+   "bytes": 31282,
+   "uploaded_at": "2026-10-28T22:56:15+00:00",
+   "original_sha256": "0bf7603f9f7784d4e89612ece1d6878db846ea80bb09bfbd9cf252a4eaea95a0",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "st-37-sedan-option-silent-boat",
+   "key": "beneteau/swift-trawler-37-sedan/plans/st-37-sedan-option-silent-boat-a68acc50.webp",
+   "sha256": "a68acc5001226dea98ae30a9def6dad53e67724821def997e1b7b26784473997",
+   "bytes": 37498,
+   "uploaded_at": "2026-10-28T22:56:15+00:00",
+   "original_sha256": "2b08b32f75481f2bbbca6b83e041f17761aa43dd72f31cd00c9d835b4228ac46",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  }
+ ]
+}

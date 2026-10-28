@@ -1,0 +1,438 @@
+{
+ "version": 1,
+ "images": [
+  {
+   "id": "antares-9-new-header",
+   "key": "beneteau/antares-9/hero/antares-9-new-header-0553b443.webp",
+   "sha256": "0553b443588be3ec697c5548d7c824ec8f6ba41ddca1d44d86a09104cc7b2b81",
+   "bytes": 260306,
+   "uploaded_at": "2026-10-28T22:54:18+00:00",
+   "original_sha256": "19c320ca79693d174ca6a35ef4e4a7136bbe8b94e31fdab4e863ac87850bbc0b",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares-9-exterior-design-02",
+   "key": "beneteau/antares-9/exterior/antares-9-exterior-design-02-432ed1dd.webp",
+   "sha256": "432ed1dd058b4368df7d1a0ea92d74be67c9da146519cc99baa778879dbaafa9",
+   "bytes": 159674,
+   "uploaded_at": "2026-10-28T22:54:18+00:00",
+   "original_sha256": "bc4d4d5d406ad784e7b0b315ce8b78db99eb13c1c076cc0b7e9ff723bfb3c9b1",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares-9-exterior-design-03",
+   "key": "beneteau/antares-9/exterior/antares-9-exterior-design-03-26b63eaf.webp",
+   "sha256": "26b63eafcd7c70782d7fb20bed8cbd0a85963562682384b90f6fc2b3f14320a5",
+   "bytes": 186826,
+   "uploaded_at": "2026-10-28T22:54:18+00:00",
+   "original_sha256": "975f1a8893cf846e17880568b1a3cacc308cf63aed7baf91b371c50f6d7e5d6e",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares-9-exterior-design-01",
+   "key": "beneteau/antares-9/exterior/antares-9-exterior-design-01-c9d3f659.webp",
+   "sha256": "c9d3f659a68950a67d08c840470be516e574e70658d15075714d87fda4bc48b9",
+   "bytes": 201386,
+   "uploaded_at": "2026-10-28T22:54:18+00:00",
+   "original_sha256": "4bf478f3e3e352d70c7c972d7e9d6fad663259d259ab9b8f6fd18a2ddec6f374",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares-9-exterior-design-04",
+   "key": "beneteau/antares-9/exterior/antares-9-exterior-design-04-6b84d612.webp",
+   "sha256": "6b84d612d1ebe55c00d0095081db0cfb1dd263c6320ea568e69996e743790f77",
+   "bytes": 58598,
+   "uploaded_at": "2026-10-28T22:54:18+00:00",
+   "original_sha256": "8c5f34f8fe20a9f4541b3ac46f60338a05de740e099bd49b427ab479d2c7c6a0",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares-9-exterior-design-05",
+   "key": "beneteau/antares-9/exterior/antares-9-exterior-design-05-0c9c47f6.webp",
+   "sha256": "0c9c47f681a6c1ce10d87f423fe0c82e6865481e0c8af5bb0ea304b380e5f306",
+   "bytes": 51618,
+   "uploaded_at": "2026-10-28T22:54:18+00:00",
+   "original_sha256": "4ab9e812a71bacb751b4dd0f892f7cd96dbabc61c4a8d6256adef5f7804de737",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares-9-exterior-design-06-0",
+   "key": "beneteau/antares-9/exterior/antares-9-exterior-design-06-0-014621ff.webp",
+   "sha256": "014621ff2a67a27228ca0c5d3d2eb550842453e26b2846ded31e7a815d178978",
+   "bytes": 241146,
+   "uploaded_at": "2026-10-28T22:54:18+00:00",
+   "original_sha256": "9a6feb610986070ed07b4a2f4a62828cd87dffd7b23f99247a5a8ba3734fde0f",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares-9-exterior-design-07",
+   "key": "beneteau/antares-9/exterior/antares-9-exterior-design-07-4927cfb3.webp",
+   "sha256": "4927cfb3e18df2a9640c16615c2bdb53c8b70bda1490782c69e7137635ef3fb1",
+   "bytes": 76652,
+   "uploaded_at": "2026-10-28T22:54:18+00:00",
+   "original_sha256": "1e0072f30ed7d303b59a648497000b737eeddfc268dfe4fe64396eaeaa976521",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares-9-exterior-design-04-0",
+   "key": "beneteau/antares-9/exterior/antares-9-exterior-design-04-0-6b84d612.webp",
+   "sha256": "6b84d612d1ebe55c00d0095081db0cfb1dd263c6320ea568e69996e743790f77",
+   "bytes": 58598,
+   "uploaded_at": "2026-10-28T22:54:18+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "241105-mxhpics-beneteau-d-0021",
+   "key": "beneteau/antares-9/exterior/241105-mxhpics-beneteau-d-0021-a11dee00.webp",
+   "sha256": "a11dee003dff41d05160dcde1280bf85a26a8181f083a332b331b6dc63b35b18",
+   "bytes": 171152,
+   "uploaded_at": "2026-10-28T22:54:18+00:00",
+   "original_sha256": "b2ff724cfab39768f7bc5f7ead3ee270d315951f60e80a3bde117ced943d8e89",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares-9-exterior-design-08",
+   "key": "beneteau/antares-9/exterior/antares-9-exterior-design-08-c754b159.webp",
+   "sha256": "c754b159cb0efdbc7c98ed9b8b808b6ed03e4cae864f68a594b72911cfc62516",
+   "bytes": 236752,
+   "uploaded_at": "2026-10-28T22:54:19+00:00",
+   "original_sha256": "6eeeb2fe5aba28ab39d0978009966b4c62c61e91ca6b4dcaa68ca69b32182c51",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares-9-exterior-design-09",
+   "key": "beneteau/antares-9/exterior/antares-9-exterior-design-09-5a8522cb.webp",
+   "sha256": "5a8522cbef2a38d6699bb2cfcd3ecab72dd09bc120d0fd47f6133038868db7fa",
+   "bytes": 152722,
+   "uploaded_at": "2026-10-28T22:54:19+00:00",
+   "original_sha256": "c9e091898b42d7d067d4353c8c6bbed8012cfade26983536751cded3aad8721d",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "241105-mxhpics-beneteau-a-0600",
+   "key": "beneteau/antares-9/exterior/241105-mxhpics-beneteau-a-0600-f5cf269c.webp",
+   "sha256": "f5cf269c8bd388dc3c1efbf230b37371ee873a28c323004610909e06a54e8868",
+   "bytes": 61498,
+   "uploaded_at": "2026-10-28T22:54:19+00:00",
+   "original_sha256": "8c4390014ee2f5b9245d5c9e9ea05c7a4bb7aae6f790364e4001e42ab96e9874",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "241105-mxhpics-beneteau-a-0941",
+   "key": "beneteau/antares-9/exterior/241105-mxhpics-beneteau-a-0941-eb920ff9.webp",
+   "sha256": "eb920ff9e7831442b202c86b66042eb5e7960287bf303ccf4d4b093d4dcf7447",
+   "bytes": 59696,
+   "uploaded_at": "2026-10-28T22:54:19+00:00",
+   "original_sha256": "01e142b1d84974008faa756f95ba3bbf5e0095014c2b0f5b9821abde0d36dc9b",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "241105-mxhpics-beneteau-a-1032",
+   "key": "beneteau/antares-9/exterior/241105-mxhpics-beneteau-a-1032-0d277612.webp",
+   "sha256": "0d2776122a6634bddc3f2cefd7fa43e260829f6d0f1ab5a49c5f80d6e0352340",
+   "bytes": 78966,
+   "uploaded_at": "2026-10-28T22:54:19+00:00",
+   "original_sha256": "9068fa90ed1b2ea1f6ea88f59c3f5a1d93a755a25aa177c0a593bad8517c44c1",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "241104-mxhpics-beneteau-a-0040",
+   "key": "beneteau/antares-9/exterior/241104-mxhpics-beneteau-a-0040-bad4047b.webp",
+   "sha256": "bad4047bb1706efb766fbb82764e0b3c1daa5ebb63b4b56e9ea5e8097d90d3e7",
+   "bytes": 83140,
+   "uploaded_at": "2026-10-28T22:54:19+00:00",
+   "original_sha256": "c2ae2c1bb42342edf0f0bc240d6ec109631a0382eb9df97ab3a92ea44efb4d48",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "241105-mxhpics-beneteau-d-0173",
+   "key": "beneteau/antares-9/exterior/241105-mxhpics-beneteau-d-0173-fd4e0325.webp",
+   "sha256": "fd4e0325ede2ff99df1e4c03ccb88352245707bd4e4fc269f1438f727c219784",
+   "bytes": 74862,
+   "uploaded_at": "2026-10-28T22:54:20+00:00",
+   "original_sha256": "498f61c05c320abd496aaa50beae24d21676b913623de16c05e5989016833a46",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "241105-mxhpics-beneteau-a-0847",
+   "key": "beneteau/antares-9/interior/241105-mxhpics-beneteau-a-0847-3c996bc9.webp",
+   "sha256": "3c996bc9d93127ba1c07ec3d4cb5ccf744eee2e1f567552179e4da9a84286be3",
+   "bytes": 128152,
+   "uploaded_at": "2026-10-28T22:54:22+00:00",
+   "original_sha256": "2c183b9bc84d1a6b7bf262c79f3b535856a2d7e49306e0574a238122096a3d01",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares-9-interior-design-01",
+   "key": "beneteau/antares-9/interior/antares-9-interior-design-01-31931204.webp",
+   "sha256": "3193120459d52c2909f4c9d1553ba97a774e8d7150ab7bd68b6dec1052a5478b",
+   "bytes": 64612,
+   "uploaded_at": "2026-10-28T22:54:22+00:00",
+   "original_sha256": "1817af4924b8aafb1048b2294c975ba2f86e6011fc6997826c03b85a8ecd6380",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares-9-new-slider-02",
+   "key": "beneteau/antares-9/interior/antares-9-new-slider-02-098bd426.webp",
+   "sha256": "098bd4261b9a0da7111ec43a35726e02e0edb5b03d281ffb91c153b4493bbc2d",
+   "bytes": 47342,
+   "uploaded_at": "2026-10-28T22:54:22+00:00",
+   "original_sha256": "612ebc3364b98d93848ad4e0e8c10ceb9c9360689974ed3bd974a75566b9a0b5",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "241104-mxhpics-beneteau-a-0085",
+   "key": "beneteau/antares-9/interior/241104-mxhpics-beneteau-a-0085-d1f126fc.webp",
+   "sha256": "d1f126fc3d6cdd9721cd44165945a561e757c797f5c9224b159b4ebe26aacd20",
+   "bytes": 54758,
+   "uploaded_at": "2026-10-28T22:54:22+00:00",
+   "original_sha256": "5ac20e33ef8c8a068b2abea96355f482ea1498d1bff4caec8960e8947e2006ad",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "241105-mxhpics-beneteau-a-0925",
+   "key": "beneteau/antares-9/interior/241105-mxhpics-beneteau-a-0925-8d26de22.webp",
+   "sha256": "8d26de22892432071c4a12b2dcf1dbec3a2dea4dad80790d6df311ba71005371",
+   "bytes": 45004,
+   "uploaded_at": "2026-10-28T22:54:22+00:00",
+   "original_sha256": "2e3cae05da932a944847a8c1d7fb73e40215e3f81dba0a531e1bad1e2073decf",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "241105-mxhpics-beneteau-a-0892",
+   "key": "beneteau/antares-9/interior/241105-mxhpics-beneteau-a-0892-0a04a805.webp",
+   "sha256": "0a04a805299852fc26a2ea4e5b9ad66f622efabeffde30ab694b0310f5cbb197",
+   "bytes": 79810,
+   "uploaded_at": "2026-10-28T22:54:22+00:00",
+   "original_sha256": "24789391c72e6391f99299cd76b13e263e9498a96f929058cc8fb61488c7ea1f",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "241105-mxhpics-beneteau-a-0802",
+   "key": "beneteau/antares-9/interior/241105-mxhpics-beneteau-a-0802-3a14863c.webp",
+   "sha256": "3a14863ccbf80ca6f432e91549a31fe66123f9467558ea577cfd5713e6690641",
+   "bytes": 57720,
+   "uploaded_at": "2026-10-28T22:54:22+00:00",
+   "original_sha256": "d3c4ebd905b197016428b1848bee92be1bbb72882e8ac5241513be9774d3b928",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "241105-mxhpics-beneteau-a-0738",
+   "key": "beneteau/antares-9/interior/241105-mxhpics-beneteau-a-0738-fb30adb0.webp",
+   "sha256": "fb30adb0dfcd20846cf5b9004c674c327b5d0631e0d3a0650ed5fa14a18addf2",
+   "bytes": 74824,
+   "uploaded_at": "2026-10-28T22:54:22+00:00",
+   "original_sha256": "1fab1114f74bec5918c64014bdebd5c3958276a64f1ca62a07b5f143a3bdfaeb",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "241104-mxhpics-beneteau-a-0115",
+   "key": "beneteau/antares-9/interior/241104-mxhpics-beneteau-a-0115-07702931.webp",
+   "sha256": "07702931e764b72b14c2eddbc65181a8347b2e9a2dd0ba240c6cb7c3116dfae9",
+   "bytes": 52546,
+   "uploaded_at": "2026-10-28T22:54:22+00:00",
+   "original_sha256": "c110ae028e3869e9cebe806b9900e20e4cf6f9388e5973033658b99ec5655222",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "a9-serie-2-profil-2024-11-06",
+   "key": "beneteau/antares-9/plans/a9-serie-2-profil-2024-11-06-ffcab115.webp",
+   "sha256": "ffcab115370b016f8dfb87400b3a18dbc1ac42f3f11cca0cb05203dbcf767959",
+   "bytes": 30552,
+   "uploaded_at": "2026-10-28T22:54:22+00:00",
+   "original_sha256": "3526d59aa2768620a1a73c2035ef8484b979e0a6485eb8f2bf3fa609a29a6629",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "a9-serie-2-cabines-2024-11-19",
+   "key": "beneteau/antares-9/plans/a9-serie-2-cabines-2024-11-19-f1f3c5a7.webp",
+   "sha256": "f1f3c5a75b48005c594dc6b30b4f991e02fb73a536bc59a2e3ca94cbb6782ede",
+   "bytes": 28014,
+   "uploaded_at": "2026-10-28T22:54:22+00:00",
+   "original_sha256": "ac42f974b1c499814b33555b8862de77df74bb783b1f253519324b767e71f7a8",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "a9-serie-2-timonerie-2024-11-19",
+   "key": "beneteau/antares-9/plans/a9-serie-2-timonerie-2024-11-19-4567ed01.webp",
+   "sha256": "4567ed016b5bc65871fadd482c0afd2a8ad4c8474e7e55399c9a53593f8db28f",
+   "bytes": 31338,
+   "uploaded_at": "2026-10-28T22:54:22+00:00",
+   "original_sha256": "1068b11065397114a8f3951dcd1378f85a9a1b33ee278921fdc3e9b1cdfacc92",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "a9-serie-2-dessus-n-e-2024-11-19",
+   "key": "beneteau/antares-9/plans/a9-serie-2-dessus-n-e-2024-11-19-365695fe.webp",
+   "sha256": "365695fe483a70c1b95045243584318b84c7c9a709ac031c52d91a9a861a612e",
+   "bytes": 28498,
+   "uploaded_at": "2026-10-28T22:54:22+00:00",
+   "original_sha256": "3a8b58e88557f9667bbc3e287b30177e31c7bef38a11d9e36c0473d06dcf3675",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "a9-serie-2-dessus-n-c-2024-11-19",
+   "key": "beneteau/antares-9/plans/a9-serie-2-dessus-n-c-2024-11-19-ddac7e61.webp",
+   "sha256": "ddac7e6179ec0ead60e27639b1c339b9ead641976448441faa07a39be7bdfdeb",
+   "bytes": 30974,
+   "uploaded_at": "2026-10-28T22:54:22+00:00",
+   "original_sha256": "4bdb16b36ebcd062246ed7fe50565257a183612699dfd8c935bbd95165584f8b",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  }
+ ]
+}

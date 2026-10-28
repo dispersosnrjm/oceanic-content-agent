@@ -1,0 +1,299 @@
+{
+ "version": 1,
+ "images": [
+  {
+   "id": "flyer-8-spacedeck-header",
+   "key": "beneteau/flyer-8-spacedeck/hero/flyer-8-spacedeck-header-5d5cf416.webp",
+   "sha256": "5d5cf416e2c441b0dbd5ce1c3c2ac16cfdf6592cb5bd84f8bf685d4c5823b209",
+   "bytes": 214656,
+   "uploaded_at": "2026-10-28T22:55:02+00:00",
+   "original_sha256": "f716b222500965453ef9a1a1dd5a9940c379255c0821db04db1de29ba6ac6bc5",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer8space-1",
+   "key": "beneteau/flyer-8-spacedeck/exterior/flyer8space-1-333718a4.webp",
+   "sha256": "333718a47118163f942c0e49746f3a538d9b565af02a2cb6f1103e63d96090aa",
+   "bytes": 98338,
+   "uploaded_at": "2026-10-28T22:55:02+00:00",
+   "original_sha256": "f5d3283fc3f9606a9035d562b32d51adf2d642a5ae0512341f1613cd237ed89e",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer8space-2",
+   "key": "beneteau/flyer-8-spacedeck/exterior/flyer8space-2-838a1f8d.webp",
+   "sha256": "838a1f8d7b484e72b151633fb83694817a310edd7dedb3750113d58c6a9977ba",
+   "bytes": 88726,
+   "uploaded_at": "2026-10-28T22:55:02+00:00",
+   "original_sha256": "d4ea05f7820b32083aea0616bc2ffee2d28ca8c38a18ff37c834daa93b721e11",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer8space3",
+   "key": "beneteau/flyer-8-spacedeck/exterior/flyer8space3-a0852502.webp",
+   "sha256": "a0852502c071f7aaa381631d53f2200bc2a121677f0afb6f0171ac06e7356a13",
+   "bytes": 103568,
+   "uploaded_at": "2026-10-28T22:55:02+00:00",
+   "original_sha256": "6e6147124bc4df826b185483c29b68f835d3030816b457bf4befd15e96569c70",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer8space4",
+   "key": "beneteau/flyer-8-spacedeck/exterior/flyer8space4-698553dd.webp",
+   "sha256": "698553dda359870f6dd6bbd0065aa4d5992dd716495777e0c3154d0a8556294d",
+   "bytes": 109768,
+   "uploaded_at": "2026-10-28T22:55:02+00:00",
+   "original_sha256": "536e3f0ddb0b7525aa6f4f6e4104df635720f050eef5cef7c13ca4f44f6dc1d9",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer8space5",
+   "key": "beneteau/flyer-8-spacedeck/exterior/flyer8space5-33fff905.webp",
+   "sha256": "33fff9055566700dd4d51c3bf86c6ad3311cbc299919b9d5114f1a77a14c3e78",
+   "bytes": 138250,
+   "uploaded_at": "2026-10-28T22:55:02+00:00",
+   "original_sha256": "eeebd11dee13e6106c3495075c533e191d65730c0d741e892726328b94c7a2fa",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer8space6",
+   "key": "beneteau/flyer-8-spacedeck/exterior/flyer8space6-788ba185.webp",
+   "sha256": "788ba185dfd1c45234af616287920ac76f3649f71ff906c2cefca3b595ca66f8",
+   "bytes": 124510,
+   "uploaded_at": "2026-10-28T22:55:02+00:00",
+   "original_sha256": "acea7b5ca5c771931f168edeaddea7a66ea41458ac7eb5f74c78e8d511275662",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer8space-int1",
+   "key": "beneteau/flyer-8-spacedeck/interior/flyer8space-int1-44548ca9.webp",
+   "sha256": "44548ca9596f142aa327e59e7170464d82283f5f0d45cf78f8d6fbd1d82ed4b1",
+   "bytes": 30330,
+   "uploaded_at": "2026-10-28T22:55:02+00:00",
+   "original_sha256": "9f5c551753bdf7c0df95ab36730136e634410c0a227d0029c9dbb0d7942eb647",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer8-pilot-edition-4",
+   "key": "beneteau/flyer-8-spacedeck/helm/flyer8-pilot-edition-4-45b2fbd9.webp",
+   "sha256": "45b2fbd9d41c504fae39bde94f5c6741eb84b4ba80b97b4c2decb82e621c4dfc",
+   "bytes": 155692,
+   "uploaded_at": "2026-10-28T22:55:03+00:00",
+   "original_sha256": "c7e75d2c5feeff865b493668dd0c0b8b056277357f1429ee57680a1e6be7a191",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer8-pilot-edition-3",
+   "key": "beneteau/flyer-8-spacedeck/helm/flyer8-pilot-edition-3-d159f675.webp",
+   "sha256": "d159f6756c1ff7cb9f5c8f9a67081e141454edd5ce2ee36d3da6f573c06bdbfd",
+   "bytes": 151668,
+   "uploaded_at": "2026-10-28T22:55:03+00:00",
+   "original_sha256": "8781ed9276a3784b0211393f3bf7b18c7e8af7a3c238534b3edb4ece36099016",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer8-pilot-edition-2",
+   "key": "beneteau/flyer-8-spacedeck/helm/flyer8-pilot-edition-2-d187b818.webp",
+   "sha256": "d187b8184116ca99b2e4f928c391bf966624ec2b971942bfed690989f1f892ef",
+   "bytes": 153244,
+   "uploaded_at": "2026-10-28T22:55:03+00:00",
+   "original_sha256": "de3a92a613e3c5975ff716d2e5d3a4a3db1db70510bf1eaff2943c6aae38b96d",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer8-pilot-edition-1",
+   "key": "beneteau/flyer-8-spacedeck/helm/flyer8-pilot-edition-1-7ed929ae.webp",
+   "sha256": "7ed929ae8c9bdfa68351fa3b8679ccfba9563f70cc5c7b9f4b1f20941265e2f7",
+   "bytes": 72532,
+   "uploaded_at": "2026-10-28T22:55:03+00:00",
+   "original_sha256": "320dbe6eac7db33ba9e598d4452f5b91b972bc8be4f71b56988392dc877714c5",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer-8-spaceeck-flyer-edition-1-1500x819",
+   "key": "beneteau/flyer-8-spacedeck/exterior/flyer-8-spaceeck-flyer-edition-1-1500x819-9ab8407e.webp",
+   "sha256": "9ab8407eacc5685eb6da0edf7e0d49dfb2f3e36063dcb3abf61c972c60ab3a45",
+   "bytes": 69604,
+   "uploaded_at": "2026-10-28T22:55:03+00:00",
+   "original_sha256": "c77b10c64eb83c07543033c2d7ca01e6687134bb3c7f5af44aa342fc9512c591",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer-8-spaceeck-flyer-edition-2-1500x819",
+   "key": "beneteau/flyer-8-spacedeck/exterior/flyer-8-spaceeck-flyer-edition-2-1500x819-567f6540.webp",
+   "sha256": "567f65406f1d599ff24a2490d8d788e72ed6f556be0490b37221bcee47e41481",
+   "bytes": 25856,
+   "uploaded_at": "2026-10-28T22:55:03+00:00",
+   "original_sha256": "1a821c964fdac7e7012d3f7fd12ccefa36c736ba6b1adf36dc90cd2209f36be3",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer8space-usp1",
+   "key": "beneteau/flyer-8-spacedeck/detail/flyer8space-usp1-cdfb2236.webp",
+   "sha256": "cdfb2236542897babdc3fe674f3d06133947cdf7d4337728ce82662862ab6e6c",
+   "bytes": 112324,
+   "uploaded_at": "2026-10-28T22:55:03+00:00",
+   "original_sha256": "2cbdc33183e6c91befc0d6aafa0dce4eab6288d5ed2ed154850398a18c526288",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer8space-usp2",
+   "key": "beneteau/flyer-8-spacedeck/detail/flyer8space-usp2-d0c4f480.webp",
+   "sha256": "d0c4f480918316bc9f356b290ad57cdf837285e970cb17e5e93a310513cadc5c",
+   "bytes": 73400,
+   "uploaded_at": "2026-10-28T22:55:03+00:00",
+   "original_sha256": "cdbad07920d5ea1ab7d4099da1ab1fa6ca0fc5b2c5f04fee844786aaf97d4337",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer8space-usp3",
+   "key": "beneteau/flyer-8-spacedeck/detail/flyer8space-usp3-f38ee1ba.webp",
+   "sha256": "f38ee1ba69d71ca47dddd176f32d83df7316c0500d7a996489ee61125227e39e",
+   "bytes": 86740,
+   "uploaded_at": "2026-10-28T22:55:04+00:00",
+   "original_sha256": "d50148439626cf1211688150faff2c98f66207b9d4b926e3bafa03fb44f1bbb7",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer8space-usp4-1",
+   "key": "beneteau/flyer-8-spacedeck/detail/flyer8space-usp4-1-8e8147f1.webp",
+   "sha256": "8e8147f1cb39dfb6f95e97a0cfcf63bd184cb99755a2f7be6304a8b244eb917e",
+   "bytes": 53524,
+   "uploaded_at": "2026-10-28T22:55:04+00:00",
+   "original_sha256": "ecc332264fe616ef1522676f985418f52fa7fac35f0211f250a4763f4656adf1",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "profile-flyer8spacedeck",
+   "key": "beneteau/flyer-8-spacedeck/plans/profile-flyer8spacedeck-0add9dca.webp",
+   "sha256": "0add9dcab6285e054f9ad391ff0defb3430e8621c73b76088f641fa922bb4079",
+   "bytes": 8354,
+   "uploaded_at": "2026-10-28T22:55:04+00:00",
+   "original_sha256": "15ee5713a89793f82c78be815ee223db2f6d78676cea734eeddfd4bb41427b8c",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "profile-flyer-8-spacedeck-gris-perle",
+   "key": "beneteau/flyer-8-spacedeck/plans/profile-flyer-8-spacedeck-gris-perle-dffd32d9.webp",
+   "sha256": "dffd32d9364d7fda8afcef0405d88216c3feda90ec49a368eacc54b674d7b25a",
+   "bytes": 8506,
+   "uploaded_at": "2026-10-28T22:55:04+00:00",
+   "original_sha256": "4627d64a9f96bb8e819b86a15e5731eb7f20a9f596fba17a5e9311df7640ae97",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer8space-plan",
+   "key": "beneteau/flyer-8-spacedeck/plans/flyer8space-plan-73bc3701.webp",
+   "sha256": "73bc370103b687835d2d8bc35b4c744460563e57495123eaf1f2123c9052bbf1",
+   "bytes": 14754,
+   "uploaded_at": "2026-10-28T22:55:04+00:00",
+   "original_sha256": "82492f396c76c69d6fd92537c7589adadc2e892491d8ec21d542205dce2e56e8",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  }
+ ]
+}

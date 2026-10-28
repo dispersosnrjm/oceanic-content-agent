@@ -1,0 +1,355 @@
+{
+ "version": 1,
+ "images": [
+  {
+   "id": "flyer-9-sundeck-header",
+   "key": "beneteau/flyer-9-sundeck/hero/flyer-9-sundeck-header-9abbe711.webp",
+   "sha256": "9abbe711e3b47d45705752ea27c9b6244e137467a073bbfc0f64437784375390",
+   "bytes": 398778,
+   "uploaded_at": "2026-10-28T22:55:11+00:00",
+   "original_sha256": "a6165dc961c07fed4a96e06c8aa45e9b0d22f172728e8fe051e607e44a660eb9",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer9-sundeck-ext6",
+   "key": "beneteau/flyer-9-sundeck/exterior/flyer9-sundeck-ext6-c2a3810e.webp",
+   "sha256": "c2a3810e15e4a11a7091b245ec569fa8c974897918b2a1a127eddce6586b1336",
+   "bytes": 223816,
+   "uploaded_at": "2026-10-28T22:55:11+00:00",
+   "original_sha256": "eb28a1d68fd7704e922c9fafc09337f73d05f68e566fad14474a8ae21cc691c9",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer9-sundeck-ext78",
+   "key": "beneteau/flyer-9-sundeck/exterior/flyer9-sundeck-ext78-3b688538.webp",
+   "sha256": "3b688538e38af9243948598bba64325d46d30cc71167ca20d19b7907a6a81b23",
+   "bytes": 153006,
+   "uploaded_at": "2026-10-28T22:55:11+00:00",
+   "original_sha256": "3d9d5686705c34444e1b710babf555a14d193a0548296007fa881018219dabd6",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer9-sundeck-ext3",
+   "key": "beneteau/flyer-9-sundeck/exterior/flyer9-sundeck-ext3-da632b9f.webp",
+   "sha256": "da632b9f52f212cf49d431ac661e877d58857ab34820cde6abbf0618d09d9d8c",
+   "bytes": 185396,
+   "uploaded_at": "2026-10-28T22:55:11+00:00",
+   "original_sha256": "f97b7177e34c90895411166b7d7b39e9bded88b4ed93c8a4e0afc6838bad98fe",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer9-sundeck-ext5",
+   "key": "beneteau/flyer-9-sundeck/exterior/flyer9-sundeck-ext5-d65ceb4c.webp",
+   "sha256": "d65ceb4c930a1d8a8b00ef1af69ac43e533133bcbd9c7d3b42eab4c61d9c5b1f",
+   "bytes": 146124,
+   "uploaded_at": "2026-10-28T22:55:11+00:00",
+   "original_sha256": "06751f4bc3d530131978e36534866c69f18f96c81c6fe7b340abc428cbca8b81",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer9-sundeck-ext4",
+   "key": "beneteau/flyer-9-sundeck/exterior/flyer9-sundeck-ext4-767eda4c.webp",
+   "sha256": "767eda4c240c3aa7c401fca17cbf1f874a2376f3bec561973d52d2e476174423",
+   "bytes": 132576,
+   "uploaded_at": "2026-10-28T22:55:12+00:00",
+   "original_sha256": "6b13124d7d2bb9c4ed284d6bfd9cfa113c96fbd9c26c217ba90a4e8994f23388",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer9-sundeck-ext7",
+   "key": "beneteau/flyer-9-sundeck/exterior/flyer9-sundeck-ext7-6c89b1b7.webp",
+   "sha256": "6c89b1b7ce86b5967251578115973514892d25cc11e885c27ed20a58f53d5d7c",
+   "bytes": 95414,
+   "uploaded_at": "2026-10-28T22:55:12+00:00",
+   "original_sha256": "b9bbc0d28874c6e23a89fc354cb4cca95a06ff5ed9fddc74045638cde6e687a8",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer9-sundeck-ext2",
+   "key": "beneteau/flyer-9-sundeck/exterior/flyer9-sundeck-ext2-ae51eafc.webp",
+   "sha256": "ae51eafc626276afce8751a82ec11512fd8b3ed1f4a74206a351d8cd65105834",
+   "bytes": 210410,
+   "uploaded_at": "2026-10-28T22:55:12+00:00",
+   "original_sha256": "6d73f8e4d09557bd2fea83e399819a7a0f8e0d25cc6e9e1a7b22ce6ab8c8974a",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer9-sundeck-ext1",
+   "key": "beneteau/flyer-9-sundeck/exterior/flyer9-sundeck-ext1-aba1a953.webp",
+   "sha256": "aba1a9530637d9167c8ea5bc218d1bc39e308daf276b6e91c4a1747c95f00373",
+   "bytes": 315968,
+   "uploaded_at": "2026-10-28T22:55:12+00:00",
+   "original_sha256": "a23728c2c1388489bf13e28a3b202076f354e4049568e512429ca69ef7b8d2a8",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer-9-sundeck-slider-1440x786-12",
+   "key": "beneteau/flyer-9-sundeck/interior/flyer-9-sundeck-slider-1440x786-12-32876a5a.webp",
+   "sha256": "32876a5ac4b0beaaf965f090d57cb1b5e306efad7d46105a1f7424493cc44740",
+   "bytes": 85226,
+   "uploaded_at": "2026-10-28T22:55:12+00:00",
+   "original_sha256": "b76cc523f832fb92db70c1e478055a28987ffdcc1fb1c428af724e5d80bf5d60",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer-9-sundeck-slider-1440x786-8",
+   "key": "beneteau/flyer-9-sundeck/interior/flyer-9-sundeck-slider-1440x786-8-5ef5a283.webp",
+   "sha256": "5ef5a2832d219c6bdf062a57f5642de49a648dc1cf712bd707bbdd0006beee1a",
+   "bytes": 47260,
+   "uploaded_at": "2026-10-28T22:55:12+00:00",
+   "original_sha256": "347fa72ece131bfc67da38a7a4c89e6363e1ee1effd02b833a28231d3f6caca6",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer-9-sundeck-slider-1440x786-6",
+   "key": "beneteau/flyer-9-sundeck/interior/flyer-9-sundeck-slider-1440x786-6-9f4abfd3.webp",
+   "sha256": "9f4abfd395f35078ced5e39dabfc8781f5d7fec6aa1facc11317f8ce3dda8635",
+   "bytes": 61170,
+   "uploaded_at": "2026-10-28T22:55:12+00:00",
+   "original_sha256": "b5d45b195564a065dd35363dd934ba937af52d43137a07757f5d43808bbd4e64",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer-9-sundeck-slider-1440x786-8-2",
+   "key": "beneteau/flyer-9-sundeck/interior/flyer-9-sundeck-slider-1440x786-8-2-7b2a5325.webp",
+   "sha256": "7b2a5325103fca4d4a4a644be17a5720cc7fbb53511b1971800b45809a4cd41b",
+   "bytes": 103016,
+   "uploaded_at": "2026-10-28T22:55:12+00:00",
+   "original_sha256": "a0f907b4614c5f617b1dd7c9e1fa2fda60b38252b93c0ac27e928beb2aa4b86c",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer-9-sundeck-slider-1440x786-7",
+   "key": "beneteau/flyer-9-sundeck/interior/flyer-9-sundeck-slider-1440x786-7-d028464e.webp",
+   "sha256": "d028464e81a145ab479b173002f264a0cdccff318fb0803736fa78d216632c91",
+   "bytes": 74542,
+   "uploaded_at": "2026-10-28T22:55:12+00:00",
+   "original_sha256": "63965826ccb0079f591c30a0bf6d415ed55e04a27943dd817f9fd1f83dad697c",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer9-sundeck-pilotedition-4",
+   "key": "beneteau/flyer-9-sundeck/helm/flyer9-sundeck-pilotedition-4-1f3d64e2.webp",
+   "sha256": "1f3d64e2e31331d595c49916c8d70214408b004a65338b87b5d26a115061679d",
+   "bytes": 144028,
+   "uploaded_at": "2026-10-28T22:55:12+00:00",
+   "original_sha256": "eb1a90b5aebbb8ced584ce9b932de0ce01f2849bef1ad0c09627fbdbdc3a33a2",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer9-sundeck-pilotedition-3",
+   "key": "beneteau/flyer-9-sundeck/helm/flyer9-sundeck-pilotedition-3-e45f9ee6.webp",
+   "sha256": "e45f9ee66ee2d8b7ce66c56b0974874322654b58d225355a75d67aca3a2c94c4",
+   "bytes": 164510,
+   "uploaded_at": "2026-10-28T22:55:13+00:00",
+   "original_sha256": "53ed40481ce8cf26ab3572a0ca61352f6dc620b8d2dccb871df5dc6fde19c490",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer9-sundeck-pilotedition-1",
+   "key": "beneteau/flyer-9-sundeck/helm/flyer9-sundeck-pilotedition-1-06a75b80.webp",
+   "sha256": "06a75b806aa02fd860214a364e2cf9a4b0e531f6102914c4313b2830cfb05d3d",
+   "bytes": 143398,
+   "uploaded_at": "2026-10-28T22:55:13+00:00",
+   "original_sha256": "c923fe9d30be9685b96d27f322c2c110c71be12761591f62b10b1e38e37e2603",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer9-sundeck-pilotedition-2",
+   "key": "beneteau/flyer-9-sundeck/helm/flyer9-sundeck-pilotedition-2-1251d6d7.webp",
+   "sha256": "1251d6d753393684e8ef425f6b30361f2f8b3ccf6c8e904eb3fa3654fae9afac",
+   "bytes": 119792,
+   "uploaded_at": "2026-10-28T22:55:13+00:00",
+   "original_sha256": "fd9c05d4c95247525d6575e8862a327ff3afc0e6b3f1266ff957952ee8173c01",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer-9-sundeck-slider-1440x786-11",
+   "key": "beneteau/flyer-9-sundeck/detail/flyer-9-sundeck-slider-1440x786-11-1a54e749.webp",
+   "sha256": "1a54e7498d87aab393429c6405fd8fe2e51b57456dca0448958a2b7be6995909",
+   "bytes": 61828,
+   "uploaded_at": "2026-10-28T22:55:13+00:00",
+   "original_sha256": "a16518b698020a0b3145aa5046e661985b382ca22c9c7092b796b5914b8cf9d7",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer-9-sundek-slider-1440x786-10",
+   "key": "beneteau/flyer-9-sundeck/detail/flyer-9-sundek-slider-1440x786-10-a2e4ed37.webp",
+   "sha256": "a2e4ed3769b20b29ce8c864ed6ce25372b52d1c2cb96c5af34e4a1df4eddb775",
+   "bytes": 81382,
+   "uploaded_at": "2026-10-28T22:55:13+00:00",
+   "original_sha256": "7067771a8422b3320c9c75114090dadc100de6150ac65fd831469c49e2d547a7",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer9sundeck-profile1",
+   "key": "beneteau/flyer-9-sundeck/plans/flyer9sundeck-profile1-30daf2d0.webp",
+   "sha256": "30daf2d08e253903da0b7b65e8c238756f146d2ae275f5935fbc52ad0c426609",
+   "bytes": 7496,
+   "uploaded_at": "2026-10-28T22:55:13+00:00",
+   "original_sha256": "0cb9b4f211968c98d97d79b5e0e7e38e178a6ce39333a58d5a20a681acf1e8c9",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer9sundeck-profile2",
+   "key": "beneteau/flyer-9-sundeck/plans/flyer9sundeck-profile2-aea50528.webp",
+   "sha256": "aea50528c459531635e00298f2814ae80088dde9ef2093f0719429021bd471c2",
+   "bytes": 8748,
+   "uploaded_at": "2026-10-28T22:55:13+00:00",
+   "original_sha256": "a14a2d3226151500c6c63341117f438936b420d0207dcdb08f3525efa3cbbb13",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "profile-flyer-9-sundeck-gris-perle",
+   "key": "beneteau/flyer-9-sundeck/plans/profile-flyer-9-sundeck-gris-perle-40ded58a.webp",
+   "sha256": "40ded58a2cce8a5e4acea09866337268928921ad673eaecd88f41b1e9c1ddcb1",
+   "bytes": 8704,
+   "uploaded_at": "2026-10-28T22:55:13+00:00",
+   "original_sha256": "8e8c7ad2e45a15b1fdd8b2b4f88e672fccb1d6269fffe434c0e813829cc7fed0",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer-9-sundeck-top",
+   "key": "beneteau/flyer-9-sundeck/plans/flyer-9-sundeck-top-dac64225.webp",
+   "sha256": "dac6422583a3c863ea65f7b2c25ae64ef50a54f04dda60b251ba84a11fe946c3",
+   "bytes": 8202,
+   "uploaded_at": "2026-10-28T22:55:13+00:00",
+   "original_sha256": "f3c10ddd1fd98b1a97b56a72f4e5908cd250d0f10a7c201e5e11a9ae4dd17362",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer-9-sundeck-interior",
+   "key": "beneteau/flyer-9-sundeck/plans/flyer-9-sundeck-interior-0d0b7437.webp",
+   "sha256": "0d0b74373b539e2a1e978d8e1d17186cd50d98f4709cca55843e7ec6c458fb5c",
+   "bytes": 7062,
+   "uploaded_at": "2026-10-28T22:55:14+00:00",
+   "original_sha256": "6962b91ed3854f794cefbd9babd48b300f262c2af6b648bcfad771e718c965d5",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  }
+ ]
+}

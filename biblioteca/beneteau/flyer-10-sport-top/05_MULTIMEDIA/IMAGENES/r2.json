@@ -1,0 +1,271 @@
+{
+ "version": 1,
+ "images": [
+  {
+   "id": "flyer-10-sport-top-header",
+   "key": "beneteau/flyer-10-sport-top/hero/flyer-10-sport-top-header-de1dfd4a.webp",
+   "sha256": "de1dfd4a364b07537d6ac2b69027db2ba185eafb9d584e8c188f8b14ed01a3df",
+   "bytes": 239650,
+   "uploaded_at": "2026-10-28T22:54:50+00:00",
+   "original_sha256": "ee4e717bf6ae46f25dc40c17889006774c6ec902836ed487c9f7f96d65c6882b",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer-10-sport-top-exterior-2-0",
+   "key": "beneteau/flyer-10-sport-top/exterior/flyer-10-sport-top-exterior-2-0-9f3c4cfe.webp",
+   "sha256": "9f3c4cfeab4da5277e2a519e49985c8427cad4ce6bd27365353647be27dc0987",
+   "bytes": 148472,
+   "uploaded_at": "2026-10-28T22:54:50+00:00",
+   "original_sha256": "eba8f3a7704a2bff0e1931bb7c836471c21bcd7e57a8f258ee54061935ead76a",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer-10-sport-top-exterior-1",
+   "key": "beneteau/flyer-10-sport-top/exterior/flyer-10-sport-top-exterior-1-5069a47b.webp",
+   "sha256": "5069a47b587f4cd80b9663cb4b144c59631aedcde3ee81f4d75ef73d8136792b",
+   "bytes": 165494,
+   "uploaded_at": "2026-10-28T22:54:50+00:00",
+   "original_sha256": "d6210062764ad0324d72dd78bc1399a22ebd66df11fd11b76f58e8bdb922d7eb",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer-10-sport-top-exterior-4-0",
+   "key": "beneteau/flyer-10-sport-top/exterior/flyer-10-sport-top-exterior-4-0-31d15f83.webp",
+   "sha256": "31d15f83c4ef5d3be1da49761c6b1f955748be24c07ab6e4499ce6c32abbb358",
+   "bytes": 175332,
+   "uploaded_at": "2026-10-28T22:54:50+00:00",
+   "original_sha256": "821ce7f64daef6b57de44c62a8f0e41e0d725e72fb30609952fc99971a587fef",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer-10-sport-top-exterior-3-0",
+   "key": "beneteau/flyer-10-sport-top/exterior/flyer-10-sport-top-exterior-3-0-e16c456f.webp",
+   "sha256": "e16c456f81a21c8c32e7227b60f8c3ec67c56e93d7f35500a47df8e6ee88d2e5",
+   "bytes": 82456,
+   "uploaded_at": "2026-10-28T22:54:50+00:00",
+   "original_sha256": "74b9f4f845f93ddb257403ae36df01a81f9beb4e0d18155c2600b15d80218ca0",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer-10-sport-top-int",
+   "key": "beneteau/flyer-10-sport-top/interior/flyer-10-sport-top-int-beb91341.webp",
+   "sha256": "beb913415975691dc2adf97932c7a4d0657db408de09fb0fee43573989d8e0f2",
+   "bytes": 92306,
+   "uploaded_at": "2026-10-28T22:54:50+00:00",
+   "original_sha256": "941ad513b0bce8376d98198a932c29a9a86e891d994ce6ffda1c4f85d8b26d2f",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer-10-sport-top-int-1",
+   "key": "beneteau/flyer-10-sport-top/interior/flyer-10-sport-top-int-1-48524ba1.webp",
+   "sha256": "48524ba1221bf64c7f2dce59a3923a3ea33c41bd39bddab35eb030f144792e50",
+   "bytes": 241760,
+   "uploaded_at": "2026-10-28T22:54:50+00:00",
+   "original_sha256": "6e6c6ce6f031ac528b7ee3cc81a345431e45cfb4560d1827cd1656baa46983db",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer-10-sport-top-int-2",
+   "key": "beneteau/flyer-10-sport-top/interior/flyer-10-sport-top-int-2-fb313f5a.webp",
+   "sha256": "fb313f5ae2a3af6b98a27ab35f439a243934e62413a063de7890b9bf51f9dfcf",
+   "bytes": 114596,
+   "uploaded_at": "2026-10-28T22:54:50+00:00",
+   "original_sha256": "948c68067a8d12f3de274d62122e1a5cb73ad8256c5c72bab0035d44461e4173",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer-10-sport-top-int-4",
+   "key": "beneteau/flyer-10-sport-top/interior/flyer-10-sport-top-int-4-71ad8156.webp",
+   "sha256": "71ad8156010691ac5873080309caea94806f784ab2766dbaf58d964142fc57d6",
+   "bytes": 89312,
+   "uploaded_at": "2026-10-28T22:54:51+00:00",
+   "original_sha256": "cb6f635ac29f8220bce3b367a04e9942fbdb64c6c8fa2b8edf9d61d05613ce7b",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer-10-sport-top-pilot-edition-1",
+   "key": "beneteau/flyer-10-sport-top/helm/flyer-10-sport-top-pilot-edition-1-f94bc174.webp",
+   "sha256": "f94bc174c90ca7f78af6712566e6da6978f05644db225724f46ec8253c4faeaf",
+   "bytes": 121786,
+   "uploaded_at": "2026-10-28T22:54:51+00:00",
+   "original_sha256": "00658064b5ce88abe71e5290205d8b2f24de03cfb9166297db56a4fe09e4233d",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer-10-sport-top-pilot-edition-2",
+   "key": "beneteau/flyer-10-sport-top/helm/flyer-10-sport-top-pilot-edition-2-d695252a.webp",
+   "sha256": "d695252aecc86d4dfc072a2fb62f7b7bf2a6a1bd6f991f13207f26a3888a9fbe",
+   "bytes": 84768,
+   "uploaded_at": "2026-10-28T22:54:51+00:00",
+   "original_sha256": "8048eaf0ea9a6272c4863b026a19090dffa863a147bc0faa3ec61fa9c27c1f01",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer-10-sport-top-pilot-edition-3",
+   "key": "beneteau/flyer-10-sport-top/helm/flyer-10-sport-top-pilot-edition-3-af01b9a6.webp",
+   "sha256": "af01b9a6a79993c6767a893c6e621245abebd2a477142cf278727864a6d61ba7",
+   "bytes": 86634,
+   "uploaded_at": "2026-10-28T22:54:51+00:00",
+   "original_sha256": "519f6ef4fc0330b747d75e3e99e10b19f66ef9efc36e55fd46eaae07ef856efc",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer-10-sport-top-motorisation",
+   "key": "beneteau/flyer-10-sport-top/detail/flyer-10-sport-top-motorisation-eb5361ae.webp",
+   "sha256": "eb5361ae44dae733862cf0977735fb195d95cc0bdb5ec9272ab9cf761e156de7",
+   "bytes": 73676,
+   "uploaded_at": "2026-10-28T22:54:51+00:00",
+   "original_sha256": "9c2bb0d7d10b71dd9d8709146252088f20547cab7cb1a48cc2cbe7b615875cea",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer-10-sport-top-visibilite",
+   "key": "beneteau/flyer-10-sport-top/detail/flyer-10-sport-top-visibilite-81bfa065.webp",
+   "sha256": "81bfa065d54d718db3e4a33192bd0f49f9557fbf178470d826104fe86220307a",
+   "bytes": 56374,
+   "uploaded_at": "2026-10-28T22:54:51+00:00",
+   "original_sha256": "4dfe8b7dfe6ebe382080b12730239216053f1ac7cd75dbe4ea6fc1e24e848a25",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer-10-sport-top-bains-de-soleil",
+   "key": "beneteau/flyer-10-sport-top/detail/flyer-10-sport-top-bains-de-soleil-97ac6878.webp",
+   "sha256": "97ac68789104694f581ccb3364f8e32ee76a22c905a7b7c69528700eeb8dc65e",
+   "bytes": 63034,
+   "uploaded_at": "2026-10-28T22:54:51+00:00",
+   "original_sha256": "f2ebe68c481ac81ae9ce343dbef8edf399052e59d16f838d4f094e85150cf148",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer10-sport-top-profile",
+   "key": "beneteau/flyer-10-sport-top/plans/flyer10-sport-top-profile-de5fc81a.webp",
+   "sha256": "de5fc81a4bf311548f7dcb1ef7e99124951b95dd3f59390053ad8e1507fee6b7",
+   "bytes": 14012,
+   "uploaded_at": "2026-10-28T22:54:51+00:00",
+   "original_sha256": "44232b8c72120dd2118d240f7e89e9f19f72507ddb65d7742e71b66a6c565665",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer10-sport-top-1",
+   "key": "beneteau/flyer-10-sport-top/plans/flyer10-sport-top-1-5687dca6.webp",
+   "sha256": "5687dca67f52ccc2f3688bfcb55b62a0cbb1f4ac120e400b809b1977a5091b59",
+   "bytes": 52698,
+   "uploaded_at": "2026-10-28T22:54:52+00:00",
+   "original_sha256": "36e32ae425bc064c527618a4f85bfe9bb28e0d9635a3d790ce3ee9fe40fd3904",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer10-sport-top-2",
+   "key": "beneteau/flyer-10-sport-top/plans/flyer10-sport-top-2-88909740.webp",
+   "sha256": "889097402ddbe46d57c90cad8c787162b9d5b7aadb1521f822c284a8a364fe21",
+   "bytes": 71812,
+   "uploaded_at": "2026-10-28T22:54:52+00:00",
+   "original_sha256": "7f7449533216ca09b2de48b4968a02af9a95bc260f8f79c64aba29a973786185",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer10-sport-top-3",
+   "key": "beneteau/flyer-10-sport-top/plans/flyer10-sport-top-3-783c9922.webp",
+   "sha256": "783c9922439f2f85b8355b7e82a498bf30bd6db3d7bc0b0f3444f2b0f9c74d48",
+   "bytes": 38534,
+   "uploaded_at": "2026-10-28T22:54:52+00:00",
+   "original_sha256": "a8c94e10c274880d8f23c973f9dff03a8f7e4990d74932916b645943c27963aa",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  }
+ ]
+}

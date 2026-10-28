@@ -1,0 +1,551 @@
+{
+ "version": 1,
+ "images": [
+  {
+   "id": "antares-11-coupe-header",
+   "key": "beneteau/antares-11-coupe/hero/antares-11-coupe-header-e0d764b5.webp",
+   "sha256": "e0d764b5e70817f0a1bab3165c43c4826a6488146ad6c675774505bbff8a461f",
+   "bytes": 195418,
+   "uploaded_at": "2026-10-28T22:53:47+00:00",
+   "original_sha256": "dee948803581dcc32c54f39203d2e00a56540b70b1f7b9780f925e06a7d9c1f5",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares11-design-exterieur-3",
+   "key": "beneteau/antares-11-coupe/exterior/antares11-design-exterieur-3-8c298687.webp",
+   "sha256": "8c298687eb916e9eabdc57bce74019c2542908900bd3b474a6c21989206dc0a5",
+   "bytes": 195182,
+   "uploaded_at": "2026-10-28T22:53:47+00:00",
+   "original_sha256": "f021fc8d043a38ef95c454f7ef6848ce10b7db9859795de4a26dc24042e09c45",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "beneteau-antares-11",
+   "key": "beneteau/antares-11-coupe/exterior/beneteau-antares-11-61675cb2.webp",
+   "sha256": "61675cb2316eefe1d07c4add1ab3916777292da8c6d221570546f24bfe10de54",
+   "bytes": 322262,
+   "uploaded_at": "2026-10-28T22:53:47+00:00",
+   "original_sha256": "2b9e3696788cefdffaf86bf8998c03594903e145b795bd672de66763318bc072",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares-11-0838-35-jpg-1900px",
+   "key": "beneteau/antares-11-coupe/exterior/antares-11-0838-35-jpg-1900px-8ce84be3.webp",
+   "sha256": "8ce84be3713203c582b0ac6efcb675c6805ad85d3dc3c00d4ff7de27e7b8ef74",
+   "bytes": 173868,
+   "uploaded_at": "2026-10-28T22:53:47+00:00",
+   "original_sha256": "db0d85fe0af2d6236e909e59b5c391267ca15503c6dd75ade59b0f9237d71605",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares-11-1222-jpg-1900px",
+   "key": "beneteau/antares-11-coupe/exterior/antares-11-1222-jpg-1900px-ed3b7938.webp",
+   "sha256": "ed3b7938b82e0895283b39d2722378ec11dd863f611681f906925bc1ad32fda8",
+   "bytes": 95832,
+   "uploaded_at": "2026-10-28T22:53:47+00:00",
+   "original_sha256": "6a38d767bf32482f7cd9d9eaa57a7605cd55215f8543122e3a34acd75057df24",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares-11-7201-jpg-1900px",
+   "key": "beneteau/antares-11-coupe/exterior/antares-11-7201-jpg-1900px-854efab8.webp",
+   "sha256": "854efab840e17b49d4f8bc4a5d9d10a48c44030bb9a596d50dcf1ccf7ba76811",
+   "bytes": 104572,
+   "uploaded_at": "2026-10-28T22:53:47+00:00",
+   "original_sha256": "4bb348b4ed67f8158063b1ebc6793f8d6b16985ce56956528e9a852d9c669574",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares-11-7002-jpg-1900px",
+   "key": "beneteau/antares-11-coupe/exterior/antares-11-7002-jpg-1900px-ee71c9ec.webp",
+   "sha256": "ee71c9ecee664025927263348ae502090dd2a32039d436d05b4e9366c29a8492",
+   "bytes": 120418,
+   "uploaded_at": "2026-10-28T22:53:47+00:00",
+   "original_sha256": "af9e7e843ad1412cbc37f8ab09e094f95b33bb52cbe126465282dd014958ee8d",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares-11-7035-35-jpg-1900px",
+   "key": "beneteau/antares-11-coupe/exterior/antares-11-7035-35-jpg-1900px-45ca5ec7.webp",
+   "sha256": "45ca5ec75b4a36757cd8b5c48b136007851f73dff2df333c40ead050392201d3",
+   "bytes": 120574,
+   "uploaded_at": "2026-10-28T22:53:47+00:00",
+   "original_sha256": "d09aae589c350dc021831e1bafd76564d76095317edf4a6d8c01623c5e4dcdca",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares-11-1156-35-jpg-1900px",
+   "key": "beneteau/antares-11-coupe/exterior/antares-11-1156-35-jpg-1900px-59a8e814.webp",
+   "sha256": "59a8e8141ae4b474ed79db1bf8e086e90b908cacace487ac8a425c617b71d028",
+   "bytes": 139954,
+   "uploaded_at": "2026-10-28T22:53:48+00:00",
+   "original_sha256": "4333e2056662c7243adc9b9c2b9eee454c8ff241058d005e75328643a45fc33f",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares-11-0823-jpg-1900px",
+   "key": "beneteau/antares-11-coupe/exterior/antares-11-0823-jpg-1900px-45ea50d8.webp",
+   "sha256": "45ea50d8c7b9c60e13850a45404833d113eaf8b9f465b8f948af513b3eab7e68",
+   "bytes": 89824,
+   "uploaded_at": "2026-10-28T22:53:48+00:00",
+   "original_sha256": "6e525e8eadb3ebfff6c59a49caaeec3bad7312417e47ad19f8ec5cc33be69b07",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares11-1210-jpg-1900px",
+   "key": "beneteau/antares-11-coupe/exterior/antares11-1210-jpg-1900px-373a59c8.webp",
+   "sha256": "373a59c8d2afa77b774388bab84327256883d5a411bc0941b461f258fffefaad",
+   "bytes": 158952,
+   "uploaded_at": "2026-10-28T22:53:48+00:00",
+   "original_sha256": "a09dd4dca5eb21a1771adad29160bfe1b8a91fdc0bbd25ac9e9f6770bee90d53",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares-11-1095-jpg-1900px",
+   "key": "beneteau/antares-11-coupe/exterior/antares-11-1095-jpg-1900px-425bf0a4.webp",
+   "sha256": "425bf0a4a64f6abb6b2eeffbf5130031e511a8f9e63995829550a60fbf4ae996",
+   "bytes": 107530,
+   "uploaded_at": "2026-10-28T22:53:48+00:00",
+   "original_sha256": "1745975126151c3d4995779d40eecc8b1b63eac02294d01e113be0fcccca7e0c",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares-11-1183-jpg-1900px",
+   "key": "beneteau/antares-11-coupe/exterior/antares-11-1183-jpg-1900px-4bd41b58.webp",
+   "sha256": "4bd41b581b4420c8d0755cbc96b7c9e7b0cae5afb1885b1174807f93bdbc6e27",
+   "bytes": 120612,
+   "uploaded_at": "2026-10-28T22:53:48+00:00",
+   "original_sha256": "a9e8405485c735400cc31061bcec3e2f932eaa962839a101ab2b54db3863eed5",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares11-1329-jpg-1900px",
+   "key": "beneteau/antares-11-coupe/exterior/antares11-1329-jpg-1900px-34bdda09.webp",
+   "sha256": "34bdda09023a45522cdc40de36dac9bb8e3d83e19ccc14dae48c2dbf76951d20",
+   "bytes": 125374,
+   "uploaded_at": "2026-10-28T22:53:48+00:00",
+   "original_sha256": "3c95ebdbb8b60403e82924d6414e6ce8d4a7807336c0457fa83274da6327d485",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares11-1388-jpg-1900px",
+   "key": "beneteau/antares-11-coupe/exterior/antares11-1388-jpg-1900px-3a9f20b3.webp",
+   "sha256": "3a9f20b3897828f19ec07c43690cf4db4fa4ffc4272fd09991128bb5e7c0ea7c",
+   "bytes": 134318,
+   "uploaded_at": "2026-10-28T22:53:48+00:00",
+   "original_sha256": "34fa81221ea70c7b7862c1ac221331fe8145099793067c27c98b05baca7a7a5a",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares11-1405-jpg-1900px",
+   "key": "beneteau/antares-11-coupe/exterior/antares11-1405-jpg-1900px-0fe61e82.webp",
+   "sha256": "0fe61e824cf5a592553344f83cfe5b83ad63900f5ec2be789a4e78bdf4305e77",
+   "bytes": 168594,
+   "uploaded_at": "2026-10-28T22:53:48+00:00",
+   "original_sha256": "ae517c89ccc3f2353d652170f2f1bf26f57ae98839e94720961127cd44c72a9d",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares11fly-carre-slider-1440x786",
+   "key": "beneteau/antares-11-coupe/interior/antares11fly-carre-slider-1440x786-1f5b4706.webp",
+   "sha256": "1f5b4706a2399ff9a44a0dc2216af9547f4561730ae45da1226bd9c039a210f4",
+   "bytes": 163198,
+   "uploaded_at": "2026-10-28T22:53:49+00:00",
+   "original_sha256": "8bee2102f85010dec11654fecb1dd13c91e749bcd29a5f2901b3af77927c4847",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares11-fly-1467-jpg-1900px",
+   "key": "beneteau/antares-11-coupe/interior/antares11-fly-1467-jpg-1900px-495e4b8f.webp",
+   "sha256": "495e4b8f239f549c6dfa4cac9199372b983c6e09f9052aab519e8af23951c42b",
+   "bytes": 131984,
+   "uploaded_at": "2026-10-28T22:53:49+00:00",
+   "original_sha256": "b8506664f68f9a1717a768e9dffa3c94041360306c1996aac0a07a8aa41f398d",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares11-fly-1547-jpg-1900px",
+   "key": "beneteau/antares-11-coupe/interior/antares11-fly-1547-jpg-1900px-25ba625e.webp",
+   "sha256": "25ba625ec13557da0ee917953237cff5006c4354aae3ea869059b7bc9a4f61a9",
+   "bytes": 92744,
+   "uploaded_at": "2026-10-28T22:53:49+00:00",
+   "original_sha256": "d7f626cf6e7aa3d8ba43074710e7fa226a9097e22760f07f72654964c530874b",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares11-fly-1611-jpg-1900px",
+   "key": "beneteau/antares-11-coupe/interior/antares11-fly-1611-jpg-1900px-7b954fb2.webp",
+   "sha256": "7b954fb21372552e3adaa19ad8d200b01b9306152eb2759c2bbd11f72adc38ca",
+   "bytes": 124986,
+   "uploaded_at": "2026-10-28T22:53:49+00:00",
+   "original_sha256": "c7ac4878ec569bafc7a09538ee7e2a20618bcc10f2af0f0ae7990231b95f50a4",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares11-fly-1375-jpg-1900px",
+   "key": "beneteau/antares-11-coupe/interior/antares11-fly-1375-jpg-1900px-e3e9f6a4.webp",
+   "sha256": "e3e9f6a403f71e539ba2df6e64f5bc286e6bb4ccd750ed065650f0bd88c6eb0e",
+   "bytes": 126476,
+   "uploaded_at": "2026-10-28T22:53:49+00:00",
+   "original_sha256": "90be29f537616831e350a1004fb2edc0de25c59a98fc675a28afa42193943a3c",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares11-fly-1579-jpg-1900px",
+   "key": "beneteau/antares-11-coupe/interior/antares11-fly-1579-jpg-1900px-e8ce080e.webp",
+   "sha256": "e8ce080e739837f840e8d76035d9562a76403ee0dadacd4fffa4e968797b69c7",
+   "bytes": 114170,
+   "uploaded_at": "2026-10-28T22:53:49+00:00",
+   "original_sha256": "cf61b1d714936403f20f1be6a021ed4d574e2ca434ede9044b31468a5b1b908f",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares11-fly-1227-jpg-1900px",
+   "key": "beneteau/antares-11-coupe/interior/antares11-fly-1227-jpg-1900px-c2ae0afe.webp",
+   "sha256": "c2ae0afedd6c255bef529a349ac2220a6340fa4ed10853ae508d10b2274703c1",
+   "bytes": 126984,
+   "uploaded_at": "2026-10-28T22:53:49+00:00",
+   "original_sha256": "740004fe98c1c1fcacfa702d581407cb05287628a9a78313bd17478f47f8f8f9",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares11fly-cabine-proprio-slider-1440x786-0",
+   "key": "beneteau/antares-11-coupe/cabin/antares11fly-cabine-proprio-slider-1440x786-0-11880f77.webp",
+   "sha256": "11880f77626e9312ee7025ce24e54f1d4802b916dc731fad4fda48c624d699a9",
+   "bytes": 86640,
+   "uploaded_at": "2026-10-28T22:53:49+00:00",
+   "original_sha256": "a7f8f4d95120b8015b19af7354c527bf3b16b2f0f66c01057b22daf4ac1fcf19",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares11-fly-1251-jpg-1900px",
+   "key": "beneteau/antares-11-coupe/interior/antares11-fly-1251-jpg-1900px-15b032a4.webp",
+   "sha256": "15b032a4b31a2200bc12b42ddf4f24edca6f294b3888eb257063f02fc99e3e6f",
+   "bytes": 88168,
+   "uploaded_at": "2026-10-28T22:53:49+00:00",
+   "original_sha256": "848a7902a37ca54a208e85224b53820d9b85c214c43548f12e0f852bdc514f9e",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares11-fly-1272-jpg-1900px-1",
+   "key": "beneteau/antares-11-coupe/interior/antares11-fly-1272-jpg-1900px-1-8f53de30.webp",
+   "sha256": "8f53de308154d64a79b2b2e5c34bdc4a2196a42342f97530ce011a87282c8804",
+   "bytes": 153974,
+   "uploaded_at": "2026-10-28T22:53:50+00:00",
+   "original_sha256": "1533eba5c0522301a6e57da17d4ccddeca4cc65ee63d93975c42a850522dea3b",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares11fly-cabine-arriere-slider-1440x786-0",
+   "key": "beneteau/antares-11-coupe/cabin/antares11fly-cabine-arriere-slider-1440x786-0-04c9238b.webp",
+   "sha256": "04c9238b09d426e9211f6b78ca07c1a7dc6e48a3f8b17ed11da80d6039a632aa",
+   "bytes": 96286,
+   "uploaded_at": "2026-10-28T22:53:50+00:00",
+   "original_sha256": "c88e9b55dced64a39ac1d135b2eb3595d9820e88b7849fb4705c6f794f0e6bdc",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares11-fly-1429-jpg-1900px",
+   "key": "beneteau/antares-11-coupe/interior/antares11-fly-1429-jpg-1900px-14da0f1d.webp",
+   "sha256": "14da0f1d992c121b74223cc84ed44738b660622f7ab3d03ced5f8b965b135903",
+   "bytes": 88340,
+   "uploaded_at": "2026-10-28T22:53:50+00:00",
+   "original_sha256": "a1cc838e37f6135ac206d9a30d7a32602112c3a68e3034cc207b5c226a70d343",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares11-fly-1422-jpg-1900px",
+   "key": "beneteau/antares-11-coupe/interior/antares11-fly-1422-jpg-1900px-35e822d6.webp",
+   "sha256": "35e822d6761d06b67e5f50639168d83cea841d3df833608dfd9206ff3053c84d",
+   "bytes": 118758,
+   "uploaded_at": "2026-10-28T22:53:50+00:00",
+   "original_sha256": "904d3337c7ae80be0dfaa8d613c248a9a928b6a563a3ccf6ada451337caf3314",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares11-fly-1418-jpg-1900px",
+   "key": "beneteau/antares-11-coupe/interior/antares11-fly-1418-jpg-1900px-14e6cf5b.webp",
+   "sha256": "14e6cf5bce98a1ad6e0e054e18c3ab349e94763f483d68690731fb2247339ef7",
+   "bytes": 95150,
+   "uploaded_at": "2026-10-28T22:53:50+00:00",
+   "original_sha256": "e6c072f307cb1611934076051b788696f9517faa1b64eaaf6e02784f354f155a",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares11-fly-1621-jpg-1900px",
+   "key": "beneteau/antares-11-coupe/interior/antares11-fly-1621-jpg-1900px-6930ddad.webp",
+   "sha256": "6930ddade4ba0599d37b8c1bba73a9f329df59406c610b9785cc661b3310cf20",
+   "bytes": 53604,
+   "uploaded_at": "2026-10-28T22:53:50+00:00",
+   "original_sha256": "fd3707124c4c3757803229a9730ceac8ca944caf1c0cda031e43b4ac5be2346e",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares11-innovation",
+   "key": "beneteau/antares-11-coupe/detail/antares11-innovation-40b0da71.webp",
+   "sha256": "40b0da717339c7de0c8848dad276f179619dc64d5553965f6399abece7e9f0a8",
+   "bytes": 167152,
+   "uploaded_at": "2026-10-28T22:53:50+00:00",
+   "original_sha256": "bbc786bcc475e38543cbcf6d88429c5e9ffebd3266eab89b236401350f8fa593",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares11-securite",
+   "key": "beneteau/antares-11-coupe/detail/antares11-securite-8e83c6cc.webp",
+   "sha256": "8e83c6ccd676d94c056f7178b0ea6284fa18ec6f19dc5670c9cc0f25ee4cb47e",
+   "bytes": 162240,
+   "uploaded_at": "2026-10-28T22:53:50+00:00",
+   "original_sha256": "f50b9c4849bd521ea6a6290af005c4b5e35e2469cb7448be321fe2d9c6e966e9",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares11-performance",
+   "key": "beneteau/antares-11-coupe/detail/antares11-performance-84ab0f73.webp",
+   "sha256": "84ab0f73bc2d98fc92078c62f79a5c1e10e8c5f6a0dabee28c68c242c4ce3439",
+   "bytes": 168388,
+   "uploaded_at": "2026-10-28T22:53:50+00:00",
+   "original_sha256": "1dddf3c34653f520fe9b473e78cc2e7b6a4d35a4cf0ae329706538811dd72e72",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "profile-antares11-sedan",
+   "key": "beneteau/antares-11-coupe/plans/profile-antares11-sedan-3c1d8a41.webp",
+   "sha256": "3c1d8a41af378d1eb53533b79cd44cae283d81ac5c183aace80052926fc62c3e",
+   "bytes": 13214,
+   "uploaded_at": "2026-10-28T22:53:51+00:00",
+   "original_sha256": "f071c76c16ff99ef823bc49f072c52ec13fc9f2d32edc0738e40dcd96aa94225",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "profile-antares-11-gris-perle",
+   "key": "beneteau/antares-11-coupe/plans/profile-antares-11-gris-perle-fdc9f81e.webp",
+   "sha256": "fdc9f81e19f05e02ef4c02126f951ed4656a7eed19a08784a644dfd187bc8f7e",
+   "bytes": 9656,
+   "uploaded_at": "2026-10-28T22:53:51+00:00",
+   "original_sha256": "2c1e3c509d5f1eae5d308c05b8c811af03e9bb0ee695194c37d04342426fd3e6",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "a11-topjpg",
+   "key": "beneteau/antares-11-coupe/plans/a11-topjpg-91f314fe.webp",
+   "sha256": "91f314fe93de86d02003da659e32fae92b03277360b8a5d988fa22568de4d360",
+   "bytes": 15484,
+   "uploaded_at": "2026-10-28T22:53:51+00:00",
+   "original_sha256": "a0027f07b021c785c4a78ca72754dc81245debb9dbfab71a017eb21311f62d77",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "a11-deck-02-12-2020",
+   "key": "beneteau/antares-11-coupe/plans/a11-deck-02-12-2020-87913def.webp",
+   "sha256": "87913def23896024b2793b42d8fdf473eb62591fb5fb8cb19104d4abfe043e65",
+   "bytes": 25346,
+   "uploaded_at": "2026-10-28T22:53:51+00:00",
+   "original_sha256": "c3bee35b85b57842269ecacc2bc6cee12ebd2a62421334cf1f1ff2af59277e09",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "a11-lowerdeck-jpg",
+   "key": "beneteau/antares-11-coupe/plans/a11-lowerdeck-jpg-907e91cf.webp",
+   "sha256": "907e91cff01cb928ac69192b4ed9b4c25750a1e90528ce2ec516f2e112cbc672",
+   "bytes": 13316,
+   "uploaded_at": "2026-10-28T22:53:51+00:00",
+   "original_sha256": "ae235082ec2fa8597c7aa28c980f8be4abb85882c377f2b9bbe720abd761f74e",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  }
+ ]
+}

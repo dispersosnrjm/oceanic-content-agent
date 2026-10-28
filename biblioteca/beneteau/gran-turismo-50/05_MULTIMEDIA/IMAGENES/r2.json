@@ -1,0 +1,285 @@
+{
+ "version": 1,
+ "images": [
+  {
+   "id": "gt-50-header-desktop",
+   "key": "beneteau/gran-turismo-50/hero/gt-50-header-desktop-b05684b3.webp",
+   "sha256": "b05684b30c3aec9c63ef767e9eb4597777ba7563ec4e3b9abff60f26554843e6",
+   "bytes": 450502,
+   "uploaded_at": "2026-10-28T22:55:27+00:00",
+   "original_sha256": "181dad0c61668101be6d717515426c0edcf3404172a1b9a4a365ceac555ace57",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gt-50-image-exterieur-2",
+   "key": "beneteau/gran-turismo-50/exterior/gt-50-image-exterieur-2-f5a571cd.webp",
+   "sha256": "f5a571cd145f22273497faa3ecebae9912a577efb9c8e9c225f229e153794b15",
+   "bytes": 497472,
+   "uploaded_at": "2026-10-28T22:55:27+00:00",
+   "original_sha256": "dbd3d342fa5982f8fd009b68d07b444f7804cc1d18cc2674368338f8006c8be8",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gt-50-image-exterieur-1",
+   "key": "beneteau/gran-turismo-50/exterior/gt-50-image-exterieur-1-54a4fdee.webp",
+   "sha256": "54a4fdee04eac03e8e4d4cf8e299d798da2e0da50182b43afc189fba922cf7f7",
+   "bytes": 539354,
+   "uploaded_at": "2026-10-28T22:55:27+00:00",
+   "original_sha256": "c4ded8a401acaf61bb51cf14bd60f9fe82c8741677e5e753f6e2e25445be932d",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gt-50-image-exterieur-3",
+   "key": "beneteau/gran-turismo-50/exterior/gt-50-image-exterieur-3-2b9d89b2.webp",
+   "sha256": "2b9d89b216b79bd59deb3ba1cd1e9ec629702409b59a5f809a8f2864c37082ae",
+   "bytes": 180490,
+   "uploaded_at": "2026-10-28T22:55:27+00:00",
+   "original_sha256": "de3e85e6d85e35d9093e844ca45b41b560c3a85f75c8bc09bf49d88a957c3653",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gt-50-image-exterieur-4",
+   "key": "beneteau/gran-turismo-50/exterior/gt-50-image-exterieur-4-922fd347.webp",
+   "sha256": "922fd347b94852b95d956e0443fc46a1cc8dec291402e40fc13ab806cf85d3ab",
+   "bytes": 208722,
+   "uploaded_at": "2026-10-28T22:55:27+00:00",
+   "original_sha256": "95fb28741a116903091d6d3bdbb1f36b1f7ab48b49aa56b44b2f90da033b3d66",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gt-50-image-exterieur-5",
+   "key": "beneteau/gran-turismo-50/exterior/gt-50-image-exterieur-5-bd4340a7.webp",
+   "sha256": "bd4340a77926cf81096d8ec85be31d9b2225c4bd662e3e37af65d04e6912443a",
+   "bytes": 236872,
+   "uploaded_at": "2026-10-28T22:55:27+00:00",
+   "original_sha256": "84637d7b8b46c5cb5721eae99b83967cb24128f65316e96c25044091e993f0a5",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gt-50-image-interieur-1",
+   "key": "beneteau/gran-turismo-50/interior/gt-50-image-interieur-1-cbca7035.webp",
+   "sha256": "cbca70350b8cfa0495fec0c011345e0551be005d99d21b8b9dbdfcebb38ebb99",
+   "bytes": 106316,
+   "uploaded_at": "2026-10-28T22:55:27+00:00",
+   "original_sha256": "2daff7ffcee215f2b8bf106aac4da7c9aed1ec346348186d6ea78ae29d2ebddd",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gt-50-image-interieur-2",
+   "key": "beneteau/gran-turismo-50/interior/gt-50-image-interieur-2-54dc34dc.webp",
+   "sha256": "54dc34dca2525924841ccecbb163cc0f69495534c918d9bc29f0788d939a6c81",
+   "bytes": 105304,
+   "uploaded_at": "2026-10-28T22:55:27+00:00",
+   "original_sha256": "3e7181b61eacfbe6309ef65cfe7a54e1cc22eb2a6e5064243ad34675b4e151b3",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gt-50-image-interieur-3",
+   "key": "beneteau/gran-turismo-50/interior/gt-50-image-interieur-3-0b9b58c7.webp",
+   "sha256": "0b9b58c73c8430110d1a5a17ac148a20db6931ae797d1ee582c43a7bdf7dacc1",
+   "bytes": 95452,
+   "uploaded_at": "2026-10-28T22:55:28+00:00",
+   "original_sha256": "02ba8d97b2dcfed17771c3568aabdfde48c250494eb9bad27944488e415102ee",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gt-50-image-interieur-4",
+   "key": "beneteau/gran-turismo-50/interior/gt-50-image-interieur-4-e9cec407.webp",
+   "sha256": "e9cec407f35d60440bd566fb0a7470fd7e7332f01e2013e5d7c72b6a44f3fc81",
+   "bytes": 102512,
+   "uploaded_at": "2026-10-28T22:55:28+00:00",
+   "original_sha256": "9e7a3d657151617924315b6c5b7e699ee509129f6dca6a1023f6838d1f761d05",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gt-50-image-poste-pilotage",
+   "key": "beneteau/gran-turismo-50/helm/gt-50-image-poste-pilotage-501d29e0.webp",
+   "sha256": "501d29e0334144cf45ceb4741a1c0999fafc5ad91ecf6a05177b41cf228b4635",
+   "bytes": 134912,
+   "uploaded_at": "2026-10-28T22:55:28+00:00",
+   "original_sha256": "5a5df5a36ab4a8966f339bae6dad32654c48e3c2fa56972b57a5a17c7bafbdae",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "usp-1-gt-50-beneteau",
+   "key": "beneteau/gran-turismo-50/detail/usp-1-gt-50-beneteau-de66b6c4.webp",
+   "sha256": "de66b6c4a71ef4b8e235a24e8951db07422d01ed281ea7a466053ff02515f18e",
+   "bytes": 271598,
+   "uploaded_at": "2026-10-28T22:55:28+00:00",
+   "original_sha256": "13636d8ab7287befa102249ab980e87966e61308fe1d142e0e7f69df472dd135",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "usp-2-gt-50-beneteau",
+   "key": "beneteau/gran-turismo-50/detail/usp-2-gt-50-beneteau-36f1a438.webp",
+   "sha256": "36f1a438fcab32163233e3491b904e03fc973dc3cbdfb0c7f9337df276021e24",
+   "bytes": 80996,
+   "uploaded_at": "2026-10-28T22:55:28+00:00",
+   "original_sha256": "501a128c4fcef99c47875637aaee5f27ba94df5c60088826592b60a6927d1668",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "usp-3-gt-50-beneteau",
+   "key": "beneteau/gran-turismo-50/detail/usp-3-gt-50-beneteau-5485e8fe.webp",
+   "sha256": "5485e8fe4e745d0ceab59bcaa2fdb2821dd9c675e1998f24e43bd5d33e24362e",
+   "bytes": 113874,
+   "uploaded_at": "2026-10-28T22:55:28+00:00",
+   "original_sha256": "8610da763aad73dd76b4dc8ff4e05cd417ae7b159084559861eac6eec27cd357",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "profile-gran-turismo-50-standard",
+   "key": "beneteau/gran-turismo-50/plans/profile-gran-turismo-50-standard-42c407d7.webp",
+   "sha256": "42c407d7fcebe52ab29bfa01078b29efe7041d1473f44a28dcc1fac223bfea90",
+   "bytes": 7316,
+   "uploaded_at": "2026-10-28T22:55:28+00:00",
+   "original_sha256": "3fed64d60e74ba8b58fc952d754ec4a70a10f114e8310fb23a95d48b539833b0",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "profilegt50-alp-ne",
+   "key": "beneteau/gran-turismo-50/plans/profilegt50-alp-ne-1730c263.webp",
+   "sha256": "1730c2637efab6a42b28cb9af1f0727bb5983f0ad36701319bc6b1c91d6d8e95",
+   "bytes": 11774,
+   "uploaded_at": "2026-10-28T22:55:28+00:00",
+   "original_sha256": "c3677a4285f555f29953e5c39aa055d6d7bba80b1164ede743fd69394cc522f1",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gran-turismo-50-hard-top-standard",
+   "key": "beneteau/gran-turismo-50/plans/gran-turismo-50-hard-top-standard-f0cc9bb0.webp",
+   "sha256": "f0cc9bb029a1cc78db95d7bb1c311b06509c4ab61feb5dcc41ae229287da565d",
+   "bytes": 20378,
+   "uploaded_at": "2026-10-28T22:55:28+00:00",
+   "original_sha256": "33f2b44271a7f264e82074211c835dd576325c3ff27056cf3be4ecddfcdb25ae",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gran-turismo-50-hard-top-silent-boat-option-layout",
+   "key": "beneteau/gran-turismo-50/plans/gran-turismo-50-hard-top-silent-boat-option-layout-3b0bf9e7.webp",
+   "sha256": "3b0bf9e73c5230d50d27f63b40001d40a0974fd3e21e57fbd57a3df152a91396",
+   "bytes": 20864,
+   "uploaded_at": "2026-10-28T22:55:29+00:00",
+   "original_sha256": "edc2607a8ae7ce74d3d644f5b38dcf0b4c859bab3beadface5166d91c79acd7c",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gran-turismo-50-cockpit-helm-station-layout",
+   "key": "beneteau/gran-turismo-50/plans/gran-turismo-50-cockpit-helm-station-layout-86e2f1ec.webp",
+   "sha256": "86e2f1ec10ce0ff4dd281193ebb5480814ae8a37627182b7dc01c6be8292ae92",
+   "bytes": 27846,
+   "uploaded_at": "2026-10-28T22:55:29+00:00",
+   "original_sha256": "61e05e0de8263bcf3449855386e12fc2e6432a925ba4098ed0540892b8ca2a42",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gran-turismo-50-cockpit-4-berths-configuration-layout",
+   "key": "beneteau/gran-turismo-50/plans/gran-turismo-50-cockpit-4-berths-configuration-layout-64cade6d.webp",
+   "sha256": "64cade6df95a962a961bbf2c2a4b69153e19293a6292f9990f17a0f0ab3365ae",
+   "bytes": 26214,
+   "uploaded_at": "2026-10-28T22:55:29+00:00",
+   "original_sha256": "4392b016a46c0fe917a16344577bbab7f1e3275790c796e586548e370fbc5ee7",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  }
+ ]
+}

@@ -1,0 +1,607 @@
+{
+ "version": 1,
+ "images": [
+  {
+   "id": "flyer-30-hero-2-0",
+   "key": "beneteau/flyer-30/hero/flyer-30-hero-2-0-2512f686.webp",
+   "sha256": "2512f68646dba63c2354c350550cf603a6d586d5c6ea8287101bffdb62828033",
+   "bytes": 119208,
+   "uploaded_at": "2026-10-28T22:54:53+00:00",
+   "original_sha256": "96c184bccd0292528c5f4d6dacf643f79a1eac9643c95ec6a7d4bd1e696d18bc",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer-30-exterior-1",
+   "key": "beneteau/flyer-30/exterior/flyer-30-exterior-1-2315ab8a.webp",
+   "sha256": "2315ab8a9660d5f57f4bb1f9c6b6ae5e2249d1a54dcda5bca464a3f272f7daf4",
+   "bytes": 388982,
+   "uploaded_at": "2026-10-28T22:54:53+00:00",
+   "original_sha256": "2ae6fb3f2e7f9be3d1cb57f6a60ad43dc092e28adf3c4c18ac6d8b0527e266ce",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer-30-exterior-2",
+   "key": "beneteau/flyer-30/exterior/flyer-30-exterior-2-5f926ff3.webp",
+   "sha256": "5f926ff3a0787ab15d88dfba389443fe4930f3179e7d54729efb886f7f40d27f",
+   "bytes": 331476,
+   "uploaded_at": "2026-10-28T22:54:53+00:00",
+   "original_sha256": "10742a49d91d85c4198765fc7f14519b865b3408961d0ca3b693651499dc7c74",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer-30-exterior-3",
+   "key": "beneteau/flyer-30/exterior/flyer-30-exterior-3-ac65d861.webp",
+   "sha256": "ac65d8619fa202893a00d6b4e99c80ca756cc6a5c1ee713c8da3a83b26233230",
+   "bytes": 75986,
+   "uploaded_at": "2026-10-28T22:54:53+00:00",
+   "original_sha256": "d3c562b9194a3c6b18d801f38a510816907df44dccdaac2c1b44cb4ee65e6a3f",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer-30-exterior-4",
+   "key": "beneteau/flyer-30/exterior/flyer-30-exterior-4-83583a86.webp",
+   "sha256": "83583a868897d7c3396b07c8c0c6c327880c034567421f4f6ed0ffdf20aab203",
+   "bytes": 131902,
+   "uploaded_at": "2026-10-28T22:54:53+00:00",
+   "original_sha256": "10867d50688c3f14718881ff4d82ca8375affc5b1d3566b5bc1fd969f7ca975b",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer-30-exterior-5",
+   "key": "beneteau/flyer-30/exterior/flyer-30-exterior-5-f6c1fed4.webp",
+   "sha256": "f6c1fed4c01d64acc84125e0da835f45e362bbab51d6bce09492adec170c0f24",
+   "bytes": 229052,
+   "uploaded_at": "2026-10-28T22:54:53+00:00",
+   "original_sha256": "4d010514c30206de436885077a8c577b5af3b4c4d2a5649c8128e419924ce077",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer-30-exterior-6",
+   "key": "beneteau/flyer-30/exterior/flyer-30-exterior-6-4c671db8.webp",
+   "sha256": "4c671db8bf2ba612f43f1b4a33a257d6337fecd328d0cc95959bfbcbc320561d",
+   "bytes": 114456,
+   "uploaded_at": "2026-10-28T22:54:53+00:00",
+   "original_sha256": "2231cf400250b4547f894433831478845984dde2c140ba55933e91f629bf6218",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer-30-exterior-7",
+   "key": "beneteau/flyer-30/exterior/flyer-30-exterior-7-65543667.webp",
+   "sha256": "65543667e3fb61b4884af201c5a31e7fb5747e4e377c5d6558e887c08d875a9c",
+   "bytes": 165534,
+   "uploaded_at": "2026-10-28T22:54:53+00:00",
+   "original_sha256": "84ad6dd1355551ca49d928feb2e14065c0b60d42bd60650d5a2d1110d6b3170e",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer-30-exterior-8",
+   "key": "beneteau/flyer-30/exterior/flyer-30-exterior-8-da8c9a2c.webp",
+   "sha256": "da8c9a2cbc7e9b6a6cc16e6f781c8e0aaec1e977c6172e6e4ba48bdbfd8a14e5",
+   "bytes": 128766,
+   "uploaded_at": "2026-10-28T22:54:54+00:00",
+   "original_sha256": "8fa655511db21902b43d653aaa931ee34dbe54dea0893cb28d78f0dc9d474fbc",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer-30-exterior-9",
+   "key": "beneteau/flyer-30/exterior/flyer-30-exterior-9-8e8ac751.webp",
+   "sha256": "8e8ac751360d216cb97c56a10630b89d2e0c26cea8649bb0794b2331ee9364a5",
+   "bytes": 166686,
+   "uploaded_at": "2026-10-28T22:54:54+00:00",
+   "original_sha256": "d4147df93120c6091ad57c49f2d36dab50a2818818d4a190fca381912d4c7f3e",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer-30-exterior-10",
+   "key": "beneteau/flyer-30/exterior/flyer-30-exterior-10-c3ae22d3.webp",
+   "sha256": "c3ae22d340a0dab851455d5c5a88e5a2226197ea8993d375499a08722520b946",
+   "bytes": 177394,
+   "uploaded_at": "2026-10-28T22:54:54+00:00",
+   "original_sha256": "5db3296bc3d8ecac76f79cc01583893816dca2e31831add07a934b319700c77b",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer-30-exterior-11",
+   "key": "beneteau/flyer-30/exterior/flyer-30-exterior-11-18989d90.webp",
+   "sha256": "18989d90214839921d0465945a59e27eb6ab1e51f3876c66e42a2a8e0539aa2d",
+   "bytes": 256922,
+   "uploaded_at": "2026-10-28T22:54:54+00:00",
+   "original_sha256": "9ae9f1bfbf03c6f6d56e521bc41381e194996551ba2d97fab8c31c10e37399f3",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer-30-exterior-12",
+   "key": "beneteau/flyer-30/exterior/flyer-30-exterior-12-f9514f25.webp",
+   "sha256": "f9514f25d9ad016c6a8fcdc3cf0b6b78e61ffe9e2d7d11b667bb6ab94a4a9ceb",
+   "bytes": 28130,
+   "uploaded_at": "2026-10-28T22:54:54+00:00",
+   "original_sha256": "278d76fd84bd3c1be9400906d9933129fcc34e650f5035199d462b88a68793ef",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer-30-exterior-13",
+   "key": "beneteau/flyer-30/exterior/flyer-30-exterior-13-fe0754c8.webp",
+   "sha256": "fe0754c83372223ace987328d1adeb2b9a66441239666bc9711e43222833e9ed",
+   "bytes": 207820,
+   "uploaded_at": "2026-10-28T22:54:54+00:00",
+   "original_sha256": "af06b3f223e5f7b823d417ec969bfea29bab2e303e1eb24c756efca39bf2a58a",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer-30-exterior-14",
+   "key": "beneteau/flyer-30/exterior/flyer-30-exterior-14-a4ce3ebb.webp",
+   "sha256": "a4ce3ebbc87f9366d308f6416888cdcdba4cb272e853af32634ffb8695d4f172",
+   "bytes": 146544,
+   "uploaded_at": "2026-10-28T22:54:54+00:00",
+   "original_sha256": "e84a1dcf5f343760d810b64a6cfa9c8d2c648666d16a8f5d6b14b862917d4d49",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer-30-exterior-15",
+   "key": "beneteau/flyer-30/exterior/flyer-30-exterior-15-c1cde2f7.webp",
+   "sha256": "c1cde2f7a7a1ad2a741d094aca8f1f277e29d5e6e828ad117a92031113e1c484",
+   "bytes": 198694,
+   "uploaded_at": "2026-10-28T22:54:54+00:00",
+   "original_sha256": "bbc4d6817de99d164e34cad7ea43022679c07d1d77f3f8edf4656e8e04c7db10",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer-30-interior-1",
+   "key": "beneteau/flyer-30/interior/flyer-30-interior-1-d15f0557.webp",
+   "sha256": "d15f0557048655b07ea3f1dd19a2426e5c4f1601e64d7b1cb578886766ff456e",
+   "bytes": 92712,
+   "uploaded_at": "2026-10-28T22:54:55+00:00",
+   "original_sha256": "d865871f6c6790b6a1e2ccdaf5b5e0d3c3485bd5432e95633f90545fb004766e",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer-30-interior-2",
+   "key": "beneteau/flyer-30/interior/flyer-30-interior-2-6bdd7a57.webp",
+   "sha256": "6bdd7a5705defecf49d80d9e69a152d9ff45f38c7188f1f3e2dd44b446dc0180",
+   "bytes": 114118,
+   "uploaded_at": "2026-10-28T22:54:55+00:00",
+   "original_sha256": "3acdcf826e42dbbdd457e8952a92bc262b7cc7d0ec43b87ed12bb4b60e17b2e3",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer-30-interior-3",
+   "key": "beneteau/flyer-30/interior/flyer-30-interior-3-f663ae23.webp",
+   "sha256": "f663ae23a8aafd6a9b41aea9d7fb67edfaa88606b7cd98e714dc031b4584d8e1",
+   "bytes": 134290,
+   "uploaded_at": "2026-10-28T22:54:55+00:00",
+   "original_sha256": "ad73582ccac694b65bd11be2a98a2f9fa758ba23007aeaf1f7ea64507fa2aa8c",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer-30-interior-4",
+   "key": "beneteau/flyer-30/interior/flyer-30-interior-4-4925047e.webp",
+   "sha256": "4925047ef9fb281ed19c77879c2ad358589fa84bde3ddfdbdb8f3d3bb23dd8b8",
+   "bytes": 94260,
+   "uploaded_at": "2026-10-28T22:54:55+00:00",
+   "original_sha256": "9daa97831a002a1d7ed7667e1dacb7d319b5f694ea153a70514fda61579cafc2",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer-30-interior-5",
+   "key": "beneteau/flyer-30/interior/flyer-30-interior-5-972dfc2d.webp",
+   "sha256": "972dfc2dc9479331e6774cdc6b2c98257a368bfc0ab3d1596972aa8a1d97523b",
+   "bytes": 79356,
+   "uploaded_at": "2026-10-28T22:54:55+00:00",
+   "original_sha256": "959cdb6856006c73a224c3767dfeee851ee5affa7e1531fd636e9214c2ba7cb3",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer-30-interior-6",
+   "key": "beneteau/flyer-30/interior/flyer-30-interior-6-4430b4f8.webp",
+   "sha256": "4430b4f86b1c112fc44f269f8fd4d4eadc57760a5c3e5781330cce5ec906d780",
+   "bytes": 67232,
+   "uploaded_at": "2026-10-28T22:54:55+00:00",
+   "original_sha256": "d40c182cec6dd45b337ed2969d2c52c9e437ef9d8e2d1b2bcefa53d0e9d685b7",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer-30-interior-7",
+   "key": "beneteau/flyer-30/interior/flyer-30-interior-7-072cda94.webp",
+   "sha256": "072cda9471951a65f86458506f807faf040bb34eb7746a0ade2a315b3bc687e2",
+   "bytes": 81188,
+   "uploaded_at": "2026-10-28T22:54:55+00:00",
+   "original_sha256": "89515356a6fb397d0311973f2346934f85269409a944210c058b142582128090",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer-30-interior-8",
+   "key": "beneteau/flyer-30/interior/flyer-30-interior-8-fc5c8350.webp",
+   "sha256": "fc5c8350718210a19cea5232566c7f8ca16e78133d036d8407e7ff583901cd50",
+   "bytes": 92326,
+   "uploaded_at": "2026-10-28T22:54:55+00:00",
+   "original_sha256": "0a0632bb79893d45431c6a4b9c8abe9dbb9e770fe133d503c64b9ba42345ed0b",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer-30-interior-9",
+   "key": "beneteau/flyer-30/interior/flyer-30-interior-9-663dc2b7.webp",
+   "sha256": "663dc2b74eecdb372991d338bb3db4e01a10fd225a68d9e7a37e4304d34a6ed3",
+   "bytes": 44194,
+   "uploaded_at": "2026-10-28T22:54:56+00:00",
+   "original_sha256": "0dbb3b6a0d8ef4af20d337f1a0eca8b245ea8e775e371cc0861abf6fd5aaa3f9",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer-30-interior-10",
+   "key": "beneteau/flyer-30/interior/flyer-30-interior-10-7cfc2d5e.webp",
+   "sha256": "7cfc2d5eb49902703b3c1b521e12d22b399139ee7778cabe87b2165816d291cc",
+   "bytes": 74370,
+   "uploaded_at": "2026-10-28T22:54:56+00:00",
+   "original_sha256": "1ecf3563e6a092c283655895c4f9a3a3aea9da91d41b2a842178902c81db16f8",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer-30-interior-11",
+   "key": "beneteau/flyer-30/interior/flyer-30-interior-11-16f1676f.webp",
+   "sha256": "16f1676fe3b2b292f1ffbbb1df0ed1ee7c1a49822e809b21e523c761ecc3920f",
+   "bytes": 108452,
+   "uploaded_at": "2026-10-28T22:54:56+00:00",
+   "original_sha256": "7ebe5a5397133ca6524e096f014db1a6688daa25f1409c1b4df1290968fb0937",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer-30-interior-12",
+   "key": "beneteau/flyer-30/interior/flyer-30-interior-12-39406fbb.webp",
+   "sha256": "39406fbb6fbd8dc3a53ccaff702cf39158717dbde9afbe93c2b1bde4a247c0c7",
+   "bytes": 82486,
+   "uploaded_at": "2026-10-28T22:54:56+00:00",
+   "original_sha256": "264e44e7dddac76da1fc53db1623841fb3208d99a97a7ec6e2ea09425541d37a",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer-30-interior-13",
+   "key": "beneteau/flyer-30/interior/flyer-30-interior-13-70249fb6.webp",
+   "sha256": "70249fb6d0a99bf5ec60d0751dcc0cf6c6009c2fca900309c43be917c34b6713",
+   "bytes": 73910,
+   "uploaded_at": "2026-10-28T22:54:56+00:00",
+   "original_sha256": "ab480b944bc7aa4f0c2e06ede5ab26803eb8b994790af136df2acc92a46e2e69",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer-30-interior-14",
+   "key": "beneteau/flyer-30/interior/flyer-30-interior-14-cc4dca7f.webp",
+   "sha256": "cc4dca7f261d8dd24c0fc91f1b0a15d6cb14ae52e4a57526782915869dc3333e",
+   "bytes": 72700,
+   "uploaded_at": "2026-10-28T22:54:56+00:00",
+   "original_sha256": "f8811c53502808c6abc590459d1cc96d75032c75ce9edb00569fef538a356489",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer-30-interior-15",
+   "key": "beneteau/flyer-30/interior/flyer-30-interior-15-dc510121.webp",
+   "sha256": "dc5101215f3ad5c1e54de6963d7b8ff47fd61499ebef2c7c8efb2045be6532b7",
+   "bytes": 42748,
+   "uploaded_at": "2026-10-28T22:54:56+00:00",
+   "original_sha256": "db475cf34dc603d30687387f94f1bf6f78d3cf284f2fd0ec0a077967254dfba0",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer-30-interior-16",
+   "key": "beneteau/flyer-30/interior/flyer-30-interior-16-ee5aeefc.webp",
+   "sha256": "ee5aeefc9b2c7e9746aca9b25ed8b8d7f592f816f6b3ae7265882533f7242918",
+   "bytes": 99466,
+   "uploaded_at": "2026-10-28T22:54:56+00:00",
+   "original_sha256": "1b873c26a731ad19553e4170692535ac1347863b90b2da547d6ce934daa46cb7",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer-30-interior-17",
+   "key": "beneteau/flyer-30/interior/flyer-30-interior-17-9bec78bd.webp",
+   "sha256": "9bec78bd5fe7ccbc6098d5a4e89d72e1fa67a69104b9133443147f29bc51a836",
+   "bytes": 56234,
+   "uploaded_at": "2026-10-28T22:54:56+00:00",
+   "original_sha256": "b8ac1f33c5e852a20509bf24f3ab135d31ad32905539a5809d327749a07abd75",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer-30-interior-18",
+   "key": "beneteau/flyer-30/interior/flyer-30-interior-18-9b796ea1.webp",
+   "sha256": "9b796ea1191a48a756d5d050a01d95e6fd98b09e074d5fe8d463d195e78b0b18",
+   "bytes": 59536,
+   "uploaded_at": "2026-10-28T22:54:56+00:00",
+   "original_sha256": "c17ba82833180927599c8db5ca7d5ee4bbd2f09e4b3a6790f97ba6c51bf28712",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer-30-interior-19",
+   "key": "beneteau/flyer-30/interior/flyer-30-interior-19-b0a6bc40.webp",
+   "sha256": "b0a6bc4001e8e8912b511fc6b8277c276584e3d1508f9a9ff16c3b08583a3545",
+   "bytes": 60176,
+   "uploaded_at": "2026-10-28T22:54:56+00:00",
+   "original_sha256": "ec9bd115361f4b4513b12d1e8d1359f2358841ff2aa33b60168f564bf0736f38",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer-30-interior-20",
+   "key": "beneteau/flyer-30/interior/flyer-30-interior-20-dda187fa.webp",
+   "sha256": "dda187fa68e01cf8a63d486ce719db0e0528af8f17dcd0ca88fd575f5e26b99e",
+   "bytes": 76490,
+   "uploaded_at": "2026-10-28T22:54:56+00:00",
+   "original_sha256": "e7fa6f12b162fb01f38c026f5713fd6686b0e745e55590b6f094796b776a4b0f",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer-30-usp1",
+   "key": "beneteau/flyer-30/detail/flyer-30-usp1-300e3cdd.webp",
+   "sha256": "300e3cdd853481e02105237a70edb87b9a78c799f8402fd1df104874c0ed896a",
+   "bytes": 58458,
+   "uploaded_at": "2026-10-28T22:54:56+00:00",
+   "original_sha256": "0428df7ff21f8af61511f7f5c7e6053019458ec0614d643a6e36f79e6b4703a8",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer-30-usp2",
+   "key": "beneteau/flyer-30/detail/flyer-30-usp2-de079e89.webp",
+   "sha256": "de079e89a4331adb0fe3defc4862601edbecc05583610dbf18030bec7803a845",
+   "bytes": 126542,
+   "uploaded_at": "2026-10-28T22:54:57+00:00",
+   "original_sha256": "6ec9f0ece5d535ae14e593b3f4df8287ee464b86baa519f93606950396cd847b",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer-30-usp3",
+   "key": "beneteau/flyer-30/detail/flyer-30-usp3-363f18d3.webp",
+   "sha256": "363f18d35d2938720af6da0a7a4b9abbb85c9fcd79ae77953cc50bffda653767",
+   "bytes": 130664,
+   "uploaded_at": "2026-10-28T22:54:57+00:00",
+   "original_sha256": "cd9b59df3e15fd31b1bdc1aecdbfa8e618edf1cbae05400abb1ea868b682c937",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer-30-profile-white-hull",
+   "key": "beneteau/flyer-30/plans/flyer-30-profile-white-hull-65ec9c36.webp",
+   "sha256": "65ec9c3659e1b8eaf1d5a33535dc28d9bbf59327433426bf56b21a7c89dd54b5",
+   "bytes": 5152,
+   "uploaded_at": "2026-10-28T22:54:57+00:00",
+   "original_sha256": "321ad7a1f304a43453b9147bbdd1580cabbdb3cde3d26325f078c7d327c4856d",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer-30-profile-blue-hull",
+   "key": "beneteau/flyer-30/plans/flyer-30-profile-blue-hull-ea1f66bc.webp",
+   "sha256": "ea1f66bc46ac518c64577ad12b9e84aed63c180abe61c0001cc1c7d76521f992",
+   "bytes": 5422,
+   "uploaded_at": "2026-10-28T22:54:57+00:00",
+   "original_sha256": "45c7f149ebcf684ac9b7d9cf8f96dc5413c0c962d05f375d8321edd02d5a0d4d",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer-30-layout1",
+   "key": "beneteau/flyer-30/plans/flyer-30-layout1-adf7aa46.webp",
+   "sha256": "adf7aa468a5e3b0ededc2fdf1afeeecb12fc557ac58f42cc1ca04609bed23c28",
+   "bytes": 34258,
+   "uploaded_at": "2026-10-28T22:54:57+00:00",
+   "original_sha256": "0962d1768151cffc6d758e8abdfa4feed4e7b49718e397b63cac38bf0f1c823e",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer-30-layout2",
+   "key": "beneteau/flyer-30/plans/flyer-30-layout2-68d4934a.webp",
+   "sha256": "68d4934a5410a64e7a7bf9c740110b1a46257b5cbf67a6577a679482eba13fa4",
+   "bytes": 33500,
+   "uploaded_at": "2026-10-28T22:54:57+00:00",
+   "original_sha256": "bd920e934ac5ad6a1f2a68d84bb7a298821ea27fc25e303d715db2b0892bee4a",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  }
+ ]
+}

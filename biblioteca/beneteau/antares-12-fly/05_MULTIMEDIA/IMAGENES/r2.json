@@ -1,0 +1,313 @@
+{
+ "version": 1,
+ "images": [
+  {
+   "id": "antares-12-fly-header",
+   "key": "beneteau/antares-12-fly/hero/antares-12-fly-header-a3a706bc.webp",
+   "sha256": "a3a706bcb2a197cee8dcf3127569f8cd56e19bed8ae636b16adc01ac5a4107b6",
+   "bytes": 406110,
+   "uploaded_at": "2026-10-28T22:53:58+00:00",
+   "original_sha256": "7f8fc7c8edee68bdba5f8564dbfa5e085f4dc16a05a7429ab404327b34ce79d7",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares-12-ext-1920x1200-02",
+   "key": "beneteau/antares-12-fly/exterior/antares-12-ext-1920x1200-02-feed267c.webp",
+   "sha256": "feed267c3ff711c54aeec3a74703d3503959f202702541ef76e433ee641cdc2b",
+   "bytes": 383246,
+   "uploaded_at": "2026-10-28T22:53:58+00:00",
+   "original_sha256": "6041d6233509b13a204b33fc518112c7e6dd580b09554db63ef95edb9303fc6f",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares-12-ext-1920x1200-03",
+   "key": "beneteau/antares-12-fly/exterior/antares-12-ext-1920x1200-03-06bb5154.webp",
+   "sha256": "06bb515424dcad2c110b51808a466cf50913ce8275d584970e4478bf500c4ee3",
+   "bytes": 138672,
+   "uploaded_at": "2026-10-28T22:53:58+00:00",
+   "original_sha256": "0bac72b51b8e2651062c15c68f00396c6abd58f6cd10ae148a7b60dcdee73532",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares-12-ext-1920x1200",
+   "key": "beneteau/antares-12-fly/exterior/antares-12-ext-1920x1200-947ed7c9.webp",
+   "sha256": "947ed7c932042afa096972913bae552ee383e73d8fe3eeddd4c22f3f4e952aa5",
+   "bytes": 195498,
+   "uploaded_at": "2026-10-28T22:53:58+00:00",
+   "original_sha256": "3e3907de6591beff6aa7ef9b0abacd0f7f4a15aa09861460cffabdb097e6cc84",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "exterieur-antares-12-00-0",
+   "key": "beneteau/antares-12-fly/exterior/exterieur-antares-12-00-0-e9b78a9f.webp",
+   "sha256": "e9b78a9fb5e70f5ce2d05388b6b080924073532292ae0e0cd95c9ab7e627fc1e",
+   "bytes": 119664,
+   "uploaded_at": "2026-10-28T22:53:58+00:00",
+   "original_sha256": "545c42715a3dbf9f47a5c385758ce9909e19bafc79b530039580a5b5ef5c7006",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "profil-antares-12-bi-moteur-blanc",
+   "key": "beneteau/antares-12-fly/exterior/profil-antares-12-bi-moteur-blanc-4dd61e48.webp",
+   "sha256": "4dd61e48d4f585ac9f85999f9b394e6ac92169613254960f223c5773059f3cdd",
+   "bytes": 33094,
+   "uploaded_at": "2026-10-28T22:53:58+00:00",
+   "original_sha256": "72754f9780cb362515e0d67c379f6bb99c68ce945ed3543788f7f2cc9097a26b",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "exterieur-antares-12-1-0",
+   "key": "beneteau/antares-12-fly/exterior/exterieur-antares-12-1-0-17c66884.webp",
+   "sha256": "17c6688489b59778805e23ee19b649fa3feee2ab6475d7c23d6c93faaddf349b",
+   "bytes": 251054,
+   "uploaded_at": "2026-10-28T22:53:58+00:00",
+   "original_sha256": "09841c5b9f0a78aabc32aadf7b990fc48aa545b417312e6f8a21902ae973149d",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "exterieur-antares-12-flybridge",
+   "key": "beneteau/antares-12-fly/exterior/exterieur-antares-12-flybridge-497893bb.webp",
+   "sha256": "497893bb0ce8a2bb0ecfd1d03212ee1906633d1f47b961a167af114d06288130",
+   "bytes": 127896,
+   "uploaded_at": "2026-10-28T22:53:58+00:00",
+   "original_sha256": "cbc807ab362386cbbb405b01248512988804aa246df3bbaf6d3b9253d664a06f",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "exterieur-antares-12-7",
+   "key": "beneteau/antares-12-fly/exterior/exterieur-antares-12-7-4179c415.webp",
+   "sha256": "4179c415f9e0aacdca294b8e20fc7f132b6b8286ef64aaf5e07178f33146753e",
+   "bytes": 157990,
+   "uploaded_at": "2026-10-28T22:53:59+00:00",
+   "original_sha256": "e8b5c0b8cbe59385ea01d69bdb8f44240df705d196654cd9ada3263350cef1ec",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "exterieur-antares-12-0-0",
+   "key": "beneteau/antares-12-fly/exterior/exterieur-antares-12-0-0-f63b2c18.webp",
+   "sha256": "f63b2c1865076999d89d216d2a8a22bdac4a5c7b95ea44be5c2adeda0b2dfe82",
+   "bytes": 124684,
+   "uploaded_at": "2026-10-28T22:53:59+00:00",
+   "original_sha256": "c29355f1d4a34249c7c8be481b4716515f01cc960522cae50fe79e6b6ea357c1",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "interieur-antares-12-1",
+   "key": "beneteau/antares-12-fly/interior/interieur-antares-12-1-f6538eca.webp",
+   "sha256": "f6538ecaf75991ece94a9834a8fc2b5541a5d7078cb2dd47aea4bbaef934d9c6",
+   "bytes": 159290,
+   "uploaded_at": "2026-10-28T22:53:59+00:00",
+   "original_sha256": "261dabb54ca2515ad10f7e36f8990907d7de8a4178abef21122744c83fbf5ad4",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "interieur-antares-12-3",
+   "key": "beneteau/antares-12-fly/interior/interieur-antares-12-3-e2c256b7.webp",
+   "sha256": "e2c256b7617bfd50f39ad7e6bcdd82f86a4f490e219a892f3178e19204e256f9",
+   "bytes": 157886,
+   "uploaded_at": "2026-10-28T22:53:59+00:00",
+   "original_sha256": "c07272de897261091fcda5672992a4bd088c0aff57001e4b31ee9a96361dd298",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "interieur-antares-12-5",
+   "key": "beneteau/antares-12-fly/interior/interieur-antares-12-5-1e777722.webp",
+   "sha256": "1e777722771bb6daec698df2e0a50d090ed4e947f0246259a0d200f99f5452bc",
+   "bytes": 193148,
+   "uploaded_at": "2026-10-28T22:53:59+00:00",
+   "original_sha256": "98b42cf2a3deb673a41ea3ad57bd4fbbe8b1fecbde451f1ed02538231d27d462",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "interieur-antares-12-4",
+   "key": "beneteau/antares-12-fly/interior/interieur-antares-12-4-f3afc926.webp",
+   "sha256": "f3afc9262a2803d15717f79bfcd160252ba290a8f54d104cecbe10e46db0355f",
+   "bytes": 147138,
+   "uploaded_at": "2026-10-28T22:53:59+00:00",
+   "original_sha256": "dad29a24d14b8489ee201129e6666b55593e2b205abd7fb5c0a46b2887df5138",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "exterieur-antares-12-6",
+   "key": "beneteau/antares-12-fly/exterior/exterieur-antares-12-6-bcaaf6a0.webp",
+   "sha256": "bcaaf6a057aaeb62a557bed64d538113083b45c8cbecfa088fc734c6976e96da",
+   "bytes": 230406,
+   "uploaded_at": "2026-10-28T22:53:59+00:00",
+   "original_sha256": "41a03db9fa0b14de5827bf9acf3f5ba50a3f5b937d95b7511d5ecba5e5989bef",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "exterieur-antares-12-technologie",
+   "key": "beneteau/antares-12-fly/exterior/exterieur-antares-12-technologie-a9e6be19.webp",
+   "sha256": "a9e6be19fe42d6e60960dea4abeddea45bc10863e8a7240147a143a96b6cb169",
+   "bytes": 63102,
+   "uploaded_at": "2026-10-28T22:53:59+00:00",
+   "original_sha256": "3f403d2bebdc4479f1ed2cf5ab4d0277e47660a7c00758fd968bcd59162cb774",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "exterieur-antares12-1",
+   "key": "beneteau/antares-12-fly/exterior/exterieur-antares12-1-db47a469.webp",
+   "sha256": "db47a4691fc0eceb71c72040c1b8deade7c5d4a2f4fc9d72887afb7644846106",
+   "bytes": 139444,
+   "uploaded_at": "2026-10-28T22:53:59+00:00",
+   "original_sha256": "457a2e2147e93079f17c395253d1688191badf3c5bebecc5af67937688055922",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "exterieur-antares12-2-0",
+   "key": "beneteau/antares-12-fly/exterior/exterieur-antares12-2-0-a3c2d73d.webp",
+   "sha256": "a3c2d73d70cd05e992bdacc77275358b25f0118f769f25ab4eafe8c9e6f9a442",
+   "bytes": 160642,
+   "uploaded_at": "2026-10-28T22:53:59+00:00",
+   "original_sha256": "9f2d97597b4a56a5358b525837a10673d245dd2972c53a1689105e6bfc6ae866",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "lower-deck-antares-12",
+   "key": "beneteau/antares-12-fly/plans/lower-deck-antares-12-7a1438c7.webp",
+   "sha256": "7a1438c76ba662261a824287a5092bdf41f5f6ff812fa493cdfc0fa9b3ab6c26",
+   "bytes": 77846,
+   "uploaded_at": "2026-10-28T22:54:00+00:00",
+   "original_sha256": "9d983268551cd4499523faa9e053bc3315850994936291225dfb9c3806a1088b",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "dessus-fly-bi-moteur-antares12",
+   "key": "beneteau/antares-12-fly/plans/dessus-fly-bi-moteur-antares12-4d2d22e9.webp",
+   "sha256": "4d2d22e93d85ee652d691927d7ed064a9a07b16aabbdd973548f2bdda590c888",
+   "bytes": 50262,
+   "uploaded_at": "2026-10-28T22:54:00+00:00",
+   "original_sha256": "07f9f2d224e63e20d6b660d30495bb24fbd3051ba3791d3ae65b8f4be38b46cf",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "timonerie-bi-moteur-antares12",
+   "key": "beneteau/antares-12-fly/plans/timonerie-bi-moteur-antares12-01f3ef29.webp",
+   "sha256": "01f3ef29497d143c8e84ecceeaf08335cc1c4292867f6b4adfe6b301dbe82175",
+   "bytes": 52412,
+   "uploaded_at": "2026-10-28T22:54:00+00:00",
+   "original_sha256": "451e11e3216493cae27f641b045d7f028a643be1dec4ae26a6f648cf084b3451",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "dessus-tri-moteur-antares12",
+   "key": "beneteau/antares-12-fly/plans/dessus-tri-moteur-antares12-d21b8cc4.webp",
+   "sha256": "d21b8cc45942c4120ec0bf822e829ac94b58f604b9b4a2716f81673c3f3d68a2",
+   "bytes": 53294,
+   "uploaded_at": "2026-10-28T22:54:00+00:00",
+   "original_sha256": "5c845b450a16b8728237743aab102ad27915dd7e00c931c0690e42af0835ca73",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  }
+ ]
+}

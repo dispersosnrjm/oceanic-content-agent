@@ -1,0 +1,215 @@
+{
+ "version": 1,
+ "images": [
+  {
+   "id": "first-36-spirit-hero-0",
+   "key": "beneteau/first-36-spirit/hero/first-36-spirit-hero-0-f9b3be4e.webp",
+   "sha256": "f9b3be4ecdd8a1bbb899302cad1ed33137356d1f89ab937a47b3449e35cac421",
+   "bytes": 44342,
+   "uploaded_at": "2026-10-28T22:54:33+00:00",
+   "original_sha256": "d55478083dec23e00ed84bf7658b3f2077eefc72c06a9d4a337e024d8000c552",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "first-36-spirit-ex-1-0",
+   "key": "beneteau/first-36-spirit/underway/first-36-spirit-ex-1-0-3bb35156.webp",
+   "sha256": "3bb35156569ef1fee35485dea62e51ad7404755d77cd92ea620e8cf973059f22",
+   "bytes": 480982,
+   "uploaded_at": "2026-10-28T22:54:34+00:00",
+   "original_sha256": "a209e50c8efe1c75004f949a1b436468fb5c76963b76a1607e6708c51b34b173",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "first-36-spirit-ex-2",
+   "key": "beneteau/first-36-spirit/underway/first-36-spirit-ex-2-23269473.webp",
+   "sha256": "23269473b574b4cc69d804d84b8129c83d5e54cf1e9c5a25c8e64b9d93abdddf",
+   "bytes": 81044,
+   "uploaded_at": "2026-10-28T22:54:34+00:00",
+   "original_sha256": "c955c4e75245692f4ecd4efbd3e3d7545919e2b64f3b46b592204eeeb824178c",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "first-36-spirit-ex-3",
+   "key": "beneteau/first-36-spirit/underway/first-36-spirit-ex-3-20ee85ac.webp",
+   "sha256": "20ee85ac6e0139902965a5fc937ecc4f09b3992935066898db36c66f03bc9cf5",
+   "bytes": 59596,
+   "uploaded_at": "2026-10-28T22:54:34+00:00",
+   "original_sha256": "fb010d483f4880b88ea1b0b8fa5f401928c11c3399ee17778a0e9bd1d1420215",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "first-36-spirit-in-1",
+   "key": "beneteau/first-36-spirit/interior/first-36-spirit-in-1-92098968.webp",
+   "sha256": "92098968e8609411699cf1b08eee2135ddcb6a189df74184d259883383d28159",
+   "bytes": 66414,
+   "uploaded_at": "2026-10-28T22:54:34+00:00",
+   "original_sha256": "28627a1429e4eb541ca7203499d1e90ea773a23dbcb2d1c1eb1d3c7488b7cb14",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "first-36-spirit-in-2",
+   "key": "beneteau/first-36-spirit/interior/first-36-spirit-in-2-7f6704b4.webp",
+   "sha256": "7f6704b4056e2e53c0f5ed7aadbf8c1368f2100d160f3de82548c87f68ca7a99",
+   "bytes": 63568,
+   "uploaded_at": "2026-10-28T22:54:34+00:00",
+   "original_sha256": "0c98479e6820bb52ca21c69db115cb4af6d5dd054ee3506822f3ecf10503696a",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "first-36-spirit-in-3",
+   "key": "beneteau/first-36-spirit/interior/first-36-spirit-in-3-e2d1e0b3.webp",
+   "sha256": "e2d1e0b3b25d5b4661fc74d8072dcc8cceca9d059c3052e1c5721e38ffedee76",
+   "bytes": 46526,
+   "uploaded_at": "2026-10-28T22:54:34+00:00",
+   "original_sha256": "d451479eb4a4df1243429ecca5ea548dd0121a16902323b40f63723ed2cc559f",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "first-36-spirit-in-4",
+   "key": "beneteau/first-36-spirit/interior/first-36-spirit-in-4-8be37866.webp",
+   "sha256": "8be37866e064cdb1432f7461f9d467e8d937d482e62fae5193ab563792272a26",
+   "bytes": 26758,
+   "uploaded_at": "2026-10-28T22:54:34+00:00",
+   "original_sha256": "63c7a1f3b50281d96f5e1850284f71ce39c73385c573b96e85f1f4225120671e",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "first-36-spirit-usp1",
+   "key": "beneteau/first-36-spirit/detail/first-36-spirit-usp1-a8b26ac7.webp",
+   "sha256": "a8b26ac78301bbaa147fc5238f55c830eec904b85b8579481016bec47961b7a2",
+   "bytes": 187836,
+   "uploaded_at": "2026-10-28T22:54:34+00:00",
+   "original_sha256": "3b854ef3b211a3f52f9ef04bfafa54d10faed3e79aacd5183c96ce917baf26c4",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "first-36-spirit-usp2",
+   "key": "beneteau/first-36-spirit/detail/first-36-spirit-usp2-156b58bb.webp",
+   "sha256": "156b58bbc0e424ec3f4269709aceeac69d2502631b3c30d8d2a166a0e6c60ca2",
+   "bytes": 62632,
+   "uploaded_at": "2026-10-28T22:54:34+00:00",
+   "original_sha256": "63c5335e18e76eaf2071e8e44bd1a6cbfebe15be7ce3e745503639ad55e27e36",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "first-36-spirit-usp3",
+   "key": "beneteau/first-36-spirit/detail/first-36-spirit-usp3-1ba610a6.webp",
+   "sha256": "1ba610a6c2345fb9b5161e9648121d2bee676111b5d1514c7cb99f6442a6d027",
+   "bytes": 55648,
+   "uploaded_at": "2026-10-28T22:54:34+00:00",
+   "original_sha256": "28cc0deaef2a43b80cc711ed33404ae5ee9a3c86d87dae59ed953598dec77892",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "first-36-spirit-usp4",
+   "key": "beneteau/first-36-spirit/detail/first-36-spirit-usp4-3f61c37d.webp",
+   "sha256": "3f61c37d68b062eb74225ae9f14091bbbd45be4bbf15b153588cd31090a2f119",
+   "bytes": 47914,
+   "uploaded_at": "2026-10-28T22:54:34+00:00",
+   "original_sha256": "ee4aea4f57982ed5f1d298f3dca9a6221c62f2578c10063f8d893f4fcd818d58",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "first-36-spirit-profile",
+   "key": "beneteau/first-36-spirit/plans/first-36-spirit-profile-5da3e51c.webp",
+   "sha256": "5da3e51ca4d4f81ac9a94c22b4b7a29cf5406a836f3016827216f7ec249ab870",
+   "bytes": 7212,
+   "uploaded_at": "2026-10-28T22:54:34+00:00",
+   "original_sha256": "6eb4f45816fb26c595dbf75956aa5bbe5a11d0314ec56c78944be9d5daa1b8b1",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "first-36-spirit-layout1",
+   "key": "beneteau/first-36-spirit/plans/first-36-spirit-layout1-190a7e93.webp",
+   "sha256": "190a7e933a6a9485714d2bd5015ae74f5c7b77f116253b412477bc8f2474a6ae",
+   "bytes": 16042,
+   "uploaded_at": "2026-10-28T22:54:34+00:00",
+   "original_sha256": "2c70af855ef777a35e66b000b3df0ecb06bc9fe4396f8e62f40017b927609648",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "first-36-spirit-layout2",
+   "key": "beneteau/first-36-spirit/plans/first-36-spirit-layout2-4ebe5454.webp",
+   "sha256": "4ebe5454172611e4f478c71d48d5459ea02086fb6b5ee20046533e450297589b",
+   "bytes": 21686,
+   "uploaded_at": "2026-10-28T22:54:34+00:00",
+   "original_sha256": "68b8be9cfdab4abe85b01f112023e712bf9344a75c8f3b894ba596a8189bb73d",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  }
+ ]
+}

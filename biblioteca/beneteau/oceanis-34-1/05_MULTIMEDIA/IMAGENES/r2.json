@@ -1,0 +1,327 @@
+{
+ "version": 1,
+ "images": [
+  {
+   "id": "header-oceanis34-1",
+   "key": "beneteau/oceanis-34-1/hero/header-oceanis34-1-16e899e8.webp",
+   "sha256": "16e899e8668f315f1c5aa5034912f5162aecde024ef95a1bc498f367244325d9",
+   "bytes": 144394,
+   "uploaded_at": "2026-10-28T22:55:40+00:00",
+   "original_sha256": "0e4d96498a92259920e2176da2dcfc28d9126ef64f1ffb8faaf34e7e56e5eb25",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "oceanis341-ext5",
+   "key": "beneteau/oceanis-34-1/exterior/oceanis341-ext5-13a34ea6.webp",
+   "sha256": "13a34ea6934efe917b6959007790517308b38f21864fc851f512c89d30becfc8",
+   "bytes": 335238,
+   "uploaded_at": "2026-10-28T22:55:40+00:00",
+   "original_sha256": "3b63fbbd4dc7fba4023a6bbaf2c8e0a921d70e0c986f2bcb5ec779bfa163a8f7",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "oceanis341-ext7",
+   "key": "beneteau/oceanis-34-1/exterior/oceanis341-ext7-9d5eb3a7.webp",
+   "sha256": "9d5eb3a72a313262861cc463855f1af5479fb287892b15185d471e1999eb1dc7",
+   "bytes": 126516,
+   "uploaded_at": "2026-10-28T22:55:40+00:00",
+   "original_sha256": "004956112dc25522d2924cf20a20c0c3cb6f7ceeb72bd3c009ab6be3df550d05",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "oceanis341-ext1",
+   "key": "beneteau/oceanis-34-1/exterior/oceanis341-ext1-37487a0e.webp",
+   "sha256": "37487a0ee2a9ace1aabd1ac878e193979a5362bdf928819788bd94f6a593ef1c",
+   "bytes": 265150,
+   "uploaded_at": "2026-10-28T22:55:40+00:00",
+   "original_sha256": "ba19a40d8c870fe3c43548a65bc29c91a75f42d23ee6aa1e703e3f5ae25f10cd",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "oceanis341-ext2",
+   "key": "beneteau/oceanis-34-1/exterior/oceanis341-ext2-ff885bde.webp",
+   "sha256": "ff885bded7447ae10497cd215872124c6c2f5fbcf388d358aeee322cd95375f1",
+   "bytes": 204352,
+   "uploaded_at": "2026-10-28T22:55:40+00:00",
+   "original_sha256": "5180f0651defa3406c95d2a27036ab385aab80eb70ad947fc4c2753038f1c78e",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "oceanis341-ext3",
+   "key": "beneteau/oceanis-34-1/exterior/oceanis341-ext3-305562d8.webp",
+   "sha256": "305562d8aa393e6ab7bfcbb88a4444bf8023c2e76f3ec794b24c591563c8328b",
+   "bytes": 149292,
+   "uploaded_at": "2026-10-28T22:55:40+00:00",
+   "original_sha256": "c2ae58352d3691e3adfcc3483701b74a75de1d974d49d747438c3f770bf23a4e",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "oceanis341-ext4",
+   "key": "beneteau/oceanis-34-1/exterior/oceanis341-ext4-3a820755.webp",
+   "sha256": "3a820755f327ea53ba3ef1822edd75cf7178a7ee7b2d347cf4c021a16334443c",
+   "bytes": 76588,
+   "uploaded_at": "2026-10-28T22:55:40+00:00",
+   "original_sha256": "16cb0d83d1fb163f07c9cfa857c3e624250b0f3e5e683ca35c9f2ed629a0c5b3",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "oceanis341-ext6",
+   "key": "beneteau/oceanis-34-1/exterior/oceanis341-ext6-1c618cd3.webp",
+   "sha256": "1c618cd3746036a213f648576c46241912d6b21f598980634ae2edddd22c9fe4",
+   "bytes": 97202,
+   "uploaded_at": "2026-10-28T22:55:40+00:00",
+   "original_sha256": "abc8fb218473868cfb11af08cab41419fa45ff61149bcb92c1e0dbfa71269d9c",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "oceanis341-ext8",
+   "key": "beneteau/oceanis-34-1/exterior/oceanis341-ext8-3a376522.webp",
+   "sha256": "3a3765224ebb77f7e666e6854c5dd41d25208631d998f0688658064f3d6448e5",
+   "bytes": 60484,
+   "uploaded_at": "2026-10-28T22:55:40+00:00",
+   "original_sha256": "00847419c6ecd2249ed63eeaaad5c4a7d92b2277f3806a28502370ddc952d311",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "oceanis341-int2",
+   "key": "beneteau/oceanis-34-1/interior/oceanis341-int2-d1a378bb.webp",
+   "sha256": "d1a378bbddd018ec2bd2131cd0e8796868b1f9502db4346f170a311f8556718f",
+   "bytes": 138998,
+   "uploaded_at": "2026-10-28T22:55:40+00:00",
+   "original_sha256": "df16665babbb3d72544fdb84aac6ac154e4dc01dc53704572fc8173f411f285f",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "oceanis341-int1",
+   "key": "beneteau/oceanis-34-1/interior/oceanis341-int1-382bccc9.webp",
+   "sha256": "382bccc927e08eb622a57cb346a975ea7de959e03b0b096db0d2ec10db2b9bae",
+   "bytes": 122244,
+   "uploaded_at": "2026-10-28T22:55:40+00:00",
+   "original_sha256": "4a4abcbc7335ba907730a0c87d098d51eb48d663795f5e2cd71d46cf9c14e61f",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "oceanis341-int4",
+   "key": "beneteau/oceanis-34-1/interior/oceanis341-int4-8a0a686d.webp",
+   "sha256": "8a0a686d04e54c8e53a209d46d78f02ab609dd3f75b3276b13652dd6d0ab3625",
+   "bytes": 126208,
+   "uploaded_at": "2026-10-28T22:55:40+00:00",
+   "original_sha256": "479193f911ed04199c5df6ab92b3ec36afb62988f9957ce326390d0209486393",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "oceanis341-int5",
+   "key": "beneteau/oceanis-34-1/interior/oceanis341-int5-7ddaf4cd.webp",
+   "sha256": "7ddaf4cd4107f08b77663c2611ad21e65d8c4f2bf18728fcce2dd0dc4239ecd7",
+   "bytes": 122172,
+   "uploaded_at": "2026-10-28T22:55:40+00:00",
+   "original_sha256": "523eca1cc503e11249416cf4ecbf86343cd963746d5f5c5bd9b2fea3139f1d86",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "oceanis341-int6",
+   "key": "beneteau/oceanis-34-1/interior/oceanis341-int6-5639657b.webp",
+   "sha256": "5639657be2f2d02f6497f2095eb3e3c05ae2a154054e00dd7107fe357db8a4bf",
+   "bytes": 119648,
+   "uploaded_at": "2026-10-28T22:55:41+00:00",
+   "original_sha256": "e7968956599cb153a0a71f8b642b8e39741cb5f99f89b070ae8b0f68bee21ec6",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "oceanis341-int3",
+   "key": "beneteau/oceanis-34-1/interior/oceanis341-int3-1582c964.webp",
+   "sha256": "1582c964f3b6bdc2cb616d83c88710644978e8d297d69de5ba4aa5c5cbc0d4f0",
+   "bytes": 110448,
+   "uploaded_at": "2026-10-28T22:55:41+00:00",
+   "original_sha256": "e43f4535efc3ad1757eeaa988c3ae9e7db2e3be953102b89f0f1e0385feadf6b",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "oceanis341-skill1",
+   "key": "beneteau/oceanis-34-1/detail/oceanis341-skill1-b466cd8b.webp",
+   "sha256": "b466cd8ba0ef818437a9b33de2d716448a4342e85056c625ddf75238ad0015da",
+   "bytes": 58216,
+   "uploaded_at": "2026-10-28T22:55:41+00:00",
+   "original_sha256": "8618f874976d6ecc4c245e8deb401f933703ad934ac76b1783eab6a826406cb4",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "oceanis341-skill2",
+   "key": "beneteau/oceanis-34-1/detail/oceanis341-skill2-21f0f79c.webp",
+   "sha256": "21f0f79cc579b64823cc24dd23c0882e07fd1ae94309ee1a13dba5198bc19002",
+   "bytes": 159816,
+   "uploaded_at": "2026-10-28T22:55:41+00:00",
+   "original_sha256": "9589fec2188b50acd9e6156d193609512a6d82355b92a42e58bdd8b82b535228",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "oceanis341-skill3",
+   "key": "beneteau/oceanis-34-1/detail/oceanis341-skill3-2039727a.webp",
+   "sha256": "2039727ad6f83f71648dd4c4ce24d50cea16e93f939840d392f149f65d5cf9e1",
+   "bytes": 128748,
+   "uploaded_at": "2026-10-28T22:55:41+00:00",
+   "original_sha256": "00a562845e661ca37959c85d3fd97745167606620fdef5f366654d8eb28c0d4f",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "oc34-1-ext-profili-a-1",
+   "key": "beneteau/oceanis-34-1/plans/oc34-1-ext-profili-a-1-f4e1ebac.webp",
+   "sha256": "f4e1ebac30c3ad28f0dc49b0e09f0a468b3be97b21db8e229baee4b1efd7b424",
+   "bytes": 24370,
+   "uploaded_at": "2026-10-28T22:55:41+00:00",
+   "original_sha256": "5781f7ab6ba26b8aaccd08572f003bc4c6758e71ace60ff93d95030c6c6b2985",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "oc34-1-ext-profili-b",
+   "key": "beneteau/oceanis-34-1/plans/oc34-1-ext-profili-b-3c300bdc.webp",
+   "sha256": "3c300bdc5e0193470a5fdd216069a9330676b31140d58cd05b6e10b3ebb062a1",
+   "bytes": 24548,
+   "uploaded_at": "2026-10-28T22:55:41+00:00",
+   "original_sha256": "ae212f9ac85c2580b8efd1333e1f58547f85733a55717d42dfe0ff49b6812f54",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "oc34-1-ext-profili-c-1",
+   "key": "beneteau/oceanis-34-1/plans/oc34-1-ext-profili-c-1-bd27831d.webp",
+   "sha256": "bd27831dd586dca6b4afb5ed547056f3e5e69733ab82ca61bdef0d78db234af5",
+   "bytes": 24620,
+   "uploaded_at": "2026-10-28T22:55:41+00:00",
+   "original_sha256": "7ca3feef1c12ae346130f39286c40d61c06b58cd70b5674cf549ab8ebdf098c2",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "oceanis341-2c1t",
+   "key": "beneteau/oceanis-34-1/plans/oceanis341-2c1t-0de78ea1.webp",
+   "sha256": "0de78ea1cca2fe08c71707ed4b2ef76322cb248e21ac6737e39514ae57230fdd",
+   "bytes": 12496,
+   "uploaded_at": "2026-10-28T22:55:41+00:00",
+   "original_sha256": "ce589971e304fbfa2b3f0a432e60e1d617cc47b9066d36cf5304f8da2b5da56e",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "oceanis341-3c1t",
+   "key": "beneteau/oceanis-34-1/plans/oceanis341-3c1t-d0341800.webp",
+   "sha256": "d03418007b176ea6e2b714508338da161133254bff31aae54e71cecb33b12e4e",
+   "bytes": 13574,
+   "uploaded_at": "2026-10-28T22:55:41+00:00",
+   "original_sha256": "b7a55cf659268df3d5c6e8749a3a74377d8d0cf99ba080d6f7e84b5172079e66",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  }
+ ]
+}

@@ -1,0 +1,355 @@
+{
+ "version": 1,
+ "images": [
+  {
+   "id": "motor-yacht-gran-turismo-40-open-3840x1100",
+   "key": "beneteau/gran-turismo-40-open/hero/motor-yacht-gran-turismo-40-open-3840x1100-c04764d6.webp",
+   "sha256": "c04764d60ac045f6aafbb85f25f2e5d802b2a773a5f8fd6f370c68ee1adfd7a8",
+   "bytes": 198148,
+   "uploaded_at": "2026-10-28T22:55:24+00:00",
+   "original_sha256": "1e4624c26cd324af3b0c515e5cf0007f30df31db761974e5b67c061870b9f000",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "motor-yacht-gran-turismo-40-open-exterior-2880x1572-03",
+   "key": "beneteau/gran-turismo-40-open/exterior/motor-yacht-gran-turismo-40-open-exterior-2880x1572-03-66b35bf4.webp",
+   "sha256": "66b35bf43baa440d874d99b8913245bacd4167b7c1139d0e0226938bb34ebb85",
+   "bytes": 415664,
+   "uploaded_at": "2026-10-28T22:55:24+00:00",
+   "original_sha256": "bd54de3088622323da02f74631fcbcaaa689382112e523d192483f59562f2b95",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "motor-yacht-gran-turismo-40-open-exterior-2880x1572-02",
+   "key": "beneteau/gran-turismo-40-open/exterior/motor-yacht-gran-turismo-40-open-exterior-2880x1572-02-db13d6bc.webp",
+   "sha256": "db13d6bca3bc042d3ddd6e5485632917d3b617139d8166b93f6546a95e5fe9e5",
+   "bytes": 261016,
+   "uploaded_at": "2026-10-28T22:55:24+00:00",
+   "original_sha256": "c7b6a153e94a8c40786be5ec9fb8edd7773801bcf25d885398eab773fe6a72e5",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "motor-yacht-gran-turismo-40-open-exterior-2880x1572-06",
+   "key": "beneteau/gran-turismo-40-open/exterior/motor-yacht-gran-turismo-40-open-exterior-2880x1572-06-6712f92a.webp",
+   "sha256": "6712f92a3a38dbc70a26bd17af17285fb3682c1707a1cbd937e6a0acf19a4322",
+   "bytes": 143082,
+   "uploaded_at": "2026-10-28T22:55:24+00:00",
+   "original_sha256": "9ee98ee7e65633a307a9b20fb2fc6f69a00450dba8a5e95ebf2e681f646820f8",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "motor-yacht-gran-turismo-40-open-exterior-2880x1572-04",
+   "key": "beneteau/gran-turismo-40-open/exterior/motor-yacht-gran-turismo-40-open-exterior-2880x1572-04-722035aa.webp",
+   "sha256": "722035aa79ffdc882044c56537f95d69e2e442d29533a59fe59d7929d7494c78",
+   "bytes": 136524,
+   "uploaded_at": "2026-10-28T22:55:24+00:00",
+   "original_sha256": "a33fb36726f66171b1b31c4f0d548680bfb6d5df81b79633a82380381d9c5197",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "motor-yacht-gran-turismo-40-open-exterior-2880x1572-01",
+   "key": "beneteau/gran-turismo-40-open/exterior/motor-yacht-gran-turismo-40-open-exterior-2880x1572-01-7b3a4b52.webp",
+   "sha256": "7b3a4b52bda3473c9a58a54200325dfc3fce99319eae906934e6488c08c72107",
+   "bytes": 163310,
+   "uploaded_at": "2026-10-28T22:55:24+00:00",
+   "original_sha256": "5994c974c79f16701f9732ca0cc9c55685b40b1ae88c1178e981adae16378600",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "motor-yacht-gran-turismo-40-open-exterior-2880x1572-05",
+   "key": "beneteau/gran-turismo-40-open/exterior/motor-yacht-gran-turismo-40-open-exterior-2880x1572-05-e53b05f1.webp",
+   "sha256": "e53b05f1aef6b1ca5c828dc4eba355625766664975e181d800c91bbbe0de6c99",
+   "bytes": 171642,
+   "uploaded_at": "2026-10-28T22:55:24+00:00",
+   "original_sha256": "7337779ba6d686705f535faf4868922bab374a2fcc49508e7b311eac10bba8e9",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "motor-yacht-gran-turismo-40-open-exterior-2880x1572-07",
+   "key": "beneteau/gran-turismo-40-open/exterior/motor-yacht-gran-turismo-40-open-exterior-2880x1572-07-009976fc.webp",
+   "sha256": "009976fcd06192c817db1a2ee8eefaadde50d19c5fec45a3748ecb32e9117116",
+   "bytes": 132542,
+   "uploaded_at": "2026-10-28T22:55:24+00:00",
+   "original_sha256": "c8a23183bf69504bcb53b3610568a9b9701733262a195f4ec13de57d7d8b4c8e",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gt40open-exterieur8",
+   "key": "beneteau/gran-turismo-40-open/exterior/gt40open-exterieur8-7324a1c1.webp",
+   "sha256": "7324a1c16ef01c468ff6ffef9bc41a932e0456376cf118bbda278870d081db6a",
+   "bytes": 86318,
+   "uploaded_at": "2026-10-28T22:55:24+00:00",
+   "original_sha256": "0ed944c26ea29c30083473cf1f8d502cbc78e9b2b8d24a8282d2a7f8a5c2591b",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gt40open-interieur2",
+   "key": "beneteau/gran-turismo-40-open/interior/gt40open-interieur2-34a8656a.webp",
+   "sha256": "34a8656a1b6d95e3f464d933e663f351b11601b146e10795e17f37b549cf2915",
+   "bytes": 126846,
+   "uploaded_at": "2026-10-28T22:55:24+00:00",
+   "original_sha256": "3017a225fc3c5f7cffe9f045e59c3e2b54a303cb3694428b2789ae859d94df11",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gt40open-interieur1-0",
+   "key": "beneteau/gran-turismo-40-open/interior/gt40open-interieur1-0-dc5570dd.webp",
+   "sha256": "dc5570dd90ad2a86c3e01befdaa4a1c488ad9c3c81558e43ca68048148411901",
+   "bytes": 102954,
+   "uploaded_at": "2026-10-28T22:55:24+00:00",
+   "original_sha256": "9328bc2097db5b6359ecc02e9f91761d2eabedb8e6c370909ed91456a81624e8",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gt40open-interieur3",
+   "key": "beneteau/gran-turismo-40-open/interior/gt40open-interieur3-0e6c59eb.webp",
+   "sha256": "0e6c59eb6d0521c8253e045346fa549f63ae1eab35009bd9df80cae39a95920e",
+   "bytes": 132118,
+   "uploaded_at": "2026-10-28T22:55:25+00:00",
+   "original_sha256": "11633b0f012a3107d93396b8b03ec429353395d5962889da7af82e5d962d63af",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gt40open-interieur4",
+   "key": "beneteau/gran-turismo-40-open/interior/gt40open-interieur4-732251bb.webp",
+   "sha256": "732251bb56a09d62149f5d5af66de7576a9ad5e2a0bafa5b908aa6f39ff9f8be",
+   "bytes": 114160,
+   "uploaded_at": "2026-10-28T22:55:25+00:00",
+   "original_sha256": "b82931d827c3d5d4937ac1e6156ee21e7867cc5e468557ab9ff65bed9b51c2b4",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gt40open-interieur5",
+   "key": "beneteau/gran-turismo-40-open/interior/gt40open-interieur5-b78fa6ee.webp",
+   "sha256": "b78fa6ee71f55090336153914ebb71cbbeb321d112b1a8c6c902d6336955563d",
+   "bytes": 50178,
+   "uploaded_at": "2026-10-28T22:55:25+00:00",
+   "original_sha256": "87c0e1f2b7f185e4e589473e7c1244a0ede66539b15309e2196c773d3c1f31e2",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "motor-yacht-gran-turismo-40-open-slider-3280x1132",
+   "key": "beneteau/gran-turismo-40-open/detail/motor-yacht-gran-turismo-40-open-slider-3280x1132-e496e93a.webp",
+   "sha256": "e496e93aebdbef0528ab796ad588e2f49b1820516849f9234e5451d9365a6a93",
+   "bytes": 235832,
+   "uploaded_at": "2026-10-28T22:55:25+00:00",
+   "original_sha256": "dbe237363db989e7b79976c2a6abab4a0ce818001fcc1b38b86981dafb535272",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "motor-yacht-gran-turismo-40-open-slider-3280x1132-02",
+   "key": "beneteau/gran-turismo-40-open/detail/motor-yacht-gran-turismo-40-open-slider-3280x1132-02-f9371eab.webp",
+   "sha256": "f9371eab2dcf358a0ecb22de8b5377cdd9df075b4a4b1908b613bb7b4d5dd0ba",
+   "bytes": 120952,
+   "uploaded_at": "2026-10-28T22:55:25+00:00",
+   "original_sha256": "2c9bded1c522d42c21729573988e5c4e5f8c3a729788203c70d1f83a7b989b38",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gt40open-usp3",
+   "key": "beneteau/gran-turismo-40-open/detail/gt40open-usp3-9077b37e.webp",
+   "sha256": "9077b37ebb4ae56e66b4f57106a3ffa8e5904407481c028c3a462fbe4d1b4847",
+   "bytes": 57246,
+   "uploaded_at": "2026-10-28T22:55:25+00:00",
+   "original_sha256": "0ba6d1207e5eabcceeb8e345e1c441a3f0b0495c41618e28163048515ef63fa6",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gt40open-profile-version-standard-hors-bord",
+   "key": "beneteau/gran-turismo-40-open/plans/gt40open-profile-version-standard-hors-bord-2b8b16c0.webp",
+   "sha256": "2b8b16c096b8b3291d89a2848f982a2e2d3dbe4a254a60427afd86e1702263b1",
+   "bytes": 10070,
+   "uploaded_at": "2026-10-28T22:55:25+00:00",
+   "original_sha256": "7962a286126a9238f0cd238433b31e5ab2435ae72e36835c7352b920d2228b33",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gt40open-profile-version-standard-inbord",
+   "key": "beneteau/gran-turismo-40-open/plans/gt40open-profile-version-standard-inbord-296cb301.webp",
+   "sha256": "296cb301fc6464fbe191a7f46ad170cf4ae4e8cc16f345f65778649958fb5f43",
+   "bytes": 10084,
+   "uploaded_at": "2026-10-28T22:55:25+00:00",
+   "original_sha256": "df899fe200da9a6d094b575c8e593a045231de037957b653eed2f561ab340b5f",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gt40open-profile-version-alpine-hors-bord",
+   "key": "beneteau/gran-turismo-40-open/plans/gt40open-profile-version-alpine-hors-bord-4e2684c9.webp",
+   "sha256": "4e2684c99d296ed4c87936bb8aa5c589cf271432e9ec7416ffd1f4cc4757cc8b",
+   "bytes": 10880,
+   "uploaded_at": "2026-10-28T22:55:25+00:00",
+   "original_sha256": "99f544f4ec7f43ae1ada12bf5317b825d8b6cfa3126bccf59246830a0c81894f",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gt40open-profile-version-alpine-inbord",
+   "key": "beneteau/gran-turismo-40-open/plans/gt40open-profile-version-alpine-inbord-21a9f558.webp",
+   "sha256": "21a9f558ce4c927874c58ca272c5408545b006d030b99320a53caa378bac4d0e",
+   "bytes": 10706,
+   "uploaded_at": "2026-10-28T22:55:25+00:00",
+   "original_sha256": "8060656f3c5becf3254340ce571a5be1e1d32c988d61a119baaa0dec892e6b8c",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gt40open-layout-t-top-hb-standard-t-top-ob-standard",
+   "key": "beneteau/gran-turismo-40-open/plans/gt40open-layout-t-top-hb-standard-t-top-ob-standard-113aee02.webp",
+   "sha256": "113aee025880e52f1bfadaa18ab0c3541f9933b878505282cf0367be83ec8425",
+   "bytes": 41958,
+   "uploaded_at": "2026-10-28T22:55:25+00:00",
+   "original_sha256": "e15b637d572a947b307ebe19d8509a3e678196f509d8456f23753aafd8af7626",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gt40open-layout-pont-principal-ob-standard-main-deck-ob-standard",
+   "key": "beneteau/gran-turismo-40-open/plans/gt40open-layout-pont-principal-ob-standard-main-deck-ob-standard-14a6d83c.webp",
+   "sha256": "14a6d83c3501093d3eee5152fa3fbd7e9afd6b067e1b0758f23581c3705bdb5b",
+   "bytes": 47290,
+   "uploaded_at": "2026-10-28T22:55:25+00:00",
+   "original_sha256": "da597d1d211dfcd91ce83ec2782f80a88b09e41581341008d1a55231c5258f53",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gt40open-layout-pont-inf-rieur-cabines-lower-deck-cabins",
+   "key": "beneteau/gran-turismo-40-open/plans/gt40open-layout-pont-inf-rieur-cabines-lower-deck-cabins-8e2b025b.webp",
+   "sha256": "8e2b025bbbe44c6ec50ceb0608363237b154b86a488dbf5aa3a44072a6d9935e",
+   "bytes": 26688,
+   "uploaded_at": "2026-10-28T22:55:26+00:00",
+   "original_sha256": "2dbb2eeca8f056809ebff66b873cce87ba2f7cf510c837916c2230587c6806f7",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gt40open-layout-pont-inf-rieur-salon-lower-deck-salon",
+   "key": "beneteau/gran-turismo-40-open/plans/gt40open-layout-pont-inf-rieur-salon-lower-deck-salon-7c922da7.webp",
+   "sha256": "7c922da7a7fabb9e54be0b186b926f995e1f46cc8cb1eb3fa26c3afd654b758c",
+   "bytes": 27032,
+   "uploaded_at": "2026-10-28T22:55:26+00:00",
+   "original_sha256": "f79b45e6e7d3e29e1ce03c88a4f847a62bcd6541755fca1752b67ad7fdb91bc5",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  }
+ ]
+}

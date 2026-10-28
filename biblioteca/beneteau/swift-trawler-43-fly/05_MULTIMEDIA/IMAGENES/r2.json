@@ -1,0 +1,369 @@
+{
+ "version": 1,
+ "images": [
+  {
+   "id": "hero-st43-fly-header",
+   "key": "beneteau/swift-trawler-43-fly/hero/hero-st43-fly-header-2531832f.webp",
+   "sha256": "2531832fddc302176e224afb332ebe02a95a1467e7d15327de8081dfa4175ad8",
+   "bytes": 201326,
+   "uploaded_at": "2026-10-28T22:56:16+00:00",
+   "original_sha256": "6426890413a3db6ef5eb8d906defa36e70607d299e305f6adaa14cadb9db8b6c",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "st43fly-exterieur1-full-option",
+   "key": "beneteau/swift-trawler-43-fly/exterior/st43fly-exterieur1-full-option-1c759cea.webp",
+   "sha256": "1c759ceaf43e75aa079522b8007295969bbf672ddcd210eb72590b43208309dc",
+   "bytes": 266000,
+   "uploaded_at": "2026-10-28T22:56:16+00:00",
+   "original_sha256": "f4ba1df0988d0771ac9d7125c705b67694b7cfe8eb1b9ecd639327b0b2209392",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "st43fly-exterieur2-full-option",
+   "key": "beneteau/swift-trawler-43-fly/exterior/st43fly-exterieur2-full-option-e8fe82aa.webp",
+   "sha256": "e8fe82aa88c06034cd7ce43ed7b6aa10ef28931af86058284d5cb97f1ea62903",
+   "bytes": 220836,
+   "uploaded_at": "2026-10-28T22:56:16+00:00",
+   "original_sha256": "030de8082fc4e6fb1f701d5d838574f503bd130c3c4f25a2773e065b0fc494cf",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "st43fly-exterieur3-full-option",
+   "key": "beneteau/swift-trawler-43-fly/exterior/st43fly-exterieur3-full-option-add069f3.webp",
+   "sha256": "add069f346ce076072a7143e15eb04ae34736586b1ced9445c417b1e7b00c052",
+   "bytes": 106840,
+   "uploaded_at": "2026-10-28T22:56:16+00:00",
+   "original_sha256": "f0f5cac068ea65b37217ed40a7440612e78a94b8d27e5811b4ef1799808ea56a",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "st43fly-exterieur5-full-option",
+   "key": "beneteau/swift-trawler-43-fly/exterior/st43fly-exterieur5-full-option-f90bf1ba.webp",
+   "sha256": "f90bf1ba8e4bcc3293863f938cdfe7b1eec5c8d6c74c00127dca75d95ef4e8a4",
+   "bytes": 146784,
+   "uploaded_at": "2026-10-28T22:56:16+00:00",
+   "original_sha256": "3b4758835ead97c7324d4b1a6309c4ce893fe0ebb4ed681080f0dcde0a20731b",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "st43fly-exterieur6-full-option",
+   "key": "beneteau/swift-trawler-43-fly/exterior/st43fly-exterieur6-full-option-5d3dc613.webp",
+   "sha256": "5d3dc613b727e604dff63e7b04b5487c9b494b6a0e810d1f996f1f0bf88147b3",
+   "bytes": 158786,
+   "uploaded_at": "2026-10-28T22:56:16+00:00",
+   "original_sha256": "435a11db0cab6dda8fbeef1a3c82cef46ee6ab41e9b85922c7ba97e29fbe3c44",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "st43fly-exterieur7-full-option",
+   "key": "beneteau/swift-trawler-43-fly/exterior/st43fly-exterieur7-full-option-f543e717.webp",
+   "sha256": "f543e717b2939f21f812dc10ae836e41396304870958751cfa765fc14914cad3",
+   "bytes": 146672,
+   "uploaded_at": "2026-10-28T22:56:16+00:00",
+   "original_sha256": "7e3f82594ce85e2b1f989020fc8aacb746fd4804c5a8006860bc17926fabebc1",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "st43fly-interieur1-full-option",
+   "key": "beneteau/swift-trawler-43-fly/interior/st43fly-interieur1-full-option-3818d159.webp",
+   "sha256": "3818d159cc03c14364e634940bde53c4b54c78840fd1ed9a3cd13469da347e52",
+   "bytes": 108712,
+   "uploaded_at": "2026-10-28T22:56:16+00:00",
+   "original_sha256": "2e7f7b5d7c8edeeee0f4b36ec934b770f727fbe317d51672ba32c29cadbe6197",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "st43fly-interieur2-full-option",
+   "key": "beneteau/swift-trawler-43-fly/interior/st43fly-interieur2-full-option-ab4d9183.webp",
+   "sha256": "ab4d918332f8ad2240fe6e07dc428274f68bc67204458b4b789c153731db89b5",
+   "bytes": 144888,
+   "uploaded_at": "2026-10-28T22:56:17+00:00",
+   "original_sha256": "61d16fcc6a3ab894927f819e432f8975dc91dac3ac8103536c4f0ac3d68dcee1",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "st43fly-interieur4-full-option",
+   "key": "beneteau/swift-trawler-43-fly/interior/st43fly-interieur4-full-option-71706cf2.webp",
+   "sha256": "71706cf28f4a6e88ec0808fe2930eee0593c064831d3c51016f5bd815f2d76a3",
+   "bytes": 129282,
+   "uploaded_at": "2026-10-28T22:56:17+00:00",
+   "original_sha256": "3bee9df0fd769939fbde626a8d78cc1e9b5d014b7ba3e6a132c9df2fc6b79223",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "st43fly-interieur6-full-option",
+   "key": "beneteau/swift-trawler-43-fly/interior/st43fly-interieur6-full-option-0f6c7ba0.webp",
+   "sha256": "0f6c7ba02d6a50dc64fff1173be588ba49a32c2315f4132c06fbf2721445f2ab",
+   "bytes": 145724,
+   "uploaded_at": "2026-10-28T22:56:17+00:00",
+   "original_sha256": "0e5a4e2acfc6c08cf9118808817df0796b7e4f7b8e66d063f6f07a5a9c5f4222",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "swift-trawler-43-sedan-interior-design-lower-deck-03",
+   "key": "beneteau/swift-trawler-43-fly/interior/swift-trawler-43-sedan-interior-design-lower-deck-03-dbfafc87.webp",
+   "sha256": "dbfafc87d03c70af4c051c5f818651071d0f0489678c0c3a6f6c9d3a0cf5873a",
+   "bytes": 83248,
+   "uploaded_at": "2026-10-28T22:56:17+00:00",
+   "original_sha256": "8ec87fa801a58cdb97c47575933540121519ced96d44587392ffe76791ef1938",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "swift-trawler-43-sedan-interior-design-lower-deck-01",
+   "key": "beneteau/swift-trawler-43-fly/interior/swift-trawler-43-sedan-interior-design-lower-deck-01-0f7681f1.webp",
+   "sha256": "0f7681f1a542145ceca3c75039ed9d3e227359e64b9de9816c2c917a5a0a0fc8",
+   "bytes": 74872,
+   "uploaded_at": "2026-10-28T22:56:17+00:00",
+   "original_sha256": "891cab0922ee5f42e298e564f5ca54c69f41ff3c2a2826de0c52b9e877b24c7d",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "swift-trawler-43-sedan-interior-design-lower-deck-02",
+   "key": "beneteau/swift-trawler-43-fly/interior/swift-trawler-43-sedan-interior-design-lower-deck-02-49e947c8.webp",
+   "sha256": "49e947c836e3f3889e118b5c43b0ba9d031570e0078c39e932560f36cbe27597",
+   "bytes": 53878,
+   "uploaded_at": "2026-10-28T22:56:17+00:00",
+   "original_sha256": "6e06b946aecbf2ad707f34cb09d784519edacf935156843af04652732d51d8c4",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "swift-trawler-43-sedan-interior-design-lower-deck-04",
+   "key": "beneteau/swift-trawler-43-fly/interior/swift-trawler-43-sedan-interior-design-lower-deck-04-30fc63e4.webp",
+   "sha256": "30fc63e4534e19aeb35a9ebe9e6bc503b86b90deae5424320d77b120f8b792d3",
+   "bytes": 96910,
+   "uploaded_at": "2026-10-28T22:56:17+00:00",
+   "original_sha256": "131a5582daf7ece0be3fd958f0b7a5c0d0b62f4acdbcbd962607c88e70cc2842",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "swift-trawler-43-sedan-interior-design-lower-deck-05",
+   "key": "beneteau/swift-trawler-43-fly/interior/swift-trawler-43-sedan-interior-design-lower-deck-05-e605a7cb.webp",
+   "sha256": "e605a7cb3abf33c664c0b5f7d50ef09415fa49f5288c856520c3f6a3646c85a9",
+   "bytes": 32968,
+   "uploaded_at": "2026-10-28T22:56:17+00:00",
+   "original_sha256": "231bbf16d86470d8ccba08a6ecc174d183dac3d4df4cbfa715c578eb1f8fd046",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "st43-fly-usp-1",
+   "key": "beneteau/swift-trawler-43-fly/detail/st43-fly-usp-1-a9965cb9.webp",
+   "sha256": "a9965cb9193a7a8c0f6ef378151e934148aeb069818b19f2a1e26a89499e2d83",
+   "bytes": 106942,
+   "uploaded_at": "2026-10-28T22:56:18+00:00",
+   "original_sha256": "1608b68bb522be8bd8103e828f2322618882528a49e669f476aa6dddc179036b",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "st43-fly-usp-2",
+   "key": "beneteau/swift-trawler-43-fly/detail/st43-fly-usp-2-d1ba3e10.webp",
+   "sha256": "d1ba3e10e289f169b0199990cf5befdc20e08db2cee2b04d21b911ea5c6a902c",
+   "bytes": 108932,
+   "uploaded_at": "2026-10-28T22:56:18+00:00",
+   "original_sha256": "8acf28dc80124a1bee49713c42ae487ab9647ff549e3f234a86fbac8bf85e685",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "st43-fly-usp-3",
+   "key": "beneteau/swift-trawler-43-fly/detail/st43-fly-usp-3-79207965.webp",
+   "sha256": "79207965ae02d2f480455be55e4830cdbf2d5165492eab5c385d14f2228f63ab",
+   "bytes": 76698,
+   "uploaded_at": "2026-10-28T22:56:18+00:00",
+   "original_sha256": "94317a5fa651a0047dd44d54ca896d166a092cff0923e335ab8755158cab5bab",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "st43fly-profile-ok",
+   "key": "beneteau/swift-trawler-43-fly/plans/st43fly-profile-ok-cc891495.webp",
+   "sha256": "cc89149548a56c38136f79278cce091afa600a095d0c7a1e6906af3efa589c29",
+   "bytes": 17734,
+   "uploaded_at": "2026-10-28T22:56:18+00:00",
+   "original_sha256": "7edc6a1b39b39186b686d07d8bde9255e1e48e6d5d3ea736df8721abe4f8c841",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "st-43-fly-standard-profile",
+   "key": "beneteau/swift-trawler-43-fly/plans/st-43-fly-standard-profile-cbddf806.webp",
+   "sha256": "cbddf806bd2b96334f8bfaaf4e6592c1c90a06e908909514f097d1515d3aa3b2",
+   "bytes": 14918,
+   "uploaded_at": "2026-10-28T22:56:18+00:00",
+   "original_sha256": "f6521cc85d4f2fdb3a1d9b54f3bfc4473a038923277617e62eaeb811d4bd6c95",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "st43fly-layout-flybridge-standard-ok",
+   "key": "beneteau/swift-trawler-43-fly/plans/st43fly-layout-flybridge-standard-ok-73ee7a73.webp",
+   "sha256": "73ee7a7331215372feb4a5e70a985552b271be5eb62451f300df9a717f048f95",
+   "bytes": 24942,
+   "uploaded_at": "2026-10-28T22:56:18+00:00",
+   "original_sha256": "12e9e86176b0ca2540503165fe23afd7e7336a95a865f68bf5c0f66f09951e4c",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "st43fly-layout-pont-principal-standard-ok",
+   "key": "beneteau/swift-trawler-43-fly/plans/st43fly-layout-pont-principal-standard-ok-13bc5b53.webp",
+   "sha256": "13bc5b53faac5619cd40cf6a2418a72d3487b2b6f0373b0fee6c1dd338eaace7",
+   "bytes": 35478,
+   "uploaded_at": "2026-10-28T22:56:18+00:00",
+   "original_sha256": "b024aa9d96b0c09833953affaab2639e79f699c96b969f780eecd4239f49309c",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "st43fly-layout-pont-inferieur-ok",
+   "key": "beneteau/swift-trawler-43-fly/plans/st43fly-layout-pont-inferieur-ok-93f3d9da.webp",
+   "sha256": "93f3d9da77baa93194a39de4a7c93494d4a3f64416777ab45c93ccca7814e36c",
+   "bytes": 42100,
+   "uploaded_at": "2026-10-28T22:56:18+00:00",
+   "original_sha256": "dd4be6510a2edbc56df947f99170e6f9ea07843259343a954ef36ae4934c15bd",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "st43fly-layout-panneaux-ouvrants-optionnel-ok",
+   "key": "beneteau/swift-trawler-43-fly/plans/st43fly-layout-panneaux-ouvrants-optionnel-ok-d827608b.webp",
+   "sha256": "d827608ba8766141a955078e058dffbfb2a856af7ff290ce537454b5433af1ad",
+   "bytes": 28450,
+   "uploaded_at": "2026-10-28T22:56:18+00:00",
+   "original_sha256": "2385001cfa249fa836c8cc639a596e5768f4830b01ffc013714c1582b11fe675",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "st43fly-layout-silent-boat-optionnel-ok",
+   "key": "beneteau/swift-trawler-43-fly/plans/st43fly-layout-silent-boat-optionnel-ok-6da327e0.webp",
+   "sha256": "6da327e0ca277f72b4aa24da793d93274b29b924384fbf109ff8900061f16f62",
+   "bytes": 29412,
+   "uploaded_at": "2026-10-28T22:56:19+00:00",
+   "original_sha256": "84c68f5bb6815ab00d823b1ab90816b0ef6ddf9ceb8537c85ad76835af46e1fd",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  }
+ ]
+}

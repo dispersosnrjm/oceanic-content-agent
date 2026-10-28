@@ -1,0 +1,411 @@
+{
+ "version": 1,
+ "images": [
+  {
+   "id": "first-44",
+   "key": "beneteau/first-44/hero/first-44-bfb25cb4.webp",
+   "sha256": "bfb25cb4cc573d3b73ac75c88b960a0bb7c00a187f114de776bff3d2070b8a12",
+   "bytes": 221690,
+   "uploaded_at": "2026-10-28T22:54:36+00:00",
+   "original_sha256": "fb2f0181111fecbe6bcf5d875b71c2b7d8bc7642e727dcaf761c7bfb95533644",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "first44-ext1",
+   "key": "beneteau/first-44/exterior/first44-ext1-e084d7f2.webp",
+   "sha256": "e084d7f272bc5b08e25f11ed5ef136dc51718b6cabcf6831ee5ae568c8eab408",
+   "bytes": 223104,
+   "uploaded_at": "2026-10-28T22:54:36+00:00",
+   "original_sha256": "e8f56e2c2a34a67def379d5e86e4b37ab84d623510ab28374813b2f9d99fba10",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "first44-cruising-ext4",
+   "key": "beneteau/first-44/exterior/first44-cruising-ext4-d8512fbe.webp",
+   "sha256": "d8512fbe25f326065c5b5fe8f460662f9785ba9745c650049f3c4671826d80fd",
+   "bytes": 254604,
+   "uploaded_at": "2026-10-28T22:54:36+00:00",
+   "original_sha256": "12584e0f2358c8bf30cda3885d194280603985448fe49f86d9abb212506efd87",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "first44-ext3",
+   "key": "beneteau/first-44/exterior/first44-ext3-cbbcb627.webp",
+   "sha256": "cbbcb627a7aa51701b5f8156846ed9634b92a03e7d15b0a8cd68b936851c10d2",
+   "bytes": 177458,
+   "uploaded_at": "2026-10-28T22:54:36+00:00",
+   "original_sha256": "098dbdb0e4b1c159f9f268e6915fde356e0ad6e3235eec61b1c6475e10180b40",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "first44-ext4",
+   "key": "beneteau/first-44/exterior/first44-ext4-4a718a27.webp",
+   "sha256": "4a718a27e6b8932177a2eeb4336caf40d1e4697e66d056bcd8bb2c1d441bfb44",
+   "bytes": 106262,
+   "uploaded_at": "2026-10-28T22:54:36+00:00",
+   "original_sha256": "4b07c41f14069e2f71238f0dfe61c74f95f04296d357b22ffb31a094cc5b9d60",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "first44-cruising-ext5",
+   "key": "beneteau/first-44/exterior/first44-cruising-ext5-76a35bc5.webp",
+   "sha256": "76a35bc523d99e4ca03d0bea8aba9fa8e486b74d5e7b5296097cb178f7d8e596",
+   "bytes": 99300,
+   "uploaded_at": "2026-10-28T22:54:36+00:00",
+   "original_sha256": "12fe73cf75664ffcea53e2f77375257e9bd8c3e7ef72f032bd12ef28c874665a",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "first44-ext6",
+   "key": "beneteau/first-44/exterior/first44-ext6-fd9f31cd.webp",
+   "sha256": "fd9f31cd8479c39d7a2435105e2b2c0dc295abf40251d84c24d94cc22ff15101",
+   "bytes": 85680,
+   "uploaded_at": "2026-10-28T22:54:36+00:00",
+   "original_sha256": "ca60aa198494a55f47b86fdd6fd3c02125c2aee1e0567293fd9b8d9751173c7c",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "first44-cruising-ext6",
+   "key": "beneteau/first-44/exterior/first44-cruising-ext6-cef3d5cc.webp",
+   "sha256": "cef3d5cc91ef1dc040384e4e53a555efb351946a4efafb5a8ebecbede263c882",
+   "bytes": 174302,
+   "uploaded_at": "2026-10-28T22:54:36+00:00",
+   "original_sha256": "57a49cd3015f2304fb5672afc6379f70f79c637803f3b200a19c3e3053c3430c",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "first44-ext2",
+   "key": "beneteau/first-44/exterior/first44-ext2-234cf55e.webp",
+   "sha256": "234cf55ecd45a4a385a059574b1779c7b711aa53df51f6524137fd94fc25007f",
+   "bytes": 281732,
+   "uploaded_at": "2026-10-28T22:54:37+00:00",
+   "original_sha256": "5e30af42f9954cef2c7e1a7f239f76a9c04b2755714ceeb04d2ace1a6b285e94",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "first44-ext1-2",
+   "key": "beneteau/first-44/exterior/first44-ext1-2-c195b866.webp",
+   "sha256": "c195b866ba540b9288ceba6de1e4b39bd97e7044b284a5aacb8e17b0b99fa87d",
+   "bytes": 86402,
+   "uploaded_at": "2026-10-28T22:54:37+00:00",
+   "original_sha256": "d4cbef49bb12c2646bf615f839208d7a7a87177721ef3f989f8be8e319e74f35",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "first44-ext10",
+   "key": "beneteau/first-44/exterior/first44-ext10-eeb9c7f0.webp",
+   "sha256": "eeb9c7f0cbc4880c33ebd23116dc2697580c00faad064fcd778f7a7ae5682faf",
+   "bytes": 347244,
+   "uploaded_at": "2026-10-28T22:54:37+00:00",
+   "original_sha256": "86fac6082f7219a77d556fc0442e640b88d1765b7b1c0a6e786ef3350e961b0e",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "first44-ext5",
+   "key": "beneteau/first-44/exterior/first44-ext5-ce4b5404.webp",
+   "sha256": "ce4b540411e1930e93d101ab9ac22b94cca6a1f7ad165d3d9f6b3771543e7312",
+   "bytes": 128384,
+   "uploaded_at": "2026-10-28T22:54:37+00:00",
+   "original_sha256": "6b3d62700bd2273ddb753396489da03c51236d6485969a1a4476b133b4f4b909",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "first44-ext4-2",
+   "key": "beneteau/first-44/exterior/first44-ext4-2-4b6cb152.webp",
+   "sha256": "4b6cb15237330beec7cc1375cdc6efd47092172b1562a8ca9eafc07df73206ed",
+   "bytes": 105398,
+   "uploaded_at": "2026-10-28T22:54:37+00:00",
+   "original_sha256": "03bf69653119e239f3ca42abdf70b5d9f8b875bc6e140170f8d0682724b5dfb7",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "first44-cruising-ext3",
+   "key": "beneteau/first-44/exterior/first44-cruising-ext3-4656d608.webp",
+   "sha256": "4656d608001f458d40e88c41493655a73ea64e14b32a494dc0e8c6facd28bb56",
+   "bytes": 222822,
+   "uploaded_at": "2026-10-28T22:54:37+00:00",
+   "original_sha256": "9012a62dae9a9486afe0ac476bde9f53defbdbb47944f8e5c2e7fd5d849df224",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "first44-ext3-2",
+   "key": "beneteau/first-44/exterior/first44-ext3-2-9d3c800f.webp",
+   "sha256": "9d3c800fd42701e1fccdee792d4b1158004e5cd47e409be9b0b90f8deb0c0321",
+   "bytes": 75976,
+   "uploaded_at": "2026-10-28T22:54:37+00:00",
+   "original_sha256": "15aa222194b68955992e261396cef23364ffdd49bc74eeb04960f9994af37e7a",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "first44-int8",
+   "key": "beneteau/first-44/interior/first44-int8-d7058638.webp",
+   "sha256": "d70586383d606733decc38a342c06220edf05e7632de531148aa1fa0b4f360c3",
+   "bytes": 78728,
+   "uploaded_at": "2026-10-28T22:54:37+00:00",
+   "original_sha256": "eb207d74b59e836b923417f0088f44ae4f713659eef18ab86ac99a93f6428c8a",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "first44-int4",
+   "key": "beneteau/first-44/interior/first44-int4-811e3751.webp",
+   "sha256": "811e37513a18c3aecbc94eda9d5a56c7f1e42e32d2a7a907893dc96917e753ad",
+   "bytes": 106276,
+   "uploaded_at": "2026-10-28T22:54:37+00:00",
+   "original_sha256": "08f15d467373a18226756f381cb50007a733ca9ada0fa14b817e2e5cf5df7351",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "first44-int3",
+   "key": "beneteau/first-44/interior/first44-int3-2752140f.webp",
+   "sha256": "2752140fb5e2a0d5c0f408e41a36ce6c7d47bbfe81ed8c75f281694113f0b8c7",
+   "bytes": 89948,
+   "uploaded_at": "2026-10-28T22:54:37+00:00",
+   "original_sha256": "a3a4ab4e6581ee06e0aa0e6d96ca8f1d7697e389979278dee25e14d904b96567",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "first44-int7",
+   "key": "beneteau/first-44/interior/first44-int7-77ccdbf0.webp",
+   "sha256": "77ccdbf02b22daa6454732edfd483cbf3befe5da8bb42374bfe04e460dece30b",
+   "bytes": 83132,
+   "uploaded_at": "2026-10-28T22:54:37+00:00",
+   "original_sha256": "f2760d8112909299bafe0f13502b981c2431e3e797c8c76fc0909da80e440618",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "first44-int5",
+   "key": "beneteau/first-44/interior/first44-int5-d8c96042.webp",
+   "sha256": "d8c96042a5d554fc8de5463df45b7afcc09cc6197a4eabba62ac3896853911c6",
+   "bytes": 73670,
+   "uploaded_at": "2026-10-28T22:54:37+00:00",
+   "original_sha256": "151589596a2362814c7babc0baec19dc01596bf81ca2182b8744615ef0d82d44",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "first44-int2",
+   "key": "beneteau/first-44/interior/first44-int2-94d35d59.webp",
+   "sha256": "94d35d59d8ebe67fd820dd77d06f97c30ca84c1ff6dc3ece4cc520ca995b8d71",
+   "bytes": 71094,
+   "uploaded_at": "2026-10-28T22:54:37+00:00",
+   "original_sha256": "12854cfa6fb208d1aea1882d0278208c6ebc43e70fafc23237fc8b8015fd7b08",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "first44-int6",
+   "key": "beneteau/first-44/interior/first44-int6-e6337dd2.webp",
+   "sha256": "e6337dd208e63494fa37180634f28636df332df98424a99724ef0b9924cffc9a",
+   "bytes": 72408,
+   "uploaded_at": "2026-10-28T22:54:37+00:00",
+   "original_sha256": "9edd81e0a58afc6c5f42fdd892573600e7bf8d1a48ad791e381faac485447c73",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "first44-int1",
+   "key": "beneteau/first-44/interior/first44-int1-ac81a707.webp",
+   "sha256": "ac81a7071f6252542451ac30cfeaafbc7f217ba7b9e30bfc75866d6db2dccec9",
+   "bytes": 63558,
+   "uploaded_at": "2026-10-28T22:54:38+00:00",
+   "original_sha256": "9dbdf97350d9679fc17be54cf5ac39350df5675659c14195697519b3295905bb",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "first44-usp3",
+   "key": "beneteau/first-44/detail/first44-usp3-f3caa197.webp",
+   "sha256": "f3caa1970bf0702b8b21ef6210819036838a83d67c83b2a14f04e5c37e528d26",
+   "bytes": 73986,
+   "uploaded_at": "2026-10-28T22:54:38+00:00",
+   "original_sha256": "bda9be37fde52d419f4dbb304d4b84348fa12eb6da121a349e9d7be5eba0b663",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "first44-usp2",
+   "key": "beneteau/first-44/detail/first44-usp2-8b43243b.webp",
+   "sha256": "8b43243bbd1da79182de88959ac71937ebd95c59430bc8a42030e330defac38d",
+   "bytes": 58746,
+   "uploaded_at": "2026-10-28T22:54:38+00:00",
+   "original_sha256": "9a12803eac64427a243f8976e5126abcbc1cfbf7b3408cb4883a0374ab9f3f31",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "profil-first44-cruising-shortkeel",
+   "key": "beneteau/first-44/plans/profil-first44-cruising-shortkeel-4d1ec154.webp",
+   "sha256": "4d1ec154c7b77cea4e68de4784e3bf4a4a168514bd26128939fff8cfd493bc83",
+   "bytes": 2350,
+   "uploaded_at": "2026-10-28T22:54:38+00:00",
+   "original_sha256": "569fafabaf641538f8b45c25013f641c8a602ecaa3b641ff287abf70523c8342",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "profile-first-44-no-sail-long-keel-0",
+   "key": "beneteau/first-44/plans/profile-first-44-no-sail-long-keel-0-e06a3909.webp",
+   "sha256": "e06a39096f8199c8b4bb1c8ffb4caced85c2ba1948208e3fcc4a690f303e60e1",
+   "bytes": 2542,
+   "uploaded_at": "2026-10-28T22:54:38+00:00",
+   "original_sha256": "2250927c8b33709ac38fe2b7fd5645e10960e2e95fc997ffa72c6129d387392a",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "first44-plan-interne",
+   "key": "beneteau/first-44/plans/first44-plan-interne-391d424a.webp",
+   "sha256": "391d424ac61ba9c76cc4c583e8b71a53fef6f3fbfce03582af15d7555c5ae76e",
+   "bytes": 12768,
+   "uploaded_at": "2026-10-28T22:54:39+00:00",
+   "original_sha256": "795d392adc5546469ac8e09bc7c44c06d0e678cc9e39f2eead2456ee8abbb6fd",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "first44-cruising-ext",
+   "key": "beneteau/first-44/plans/first44-cruising-ext-98971ebf.webp",
+   "sha256": "98971ebf77b08b2e88aa059c0c2e407c4a5a5a5a04b9c9a9e5dcbf22745ad647",
+   "bytes": 18030,
+   "uploaded_at": "2026-10-28T22:54:39+00:00",
+   "original_sha256": "2b22fae7efa3cb2ea4a4de0529b026f806a6f3b5a995c3b5acd2e8aa93960606",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  }
+ ]
+}

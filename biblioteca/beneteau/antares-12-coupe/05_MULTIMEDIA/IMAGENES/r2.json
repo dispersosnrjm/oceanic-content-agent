@@ -1,0 +1,285 @@
+{
+ "version": 1,
+ "images": [
+  {
+   "id": "antares-12-coupe",
+   "key": "beneteau/antares-12-coupe/hero/antares-12-coupe-20c282a2.webp",
+   "sha256": "20c282a2cc9b338d4d592df17aafd949221afbb5c86efe4fd443b3e820ca531b",
+   "bytes": 372534,
+   "uploaded_at": "2026-10-28T22:53:55+00:00",
+   "original_sha256": "894e01f2d39b50b7b1f380f7b5c3ccb0746ccfa776b66c3bafbf4029e0cde593",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares-12-coupe-exterior-1-0",
+   "key": "beneteau/antares-12-coupe/exterior/antares-12-coupe-exterior-1-0-30ca7579.webp",
+   "sha256": "30ca757972b180858a534fae744dd545de776137160bc5136728de3f60b0395a",
+   "bytes": 614702,
+   "uploaded_at": "2026-10-28T22:53:55+00:00",
+   "original_sha256": "1bac100d1092eafac3d60de825c3c18e973153919a85b9e6a00aa20d574ad6ee",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares-12-coupe-exterior-3",
+   "key": "beneteau/antares-12-coupe/exterior/antares-12-coupe-exterior-3-7e2e0da8.webp",
+   "sha256": "7e2e0da884d15dbe1434acdfad623d5064910c44ce7b7be76a0588d487a6b66e",
+   "bytes": 112576,
+   "uploaded_at": "2026-10-28T22:53:55+00:00",
+   "original_sha256": "e264bc9d78140d968064de0dcd5f7be98de27b462f6ab74052f46a0104bf7bfb",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares-12-coupe-exterior-5",
+   "key": "beneteau/antares-12-coupe/exterior/antares-12-coupe-exterior-5-758c5772.webp",
+   "sha256": "758c577209ad8b0aaf5282641155039b792ffd1cd89b830333fa963e58b928a8",
+   "bytes": 119780,
+   "uploaded_at": "2026-10-28T22:53:55+00:00",
+   "original_sha256": "be32eab7a9e6aed95c393519c1ac719f0c85081ea90ddfd775b2a5861b920164",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares-12-coupe-exterior-6",
+   "key": "beneteau/antares-12-coupe/exterior/antares-12-coupe-exterior-6-aac99ae9.webp",
+   "sha256": "aac99ae93f5d32b853129d8a079a2f8c8852d5308410928fa575098978746fd9",
+   "bytes": 111530,
+   "uploaded_at": "2026-10-28T22:53:55+00:00",
+   "original_sha256": "fc06d56c98f34d20430a3dde9492579a1f72062dcf0e707aae868199560d9782",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares-12-coupe-exterior-7",
+   "key": "beneteau/antares-12-coupe/exterior/antares-12-coupe-exterior-7-72daa6a2.webp",
+   "sha256": "72daa6a2f493921278276bcbc61446f823935d9043ae5494cce8deaa8e73326d",
+   "bytes": 187914,
+   "uploaded_at": "2026-10-28T22:53:55+00:00",
+   "original_sha256": "5ac7221ea215f821cf7ed484eb53d538299ce297534bd1456b65a077a74db7c6",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares-12-coupe-interior-8",
+   "key": "beneteau/antares-12-coupe/interior/antares-12-coupe-interior-8-a0edf61a.webp",
+   "sha256": "a0edf61a08aca16182f2a6ef4a24d35b196b7b4b697df672e28afd74c893546f",
+   "bytes": 121492,
+   "uploaded_at": "2026-10-28T22:53:55+00:00",
+   "original_sha256": "5e3f00dfed9e5c75c29587a71179b8185db89289e55be9807f884b96cbd7058e",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares-12-coupe-interior-9",
+   "key": "beneteau/antares-12-coupe/interior/antares-12-coupe-interior-9-0b9e8e03.webp",
+   "sha256": "0b9e8e03e35fb76b5367913559fc89f5ba3d19a76b27339d7804b41e815f59c5",
+   "bytes": 148762,
+   "uploaded_at": "2026-10-28T22:53:55+00:00",
+   "original_sha256": "c0da10e0905e4e6b5ca11aac8a10cc5de4e6ac69f7d1f07e76f92941627a35b8",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares-12-coupe-interior-01",
+   "key": "beneteau/antares-12-coupe/interior/antares-12-coupe-interior-01-abc93205.webp",
+   "sha256": "abc93205e856383304ae631c1afb925f804e2ab3681ae4f32e3803a64bcc52a6",
+   "bytes": 85100,
+   "uploaded_at": "2026-10-28T22:53:56+00:00",
+   "original_sha256": "97a1970e73f898990381106c87cf9e0e6bceed96d861d3845d9d1129ded3f968",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares-12-coupe-interior-5",
+   "key": "beneteau/antares-12-coupe/interior/antares-12-coupe-interior-5-cb5583d6.webp",
+   "sha256": "cb5583d6b7d04374ab169ec0591b354d74800b79a278cfdc4eba66296c384338",
+   "bytes": 143652,
+   "uploaded_at": "2026-10-28T22:53:56+00:00",
+   "original_sha256": "ee69ef332bb46fbd281ab32e6533e5b7e274d1b401a22ec7ef342d0677323b4a",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares-12-coupe-boat-meet-slider-usp1-1",
+   "key": "beneteau/antares-12-coupe/detail/antares-12-coupe-boat-meet-slider-usp1-1-c75425a0.webp",
+   "sha256": "c75425a035406592982fad4307a7b4f9a450cdb7154ba9d171916ce38f9123eb",
+   "bytes": 81188,
+   "uploaded_at": "2026-10-28T22:53:56+00:00",
+   "original_sha256": "01ac73b745bf8364d2cce8a16867e83eba50d84a294aa656712dd50008c7e098",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares-12-coupe-boat-meet-slider-usp2-1",
+   "key": "beneteau/antares-12-coupe/detail/antares-12-coupe-boat-meet-slider-usp2-1-03094905.webp",
+   "sha256": "03094905f7013edd607b7a0d3a6819d40c307601f2fcb95aebbca997ffaebb3e",
+   "bytes": 196120,
+   "uploaded_at": "2026-10-28T22:53:56+00:00",
+   "original_sha256": "6ca2866624cb0fe17e866cf379c39d5d07df1375b2f25ec6dbe7bc206e4aae47",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares-12-coupe-interior-raffinement",
+   "key": "beneteau/antares-12-coupe/interior/antares-12-coupe-interior-raffinement-0c7302f6.webp",
+   "sha256": "0c7302f60461ab5e0ee29e3b20965f64bd3e3b821ee5eef96a5292b2050124ab",
+   "bytes": 75044,
+   "uploaded_at": "2026-10-28T22:53:56+00:00",
+   "original_sha256": "165f5d110b38aa952740f295021ce08fb1991795bc0c5941b3bdb811cb92de5d",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "exterieur-antares-12-technologie",
+   "key": "beneteau/antares-12-coupe/exterior/exterieur-antares-12-technologie-a9e6be19.webp",
+   "sha256": "a9e6be19fe42d6e60960dea4abeddea45bc10863e8a7240147a143a96b6cb169",
+   "bytes": 63102,
+   "uploaded_at": "2026-10-28T22:53:56+00:00",
+   "original_sha256": "3f403d2bebdc4479f1ed2cf5ab4d0277e47660a7c00758fd968bcd59162cb774",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "profile-antares-12-coupe",
+   "key": "beneteau/antares-12-coupe/plans/profile-antares-12-coupe-29b96ef7.webp",
+   "sha256": "29b96ef77f654ee8195ba6da9f1ed2561acd2d982caab7d8bbd02d22672c27ae",
+   "bytes": 28912,
+   "uploaded_at": "2026-10-28T22:53:56+00:00",
+   "original_sha256": "85614b195587ce6e67ab1ad56a9fa8ec5301f1115afafc9ca847d36874b414a0",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "png-a12-coupe-soft-top-b",
+   "key": "beneteau/antares-12-coupe/plans/png-a12-coupe-soft-top-b-83a421a6.webp",
+   "sha256": "83a421a67dcdc6f1d604def046b173972edf6906b55c60177bb1982b6e5a1325",
+   "bytes": 69480,
+   "uploaded_at": "2026-10-28T22:53:56+00:00",
+   "original_sha256": "d97860e2a1834b0391cb74d2409f3049d9ec838225cdab1300dbbf3f2676b5a8",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "png-a12-coupe-soft-top-c",
+   "key": "beneteau/antares-12-coupe/plans/png-a12-coupe-soft-top-c-e0edd22b.webp",
+   "sha256": "e0edd22b0b75654aa2140c3cae19faf58a3fb3c529ac3c331612aa64728cf181",
+   "bytes": 78072,
+   "uploaded_at": "2026-10-28T22:53:56+00:00",
+   "original_sha256": "3bc2118fc102e7cac7ba6440f6935e03e0f0b82b8c0ef9583a5b87dca5ae5c8d",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "png-a12-coupe-lower-deck",
+   "key": "beneteau/antares-12-coupe/plans/png-a12-coupe-lower-deck-48dc9493.webp",
+   "sha256": "48dc9493b092e1031429fc6e83d80de29af252f8ea5b7cdb361ddc5ec3e3970b",
+   "bytes": 76242,
+   "uploaded_at": "2026-10-28T22:53:56+00:00",
+   "original_sha256": "bdc9c6887309cc6863d8617408d018dfdf5850ff76b89089184d7bfdcb1b5bc5",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "png-a12-coupe-soft-top-a",
+   "key": "beneteau/antares-12-coupe/plans/png-a12-coupe-soft-top-a-0b36ebef.webp",
+   "sha256": "0b36ebefa4dabcb92b3b0c1de44e6ac87ec4d95f55f63e7c98db38a2690a8e77",
+   "bytes": 72318,
+   "uploaded_at": "2026-10-28T22:53:56+00:00",
+   "original_sha256": "f3819038f8c7ae862268639b6ba049cf97a73bd8cf8e51cc53dd580ccd8cecb2",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "png-a12-coupe-pont",
+   "key": "beneteau/antares-12-coupe/plans/png-a12-coupe-pont-0082af83.webp",
+   "sha256": "0082af83be1da68d905b59a86d1297a01305d35b7728fe645446c82117f2ff4e",
+   "bytes": 81512,
+   "uploaded_at": "2026-10-28T22:53:56+00:00",
+   "original_sha256": "2d557cf111c2bc013a8b6c0bfba6a8a29d14dff8c5e222a4cc69a2f1bc8e31a6",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  }
+ ]
+}

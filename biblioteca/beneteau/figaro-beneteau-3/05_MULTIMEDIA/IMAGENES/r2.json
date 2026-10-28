@@ -1,0 +1,201 @@
+{
+ "version": 1,
+ "images": [
+  {
+   "id": "figaro-3-desktop",
+   "key": "beneteau/figaro-beneteau-3/hero/figaro-3-desktop-70ce7222.webp",
+   "sha256": "70ce722232821607693af5b3859a96c89d11876f5b92e3266089cfd25a9d9817",
+   "bytes": 183262,
+   "uploaded_at": "2026-10-28T22:54:23+00:00",
+   "original_sha256": "a25c918b890cbf6bcbdebced2040be2befc5347f5843b7ed9f46752153e97f24",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "0032web",
+   "key": "beneteau/figaro-beneteau-3/exterior/0032web-2b1998a7.webp",
+   "sha256": "2b1998a7c622da3100d904f44c69a66613b27efb869088b6c4aeab51fc033b67",
+   "bytes": 139848,
+   "uploaded_at": "2026-10-28T22:54:23+00:00",
+   "original_sha256": "8d821b8e589246614b5bd9d946b0cce425a4017a0e928565c4f5974285c6e127",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "0608web",
+   "key": "beneteau/figaro-beneteau-3/exterior/0608web-728b43bc.webp",
+   "sha256": "728b43bccc3e860dc71d994d2cd5a47fde95ccb6c72e6e4057dae441140b6a3a",
+   "bytes": 231678,
+   "uploaded_at": "2026-10-28T22:54:23+00:00",
+   "original_sha256": "18427b208b25965e596682a19904af9a2aeece534d12dc27181c0ef729d0e47f",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "0780web",
+   "key": "beneteau/figaro-beneteau-3/exterior/0780web-2b0dce41.webp",
+   "sha256": "2b0dce41c6746a9714769ef79c921c2a51e28c713d2443dc9fb2da470a9945c1",
+   "bytes": 103940,
+   "uploaded_at": "2026-10-28T22:54:23+00:00",
+   "original_sha256": "f53bce8c63655b1fcb38b5987af0cd96cb779b6f8cf71c19292cd476dc95b002",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "1542",
+   "key": "beneteau/figaro-beneteau-3/exterior/1542-5989873c.webp",
+   "sha256": "5989873c75b00b77558054a21ce723c38e34f5ac6c75b862531e708f90f8e8b4",
+   "bytes": 117446,
+   "uploaded_at": "2026-10-28T22:54:23+00:00",
+   "original_sha256": "8afa9d275df8c705d416e27ef4c0be18b0b8015c5a6841b896ab7737a0629ec8",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "figaro3-2",
+   "key": "beneteau/figaro-beneteau-3/exterior/figaro3-2-3b3fe8dc.webp",
+   "sha256": "3b3fe8dca5f8a05b9888f0911a0db725fa3da7d3c7aa89731392b4c1d6ccb38d",
+   "bytes": 157782,
+   "uploaded_at": "2026-10-28T22:54:23+00:00",
+   "original_sha256": "b129205f9ef3ab49a42947ca7ff3cea7c6add655ff9efc54d4d97d14d21569e6",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "figaro3-1",
+   "key": "beneteau/figaro-beneteau-3/exterior/figaro3-1-34c8766d.webp",
+   "sha256": "34c8766d83867377b945d8857af32f0f02b2484681fc77daa04a74b1e0940f50",
+   "bytes": 199834,
+   "uploaded_at": "2026-10-28T22:54:23+00:00",
+   "original_sha256": "dfe17e1cf028c98161e924d4aecaf6668b7e0f76ee90a4790bb4f54fd1754ad4",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "figaro3-4",
+   "key": "beneteau/figaro-beneteau-3/exterior/figaro3-4-d4d781fa.webp",
+   "sha256": "d4d781fa789aad775dc8070a3ac6de40ac87584ca76f3cdf432d330b8a845b78",
+   "bytes": 177462,
+   "uploaded_at": "2026-10-28T22:54:24+00:00",
+   "original_sha256": "0381c6408024d80492c2b3b59da5cb30fab109249f3b642b1c1789a40d5fa1ed",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "figaro3-foils",
+   "key": "beneteau/figaro-beneteau-3/detail/figaro3-foils-b776c026.webp",
+   "sha256": "b776c0262a67e44689e4bf706389def35c6b5c786b33aa41923d56de7fa8a7ee",
+   "bytes": 249038,
+   "uploaded_at": "2026-10-28T22:54:24+00:00",
+   "original_sha256": "e5ca2b9803369ff9dcd39a422e4fb5bb24e2ad652165b3b42fd6805e4ebd1735",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "figaro3-quille",
+   "key": "beneteau/figaro-beneteau-3/detail/figaro3-quille-aa86f3e7.webp",
+   "sha256": "aa86f3e7b2a487dcce3f11225d5868f0eb3037859dc920c6cd6662c66dced694",
+   "bytes": 182558,
+   "uploaded_at": "2026-10-28T22:54:24+00:00",
+   "original_sha256": "686655ae0b82f25937a8f4d121d4b12b01ba711f06efb78aeb676b0a99bb39da",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "figaro3-carene",
+   "key": "beneteau/figaro-beneteau-3/detail/figaro3-carene-88ed5726.webp",
+   "sha256": "88ed5726aa599a9ce727f041caadd431fd36d30e149e38d6e009593563b1f436",
+   "bytes": 142396,
+   "uploaded_at": "2026-10-28T22:54:24+00:00",
+   "original_sha256": "a7e3576b6c03055828619ab233a3b7df11e7d561828e2de6ceef28ddc8354856",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "figaro3-mat",
+   "key": "beneteau/figaro-beneteau-3/detail/figaro3-mat-00a3b8e4.webp",
+   "sha256": "00a3b8e439b5fb4271edde31fbfeeb0174f20a89ecad0fd9d621a15c21dc1887",
+   "bytes": 113142,
+   "uploaded_at": "2026-10-28T22:54:24+00:00",
+   "original_sha256": "ed4e5c518e2a3c3cd2f3d93e9db892d657bd9d558f20d4057981a6af8bc6a6dc",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "profil-figaro",
+   "key": "beneteau/figaro-beneteau-3/plans/profil-figaro-865ba0cc.webp",
+   "sha256": "865ba0cc4da9fcc19fca3c0becff052596560e0fd26888716772d7737b68f835",
+   "bytes": 5210,
+   "uploaded_at": "2026-10-28T22:54:24+00:00",
+   "original_sha256": "d05dd14d6e32debcf327a0adff97040321ae701affe0af3f64868492e6c13d56",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "maquette-13",
+   "key": "beneteau/figaro-beneteau-3/plans/maquette-13-f2c78536.webp",
+   "sha256": "f2c78536305b9a61ed7e0cca0948fd9bb0c6cf0dd2fb9db31e967a183b20efc2",
+   "bytes": 18736,
+   "uploaded_at": "2026-10-28T22:54:24+00:00",
+   "original_sha256": "9c709b773caf509d4c6d45a79f3e48d225e4d72e74cdd4e45dd5b2b15bb6b3a0",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  }
+ ]
+}

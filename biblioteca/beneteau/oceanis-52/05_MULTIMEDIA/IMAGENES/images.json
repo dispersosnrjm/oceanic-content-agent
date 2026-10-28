@@ -631,14 +631,16 @@
       "declared_format": "jpg",
       "dam_tags": [],
       "model_year_tag": null,
-      "file": null,
-      "width": null,
-      "height": null,
-      "format": null,
-      "sha256": null,
+      "file": "05_MULTIMEDIA/IMAGENES/INTERIOR/oceanis-52-interior-4-0.webp",
+      "width": 1600,
+      "height": 873,
+      "format": "webp",
+      "sha256": "016384514aca72702666227e7da371313c66b2f5ae4ae5e00fcfe8cedeee71b4",
       "collected_at": "2026-09-27",
-      "downloaded_at": null,
-      "download_status": "PENDING"
+      "downloaded_at": "2026-10-28",
+      "download_status": "WEB_COPY",
+      "bytes": 94258,
+      "web_quality": 75
     },
     {
       "id": "oceanis-52-interior-5",

@@ -1,0 +1,313 @@
+{
+ "version": 1,
+ "images": [
+  {
+   "id": "first-36-se-desktop-cover-1920x550-1",
+   "key": "beneteau/first-36-se/hero/first-36-se-desktop-cover-1920x550-1-aa7c570a.webp",
+   "sha256": "aa7c570a7420d381627572a5a6bce802b22ddfce16013b9f3c7ecb054d8734a5",
+   "bytes": 143618,
+   "uploaded_at": "2026-10-28T22:54:31+00:00",
+   "original_sha256": "0ff6aa40b6f07fdc7957542add1efa11eb8a10f76c52a2d6cd481e5bb0df44c1",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "first-36-se-illu-slider-1440x810-02-0",
+   "key": "beneteau/first-36-se/underway/first-36-se-illu-slider-1440x810-02-0-485a1325.webp",
+   "sha256": "485a13258e53bf1c571796ef409b4602bbe660575022fdab5af2a8a29426b79e",
+   "bytes": 237310,
+   "uploaded_at": "2026-10-28T22:54:31+00:00",
+   "original_sha256": "ce85aa748b940ee446b79a41097f5e7aea11d54f98b70259b78a88b3b7f337c2",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "first-36-se-illu-slider-1440x810-04",
+   "key": "beneteau/first-36-se/underway/first-36-se-illu-slider-1440x810-04-89cfcee3.webp",
+   "sha256": "89cfcee36fe51fe06934d76dbf3d841de12786a43c488a4b1001694d5a3c3155",
+   "bytes": 232982,
+   "uploaded_at": "2026-10-28T22:54:31+00:00",
+   "original_sha256": "7b17b4290c4b132f6a8092d88a572893f140cd993ae3ba58f0b72acfa38cef25",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "first-36-se-illu-slider-1440x810-03",
+   "key": "beneteau/first-36-se/underway/first-36-se-illu-slider-1440x810-03-831436d3.webp",
+   "sha256": "831436d37e8cb15411290d9f304357effa3a606d4c415ab399d5773d333a666f",
+   "bytes": 57492,
+   "uploaded_at": "2026-10-28T22:54:31+00:00",
+   "original_sha256": "ed76c58c3c256c6ccf71184dfccd7da270879204adb232fd5d0f8767dc2de4be",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "first-36-se-illu-slider-1440x810-5",
+   "key": "beneteau/first-36-se/underway/first-36-se-illu-slider-1440x810-5-2a5eb17d.webp",
+   "sha256": "2a5eb17df311edba6c7e4d50a1c73b3d1377ea5cfc644d10e546ccd26e77ae3c",
+   "bytes": 113292,
+   "uploaded_at": "2026-10-28T22:54:31+00:00",
+   "original_sha256": "63f4d3d4dad18a83e14efd8e5b9354397b303eb012d768f3d2524943150b8b4f",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "first-36-se-illu-slider-1440x810-6",
+   "key": "beneteau/first-36-se/underway/first-36-se-illu-slider-1440x810-6-523cae66.webp",
+   "sha256": "523cae6699108200638b02499815ca8538a3722d85bd15bf0e4c804630b7205d",
+   "bytes": 147670,
+   "uploaded_at": "2026-10-28T22:54:31+00:00",
+   "original_sha256": "7e4cfb13c448129c2c5621d98d08fbab1dfc8d84033e92545c446cba4754c31b",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "first-36-se-illu-slider-1440x810-7",
+   "key": "beneteau/first-36-se/underway/first-36-se-illu-slider-1440x810-7-b1557913.webp",
+   "sha256": "b1557913a680650b085a061a6efaf143dee4cc33155258ceec16cb3b1acd6d11",
+   "bytes": 218136,
+   "uploaded_at": "2026-10-28T22:54:31+00:00",
+   "original_sha256": "d965cb49a8a474863055b7378d08b9421667f7f9ca8978981223aaccef853282",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "first-36-se-illu-slider-1440x810-8",
+   "key": "beneteau/first-36-se/underway/first-36-se-illu-slider-1440x810-8-f01dc31a.webp",
+   "sha256": "f01dc31a24e2bf21a66aad37f84ff6efc62e7eeb25a3bde4f40de8691d6587f0",
+   "bytes": 250760,
+   "uploaded_at": "2026-10-28T22:54:31+00:00",
+   "original_sha256": "212542c36ef05256e9d5c94a73553ff012923a3435759c08d5c85510e83bcdd5",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "first-36-se-illu-slider-2880x1572-01",
+   "key": "beneteau/first-36-se/interior/first-36-se-illu-slider-2880x1572-01-477b8fe9.webp",
+   "sha256": "477b8fe95c618016d53b71ba33c926f1133ca3d7919208f360b1a57cc93d5366",
+   "bytes": 52448,
+   "uploaded_at": "2026-10-28T22:54:31+00:00",
+   "original_sha256": "487cc578e9237690b83fcc0882ba7e0c894be377b8fe9d86298a847df391a7fa",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "first-36-se-illu-slider-2880x1572-02",
+   "key": "beneteau/first-36-se/interior/first-36-se-illu-slider-2880x1572-02-81e17f73.webp",
+   "sha256": "81e17f7337dff831ad65a5e452f38bc92cc0cbc58b0e2495e292c731df6c766f",
+   "bytes": 45198,
+   "uploaded_at": "2026-10-28T22:54:31+00:00",
+   "original_sha256": "e0f8b8299c6f8de9c69b154b83e3ccbfcb8d0a736a4abab368de4b0f30cd58bf",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "first-36-se-illu-slider-2880x1572-03",
+   "key": "beneteau/first-36-se/interior/first-36-se-illu-slider-2880x1572-03-b9e1d4bb.webp",
+   "sha256": "b9e1d4bbe9a7043f4c7b2fc93d7b27f38f14c0fee11cefa589f6655be631007c",
+   "bytes": 44318,
+   "uploaded_at": "2026-10-28T22:54:31+00:00",
+   "original_sha256": "80764958250a718e5608a6d05eca019654f331c413a2fedc914fb6c892ad2bfa",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "first-36-se-illu-slider-2880x1572-04",
+   "key": "beneteau/first-36-se/interior/first-36-se-illu-slider-2880x1572-04-139d2843.webp",
+   "sha256": "139d28432305902d7cb48828f7ac1de98507d058985efc191ed48d1b47b55cdf",
+   "bytes": 39280,
+   "uploaded_at": "2026-10-28T22:54:32+00:00",
+   "original_sha256": "84ead892bf47ef889569bf38c5dc83abfd0536fa6d609b40661a0a2ee3507c74",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "first-36-se-illu-slider-2880x1572-05",
+   "key": "beneteau/first-36-se/interior/first-36-se-illu-slider-2880x1572-05-4c5d462a.webp",
+   "sha256": "4c5d462ae9864b89e630969dfb75d6a725ea9843c01a6d5fded5800aed3f7298",
+   "bytes": 38666,
+   "uploaded_at": "2026-10-28T22:54:32+00:00",
+   "original_sha256": "23fcc0e35481f91c473a4a8c78b3703195fac2abb0ba1b9eecc4150438726dff",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "first-36-se-illu-slider-2880x1572-06",
+   "key": "beneteau/first-36-se/interior/first-36-se-illu-slider-2880x1572-06-e0ac8a80.webp",
+   "sha256": "e0ac8a80a8963b9e9599915419fc55012d6bac7043c40636cdc2a7490d2039db",
+   "bytes": 21680,
+   "uploaded_at": "2026-10-28T22:54:32+00:00",
+   "original_sha256": "21c1f238b3f1861e7643b8719266976d90759e1011a9589e092b1cc8f9b89655",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "first-36-se-illu-slider-2880x1572-07",
+   "key": "beneteau/first-36-se/interior/first-36-se-illu-slider-2880x1572-07-481fbe52.webp",
+   "sha256": "481fbe52d0da534ad072d2b8685545fcdf3bd3ac827938a36f7b6b2f1feb31d9",
+   "bytes": 44570,
+   "uploaded_at": "2026-10-28T22:54:32+00:00",
+   "original_sha256": "0be973f1c8aee464a13ec456b204ad8033672bca6201e3c15105b87c5cd2721c",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "first-36-se-illu-slider-1440x810-2",
+   "key": "beneteau/first-36-se/exterior/first-36-se-illu-slider-1440x810-2-ffb20b98.webp",
+   "sha256": "ffb20b98124db033895b1a577da2890816b0ecbc8211c259929818d7a26a398f",
+   "bytes": 63474,
+   "uploaded_at": "2026-10-28T22:54:32+00:00",
+   "original_sha256": "01a06f4b7548136a791d8bee111b61263b0886bd1f72b78a637d6ef1c8688762",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "first-36-se-illu-bloc-9-1650x569",
+   "key": "beneteau/first-36-se/detail/first-36-se-illu-bloc-9-1650x569-2f6e62c8.webp",
+   "sha256": "2f6e62c87da704e971547063ed68bb0b4ce2afcaa4850c59ec6db329ff76b311",
+   "bytes": 166906,
+   "uploaded_at": "2026-10-28T22:54:32+00:00",
+   "original_sha256": "6e1ab7508be4a0eebe4f7a1cb915596bfdaefba44797603a2d933df27ea6d556",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "first-36-se-illu-bloc-6-1650x569",
+   "key": "beneteau/first-36-se/detail/first-36-se-illu-bloc-6-1650x569-8c95f740.webp",
+   "sha256": "8c95f74063eea6fc4056eff6e3b1d854826cd8cf86694a936f8a2c86b8dcf303",
+   "bytes": 56900,
+   "uploaded_at": "2026-10-28T22:54:32+00:00",
+   "original_sha256": "5f8b29534ab835ebbebf3ab09df7e20a6becba743c62c22a159479dc24a4516f",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "first-36-se-illu-bloc-1650x569",
+   "key": "beneteau/first-36-se/detail/first-36-se-illu-bloc-1650x569-7eabf214.webp",
+   "sha256": "7eabf2142c976603596d2076632a62bd8490ceeb2b040180eebb68013b03be44",
+   "bytes": 225006,
+   "uploaded_at": "2026-10-28T22:54:32+00:00",
+   "original_sha256": "6447c27c68288a2c8123a012740311cae9838a6a7a4ff785089cd694606d9e5e",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "first-36-se-illu-bloc-7-1650x569",
+   "key": "beneteau/first-36-se/detail/first-36-se-illu-bloc-7-1650x569-d5858c4a.webp",
+   "sha256": "d5858c4a26fd6f300a35403009e58e6d630df17e317ce3fb00e3af9fdd0e20d7",
+   "bytes": 36248,
+   "uploaded_at": "2026-10-28T22:54:32+00:00",
+   "original_sha256": "72a88b12c921ab40b471654126a429e52f0c917a1bb62d0b333c0d25887a13ba",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "profile-first-36-se-no-sail",
+   "key": "beneteau/first-36-se/plans/profile-first-36-se-no-sail-3b526800.webp",
+   "sha256": "3b5268007ef17d08e328c1bb9b86c626dddd309f79257d45bb6ede1b936eb383",
+   "bytes": 9798,
+   "uploaded_at": "2026-10-28T22:54:32+00:00",
+   "original_sha256": "eca9f1a7d0f0e7251179712223e20ec644e8285efe0929d3890ddbbe59eba713",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "profile-first-36-se-sail",
+   "key": "beneteau/first-36-se/plans/profile-first-36-se-sail-4918ab53.webp",
+   "sha256": "4918ab5377f0149576febb76d8b0eb1fd82d4d1d901927e95eec87add873a0dc",
+   "bytes": 10460,
+   "uploaded_at": "2026-10-28T22:54:32+00:00",
+   "original_sha256": "fb08deaa9589c4eccfb80ea6e0868e3f51bcfc28ce22edbec7e2a6cd862bf275",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  }
+ ]
+}

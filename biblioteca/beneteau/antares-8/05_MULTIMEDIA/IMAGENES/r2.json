@@ -1,0 +1,439 @@
+{
+ "version": 1,
+ "images": [
+  {
+   "id": "antares-8-header",
+   "key": "beneteau/antares-8/hero/antares-8-header-1227d3b5.webp",
+   "sha256": "1227d3b5168e9f6600e3b5f8db092e8ca8355ed774d5602f1884975d9229a3d9",
+   "bytes": 294466,
+   "uploaded_at": "2026-10-28T22:54:09+00:00",
+   "original_sha256": "74c4ef9b5d64e332ddb3556e33b79562019f727b50f7c135c07ad293001fb8ef",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares-8-ext16-1",
+   "key": "beneteau/antares-8/exterior/antares-8-ext16-1-32b3282a.webp",
+   "sha256": "32b3282a9c0d460021f6ff2a6321d68eef5015390fb4e50a369c3e0735828464",
+   "bytes": 128664,
+   "uploaded_at": "2026-10-28T22:54:09+00:00",
+   "original_sha256": "ec0316fc24d9a7c61f8f2f45441bee08886bd0e15ec3231dd7460c01dea2fd26",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares-8-ext13-0",
+   "key": "beneteau/antares-8/exterior/antares-8-ext13-0-70c40887.webp",
+   "sha256": "70c4088726d670c35578a38e0b09bfe67d6ee8465406dd761309daf7447a88ca",
+   "bytes": 198510,
+   "uploaded_at": "2026-10-28T22:54:09+00:00",
+   "original_sha256": "86fa535edea85256eda0d8da0a1fe716b74c6c2739615124e969c61fd164fb2c",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares-8-ext15",
+   "key": "beneteau/antares-8/exterior/antares-8-ext15-267923e7.webp",
+   "sha256": "267923e742ddd8a01677efcfa4d6a508f6eb9586629ec6e652e4e5ce4101f5a5",
+   "bytes": 173636,
+   "uploaded_at": "2026-10-28T22:54:09+00:00",
+   "original_sha256": "131596616493b8d208ca3c3e4bcb5a03fba89c1fb4ffec38ee9957e83260f017",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares-8-ext14",
+   "key": "beneteau/antares-8/exterior/antares-8-ext14-273bb91b.webp",
+   "sha256": "273bb91b261cbdc6e1972757da7fbd6bcd5b1b0ff55021006fb1c6806d7c4f81",
+   "bytes": 198106,
+   "uploaded_at": "2026-10-28T22:54:10+00:00",
+   "original_sha256": "9f937215a6c6885d80b2bd9dfb0ad20eafd542fea6c22150814fdeb054eea5af",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares-8-ext1",
+   "key": "beneteau/antares-8/exterior/antares-8-ext1-879d4c02.webp",
+   "sha256": "879d4c022d73d40ef335e9fa89c0d556bfbb7fd6ad520b7e3e9120a7409fd37a",
+   "bytes": 144932,
+   "uploaded_at": "2026-10-28T22:54:10+00:00",
+   "original_sha256": "050591d9938db82d14f757b6e001c2370098ce1e3bb6c8409e81c9a6c137a818",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares-8-ext2",
+   "key": "beneteau/antares-8/exterior/antares-8-ext2-eceb6762.webp",
+   "sha256": "eceb6762b2cd938cfbd5d0136c7c3dfc3f3070a1e62a88bb093e367b4dc4df15",
+   "bytes": 202760,
+   "uploaded_at": "2026-10-28T22:54:10+00:00",
+   "original_sha256": "4c42d9c1cac41da0774e54ee1084f580e20902214f0bce16bbdc1827e7f12359",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares-8-ext3",
+   "key": "beneteau/antares-8/exterior/antares-8-ext3-5dae3f02.webp",
+   "sha256": "5dae3f023ccc1d9679906167c47af010c479edf5b7556ad173be3e7ad36c4166",
+   "bytes": 140518,
+   "uploaded_at": "2026-10-28T22:54:10+00:00",
+   "original_sha256": "8e2781e74b9441a6076920183c3f19f105020c3f7424218b5c5d9f4f0b8f2fad",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares-8-ext4",
+   "key": "beneteau/antares-8/exterior/antares-8-ext4-769cb3db.webp",
+   "sha256": "769cb3dbe5c9395c5f6962634df924e007abde36b2185d30b3f03c97932bdfc0",
+   "bytes": 192934,
+   "uploaded_at": "2026-10-28T22:54:10+00:00",
+   "original_sha256": "e9114cc734251c50bbbc0578e2c1cf404b698fbebc3d25678d6fb844b9d10d06",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares-8-ext5",
+   "key": "beneteau/antares-8/exterior/antares-8-ext5-7a97e238.webp",
+   "sha256": "7a97e238f338d71186c7493cca4a121ee4ab04a0404c4286ccfe2941b94aa1b9",
+   "bytes": 135958,
+   "uploaded_at": "2026-10-28T22:54:10+00:00",
+   "original_sha256": "6977b3cae3d16e48d519cdc4832acf57a1616995e9ce18f92c675987c4c73636",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares-8-ext6",
+   "key": "beneteau/antares-8/exterior/antares-8-ext6-385adbf6.webp",
+   "sha256": "385adbf661491f3dc31e7bf7a82b1c031ec54447145e5443b179d3ecbeeca0a8",
+   "bytes": 68378,
+   "uploaded_at": "2026-10-28T22:54:10+00:00",
+   "original_sha256": "17a579c2316c37ad98a2d21a74e377ef125ba630b153574f91e32b4ee159aa74",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares-8-ext7",
+   "key": "beneteau/antares-8/exterior/antares-8-ext7-6b36110e.webp",
+   "sha256": "6b36110e2401b0d16eb6758be9606fb545b72f171be5bf40478f406db57bf47b",
+   "bytes": 211222,
+   "uploaded_at": "2026-10-28T22:54:10+00:00",
+   "original_sha256": "e3538b7ce4b0d8bc3db7232ec59a905960a945c0525f738364166c35ea66c7a6",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares-8-ext8",
+   "key": "beneteau/antares-8/exterior/antares-8-ext8-aebb2b84.webp",
+   "sha256": "aebb2b84bc884ce9a38063a4d78ac6b0f5afcaa9cc897be6ab53d3c26bd9b8b9",
+   "bytes": 220078,
+   "uploaded_at": "2026-10-28T22:54:10+00:00",
+   "original_sha256": "a6c34d4756ebbf96a00336f3a4614576df10c64af524c123d17279349504e03f",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares-8-ext9",
+   "key": "beneteau/antares-8/exterior/antares-8-ext9-5eeed4ff.webp",
+   "sha256": "5eeed4ff28f515a45f508d3a9bdeac346b1422a91b1f27ab8af3def21d5456c9",
+   "bytes": 200170,
+   "uploaded_at": "2026-10-28T22:54:10+00:00",
+   "original_sha256": "cf85746933d802889d769487a6380b30d79603db41cdc0dc9a9dd50beadb371e",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares-8-ext10",
+   "key": "beneteau/antares-8/exterior/antares-8-ext10-c466a638.webp",
+   "sha256": "c466a6383659266662bd84abb07c43060a5f9bba2885477c0fc9fcdcde3797b4",
+   "bytes": 152232,
+   "uploaded_at": "2026-10-28T22:54:10+00:00",
+   "original_sha256": "4c3a711d109bb0d758ca5ac1a30a1d3ea7b68b418c71f2be38861a08bcd154c2",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares-8-ext11",
+   "key": "beneteau/antares-8/exterior/antares-8-ext11-f2e9c919.webp",
+   "sha256": "f2e9c919a87138a3a86985d4911c647881cd2e78d4efcdd7de9e5a07e6704caa",
+   "bytes": 148488,
+   "uploaded_at": "2026-10-28T22:54:11+00:00",
+   "original_sha256": "7d3c9f6b8bf0a7df132a5f70c361432035a9abb9ddfa0e58680b818ba2efce52",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares-8-ext12",
+   "key": "beneteau/antares-8/exterior/antares-8-ext12-6730fb8d.webp",
+   "sha256": "6730fb8df837d97db5614a991d059331a8e1ad11e19d2d4286f8126dc4a5284f",
+   "bytes": 94240,
+   "uploaded_at": "2026-10-28T22:54:11+00:00",
+   "original_sha256": "3563e0e3325175d4526ef218200176f7a297b445802daf0f94ea9f0537717e6a",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares-8-interior-lf-0390-ludovic-fruchaud-v4",
+   "key": "beneteau/antares-8/interior/antares-8-interior-lf-0390-ludovic-fruchaud-v4-2d6efc39.webp",
+   "sha256": "2d6efc396d653467b692fd5fe765734502e1dc3e26fa1a6e24998d00db311884",
+   "bytes": 53958,
+   "uploaded_at": "2026-10-28T22:54:11+00:00",
+   "original_sha256": "6f7a19b623d8cd291390f9de0b966fbeee01df2c8bc7a83a29b2205ac01bccb9",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares-8-interior-lf-0402-ludovic-fruchaud-v4",
+   "key": "beneteau/antares-8/interior/antares-8-interior-lf-0402-ludovic-fruchaud-v4-5c54d7e4.webp",
+   "sha256": "5c54d7e400aac0eeb030861094d4e2e9d0323c0a16cee39cf8f1b7348dd3c13b",
+   "bytes": 52018,
+   "uploaded_at": "2026-10-28T22:54:11+00:00",
+   "original_sha256": "445e779f698792e35bb90ae0e53f960600a534defadb85a5699c8f95daf52d33",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares-8-interior-lf-0384-ludovic-fruchaud-v4",
+   "key": "beneteau/antares-8/interior/antares-8-interior-lf-0384-ludovic-fruchaud-v4-332cee60.webp",
+   "sha256": "332cee60324922e179be9755b23b06355f755077f9c335292dd3ca3cbecb596a",
+   "bytes": 54614,
+   "uploaded_at": "2026-10-28T22:54:11+00:00",
+   "original_sha256": "dcc2be7b3fabd8578d7bd99a123a2ad8c885768c19995a8d8bb230d544ab7ee2",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares-8-interior-lf-0372-ludovic-fruchaud-v4",
+   "key": "beneteau/antares-8/interior/antares-8-interior-lf-0372-ludovic-fruchaud-v4-e8a2cbf6.webp",
+   "sha256": "e8a2cbf6d26cd46cdb975334fb316c68f4c3cda570ed215c879a839c73ec6139",
+   "bytes": 81774,
+   "uploaded_at": "2026-10-28T22:54:11+00:00",
+   "original_sha256": "02280f588a5fd6ffa68bb239f9ea7b3d76baa5425b3d4b8d4313a292baed39ba",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares-8-interior-lf-0379-ludovic-fruchaud-v4",
+   "key": "beneteau/antares-8/interior/antares-8-interior-lf-0379-ludovic-fruchaud-v4-22beff42.webp",
+   "sha256": "22beff422a840b10cf8c0f09d8bcaba04e5cc028c07f4711f3b9bee69cb14441",
+   "bytes": 62190,
+   "uploaded_at": "2026-10-28T22:54:11+00:00",
+   "original_sha256": "3cf8d41d54c82f9dd4804761aa6ece48b47ba0929fbd12c0e14d9841302a09b6",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares-8-interior-lf-0376-ludovic-fruchaud-v4",
+   "key": "beneteau/antares-8/interior/antares-8-interior-lf-0376-ludovic-fruchaud-v4-3976b963.webp",
+   "sha256": "3976b9633e9ae0db5f402c2473bfae96d1f67e51d032f1c9791850117337d32e",
+   "bytes": 24256,
+   "uploaded_at": "2026-10-28T22:54:11+00:00",
+   "original_sha256": "d74c29ec462e31078e7be7bd8ba0a2171c91e1201d954f2d61a1f60e0f3490da",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "habitable-a8-new",
+   "key": "beneteau/antares-8/detail/habitable-a8-new-b507605d.webp",
+   "sha256": "b507605d89f68494340267f9e4819161d76d3f5bdb0cbd245239c5d1ad3b4c75",
+   "bytes": 156628,
+   "uploaded_at": "2026-10-28T22:54:12+00:00",
+   "original_sha256": "074fa3839583fc5a33de1efa643b93da50e3bf5c86351681f6ef04be2bf34554",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "plaisir-a8-new",
+   "key": "beneteau/antares-8/detail/plaisir-a8-new-d5133b85.webp",
+   "sha256": "d5133b85f1b1d3623004fc3b72900a8816853a3ea6dd34659b0fededc43f6258",
+   "bytes": 71668,
+   "uploaded_at": "2026-10-28T22:54:12+00:00",
+   "original_sha256": "459fe5f4ddb6c30972037d59c42410155c97f6abed9657c4c948a3650e00af86",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares8-fishing-catch",
+   "key": "beneteau/antares-8/detail/antares8-fishing-catch-132b8f86.webp",
+   "sha256": "132b8f865c28ebd052491485ef39d9fbb8fe4eabcb5372ed343af0390b60b320",
+   "bytes": 226128,
+   "uploaded_at": "2026-10-28T22:54:12+00:00",
+   "original_sha256": "a2c75ad5029f4a997bf16dc78507889dcae69fc256afb6307317adea2369ed57",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "profile-antares8-cruising",
+   "key": "beneteau/antares-8/plans/profile-antares8-cruising-fdb89508.webp",
+   "sha256": "fdb895087c591c67facb7a4c746784f2e18fa7955affec687dd7b4b1547516bd",
+   "bytes": 10490,
+   "uploaded_at": "2026-10-28T22:54:12+00:00",
+   "original_sha256": "888912ed65f38fd2ec892bccf710d0983c3567e0457329cfc9a73bcdc3e3f86d",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "profile-antares-8-cruising-gris-perle",
+   "key": "beneteau/antares-8/plans/profile-antares-8-cruising-gris-perle-f161ab51.webp",
+   "sha256": "f161ab51b6524db1f6bde053b992dfa7dc4ede0533aadf3ccbc1e8879d7e706a",
+   "bytes": 8688,
+   "uploaded_at": "2026-10-28T22:54:12+00:00",
+   "original_sha256": "12bfdc057f5080e65c326171c83acf1cdabb7748dce95221e83f4df5e631d3d1",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "plan-antares8-exterieur",
+   "key": "beneteau/antares-8/plans/plan-antares8-exterieur-3d94c2dc.webp",
+   "sha256": "3d94c2dc6eecbbdf61c974c0e7b3bf11f1b29cb945bde48dd98df25b31492f72",
+   "bytes": 14452,
+   "uploaded_at": "2026-10-28T22:54:12+00:00",
+   "original_sha256": "fb2e702b298e979aba93e644914398391acde329a4db25efd2218cf71874577f",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "plan-antares8-timonerie",
+   "key": "beneteau/antares-8/plans/plan-antares8-timonerie-8ea46d53.webp",
+   "sha256": "8ea46d536e874b96b34e7c8568849d4eb413272a17b2752daef8441bbf7cc3cf",
+   "bytes": 15154,
+   "uploaded_at": "2026-10-28T22:54:12+00:00",
+   "original_sha256": "1184182aecc4171810043534ed62909b35f927e25bdda735770ef108f72b84e5",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "plan-antares8-cabine",
+   "key": "beneteau/antares-8/plans/plan-antares8-cabine-eae3abba.webp",
+   "sha256": "eae3abba2ecb50eb7abfab8ea306d23d21c2ee8f12f8d48416ee82534a37a0c2",
+   "bytes": 14664,
+   "uploaded_at": "2026-10-28T22:54:12+00:00",
+   "original_sha256": "2a18f0f9d203c274f9b85986840b9cf90cb17008310346ed793876c92f63e179",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  }
+ ]
+}

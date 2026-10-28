@@ -1,0 +1,593 @@
+{
+ "version": 1,
+ "images": [
+  {
+   "id": "grand-trawler-63-0",
+   "key": "beneteau/grand-trawler-63/hero/grand-trawler-63-0-6dcd81bb.webp",
+   "sha256": "6dcd81bbb19d3b6ef817507d89efcb7143bb7e2c912596fdbdc07a0e5adf1028",
+   "bytes": 314274,
+   "uploaded_at": "2026-10-28T22:55:31+00:00",
+   "original_sha256": "07f1a3034b9cccd569bb1c1c99235a9e479d7b030ed19831f8af2f81278b82bc",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "grand-trawler-63-exterior-1-0",
+   "key": "beneteau/grand-trawler-63/exterior/grand-trawler-63-exterior-1-0-4c245f04.webp",
+   "sha256": "4c245f04e02027c4cb4085098c633831ab0cecd15d956bb2eec4885ddfd5405c",
+   "bytes": 208016,
+   "uploaded_at": "2026-10-28T22:55:31+00:00",
+   "original_sha256": "0a9545a77eca4f48826618fdbe602eea8d88f372508376434069d923111972dd",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "grand-trawler-63-exterior-design-11",
+   "key": "beneteau/grand-trawler-63/exterior/grand-trawler-63-exterior-design-11-e83ebce5.webp",
+   "sha256": "e83ebce548e09deb1be6db831bfcf515bc52e73d36d34d495bfa11ee2e5ca684",
+   "bytes": 237358,
+   "uploaded_at": "2026-10-28T22:55:31+00:00",
+   "original_sha256": "9c3033d4909c2ef8ab32b30209663d0d307e75832bad4df0b120a342e2403ca9",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "grand-trawler-63-exterior-5-0",
+   "key": "beneteau/grand-trawler-63/exterior/grand-trawler-63-exterior-5-0-6ba98d97.webp",
+   "sha256": "6ba98d974d25d962cb184f4855cc8a9466b00b41475b42a072ebd97152ae05fc",
+   "bytes": 188106,
+   "uploaded_at": "2026-10-28T22:55:31+00:00",
+   "original_sha256": "a9769a63bc9001c4d560a1c1657cffbd839f913f34bb5bcf92290b978f84feaa",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "grand-trawler-63-exterior-3-0",
+   "key": "beneteau/grand-trawler-63/exterior/grand-trawler-63-exterior-3-0-e26dc544.webp",
+   "sha256": "e26dc544f1e9c963f519d6877c7ed97362aab7475ac3a7302d0780449d0c3372",
+   "bytes": 214378,
+   "uploaded_at": "2026-10-28T22:55:31+00:00",
+   "original_sha256": "7d10bc78e21610fcd4a1fb2b16a940b63ff420b4d8eb3acbc8d9fe23b703f2b9",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "grand-trawler-63-exterior-design-13",
+   "key": "beneteau/grand-trawler-63/exterior/grand-trawler-63-exterior-design-13-f52e9a84.webp",
+   "sha256": "f52e9a8483db3a33ad428cd9d213c55aae0aa920db2b6afb67172112bb8eb682",
+   "bytes": 60064,
+   "uploaded_at": "2026-10-28T22:55:31+00:00",
+   "original_sha256": "59babe24619dbe4bd5a7cab6d22ac6afd574cba0fa4b20418d3e0f8835f70147",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "grand-trawler-63-exterior-6",
+   "key": "beneteau/grand-trawler-63/exterior/grand-trawler-63-exterior-6-cb6f25dc.webp",
+   "sha256": "cb6f25dc3cc0208dc32f852ffda8eb134caa11104fc69802241b2a253d775771",
+   "bytes": 222456,
+   "uploaded_at": "2026-10-28T22:55:31+00:00",
+   "original_sha256": "c33ee96bd0118110925a3f8d54481867543021ef96ccf3e05b8553618cd5ead0",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "grand-trawler-63-exterior-design-12",
+   "key": "beneteau/grand-trawler-63/exterior/grand-trawler-63-exterior-design-12-843eb121.webp",
+   "sha256": "843eb121f975af42d7d4d4c4081b74ccccb7bc40c52650df92cb88a8446d06ec",
+   "bytes": 108278,
+   "uploaded_at": "2026-10-28T22:55:31+00:00",
+   "original_sha256": "cd42761ccb0bc1ce46011f9777df92a1f155f3bbe47305c1621b8df8bf604a30",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "grand-trawler-63-exterior-design-19",
+   "key": "beneteau/grand-trawler-63/exterior/grand-trawler-63-exterior-design-19-40328671.webp",
+   "sha256": "40328671599d9446846c88f0cd239682d2015f806e0fbc42c57d3f4cd06aaa4d",
+   "bytes": 66156,
+   "uploaded_at": "2026-10-28T22:55:31+00:00",
+   "original_sha256": "fa6d56170b03f915448906248617dd8896622f1af80b3e8869a2f853caf784e9",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "grand-trawler-63-exterior-7",
+   "key": "beneteau/grand-trawler-63/exterior/grand-trawler-63-exterior-7-21755dc1.webp",
+   "sha256": "21755dc1893c8771f759720c1f6c0c36e44fe24b9d46465841dff97a48ff3d14",
+   "bytes": 104604,
+   "uploaded_at": "2026-10-28T22:55:31+00:00",
+   "original_sha256": "9c30d265d2388b5d01eb1f348e8a2268530be48128a148cef5e06c9874ff33c9",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "grand-trawler-63-exterior-design-23",
+   "key": "beneteau/grand-trawler-63/exterior/grand-trawler-63-exterior-design-23-fd64a220.webp",
+   "sha256": "fd64a220ef4bc9bf6a025b23a991a55b1eabc40d5258a2417c3865a620f0b30d",
+   "bytes": 138588,
+   "uploaded_at": "2026-10-28T22:55:31+00:00",
+   "original_sha256": "86dcb363aa304c67bdafe8bdf8152d64e45387c2cb0462d7d3bf42baeb5d0835",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "grand-trawler-63-exterior-design-16",
+   "key": "beneteau/grand-trawler-63/exterior/grand-trawler-63-exterior-design-16-de000690.webp",
+   "sha256": "de000690089391eb456f9ba19c2482113c6cf0090811acb56d5517e91499a18f",
+   "bytes": 156626,
+   "uploaded_at": "2026-10-28T22:55:31+00:00",
+   "original_sha256": "1506aba6bcf6e3298cd21992f44b4b0aff467d7b920ca6481b656a20126775ec",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "grand-trawler-63-exterior-8",
+   "key": "beneteau/grand-trawler-63/exterior/grand-trawler-63-exterior-8-9948d016.webp",
+   "sha256": "9948d0161765db522b7da8bad99a5a7a2329e977f506ddd3435b1ea51934cdaf",
+   "bytes": 157054,
+   "uploaded_at": "2026-10-28T22:55:32+00:00",
+   "original_sha256": "3b1ddd7542590347fe9d16e9f2d6e83b0eaecc9f30df3a6eece22a3da9dbda40",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "grand-trawler-63-exterior-design-22",
+   "key": "beneteau/grand-trawler-63/exterior/grand-trawler-63-exterior-design-22-15aa36bf.webp",
+   "sha256": "15aa36bf21cba9386ad1ebbc06c47cd652c9977c4050b08e3ebb792bacd91df5",
+   "bytes": 88198,
+   "uploaded_at": "2026-10-28T22:55:32+00:00",
+   "original_sha256": "3fe277114ed3e840b40c0face622082cbc1f163e9eb9bb69a09b7f739cd78867",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "grand-trawler-63-exterior-design-14",
+   "key": "beneteau/grand-trawler-63/exterior/grand-trawler-63-exterior-design-14-60734240.webp",
+   "sha256": "60734240efb56e755e4bfc637b907932634e81d222bfaf3099fef0dbe0974bba",
+   "bytes": 74914,
+   "uploaded_at": "2026-10-28T22:55:32+00:00",
+   "original_sha256": "f4192f86fa2af2cafd8ff25e656dbda0d406d30685a258175a6a31000d580ea2",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "grand-trawler-63-exterior-design-20",
+   "key": "beneteau/grand-trawler-63/exterior/grand-trawler-63-exterior-design-20-c9e72ac2.webp",
+   "sha256": "c9e72ac2597bb385c71408c501add6673f81e8d85e25dfc5033c0217738ec0de",
+   "bytes": 62634,
+   "uploaded_at": "2026-10-28T22:55:32+00:00",
+   "original_sha256": "bdb49952e5e2228512ab9192762c85fdcdede412d1e446ca1059614a818394a2",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "grand-trawler-63-exterior-design-10",
+   "key": "beneteau/grand-trawler-63/exterior/grand-trawler-63-exterior-design-10-b1eda503.webp",
+   "sha256": "b1eda503ce2a1a1fb7496853fb12bfa1dd4b7afbf1be2d485c782e481748599b",
+   "bytes": 190978,
+   "uploaded_at": "2026-10-28T22:55:32+00:00",
+   "original_sha256": "72926c9445dd1cd0ed19884cf98877b76e1e034031cc2bbceb4ee2f4c8c959b9",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "grand-trawler-63-exterior-design-17",
+   "key": "beneteau/grand-trawler-63/exterior/grand-trawler-63-exterior-design-17-647fdd57.webp",
+   "sha256": "647fdd57fa6e40ff72c5b3f56f58c87095de5e36202f577a5378c40856d9ed52",
+   "bytes": 73136,
+   "uploaded_at": "2026-10-28T22:55:32+00:00",
+   "original_sha256": "b2587bc76886af860f58d23bf615d541e111bb90707fa0915b732c7103a951e1",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "grand-trawler-63-exterior-design-18",
+   "key": "beneteau/grand-trawler-63/exterior/grand-trawler-63-exterior-design-18-af4935af.webp",
+   "sha256": "af4935af03edf7e4d39e57a28783653c344fa61b831fc9c7ed71efb98ee86cdc",
+   "bytes": 59778,
+   "uploaded_at": "2026-10-28T22:55:32+00:00",
+   "original_sha256": "e871fc0ed43b8cee742b598051b46a513286c4ba1278428b402712b1de76fa28",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "grand-trawler-63-exterior-design-07",
+   "key": "beneteau/grand-trawler-63/exterior/grand-trawler-63-exterior-design-07-4e094cb9.webp",
+   "sha256": "4e094cb9880351ff5782e78ef1213544799986f5626373727bb4f93100aa9abb",
+   "bytes": 120976,
+   "uploaded_at": "2026-10-28T22:55:32+00:00",
+   "original_sha256": "21f98bf0e6e998aa20e75edee76b2cdc24dd9abfc0257b6ae4be2b86b9aec2f7",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "grand-trawler-63-exterior-design-15",
+   "key": "beneteau/grand-trawler-63/exterior/grand-trawler-63-exterior-design-15-22d06f95.webp",
+   "sha256": "22d06f950c678f8777e457114b41f1b7279053326b705ea5291f628d386f9e85",
+   "bytes": 133052,
+   "uploaded_at": "2026-10-28T22:55:32+00:00",
+   "original_sha256": "f9c5db125442978462692aa4105de5861837eab1bfb07cb6692dc21fd20b2972",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "grand-trawler-63-exterior-design-09",
+   "key": "beneteau/grand-trawler-63/exterior/grand-trawler-63-exterior-design-09-3500d0ec.webp",
+   "sha256": "3500d0ec041b0aa4aa73a4102806d1d96e3e659b6b6d436bae935235093dfacb",
+   "bytes": 109676,
+   "uploaded_at": "2026-10-28T22:55:32+00:00",
+   "original_sha256": "147fe938529fd82925bb0caf2065353c36249d3119b642332d3d2ec745582473",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "grand-trawler-63-exterior-design-05",
+   "key": "beneteau/grand-trawler-63/exterior/grand-trawler-63-exterior-design-05-9d0ba277.webp",
+   "sha256": "9d0ba2772d29a4b6fb1b956738926456f6ee1085984a76a793480c4ffa0d3568",
+   "bytes": 130778,
+   "uploaded_at": "2026-10-28T22:55:32+00:00",
+   "original_sha256": "ec742845a9c9dd0df21867c86b926813aef806650c7c4b62b5926fd556122893",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "grand-trawler-63-exterior-4-0",
+   "key": "beneteau/grand-trawler-63/exterior/grand-trawler-63-exterior-4-0-4c3388bc.webp",
+   "sha256": "4c3388bc658dc8295ceaa376f304de0e3cfa061bcaa153c3875c65d1ac2ef4e1",
+   "bytes": 329622,
+   "uploaded_at": "2026-10-28T22:55:33+00:00",
+   "original_sha256": "d5fbd4a5c9b43e9d5c5fcde5b7dfb87fbe8bf516173e06541933b923e3626c38",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "grand-trawler-63-exterior-design-04",
+   "key": "beneteau/grand-trawler-63/exterior/grand-trawler-63-exterior-design-04-4ef8bc7b.webp",
+   "sha256": "4ef8bc7bd3f4b1a05428b6d203e93673d17ea8bcac82b4aa03bb118dbba7f388",
+   "bytes": 118318,
+   "uploaded_at": "2026-10-28T22:55:33+00:00",
+   "original_sha256": "d4ece52845dd4e11988c8614be98b14589676c8d869cc47c62dfd91e99fc3278",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "grand-trawler-63-exterior-design-01",
+   "key": "beneteau/grand-trawler-63/exterior/grand-trawler-63-exterior-design-01-80763991.webp",
+   "sha256": "807639911ceeb65e236ec63993d19b5a252a70c6ded869261b1649de97fd8da1",
+   "bytes": 44834,
+   "uploaded_at": "2026-10-28T22:55:33+00:00",
+   "original_sha256": "02510980e294ce1627c804cbd4c581d9bf0ea493504094f2b4788fc1f4fe6300",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "grand-trawler-63-exterior-design-03",
+   "key": "beneteau/grand-trawler-63/exterior/grand-trawler-63-exterior-design-03-a10b2c9c.webp",
+   "sha256": "a10b2c9c87dc73702982b7bc6b6a53193fbb8e15f253d974421027253899f228",
+   "bytes": 119084,
+   "uploaded_at": "2026-10-28T22:55:33+00:00",
+   "original_sha256": "b4fe1e1e4145aad2d766715fb645fe5b7544a16a8da57579fe2c99b49daf264c",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "grand-trawler-63-interior-1",
+   "key": "beneteau/grand-trawler-63/interior/grand-trawler-63-interior-1-044130da.webp",
+   "sha256": "044130da1afc972d3a46fa630190f85bef24f486d0c9ee2eeacd7e18badd41e2",
+   "bytes": 123082,
+   "uploaded_at": "2026-10-28T22:55:33+00:00",
+   "original_sha256": "c77c49158ce19c422605d7740f27b4c25da437ff68770ffa7b9b2648986ca91d",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "grand-trawler-63-interior-2",
+   "key": "beneteau/grand-trawler-63/interior/grand-trawler-63-interior-2-9189e713.webp",
+   "sha256": "9189e713f6db26eedf53948bc7576320b01d1b8e375336b280ffc8e6ee474262",
+   "bytes": 95348,
+   "uploaded_at": "2026-10-28T22:55:33+00:00",
+   "original_sha256": "07fe50a34456d39bf05f445dd48cc1b7871b9bd4b4a8275782627d880c49da69",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "grand-trawler-63-interior-3",
+   "key": "beneteau/grand-trawler-63/interior/grand-trawler-63-interior-3-8bc3dfd0.webp",
+   "sha256": "8bc3dfd0b92039f053fcc04b439438210f52f5ce0f35c0122092ceab90ca293d",
+   "bytes": 135908,
+   "uploaded_at": "2026-10-28T22:55:33+00:00",
+   "original_sha256": "c8a5af646cb243f1cb6b792b470e6bb170a4093733f6cb9c3fb11e320e92ddc6",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "grand-trawler-63-interior-4",
+   "key": "beneteau/grand-trawler-63/interior/grand-trawler-63-interior-4-2c940e83.webp",
+   "sha256": "2c940e830bafdfc0d2d11cb4b2b907d91191655810b6c8fc7ece8508228ec48c",
+   "bytes": 80314,
+   "uploaded_at": "2026-10-28T22:55:33+00:00",
+   "original_sha256": "04966ababd77e0353d2b68af67f388053b09ac17522f83fa7678685a7c088359",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "grand-trawler-63-interior-5",
+   "key": "beneteau/grand-trawler-63/interior/grand-trawler-63-interior-5-9c385e2a.webp",
+   "sha256": "9c385e2acd32e3ee34e6df2039012a89310d8cc2e6c2635785d8fac6be609cda",
+   "bytes": 112558,
+   "uploaded_at": "2026-10-28T22:55:33+00:00",
+   "original_sha256": "559f6a76e47bfb226e3827cabae22ceaef0ea53606ba55506a28c86954100e77",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "grand-trawler-63-interior-6",
+   "key": "beneteau/grand-trawler-63/interior/grand-trawler-63-interior-6-36e387a6.webp",
+   "sha256": "36e387a61253a0e960ffe89f14a8ba1b170ecc9ad4124d118b93eca2bb139342",
+   "bytes": 137046,
+   "uploaded_at": "2026-10-28T22:55:34+00:00",
+   "original_sha256": "99c73c756d549a97dc35b0c3e6e2d88c18ed346c2cb5bc3d66692f075c402a35",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "grand-trawler-63-interior-7",
+   "key": "beneteau/grand-trawler-63/interior/grand-trawler-63-interior-7-f9e24aba.webp",
+   "sha256": "f9e24abab37a7427a481abb1ae9bd4250132b32768b82a5881132e0980325436",
+   "bytes": 80714,
+   "uploaded_at": "2026-10-28T22:55:34+00:00",
+   "original_sha256": "5be1c7058433aeacbe64c64b4c23eab46f3b8c1d1c256fb4e7578007721e4ab4",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gt-63-usp2",
+   "key": "beneteau/grand-trawler-63/detail/gt-63-usp2-a1ab736d.webp",
+   "sha256": "a1ab736dd4c213cc441649b709284c60d87c27d529f43373f44aac6bd01789b8",
+   "bytes": 251464,
+   "uploaded_at": "2026-10-28T22:55:34+00:00",
+   "original_sha256": "8c13b150faec1c9774330225f4d6e33d3e1ddf0ccd0b7488bbcf658d424cd41a",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gt-63-usp1",
+   "key": "beneteau/grand-trawler-63/detail/gt-63-usp1-d38e7fb5.webp",
+   "sha256": "d38e7fb5c03c6a7110056468dfc0cd10bda21c3e4d66fa80feb7b227c283bfe0",
+   "bytes": 196250,
+   "uploaded_at": "2026-10-28T22:55:34+00:00",
+   "original_sha256": "0a6a68118778fe913a1af9415b7a49bb98f1ba6bcac661ee7f51d46fb1d6ac00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "gt-63-usp4",
+   "key": "beneteau/grand-trawler-63/detail/gt-63-usp4-3f75cb42.webp",
+   "sha256": "3f75cb429dd45fc175ac63b2e915ec412c0986c29c972de41f304a9b63aea596",
+   "bytes": 102426,
+   "uploaded_at": "2026-10-28T22:55:34+00:00",
+   "original_sha256": "5de714b4be42b3830936a7a18a1ec96e90a48fa47a1e3104abaa58301d313a5e",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "profile-grand-trawler-63",
+   "key": "beneteau/grand-trawler-63/plans/profile-grand-trawler-63-dfb19e94.webp",
+   "sha256": "dfb19e9448c946a9f536e5a9ff2c5d0d1a87dfcbd592901b2183ec429971b9b4",
+   "bytes": 14770,
+   "uploaded_at": "2026-10-28T22:55:34+00:00",
+   "original_sha256": "4a84c1e1273c7a9c6acb75d6a79f2c8d6de3f72ebd852288e2d2e0bb2d5ba0f0",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "layout-grand-trawler-62-fly",
+   "key": "beneteau/grand-trawler-63/plans/layout-grand-trawler-62-fly-4290bf34.webp",
+   "sha256": "4290bf3482f06f02569e0f18a7ba35b03b7f95496b4b4f00c966997afcc0961a",
+   "bytes": 15162,
+   "uploaded_at": "2026-10-28T22:55:34+00:00",
+   "original_sha256": "33e7f65a5c54345651bf4cbb8d42eaf375fba55e114b63b86f0181910c986d6b",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "grandtrawler-maindeck-layout",
+   "key": "beneteau/grand-trawler-63/plans/grandtrawler-maindeck-layout-7c440494.webp",
+   "sha256": "7c440494a9cf242b8e383d725b700caaae157a734ab2779d0a6c122bc33fbe23",
+   "bytes": 14918,
+   "uploaded_at": "2026-10-28T22:55:34+00:00",
+   "original_sha256": "113ee5787471c3f1f4334959e1565725c1fce4b6ec84e58b759e284b3464c085",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "grand-trawler-62-3-cabin-layout",
+   "key": "beneteau/grand-trawler-63/plans/grand-trawler-62-3-cabin-layout-294f17de.webp",
+   "sha256": "294f17dedf3518f6b4bc074f449266a0395e907f9f50c456ebc5f91697e07a0f",
+   "bytes": 17284,
+   "uploaded_at": "2026-10-28T22:55:34+00:00",
+   "original_sha256": "560eb507a69d26ad038ccaf478d0fd381dcafcb90a287072b21cbbbfd76b2e11",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "layout-grand-trawler-62-4cabins",
+   "key": "beneteau/grand-trawler-63/plans/layout-grand-trawler-62-4cabins-2dbfca83.webp",
+   "sha256": "2dbfca83e9a98458a0db264ce0da9d24a24b8fac230d2f4089935903634fa1d7",
+   "bytes": 18808,
+   "uploaded_at": "2026-10-28T22:55:34+00:00",
+   "original_sha256": "61c8f7164cc778153651bcfc6969c1c79e926a521defd43a6a08903249432a59",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  }
+ ]
+}

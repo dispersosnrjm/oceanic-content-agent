@@ -1,0 +1,369 @@
+{
+ "version": 1,
+ "images": [
+  {
+   "id": "first60-desktop-header",
+   "key": "beneteau/first-60/hero/first60-desktop-header-90fe693c.webp",
+   "sha256": "90fe693c827b754fa261fd1509e7e42495bc7e6c703e31aa0de031ef17fd4d57",
+   "bytes": 194672,
+   "uploaded_at": "2026-10-28T22:54:43+00:00",
+   "original_sha256": "c1e9ba459b54462f0ae8b1fa98ebaa37f59bcf5f3826e4b0061b099efb5d9df4",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "first-60-exterior-design-01",
+   "key": "beneteau/first-60/exterior/first-60-exterior-design-01-66e90bb5.webp",
+   "sha256": "66e90bb5cbbcd454d3ba407044b8d3f86da2d54f6d8ef06762068443f013cc17",
+   "bytes": 320706,
+   "uploaded_at": "2026-10-28T22:54:43+00:00",
+   "original_sha256": "6a34130018c1e808fe41b7eacd72c19aeba864bbb3d2409347f0cb7a06dd8bd7",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "first-60-exterior-design-02",
+   "key": "beneteau/first-60/exterior/first-60-exterior-design-02-1fa2c5e5.webp",
+   "sha256": "1fa2c5e549f16465893717a0febbee054534078dac382d5f9dd03ef01b687a87",
+   "bytes": 328364,
+   "uploaded_at": "2026-10-28T22:54:43+00:00",
+   "original_sha256": "ba44cffd927883d15143a4495b8a8376d91e543ce1c942edbc884d531969ce04",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "first-60-exterior-design-03",
+   "key": "beneteau/first-60/exterior/first-60-exterior-design-03-4295b1e4.webp",
+   "sha256": "4295b1e4aee4465037577d8da846e77e5bf88724ca718ceb00f8471b68412cd8",
+   "bytes": 174850,
+   "uploaded_at": "2026-10-28T22:54:43+00:00",
+   "original_sha256": "cfa149d0552e1046e1e1e5123e303d95469120327092bc6ffe6b4b1c79536cd7",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "first-60-exterior-design-04",
+   "key": "beneteau/first-60/exterior/first-60-exterior-design-04-db31bb78.webp",
+   "sha256": "db31bb78be9386a3d4a078133d3653c8f6754bde1d7ed752c49cf1c00f107c0c",
+   "bytes": 119682,
+   "uploaded_at": "2026-10-28T22:54:43+00:00",
+   "original_sha256": "386619ae5ef0cbbf8231867af2c10aee19ad9b05231802e98c7ad8ac8f0048a4",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "first-60-exterior-design-05",
+   "key": "beneteau/first-60/exterior/first-60-exterior-design-05-b06640b4.webp",
+   "sha256": "b06640b4ee9742fd5c9b5b261cdb33abff65387e791c6de47df0208cf11d4c22",
+   "bytes": 148930,
+   "uploaded_at": "2026-10-28T22:54:43+00:00",
+   "original_sha256": "5579614b4ca49be5e2d0886d771536090454c577c7c0516d6de1679838b1104e",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "first-60-exterior-design-06",
+   "key": "beneteau/first-60/exterior/first-60-exterior-design-06-6d8cfce1.webp",
+   "sha256": "6d8cfce16ea2c419e45b9918d565a68204b0d86affaef5b1d77a78b20ea5bcfb",
+   "bytes": 131574,
+   "uploaded_at": "2026-10-28T22:54:43+00:00",
+   "original_sha256": "2c1f56c9a1e31528bff986951890a8679c53111db03167aa1d7e536aff7f20c8",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "beneteau-sailboat-first-60-interior-design-01",
+   "key": "beneteau/first-60/interior/beneteau-sailboat-first-60-interior-design-01-9c449d10.webp",
+   "sha256": "9c449d107722f70615101886366b8ee2c276c6f08bfc5ae3902b0b66802b3eda",
+   "bytes": 108226,
+   "uploaded_at": "2026-10-28T22:54:44+00:00",
+   "original_sha256": "1720885a00cb01e5811c79670f534f6742bd5b5956c3372adcdc261baa13792b",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "beneteau-sailboat-first-60-interior-design-02",
+   "key": "beneteau/first-60/interior/beneteau-sailboat-first-60-interior-design-02-e823387f.webp",
+   "sha256": "e823387fb79da23bf69780812148205247da82bcc9e653339138bb8bce769947",
+   "bytes": 46880,
+   "uploaded_at": "2026-10-28T22:54:44+00:00",
+   "original_sha256": "f1f685ead23c0f0a3d75665934605e23c775adfb9ae950e595703ec3652ec1da",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "beneteau-sailboat-first-60-interior-design-03",
+   "key": "beneteau/first-60/interior/beneteau-sailboat-first-60-interior-design-03-de613eee.webp",
+   "sha256": "de613eeeea1ae25e97ad18ec61a045f135ad288926afb3d6be84de79393b12b3",
+   "bytes": 93336,
+   "uploaded_at": "2026-10-28T22:54:44+00:00",
+   "original_sha256": "df7a518b876fa77c04cb87d0e3419493bbeb1d65a635d303868dbde5f9657bcf",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "beneteau-sailboat-first-60-interior-design-04",
+   "key": "beneteau/first-60/interior/beneteau-sailboat-first-60-interior-design-04-37b03689.webp",
+   "sha256": "37b036896013d7c67dfcd913e1dc09525dd199d5730c8ecd297328b385ebdb4f",
+   "bytes": 86122,
+   "uploaded_at": "2026-10-28T22:54:44+00:00",
+   "original_sha256": "4c582bdc38896cf240b98b71fa5ebeafd5fa16862486d6513c854ef21aaaa2ef",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "beneteau-sailboat-first-60-interior-design-05",
+   "key": "beneteau/first-60/interior/beneteau-sailboat-first-60-interior-design-05-5ba783ad.webp",
+   "sha256": "5ba783ad3c280a4c3df2a360bbaa543145f3b904db67f3146283e87a45cbc92b",
+   "bytes": 34238,
+   "uploaded_at": "2026-10-28T22:54:44+00:00",
+   "original_sha256": "db744185bd4df14b413fdc04c34a4e62a4d34ac4d8af9be4a189bf1bdbee4e35",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "beneteau-sailboat-first-60-interior-design-08",
+   "key": "beneteau/first-60/interior/beneteau-sailboat-first-60-interior-design-08-a1780c59.webp",
+   "sha256": "a1780c59f31c0c66c63d6a35edd8377486dbd7d545bfa95cc939489af28f904b",
+   "bytes": 111788,
+   "uploaded_at": "2026-10-28T22:54:44+00:00",
+   "original_sha256": "155d7bbf80d09e2de96ed5fe63a17657b6b967a84d4861d1034de83ed58744a2",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "beneteau-sailboat-first-60-interior-design-09",
+   "key": "beneteau/first-60/interior/beneteau-sailboat-first-60-interior-design-09-ad1ac6e7.webp",
+   "sha256": "ad1ac6e7a3f28f6dc15aec2cec173c9141096434e5b9441b8687874f6fe1f551",
+   "bytes": 158726,
+   "uploaded_at": "2026-10-28T22:54:44+00:00",
+   "original_sha256": "348961c2698ca2907293605e7bbd06fe5275875bd0fbf11c2dcbab56e39ba8cf",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "beneteau-sailboat-first-60-interior-design-10",
+   "key": "beneteau/first-60/interior/beneteau-sailboat-first-60-interior-design-10-5d33ad51.webp",
+   "sha256": "5d33ad51f85fd19467c555452ee63e278927117a6bbb4120d25458716a08de3b",
+   "bytes": 112720,
+   "uploaded_at": "2026-10-28T22:54:44+00:00",
+   "original_sha256": "1ec5eb45377552b084d17b0c6ee30eed4299f1fafa8de330eaa15742070ed7f0",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "beneteau-sailboat-first-60-interior-design-11",
+   "key": "beneteau/first-60/interior/beneteau-sailboat-first-60-interior-design-11-7b8c6cb0.webp",
+   "sha256": "7b8c6cb04a3b7c7eea9769cd6345f13c6828289a9eba8a8da899461e38bdd87b",
+   "bytes": 69232,
+   "uploaded_at": "2026-10-28T22:54:44+00:00",
+   "original_sha256": "eb983d4d1efa7e44364da01ddc4ad9b3de0e39c0ff3590e6409eacdce840cd7c",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "beneteau-sailboat-first-60-interior-design-12",
+   "key": "beneteau/first-60/interior/beneteau-sailboat-first-60-interior-design-12-43e613fe.webp",
+   "sha256": "43e613fe5856b37c974a0bdd0ce91f7f9f5b6a0615bfaa234b4a22ebd0dd194b",
+   "bytes": 81442,
+   "uploaded_at": "2026-10-28T22:54:45+00:00",
+   "original_sha256": "8132cd7a7c458426cacabe4d4c578ec848b2c8ebfe6f492aa93501f4e655fb74",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "beneteau-sailboat-first-60-interior-design-13",
+   "key": "beneteau/first-60/interior/beneteau-sailboat-first-60-interior-design-13-27f79048.webp",
+   "sha256": "27f7904842da98ddb0ee162c867803d5a044d421f8d44e91201010d6d75c6078",
+   "bytes": 82242,
+   "uploaded_at": "2026-10-28T22:54:45+00:00",
+   "original_sha256": "127c840c2fc5031c94fd254de9f280a40631ae86bc57b30799d314d4bc9bae08",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "beneteau-sailboat-first-60-interior-design-15",
+   "key": "beneteau/first-60/interior/beneteau-sailboat-first-60-interior-design-15-db43fa0f.webp",
+   "sha256": "db43fa0fd3c6b044e05cbe515a9654baf7f61fd3d48fec822d73ceb96c52a47c",
+   "bytes": 71668,
+   "uploaded_at": "2026-10-28T22:54:45+00:00",
+   "original_sha256": "61c4122e8b68ef37f94bb62ef5c9e04ea8bf326348421fb5df94762c22099b79",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "first-60-usp-1",
+   "key": "beneteau/first-60/detail/first-60-usp-1-fbf6ef92.webp",
+   "sha256": "fbf6ef927a3beaacd1e6c690bf77e6d6c90888d4090cf694ddcef85072f684bb",
+   "bytes": 119598,
+   "uploaded_at": "2026-10-28T22:54:45+00:00",
+   "original_sha256": "85ffb1d7b49ee7bea41ef28031140af9e2991486de5ff5b35c67a50c99dc048d",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "first-60-usp-2",
+   "key": "beneteau/first-60/detail/first-60-usp-2-510d17f7.webp",
+   "sha256": "510d17f7e078a0a4a222e47b336ffb549931c98cc0c438176c64ea809253931d",
+   "bytes": 110076,
+   "uploaded_at": "2026-10-28T22:54:45+00:00",
+   "original_sha256": "0a26e3336fb4b6ea94c4376c3446cf76d847a13f95050c14a3ee3547920cf956",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "first-60-usp-3",
+   "key": "beneteau/first-60/detail/first-60-usp-3-fa086542.webp",
+   "sha256": "fa086542a178cc9cc8ba9070dffc371a77089f673b9c91444fb0fada7e72f5f2",
+   "bytes": 144238,
+   "uploaded_at": "2026-10-28T22:54:45+00:00",
+   "original_sha256": "3c678bd76d668e67550a2321bd15c4772f7dc16cd792ad398f2c89094e57695f",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "first-60-usp-4",
+   "key": "beneteau/first-60/detail/first-60-usp-4-750915d9.webp",
+   "sha256": "750915d9ebe5c3b883985558035e88e02131c5fd8df83b4f2524bc1da1017a31",
+   "bytes": 74060,
+   "uploaded_at": "2026-10-28T22:54:45+00:00",
+   "original_sha256": "7efce496fa08ef0c40894c789f35a1edd6a9422bb901f625aac62347be4a7093",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "first-60-profile-600x769",
+   "key": "beneteau/first-60/plans/first-60-profile-600x769-68f04cd0.webp",
+   "sha256": "68f04cd0453fb52318264c391beca3d738d5857520d284c18fa7f1cae3606515",
+   "bytes": 19576,
+   "uploaded_at": "2026-10-28T22:54:45+00:00",
+   "original_sha256": "527ba1cfa0cc70b6896d5f9b27388961257b4e00aacdc516f502e2a3523252ea",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "first-60-exterior-layout",
+   "key": "beneteau/first-60/plans/first-60-exterior-layout-3acef29c.webp",
+   "sha256": "3acef29c8a15871208d91c8eaf92295a22339abb0e683efea222c7a05ad009c2",
+   "bytes": 34404,
+   "uploaded_at": "2026-10-28T22:54:46+00:00",
+   "original_sha256": "feb84a88acd544d82869eeb241dd1701c43e47795ea6a8b03e985efa8d6b04a1",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "first-60-interior-layout",
+   "key": "beneteau/first-60/plans/first-60-interior-layout-bb4e486a.webp",
+   "sha256": "bb4e486a6194b92780127caaa0feaadc62d5a0a1c1d17a81c8e5ffe54b52bb01",
+   "bytes": 20444,
+   "uploaded_at": "2026-10-28T22:54:46+00:00",
+   "original_sha256": "52394c3455212e353772cd923b19fae84bb2bd0adee05a78875fd8f5ad1fe8b9",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  }
+ ]
+}

@@ -1,0 +1,509 @@
+{
+ "version": 1,
+ "images": [
+  {
+   "id": "antares-7-header",
+   "key": "beneteau/antares-7/hero/antares-7-header-3f8e5550.webp",
+   "sha256": "3f8e55508a86c98f65b7f76883cfbaac0f3fed8bf216f5de0d7e91d1b05f5392",
+   "bytes": 547930,
+   "uploaded_at": "2026-10-28T22:54:01+00:00",
+   "original_sha256": "17ac1fc0d8bcf18910284f14678c4e5fb67dcf1deedfd59f0903c7fe22e31eaf",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares7-ext8",
+   "key": "beneteau/antares-7/exterior/antares7-ext8-b9691d9d.webp",
+   "sha256": "b9691d9dfc4672ef1ed14fec9e286f0b8f798aa64030a26b040fed68272fd765",
+   "bytes": 262074,
+   "uploaded_at": "2026-10-28T22:54:01+00:00",
+   "original_sha256": "f8c4c91da3799e62df27caed155e62629666b3cf65f66e9c8c1003537b3122a1",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares7-ext10",
+   "key": "beneteau/antares-7/exterior/antares7-ext10-17a645bf.webp",
+   "sha256": "17a645bf8322a611334e859ecbfc26853d97f8aae905905e73caf0da8654e864",
+   "bytes": 270090,
+   "uploaded_at": "2026-10-28T22:54:01+00:00",
+   "original_sha256": "bc58ca5bbf89c1e7a3bce884d4c149989c2b05f30e5811aade3b14f01ad79db4",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares7-ext2",
+   "key": "beneteau/antares-7/exterior/antares7-ext2-0644cefa.webp",
+   "sha256": "0644cefaeaceabfedcc5c8c243d779644a5d1eb5213198635899b7c7ebb3fd92",
+   "bytes": 97114,
+   "uploaded_at": "2026-10-28T22:54:01+00:00",
+   "original_sha256": "0d301797e511a738c92678ed7cf066ee0ccdcd211d825e774dcf2db41ffcf953",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares7",
+   "key": "beneteau/antares-7/exterior/antares7-7b940dcf.webp",
+   "sha256": "7b940dcf75dab93a98103024b5d02e72622628d3022ef70e353a4853473c87e9",
+   "bytes": 224088,
+   "uploaded_at": "2026-10-28T22:54:01+00:00",
+   "original_sha256": "0a2ca3cc3ea91703ead5c796778767dffeebe85025d7eba6505049bab0c11445",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares7-ext5",
+   "key": "beneteau/antares-7/exterior/antares7-ext5-5431d5c1.webp",
+   "sha256": "5431d5c123474c991d664dbdf793e9f6b0ac873f4faccea5de3289d683ddf879",
+   "bytes": 279632,
+   "uploaded_at": "2026-10-28T22:54:01+00:00",
+   "original_sha256": "7990870ab87576ff971f971bf85d1490c2dc9cee6e05a79ee7c9741d547b07f7",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares7-ext3",
+   "key": "beneteau/antares-7/exterior/antares7-ext3-f3b64f54.webp",
+   "sha256": "f3b64f54bb5332b571ce646abae5091ad8378b46e2c4a104ba19d8af55e904f8",
+   "bytes": 98322,
+   "uploaded_at": "2026-10-28T22:54:01+00:00",
+   "original_sha256": "99e4fb2bd9712f38ccd4f3c55da264fd51a471696f45f00516461f14f1ee117a",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares7-ext9-v2",
+   "key": "beneteau/antares-7/exterior/antares7-ext9-v2-1ef8fc6e.webp",
+   "sha256": "1ef8fc6e636ee2daf06d452358c9dc68bda1fc2ad3268895a37403b36bf7db5d",
+   "bytes": 113744,
+   "uploaded_at": "2026-10-28T22:54:01+00:00",
+   "original_sha256": "b6cf5f3c2a50148309dc1c4df573c6c560a31601dcc860dc9412045b4682409e",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares7-ext1-v2",
+   "key": "beneteau/antares-7/exterior/antares7-ext1-v2-91456720.webp",
+   "sha256": "914567202f679a2c7f35eca5967ab2e0a6bf20fe5808213d7c0db037e220282e",
+   "bytes": 247546,
+   "uploaded_at": "2026-10-28T22:54:02+00:00",
+   "original_sha256": "62c27a885a73ab275b3c20689d305580ee95e9521843abbfedcfc809006f1995",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares7-ext6",
+   "key": "beneteau/antares-7/exterior/antares7-ext6-165dabd5.webp",
+   "sha256": "165dabd54d90aded89a556d4bd36d0118dba514132e78740f73a211619d8128c",
+   "bytes": 158010,
+   "uploaded_at": "2026-10-28T22:54:02+00:00",
+   "original_sha256": "d8cdebcc7fc09e60f66c283cd69948343a5f7b1043ea60584b4498b1ebe1869f",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares7-ext14-v2",
+   "key": "beneteau/antares-7/exterior/antares7-ext14-v2-3caec3b5.webp",
+   "sha256": "3caec3b506ffbf163833136fb06f9d12670eff922f13b90d3aad7f7708afd560",
+   "bytes": 256662,
+   "uploaded_at": "2026-10-28T22:54:02+00:00",
+   "original_sha256": "f77f35621439e39096c7ee06d58eb9e961e160d4687a7a42cf67f212d031e50e",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares7-ext12-v2",
+   "key": "beneteau/antares-7/exterior/antares7-ext12-v2-95c6762e.webp",
+   "sha256": "95c6762ed801b78616281532765fb520a23048f0cd491a8b524504c8efb134fd",
+   "bytes": 178526,
+   "uploaded_at": "2026-10-28T22:54:02+00:00",
+   "original_sha256": "4be00c99b97bf807010e2f5f36812085383f36faa6809dbd93ab908ac8dc0f72",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares7-int1",
+   "key": "beneteau/antares-7/interior/antares7-int1-b9f7310f.webp",
+   "sha256": "b9f7310f0130e5fddad76c0b740305d4f1bd6ff991f2092a747ca4cfc624f8a3",
+   "bytes": 102364,
+   "uploaded_at": "2026-10-28T22:54:02+00:00",
+   "original_sha256": "170495dcbb557dd18ca6b38864def6e45a1b1c24b895bc02691140ceab5c53b2",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares7-int2",
+   "key": "beneteau/antares-7/interior/antares7-int2-aa4efc0e.webp",
+   "sha256": "aa4efc0ecd409011ff8682b745202878227edf393c31f0093dfd5a82d2db04b4",
+   "bytes": 101754,
+   "uploaded_at": "2026-10-28T22:54:02+00:00",
+   "original_sha256": "62fee8b44037f7afeeec884119e711acf43b88bfec83ce40482cced01d18109f",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares7-int3",
+   "key": "beneteau/antares-7/interior/antares7-int3-1a20b9b8.webp",
+   "sha256": "1a20b9b805afbbf1cd843d80e43dd0e9304ceb055f83c7006af0058ca5ecd5fc",
+   "bytes": 104584,
+   "uploaded_at": "2026-10-28T22:54:02+00:00",
+   "original_sha256": "f96ce74fd06d54b844fe4b02f778e83aee2d877762349a06dbea9a7b0d0ce465",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares7-int4",
+   "key": "beneteau/antares-7/interior/antares7-int4-f8484090.webp",
+   "sha256": "f8484090a32a3bc585f56f3d7e457f9832079376cd344e7136133d2626d6eb86",
+   "bytes": 101248,
+   "uploaded_at": "2026-10-28T22:54:02+00:00",
+   "original_sha256": "9a8b3f46c9b09ee30de85adeb385ab413902a410011460a00b8f0b20efd973fb",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares7-int5",
+   "key": "beneteau/antares-7/interior/antares7-int5-dfe02504.webp",
+   "sha256": "dfe025045a4a92461c01deb1e5a6534416d659940d7797d46d187a12919ebcf1",
+   "bytes": 110320,
+   "uploaded_at": "2026-10-28T22:54:03+00:00",
+   "original_sha256": "6b851a458687ad301d4903f3ffd5d8aa1b000a1791b44f22c2b8a46a04f9af28",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares7-int6",
+   "key": "beneteau/antares-7/interior/antares7-int6-432a7bfe.webp",
+   "sha256": "432a7bfe4749d5b3697e59cf62a25aa6e5e6cd6b6be3930cdcbc8529c8476ad1",
+   "bytes": 104030,
+   "uploaded_at": "2026-10-28T22:54:03+00:00",
+   "original_sha256": "0e25efe6c18acee66c94a7a542ae5783a396a4f886c58a26fd920c5eee8dd827",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares7-int7",
+   "key": "beneteau/antares-7/interior/antares7-int7-ff6cf029.webp",
+   "sha256": "ff6cf02934b158e01ac33ab9273e798c342014986e081b908d06024692bee460",
+   "bytes": 79346,
+   "uploaded_at": "2026-10-28T22:54:03+00:00",
+   "original_sha256": "ef33a5c4a06a1a9774dc34c0a0ddb462277510e8f73f57cbbd19641be763276e",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares7-fishing2",
+   "key": "beneteau/antares-7/exterior/antares7-fishing2-60e466c6.webp",
+   "sha256": "60e466c69b2299db8348f05f7a7357ff9da0e6c226bbc0c2e200fc741d65ad70",
+   "bytes": 111656,
+   "uploaded_at": "2026-10-28T22:54:03+00:00",
+   "original_sha256": "a6e7a85ccc351b802156e3b400e9516ab47e883f049ac1ef7ff1369a582a35b2",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares7-fishing4",
+   "key": "beneteau/antares-7/exterior/antares7-fishing4-caca8710.webp",
+   "sha256": "caca87108d46da31a369194904c8ebbecf21ead39e21511d189443ca50dce419",
+   "bytes": 81180,
+   "uploaded_at": "2026-10-28T22:54:03+00:00",
+   "original_sha256": "abdc5e274ec84293eb8b0a13aa7ddbe7c71ed992b40d421912063843dbb51c91",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares7-fishing5",
+   "key": "beneteau/antares-7/exterior/antares7-fishing5-78ab0a08.webp",
+   "sha256": "78ab0a08b22d86528a72140fbb88d576bfea3c9f726f8025a1cc3002679900b0",
+   "bytes": 95980,
+   "uploaded_at": "2026-10-28T22:54:03+00:00",
+   "original_sha256": "6d23873adc2fb49e9a14c6f36e539321e9161e3a9f01bc302fb11461a9820dc9",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares7-fishing1",
+   "key": "beneteau/antares-7/exterior/antares7-fishing1-0a5d66b6.webp",
+   "sha256": "0a5d66b6a66dae2fff75e0ac3776283fbf13a36375d79654e9733fee7c8d7cb9",
+   "bytes": 138514,
+   "uploaded_at": "2026-10-28T22:54:03+00:00",
+   "original_sha256": "1042c55c471722c6bd1e77516e7682a7f083a100a3ddb58ca2f97e42c1a94c1b",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares7-fishing3",
+   "key": "beneteau/antares-7/exterior/antares7-fishing3-419153dd.webp",
+   "sha256": "419153dda48d53acdc329f3ae271ab1ca4fc3f0d00e4238ba94854d5d5e7473e",
+   "bytes": 140018,
+   "uploaded_at": "2026-10-28T22:54:03+00:00",
+   "original_sha256": "6585829daacd68ef92042a12e486a1a2d5bfc95b719dd2ede4fcedfa4cecce13",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares7-fishing6",
+   "key": "beneteau/antares-7/exterior/antares7-fishing6-f44993cc.webp",
+   "sha256": "f44993ccc57c0be856e4c19c2e2a894d1131ce3ac06b220a04dcdd6fd0d6446b",
+   "bytes": 164344,
+   "uploaded_at": "2026-10-28T22:54:03+00:00",
+   "original_sha256": "f3f604c64996791bc89ecbc6214dbc8cb5982524fa9486c87389e69b3582d8ad",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares7-usp2-v2",
+   "key": "beneteau/antares-7/detail/antares7-usp2-v2-f5030f3a.webp",
+   "sha256": "f5030f3a519cbf047e3c627091785be39b5b2d9b80cd95d472a0f6ecf6ddacd9",
+   "bytes": 186412,
+   "uploaded_at": "2026-10-28T22:54:03+00:00",
+   "original_sha256": "6321bb347bf5e2a404cce756ddc472d6f95a6c4eac0bc2935250c9377a5446ee",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares7-usp3-v2",
+   "key": "beneteau/antares-7/detail/antares7-usp3-v2-15473221.webp",
+   "sha256": "154732214bb8c8447c66abbbb32ab74acc1377d60fab978c54780dedde6bb4ed",
+   "bytes": 147606,
+   "uploaded_at": "2026-10-28T22:54:03+00:00",
+   "original_sha256": "4a2f7c1484e6a88e16687306808c6b834daa5c28ac054f9d8f7c9979d1751ec1",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares7-usp4",
+   "key": "beneteau/antares-7/detail/antares7-usp4-597723af.webp",
+   "sha256": "597723af12826b52a4706a8e6afd15597dbccbb3e5bffbb3e98abe7b55435bb3",
+   "bytes": 164780,
+   "uploaded_at": "2026-10-28T22:54:03+00:00",
+   "original_sha256": "14035552b006a898d1d6509e7c94820fd2bac0e71d023e6c659e53afa3abf327",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "profile-antares7-cruising",
+   "key": "beneteau/antares-7/plans/profile-antares7-cruising-f0281689.webp",
+   "sha256": "f02816894ba23acbeb9d6a9ef232ca334b59ee58b298d167cf62c91d4e5e37f2",
+   "bytes": 7832,
+   "uploaded_at": "2026-10-28T22:54:03+00:00",
+   "original_sha256": "919ccec203911984477d780bbc35f68ad078208e737c89081c99aecc2b76085f",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "profile-antares-7-cruising-gris-perle",
+   "key": "beneteau/antares-7/plans/profile-antares-7-cruising-gris-perle-61e280bc.webp",
+   "sha256": "61e280bc959427cdc61046e9cb435361d2a343a1dd4d5ae5c67ba9fb055ca10c",
+   "bytes": 6986,
+   "uploaded_at": "2026-10-28T22:54:03+00:00",
+   "original_sha256": "5cafb1e5e1ae1997b7cdd95f1a249857958b95c651cd1bb146e4ab0c00e70df7",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "profile-antares7-fishing",
+   "key": "beneteau/antares-7/plans/profile-antares7-fishing-3ca6594e.webp",
+   "sha256": "3ca6594e5ef24b2c8edc4b383fdd6c15b06790be0feb5cdff143786756f5b174",
+   "bytes": 9022,
+   "uploaded_at": "2026-10-28T22:54:04+00:00",
+   "original_sha256": "5f44e0e50c279dca5a7f1c004462d4a1fae1d1578db77a87b34470a125b4e729",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "profile-antares-7-fishing-gris-perle",
+   "key": "beneteau/antares-7/plans/profile-antares-7-fishing-gris-perle-ea898801.webp",
+   "sha256": "ea8988019b5e2462cb3c212be8fa0f0e05c420dd50721bc9a300e0385882fa33",
+   "bytes": 8094,
+   "uploaded_at": "2026-10-28T22:54:04+00:00",
+   "original_sha256": "4e60233de60615cd1984eda8bc414e8fc07578f06863a1679786c4afe56c2553",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares7-exterior",
+   "key": "beneteau/antares-7/plans/antares7-exterior-d48678fb.webp",
+   "sha256": "d48678fb05f0b97ba1bd7b03e480831f3fbec3ed8c61ea5372b269a37498ae05",
+   "bytes": 13652,
+   "uploaded_at": "2026-10-28T22:54:04+00:00",
+   "original_sha256": "a081ff44f3ea56c2a22456b7491dfe59815e3f0a3809e96b491e7e4487331a0a",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares-7-fishing-800x560-2",
+   "key": "beneteau/antares-7/plans/antares-7-fishing-800x560-2-9f176784.webp",
+   "sha256": "9f1767841da99ddac8cdb9c32efd7fb161fa62b85ab5ab78158d14775d485fb3",
+   "bytes": 14644,
+   "uploaded_at": "2026-10-28T22:54:04+00:00",
+   "original_sha256": "be6b7e8aa2f4d8b84ef1d5b6acd35a8306a67b31d8ef1cc077ea32093e9325d7",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares7-plan2-cabine-std",
+   "key": "beneteau/antares-7/plans/antares7-plan2-cabine-std-b792f3f6.webp",
+   "sha256": "b792f3f60d837a21b31db581d12b3fcf0650ce0cbe01f03356d66b73b7637ca5",
+   "bytes": 14460,
+   "uploaded_at": "2026-10-28T22:54:04+00:00",
+   "original_sha256": "a5d2af8c9a57a0e08424d0878b54d9fb60af289976988a8204adee9d622a1666",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares7-plan1-cabine-separe",
+   "key": "beneteau/antares-7/plans/antares7-plan1-cabine-separe-86e5a31f.webp",
+   "sha256": "86e5a31f33256fc3c5ac04a632e6420392b1c0af6c5d137799bc836855ed007d",
+   "bytes": 15136,
+   "uploaded_at": "2026-10-28T22:54:04+00:00",
+   "original_sha256": "c9946fd2acfac1898b379da4e152a047ecae178633f135c257a84f23b11734c5",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  }
+ ]
+}

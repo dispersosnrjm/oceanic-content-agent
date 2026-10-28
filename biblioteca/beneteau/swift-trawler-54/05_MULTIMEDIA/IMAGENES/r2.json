@@ -1,0 +1,397 @@
+{
+ "version": 1,
+ "images": [
+  {
+   "id": "swift-trawler-54-header-0",
+   "key": "beneteau/swift-trawler-54/hero/swift-trawler-54-header-0-cc65f5c9.webp",
+   "sha256": "cc65f5c96ff652e3add8acd8d01687399699bce2f5952f9c55ab1d13789b1897",
+   "bytes": 237774,
+   "uploaded_at": "2026-10-28T22:56:27+00:00",
+   "original_sha256": "fec7466c0865bca513899fb2631943d03e8dbbf498540810f88decfd744d3b3b",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "swift-trawler-54-exterior-0",
+   "key": "beneteau/swift-trawler-54/exterior/swift-trawler-54-exterior-0-d5d691f1.webp",
+   "sha256": "d5d691f14fcc7339461ea79634cebfaaa080b70bfe6c8f41628bfa96818c0e65",
+   "bytes": 337156,
+   "uploaded_at": "2026-10-28T22:56:27+00:00",
+   "original_sha256": "fe62219ca573cc22b3fde8b6eecfc9f14699eb2544de8bf35b77d425985d8d6f",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "swift-trawler-54-exterior-5",
+   "key": "beneteau/swift-trawler-54/exterior/swift-trawler-54-exterior-5-462a022d.webp",
+   "sha256": "462a022dcb4a5b7a79887d3b81e0a40926bf8c34eb1687b5f997630c304c6152",
+   "bytes": 227264,
+   "uploaded_at": "2026-10-28T22:56:27+00:00",
+   "original_sha256": "b6ea1aec6da32243d45bab7d3b03d44a528ecde4aaf7430b566e27a249ef20c0",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "swift-trawler-54-exterior-3",
+   "key": "beneteau/swift-trawler-54/exterior/swift-trawler-54-exterior-3-4152073e.webp",
+   "sha256": "4152073ec45d66df0284308056becb6f369b6d7d662d2f99d18342566574454d",
+   "bytes": 221968,
+   "uploaded_at": "2026-10-28T22:56:27+00:00",
+   "original_sha256": "035fa23a897d3f827beb6b270b469e644cc6fcb28d448f6e126ee8dc81931e01",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "swift-trawler-54-exterior-4",
+   "key": "beneteau/swift-trawler-54/exterior/swift-trawler-54-exterior-4-b6f43a6d.webp",
+   "sha256": "b6f43a6dbdaeb8e300115e115e1d82da4c4f47f8eeac1e8e48ab34edc1861388",
+   "bytes": 197840,
+   "uploaded_at": "2026-10-28T22:56:27+00:00",
+   "original_sha256": "4c53338f45b9df71a2c4f2d5982c71da6698d680eb28cdaca22b2a1e54716b04",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "swift-trawler-54-exterior-6",
+   "key": "beneteau/swift-trawler-54/exterior/swift-trawler-54-exterior-6-334e1b8a.webp",
+   "sha256": "334e1b8a3291fb530eb6b98079f44b5aa304b42ad54ac12e6db543d37df046c8",
+   "bytes": 110618,
+   "uploaded_at": "2026-10-28T22:56:27+00:00",
+   "original_sha256": "b91884685daf2e33ceacdfc2953e4da126353b77b6dea228181c1f168ab1857d",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "swift-trawler-54-exterieur-1",
+   "key": "beneteau/swift-trawler-54/exterior/swift-trawler-54-exterieur-1-bc0fbcf9.webp",
+   "sha256": "bc0fbcf9fcd3cfe4aaeaa9dee94d673c96040225c0cbdd90001f8d6b14474ab2",
+   "bytes": 104838,
+   "uploaded_at": "2026-10-28T22:56:27+00:00",
+   "original_sha256": "7bf0099ba9ad4c45b4a5879d1672d912af7c47b4fd765e9a3c495202c6576c56",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "swift-trawler-54-exterieur-2",
+   "key": "beneteau/swift-trawler-54/exterior/swift-trawler-54-exterieur-2-0eed7959.webp",
+   "sha256": "0eed7959b3940a2d97d718745631b9fb7a8dddd7bec3f15f44412d822a2db60f",
+   "bytes": 199822,
+   "uploaded_at": "2026-10-28T22:56:27+00:00",
+   "original_sha256": "913b4cf6cda6e37fda7289a8688e055af187b243754b4721deaf010dba6f7a60",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "swift-trawler-54-exterieur-3",
+   "key": "beneteau/swift-trawler-54/exterior/swift-trawler-54-exterieur-3-e06eea08.webp",
+   "sha256": "e06eea08eb5dc16a1c50884e7cdbe015de0f2117309d29a5c3f490d447bfb6fb",
+   "bytes": 106816,
+   "uploaded_at": "2026-10-28T22:56:27+00:00",
+   "original_sha256": "9819a5b28f2c882d3b784d5cf6d98be3863e65579e5a1a5a2dc5637e979aaf03",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "swift-trawler-54-exterieur-4",
+   "key": "beneteau/swift-trawler-54/exterior/swift-trawler-54-exterieur-4-02ac0d29.webp",
+   "sha256": "02ac0d29765c280e8e1e8c7d639e567ca0ec3440583b0d9c3d46aabc404373d4",
+   "bytes": 215808,
+   "uploaded_at": "2026-10-28T22:56:27+00:00",
+   "original_sha256": "cc55648ed010c18173a492ad1bd42a2d16141daffd83ebf18d88f80308201d0b",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "swift-trawler-54-interior-01",
+   "key": "beneteau/swift-trawler-54/interior/swift-trawler-54-interior-01-123578bf.webp",
+   "sha256": "123578bf96dbdc8d8f1c99577d371a62c61c0c4e646c7992a6a8071e720425e5",
+   "bytes": 130130,
+   "uploaded_at": "2026-10-28T22:56:27+00:00",
+   "original_sha256": "853d0ce757dfb68b1fe3ac413c6d5791d87cb3ba10464665657fc0dcb4fed49c",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "swift-trawler-54-interior-02",
+   "key": "beneteau/swift-trawler-54/interior/swift-trawler-54-interior-02-8eb9cacb.webp",
+   "sha256": "8eb9cacb7bcada5828b80e142f15b2c963f9ba4944b7b45dd440ab0790cc0d80",
+   "bytes": 142590,
+   "uploaded_at": "2026-10-28T22:56:27+00:00",
+   "original_sha256": "cec7f60d7b8cf05f597d05d260f9ab0694081f5eb9334b5c2fa25decf22d2a61",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "swift-trawler-54-interior-03",
+   "key": "beneteau/swift-trawler-54/interior/swift-trawler-54-interior-03-841a42b1.webp",
+   "sha256": "841a42b1b3efa1e4883cc8022f11e823c28257a55d095e6f47465ba723a9cc07",
+   "bytes": 153774,
+   "uploaded_at": "2026-10-28T22:56:28+00:00",
+   "original_sha256": "a3a246b8194e9d36d8587fda149729f8ecde66688c184a430315501dcbcd93a2",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "swift-trawler-54-interior-04",
+   "key": "beneteau/swift-trawler-54/interior/swift-trawler-54-interior-04-ee00fa94.webp",
+   "sha256": "ee00fa94eb9755bf0bbc39064112e42c4e11347f73b0695cef4b338fc01b02ac",
+   "bytes": 118212,
+   "uploaded_at": "2026-10-28T22:56:28+00:00",
+   "original_sha256": "fc432f36ec97dc739d402c9b81f0dc24b205b416ea07c6fed6b29d48652b7667",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "swift-trawler-54-interior-05",
+   "key": "beneteau/swift-trawler-54/interior/swift-trawler-54-interior-05-c8e0c995.webp",
+   "sha256": "c8e0c9952fcdc98f2033cefa0fad4d9315c8fc99563ec32a254ecfbb89ebeb26",
+   "bytes": 62716,
+   "uploaded_at": "2026-10-28T22:56:28+00:00",
+   "original_sha256": "725f3c15666d0ee7a8d697e5788c5aa348cb27461a55f6e0967091954f670044",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "swift-trawler-54-interieur-6",
+   "key": "beneteau/swift-trawler-54/interior/swift-trawler-54-interieur-6-e83fe623.webp",
+   "sha256": "e83fe62323e5bfdb88cbc429b57ab10ccf0cba86d506db99e4a461eb7c347be4",
+   "bytes": 164294,
+   "uploaded_at": "2026-10-28T22:56:28+00:00",
+   "original_sha256": "d6c35caf7e0c2019dd8446820eaf60924c982a0545c070f4ec4c624a218ac853",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "swift-trawler-54-interior-07",
+   "key": "beneteau/swift-trawler-54/interior/swift-trawler-54-interior-07-62c0a16d.webp",
+   "sha256": "62c0a16d5fe9cd5a35993dad0cc685926b2fc8da71f66f1599d08a9e7a405437",
+   "bytes": 75936,
+   "uploaded_at": "2026-10-28T22:56:28+00:00",
+   "original_sha256": "50286811120f52b4a0bffb9abf78d865e658ed0e1986366bb4e8cbb6dd3affe0",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "swift-trawler-54-interieur-8",
+   "key": "beneteau/swift-trawler-54/interior/swift-trawler-54-interieur-8-1e2b398f.webp",
+   "sha256": "1e2b398fb710e5c9ed6e3f1fdd1e6eeac47eaab289b95ae092b4536549ef13ef",
+   "bytes": 114126,
+   "uploaded_at": "2026-10-28T22:56:28+00:00",
+   "original_sha256": "ea763a89b3e86e9601d6a29e2f0a82b01b9e9952aa38502143227d6a773bd978",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "swift-trawler-54-interior-08-slider-1640x566",
+   "key": "beneteau/swift-trawler-54/interior/swift-trawler-54-interior-08-slider-1640x566-379a3298.webp",
+   "sha256": "379a32985a4b44578eee249d0e4a70b73f2258f9fd2fd06f218eb4bf90eb75de",
+   "bytes": 103480,
+   "uploaded_at": "2026-10-28T22:56:28+00:00",
+   "original_sha256": "25c12dada334d4d9975367a39054eb4ebc0e5f77f798ca6e502e87de64c01a14",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "swift-trawler-54-slider-03-1640x566",
+   "key": "beneteau/swift-trawler-54/detail/swift-trawler-54-slider-03-1640x566-3c63c4b9.webp",
+   "sha256": "3c63c4b923666736cda2ddb31b2bd604a923e78387cbd3c8d3881d259e7c8375",
+   "bytes": 176238,
+   "uploaded_at": "2026-10-28T22:56:28+00:00",
+   "original_sha256": "13bb278bf9e790c1a1543b95638240fd189f1edca046b1c81cbb3fd847f99c27",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "swift-trawler-54-interior-slider-02-1640x566-0",
+   "key": "beneteau/swift-trawler-54/interior/swift-trawler-54-interior-slider-02-1640x566-0-382a852c.webp",
+   "sha256": "382a852c67d0509d73609197d42e87decfb5b77963472dcc0f44058f8d0cc943",
+   "bytes": 77908,
+   "uploaded_at": "2026-10-28T22:56:28+00:00",
+   "original_sha256": "01e70d4c59453fb1b4fd8344ba840233473036d85e5823aaf4fd7e04015dfbc1",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "swift-trawler-54-profile-1",
+   "key": "beneteau/swift-trawler-54/plans/swift-trawler-54-profile-1-641c04a3.webp",
+   "sha256": "641c04a3bd9bed4f0a35c328ff5d9bb240aa731b6f45048b38ab605c33460d8c",
+   "bytes": 14272,
+   "uploaded_at": "2026-10-28T22:56:29+00:00",
+   "original_sha256": "1720a4c61b72a72818115d3c9ffbb03c85e0ab85bdc6babbc528463a3dba826f",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "swift-trawler-54-profile-2",
+   "key": "beneteau/swift-trawler-54/plans/swift-trawler-54-profile-2-fe50e5bf.webp",
+   "sha256": "fe50e5bfd3c963fc3dd15585f69779c35518bc54415297aeefdb92ed0a0f8748",
+   "bytes": 13992,
+   "uploaded_at": "2026-10-28T22:56:29+00:00",
+   "original_sha256": "4d0c99e1c8d8361140ed852c8a58cca8ecb088a6589d23599e6e5974f3b8c0e4",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "swift-trawler-54-profile-3-0",
+   "key": "beneteau/swift-trawler-54/plans/swift-trawler-54-profile-3-0-cd763e25.webp",
+   "sha256": "cd763e2587c633e5fdc10cfd26f937035be0e9b79bd9c24307672f3aee9ba32f",
+   "bytes": 15592,
+   "uploaded_at": "2026-10-28T22:56:29+00:00",
+   "original_sha256": "6c47b9727e281cf7d0f9319c17c05482cabdd33a2fdf97f603981011f5a08053",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "swift-trawler-54-layout-sans-eolienne",
+   "key": "beneteau/swift-trawler-54/plans/swift-trawler-54-layout-sans-eolienne-ca0fb600.webp",
+   "sha256": "ca0fb6006a0657497b46dac1d4586c0d81656dcc742b109074a8010cd38e0b3e",
+   "bytes": 45602,
+   "uploaded_at": "2026-10-28T22:56:29+00:00",
+   "original_sha256": "03767c0c85a2dc9d4b753413f77461b090d2fa27166ee9d0984b6ea094390ca0",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "swift-trawler-54-layout-2-1",
+   "key": "beneteau/swift-trawler-54/plans/swift-trawler-54-layout-2-1-967dc85c.webp",
+   "sha256": "967dc85c89917d12eb8316b0eb00527bbdd947bfdea81d03bab4a9260087e06b",
+   "bytes": 47396,
+   "uploaded_at": "2026-10-28T22:56:29+00:00",
+   "original_sha256": "8169abb26969603a52a1a431200bf31af474e6368dbfca7004fbddaf3788476b",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "swift-trawler-54-layout-3-1",
+   "key": "beneteau/swift-trawler-54/plans/swift-trawler-54-layout-3-1-72eeb3c6.webp",
+   "sha256": "72eeb3c6768b5b8b89162841a6352d94c26b3fef093e75506772f32a87e3bb30",
+   "bytes": 52648,
+   "uploaded_at": "2026-10-28T22:56:29+00:00",
+   "original_sha256": "d675b4c4c35cae485f96344f23f12dfaa73ff4501ced8445249e1bfb04202757",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "swift-trawler-54-layout-4-1",
+   "key": "beneteau/swift-trawler-54/plans/swift-trawler-54-layout-4-1-74fe35a2.webp",
+   "sha256": "74fe35a2aa732b150dabc6aa44a4da6b7637076966c44bb73814b24c2880d3e0",
+   "bytes": 60608,
+   "uploaded_at": "2026-10-28T22:56:29+00:00",
+   "original_sha256": "c750d57f818608ad7b11398b72b0cc9183c38370d08f647ad56b407548edccb4",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  }
+ ]
+}

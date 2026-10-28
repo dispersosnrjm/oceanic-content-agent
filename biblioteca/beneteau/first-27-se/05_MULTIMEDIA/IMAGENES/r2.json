@@ -1,0 +1,229 @@
+{
+ "version": 1,
+ "images": [
+  {
+   "id": "first27-se-header",
+   "key": "beneteau/first-27-se/hero/first27-se-header-e7fe91e0.webp",
+   "sha256": "e7fe91e0732d241f3826dc5febef14e113a6dbb46ff24ec3502fd86ad4178b4d",
+   "bytes": 187532,
+   "uploaded_at": "2026-10-28T22:54:25+00:00",
+   "original_sha256": "a5d762ae13ad739aec68cd6643ecf8d4f4fe786ecddf3bd73d6227a0112a7815",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "first27-se-sailing-exp3",
+   "key": "beneteau/first-27-se/underway/first27-se-sailing-exp3-bc191cff.webp",
+   "sha256": "bc191cff8a1910e30f95140fc295766eddb196dfee32d6ba06c347740f1032d0",
+   "bytes": 46842,
+   "uploaded_at": "2026-10-28T22:54:25+00:00",
+   "original_sha256": "7eac46457dea3c7f9c7aa64ca4002dca1feba3f7b3b4ddfb5567f0513d08ccb8",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "first27-se-sailing-exp4",
+   "key": "beneteau/first-27-se/underway/first27-se-sailing-exp4-8d4f4b95.webp",
+   "sha256": "8d4f4b95d54e84189f44bbcc3e78be06fe05623efb10a6fe191b85f48f9181c8",
+   "bytes": 82350,
+   "uploaded_at": "2026-10-28T22:54:25+00:00",
+   "original_sha256": "7e390b7d6b55581f88a384a41ca6b1799bdc7885d40bae21ad178e9b8edf68e7",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "first27-se-sailing-exp",
+   "key": "beneteau/first-27-se/underway/first27-se-sailing-exp-8af5e693.webp",
+   "sha256": "8af5e693a6aba4b35615aefa345ab6b6f5cc47a2430d90a17079c19c75fac401",
+   "bytes": 117732,
+   "uploaded_at": "2026-10-28T22:54:25+00:00",
+   "original_sha256": "8a8f8b1e75706a343260171daeb39b7b8ccd65e6a29d6c6d61e9b1671ecdce89",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "first27-se-sailing-exp2",
+   "key": "beneteau/first-27-se/underway/first27-se-sailing-exp2-0be6cbf0.webp",
+   "sha256": "0be6cbf04b90f7778a4d955d6a69369ed3cf0edf8d4f3ae541d25491bc15a132",
+   "bytes": 104170,
+   "uploaded_at": "2026-10-28T22:54:25+00:00",
+   "original_sha256": "48f21c88ec78bbe186366f69702fa00db3703767b9bc5615a322ccbd98e6f23b",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "first27-se-onboard2",
+   "key": "beneteau/first-27-se/interior/first27-se-onboard2-ea2a01d0.webp",
+   "sha256": "ea2a01d0d4d7729825c5ffc5e96b363d865400953998c9d7de0146b8a6144a86",
+   "bytes": 64730,
+   "uploaded_at": "2026-10-28T22:54:25+00:00",
+   "original_sha256": "46e970f2e73d81b20589cea8351962826f7465afb044c0db33d373367f984e6c",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "first27-se-onboard3",
+   "key": "beneteau/first-27-se/interior/first27-se-onboard3-73178975.webp",
+   "sha256": "73178975eb5967bd6390dc45373247f8c896a01f0a8899dc6c1f9e95fb2cfca8",
+   "bytes": 76052,
+   "uploaded_at": "2026-10-28T22:54:26+00:00",
+   "original_sha256": "58fac8181918a655ed1f93c455c9ed0be7fe9490462a2cf07e4377df07d47540",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "first27-se-onboard4",
+   "key": "beneteau/first-27-se/interior/first27-se-onboard4-d117c323.webp",
+   "sha256": "d117c323dce76920827e51d9485cb9afec4df838f5f339d278f2346502875b8f",
+   "bytes": 59878,
+   "uploaded_at": "2026-10-28T22:54:26+00:00",
+   "original_sha256": "e7b42d2c4e6adf59a38aeec1c7f541b310d1296b7d529426ac7b2d926d2b0ee3",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "first27-se-onboard5",
+   "key": "beneteau/first-27-se/interior/first27-se-onboard5-5d4cbb7b.webp",
+   "sha256": "5d4cbb7b8b021a26714dc376ded931a8271ee20d6ed680adf70ee8ebb5ac1c3e",
+   "bytes": 79802,
+   "uploaded_at": "2026-10-28T22:54:26+00:00",
+   "original_sha256": "f75053ffb29ef471c0fe8dc5f6c82c41752b38bc9782b89b51ac6e732ef48096",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "first27se-community",
+   "key": "beneteau/first-27-se/other/first27se-community-a1627300.webp",
+   "sha256": "a1627300c15d56f8b647005e48c2195db6b320cb43024ce616784cf73c9248cf",
+   "bytes": 72388,
+   "uploaded_at": "2026-10-28T22:54:26+00:00",
+   "original_sha256": "e3f883d4d6b807e96ffb7def0965f75ca1812d1b90de0cb01c4feb846bc29868",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "first27se-usp1-v2",
+   "key": "beneteau/first-27-se/detail/first27se-usp1-v2-cd1ad825.webp",
+   "sha256": "cd1ad825ecf242ed4c469378717365ee2335e4ec621b7c755db469076bc58252",
+   "bytes": 151594,
+   "uploaded_at": "2026-10-28T22:54:26+00:00",
+   "original_sha256": "a3fbb7eb08d1ca126172cc630937ab63940bda982d944e5d4cd676961c53341e",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "first27se-usp2-v2",
+   "key": "beneteau/first-27-se/detail/first27se-usp2-v2-202c58ec.webp",
+   "sha256": "202c58ec44fea22a0109703da2218a4de093a5a928a76a1d22a21387992ade93",
+   "bytes": 91648,
+   "uploaded_at": "2026-10-28T22:54:26+00:00",
+   "original_sha256": "a944b9d837b199a317375e5df499485c1e7251adc643bd690258d669f726b043",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "first27se-usp3-v2",
+   "key": "beneteau/first-27-se/detail/first27se-usp3-v2-4c61045f.webp",
+   "sha256": "4c61045f1f2c4b2e5f3fd384ba932bca840c1e2a1c94de294200d7c2513b0154",
+   "bytes": 173350,
+   "uploaded_at": "2026-10-28T22:54:26+00:00",
+   "original_sha256": "0646154b24f40abf536633dace108d143bbad10cd42f2e7722b09b6af52ca342",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "trailability-2",
+   "key": "beneteau/first-27-se/detail/trailability-2-1cff74f6.webp",
+   "sha256": "1cff74f63a12bd76475233ce463760208bd2249cb856631a39d9b7215e6f7548",
+   "bytes": 105734,
+   "uploaded_at": "2026-10-28T22:54:26+00:00",
+   "original_sha256": "d9bbdddad48757e4081b3be44be6636b3c5867a3c71c54d5f8d08de78a8ab6d7",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "profile-first-27-se-no-sail",
+   "key": "beneteau/first-27-se/plans/profile-first-27-se-no-sail-1de0c35b.webp",
+   "sha256": "1de0c35b65cacf6b3ed150f13526f54948166785e3056be5e28c92011a8c19f8",
+   "bytes": 1636,
+   "uploaded_at": "2026-10-28T22:54:26+00:00",
+   "original_sha256": "4727506d95091c06e284285df82226d277ed5ae4686c7118680cba98eece353f",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "profile-first-27-se-sail",
+   "key": "beneteau/first-27-se/plans/profile-first-27-se-sail-bfe56cb5.webp",
+   "sha256": "bfe56cb5c54b40344f20e49abc609e322e0c609af4979515ecd341a7e865388c",
+   "bytes": 2194,
+   "uploaded_at": "2026-10-28T22:54:26+00:00",
+   "original_sha256": "781483d12481326a30a58627f5ad5cdab89442d5125448776da38afc5ae1ab93",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  }
+ ]
+}

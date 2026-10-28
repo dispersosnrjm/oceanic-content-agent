@@ -1,0 +1,285 @@
+{
+ "version": 1,
+ "images": [
+  {
+   "id": "hero-swift-trawler-43-sedan-desktop-2-0",
+   "key": "beneteau/swift-trawler-43-sedan/hero/hero-swift-trawler-43-sedan-desktop-2-0-383ac725.webp",
+   "sha256": "383ac7251edc1650b41d1e30ed78f0f894d4f26a05c1502e6b80b33b84a10fc8",
+   "bytes": 113752,
+   "uploaded_at": "2026-10-28T22:56:20+00:00",
+   "original_sha256": "fa4583643fb062880b985afbfa756680142db0baa944588022c9e7794d77e742",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "swift-trawler-43-sedan-exterior-design-01",
+   "key": "beneteau/swift-trawler-43-sedan/exterior/swift-trawler-43-sedan-exterior-design-01-78e95d32.webp",
+   "sha256": "78e95d32b3174e3204d58fb1369e580fbd1366fcc9eb9a043d8298d80410acd8",
+   "bytes": 241820,
+   "uploaded_at": "2026-10-28T22:56:20+00:00",
+   "original_sha256": "32a5db871f1ef49b018a4aade3d92ee99da5c45709eeacf98a4245ccc985ca7a",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "swift-trawler-43-sedan-exterior-design-02",
+   "key": "beneteau/swift-trawler-43-sedan/exterior/swift-trawler-43-sedan-exterior-design-02-e0b92d59.webp",
+   "sha256": "e0b92d597d4db0e45e1a29a63d3eba83ff05b339df1fc05f2264869b29aecfac",
+   "bytes": 281320,
+   "uploaded_at": "2026-10-28T22:56:20+00:00",
+   "original_sha256": "67ac27ca70ffb78d5fa86057fdc4161d6e000d9bdae1b9f2f99bd1071c6abc8c",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "swift-trawler-43-sedan-exterior-design-03",
+   "key": "beneteau/swift-trawler-43-sedan/exterior/swift-trawler-43-sedan-exterior-design-03-5088cc54.webp",
+   "sha256": "5088cc549d51ac9b25b330cff63f4f8c9f5fe40759ce3f69c234e06bccd5cd3c",
+   "bytes": 93394,
+   "uploaded_at": "2026-10-28T22:56:20+00:00",
+   "original_sha256": "3e90373282b4b06b42cb669bd5ae81251bc0e98bcba73f4aa382e6e1b65f51aa",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "swift-trawler-43-sedan-interior-design-main-deck-01",
+   "key": "beneteau/swift-trawler-43-sedan/interior/swift-trawler-43-sedan-interior-design-main-deck-01-244288c0.webp",
+   "sha256": "244288c035453affbbc35bb359753e6f95d4092a6c6c7f7fd0926cb23aded5b8",
+   "bytes": 108114,
+   "uploaded_at": "2026-10-28T22:56:20+00:00",
+   "original_sha256": "ceedcb2f05ba4ac6c75c0e3718580b2e4dadc3e85fab53307b07205d742b47e0",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "swift-trawler-43-sedan-interior-design-main-deck-02",
+   "key": "beneteau/swift-trawler-43-sedan/interior/swift-trawler-43-sedan-interior-design-main-deck-02-989c5ac0.webp",
+   "sha256": "989c5ac0544e32e2371466642c8e7196bb0ba12e4d489666d2f7e28534c2e122",
+   "bytes": 100362,
+   "uploaded_at": "2026-10-28T22:56:20+00:00",
+   "original_sha256": "857e5f143d6eff7e2c9a75f294b893fae1fbf7e1f21613fb25dac67c67976448",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "swift-trawler-43-sedan-interior-design-main-deck-03",
+   "key": "beneteau/swift-trawler-43-sedan/interior/swift-trawler-43-sedan-interior-design-main-deck-03-d19aff1b.webp",
+   "sha256": "d19aff1b02b100546b3e88613758c0fe74411ab099302191938a695ba6c7b450",
+   "bytes": 85282,
+   "uploaded_at": "2026-10-28T22:56:20+00:00",
+   "original_sha256": "dc7dfd77b22088f730974c72fae3fd98ba2d2489ba6e9811cc7883a70d497852",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "swift-trawler-43-sedan-interior-design-main-deck-06",
+   "key": "beneteau/swift-trawler-43-sedan/interior/swift-trawler-43-sedan-interior-design-main-deck-06-1d90dc24.webp",
+   "sha256": "1d90dc24f4a781aa1fff06784a6656f1191c029dc577b7f6a312ce0b6e0e4f64",
+   "bytes": 108342,
+   "uploaded_at": "2026-10-28T22:56:20+00:00",
+   "original_sha256": "388cd58e10fe8e183c1f8e6b96216a4785fae5c9e22212162d26f18fca71e57b",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "swift-trawler-43-sedan-interior-design-lower-deck-03",
+   "key": "beneteau/swift-trawler-43-sedan/interior/swift-trawler-43-sedan-interior-design-lower-deck-03-dbfafc87.webp",
+   "sha256": "dbfafc87d03c70af4c051c5f818651071d0f0489678c0c3a6f6c9d3a0cf5873a",
+   "bytes": 83248,
+   "uploaded_at": "2026-10-28T22:56:20+00:00",
+   "original_sha256": "8ec87fa801a58cdb97c47575933540121519ced96d44587392ffe76791ef1938",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "swift-trawler-43-sedan-interior-design-lower-deck-01",
+   "key": "beneteau/swift-trawler-43-sedan/interior/swift-trawler-43-sedan-interior-design-lower-deck-01-0f7681f1.webp",
+   "sha256": "0f7681f1a542145ceca3c75039ed9d3e227359e64b9de9816c2c917a5a0a0fc8",
+   "bytes": 74872,
+   "uploaded_at": "2026-10-28T22:56:20+00:00",
+   "original_sha256": "891cab0922ee5f42e298e564f5ca54c69f41ff3c2a2826de0c52b9e877b24c7d",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "swift-trawler-43-sedan-interior-design-lower-deck-02",
+   "key": "beneteau/swift-trawler-43-sedan/interior/swift-trawler-43-sedan-interior-design-lower-deck-02-49e947c8.webp",
+   "sha256": "49e947c836e3f3889e118b5c43b0ba9d031570e0078c39e932560f36cbe27597",
+   "bytes": 53878,
+   "uploaded_at": "2026-10-28T22:56:20+00:00",
+   "original_sha256": "6e06b946aecbf2ad707f34cb09d784519edacf935156843af04652732d51d8c4",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "swift-trawler-43-sedan-interior-design-lower-deck-05",
+   "key": "beneteau/swift-trawler-43-sedan/interior/swift-trawler-43-sedan-interior-design-lower-deck-05-e605a7cb.webp",
+   "sha256": "e605a7cb3abf33c664c0b5f7d50ef09415fa49f5288c856520c3f6a3646c85a9",
+   "bytes": 32968,
+   "uploaded_at": "2026-10-28T22:56:20+00:00",
+   "original_sha256": "231bbf16d86470d8ccba08a6ecc174d183dac3d4df4cbfa715c578eb1f8fd046",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "swift-trawler-43-sedan-usp-01",
+   "key": "beneteau/swift-trawler-43-sedan/detail/swift-trawler-43-sedan-usp-01-66ca391b.webp",
+   "sha256": "66ca391b820a3a10aa20ee50cdfa07d2f1e7790c0bc3ef0b3e59d7d5f6d535c7",
+   "bytes": 69146,
+   "uploaded_at": "2026-10-28T22:56:21+00:00",
+   "original_sha256": "f82e458c033c61565505b817cf54e117c050a34300ec30d14d7a2218130c818f",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "swift-trawler-43-sedan-usp-02",
+   "key": "beneteau/swift-trawler-43-sedan/detail/swift-trawler-43-sedan-usp-02-d87aaf6d.webp",
+   "sha256": "d87aaf6d11fb2ccf98a0efa5f1d642e60b3738e8f9452d5e44c96fa455cf1e7c",
+   "bytes": 92332,
+   "uploaded_at": "2026-10-28T22:56:21+00:00",
+   "original_sha256": "7cb74e5630bd00c114603858d9c7f9bd627aafe1ca47fcbc085eaf5dcc540915",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "swift-trawler-43-sedan-usp-03",
+   "key": "beneteau/swift-trawler-43-sedan/detail/swift-trawler-43-sedan-usp-03-a15de197.webp",
+   "sha256": "a15de19706896567bdf26ce49aa9c40732dbddee9b22eaa738dcfc5bf8ef096d",
+   "bytes": 96122,
+   "uploaded_at": "2026-10-28T22:56:21+00:00",
+   "original_sha256": "aa468ea569d56e18901936d5f8d335dd7016b3eb51aa346282ab620abd88d1b7",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "swift-trawler-43-sedan-standard-profile",
+   "key": "beneteau/swift-trawler-43-sedan/plans/swift-trawler-43-sedan-standard-profile-202c2182.webp",
+   "sha256": "202c2182f9cfed59c317950d82a1a896c1022731540a5c5792fab25ba0f57ee2",
+   "bytes": 17340,
+   "uploaded_at": "2026-10-28T22:56:21+00:00",
+   "original_sha256": "105bf62a4311745731a2d4107d164c2838ae62d61ef1fce1f86f99b218c54874",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "swift-trawler-43-sedan-full-option-profile",
+   "key": "beneteau/swift-trawler-43-sedan/plans/swift-trawler-43-sedan-full-option-profile-bd3f7921.webp",
+   "sha256": "bd3f7921cf09e17ced4f9f6e00c8d22aac7968bb13ac59dd6a534530315a109f",
+   "bytes": 19082,
+   "uploaded_at": "2026-10-28T22:56:21+00:00",
+   "original_sha256": "2e6ed2eb54341472834161ff5ca11dbae642278ae1d4b0e2b797ad24438258e1",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "layout-swift-trawler-43-sedan-2",
+   "key": "beneteau/swift-trawler-43-sedan/plans/layout-swift-trawler-43-sedan-2-9d818654.webp",
+   "sha256": "9d81865407ad194e8b6d8e8de176ee45f70f453aa9a83e4a809c0f549a8b2d51",
+   "bytes": 32728,
+   "uploaded_at": "2026-10-28T22:56:21+00:00",
+   "original_sha256": "9a3926c92d43444858cb75e49bfd9677a9d5c8c9cb01188011e9eaed5f925247",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "layout-swift-trawler-43-sedan-main-bridge",
+   "key": "beneteau/swift-trawler-43-sedan/plans/layout-swift-trawler-43-sedan-main-bridge-95ff7538.webp",
+   "sha256": "95ff7538b73eee2decacd1c71f2a202a46a5436ade56f07189b08dc9ec4ad0c3",
+   "bytes": 21736,
+   "uploaded_at": "2026-10-28T22:56:21+00:00",
+   "original_sha256": "6c4b7a516653d3940dd9d5246e1981c4eb38e1c043fce6093143a36d1c1e7d45",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "layout-swift-trawler-43-sedan-lower-deck",
+   "key": "beneteau/swift-trawler-43-sedan/plans/layout-swift-trawler-43-sedan-lower-deck-73e647ac.webp",
+   "sha256": "73e647aca5591c2892c957ffbb33beebf9203d046bce26c49e81f55591443a24",
+   "bytes": 29668,
+   "uploaded_at": "2026-10-28T22:56:21+00:00",
+   "original_sha256": "fc55dab39c33970ee8db59e19e43376679fe83652e97d76a49f1edbf24fc61aa",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  }
+ ]
+}

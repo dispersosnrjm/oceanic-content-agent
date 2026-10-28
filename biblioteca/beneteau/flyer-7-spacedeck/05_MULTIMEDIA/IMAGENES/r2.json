@@ -1,0 +1,187 @@
+{
+ "version": 1,
+ "images": [
+  {
+   "id": "flyer-7-spacedeck-header-0",
+   "key": "beneteau/flyer-7-spacedeck/hero/flyer-7-spacedeck-header-0-3c6f026b.webp",
+   "sha256": "3c6f026b9134265da36ad9a7bced7f5fe5f809770ea3e31308216f29c4d9d0f0",
+   "bytes": 142956,
+   "uploaded_at": "2026-10-28T22:54:58+00:00",
+   "original_sha256": "c0483962d32a36de28ad502737da08ad67d960efc0caa2c00e9f35a4fa1aabdd",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer7spacedeck-header",
+   "key": "beneteau/flyer-7-spacedeck/exterior/flyer7spacedeck-header-5b04c402.webp",
+   "sha256": "5b04c402d5842fbacc5436dd0175ec9a572571c5f58a0f98cec557f126ffdbf7",
+   "bytes": 113420,
+   "uploaded_at": "2026-10-28T22:54:59+00:00",
+   "original_sha256": "3e9bd908c3a6ffdb7d18f60bc673199094260988d87eaf974eb495ec41024c5c",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer7spacedeck-ext5",
+   "key": "beneteau/flyer-7-spacedeck/exterior/flyer7spacedeck-ext5-bf54834f.webp",
+   "sha256": "bf54834f071030a5c233db8650f5b19912a3bde2f6992854fd8288d2fee38531",
+   "bytes": 122786,
+   "uploaded_at": "2026-10-28T22:54:59+00:00",
+   "original_sha256": "582cd72c5b2dd425cc2cdebc8838d7ffe03c8df0a89c0675c8c07d59348c8705",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer7spacedeck-ext3",
+   "key": "beneteau/flyer-7-spacedeck/exterior/flyer7spacedeck-ext3-c27c7589.webp",
+   "sha256": "c27c7589169764973a1cded2d805843b2e4e01564b6c40833dc6f6c775ff6518",
+   "bytes": 142928,
+   "uploaded_at": "2026-10-28T22:54:59+00:00",
+   "original_sha256": "06f71ccf7633c3ba3acb369271f3aa8b5051c17a7f923cfbb417e959987695cc",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer7spacedeck-drivingsensations",
+   "key": "beneteau/flyer-7-spacedeck/detail/flyer7spacedeck-drivingsensations-aa1a0944.webp",
+   "sha256": "aa1a09444f144bf47d0963de42672537a46e0e38da3bcd9317929cf77816da38",
+   "bytes": 104218,
+   "uploaded_at": "2026-10-28T22:54:59+00:00",
+   "original_sha256": "a7b6e0735f557301d160819b23c3f441aa08bd12f11ffa4c24940fe6189504d9",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer-7-spacedeck-usp2-carre",
+   "key": "beneteau/flyer-7-spacedeck/detail/flyer-7-spacedeck-usp2-carre-676cfb72.webp",
+   "sha256": "676cfb72de6119c3b8a54db121d7799e292eda8296edde90d1db8114210358e5",
+   "bytes": 56464,
+   "uploaded_at": "2026-10-28T22:54:59+00:00",
+   "original_sha256": "a836feadc4c1977ae18f5e4c24bae74ee42f561b6bcf9c583af398be55828b94",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer-7-spacedeck-usp3-bain-soleil",
+   "key": "beneteau/flyer-7-spacedeck/detail/flyer-7-spacedeck-usp3-bain-soleil-627336ee.webp",
+   "sha256": "627336eee3a55c4d730a1ccdd932dec08a8dec80fff54fa2273a62a8578d7f47",
+   "bytes": 49934,
+   "uploaded_at": "2026-10-28T22:54:59+00:00",
+   "original_sha256": "d2cc43b0eef0bcde835c1916f33bbd37d78351cdbc7159c8519756c61e0a7a7a",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer7-usp4-cockpit",
+   "key": "beneteau/flyer-7-spacedeck/cockpit/flyer7-usp4-cockpit-d03e1eba.webp",
+   "sha256": "d03e1eba5c6d98bfb370addbc9df9e3b144417f74c01c06ed7734922254de3f7",
+   "bytes": 56528,
+   "uploaded_at": "2026-10-28T22:54:59+00:00",
+   "original_sha256": "b7af0a4b62648610d75fe886e4047d33a38391aa300186b8f1f70f763d4023b2",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "profil-flyer7space-std",
+   "key": "beneteau/flyer-7-spacedeck/plans/profil-flyer7space-std-55d4ccb0.webp",
+   "sha256": "55d4ccb0ea28e423cdd1b7f2f943681a03e86f0a64533da110cd787ba1813f84",
+   "bytes": 7164,
+   "uploaded_at": "2026-10-28T22:54:59+00:00",
+   "original_sha256": "f51b52bd227385ea726c26699213323430bebff744977e986e85b43872491d2e",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "profil-flyer7space-ttop",
+   "key": "beneteau/flyer-7-spacedeck/plans/profil-flyer7space-ttop-a5614f5f.webp",
+   "sha256": "a5614f5f93f9be8d0ab5a7d7f03070362b5819d8d2493b83ddd103c30581fa48",
+   "bytes": 8186,
+   "uploaded_at": "2026-10-28T22:54:59+00:00",
+   "original_sha256": "f8d553d487e4adb5e5e98a46e9634cf8dd2b52612332d33eee876306766dbf38",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "profile-flyer-7-spacedeck-gris-perle",
+   "key": "beneteau/flyer-7-spacedeck/plans/profile-flyer-7-spacedeck-gris-perle-bb2ce1d5.webp",
+   "sha256": "bb2ce1d5e5dc4f525c8bff73ec50e30a60222eba476f996cdfd6c9daaa45acb0",
+   "bytes": 3424,
+   "uploaded_at": "2026-10-28T22:54:59+00:00",
+   "original_sha256": "a639fd180a0ae796af8e8f5e003d213dab38a42f0e1af4f93c2fc1bef3752317",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "plan-flyer7space-std",
+   "key": "beneteau/flyer-7-spacedeck/plans/plan-flyer7space-std-bb4afde7.webp",
+   "sha256": "bb4afde7b02d55b5a164e1e9a52c23ac44af087b112f267c6898dae8ec3ab8e7",
+   "bytes": 16410,
+   "uploaded_at": "2026-10-28T22:54:59+00:00",
+   "original_sha256": "1ce0750be0512c43a327deb56522337cbbcb85d2d239f2b582d7263397a2041a",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "plan-flyer7space-elegance",
+   "key": "beneteau/flyer-7-spacedeck/plans/plan-flyer7space-elegance-3ba9459c.webp",
+   "sha256": "3ba9459c50ffcdaaf35278a60e5542a1e25c32521358a517b4ad03776a02b6ad",
+   "bytes": 17312,
+   "uploaded_at": "2026-10-28T22:54:59+00:00",
+   "original_sha256": "43e53cca6293f568a44a214350359f88cfa9bc4c8e90dad38ac1efa0f22df79a",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  }
+ ]
+}

@@ -1,0 +1,369 @@
+{
+ "version": 1,
+ "images": [
+  {
+   "id": "antares-8-fishing-header-0",
+   "key": "beneteau/antares-8-fishing/hero/antares-8-fishing-header-0-4cc85c6d.webp",
+   "sha256": "4cc85c6d60d6163616976a66a9307447b890a3f94054a3c3ad07409088280fc0",
+   "bytes": 231088,
+   "uploaded_at": "2026-10-28T22:54:14+00:00",
+   "original_sha256": "fe1b82480b1bf7805aa8075466fad7ff37e7c0c3730c612f83b57056aa2bd80f",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares8fishing-ext7",
+   "key": "beneteau/antares-8-fishing/exterior/antares8fishing-ext7-feb67d84.webp",
+   "sha256": "feb67d847cc4746a7203632a247e95c33de17a22201fc8220c3e275723c1665c",
+   "bytes": 178498,
+   "uploaded_at": "2026-10-28T22:54:14+00:00",
+   "original_sha256": "b37fc72bfb865535460228b5250a6a49b24256af319e902e95dcfe6fa6ae3142",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares8fishing-ext6",
+   "key": "beneteau/antares-8-fishing/exterior/antares8fishing-ext6-b5ea90bb.webp",
+   "sha256": "b5ea90bb92632ee7a908fd5b04e5981f53b52e4b077395de698c40e705157143",
+   "bytes": 169438,
+   "uploaded_at": "2026-10-28T22:54:14+00:00",
+   "original_sha256": "0160306c9ce2d012749bf52d77b684f30de72a7c45afdfe7846ae882aadfaa0e",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares8fishing-ext8",
+   "key": "beneteau/antares-8-fishing/exterior/antares8fishing-ext8-796ffefb.webp",
+   "sha256": "796ffefbf57f845d37e42040e39ee00265fd6eba29129eecd8c04a3ff79b4b74",
+   "bytes": 174792,
+   "uploaded_at": "2026-10-28T22:54:14+00:00",
+   "original_sha256": "bbc93388b3a4dbd8419a357dfbc1c40538d3204b9e9e336cf02b4a74682cb3a7",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares8fishing-ext9",
+   "key": "beneteau/antares-8-fishing/exterior/antares8fishing-ext9-8ca849db.webp",
+   "sha256": "8ca849db016a5388c6e5df364e3371b25ca7c0ff4bb453079c69f807aa736859",
+   "bytes": 122206,
+   "uploaded_at": "2026-10-28T22:54:14+00:00",
+   "original_sha256": "8ada061476c69bcaafafed8b6fc67cad39457c20435818e6fa7f552e278365b0",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares8fishing-ext1",
+   "key": "beneteau/antares-8-fishing/exterior/antares8fishing-ext1-6b31aa6c.webp",
+   "sha256": "6b31aa6c2edaf562f585f7cb7c73313ab011b1c2e8b2af5e2444b7f0d1e76bed",
+   "bytes": 83098,
+   "uploaded_at": "2026-10-28T22:54:14+00:00",
+   "original_sha256": "c589a106dd3d0205bb475efb1c785ee4429bbd98b35e93c71c63ceff7d94cf22",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares8fishing-ext10",
+   "key": "beneteau/antares-8-fishing/exterior/antares8fishing-ext10-764ad3d4.webp",
+   "sha256": "764ad3d4ef2e74768ea0973748f7415965c0055e6be344f6c87f7415f3d256f1",
+   "bytes": 156542,
+   "uploaded_at": "2026-10-28T22:54:14+00:00",
+   "original_sha256": "82502e0ec97347f21b3768bc7a31a4cc2471cbf689f15ffac4118595481e1374",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares8fishing-ext5",
+   "key": "beneteau/antares-8-fishing/exterior/antares8fishing-ext5-a7a0001a.webp",
+   "sha256": "a7a0001a8879e2ffd533fd6f02bbef434552b7fab6ba7ada60b27a3df607d4d3",
+   "bytes": 66262,
+   "uploaded_at": "2026-10-28T22:54:14+00:00",
+   "original_sha256": "ac0f6191f1a09b78e1d2295dee05d441fe36e810b867cd947433bf701375601a",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares8fishing-ext4",
+   "key": "beneteau/antares-8-fishing/exterior/antares8fishing-ext4-dde44cdf.webp",
+   "sha256": "dde44cdf8dd19df8c34cb57b53f3aacc2e5a2c23a8f41004d483d45469ba8dab",
+   "bytes": 114572,
+   "uploaded_at": "2026-10-28T22:54:14+00:00",
+   "original_sha256": "1d2813c1bc387dd399828fd412e5b00ee5bcfc6921ea95fcf2b72a892e9f2c94",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares8fishing-ext2-v2",
+   "key": "beneteau/antares-8-fishing/exterior/antares8fishing-ext2-v2-9357af98.webp",
+   "sha256": "9357af9817fff1a2a767257a438735d1b329118279daee9364c9d83a6b27bd44",
+   "bytes": 155622,
+   "uploaded_at": "2026-10-28T22:54:14+00:00",
+   "original_sha256": "1963c2e909c57b000defeb8ad7d653fd4a3c0ab69fa08d5f081cd6b40ea57058",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares8fishing-ext3",
+   "key": "beneteau/antares-8-fishing/exterior/antares8fishing-ext3-8d8faaf4.webp",
+   "sha256": "8d8faaf484397f61f8c79156fcae46a70e430e87ae65472dd7f12582eb2151d7",
+   "bytes": 127632,
+   "uploaded_at": "2026-10-28T22:54:14+00:00",
+   "original_sha256": "083103dff2994910aa100d4f7c09ffd258e94f711ebffced2493febdefdb2124",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares8fishing-int1",
+   "key": "beneteau/antares-8-fishing/interior/antares8fishing-int1-e12189bb.webp",
+   "sha256": "e12189bb725197266a74150b29a0085a0ed15b6dba6dbdc6e357d06c58af65e9",
+   "bytes": 95902,
+   "uploaded_at": "2026-10-28T22:54:14+00:00",
+   "original_sha256": "8d4544b4886f777ad96fe0be083d6ea11c645a3ba2a829f801cf9716676f6bef",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares8fishing-int2",
+   "key": "beneteau/antares-8-fishing/interior/antares8fishing-int2-e0aa67f0.webp",
+   "sha256": "e0aa67f07509d40b2a04de1f5a01985ef0c41ddfb897485682a95207cee50659",
+   "bytes": 92938,
+   "uploaded_at": "2026-10-28T22:54:14+00:00",
+   "original_sha256": "0d50b72bec4e5958d66428e24eb8eb0433f11d7aa68917fe1e03d8014ffefa62",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares-8-interior-lf-0384-ludovic-fruchaud-v4",
+   "key": "beneteau/antares-8-fishing/interior/antares-8-interior-lf-0384-ludovic-fruchaud-v4-332cee60.webp",
+   "sha256": "332cee60324922e179be9755b23b06355f755077f9c335292dd3ca3cbecb596a",
+   "bytes": 54614,
+   "uploaded_at": "2026-10-28T22:54:14+00:00",
+   "original_sha256": "dcc2be7b3fabd8578d7bd99a123a2ad8c885768c19995a8d8bb230d544ab7ee2",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares-8-interior-lf-0402-ludovic-fruchaud-v4-1",
+   "key": "beneteau/antares-8-fishing/interior/antares-8-interior-lf-0402-ludovic-fruchaud-v4-1-5c54d7e4.webp",
+   "sha256": "5c54d7e400aac0eeb030861094d4e2e9d0323c0a16cee39cf8f1b7348dd3c13b",
+   "bytes": 52018,
+   "uploaded_at": "2026-10-28T22:54:14+00:00",
+   "original_sha256": "445e779f698792e35bb90ae0e53f960600a534defadb85a5699c8f95daf52d33",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares-8-interior-lf-0372-ludovic-fruchaud-v4",
+   "key": "beneteau/antares-8-fishing/interior/antares-8-interior-lf-0372-ludovic-fruchaud-v4-e8a2cbf6.webp",
+   "sha256": "e8a2cbf6d26cd46cdb975334fb316c68f4c3cda570ed215c879a839c73ec6139",
+   "bytes": 81774,
+   "uploaded_at": "2026-10-28T22:54:15+00:00",
+   "original_sha256": "02280f588a5fd6ffa68bb239f9ea7b3d76baa5425b3d4b8d4313a292baed39ba",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares-8-interior-lf-0379-ludovic-fruchaud-v4",
+   "key": "beneteau/antares-8-fishing/interior/antares-8-interior-lf-0379-ludovic-fruchaud-v4-22beff42.webp",
+   "sha256": "22beff422a840b10cf8c0f09d8bcaba04e5cc028c07f4711f3b9bee69cb14441",
+   "bytes": 62190,
+   "uploaded_at": "2026-10-28T22:54:15+00:00",
+   "original_sha256": "3cf8d41d54c82f9dd4804761aa6ece48b47ba0929fbd12c0e14d9841302a09b6",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares-8-interior-lf-0376-ludovic-fruchaud-v4",
+   "key": "beneteau/antares-8-fishing/interior/antares-8-interior-lf-0376-ludovic-fruchaud-v4-3976b963.webp",
+   "sha256": "3976b9633e9ae0db5f402c2473bfae96d1f67e51d032f1c9791850117337d32e",
+   "bytes": 24256,
+   "uploaded_at": "2026-10-28T22:54:15+00:00",
+   "original_sha256": "d74c29ec462e31078e7be7bd8ba0a2171c91e1201d954f2d61a1f60e0f3490da",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares8-fishing-usp1",
+   "key": "beneteau/antares-8-fishing/detail/antares8-fishing-usp1-782057e4.webp",
+   "sha256": "782057e4d10aa7b40d500d49d6f54b026737f07f8820a681932d038c689e5dea",
+   "bytes": 64202,
+   "uploaded_at": "2026-10-28T22:54:15+00:00",
+   "original_sha256": "b2d52db0ea4aa94f349bdbf77c51904cd2df9b8741f18423905e484e76e40109",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares8-fishing-usp2-v2",
+   "key": "beneteau/antares-8-fishing/detail/antares8-fishing-usp2-v2-cace65ae.webp",
+   "sha256": "cace65ae3b753064ae37389667f1073fe9b993853be3ed72f662d4f10733c741",
+   "bytes": 163340,
+   "uploaded_at": "2026-10-28T22:54:15+00:00",
+   "original_sha256": "15ebea4d608fd019e266e88cc212e2a7daadbfabc149c1aae0277b01ee0c2f19",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares8-fishing-usp3-0",
+   "key": "beneteau/antares-8-fishing/detail/antares8-fishing-usp3-0-8f55714e.webp",
+   "sha256": "8f55714e32f622d2a05a21939bfc7990446d5154feb1184efe95f0328567efa8",
+   "bytes": 74370,
+   "uploaded_at": "2026-10-28T22:54:15+00:00",
+   "original_sha256": "19070021ac4acf9bd3df871ef034af4bee98c5ee1174008843d3814ceeb557b0",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "profile-antares8-fishing",
+   "key": "beneteau/antares-8-fishing/plans/profile-antares8-fishing-9e163a6e.webp",
+   "sha256": "9e163a6ed2842998fd727e09f4ea9fc62505ab185efdfabd7842bae72115bd0e",
+   "bytes": 9888,
+   "uploaded_at": "2026-10-28T22:54:15+00:00",
+   "original_sha256": "7a4ed79a42075b6eec2e73c2751d90567516d384d935ed23bbe57b403b046fdc",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antares-8-fishing-profil-700x331-gray-0",
+   "key": "beneteau/antares-8-fishing/plans/antares-8-fishing-profil-700x331-gray-0-cd9e39d8.webp",
+   "sha256": "cd9e39d88e65c4cd1814d20e756479cddff4dd986b3e5f254bb6822e511612f4",
+   "bytes": 8538,
+   "uploaded_at": "2026-10-28T22:54:15+00:00",
+   "original_sha256": "15269e885b1aa893e45153fa02a2342831a3f542ed8ba3766d8ec02b6df889bc",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "plan-antares8-exterieur",
+   "key": "beneteau/antares-8-fishing/plans/plan-antares8-exterieur-3d94c2dc.webp",
+   "sha256": "3d94c2dc6eecbbdf61c974c0e7b3bf11f1b29cb945bde48dd98df25b31492f72",
+   "bytes": 14452,
+   "uploaded_at": "2026-10-28T22:54:16+00:00",
+   "original_sha256": "fb2e702b298e979aba93e644914398391acde329a4db25efd2218cf71874577f",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "plan-antares8-timonerie",
+   "key": "beneteau/antares-8-fishing/plans/plan-antares8-timonerie-8ea46d53.webp",
+   "sha256": "8ea46d536e874b96b34e7c8568849d4eb413272a17b2752daef8441bbf7cc3cf",
+   "bytes": 15154,
+   "uploaded_at": "2026-10-28T22:54:16+00:00",
+   "original_sha256": "1184182aecc4171810043534ed62909b35f927e25bdda735770ef108f72b84e5",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "plan-antares8-cabine",
+   "key": "beneteau/antares-8-fishing/plans/plan-antares8-cabine-eae3abba.webp",
+   "sha256": "eae3abba2ecb50eb7abfab8ea306d23d21c2ee8f12f8d48416ee82534a37a0c2",
+   "bytes": 14664,
+   "uploaded_at": "2026-10-28T22:54:16+00:00",
+   "original_sha256": "2a18f0f9d203c274f9b85986840b9cf90cb17008310346ed793876c92f63e179",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  }
+ ]
+}

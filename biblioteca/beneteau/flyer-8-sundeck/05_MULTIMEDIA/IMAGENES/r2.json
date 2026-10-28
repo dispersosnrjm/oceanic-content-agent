@@ -1,0 +1,313 @@
+{
+ "version": 1,
+ "images": [
+  {
+   "id": "flyer-8-sundeck-header",
+   "key": "beneteau/flyer-8-sundeck/hero/flyer-8-sundeck-header-0260b6eb.webp",
+   "sha256": "0260b6eb910b5c2e6da083a0f454461cfd336a38180582681ea33713d5992c7f",
+   "bytes": 178930,
+   "uploaded_at": "2026-10-28T22:55:05+00:00",
+   "original_sha256": "b2c18ef74f94ff3a3cd997113afd95124e39525d5c096f2d8b782291c979d817",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer8sun-1",
+   "key": "beneteau/flyer-8-sundeck/exterior/flyer8sun-1-f2607884.webp",
+   "sha256": "f2607884358fafb5be137a69f7216f1f9f2a39f3f4525b7708f3f72b8fd99334",
+   "bytes": 115524,
+   "uploaded_at": "2026-10-28T22:55:05+00:00",
+   "original_sha256": "c7a5e0cf8f9a11af78a99be8882c6c6a37485b14ca6385717a60ce6fa8a486fe",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer8sun-2",
+   "key": "beneteau/flyer-8-sundeck/exterior/flyer8sun-2-818216e9.webp",
+   "sha256": "818216e91718062b4e1d1edfa09ee09ddf64250bb4d5fe36cf4d63c354c2d547",
+   "bytes": 114466,
+   "uploaded_at": "2026-10-28T22:55:05+00:00",
+   "original_sha256": "3bb0807e6473b5c3c59ec9061f2c2d590f90991bf9319ab44296056159160eba",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer8sun-3",
+   "key": "beneteau/flyer-8-sundeck/exterior/flyer8sun-3-efc5b38f.webp",
+   "sha256": "efc5b38ff3d348a653726524dfa67122e26f16448776c57625ea68788fd50819",
+   "bytes": 118884,
+   "uploaded_at": "2026-10-28T22:55:05+00:00",
+   "original_sha256": "a51f71108b4718b9a70fdce562b95e583f9779aeabc4c5d9c9de7ad7b1692dbd",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer8sun-5",
+   "key": "beneteau/flyer-8-sundeck/exterior/flyer8sun-5-a8aff36f.webp",
+   "sha256": "a8aff36f9ab8b473ad4f6c493a95b7983799006be985d915fd5f3610217812af",
+   "bytes": 152240,
+   "uploaded_at": "2026-10-28T22:55:05+00:00",
+   "original_sha256": "630f51cea1ee763e4f7eb3be22647e1911a6067f25637a2d795686815136ebdf",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer8sun-ext5v2",
+   "key": "beneteau/flyer-8-sundeck/exterior/flyer8sun-ext5v2-5f5eb49a.webp",
+   "sha256": "5f5eb49a0448003a7dbe4480b274cfd4f7cd383711e933d505d6cab479901734",
+   "bytes": 115298,
+   "uploaded_at": "2026-10-28T22:55:05+00:00",
+   "original_sha256": "a653cfb109e398eff8df05a3c4fbfc64671fd3d80a27d1350700458ba78bfd9b",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer8sun-ext6v2",
+   "key": "beneteau/flyer-8-sundeck/exterior/flyer8sun-ext6v2-12f207ac.webp",
+   "sha256": "12f207ac77051434aa00686a5277c22222b9e9bb8c353a2293a1a2834f18ea63",
+   "bytes": 138964,
+   "uploaded_at": "2026-10-28T22:55:05+00:00",
+   "original_sha256": "6567f6c025a936fe5a3db05258d0a23e1532e5ac762836b50bfb1ab647a9aa8d",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer8-sundeck-int1",
+   "key": "beneteau/flyer-8-sundeck/interior/flyer8-sundeck-int1-048dbe95.webp",
+   "sha256": "048dbe95a481bf5104e5fab336662e682e7dd216d09e092a047abf1e784aadc3",
+   "bytes": 50194,
+   "uploaded_at": "2026-10-28T22:55:05+00:00",
+   "original_sha256": "9b787e23d98724d1f8e6f46799715c2377ea184945f20af88d2fd2a8f46b0c06",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer8-sundeck-int2-0",
+   "key": "beneteau/flyer-8-sundeck/interior/flyer8-sundeck-int2-0-8431c940.webp",
+   "sha256": "8431c940825f31b3539e83f07756a0c3a703168c319f96b47d72acfd40402b11",
+   "bytes": 32638,
+   "uploaded_at": "2026-10-28T22:55:06+00:00",
+   "original_sha256": "c62e6ad4d628c707e3da16c8a4c01a190f8c8eaf9cd837cb6f2bb7ca58f83044",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer8-sundeck-int3",
+   "key": "beneteau/flyer-8-sundeck/interior/flyer8-sundeck-int3-97fe190a.webp",
+   "sha256": "97fe190a0ebc45aba68f420cdfc00604f9b1608d74ca5ce2b46c232d3cad18d1",
+   "bytes": 63386,
+   "uploaded_at": "2026-10-28T22:55:06+00:00",
+   "original_sha256": "34dfa071d2e93d6e93834c73d218e30d3e99db0f8b56e21774259fe6921bf5a7",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer8-sundeck-pilotedition-4",
+   "key": "beneteau/flyer-8-sundeck/helm/flyer8-sundeck-pilotedition-4-67c9a848.webp",
+   "sha256": "67c9a8481d3cfe46fad333e8bd424880b1513b06c15c61d36225989f1eab5b30",
+   "bytes": 176618,
+   "uploaded_at": "2026-10-28T22:55:06+00:00",
+   "original_sha256": "028200be22585683549310a765063d942e9398ee90ae6360fb6066030d708d74",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer8-sundeck-pilotedition-3",
+   "key": "beneteau/flyer-8-sundeck/helm/flyer8-sundeck-pilotedition-3-e1a2ec3d.webp",
+   "sha256": "e1a2ec3dad440484b8406c31c4a7730d4789d343a60873f7e08f4fa980705721",
+   "bytes": 178970,
+   "uploaded_at": "2026-10-28T22:55:06+00:00",
+   "original_sha256": "ec590f0fa1324422b5da15c40f9d059b1868ea50a9316da1a2bc94313657bd2f",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer8-sundeck-pilotedition-2",
+   "key": "beneteau/flyer-8-sundeck/helm/flyer8-sundeck-pilotedition-2-b198df51.webp",
+   "sha256": "b198df513971d4b2a426984952b8632a6d4aab59724c3f9bdaeb8d954204509f",
+   "bytes": 91052,
+   "uploaded_at": "2026-10-28T22:55:06+00:00",
+   "original_sha256": "d4d602b9190433f3d87c897cd10a160f2d04897d5af8a73b54a3027b26c1a0f0",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer8-sundeck-pilotedition-1",
+   "key": "beneteau/flyer-8-sundeck/helm/flyer8-sundeck-pilotedition-1-9c3889e6.webp",
+   "sha256": "9c3889e631aff01460dd873a8fa7f042566a7a9210dd45539d1b929e8623da42",
+   "bytes": 161146,
+   "uploaded_at": "2026-10-28T22:55:06+00:00",
+   "original_sha256": "7db3c54267239dd5ba4dc030ae43047c0de6a17d71735c793c21b3b7fce1f0c9",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer8sundeck-usp1",
+   "key": "beneteau/flyer-8-sundeck/detail/flyer8sundeck-usp1-d69bc61b.webp",
+   "sha256": "d69bc61b57259a6f086eb60f4fd254647608c169277bbde45ec9cedf37b94aaf",
+   "bytes": 73058,
+   "uploaded_at": "2026-10-28T22:55:06+00:00",
+   "original_sha256": "45fbefe87e64981cb8be052a3bb554bc59a3a9590f23fec31e26b35cfe8206c5",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer8sundeck-usp2",
+   "key": "beneteau/flyer-8-sundeck/detail/flyer8sundeck-usp2-8dd1c56b.webp",
+   "sha256": "8dd1c56ba54cf8ea97ddc32be9c4357078a02792e7d7aafd95d8d2e609e53714",
+   "bytes": 84660,
+   "uploaded_at": "2026-10-28T22:55:06+00:00",
+   "original_sha256": "9b473f7467617b801ed08060eef2bff25a4e87486b80fc30869bda2ecf2a06b5",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer8sundeck-usp3",
+   "key": "beneteau/flyer-8-sundeck/interior/flyer8sundeck-usp3-45c3db24.webp",
+   "sha256": "45c3db24cbc58a540499bcf3157ea07c66546d9ae032fdcdc8035a3f3fe4aa5a",
+   "bytes": 32834,
+   "uploaded_at": "2026-10-28T22:55:07+00:00",
+   "original_sha256": "c16a2adfc4370fcdcfc23a2d45115d04ba60b8a0da794175f5c98081b93f9c9f",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer8sundeck-usp4",
+   "key": "beneteau/flyer-8-sundeck/detail/flyer8sundeck-usp4-c2fc447f.webp",
+   "sha256": "c2fc447fe4b4347f639743be81784b94e890b69692ad13074ef251a2434cddf1",
+   "bytes": 104986,
+   "uploaded_at": "2026-10-28T22:55:07+00:00",
+   "original_sha256": "36d976eb9d9baf4cf3ca9f19ddaeff129c8f7b9ec9b8a458bdb64efef9a09c59",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "profile-flyer8sundeck",
+   "key": "beneteau/flyer-8-sundeck/plans/profile-flyer8sundeck-b1dd9b7f.webp",
+   "sha256": "b1dd9b7f8898746c7474ff348e1b93ed944aa7ae265887dae39db507ccfe7630",
+   "bytes": 9654,
+   "uploaded_at": "2026-10-28T22:55:07+00:00",
+   "original_sha256": "234763cce846c8cbe125f2173644f49e988e0a57cc6904ad54feb8632d07fbfd",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "profile-flyer8sundeck-t-top",
+   "key": "beneteau/flyer-8-sundeck/plans/profile-flyer8sundeck-t-top-79b9341b.webp",
+   "sha256": "79b9341b930548e7d52037c45f879d7d3be123a79e430e4dbd944ace67ff14aa",
+   "bytes": 10634,
+   "uploaded_at": "2026-10-28T22:55:07+00:00",
+   "original_sha256": "ab76ac8ba566967f913c074a8eee0faac18d94216586a62a599e7cda36d3d536",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "profile-flyer-8-sundeck-gris-perle",
+   "key": "beneteau/flyer-8-sundeck/plans/profile-flyer-8-sundeck-gris-perle-ab63d911.webp",
+   "sha256": "ab63d911dc9fc0072ea2d9433d10ce2444e28f3d01b04580ba0a3955aadd273b",
+   "bytes": 9870,
+   "uploaded_at": "2026-10-28T22:55:07+00:00",
+   "original_sha256": "d363eb3f1291daddb38a2cdfa9f26cae617d245cb22b1e57be926296d2d92a1b",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "flyer8sun-plan1",
+   "key": "beneteau/flyer-8-sundeck/plans/flyer8sun-plan1-d5dd6381.webp",
+   "sha256": "d5dd63818d68a7db69599978702390c86583a17611f39780e511becaa62e586b",
+   "bytes": 14470,
+   "uploaded_at": "2026-10-28T22:55:07+00:00",
+   "original_sha256": "459596662cac7d59cd27e3b337809392c475e46d423d51f2e988b6863c31e1b7",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  }
+ ]
+}

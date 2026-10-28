@@ -67,6 +67,15 @@ def _scrub(text: str, env=None) -> str:
     return re.sub(r"[\w.-]*r2\.cloudflarestorage\.com", "***", text)
 
 
+def encoder_info() -> dict:
+    """Con que se genero la copia web que se sube: versiones de Pillow y libwebp y parametros de media-rules.json."""
+    import PIL
+    from PIL import features
+    webp = mediarules.rules()["webp"]
+    return {"pillow": PIL.__version__, "libwebp": features.version("webp"), "quality": webp["quality"],
+            "method": webp["method"]}
+
+
 def put_headers(sha256_hex: str) -> dict:
     return {"content_type": CONTENT_TYPE, "cache_control": CACHE_CONTROL, "metadata": {"sha256": sha256_hex}}
 
@@ -193,14 +202,20 @@ class State:
     def active(self, key: str):
         return next((e for e in self.entries if e["key"] == key and not e.get("superseded")), None)
 
-    def record(self, image_id: str, key: str, sha: str, size: int, source: str = "put") -> None:
+    def record(self, image_id: str, key: str, sha: str, size: int, source: str = "put",
+               original_sha256: str | None = None, encoder: dict | None = None) -> None:
         for e in self.entries:
             if e["id"] == image_id and e["key"] != key and not e.get("superseded"):
                 e["superseded"] = True  # la clave vieja queda en R2 (no se toca)
                 e["superseded_at"] = _now()
         if not self.active(key):
-            self.entries.append({"id": image_id, "key": key, "sha256": sha, "bytes": size,
-                                 "uploaded_at": _now(), **({"source": source} if source != "put" else {})})
+            entry = {"id": image_id, "key": key, "sha256": sha, "bytes": size, "uploaded_at": _now(),
+                     **({"source": source} if source != "put" else {})}
+            if original_sha256:  # solo cuando existe (las copias de la CDN de Axopar no tienen original.sha256)
+                entry["original_sha256"] = original_sha256
+            if encoder:
+                entry["encoder"] = dict(encoder)
+            self.entries.append(entry)
         self.dirty = True
 
     def save(self) -> None:
@@ -289,22 +304,26 @@ def _process_model(model_dir: Path, apply: bool, verify_remote: bool, client, wo
                 skip("sin_archivo")
                 continue
             rep["eligible"] += 1
-            rep["audit"][st] += 1
             if st == "corrupta":
+                rep["audit"][st] += 1
                 skip("corrupta")
                 rep["errors"].append(f"{rec['id']}: copia corrupta ({au.get('detail')})")
                 continue
-            if st == "distinta":
-                rep["warnings"].append(f"{rec['id']}: copia distinta al inventario; se sube con su hash real")
             try:
                 key = mediarules.image_key(brand, model, rec.get("category"), rec["id"], au["sha256"])
             except ValueError as exc:
+                rep["audit"][st] += 1
                 reason = "categoria_invalida" if "categoria" in str(exc) else "id_invalido"
                 skip(reason)
                 rep["errors"].append(f"{rec['id']}: {exc}")
                 continue
-            rep["keys"].append(key)
             act = state.active(key)
+            if st == "distinta" and act and act["sha256"] == au["sha256"]:
+                st = "ok"  # r2.json ya registra esta misma clave: se compara primero contra lo publicado, no contra el inventario
+            rep["audit"][st] += 1
+            if st == "distinta":
+                rep["warnings"].append(f"{rec['id']}: copia distinta al inventario; se sube con su hash real")
+            rep["keys"].append(key)
             if act and act["sha256"] == au["sha256"] and not verify_remote:
                 rep["already"] += 1
                 continue
@@ -328,9 +347,11 @@ def _process_model(model_dir: Path, apply: bool, verify_remote: bool, client, wo
                 return item, "error", f"{type(exc).__name__}: {_scrub(str(exc))}"
 
         pending_saves = 0
+        enc = encoder_info() if apply and todo else None
         try:
             for item, outcome, err in ex.map(work, todo):
                 rec, au, key = item
+                orig_sha = (rec.get("original") or {}).get("sha256")
                 if outcome == "error":
                     rep["errors"].append(f"{rec['id']}: {err}")
                 elif outcome == "planned":
@@ -339,11 +360,12 @@ def _process_model(model_dir: Path, apply: bool, verify_remote: bool, client, wo
                 elif outcome == "exists":
                     rep["already"] += 1
                     if apply:
-                        state.record(rec["id"], key, au["sha256"], au["bytes"], source="head")
+                        state.record(rec["id"], key, au["sha256"], au["bytes"], source="head",
+                                     original_sha256=orig_sha, encoder=enc)
                 else:
                     rep["uploaded"] += 1
                     rep["bytes"] += au["bytes"]
-                    state.record(rec["id"], key, au["sha256"], au["bytes"])
+                    state.record(rec["id"], key, au["sha256"], au["bytes"], original_sha256=orig_sha, encoder=enc)
                     pending_saves += 1
                     if pending_saves >= SAVE_EVERY:
                         state.save()
@@ -352,6 +374,82 @@ def _process_model(model_dir: Path, apply: bool, verify_remote: bool, client, wo
             if apply:
                 state.save()
     return rep
+
+
+# --------------------------------------------------------------------------- completar metadatos (una sola vez)
+
+_VERSION = re.compile(r"^\d+(\.\d+){1,3}$")
+
+
+def backfill_metadata(models, encoder: dict, apply: bool = False) -> dict:
+    """Completa en r2.json las entradas activas que no registran `encoder` / `original_sha256`.
+
+    Solo agrega campos que faltan (nunca sobrescribe), no usa red ni credenciales y no toca images.json ni R2:
+    el original_sha256 se lee de images.json. Simulacion por defecto.
+    """
+    for k in ("pillow", "libwebp"):
+        if not _VERSION.match(str(encoder.get(k) or "")):
+            raise ValueError(f"version de {k} invalida: {encoder.get(k)!r}")
+    rep = {"apply": apply, "models": [], "entries": 0, "encoder_added": 0, "original_added": 0, "untouched": 0}
+    for md in map(Path, models):
+        path = state_path(md)
+        if not path.is_file():
+            continue
+        inv = md / "05_MULTIMEDIA" / "IMAGENES" / "images.json"
+        originals = {}
+        if inv.is_file():
+            for r in json.loads(inv.read_text(encoding="utf-8")).get("images", []):
+                sha = (r.get("original") or {}).get("sha256")
+                if sha:
+                    originals[r["id"]] = sha
+        state = State(path)
+        changed = 0
+        for e in state.entries:
+            if e.get("superseded"):
+                continue
+            rep["entries"] += 1
+            touched = False
+            if "encoder" not in e:
+                e["encoder"] = dict(encoder)
+                rep["encoder_added"] += 1
+                touched = True
+            if "original_sha256" not in e and e["id"] in originals:
+                e["original_sha256"] = originals[e["id"]]
+                rep["original_added"] += 1
+                touched = True
+            changed += touched
+            rep["untouched"] += not touched
+        if changed:
+            state.dirty = True
+            if apply:
+                state.save()
+        rep["models"].append({"brand": md.parent.name, "model": md.name, "updated": changed})
+    return rep
+
+
+def main_backfill(args: list[str], root: Path) -> int:
+    """python -m oceanic r2-backfill <ruta_modelo|marca|--all> --pillow=<v> --libwebp=<v> [--quality=N] [--method=N] [--apply]"""
+    def opt(name):
+        return next((a.split("=", 1)[1] for a in args if a.startswith(f"--{name}=")), None)
+    if not opt("pillow") or not opt("libwebp"):
+        print("ERROR indica con que versiones se generaron las copias: --pillow=<version> --libwebp=<version>")
+        return 2
+    webp = mediarules.rules()["webp"]
+    try:
+        encoder = {"pillow": opt("pillow"), "libwebp": opt("libwebp"),
+                   "quality": int(opt("quality") or webp["quality"]), "method": int(opt("method") or webp["method"])}
+        targets = _resolve_targets([a for a in args if a != "--apply"], Path(root))
+        rep = backfill_metadata(targets, encoder, apply="--apply" in args)
+    except ValueError as exc:
+        print(f"ERROR {exc}")
+        return 2
+    for m in rep["models"]:
+        if m["updated"]:
+            print(f"{m['brand']}/{m['model']}: {m['updated']} entradas {'actualizadas' if rep['apply'] else 'por actualizar'}")
+    print(f"Entradas activas: {rep['entries']} · con encoder agregado: {rep['encoder_added']} · con original_sha256 "
+          f"agregado: {rep['original_added']} · sin cambios: {rep['untouched']}"
+          + ("" if rep["apply"] else "  [simulacion: no se escribio nada]"))
+    return 0
 
 
 # --------------------------------------------------------------------------- API publica

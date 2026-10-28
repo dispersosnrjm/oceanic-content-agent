@@ -185,17 +185,46 @@ class UploadTests(R2Base):
         self.assertEqual(a, mediarules.image_key("marca", "uno", "HERO", "a", hashlib.sha256(c.objects[a]["body"]).hexdigest()))
         self.assertTrue(a.startswith("marca/uno/hero/a-") and a.endswith(".webp"))
 
+    # claves permitidas en una entrada de r2.json (lista cerrada): cualquier otra, p. ej. cuenta, bucket o token, falla
+    ENTRY_REQUIRED = {"id", "key", "sha256", "bytes", "uploaded_at"}
+    ENTRY_OPTIONAL = {"encoder", "original_sha256", "source", "superseded", "superseded_at"}
+    ENCODER_KEYS = {"pillow", "libwebp", "quality", "method"}
+
+    def _unexpected(self, entry: dict) -> set:
+        extra = set(entry) - self.ENTRY_REQUIRED - self.ENTRY_OPTIONAL
+        extra |= {f"encoder.{k}" for k in set(entry.get("encoder") or {}) - self.ENCODER_KEYS}
+        return extra | {f"falta:{k}" for k in self.ENTRY_REQUIRED - set(entry)}
+
     def test_state_file_contents_no_secrets(self):
-        md = self.lib.model("marca", "uno", [{"id": "a", "seed": 1}])
+        md = self.lib.model("marca", "uno", [{"id": "a", "seed": 1}, {"id": "b", "seed": 2}])
+        inv = md / "05_MULTIMEDIA" / "IMAGENES" / "images.json"
+        data = json.loads(inv.read_text(encoding="utf-8"))
+        data["images"][0]["original"] = {"sha256": "ab" * 32}  # "a" tiene original.sha256, "b" no
+        inv.write_text(json.dumps(data), encoding="utf-8", newline="\n")
         with mock.patch.dict(os.environ, SECRETS):
             r2.publish([md], apply=True, client=FakeClient())
         p = md / "05_MULTIMEDIA" / "IMAGENES" / "r2.json"
         raw = p.read_text(encoding="utf-8")
         for v in SECRETS.values():
             self.assertNotIn(v, raw)
-        e = json.loads(raw)["images"][0]
-        self.assertEqual(set(e), {"id", "key", "sha256", "bytes", "uploaded_at"})
+        for name in list(SECRETS) + ["account", "bucket", "token", "secret", "endpoint", "credential"]:
+            self.assertNotIn(name.lower(), raw.lower())
+        entries = {e["id"]: e for e in json.loads(raw)["images"]}
+        for e in entries.values():
+            self.assertEqual(self._unexpected(e), set(), e)  # solo claves permitidas
+        self.assertEqual(entries["a"]["original_sha256"], "ab" * 32)  # original_sha256 esta permitido
+        self.assertNotIn("original_sha256", entries["b"])
         self.assertEqual([f.name for f in p.parent.glob("*.tmp*")], [])
+
+    def test_unexpected_entry_keys_are_detected(self):
+        base = {"id": "a", "key": "k", "sha256": "1" * 64, "bytes": 1, "uploaded_at": "t",
+                "encoder": {"pillow": "13.0.0", "libwebp": "1.6.0", "quality": 75, "method": 6},
+                "original_sha256": "2" * 64}
+        self.assertEqual(self._unexpected(base), set())
+        for extra in ({"account_id": "x"}, {"bucket": "b"}, {"token": "t"}, {"R2_SECRET_ACCESS_KEY": "s"}):
+            self.assertTrue(self._unexpected({**base, **extra}), extra)
+        self.assertTrue(self._unexpected({**base, "encoder": {**base["encoder"], "endpoint": "e"}}))
+        self.assertTrue(self._unexpected({k: v for k, v in base.items() if k != "key"}))
 
     def test_idempotent(self):
         md = self.lib.model("marca", "uno", [{"id": "a", "seed": 1}, {"id": "b", "seed": 2}])
@@ -403,6 +432,154 @@ class CliTests(R2Base):
         for k in rep["models"][0]["keys"]:
             self.assertNotIn("\\", k)
             self.assertEqual(k.count("/"), 3)
+
+
+class MetadataTests(R2Base):
+    """encoder y original_sha256 en r2.json; auditoria contra r2.json; completar entradas existentes."""
+
+    def _state_path(self, md):
+        return md / "05_MULTIMEDIA" / "IMAGENES" / "r2.json"
+
+    def _add_original(self, md, image_id, sha):
+        inv = md / "05_MULTIMEDIA" / "IMAGENES" / "images.json"
+        data = json.loads(inv.read_text(encoding="utf-8"))
+        for rec in data["images"]:
+            if rec["id"] == image_id:
+                rec["original"] = {"url": "https://x.test/o.jpg", "sha256": sha}
+        inv.write_text(json.dumps(data), encoding="utf-8", newline="\n")
+
+    def test_requirements_pin_pillow_exactly_and_nothing_else(self):
+        import PIL
+        lines = (Path(r2.__file__).resolve().parents[1] / "requirements.txt").read_text(encoding="utf-8").splitlines()
+        self.assertEqual(lines[0], "pillow==13.0.0")
+        self.assertEqual(PIL.__version__, "13.0.0")  # el entorno debe coincidir con lo fijado
+        self.assertTrue(all(">=" in ln for ln in lines[1:]))  # las demas dependencias no se tocaron
+
+    def test_encoder_info_matches_environment_and_media_rules(self):
+        import PIL
+        from PIL import features
+        info = r2.encoder_info()
+        self.assertEqual(info, {"pillow": PIL.__version__, "libwebp": features.version("webp"),
+                                "quality": mediarules.rules()["webp"]["quality"],
+                                "method": mediarules.rules()["webp"]["method"]})
+        self.assertEqual((info["quality"], info["method"]), (75, 6))
+
+    def test_new_entries_record_encoder_and_original_sha256_when_it_exists(self):
+        md = self.lib.model("marca", "uno", [{"id": "a", "seed": 1}, {"id": "b", "seed": 2}])
+        self._add_original(md, "a", "ab" * 32)  # "b" no tiene original.sha256 (p. ej. copia de la CDN)
+        r2.publish([md], apply=True, client=FakeClient())
+        entries = {e["id"]: e for e in json.loads(self._state_path(md).read_text(encoding="utf-8"))["images"]}
+        self.assertEqual(entries["a"]["original_sha256"], "ab" * 32)
+        self.assertNotIn("original_sha256", entries["b"])
+        for e in entries.values():
+            self.assertEqual(e["encoder"], r2.encoder_info())
+            self.assertEqual(set(e), {"id", "key", "sha256", "bytes", "uploaded_at", "encoder"} | (
+                {"original_sha256"} if e["id"] == "a" else set()))
+        self.assertEqual(json.loads(self._state_path(md).read_text(encoding="utf-8"))["version"], 1)
+
+    def test_old_r2_json_without_new_fields_is_still_read_and_not_rewritten(self):
+        md = self.lib.model("marca", "uno", [{"id": "a", "seed": 1}])
+        r2.publish([md], apply=True, client=FakeClient())
+        p = self._state_path(md)
+        data = json.loads(p.read_text(encoding="utf-8"))
+        for e in data["images"]:
+            e.pop("encoder", None)
+            e.pop("original_sha256", None)
+        p.write_text(json.dumps(data, indent=1), encoding="utf-8", newline="\n")
+        before = p.read_bytes()
+        client = FakeClient()
+        rep = r2.publish([md], apply=True, client=client)
+        self.assertEqual((rep["total"]["uploaded"], rep["total"]["already"], rep["total"]["errors"]), (0, 1, 0))
+        self.assertEqual(p.read_bytes(), before)  # no se reescribe ni se completa solo
+
+    def test_audit_trusts_r2_json_over_the_inventory_sha(self):
+        md = self.lib.model("marca", "uno", [{"id": "a", "seed": 1, "mode": "different"}])  # sha del inventario distinto
+        inv = md / "05_MULTIMEDIA" / "IMAGENES" / "images.json"
+        inv_before = inv.read_bytes()
+        first = r2.publish([md], apply=True, client=FakeClient())
+        self.assertEqual(first["models"][0]["audit"]["distinta"], 1)
+        self.assertTrue(first["models"][0]["warnings"])  # la primera vez aun no hay nada registrado
+        second = r2.publish([md])
+        m = second["models"][0]
+        self.assertEqual((m["audit"]["ok"], m["audit"]["distinta"], m["warnings"], m["already"]), (1, 0, [], 1))
+        self.assertEqual(inv.read_bytes(), inv_before)  # no se toca el inventario
+
+    def test_audit_still_warns_when_r2_json_registers_another_key(self):
+        md = self.lib.model("marca", "uno", [{"id": "a", "seed": 1, "mode": "different"}])
+        r2.publish([md], apply=True, client=FakeClient())
+        p = self._state_path(md)
+        data = json.loads(p.read_text(encoding="utf-8"))
+        data["images"][0]["key"] = data["images"][0]["key"].replace(".webp", "x.webp")  # r2.json registra otra clave
+        p.write_text(json.dumps(data), encoding="utf-8", newline="\n")
+        m = r2.publish([md])["models"][0]
+        self.assertEqual((m["audit"]["distinta"], m["audit"]["ok"]), (1, 0))
+        self.assertTrue(m["warnings"])
+
+    # --- completar las entradas ya subidas (una sola vez) -------------------------------------------------------
+
+    def _old_state(self, md, entries):
+        p = self._state_path(md)
+        p.write_text(json.dumps({"version": 1, "images": entries}, indent=1), encoding="utf-8", newline="\n")
+        return p
+
+    ENC = {"pillow": "13.0.0", "libwebp": "1.6.0", "quality": 75, "method": 6}
+
+    def test_backfill_dry_run_then_apply_fills_only_missing_fields(self):
+        md = self.lib.model("marca", "uno", [{"id": "a", "seed": 1}, {"id": "b", "seed": 2}, {"id": "c", "seed": 3}])
+        for i, sha in (("a", "aa" * 32), ("b", "bb" * 32), ("c", "cc" * 32)):
+            self._add_original(md, i, sha)
+        p = self._old_state(md, [
+            {"id": "a", "key": "marca/uno/exterior/a-11111111.webp", "sha256": "1" * 64, "bytes": 5, "uploaded_at": "t"},
+            {"id": "b", "key": "marca/uno/exterior/b-22222222.webp", "sha256": "2" * 64, "bytes": 5, "uploaded_at": "t",
+             "encoder": {"pillow": "9.9.9", "libwebp": "0.0", "quality": 1, "method": 1}, "original_sha256": "zz"},
+            {"id": "c", "key": "marca/uno/exterior/c-33333333.webp", "sha256": "3" * 64, "bytes": 5, "uploaded_at": "t",
+             "superseded": True}])
+        inv = md / "05_MULTIMEDIA" / "IMAGENES" / "images.json"
+        inv_before, state_before = inv.read_bytes(), p.read_bytes()
+        rep = r2.backfill_metadata([md], self.ENC)  # simulacion
+        self.assertEqual((rep["encoder_added"], rep["original_added"], rep["entries"]), (1, 1, 2))
+        self.assertEqual(p.read_bytes(), state_before)
+        rep = r2.backfill_metadata([md], self.ENC, apply=True)
+        data = json.loads(p.read_text(encoding="utf-8"))
+        a, b, c = data["images"]
+        self.assertEqual((a["encoder"], a["original_sha256"]), (self.ENC, "aa" * 32))
+        self.assertEqual((b["encoder"]["pillow"], b["original_sha256"]), ("9.9.9", "zz"))  # nunca sobrescribe
+        self.assertNotIn("encoder", c)  # las superseded no se tocan
+        self.assertEqual(data["version"], 1)
+        self.assertEqual(inv.read_bytes(), inv_before)  # images.json intacto
+        again = r2.backfill_metadata([md], self.ENC, apply=True)  # una sola vez: la segunda no cambia nada
+        self.assertEqual((again["encoder_added"], again["original_added"]), (0, 0))
+
+    def test_backfill_needs_no_client_and_no_credentials(self):
+        md = self.lib.model("marca", "uno", [{"id": "a", "seed": 1}])
+        self._old_state(md, [{"id": "a", "key": "marca/uno/exterior/a-11111111.webp", "sha256": "1" * 64, "bytes": 5,
+                              "uploaded_at": "t"}])
+        with mock.patch.object(r2, "R2Client", side_effect=AssertionError("no debe crear cliente")):
+            buf = io.StringIO()
+            with contextlib.redirect_stdout(buf):
+                rc = r2.main_backfill(["marca", "--pillow=13.0.0", "--libwebp=1.6.0"], self.lib.root)
+        self.assertEqual(rc, 0)
+        self.assertIn("simulacion", buf.getvalue())
+        self.assertIn("encoder agregado: 1", buf.getvalue())
+
+    def test_backfill_cli_requires_explicit_versions_and_validates_them(self):
+        md = self.lib.model("marca", "uno", [{"id": "a", "seed": 1}])
+        self._old_state(md, [{"id": "a", "key": "marca/uno/exterior/a-11111111.webp", "sha256": "1" * 64, "bytes": 5,
+                              "uploaded_at": "t"}])
+        for args in (["marca"], ["marca", "--pillow=13.0.0"], ["marca", "--pillow=x", "--libwebp=1.6.0"]):
+            with contextlib.redirect_stdout(io.StringIO()):
+                self.assertEqual(r2.main_backfill(args, self.lib.root), 2, args)
+        self.assertNotIn("encoder", json.loads(self._state_path(md).read_text(encoding="utf-8"))["images"][0])
+
+    def test_backfill_uses_curated_state_path(self):
+        md = self.lib.model("marca", "cur", [{"id": "a", "seed": 1}], curated=True)
+        p = md.parent / "_r2" / "cur.json"
+        p.parent.mkdir()
+        p.write_text(json.dumps({"version": 1, "images": [{"id": "a", "key": "k", "sha256": "1" * 64, "bytes": 1,
+                                                          "uploaded_at": "t"}]}), encoding="utf-8", newline="\n")
+        r2.backfill_metadata([md], self.ENC, apply=True)
+        self.assertEqual(json.loads(p.read_text(encoding="utf-8"))["images"][0]["encoder"], self.ENC)
+        self.assertFalse(self._state_path(md).exists())  # el paquete curated no se toca
 
 
 if __name__ == "__main__":

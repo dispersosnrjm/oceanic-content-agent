@@ -92,6 +92,7 @@ python -m oceanic optimize <carpeta>                 # recomprime copias web ya 
 python -m oceanic zip <dir>...                       # ZIP en dist/ (solo para los usados; las imágenes de la biblioteca van a R2)
 python -m oceanic media <modelo> --restore           # repone solo las copias web que faltan o están corruptas, desde la web oficial (no toca `original`; omite Solaris)
 python -m oceanic publish-r2 [modelo|marca|--all] [--apply] [--verify-remote]  # sube las copias web a R2 (simulación por defecto; nunca borra)
+python -m oceanic r2-backfill <modelo|marca|--all> --pillow=<v> --libwebp=<v> [--apply]  # completa una sola vez encoder y original_sha256 en r2.json ya existentes (simulación por defecto; sin red)
 python -m oceanic export-portal [--out=<carpeta>] [--preview-keys]             # portal.json por modelo, brand.json e index.json (docs/EXPORT_PORTAL.md)
 python -m oceanic publish-export [--out=<carpeta>] [--apply] [--verify-images] # sube el export a R2: catalog/{schema_version}/{hash}/... y catalog/latest.json
 python -m oceanic publish-export --rollback=<hash> [--schema-version=<v>] [--apply]  # apunta catalog/latest.json a un catálogo ya publicado (simulación por defecto; archiva el puntero actual en catalog/history/)

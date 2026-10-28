@@ -38,6 +38,11 @@ Rama `integracion-portal`. Cambios aditivos: no se reformateó ningún archivo e
 - `publish-export`: antes de sobrescribir `catalog/latest.json` lo lee y guarda una copia inmutable en
   `catalog/history/<fecha UTC>-<hash>.json` (si falla, no sobrescribe); nuevo `--rollback=<hash>` (simulación por defecto).
 - `R2Client.get_object` (solo lectura).
+- `r2.json`: cada entrada nueva registra `encoder` (Pillow, libwebp, quality, method) y `original_sha256` cuando existe (aditivo; `version`
+  sigue en 1). `publish-r2` compara primero con la entrada activa de `r2.json`, así que ya no avisa "distinta al inventario" cuando
+  r2.json registra esa misma clave. Nuevo `python -m oceanic r2-backfill` (simulación por defecto) para completar una sola vez las entradas
+  ya subidas sin tocar `images.json` ni R2.
+- Dependencias: `pillow==13.0.0` fijada (el resto sigue con `>=`).
 - `docs/OPERACION_R2.md`: instrucciones de la primera carga, por marca, de menor a mayor.
 - Pruebas nuevas: `test_mediarules`, `test_r2`, `test_restore`, `test_lint`, `test_export`, `test_catalog`.
 - Dependencias: `boto3`, `jsonschema`.

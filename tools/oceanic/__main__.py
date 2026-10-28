@@ -59,6 +59,9 @@ def main(argv: list[str]) -> int:
     if cmd == "publish-r2":
         from . import r2
         return r2.main_cli(args, ROOT)
+    if cmd == "r2-backfill":
+        from . import r2
+        return r2.main_backfill(args, ROOT)
     if cmd == "publish-export":
         from . import catalog
         return catalog.main_cli(args, ROOT)

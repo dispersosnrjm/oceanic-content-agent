@@ -168,6 +168,29 @@ python -m oceanic publish-export --out=..\dist\portal --verify-images
 python -m oceanic publish-export --out=..\dist\portal --apply
 ```
 
+### Versión del codificador en `r2.json`
+
+Los bytes de un WebP dependen de la versión de Pillow y de libwebp, y la clave R2 lleva el hash de esos bytes. Por eso:
+
+- `tools/requirements.txt` fija `pillow==13.0.0` (las demás dependencias siguen con `>=`). Instala siempre con
+  `python -m pip install -r requirements.txt`.
+- Cada entrada **nueva** de `r2.json` guarda `encoder` (`pillow`, `libwebp`, `quality`, `method`) y, cuando existe, `original_sha256`
+  (el hash verificado del original; las copias de la CDN de Axopar no lo tienen). `version` del archivo sigue en 1 y los
+  `r2.json` anteriores se leen igual.
+- `publish-r2` compara primero con la entrada activa de `r2.json`: si ya registra esa misma clave, la copia cuenta como `ok` y no
+  avisa "distinta al inventario", aunque el `sha256` registrado en `images.json` (dato de Nico, que no se toca) sea otro.
+
+Para completar **una sola vez** las entradas ya subidas antes de este cambio (solo agrega los campos que faltan, nunca
+sobrescribe, no usa red ni credenciales y no toca `images.json` ni R2):
+
+```powershell
+python -m oceanic r2-backfill oceanic-power --pillow=13.0.0 --libwebp=1.6.0            # simulación
+python -m oceanic r2-backfill oceanic-power --pillow=13.0.0 --libwebp=1.6.0 --apply    # escribe los r2.json
+```
+
+Las versiones se indican a mano a propósito: tienen que ser con las que se generaron esas copias, no las del equipo en el que
+se ejecuta el comando. `quality` y `method` salen de `schema/media-rules.json` (75 y 6).
+
 ### Historial del puntero y rollback
 
 Antes de sobrescribir `catalog/latest.json`, `publish-export --apply` lo **lee** y, si existe, guarda una copia inmutable en

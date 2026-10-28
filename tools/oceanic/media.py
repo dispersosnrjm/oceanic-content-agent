@@ -114,6 +114,23 @@ def _local_original(folder: Path, url: str):
     return None
 
 
+def has_registered_copy(rec: dict) -> bool:
+    """True when the inventory already records a good web copy (file + sha256, status WEB_COPY)."""
+    return bool(rec.get("file") and rec.get("sha256") and str(rec.get("download_status") or "").startswith("WEB_COPY"))
+
+
+def _mark_failed(rec: dict, reason: str) -> bool:
+    """Write FAILED into download_status unless the record already has a registered copy.
+
+    A download failure (DNS, timeout, 404, captcha) says nothing about a copy that was already verified, so it must not
+    overwrite a good record: it only goes to the run report. Returns True if the record was modified.
+    """
+    if has_registered_copy(rec):
+        return False
+    rec["download_status"] = f"FAILED ({reason})"
+    return True
+
+
 def download_images(model_dir: Path, source: str = "original") -> dict:
     """Store a WebP web copy per image; the original is referenced (URL, sha256, size), not stored.
 
@@ -163,7 +180,7 @@ def download_images(model_dir: Path, source: str = "original") -> dict:
                 except Exception as exc:  # network policy, 404, timeout
                     err = f"{type(exc).__name__}: {exc}"
         if data is None:
-            rec["download_status"] = f"FAILED ({err})"
+            _mark_failed(rec, err)
             stats["failed"] += 1
             continue
         fmt, w, h = _image_info(data)
@@ -171,7 +188,7 @@ def download_images(model_dir: Path, source: str = "original") -> dict:
             # Not an image: e.g. an anti-bot challenge page (SiteGround "sg-captcha") instead of the file.
             snippet = data[:200].decode("utf-8", "replace")
             why = "desafío anti-bots del servidor (captcha)" if "captcha" in snippet.lower() else "la respuesta no es una imagen"
-            rec["download_status"] = f"FAILED ({why})"
+            _mark_failed(rec, why)
             stats["failed"] += 1
             continue
         digest = hashlib.sha256(data).hexdigest()
@@ -386,13 +403,18 @@ def restore_images(model_dir: Path, fetch=None, brand: str | None = None) -> dic
                          publishable) and keeps all its fields;
       * not checkable -> `restored_unverifiable`: the copy is written; the record is only filled in when it had no
                          copy registered yet.
+
+    A failed download (DNS, timeout, 404, captcha, no URL) NEVER modifies a record that already has a registered copy
+    (`has_registered_copy`): it only goes to the report (`failed_list`, `manual`). On success, a record whose
+    download_status was left in another state (FAILED, requires_manual_download) is put back to WEB_COPY.
     """
     fetch = fetch or _fetch
     model_dir = Path(model_dir)
     brand = brand or model_dir.parent.name
     stats = {"brand": brand, "model": model_dir.name, "restored": 0, "restored_verified": 0, "restored_unverifiable": 0,
              "changed": 0, "changed_list": [], "ok_on_disk": 0, "failed": 0, "no_url": 0,
-             "requires_manual_download": 0, "skipped_solaris": 0, "identical_copy": 0, "manual": []}
+             "requires_manual_download": 0, "skipped_solaris": 0, "identical_copy": 0, "manual": [],
+             "failed_list": [], "status_healed": 0, "inconsistent_status": []}
     inv_path = model_dir / "05_MULTIMEDIA" / "IMAGENES" / "images.json"
     inv = json.loads(inv_path.read_text(encoding="utf-8"))
     for rec in inv["images"]:  # antes de leer, descargar o escribir nada: todas las rutas deben quedar dentro del modelo
@@ -407,15 +429,18 @@ def restore_images(model_dir: Path, fetch=None, brand: str | None = None) -> dic
             continue  # decision pendiente de una persona: no se vuelve a descargar ni a publicar
         if rec.get("file") and _webp_ok(model_dir / rec["file"]):
             stats["ok_on_disk"] += 1
+            if rec.get("sha256") and not status.startswith("WEB_COPY"):
+                stats["inconsistent_status"].append({"id": rec["id"], "status": status})  # se informa, no se toca
             continue
         if brand.lower() == "solaris":
             stats["skipped_solaris"] += 1
             continue
         urls, check_url, expected = _restore_plan(rec)
+        registered = bool(rec.get("file") and rec.get("sha256"))  # ya hay una copia registrada en el inventario
         if not urls:
-            rec["download_status"] = "FAILED (sin URL oficial)"
+            changed |= _mark_failed(rec, "sin URL oficial")
             stats["no_url"] += 1
-            changed = True
+            stats["failed_list"].append({"id": rec["id"], "error": "sin URL oficial", "registered": registered})
             continue
         data, err, captcha_url, used = None, "sin URL oficial", None, None
         for url in urls:
@@ -434,14 +459,16 @@ def restore_images(model_dir: Path, fetch=None, brand: str | None = None) -> dic
                 err = "la respuesta no es una imagen"
         if data is None:
             if captcha_url:
-                rec["download_status"] = "requires_manual_download"
-                rec["manual_download_url"] = captcha_url
+                if not registered:  # con copia registrada el captcha solo va al informe
+                    rec["download_status"] = "requires_manual_download"
+                    rec["manual_download_url"] = captcha_url
+                    changed = True
                 stats["requires_manual_download"] += 1
                 stats["manual"].append({"id": rec["id"], "url": captcha_url})
             else:
-                rec["download_status"] = f"FAILED ({err})"
+                changed |= _mark_failed(rec, err)
                 stats["failed"] += 1
-            changed = True
+            stats["failed_list"].append({"id": rec["id"], "error": err, "registered": registered})
             continue
         got_sha = hashlib.sha256(data).hexdigest()
         if expected and used == check_url and got_sha != expected:
@@ -468,9 +495,12 @@ def restore_images(model_dir: Path, fetch=None, brand: str | None = None) -> dic
         if fill:  # the inventory had no copy registered: fill it in; otherwise the record stays exactly as it was
             rec.update(file=rel.replace("\\", "/"), sha256=web_sha, format="webp", width=ww, height=wh,
                        bytes=len(web), web_quality=WEB_QUALITY, downloaded_at=date.today().isoformat())
+            changed = True
+        if not str(rec.get("download_status") or "").startswith("WEB_COPY"):
+            # restaurada con exito: el estado debe quedar coherente (estaba PENDING / FAILED / requires_manual_download)
+            rec["download_status"] = "WEB_COPY"
             rec.pop("manual_download_url", None)
-            if not str(rec.get("download_status") or "").startswith("WEB_COPY"):
-                rec["download_status"] = "WEB_COPY"  # was PENDING / FAILED / requires_manual_download
+            stats["status_healed"] += 1
             changed = True
     if changed:
         with open(inv_path, "w", encoding="utf-8", newline="\n") as fh:
@@ -495,7 +525,7 @@ def _resolve_restore_targets(arg: str, root: Path) -> list[Path]:
 def restore_report(all_stats: list[dict]) -> dict:
     """Totals and per-brand counts of a restore run."""
     keys = ("restored", "restored_verified", "restored_unverifiable", "changed", "ok_on_disk", "failed", "no_url",
-            "requires_manual_download", "skipped_solaris", "identical_copy")
+            "requires_manual_download", "skipped_solaris", "identical_copy", "status_healed")
     total = {k: sum(s[k] for s in all_stats) for k in keys}
     by_brand = {}
     for s in all_stats:
@@ -504,7 +534,10 @@ def restore_report(all_stats: list[dict]) -> dict:
             b[k] += s[k]
     return {"total": total, "by_brand": by_brand,
             "changed": [{"model": f"{s['brand']}/{s['model']}", **c} for s in all_stats for c in s["changed_list"]],
-            "manual": [{"model": f"{s['brand']}/{s['model']}", **m} for s in all_stats for m in s["manual"]]}
+            "manual": [{"model": f"{s['brand']}/{s['model']}", **m} for s in all_stats for m in s["manual"]],
+            "failed": [{"model": f"{s['brand']}/{s['model']}", **f} for s in all_stats for f in s["failed_list"]],
+            "inconsistent_status": [{"model": f"{s['brand']}/{s['model']}", **i}
+                                    for s in all_stats for i in s["inconsistent_status"]]}
 
 
 def restore_main(args: list[str], root: Path, fetch=None) -> int:
@@ -543,6 +576,15 @@ def restore_main(args: list[str], root: Path, fetch=None) -> int:
         print(f"  CAMBIÓ el original ({c['model']}): {c['id']} {c['url']}")
     for m in rep["manual"]:
         print(f"  manual: {m['model']} {m['id']} -> {m['url']}")
+    for f in rep["failed"][:10]:
+        print(f"  FALLÓ la descarga ({f['model']}): {f['id']}: {f['error'][:90]}"
+              + ("  [con copia registrada: images.json no se modificó]" if f["registered"] else ""))
+    if len(rep["failed"]) > 10:
+        print(f"  ... y {len(rep['failed']) - 10} fallos más en el informe (--report)")
+    if t["status_healed"]:
+        print(f"  estado corregido a WEB_COPY en {t['status_healed']} imágenes restauradas")
+    for i in rep["inconsistent_status"][:10]:
+        print(f"  AVISO estado incoherente ({i['model']}): {i['id']} tiene copia válida pero estado {i['status'][:40]!r}")
     if t["skipped_solaris"]:
         print("  Solaris: usar `media <modelo> --from-dir=<carpeta>`")
     out = next((a.split("=", 1)[1] for a in args if a.startswith("--report=")), None)

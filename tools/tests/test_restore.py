@@ -5,6 +5,7 @@ import json
 import tempfile
 import unittest
 from pathlib import Path
+from unittest import mock
 
 from PIL import Image
 
@@ -142,7 +143,8 @@ class Restore(unittest.TestCase):
         st = media.restore_images(self.dir, fetch=self._fetch)
         self.assertEqual((st["no_url"], st["failed"], st["restored"]), (1, 0, 0))
         self.assertEqual(self.calls, [])
-        self.assertTrue(self._load()[0]["download_status"].startswith("FAILED"))
+        self.assertEqual(self._load()[0]["download_status"], "WEB_COPY")  # copia registrada: el estado no se pisa
+        self.assertEqual(st["failed_list"][0]["error"], "sin URL oficial")
 
     # --- resto del comportamiento --------------------------------------------------------------------------
 
@@ -182,7 +184,7 @@ class Restore(unittest.TestCase):
         self.assertEqual(self.calls, [])
 
     def test_captcha_marks_manual(self):
-        self._write([_rec("c")])
+        self._write([_rec("c", file=None, sha256=None, bytes=None, download_status="PENDING")])  # sin copia registrada
         st = media.restore_images(self.dir, fetch=lambda u: b"<html>sg-captcha challenge</html>")
         self.assertEqual(st["requires_manual_download"], 1)
         self.assertEqual(st["manual"], [{"id": "c", "url": "https://x.test/c.jpg"}])
@@ -200,8 +202,102 @@ class Restore(unittest.TestCase):
         st = media.restore_images(self.dir, fetch=fetch)
         self.assertEqual((st["failed"], st["restored"]), (1, 1))
         recs = {r["id"]: r for r in self._load()}
-        self.assertTrue(recs["a"]["download_status"].startswith("FAILED"))
+        self.assertEqual(recs["a"]["download_status"], "WEB_COPY")  # tiene copia registrada: el fallo no la toca
+        self.assertEqual([f["id"] for f in st["failed_list"]], ["a"])
         self.assertEqual(recs["b"]["download_status"], "WEB_COPY")
+
+    # --- un fallo de descarga no puede dañar un registro bueno ---------------------------------------------------
+
+    def _dns_down(self, url):
+        import urllib.error
+        self.calls.append(url)
+        raise urllib.error.URLError("[Errno 11001] getaddrinfo failed")
+
+    def test_failed_download_leaves_registered_record_byte_identical_then_recovers(self):
+        self._write([_rec("a"), _rec("b")])  # WEB_COPY con copia registrada, pero el archivo no esta en disco
+        before = self._raw()
+        st = media.restore_images(self.dir, fetch=self._dns_down)  # corte de red transitorio
+        self.assertEqual((st["failed"], st["restored"], st["no_url"]), (2, 0, 0))
+        self.assertEqual(self._raw(), before)  # images.json byte a byte igual
+        self.assertEqual({f["id"]: f["registered"] for f in st["failed_list"]}, {"a": True, "b": True})
+        self.assertIn("getaddrinfo", st["failed_list"][0]["error"])
+        self.assertFalse((self.imgs / "EXTERIOR" / "a.webp").exists())
+        # la corrida siguiente, con red, repone y verifica: images.json sigue igual y el estado es coherente
+        st2 = media.restore_images(self.dir, fetch=self._fetch)
+        self.assertEqual((st2["restored"], st2["restored_verified"], st2["failed"]), (2, 2, 0))
+        self.assertEqual(self._raw(), before)
+        self.assertTrue(all(r["download_status"] == "WEB_COPY" for r in self._load()))
+        self.assertTrue(media._webp_ok(self.imgs / "EXTERIOR" / "a.webp"))
+
+    def test_status_left_in_failed_by_an_old_run_is_healed_on_success(self):
+        self._write([_rec("a", download_status="FAILED (URLError: <urlopen error [Errno 11001] getaddrinfo failed>)"),
+                     _rec("m", download_status="requires_manual_download", manual_download_url="https://x.test/m.jpg")])
+        orig = {r["id"]: r for r in self._load()}
+        st = media.restore_images(self.dir, fetch=self._fetch)
+        self.assertEqual((st["restored_verified"], st["status_healed"]), (2, 2))
+        recs = {r["id"]: r for r in self._load()}
+        for i in ("a", "m"):
+            self.assertEqual(recs[i]["download_status"], "WEB_COPY")
+            for k in ("sha256", "bytes", "width", "height", "downloaded_at", "original"):  # lo demas no cambia
+                self.assertEqual(recs[i][k], orig[i][k], (i, k))
+        self.assertNotIn("manual_download_url", recs["m"])
+
+    def test_no_url_and_captcha_do_not_modify_a_registered_record(self):
+        self._write([_rec("x", source_url=None, cdn_url=None,
+                          original={"url": None, "fetched_from": None, "sha256": None})])
+        before = self._raw()
+        st = media.restore_images(self.dir, fetch=self._fetch)
+        self.assertEqual((st["no_url"], st["failed_list"][0]["registered"]), (1, True))
+        self.assertEqual(self._raw(), before)
+        self._write([_rec("c")])
+        before = self._raw()
+        st = media.restore_images(self.dir, fetch=lambda u: b"<html>sg-captcha</html>")
+        self.assertEqual((st["requires_manual_download"], st["manual"][0]["id"]), (1, "c"))  # va al informe
+        self.assertEqual(self._raw(), before)  # pero el registro no se toca
+
+    def test_failure_on_a_record_without_registered_copy_is_still_recorded(self):
+        self._write([_rec("n", file=None, sha256=None, bytes=None, download_status="PENDING")])
+        media.restore_images(self.dir, fetch=self._dns_down)
+        self.assertTrue(self._load()[0]["download_status"].startswith("FAILED"))
+        self._write([_rec("n", file=None, sha256=None, bytes=None, download_status="PENDING")])
+        media.restore_images(self.dir, fetch=lambda u: b"<html>sg-captcha</html>")
+        r = self._load()[0]
+        self.assertEqual((r["download_status"], r["manual_download_url"]), ("requires_manual_download",
+                                                                         "https://x.test/n.jpg"))
+
+    def test_inconsistent_status_with_good_file_is_reported_not_modified(self):
+        self._good("a")
+        self._write([_rec("a", download_status="FAILED (URLError: x)")])
+        before = self._raw()
+        st = media.restore_images(self.dir, fetch=self._fetch)
+        self.assertEqual(st["inconsistent_status"], [{"id": "a", "status": "FAILED (URLError: x)"}])
+        self.assertEqual((self._raw(), self.calls), (before, []))
+
+    def test_restore_main_reports_failures_without_modifying_images_json(self):
+        self._write([_rec("a")])
+        before = self._raw()
+        out = self.root / "informe.json"
+        buf = io.StringIO()
+        with contextlib.redirect_stdout(buf):
+            rc = media.restore_main(["marca", "--restore", f"--report={out}"], self.root, fetch=self._dns_down)
+        self.assertEqual(rc, 1)  # hubo fallos: codigo de salida 1
+        self.assertIn("FALLÓ la descarga", buf.getvalue())
+        self.assertIn("images.json no se modificó", buf.getvalue())
+        self.assertEqual(json.loads(out.read_text(encoding="utf-8"))["failed"][0]["id"], "a")
+        self.assertEqual(self._raw(), before)
+
+    def test_download_images_does_not_overwrite_a_registered_record_on_failure(self):
+        rec = _rec("a", declared_width=1, declared_height=1, declared_format="jpg")
+        self._write([rec, dict(rec, id="n", file=None, sha256=None, bytes=None, download_status="PENDING")])
+
+        def boom(url, timeout=120):
+            raise OSError("getaddrinfo failed")
+        with mock.patch.object(media, "_fetch", boom):
+            st = media.download_images(self.dir)
+        recs = {r["id"]: r for r in self._load()}
+        self.assertEqual(st["failed"], 2)
+        self.assertEqual(recs["a"]["download_status"], "WEB_COPY")  # copia registrada: no se pisa
+        self.assertTrue(recs["n"]["download_status"].startswith("FAILED"))  # sin copia: se registra como antes
 
     def test_downloaded_from_is_tried_first_so_cdn_copies_do_not_fetch_originals(self):
         cdn = "https://cdn.test/gone.jpg?width=2560&quality=90"

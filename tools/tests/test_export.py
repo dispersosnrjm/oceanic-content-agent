@@ -4,6 +4,7 @@ import re
 import tempfile
 import unittest
 from pathlib import Path
+from unittest import mock
 
 try:
     from tests import _netguard  # noqa: F401  (bloquea la red en las pruebas)
@@ -218,7 +219,9 @@ class WriteOutput(unittest.TestCase):
             self.assertEqual(res["report"]["models"]["total"], 1)
 
     def test_without_r2_json_and_without_preview_images_are_omitted(self):
-        res = exporter.export_portal(ROOT, generated_at=GEN, only="switch/switch-one-design", write=False)
+        # no depende de si el repositorio ya trae el r2.json real de Switch: se simula que no existe
+        with mock.patch.object(exporter, "_load_r2_keys", return_value={}):
+            res = exporter.export_portal(ROOT, generated_at=GEN, only="switch/switch-one-design", write=False)
         d = res["docs"]["switch/switch-one-design"]
         self.assertEqual(d["images"], [])
         self.assertTrue(all(not h["available"] for h in d["candidates"]["hero_images"]))

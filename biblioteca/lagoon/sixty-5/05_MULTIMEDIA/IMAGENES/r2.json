@@ -1,0 +1,677 @@
+{
+ "version": 1,
+ "images": [
+  {
+   "id": "cover-catamaran-lagoon-sixty-5-0",
+   "key": "lagoon/sixty-5/hero/cover-catamaran-lagoon-sixty-5-0-ce4375fb.webp",
+   "sha256": "ce4375fb2ac8d8fcc14e1e5c14cb9f84075658ac97054bbd83670db1aeb3a352",
+   "bytes": 183570,
+   "uploaded_at": "2026-10-28T20:59:31+00:00",
+   "original_sha256": "00b715ddc4d512884f7b7238b0544c01d60acff3f7729b8aee390150b5603fb8",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "navigation-helico-ncz9861-3",
+   "key": "lagoon/sixty-5/other/navigation-helico-ncz9861-3-fcb760ea.webp",
+   "sha256": "fcb760ea5529e29e35bfd790ec32366723a1de869f7c60f0c51464d97d92ca4f",
+   "bytes": 160318,
+   "uploaded_at": "2026-10-28T20:59:31+00:00",
+   "original_sha256": "292f7eb0dd5108f7fe2581f20accfb587377d22d54e601c9d048e2119857fd36",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "10",
+   "key": "lagoon/sixty-5/other/10-4456bd7c.webp",
+   "sha256": "4456bd7c5bb77bf5d7156c13cfc71e3453b53cfd456a56f9692025e0a753c5c0",
+   "bytes": 32964,
+   "uploaded_at": "2026-10-28T20:59:31+00:00",
+   "original_sha256": "f3a86712c8ae9b4609ff47f74c7f62098faf786e0b57843e6d2f552cf9b6378c",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "navigation-helico-ncz9704-500-300dpi-1",
+   "key": "lagoon/sixty-5/other/navigation-helico-ncz9704-500-300dpi-1-4e0610fc.webp",
+   "sha256": "4e0610fcfee17ea1ff1dc4373d456605a3ac9cd6354951da03464dbd7c82a80f",
+   "bytes": 233034,
+   "uploaded_at": "2026-10-28T20:59:31+00:00",
+   "original_sha256": "ea669f459946e0f0ccc0ecf1e42d6c7127f134076ed22719614a3c1f41d982d9",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "navigation-helico-ncz9658-1",
+   "key": "lagoon/sixty-5/other/navigation-helico-ncz9658-1-5984500b.webp",
+   "sha256": "5984500b35f55c614fa06ac7c0fb6239b1cf68b83f1ac0f7ed10b61ec40b1d3a",
+   "bytes": 183182,
+   "uploaded_at": "2026-10-28T20:59:31+00:00",
+   "original_sha256": "23dc499521b8a6648cae25b9ceb6edd9729140cec9dd3a417c463b5596cfc094",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "s5-exterior-1920x720-4",
+   "key": "lagoon/sixty-5/underway/s5-exterior-1920x720-4-ead5c458.webp",
+   "sha256": "ead5c458f205724dd0f5aa356f1ecef27d597fcfb5e93efc695eb27b3d5a9932",
+   "bytes": 126228,
+   "uploaded_at": "2026-10-28T20:59:31+00:00",
+   "original_sha256": "9a82bf7f90dd4e881bfd15ff5934a56c52175cd44aef7244c6d433335758cf11",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "s5-exterior-1920x720-2",
+   "key": "lagoon/sixty-5/exterior/s5-exterior-1920x720-2-4c05ac11.webp",
+   "sha256": "4c05ac11c9b0000c620e954025dbda1a0dc184c7e54a573392a002529bdcd10a",
+   "bytes": 212414,
+   "uploaded_at": "2026-10-28T20:59:31+00:00",
+   "original_sha256": "4b5b47f8bfe243ff1279209b5adba52e7abee2b222012babe9aacc904232c048",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "pont-et-fly-lifestyle-ncz8420-1",
+   "key": "lagoon/sixty-5/other/pont-et-fly-lifestyle-ncz8420-1-0cd8e285.webp",
+   "sha256": "0cd8e2854cff34264c968c68e4ee8b96bd24604c640321df429f610e37aad126",
+   "bytes": 159158,
+   "uploaded_at": "2026-10-28T20:59:31+00:00",
+   "original_sha256": "7223effc95466a23fae25eb3de83e1d06cc4bb3257c173803aa22277269b40a3",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "pont-et-fly-lifestyle-nck4385-1",
+   "key": "lagoon/sixty-5/other/pont-et-fly-lifestyle-nck4385-1-056a8b3c.webp",
+   "sha256": "056a8b3ca73787208caf5d447843b5523fa758fbcd1009c99db1bf12ed1c5b17",
+   "bytes": 123432,
+   "uploaded_at": "2026-10-28T20:59:32+00:00",
+   "original_sha256": "09970c9ec43fdbff74d7ac4904d9fd28975eb0baf1e8e3a7ec717d2989ef2ba1",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "pont-et-fly-lifestyle-ncz8979-2",
+   "key": "lagoon/sixty-5/other/pont-et-fly-lifestyle-ncz8979-2-7cc024c7.webp",
+   "sha256": "7cc024c780e0050a9fa494a8a4d25726c00ff833ea675e3f1d2d24ed3e940af6",
+   "bytes": 172604,
+   "uploaded_at": "2026-10-28T20:59:32+00:00",
+   "original_sha256": "666140620c903ba1c0a1442e616b05e4b63b75d1398e3c5cf44fc1782c7788cf",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "pont-et-fly-lifestyle-ncz8969-1-1",
+   "key": "lagoon/sixty-5/helm/pont-et-fly-lifestyle-ncz8969-1-1-6e460974.webp",
+   "sha256": "6e460974abae82d3d70469fcc9b8e20e3c52026008eeb070f6ac0c15f2c7adf4",
+   "bytes": 147528,
+   "uploaded_at": "2026-10-28T20:59:32+00:00",
+   "original_sha256": "3d692aaf37f5e0b43cd54f48f5c5486545a0279a8f8ad5c0ddaa8cb8eb18e59c",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "cockpit-ar-ncz10625-1-1",
+   "key": "lagoon/sixty-5/cockpit/cockpit-ar-ncz10625-1-1-3b99cf97.webp",
+   "sha256": "3b99cf97dd36140048f22290dd8bf8a8bf75a5b6a0e9c991a101ccd122e30d78",
+   "bytes": 118894,
+   "uploaded_at": "2026-10-28T20:59:32+00:00",
+   "original_sha256": "015889cd8a414314669f0572f9171459813d311936d36f4c8b78fe7f85ac1602",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "cockpit-lifestyle-ncz10750-1",
+   "key": "lagoon/sixty-5/other/cockpit-lifestyle-ncz10750-1-cd46e0d2.webp",
+   "sha256": "cd46e0d2a82e22792572cc661d438af50e34f7a1617855c8be8078e2e4435eab",
+   "bytes": 131178,
+   "uploaded_at": "2026-10-28T20:59:32+00:00",
+   "original_sha256": "79090ccdc7e084d25cef52e9444568fcb3ebc3bf4755ad4025ab2bcc83318294",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "ncz0149-hdr-web-1",
+   "key": "lagoon/sixty-5/other/ncz0149-hdr-web-1-0a34f7d9.webp",
+   "sha256": "0a34f7d96d172fd8a4f49bd17ca3af64a12cfab5ff0eaa6758698ea1da62713d",
+   "bytes": 88780,
+   "uploaded_at": "2026-10-28T20:59:32+00:00",
+   "original_sha256": "02abb6cde5171094e744cde42eecbd896c617147cf77b667a7eba77de2b97484",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "carre-ncz10760-web-1",
+   "key": "lagoon/sixty-5/other/carre-ncz10760-web-1-efec5968.webp",
+   "sha256": "efec59684cc64e5dc0ec343be3091e8c70e36fc7f474510a77357173203b98a1",
+   "bytes": 83294,
+   "uploaded_at": "2026-10-28T20:59:32+00:00",
+   "original_sha256": "b3fef1ba2fd069c66abf840c641ad9f4e0cb0d4536dc3181fbfb257e23e2673d",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "catamaran-lagoon-sixty-5-galley-02",
+   "key": "lagoon/sixty-5/interior/catamaran-lagoon-sixty-5-galley-02-26499648.webp",
+   "sha256": "264996483f88494b10498d098610daf45546b9689b832e75b4f7bbcad3d44853",
+   "bytes": 109032,
+   "uploaded_at": "2026-10-28T20:59:32+00:00",
+   "original_sha256": "9c52bda8fcd720af0de58bf1a81891aa2cec1a4e40b1cf4eba3f5b45bc223527",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "catamaran-lagoon-sixty-5-galley-03",
+   "key": "lagoon/sixty-5/detail/catamaran-lagoon-sixty-5-galley-03-dafae6cd.webp",
+   "sha256": "dafae6cd2b4e96d19d4f40f7c266a2e6371fe90ef71ade9b0345f15b23dfdcd2",
+   "bytes": 20852,
+   "uploaded_at": "2026-10-28T20:59:33+00:00",
+   "original_sha256": "e1d2d08d3223cd550289b3a7b3de99535c7bd61e8b1a630663e0575b4b28554a",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "carre-lifestyle-nck5247-1",
+   "key": "lagoon/sixty-5/other/carre-lifestyle-nck5247-1-8d95ad00.webp",
+   "sha256": "8d95ad004f8c3cd1228044e8a3df14ecfcb3e8b73b68ebcee04c9cb3afbcb306",
+   "bytes": 80684,
+   "uploaded_at": "2026-10-28T20:59:34+00:00",
+   "original_sha256": "13b7f0cff6fc8b48b761daffe1f8a8081c2ac8c784df9564ea9ca7b75dc611d7",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "catamaran-lagoon-sixty-5-galley",
+   "key": "lagoon/sixty-5/interior/catamaran-lagoon-sixty-5-galley-fae4feee.webp",
+   "sha256": "fae4feee620e74a8e3fc7e780ff2108f0a183ab7fd09635522bf6c283e1a4c1e",
+   "bytes": 68452,
+   "uploaded_at": "2026-10-28T20:59:34+00:00",
+   "original_sha256": "d40bfdeb50653c66cfa793e7bd64002485762f802a7e1992aaf02baf11de9f55",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "cuisine-ncz6774-hdr-1",
+   "key": "lagoon/sixty-5/other/cuisine-ncz6774-hdr-1-af5de479.webp",
+   "sha256": "af5de47923d73dfc72f31361f57f6d629e2455d17fc116195da42542ac6941ab",
+   "bytes": 72430,
+   "uploaded_at": "2026-10-28T20:59:34+00:00",
+   "original_sha256": "967cad11d8281399add1e82885c196407e1f07abb4717bd84b48a8e0dda260f6",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "cuisine-lifestyle-ncz9083-1",
+   "key": "lagoon/sixty-5/other/cuisine-lifestyle-ncz9083-1-e9c1a2af.webp",
+   "sha256": "e9c1a2af4b5e04ddad02f2770592c9e8fbf0674aa41d6a61d335d5a668663c45",
+   "bytes": 81936,
+   "uploaded_at": "2026-10-28T20:59:34+00:00",
+   "original_sha256": "61b01dfd719ca7051749fe1a26a0841aa1aebbee1856cde0c051de68d1d1541f",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "ncz0029-hdr-2",
+   "key": "lagoon/sixty-5/other/ncz0029-hdr-2-5e45ed7f.webp",
+   "sha256": "5e45ed7f6ad7feca56ac4515164ea7ad6fc23a47d84ad35be466061835b71973",
+   "bytes": 109224,
+   "uploaded_at": "2026-10-28T20:59:34+00:00",
+   "original_sha256": "6dacb4dc75c6cde21dab7b995f1a36565c4d90a4efb4b75543678a28d956cc99",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "cab-prop-lifestyle-nck4782-1",
+   "key": "lagoon/sixty-5/other/cab-prop-lifestyle-nck4782-1-22e57fc3.webp",
+   "sha256": "22e57fc3f84ac52857dfcde747dec40d799045a55f4cf0818102e0da038e1d26",
+   "bytes": 95274,
+   "uploaded_at": "2026-10-28T20:59:34+00:00",
+   "original_sha256": "060b121e1e79b7ad96e8c60e7aab699d76ce6f58a3a291c896e11cbd64b5e12c",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "cabines-ncz7903-panorama-1-1",
+   "key": "lagoon/sixty-5/cabin/cabines-ncz7903-panorama-1-1-a33dd583.webp",
+   "sha256": "a33dd583c16bf0d5eb23764e53a8205b490c82608e8593aa5a099417ead162a7",
+   "bytes": 70214,
+   "uploaded_at": "2026-10-28T20:59:34+00:00",
+   "original_sha256": "70bfed11cb02adf122c6aa778ea2b716c3d64b89d1b6e59ac8118040e0a99295",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "cab-prop-lifestyle-nck4874-1",
+   "key": "lagoon/sixty-5/other/cab-prop-lifestyle-nck4874-1-635675e7.webp",
+   "sha256": "635675e721b176b1edfd063312cfd3bb79adbd937aadcd191a0638f48228fce6",
+   "bytes": 70960,
+   "uploaded_at": "2026-10-28T20:59:35+00:00",
+   "original_sha256": "242dcabab2a3fec0ae9ce7f2cc64fbec67015b88d17d183083d4e641916c5f56",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "catamaran-lagoon-sixty-5-cabin-0",
+   "key": "lagoon/sixty-5/detail/catamaran-lagoon-sixty-5-cabin-0-d36f50d4.webp",
+   "sha256": "d36f50d4eac031ec41b7be10f42ef9c731cc2e3095138f1464e69b06d8153155",
+   "bytes": 38190,
+   "uploaded_at": "2026-10-28T20:59:35+00:00",
+   "original_sha256": "1e9fe17d8131d367ab399e2c235574f9cc6d205dbe3abd802792e46f4f75a552",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "cabines-ncz7819-panorama-2",
+   "key": "lagoon/sixty-5/other/cabines-ncz7819-panorama-2-6b008b41.webp",
+   "sha256": "6b008b41c912c4b726cd5f2cdcb07929aae0fe305f5965e0bc770711be9c23ca",
+   "bytes": 90400,
+   "uploaded_at": "2026-10-28T20:59:35+00:00",
+   "original_sha256": "0e2322c52437d75bc1cea87eca1fc2342cdea97bc19216ae3441ee538e206553",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "sixty-5-custom-4",
+   "key": "lagoon/sixty-5/cockpit/sixty-5-custom-4-66d0711b.webp",
+   "sha256": "66d0711bdd43c1d5ed152bf3ad63826a8bf0d51b75e0fbfe35d840c3da4fb35b",
+   "bytes": 177290,
+   "uploaded_at": "2026-10-28T20:59:35+00:00",
+   "original_sha256": "592258bb7654799543c478b2059cf933802004ab0c56a775f426ec89576dc196",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "sixty-5-custom-5-0",
+   "key": "lagoon/sixty-5/cockpit/sixty-5-custom-5-0-7778118b.webp",
+   "sha256": "7778118bd67fb77a7e8f4a212f5adca40be93226ae71f51cc8100378d5c8b0db",
+   "bytes": 116358,
+   "uploaded_at": "2026-10-28T20:59:35+00:00",
+   "original_sha256": "0dfc979fef77149628d3a3cee5ab3d68fd71ea96cc0bfd0bfa0ebfec52c2fe39",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "sixty-5-custom-6",
+   "key": "lagoon/sixty-5/helm/sixty-5-custom-6-e155d850.webp",
+   "sha256": "e155d850b25f5dd63bdea2e661c29ecae6dc1bc3e873a9b3c80edc59dfac753b",
+   "bytes": 128924,
+   "uploaded_at": "2026-10-28T20:59:35+00:00",
+   "original_sha256": "90e896bd1dcf3de42e88047769c092751d1473ecf9db46a5afe881053963c2d9",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "sixty-5-custom-8",
+   "key": "lagoon/sixty-5/interior/sixty-5-custom-8-4c11cd5e.webp",
+   "sha256": "4c11cd5e51bdf486cb601cdca9794d3811d706cb54b35d6ca0e208af72c5dfb0",
+   "bytes": 144874,
+   "uploaded_at": "2026-10-28T20:59:35+00:00",
+   "original_sha256": "8fc8071dd92e91155319e4b2590e3877ae33dc382081ae7b2e1c242078dc7aed",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "sixty-5-custom-7",
+   "key": "lagoon/sixty-5/interior/sixty-5-custom-7-67ef1159.webp",
+   "sha256": "67ef115998216512f5c4631246ad756ff63caa9093a803c7c19acb4009330458",
+   "bytes": 87600,
+   "uploaded_at": "2026-10-28T20:59:35+00:00",
+   "original_sha256": "28f617a076a60a44e560fe2f255c32254d8f007805a0c4abfb2deea805a06de4",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "sixty-5-custom-3",
+   "key": "lagoon/sixty-5/cabin/sixty-5-custom-3-f937c3a0.webp",
+   "sha256": "f937c3a0a4ec4ec45c1b1ef0b205e44ee9b455be74980de5f5ae2ac2ed47a07e",
+   "bytes": 57304,
+   "uploaded_at": "2026-10-28T20:59:36+00:00",
+   "original_sha256": "88a17ce92c9d507e1ed116fd4c3838eac17226c235cf8a2e01fad38ccc67da4d",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "sixty-5-custom-1",
+   "key": "lagoon/sixty-5/detail/sixty-5-custom-1-6a476a66.webp",
+   "sha256": "6a476a669846882bd7a82a2bdcb84c99ef543d7956c4613d54353073c98fb1ad",
+   "bytes": 89508,
+   "uploaded_at": "2026-10-28T20:59:36+00:00",
+   "original_sha256": "360237d67fcf6278797c8d20916637bdb1101feb063a3606edc8bd6adba2a26e",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "sixty-5-custom-2",
+   "key": "lagoon/sixty-5/detail/sixty-5-custom-2-f287693e.webp",
+   "sha256": "f287693ef50468231a03c6bd0b5221d8efc7346b87578fdb89fad56d21104e59",
+   "bytes": 88886,
+   "uploaded_at": "2026-10-28T20:59:36+00:00",
+   "original_sha256": "f1c36c8ddd2cedfeec51b335c75506d8281756794278275d542a76684189a55b",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "9",
+   "key": "lagoon/sixty-5/other/9-1b1f3e6f.webp",
+   "sha256": "1b1f3e6f3b46266371b1526176ff49e535d883836d035f64992144e027818306",
+   "bytes": 67234,
+   "uploaded_at": "2026-10-28T20:59:36+00:00",
+   "original_sha256": "a4e062c68c6b0dee653e15666ca0835500ccdc3d3a3393d0fa8daefc86e4901a",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "pont-et-fly-lifestyle-ncz8086-1",
+   "key": "lagoon/sixty-5/helm/pont-et-fly-lifestyle-ncz8086-1-dbc0166d.webp",
+   "sha256": "dbc0166d85286000ac8568edebf48d79d1a7e8eeb4d825d0e85df05d6d388444",
+   "bytes": 121786,
+   "uploaded_at": "2026-10-28T20:59:36+00:00",
+   "original_sha256": "b5c72a08be4badc95d9456a43bee7906f23b23462da346e2dbe6357aa5772cce",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "catamaran-lagoon-sixty-5-highlight-lifestyle",
+   "key": "lagoon/sixty-5/interior/catamaran-lagoon-sixty-5-highlight-lifestyle-a1426695.webp",
+   "sha256": "a1426695a07886a678aea7169812efd6936ab517001e2e24d2b73b95b808230c",
+   "bytes": 54618,
+   "uploaded_at": "2026-10-28T20:59:36+00:00",
+   "original_sha256": "df6a333e000d6a573d744f878c66b0a95d3247fa1d6593457d1802f96a610420",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "sixty-5-cabine-proprie-taire-2",
+   "key": "lagoon/sixty-5/cabin/sixty-5-cabine-proprie-taire-2-f3de5dc0.webp",
+   "sha256": "f3de5dc0321d49751337bedd8fae176f8421a068f1d3a9405b377039e14fd3b3",
+   "bytes": 72272,
+   "uploaded_at": "2026-10-28T20:59:36+00:00",
+   "original_sha256": "886f99efc932c19aaf13a1cd19b6957f5bd77aa4c928abe328fd17af9371d2ec",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "sixty-5",
+   "key": "lagoon/sixty-5/plans/sixty-5-bbd1dd3b.webp",
+   "sha256": "bbd1dd3b1fcb255cf0cacfc6929bb411747cf70696f180bcef81a483c4148cb6",
+   "bytes": 129408,
+   "uploaded_at": "2026-10-28T20:59:36+00:00",
+   "original_sha256": "facb27a2b2ee3a38c5f7696c12e672751f06f8730c4bbe5265993ea59e85c7be",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "layout-catamaran-sixty-5-fly-standard",
+   "key": "lagoon/sixty-5/plans/layout-catamaran-sixty-5-fly-standard-2071f703.webp",
+   "sha256": "2071f703ca0cc9c2dec473fc6492c6e9f0f61d5d6a995ece82c12ab73665c189",
+   "bytes": 20868,
+   "uploaded_at": "2026-10-28T20:59:37+00:00",
+   "original_sha256": "50e072c30a3f3f4c640ec7e016d183c135c881008fd9f9c3260eabe346610aec",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "layout-catamaran-sixty-5-fly-bain-soleil",
+   "key": "lagoon/sixty-5/plans/layout-catamaran-sixty-5-fly-bain-soleil-7314d3f5.webp",
+   "sha256": "7314d3f5d8febb726a2486cc3814f3d6b419116712b2f8eb6495b16824f7d1d0",
+   "bytes": 21928,
+   "uploaded_at": "2026-10-28T20:59:38+00:00",
+   "original_sha256": "b16280561eb2b2a55116a069588e29f6ae94c7081ed513ca0f0926e15385a0fe",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "layout-catamaran-sixty-5-fly-tribu",
+   "key": "lagoon/sixty-5/plans/layout-catamaran-sixty-5-fly-tribu-db2e4f0d.webp",
+   "sha256": "db2e4f0d43b15704460fcab8a7893ad3495ee51250ed20c92a9da6693a6e64f6",
+   "bytes": 22232,
+   "uploaded_at": "2026-10-28T20:59:38+00:00",
+   "original_sha256": "0215cbaa7cadc57c26b0d22c68066b94478a237d054eba3ee55b5930762ab91b",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "layout-catamaran-sixty5-galley-down-4c-4t",
+   "key": "lagoon/sixty-5/plans/layout-catamaran-sixty5-galley-down-4c-4t-78cb00c0.webp",
+   "sha256": "78cb00c051bf6f20fe9f8422a17c6cb18a7ef00e7cb099fdf97777129a8b2b12",
+   "bytes": 20190,
+   "uploaded_at": "2026-10-28T20:59:38+00:00",
+   "original_sha256": "2f4e8e8516c28e3ebb0771b0316b03b775afe8471cf289b6c4b4b061ca3c44a6",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "layout-catamaran-sixty5-galley-up-6c-6t",
+   "key": "lagoon/sixty-5/plans/layout-catamaran-sixty5-galley-up-6c-6t-316ffa49.webp",
+   "sha256": "316ffa49d6147e5c636851a3b3ceeb3609df649ae53244186a145a5a2c582e14",
+   "bytes": 20842,
+   "uploaded_at": "2026-10-28T20:59:38+00:00",
+   "original_sha256": "3f526b2670a3105afbf6f773c567269f1ab084a3bc2245cb62f5fbe7edd3da2b",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "layout-catamaran-sixty-5-lounge-standard",
+   "key": "lagoon/sixty-5/plans/layout-catamaran-sixty-5-lounge-standard-c9cc1ff3.webp",
+   "sha256": "c9cc1ff376618fc84b764a79a2e330b2d6d7df214d7bb201fdf335b800915e28",
+   "bytes": 28334,
+   "uploaded_at": "2026-10-28T20:59:38+00:00",
+   "original_sha256": "1e08516d9800c51add6774fe505b8c6f5d5f5a62d6c28801f25fa64120572a41",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "layout-catamaran-sixty-5-lounge-option-tables-basses-0",
+   "key": "lagoon/sixty-5/plans/layout-catamaran-sixty-5-lounge-option-tables-basses-0-4799a475.webp",
+   "sha256": "4799a475435d1fa909c1cbc28112f0f3ac32190eda11a732e00044ff884cd094",
+   "bytes": 28012,
+   "uploaded_at": "2026-10-28T20:59:38+00:00",
+   "original_sha256": "d8d9cf2c9441fd75cfdf102dbadd86382c4beb753e35e035c98a43a7d2a595d3",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "layout-catamaran-sixty-5-lounge-option-tables-hautes",
+   "key": "lagoon/sixty-5/plans/layout-catamaran-sixty-5-lounge-option-tables-hautes-8c5c8446.webp",
+   "sha256": "8c5c84463a14802ad3865b7644b735b6f34e2d9ab0113395fed51a8ce116ac00",
+   "bytes": 28300,
+   "uploaded_at": "2026-10-28T20:59:38+00:00",
+   "original_sha256": "b0ec0b6060f22e7bbb7a7c5ccbb8f3be9183058b57a5b7d42e0dd59e3e49de8e",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  }
+ ]
+}

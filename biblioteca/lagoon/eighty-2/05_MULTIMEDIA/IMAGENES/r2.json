@@ -1,0 +1,1083 @@
+{
+ "version": 1,
+ "images": [
+  {
+   "id": "lagoon-eighty-2-mobile-cover-768x1024",
+   "key": "lagoon/eighty-2/hero/lagoon-eighty-2-mobile-cover-768x1024-ee87b31c.webp",
+   "sha256": "ee87b31c6ad12d06d790534d6f48c6989215ea6b4fe3b132290403bae96b70b7",
+   "bytes": 96274,
+   "uploaded_at": "2026-10-28T20:58:17+00:00",
+   "original_sha256": "904a91fec689720f52fed0c504c47b32f5bff57075cfc3781cf90f9db188b555",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "lagoon-82-illustration-intro-03",
+   "key": "lagoon/eighty-2/exterior/lagoon-82-illustration-intro-03-df9fa576.webp",
+   "sha256": "df9fa5769dc78adaf3f53fdd89387c251cf2cf117cdf9d1d28fefb63b022627d",
+   "bytes": 61294,
+   "uploaded_at": "2026-10-28T20:58:17+00:00",
+   "original_sha256": "557aa1ebe5b5356b7f1d19571eb14c000a0342cc397cca7b4dcd76b4d7b95e8e",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "catamaran-lagoon-eighty-2-video-cover",
+   "key": "lagoon/eighty-2/other/catamaran-lagoon-eighty-2-video-cover-8d05e66d.webp",
+   "sha256": "8d05e66dc94df8af2e821b9810d198c0e5b3b3a922ef191815d419f3352fa493",
+   "bytes": 65854,
+   "uploaded_at": "2026-10-28T20:58:17+00:00",
+   "original_sha256": "507c7ceeacd41aee386342a89fee1b904fd01641b0e2abab759489b0e6668fe1",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "lagoon-82-slider-1920x720-01",
+   "key": "lagoon/eighty-2/exterior/lagoon-82-slider-1920x720-01-7c573579.webp",
+   "sha256": "7c573579293a8a54fdb91702b98bbd31dbc866e87490579774e274701ac2220e",
+   "bytes": 125074,
+   "uploaded_at": "2026-10-28T20:58:17+00:00",
+   "original_sha256": "31a1f338879184f5933a3759a4580f78817d9133c726b4679f46ceeabcbd458d",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "catamaran-lagoon-eigthy-2-interior-slider-47",
+   "key": "lagoon/eighty-2/underway/catamaran-lagoon-eigthy-2-interior-slider-47-9654ee9a.webp",
+   "sha256": "9654ee9a0a54d825a52d972331fff00a21e509ddd6bfb685845c7a0233d189fc",
+   "bytes": 75476,
+   "uploaded_at": "2026-10-28T20:58:17+00:00",
+   "original_sha256": "546c429a1b8bc1ef36e58968c5cc1523ca463023b117e1b13f45c889442ab451",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "lagoon-82-slider-1920x720-02",
+   "key": "lagoon/eighty-2/exterior/lagoon-82-slider-1920x720-02-5963786e.webp",
+   "sha256": "5963786ecaddd54ca9487b10e0be0ba34cc869a8e51dd073f29a7c560e316d30",
+   "bytes": 162744,
+   "uploaded_at": "2026-10-28T20:58:18+00:00",
+   "original_sha256": "a932510303ba91cfe388afffccc15b7fc20a1365dce3bcdda66b1242afa84096",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "lagoon-82-slider-1920x720-21",
+   "key": "lagoon/eighty-2/exterior/lagoon-82-slider-1920x720-21-4a44ec10.webp",
+   "sha256": "4a44ec10253a273660e97484ec650d8614a5b2d507c7c6be3a634f91183ce3c2",
+   "bytes": 74782,
+   "uploaded_at": "2026-10-28T20:58:18+00:00",
+   "original_sha256": "e32e0e63218245ce01daa88b3c4c7b00a407b710ef672c513e587d7b47b6e4c2",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "lagoon-82-slider-1920x720-03",
+   "key": "lagoon/eighty-2/underway/lagoon-82-slider-1920x720-03-3e4b2f5a.webp",
+   "sha256": "3e4b2f5a6efd8e4572b53b7f83818504611fd3076fd15df5b2f41eb44df71031",
+   "bytes": 76492,
+   "uploaded_at": "2026-10-28T20:58:18+00:00",
+   "original_sha256": "4706e5262361777369b83085efdca5fedad39f647f64a08c1cff2059c565f8cc",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "catamaran-lagoon-eigthy-2-interior-slider-48",
+   "key": "lagoon/eighty-2/exterior/catamaran-lagoon-eigthy-2-interior-slider-48-f7b5d170.webp",
+   "sha256": "f7b5d170ed8af10f885d6668f18f1a4249dddc9fe5e631c250cbf03c83b188af",
+   "bytes": 120066,
+   "uploaded_at": "2026-10-28T20:58:18+00:00",
+   "original_sha256": "f0af2b481d827c6c9d99de42e5624a1302e36d0aa954364543281de131568806",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "catamaran-lagoon-eigthy-2-interior-slider-50",
+   "key": "lagoon/eighty-2/exterior/catamaran-lagoon-eigthy-2-interior-slider-50-d04c3aa3.webp",
+   "sha256": "d04c3aa351403e4647bdb94e0e9c7182c1c10c8cd7d4fd49d31f764a89fef833",
+   "bytes": 105972,
+   "uploaded_at": "2026-10-28T20:58:18+00:00",
+   "original_sha256": "a25ebbe4cb9887397dac115c501b2dea5327882c19aace07162857071e71e081",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "lagoon-82-slider-1920x720-04",
+   "key": "lagoon/eighty-2/exterior/lagoon-82-slider-1920x720-04-9c8140f7.webp",
+   "sha256": "9c8140f7ba6bcaa0b90098d152274f0f422d01aa18acc81d1b95631dbe9fcb1b",
+   "bytes": 71538,
+   "uploaded_at": "2026-10-28T20:58:18+00:00",
+   "original_sha256": "f61fdd29bee048ad6dcc51988734ac8e22486b81e0f2620778e3adce604f7808",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "catamaran-lagoon-eigthy-2-interior-slider-46",
+   "key": "lagoon/eighty-2/other/catamaran-lagoon-eigthy-2-interior-slider-46-eb928af9.webp",
+   "sha256": "eb928af9c6fa4b59fa6983a2c4948685e6b8cf85e1adab86d6a8ba7301f708da",
+   "bytes": 72686,
+   "uploaded_at": "2026-10-28T20:58:19+00:00",
+   "original_sha256": "60fa33d04212c8ccfbac36c39f9a3d539e16f0b161c4729f0834a46789a2daf4",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "catamaran-lagoon-eigthy-2-interior-slider-51",
+   "key": "lagoon/eighty-2/underway/catamaran-lagoon-eigthy-2-interior-slider-51-93a44331.webp",
+   "sha256": "93a44331320ed15e651669058d45fe56b8e8eda5f346dd33e964f50cbf9c0c72",
+   "bytes": 73992,
+   "uploaded_at": "2026-10-28T20:58:19+00:00",
+   "original_sha256": "27f5232b7b8c0f27c01901cc91aa59c5e6c87a76dd9f79916a88e01a64f234e5",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "lagoon-82-slider-1920x720-05",
+   "key": "lagoon/eighty-2/exterior/lagoon-82-slider-1920x720-05-12a000bf.webp",
+   "sha256": "12a000bf48176ad705386312c4a977d2803dacd2a73eb499c8b16a31228c0241",
+   "bytes": 115534,
+   "uploaded_at": "2026-10-28T20:58:19+00:00",
+   "original_sha256": "ef40ba017ae420ebb923fa9135c1d728fea29aa749617bc4a50136d691afc109",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "catamaran-lagoon-eigthy-2-interior-slider-49",
+   "key": "lagoon/eighty-2/exterior/catamaran-lagoon-eigthy-2-interior-slider-49-ff768f54.webp",
+   "sha256": "ff768f54d9941a9a740704eed06b6a5d2b7501f249cf2fcd690307e47723eb06",
+   "bytes": 149450,
+   "uploaded_at": "2026-10-28T20:58:19+00:00",
+   "original_sha256": "37b4435c3f855dc1ed29afab2271943d650ec695618408a27928b9ad25976735",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "catamaran-lagoon-eigthy-2-interior-slider-40",
+   "key": "lagoon/eighty-2/detail/catamaran-lagoon-eigthy-2-interior-slider-40-495b7fa7.webp",
+   "sha256": "495b7fa73d7d93d3557f7016bc72b6d9db34c94c8498f06b452d020cf7221d47",
+   "bytes": 178836,
+   "uploaded_at": "2026-10-28T20:58:19+00:00",
+   "original_sha256": "d8a1708f571e9781db48f92dae3fceab923c66a16802ed07e44ee8b3e35bb634",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "lagoon-eigthy-2-interior-slider-01",
+   "key": "lagoon/eighty-2/cockpit/lagoon-eigthy-2-interior-slider-01-a029bc99.webp",
+   "sha256": "a029bc991406fc9f90744969d651f8ccf0ce086313be15c9f4cf5f80616ced03",
+   "bytes": 153166,
+   "uploaded_at": "2026-10-28T20:58:19+00:00",
+   "original_sha256": "bceb632ecb92fbce8bf5d54e73a8f1667dc09908e9a967c46be9dda7f0a4a694",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "lagoon-eigthy-2-interior-slider-02",
+   "key": "lagoon/eighty-2/cockpit/lagoon-eigthy-2-interior-slider-02-2ec6e3b3.webp",
+   "sha256": "2ec6e3b3ffe0843dd283755d485dc30a1a13d61e37f00dddc7ea90b26bf7f330",
+   "bytes": 171624,
+   "uploaded_at": "2026-10-28T20:58:20+00:00",
+   "original_sha256": "431e547cc5b3e6f00a28bd2836549a0f2ac2d4455b958479651bb1daac96c815",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "lagoon-eigthy-2-interior-slider-04",
+   "key": "lagoon/eighty-2/cockpit/lagoon-eigthy-2-interior-slider-04-1ae57a8b.webp",
+   "sha256": "1ae57a8b0c7d7fde1291511548a12dd8c8db1dc4a96ea5f46e1b34ac84a9cb43",
+   "bytes": 145694,
+   "uploaded_at": "2026-10-28T20:58:20+00:00",
+   "original_sha256": "aa87052002a5d0cc95b5e73925ff2be6afee582245182cfccb730396b5ee1c8e",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "lagoon-eigthy-2-interior-slider-05",
+   "key": "lagoon/eighty-2/cockpit/lagoon-eigthy-2-interior-slider-05-06eec7f0.webp",
+   "sha256": "06eec7f053790ec4be4f3c781d824b48c6d985920fe96331f93e258e38044362",
+   "bytes": 198294,
+   "uploaded_at": "2026-10-28T20:58:20+00:00",
+   "original_sha256": "011d6640717858f7c96bac4c76f4153e773f6b860662409a3073fcfdf45b20fc",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "lagoon-eigthy-2-interior-slider-06",
+   "key": "lagoon/eighty-2/other/lagoon-eigthy-2-interior-slider-06-5f8b1422.webp",
+   "sha256": "5f8b1422bc1fbaf4bde19406f4c6ca5aefe9448207dcc7eb9253dbc32a9f7ee8",
+   "bytes": 145534,
+   "uploaded_at": "2026-10-28T20:58:20+00:00",
+   "original_sha256": "77b0a07c91a17b6b34a9dc7482de88dd9b98871d558c1df8cd1543475e6c6a51",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "catamaran-lagoon-eigthy-2-interior-slider-43",
+   "key": "lagoon/eighty-2/cockpit/catamaran-lagoon-eigthy-2-interior-slider-43-2fad7b69.webp",
+   "sha256": "2fad7b69c554192916b667d9398cdb1270d977517f308b833e888fe44ca99bc0",
+   "bytes": 104994,
+   "uploaded_at": "2026-10-28T20:58:21+00:00",
+   "original_sha256": "bbe23ed2542cdd17eec982cc3134b3c12994b644283637d518024bb4f05ac3e9",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "lagoon-eigthy-2-interior-slider-07",
+   "key": "lagoon/eighty-2/cockpit/lagoon-eigthy-2-interior-slider-07-cb198248.webp",
+   "sha256": "cb1982488ed87ff6e98f225663f975e321895929f1b664bb354f3e541b9666cc",
+   "bytes": 162158,
+   "uploaded_at": "2026-10-28T20:58:21+00:00",
+   "original_sha256": "172a222d0ae9e63519fa11713159428e4f07e771e90a24f3fdd99212e050246a",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "lagoon-eigthy-2-interior-slider-08",
+   "key": "lagoon/eighty-2/cockpit/lagoon-eigthy-2-interior-slider-08-3486dfc5.webp",
+   "sha256": "3486dfc587e0006cd15e53b3266a79bea6b9a3bccc9a72e6f136263e28854490",
+   "bytes": 175952,
+   "uploaded_at": "2026-10-28T20:58:21+00:00",
+   "original_sha256": "dbd605ac908fc1c65dd283f94c7f835be127dfc975683787c71df88b92d2c869",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "lagoon-eigthy-2-interior-slider-09",
+   "key": "lagoon/eighty-2/cockpit/lagoon-eigthy-2-interior-slider-09-68598fc9.webp",
+   "sha256": "68598fc91d66331b74221d356fd7edd4e231f8e065ea210f24a9ed2a600d2609",
+   "bytes": 170188,
+   "uploaded_at": "2026-10-28T20:58:21+00:00",
+   "original_sha256": "7dfc70d7ee01448d88dae81fa7936341395c73d45b68b13d0617ee2a03031dab",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "lagoon-eigthy-2-interior-slider-10",
+   "key": "lagoon/eighty-2/helm/lagoon-eigthy-2-interior-slider-10-225a30a6.webp",
+   "sha256": "225a30a639e40f73af240c7f18e1662de090eda937170f441a71a796c864cbd0",
+   "bytes": 147590,
+   "uploaded_at": "2026-10-28T20:58:21+00:00",
+   "original_sha256": "f210c51d8e012465a2f69b91c60c7464c5319c958dcbede2c0e401b3054033ef",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "catamaran-lagoon-eigthy-2-interior-slider-38",
+   "key": "lagoon/eighty-2/exterior/catamaran-lagoon-eigthy-2-interior-slider-38-a75b17c8.webp",
+   "sha256": "a75b17c86aa3395a881b58a39616b54280d7b017b9777f0572289a536fe10637",
+   "bytes": 129884,
+   "uploaded_at": "2026-10-28T20:58:21+00:00",
+   "original_sha256": "606a3f713d1693111faa37baf614cd0933c3fc0be08eff969471c67fdf3bc0e5",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "catamaran-lagoon-eigthy-2-interior-slider-45",
+   "key": "lagoon/eighty-2/cockpit/catamaran-lagoon-eigthy-2-interior-slider-45-813525dc.webp",
+   "sha256": "813525dcb16f83a1101e58fb3f95d6871f730d4dfd8df4269cbb0bd51002b3a1",
+   "bytes": 111512,
+   "uploaded_at": "2026-10-28T20:58:21+00:00",
+   "original_sha256": "9c9365223fa1341373d4c1d3010e2eacfb19531ccb1f0371420471388a414baf",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "lagoon-eigthy-2-interior-slider-11",
+   "key": "lagoon/eighty-2/cockpit/lagoon-eigthy-2-interior-slider-11-57b45992.webp",
+   "sha256": "57b459929b87dfaf351c8b9af5efd6a1327e6daf0031a7678fb42bd8eb27d3ad",
+   "bytes": 164588,
+   "uploaded_at": "2026-10-28T20:58:22+00:00",
+   "original_sha256": "b9ec5e21db8b4e21ababec87fd21eab600976435e3367556ed6e8af78f676843",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "lagoon-eigthy-2-interior-slider-16",
+   "key": "lagoon/eighty-2/other/lagoon-eigthy-2-interior-slider-16-b2d56a97.webp",
+   "sha256": "b2d56a97e8d5c9942bccd36adc82f53b8d128584f6affa3cda04186ee3b9553f",
+   "bytes": 166748,
+   "uploaded_at": "2026-10-28T20:58:22+00:00",
+   "original_sha256": "32fd384a62aded064945df8c9a44f20a0bd3ebdaa712317b50616a8bdea3d0c9",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "catamaran-lagoon-eigthy-2-interior-slider-39",
+   "key": "lagoon/eighty-2/helm/catamaran-lagoon-eigthy-2-interior-slider-39-2aa06878.webp",
+   "sha256": "2aa068785f8d1dcc2b59d1a88f5ef5383838671819b30bf1ea7ffd969d5bb65a",
+   "bytes": 116388,
+   "uploaded_at": "2026-10-28T20:58:22+00:00",
+   "original_sha256": "8f6482dfb737febc384bf47677630ddc55f464fcaa6ea4221967e53c6ae6e6bb",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "lagoon-eigthy-2-interior-slider-17",
+   "key": "lagoon/eighty-2/cockpit/lagoon-eigthy-2-interior-slider-17-b69b0a38.webp",
+   "sha256": "b69b0a385a2b2a4fda288c8dcb7947312def80edb678179daa2f62cf73cf264c",
+   "bytes": 187612,
+   "uploaded_at": "2026-10-28T20:58:22+00:00",
+   "original_sha256": "6224259d84079fb2ba0ead9999e62979fecea633fb5d5ffa78d03563aaa8bc25",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "catamaran-lagoon-eigthy-2-interior-slider-44",
+   "key": "lagoon/eighty-2/detail/catamaran-lagoon-eigthy-2-interior-slider-44-790c564b.webp",
+   "sha256": "790c564b0eea59062a9bce6ae51fa2d5d845da8e71af47c772678f8f9a90e07c",
+   "bytes": 49516,
+   "uploaded_at": "2026-10-28T20:58:22+00:00",
+   "original_sha256": "39d166a861c819bf0f99be6878e8e5915399c45c84f37dce46110be75bb421e5",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "lagoon-eigthy-2-interior-slider-12",
+   "key": "lagoon/eighty-2/interior/lagoon-eigthy-2-interior-slider-12-4fb40b5a.webp",
+   "sha256": "4fb40b5acc096e33a31addb89841e2147bb4d3117989f8d09d853c1f26d178f3",
+   "bytes": 96372,
+   "uploaded_at": "2026-10-28T20:58:23+00:00",
+   "original_sha256": "7c4667fe20861d148adecdf37323f5b20856ad632165e6324f3e1d8881605db0",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "lagoon-eigthy-2-interior-slider-14",
+   "key": "lagoon/eighty-2/interior/lagoon-eigthy-2-interior-slider-14-27521c48.webp",
+   "sha256": "27521c48fb9d905d64ed9cc11eee620c5b3f951b044d5ee4695cd9d43f27123c",
+   "bytes": 105222,
+   "uploaded_at": "2026-10-28T20:58:23+00:00",
+   "original_sha256": "a8126eb375acc47e8ce52244f2a589af61331541bb25e6dfeb0244f3692a6009",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "lagoon-eigthy-2-interior-slider-15",
+   "key": "lagoon/eighty-2/helm/lagoon-eigthy-2-interior-slider-15-329538d6.webp",
+   "sha256": "329538d6a85b5cfe5ab953e63e76edc7e16c88bd8c2f25cb2d2d8b42959d5f72",
+   "bytes": 124088,
+   "uploaded_at": "2026-10-28T20:58:23+00:00",
+   "original_sha256": "dc166f9153804d31f9c04d3a55916d3b38dff9e4bc263fda9f54606a5d5a7b4b",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "lagoon-eigthy-2-interior-slider-13",
+   "key": "lagoon/eighty-2/interior/lagoon-eigthy-2-interior-slider-13-951552d7.webp",
+   "sha256": "951552d7504968edad969cc270949a59ea7f36048f681ec721ac75ff5482d7c0",
+   "bytes": 93500,
+   "uploaded_at": "2026-10-28T20:58:23+00:00",
+   "original_sha256": "fa506c3155c10301be420fa3c6dd3a3fee8500f414c8f92cb35b641c8544d2e2",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "lagoon-eigthy-2-interior-slider-19",
+   "key": "lagoon/eighty-2/cabin/lagoon-eigthy-2-interior-slider-19-a2adc1c4.webp",
+   "sha256": "a2adc1c4031c9694c7094405a582ac208de472abbae6846ace5b85e3d41792ee",
+   "bytes": 102892,
+   "uploaded_at": "2026-10-28T20:58:23+00:00",
+   "original_sha256": "502ec9fe789837d85eb1285546b885cb7a3e43341e734226026ef0605d4d941f",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "lagoon-eigthy-2-interior-slider-21",
+   "key": "lagoon/eighty-2/cabin/lagoon-eigthy-2-interior-slider-21-2c089029.webp",
+   "sha256": "2c089029baea7124c59c3ac0d9c2ccf3120829ade389fd553b5a672def9d9eb2",
+   "bytes": 96104,
+   "uploaded_at": "2026-10-28T20:58:23+00:00",
+   "original_sha256": "c1160665c2eb558918c1ec0445bfcb223d5b2f0f24b1c10772eb1806d1229567",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "lagoon-eigthy-2-interior-slider-22",
+   "key": "lagoon/eighty-2/cabin/lagoon-eigthy-2-interior-slider-22-37b8bcd9.webp",
+   "sha256": "37b8bcd9795f34fff1cd52e13f9f97f52f487e063257d50bd0ab322829460857",
+   "bytes": 93034,
+   "uploaded_at": "2026-10-28T20:58:23+00:00",
+   "original_sha256": "dd8785864932b402f976a5ad2850cf2bda85f9c5dc15d6242c3d8845f84e69c2",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "lagoon-eigthy-2-interior-slider-24",
+   "key": "lagoon/eighty-2/detail/lagoon-eigthy-2-interior-slider-24-421059b7.webp",
+   "sha256": "421059b710fe6a92bd93537a1788800d5d31d3aa4031121a93905fca4c9be4f2",
+   "bytes": 74916,
+   "uploaded_at": "2026-10-28T20:58:24+00:00",
+   "original_sha256": "c9fc51ba983e1eb11cb12645bfcea8dd1933637984c5f839fe32ca06635b7538",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "lagoon-eigthy-2-interior-slider-26",
+   "key": "lagoon/eighty-2/other/lagoon-eigthy-2-interior-slider-26-e6ab3eb9.webp",
+   "sha256": "e6ab3eb9561c954c46135ef816e8db0c7effc6694be6ce19f85206cb982f3761",
+   "bytes": 89176,
+   "uploaded_at": "2026-10-28T20:58:24+00:00",
+   "original_sha256": "fd41a954cc5f54c70f7276af5662c64237df4b920eaf014e5fb02f604514fe64",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "lagoon-eigthy-2-interior-slider-27",
+   "key": "lagoon/eighty-2/cabin/lagoon-eigthy-2-interior-slider-27-57073bbd.webp",
+   "sha256": "57073bbd656ca223425ce40fd25f495b9b6b7bde8e2bdd7a45b0f015a0d778ba",
+   "bytes": 89156,
+   "uploaded_at": "2026-10-28T20:58:24+00:00",
+   "original_sha256": "b05d13d4390dac9438ffbb8d4a98a0f9ed48154883b6335802913f73e5637329",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "lagoon-eigthy-2-interior-slider-18",
+   "key": "lagoon/eighty-2/cabin/lagoon-eigthy-2-interior-slider-18-9fb32d85.webp",
+   "sha256": "9fb32d850a57cb0eac5204763f690e5757cf75efbe9f81cb69266c8b3fb7f420",
+   "bytes": 96402,
+   "uploaded_at": "2026-10-28T20:58:24+00:00",
+   "original_sha256": "d863281e364c77733dce0010208d5c4a1073a4f92d35d01bb16ac910a14a784e",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "lagoon-eigthy-2-interior-slider-20",
+   "key": "lagoon/eighty-2/cabin/lagoon-eigthy-2-interior-slider-20-1f39f6ab.webp",
+   "sha256": "1f39f6ab20fbab89c44bb602046e75c9354d90d14314bfbd60a71b1a50ac5512",
+   "bytes": 102124,
+   "uploaded_at": "2026-10-28T20:58:24+00:00",
+   "original_sha256": "6828036dea39acafc7cd6265cdb5d2c90ba12446421569ce61302e3718e9febf",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "lagoon-eigthy-2-interior-slider-31",
+   "key": "lagoon/eighty-2/interior/lagoon-eigthy-2-interior-slider-31-5f65c95b.webp",
+   "sha256": "5f65c95be2c58dc61075f24c0f644894412a0810ff96674a7d4d0c286a21e804",
+   "bytes": 69352,
+   "uploaded_at": "2026-10-28T20:58:24+00:00",
+   "original_sha256": "ef92b39c71af0a846586ba3dd70fe043b579ebd3a170a44e7a5527f4b6e0f128",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "lagoon-eigthy-2-interior-slider-23",
+   "key": "lagoon/eighty-2/detail/lagoon-eigthy-2-interior-slider-23-800230b3.webp",
+   "sha256": "800230b373d547b08b0fc6e73f9632325cc7a7ca178790571cdff014882f6d2c",
+   "bytes": 49970,
+   "uploaded_at": "2026-10-28T20:58:25+00:00",
+   "original_sha256": "607a8cf32e8eae2f37aea085e6a7e8c4346a15cf15820ad7a79fcef088ce4b02",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "lagoon-eigthy-2-interior-slider-28",
+   "key": "lagoon/eighty-2/detail/lagoon-eigthy-2-interior-slider-28-5d81fca9.webp",
+   "sha256": "5d81fca9db55d11a48b17ad5d539556390ae61272d8a5b9cc268f18c1ddff588",
+   "bytes": 82790,
+   "uploaded_at": "2026-10-28T20:58:25+00:00",
+   "original_sha256": "3d73dfdd62da71dad74021ebfec28df2ee0e647b45f10ecf1f6e6ada85481044",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "lagoon-eigthy-2-interior-slider-25",
+   "key": "lagoon/eighty-2/cabin/lagoon-eigthy-2-interior-slider-25-189ed454.webp",
+   "sha256": "189ed4549cbde399dfa9d7af895a277b03bd84105f02b897b7d270d8a807721c",
+   "bytes": 73764,
+   "uploaded_at": "2026-10-28T20:58:25+00:00",
+   "original_sha256": "b810fe796421886921213d1d704152cd7dac3acbdf32e739c06e39d7f00c419e",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "lagoon-eigthy-2-interior-slider-29",
+   "key": "lagoon/eighty-2/cabin/lagoon-eigthy-2-interior-slider-29-8cc9bdd5.webp",
+   "sha256": "8cc9bdd537a65808e5912cebe5dc3fc7183a85d59ad4d42dce48999ece6ff6a2",
+   "bytes": 75452,
+   "uploaded_at": "2026-10-28T20:58:26+00:00",
+   "original_sha256": "9c0d7a9b26a2d7248b901e0ecb4d3fef7241f9c169fbed57166da13e1bcb2d37",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "lagoon-eigthy-2-interior-slider-30",
+   "key": "lagoon/eighty-2/detail/lagoon-eigthy-2-interior-slider-30-5067875f.webp",
+   "sha256": "5067875f41c419c01ee5f8eff467b04b47997741f6ab180cef9aabdf94182dd1",
+   "bytes": 67632,
+   "uploaded_at": "2026-10-28T20:58:26+00:00",
+   "original_sha256": "8829e263a331c27fee52c494b7bdbb04d6a0d8ba750b4e5e49e58c4ec18ba0d6",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "lagoon-eigthy-2-interior-slider-36",
+   "key": "lagoon/eighty-2/other/lagoon-eigthy-2-interior-slider-36-6dd2e1c7.webp",
+   "sha256": "6dd2e1c7e5158f4ec0a1f7126266c7eeaf80ce9cafeb54c2fd53db36fff4c610",
+   "bytes": 83710,
+   "uploaded_at": "2026-10-28T20:58:26+00:00",
+   "original_sha256": "99cbc54a5e9eeb7dfb6ed4093c1c8fbfc131e368b3f0d40ff20b22c478af3131",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "lagoon-eigthy-2-interior-slider-32",
+   "key": "lagoon/eighty-2/cabin/lagoon-eigthy-2-interior-slider-32-23382478.webp",
+   "sha256": "2338247880ef5bde1ae84a4910cf61abb68d451697b9ac7ae89d019455aeea60",
+   "bytes": 53222,
+   "uploaded_at": "2026-10-28T20:58:26+00:00",
+   "original_sha256": "b17e3b4c016950475a2e0a31f325112cc4a36e950335a50353e5623f6bf272c4",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "lagoon-eigthy-2-interior-slider-33",
+   "key": "lagoon/eighty-2/interior/lagoon-eigthy-2-interior-slider-33-777aa984.webp",
+   "sha256": "777aa984e9f7b46627d52da321adcd2b0d0fbe3bb03a720e3334cd626f77d643",
+   "bytes": 68988,
+   "uploaded_at": "2026-10-28T20:58:26+00:00",
+   "original_sha256": "b8ef7a7217545311a5ceccb415f65f1d03faa95ac514f78e81ee5f7067658349",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "lagoon-eigthy-2-interior-slider-35",
+   "key": "lagoon/eighty-2/detail/lagoon-eigthy-2-interior-slider-35-3035f3d4.webp",
+   "sha256": "3035f3d4f1eb5d120e38638cbe4a36551e880a888004caba67b6a008d392343f",
+   "bytes": 46694,
+   "uploaded_at": "2026-10-28T20:58:26+00:00",
+   "original_sha256": "160b8e2928a05b92ea0b36261a2cf02fd35a679aa31e03157ad63de2f1249e8f",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "lagoon-eigthy-2-interior-slider-37",
+   "key": "lagoon/eighty-2/detail/lagoon-eigthy-2-interior-slider-37-ca1e021a.webp",
+   "sha256": "ca1e021acb819fb7fbad5653d88a7eb1bbed06f40ba259ff5ec4287ed0aa8ea4",
+   "bytes": 57844,
+   "uploaded_at": "2026-10-28T20:58:26+00:00",
+   "original_sha256": "d3da38cf18c572f9195721964c5c6eba36bb460440f28f3bd141311279edf559",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "catamaran-lagoon-eigthy-2-interior-slider-42",
+   "key": "lagoon/eighty-2/exterior/catamaran-lagoon-eigthy-2-interior-slider-42-ab7a51de.webp",
+   "sha256": "ab7a51dec0c57f324f922cc7ab36d87e3c2582dd2765202f203fb78f6d063690",
+   "bytes": 28346,
+   "uploaded_at": "2026-10-28T20:58:27+00:00",
+   "original_sha256": "eb02cdced42d66c84265b3a80ce0c147a0fd8e15d81276a20a1e749ab9ee0e27",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "lagoon-eighty-2-video-thumbnail",
+   "key": "lagoon/eighty-2/exterior/lagoon-eighty-2-video-thumbnail-407472ab.webp",
+   "sha256": "407472aba0e282dde1fc4d4e49e4a4c4b9cb3e501c328d5da2a1d5065a3020e3",
+   "bytes": 70544,
+   "uploaded_at": "2026-10-28T20:58:27+00:00",
+   "original_sha256": "062c95d92c85f9c52f23dbba6c9fba44acca40f9dbd3c51c0fa6d18b58370338",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "6",
+   "key": "lagoon/eighty-2/other/6-fae58160.webp",
+   "sha256": "fae5816095e49975aee2823dd1b18b54b0ef0a80f7f7ab1dbb1c22a5689f1242",
+   "bytes": 56594,
+   "uploaded_at": "2026-10-28T20:58:27+00:00",
+   "original_sha256": "dca43111b69935544a2a03cb8ce5648fc927d78120f07313b6a81faa7216a473",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "lagoon-82-highlight-1800x1200-01",
+   "key": "lagoon/eighty-2/cockpit/lagoon-82-highlight-1800x1200-01-c6c4697d.webp",
+   "sha256": "c6c4697d42cfae4ba15df69bb81ac1aee9f288e4ee156ef75dcb90a986b9c3cc",
+   "bytes": 129320,
+   "uploaded_at": "2026-10-28T20:58:27+00:00",
+   "original_sha256": "7e41b23161060fd3b85957ec50b5620e44452443fa3525f0a4f5c947ab7e48fb",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "lagoon-82-highlight-1800x1200-02",
+   "key": "lagoon/eighty-2/exterior/lagoon-82-highlight-1800x1200-02-161f47f8.webp",
+   "sha256": "161f47f8e687247fa9b257ff937b5f0491b565b8c1472f33f8795483d3a1ac25",
+   "bytes": 121658,
+   "uploaded_at": "2026-10-28T20:58:27+00:00",
+   "original_sha256": "8c7f0bbf1c0d29ea9c1d29ee3b3e190bd0d1c7d46a2a7123c25dde4999655f74",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "lagoon-82-highlight-1800x1200-03",
+   "key": "lagoon/eighty-2/interior/lagoon-82-highlight-1800x1200-03-5a850f80.webp",
+   "sha256": "5a850f8081f1a08a6a93c9ad4e6a4ac79753192c6ce30819af61363b89cfd118",
+   "bytes": 71638,
+   "uploaded_at": "2026-10-28T20:58:27+00:00",
+   "original_sha256": "19c8447f41dad97af18c817fa1d91d33c32a90da7eedfd1bb57c5b42570bbb11",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "lagoon-82-highlight-1800x1200-04",
+   "key": "lagoon/eighty-2/exterior/lagoon-82-highlight-1800x1200-04-97af42dc.webp",
+   "sha256": "97af42dce5fe48e76d38578633c456c54dc608c15a0bf4dcd3eb8555c0138095",
+   "bytes": 88480,
+   "uploaded_at": "2026-10-28T20:58:27+00:00",
+   "original_sha256": "4dbf42a57b856ea393a16a1c543fedd3adac4faaaf4e098eb9e351ae73bca455",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "slider-article-candle-light-cannes-05",
+   "key": "lagoon/eighty-2/other/slider-article-candle-light-cannes-05-a80bdab5.webp",
+   "sha256": "a80bdab5b482e26ef6112c3129d9329c0a57715d20480da6a414a4bad578c977",
+   "bytes": 152296,
+   "uploaded_at": "2026-10-28T20:58:27+00:00",
+   "original_sha256": "2469ac534baff85e707dbc5b2743c26cd3472292d0172264f15590e1e6c49ac3",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "slider-article-candle-light-cannes-01",
+   "key": "lagoon/eighty-2/other/slider-article-candle-light-cannes-01-efeebca0.webp",
+   "sha256": "efeebca02cb350aaa6cf4b2ef2ed9f50064be7f06413c153bd29cd8ad2ad0c28",
+   "bytes": 97238,
+   "uploaded_at": "2026-10-28T20:58:28+00:00",
+   "original_sha256": "93ba50fbbbddf5a8edc8c465309380d84a4b7241607840310ba915d60634902a",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "slider-article-candle-light-cannes-02",
+   "key": "lagoon/eighty-2/other/slider-article-candle-light-cannes-02-ebbfc510.webp",
+   "sha256": "ebbfc5101216419ab054e303e81a56775bed92c320e2fc83046ab70917b3683f",
+   "bytes": 138914,
+   "uploaded_at": "2026-10-28T20:58:28+00:00",
+   "original_sha256": "520da800e6484d38bbdd7c3093130d1a77d42d4a5bdb454a667f3a59248de65e",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "slider-article-candle-light-cannes-03",
+   "key": "lagoon/eighty-2/other/slider-article-candle-light-cannes-03-d952c914.webp",
+   "sha256": "d952c914a3f466f89b9e8242b22728662b3dc497f17ab67128bcc57453f84eeb",
+   "bytes": 103110,
+   "uploaded_at": "2026-10-28T20:58:28+00:00",
+   "original_sha256": "e22fad53b69333d6bc8c0ff4b92c84a82fc724917d8b09cd494c3e38949d8b5a",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "slider-article-candle-light-cannes-04",
+   "key": "lagoon/eighty-2/other/slider-article-candle-light-cannes-04-b1a4fa8a.webp",
+   "sha256": "b1a4fa8adc4197c4a47b1130e73ad02244107405c91b4d59d56168fee413f8a2",
+   "bytes": 101080,
+   "uploaded_at": "2026-10-28T20:58:28+00:00",
+   "original_sha256": "0614143a32d98780b8f5b45311152e854157a4528b545602f83147978c3ff9bd",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "lagoon-82-bloc-premium-1920x1280-03",
+   "key": "lagoon/eighty-2/other/lagoon-82-bloc-premium-1920x1280-03-09646f55.webp",
+   "sha256": "09646f55e1a6c249096c612b38617e0a82c6330d2fa409b8f6cfab880c3ea54d",
+   "bytes": 65978,
+   "uploaded_at": "2026-10-28T20:58:28+00:00",
+   "original_sha256": "8e62bc9dc405468076c0ba50f79aa18cddd70264317ad164aa2ed38d434c6fb9",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "lagoon-eighty-2-virtual-tour-cover",
+   "key": "lagoon/eighty-2/cockpit/lagoon-eighty-2-virtual-tour-cover-a22bb5e2.webp",
+   "sha256": "a22bb5e29ac210d2da8a14afb6495dfa4dcafa216af535e340b407156dd2fcc2",
+   "bytes": 156872,
+   "uploaded_at": "2026-10-28T20:58:28+00:00",
+   "original_sha256": "5524d5fb83eace9bc59868f74858b65a1c815e8b889ec64d38c3d842bc14f0d5",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "lagoon-eighty2-trefil",
+   "key": "lagoon/eighty-2/plans/lagoon-eighty2-trefil-b1883f49.webp",
+   "sha256": "b1883f49dc02717612cb4d0a589948265e5fa3cf0b8d4695d0a5108316931996",
+   "bytes": 182582,
+   "uploaded_at": "2026-10-28T20:58:29+00:00",
+   "original_sha256": "d5233f5f0a94806367473c388606e1e8882232d6cd00ed5846a65f2f50a85ec0",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "eighty2-flybridge-loose-furnitures",
+   "key": "lagoon/eighty-2/plans/eighty2-flybridge-loose-furnitures-8beccfca.webp",
+   "sha256": "8beccfcae3bb26e379aa5bf36862af6ca6ec357d8eb4e15e7d8160dca9246294",
+   "bytes": 48052,
+   "uploaded_at": "2026-10-28T20:58:29+00:00",
+   "original_sha256": "ca2190603cdf2dd2807824ef98883b49f906b5d3cae25136750bab2f332d75c3",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "eighty2-carre-cuisine-en-haut",
+   "key": "lagoon/eighty-2/plans/eighty2-carre-cuisine-en-haut-d2dcbc66.webp",
+   "sha256": "d2dcbc66267956b17c13dc0e145e5020f1a8e3f00fa0beadfda01bb2fdbeb99e",
+   "bytes": 57166,
+   "uploaded_at": "2026-10-28T20:58:29+00:00",
+   "original_sha256": "17aa507285c4382f38ed254201d4b6d5048f739632931ec4098c2570090828e5",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "lagoon-82-layout-1920x1080-carre-cuisine-bas",
+   "key": "lagoon/eighty-2/plans/lagoon-82-layout-1920x1080-carre-cuisine-bas-1fdf4f36.webp",
+   "sha256": "1fdf4f366349a3e1908856e40c373747e89120a28e47e84989fc18a992d77e24",
+   "bytes": 53364,
+   "uploaded_at": "2026-10-28T20:58:29+00:00",
+   "original_sha256": "b8dbc26e56ddcbcc7a856c6aaff0fce718b277ef87812cc3ae8ce68c498ea321",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "eighty2-5-cabines-cuisine-en-bas",
+   "key": "lagoon/eighty-2/plans/eighty2-5-cabines-cuisine-en-bas-ac9d3bce.webp",
+   "sha256": "ac9d3bce7aceb506052fc115575bd34276b00b898418df247d108583ae3c28df",
+   "bytes": 40542,
+   "uploaded_at": "2026-10-28T20:58:29+00:00",
+   "original_sha256": "922bed28fc5f56112613031f5eddc27cf5e17e43879fc4f2b9a5d8381eeec601",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "eighty2-5-cabines-cuisine-en-haut",
+   "key": "lagoon/eighty-2/plans/eighty2-5-cabines-cuisine-en-haut-c83a649b.webp",
+   "sha256": "c83a649b578335223fc3a983d3cf3ccced2a26eb85422c9e5460800a69c10955",
+   "bytes": 33818,
+   "uploaded_at": "2026-10-28T20:58:30+00:00",
+   "original_sha256": "670fc3d578470a12825c77776d36c0d2fb7d2dc0764aa72b79d70c628cf09ad9",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "eighty2-4-cabines-cuisine-en-bas",
+   "key": "lagoon/eighty-2/plans/eighty2-4-cabines-cuisine-en-bas-dacb5aa6.webp",
+   "sha256": "dacb5aa6b11b745bd98e735929c8be1655192a64a8f9562648c880d1e5952abd",
+   "bytes": 37450,
+   "uploaded_at": "2026-10-28T20:58:30+00:00",
+   "original_sha256": "dd26788f2aed35fc093e8f3ee6219bca24ba4bbdd5e7e719ababe36e7305cf47",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  }
+ ]
+}

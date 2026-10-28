@@ -1,0 +1,607 @@
+{
+ "version": 1,
+ "images": [
+  {
+   "id": "catamaran-lagoon-38-cover-1920x891",
+   "key": "lagoon/lagoon-38/hero/catamaran-lagoon-38-cover-1920x891-2cfe38d6.webp",
+   "sha256": "2cfe38d6d13ce95f9be7908b111c1d132992652b769703501ca2b8cfd70de162",
+   "bytes": 193712,
+   "uploaded_at": "2026-10-28T20:58:32+00:00",
+   "original_sha256": "0a81b5132dd42fad12cc462a19c79f616eabcf4cee322fc36b430218f9486c4d",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "catamaran-lagoon-38-intro-800x1096",
+   "key": "lagoon/lagoon-38/exterior/catamaran-lagoon-38-intro-800x1096-fe933841.webp",
+   "sha256": "fe933841a05447019b3e0287b1e3ef7e123876895dd6c45d1b0057144cf70b00",
+   "bytes": 75760,
+   "uploaded_at": "2026-10-28T20:58:32+00:00",
+   "original_sha256": "0e7d956f30503e29e643d46bdf9299a5738e09f9dfd0b2399ad553e0e7b9107a",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "thumbnail-lagoon-38-walkthrough",
+   "key": "lagoon/lagoon-38/other/thumbnail-lagoon-38-walkthrough-d2748552.webp",
+   "sha256": "d2748552d4a9dd0adf7f43edcc06ed4e77c016f50d3f47f37965f3888b9bbbeb",
+   "bytes": 72638,
+   "uploaded_at": "2026-10-28T20:58:32+00:00",
+   "original_sha256": "e993fa5cff418d4349c49547517c64d467f2f2a787ef4625d189fd9094c8cf7f",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "catamaran-lagoon-38-slider-29-0",
+   "key": "lagoon/lagoon-38/underway/catamaran-lagoon-38-slider-29-0-b19b2db7.webp",
+   "sha256": "b19b2db76a0a14861b58651a5e649bf52e986ebd7801da8159ea54751fd4fee3",
+   "bytes": 193184,
+   "uploaded_at": "2026-10-28T20:58:32+00:00",
+   "original_sha256": "0d0f81b3bc68fc7477359df3367e5becb0c972cdaaa1b639f50636b90efc572f",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "catamaran-lagoon-38-slider-25",
+   "key": "lagoon/lagoon-38/exterior/catamaran-lagoon-38-slider-25-d4077706.webp",
+   "sha256": "d4077706eaecb214f86122b7d9be9c4bc96992cfa992b9ca7785bb6168433c6f",
+   "bytes": 62446,
+   "uploaded_at": "2026-10-28T20:58:32+00:00",
+   "original_sha256": "a56eec9a7f0836ada8bbcf7a5d7de879da74e094e81d64cc1f239591cb6f9206",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "catamaran-lagoon-38-slider-52",
+   "key": "lagoon/lagoon-38/underway/catamaran-lagoon-38-slider-52-d1a48165.webp",
+   "sha256": "d1a48165ff16181d61f781966302960c039b8ed6f31f2aa5b2ed8ff885cb54a7",
+   "bytes": 65548,
+   "uploaded_at": "2026-10-28T20:58:33+00:00",
+   "original_sha256": "ae8aa2a6e10464bd13631d8fcb89f76d17c4118940336d436246a040ed45115d",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "catamaran-lagoon-38-slider-48",
+   "key": "lagoon/lagoon-38/underway/catamaran-lagoon-38-slider-48-8ee91d05.webp",
+   "sha256": "8ee91d05d8e461f1b1067197012b9167c6c9a933ac6cd0af2d022371b650c87a",
+   "bytes": 96736,
+   "uploaded_at": "2026-10-28T20:58:33+00:00",
+   "original_sha256": "c5d0e28ce79cbdad51a4199c7dcd703f56fc9e0636c1c314799238605bd32c61",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "catamaran-lagoon-38-slider-30-0",
+   "key": "lagoon/lagoon-38/underway/catamaran-lagoon-38-slider-30-0-affb067a.webp",
+   "sha256": "affb067afe02c4651fe4c0491dee279cff7a68b0e727bb831225534bf48e7061",
+   "bytes": 139394,
+   "uploaded_at": "2026-10-28T20:58:33+00:00",
+   "original_sha256": "fedd4aceb48636cf83cc751e7c2136ec805e79cd6a0f8457cb3c3321e079af92",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "catamaran-lagoon-38-slider-31",
+   "key": "lagoon/lagoon-38/underway/catamaran-lagoon-38-slider-31-2f898b8a.webp",
+   "sha256": "2f898b8a59d66fb92981d4769131dfbb43c355e2e5878781abe3d0209e8f0e4f",
+   "bytes": 79536,
+   "uploaded_at": "2026-10-28T20:58:33+00:00",
+   "original_sha256": "4315b9374e3bb715c13997effdc2f0cd67c48e5b1784c71bf3b8ad37f3a3f511",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "catamaran-lagoon-38-slider-51",
+   "key": "lagoon/lagoon-38/underway/catamaran-lagoon-38-slider-51-65dcbf52.webp",
+   "sha256": "65dcbf5267a44fd456da9203e8cf4335a81d4b5e206f9478979696a50bbfb349",
+   "bytes": 96304,
+   "uploaded_at": "2026-10-28T20:58:34+00:00",
+   "original_sha256": "2b072e8cedcb5338d1419a0dafe298f02f95af517224649c54914b0011adbf5a",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "catamaran-lagoon-38-slider-22",
+   "key": "lagoon/lagoon-38/exterior/catamaran-lagoon-38-slider-22-e2106210.webp",
+   "sha256": "e21062108df71d2c15d8d0c86ca37564a5f644bab0fb7b085f70157415a6a11e",
+   "bytes": 89414,
+   "uploaded_at": "2026-10-28T20:58:34+00:00",
+   "original_sha256": "18d9f3307d0cb8939e644dd25f636b543a255bdf6e6f0a54f3479aae78be7dc6",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "catamaran-lagoon-38-slider-20",
+   "key": "lagoon/lagoon-38/detail/catamaran-lagoon-38-slider-20-4046770f.webp",
+   "sha256": "4046770f323fd7dd717730bb0909868680e488cb25d59e65c7b10c6c5756e7b9",
+   "bytes": 152530,
+   "uploaded_at": "2026-10-28T20:58:34+00:00",
+   "original_sha256": "7dfb11995767f8145cb872a893ebf4f06bc50f4faa11317a5326f6be4537091b",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "catamaran-lagoon-38-slider-36",
+   "key": "lagoon/lagoon-38/exterior/catamaran-lagoon-38-slider-36-79514c38.webp",
+   "sha256": "79514c38bb47e83720ff4132f898364454e673162ba9df5b4a6955596086aa14",
+   "bytes": 42982,
+   "uploaded_at": "2026-10-28T20:58:34+00:00",
+   "original_sha256": "bd891a89a32a4cc44e567572e41ee73f42bb18d57ddf222373b4e00331545987",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "catamaran-lagoon-38-slider-26-0",
+   "key": "lagoon/lagoon-38/exterior/catamaran-lagoon-38-slider-26-0-8bf7d6ea.webp",
+   "sha256": "8bf7d6eaa8647811f9955840f90706de82b47d135c6dbe905c4e316c179bdf6b",
+   "bytes": 77602,
+   "uploaded_at": "2026-10-28T20:58:34+00:00",
+   "original_sha256": "7a37f7660b9130c210e035e52535baea78fe76cabc71295386fea7be99d622fa",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "catamaran-lagoon-38-slider-27",
+   "key": "lagoon/lagoon-38/exterior/catamaran-lagoon-38-slider-27-1e26eb77.webp",
+   "sha256": "1e26eb77891cd0d8891e7f551075818b78a9648ed5ca8cd7755eeb0db4b9497b",
+   "bytes": 92464,
+   "uploaded_at": "2026-10-28T20:58:34+00:00",
+   "original_sha256": "dec6818d20a96ead749c346653e89da713c1ad0afe7dcfd4868b1e15360fb604",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "catamaran-lagoon-38-slider-32",
+   "key": "lagoon/lagoon-38/exterior/catamaran-lagoon-38-slider-32-ff0d3910.webp",
+   "sha256": "ff0d39100c2e1dc06ffca9b51efdecb77174f8c43fd65756fa80d0d2510338dd",
+   "bytes": 55200,
+   "uploaded_at": "2026-10-28T20:58:34+00:00",
+   "original_sha256": "7f9ba7c76d485d965e13b7c28fff82655f69269694667f0b7b3002335b8b87ba",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "catamaran-lagoon-38-slider-35",
+   "key": "lagoon/lagoon-38/helm/catamaran-lagoon-38-slider-35-c9b3cecd.webp",
+   "sha256": "c9b3cecdc3d4126240ae05b5b67680b5739af49b7b93a2ec767d4b2afb93b6fa",
+   "bytes": 36270,
+   "uploaded_at": "2026-10-28T20:58:35+00:00",
+   "original_sha256": "67e04c4d00379050440df476f1202e1d9280f76e5f33e873b6d1749c2314a7c6",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "catamaran-lagoon-38-slider-37",
+   "key": "lagoon/lagoon-38/cockpit/catamaran-lagoon-38-slider-37-09fbcbe8.webp",
+   "sha256": "09fbcbe8e6d2cf7a45ef78c51a73a6507e55a1a3ef1e3dfb6a120aef7b9ddf74",
+   "bytes": 70584,
+   "uploaded_at": "2026-10-28T20:58:35+00:00",
+   "original_sha256": "8e471539bce02b7639cb95bf842bf596bd869b3631ffd77ad9340a43eb4ee39f",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "catamaran-lagoon-38-slider-21",
+   "key": "lagoon/lagoon-38/exterior/catamaran-lagoon-38-slider-21-63f5fd6b.webp",
+   "sha256": "63f5fd6b970cf3cf7050770ea2930acd3745edd06df26d858f8d437654051ab5",
+   "bytes": 102296,
+   "uploaded_at": "2026-10-28T20:58:35+00:00",
+   "original_sha256": "3b5104511be7662f67438e898b361793d839d1251b7e28c03f773452dffbb509",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "catamaran-lagoon-38-slider-23",
+   "key": "lagoon/lagoon-38/exterior/catamaran-lagoon-38-slider-23-307afed0.webp",
+   "sha256": "307afed01a98983c6353fff9427386d60b5e823f644b82a7589bded913d5a869",
+   "bytes": 67442,
+   "uploaded_at": "2026-10-28T20:58:35+00:00",
+   "original_sha256": "ef90f8a8ebbcfc1023245da61c87de23f04986aed5e39bed2ff0c4aa0e5827c5",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "catamaran-lagoon-38-slider-24",
+   "key": "lagoon/lagoon-38/cockpit/catamaran-lagoon-38-slider-24-96429ffe.webp",
+   "sha256": "96429ffe6a71a42d06c68fc8b197ae5a435977c8f501f1a9047074f9a2c13aff",
+   "bytes": 88454,
+   "uploaded_at": "2026-10-28T20:58:35+00:00",
+   "original_sha256": "332a4c3048312c0f12df24667ff6a38da9792c8a10c709baf3a4f5257f75a8ff",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "catamaran-lagoon-38-slider-49",
+   "key": "lagoon/lagoon-38/interior/catamaran-lagoon-38-slider-49-4c1d2189.webp",
+   "sha256": "4c1d218902798dba3128471a848315d1d81c24ac9373edd13e54a24276213670",
+   "bytes": 76372,
+   "uploaded_at": "2026-10-28T20:58:35+00:00",
+   "original_sha256": "4367d23215e47f7175137b4aada2d3974fe5cd960383a472427c0d771faa65d3",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "catamaran-lagoon-38-slider-33",
+   "key": "lagoon/lagoon-38/interior/catamaran-lagoon-38-slider-33-4414ec27.webp",
+   "sha256": "4414ec27b4bc9978afc5beb7dc252061665a285b5352330de8958740cdd6ab32",
+   "bytes": 64690,
+   "uploaded_at": "2026-10-28T20:58:35+00:00",
+   "original_sha256": "becbc6cc9fc4f1a40d1559781de2a49020818477ef0a25851e1798950d3601bf",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "catamaran-lagoon-38-slider-47",
+   "key": "lagoon/lagoon-38/interior/catamaran-lagoon-38-slider-47-b2574331.webp",
+   "sha256": "b25743315b3df6823bf261f0228cd85de35414f5bae1fcc6d1c79f8f1d23d01f",
+   "bytes": 55868,
+   "uploaded_at": "2026-10-28T20:58:35+00:00",
+   "original_sha256": "04c55021610e8afd7b15819a5502d5a1261475f5e155e1cbf8a2169bd5acbe68",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "catamaran-lagoon-38-slider-34",
+   "key": "lagoon/lagoon-38/interior/catamaran-lagoon-38-slider-34-7b8473ff.webp",
+   "sha256": "7b8473ff68de17644cd9d690fcde1b2fa4761a29a44301969cd8ef3b4a4ccb16",
+   "bytes": 70814,
+   "uploaded_at": "2026-10-28T20:58:36+00:00",
+   "original_sha256": "dbd72a38c486a845017c9c245f130680d7c92987d211a68cf6c23cadb624b383",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "catamaran-lagoon-38-slider-38",
+   "key": "lagoon/lagoon-38/cabin/catamaran-lagoon-38-slider-38-cc51500d.webp",
+   "sha256": "cc51500da69e8a8ea20d3d09a94db6af1946bda0cdbb09b674dde531c4b5188e",
+   "bytes": 49232,
+   "uploaded_at": "2026-10-28T20:58:36+00:00",
+   "original_sha256": "f5a39fd0ca303b8122472289e6330d9ba7eebe63a0b95a9428634e57a8577a13",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "catamaran-lagoon-38-slider-43",
+   "key": "lagoon/lagoon-38/cabin/catamaran-lagoon-38-slider-43-0a21ed1a.webp",
+   "sha256": "0a21ed1ad38a9c5f900c1fc80af371f75aadc2f1d5bcfd50102e3913ba92a4b8",
+   "bytes": 52668,
+   "uploaded_at": "2026-10-28T20:58:36+00:00",
+   "original_sha256": "346e0f3a69553630420b43e356ee39105b505a892f8f62ce47650478de704472",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "catamaran-lagoon-38-slider-40",
+   "key": "lagoon/lagoon-38/cabin/catamaran-lagoon-38-slider-40-00929150.webp",
+   "sha256": "0092915083304f7e1c42b86aa0d250afc522c4dc569a4dd84f39074428663d5e",
+   "bytes": 60196,
+   "uploaded_at": "2026-10-28T20:58:36+00:00",
+   "original_sha256": "30b4ad77f3fdd39215e0fb05c09eaa44e2f8be62c0df23a16dbe4ffb3f99cc80",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "catamaran-lagoon-38-slider-46",
+   "key": "lagoon/lagoon-38/cabin/catamaran-lagoon-38-slider-46-c54e8f38.webp",
+   "sha256": "c54e8f3822a5e429f3f2c94865c0e8b63e4e422d851f514d6a5831df69da153b",
+   "bytes": 50134,
+   "uploaded_at": "2026-10-28T20:58:36+00:00",
+   "original_sha256": "8cad5de56b3355285f64317158df8b766757bfdbf169c89aefcecf35b2e7804c",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "catamaran-lagoon-38-slider-44",
+   "key": "lagoon/lagoon-38/cabin/catamaran-lagoon-38-slider-44-ed58086e.webp",
+   "sha256": "ed58086efda9deda6db1c811a655ce7b39e0f05ca5acd64998e5fe7ef85df993",
+   "bytes": 58360,
+   "uploaded_at": "2026-10-28T20:58:36+00:00",
+   "original_sha256": "ddb8aec9fda9810269f0fd1370f11da39192255f6ca26a51e577417d78bd0213",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "catamaran-lagoon-38-slider-50",
+   "key": "lagoon/lagoon-38/cabin/catamaran-lagoon-38-slider-50-712e6304.webp",
+   "sha256": "712e63045cca980335301486d495850fd49d4f1d403b32c78ee3060fea07e731",
+   "bytes": 67918,
+   "uploaded_at": "2026-10-28T20:58:36+00:00",
+   "original_sha256": "b6951d51a4cd0fded7f75e841161f2828fdebe8f4df0cc4d509f981a88719a43",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "catamaran-lagoon-38-slider-45",
+   "key": "lagoon/lagoon-38/detail/catamaran-lagoon-38-slider-45-00ea51a5.webp",
+   "sha256": "00ea51a5569942f64bc6a1db7e1e995119a171c60457493af39cde5db34e41de",
+   "bytes": 41740,
+   "uploaded_at": "2026-10-28T20:58:37+00:00",
+   "original_sha256": "fc9fa01976894212d18dd8a802f45598f4dd77458c20aebcf3c16f78ed6c4386",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "vignettes-youtube-lagoon-38",
+   "key": "lagoon/lagoon-38/other/vignettes-youtube-lagoon-38-7c199451.webp",
+   "sha256": "7c1994513919e8cb44c7573f921b534bac786982fb1cb38142c3b7085f8f1d66",
+   "bytes": 112120,
+   "uploaded_at": "2026-10-28T20:58:37+00:00",
+   "original_sha256": "823439a1c4ccfb06441d28cd8db9ffeeb5d40e7817d0a8798d848b9b93e91a52",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "lagoon-38-8739-bd",
+   "key": "lagoon/lagoon-38/interior/lagoon-38-8739-bd-4f2bf574.webp",
+   "sha256": "4f2bf5746de0e9c2b2bbf8185a0b0378fb9f2ac46ef3b644a7f14d7922b25241",
+   "bytes": 87530,
+   "uploaded_at": "2026-10-28T20:58:37+00:00",
+   "original_sha256": "1e7d8f92832d3d5970b64d6f9b882c86c345b8138f546be6fd37196f1b764eb0",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "catamaran-lagoon-38-highlight-02-1449x810",
+   "key": "lagoon/lagoon-38/detail/catamaran-lagoon-38-highlight-02-1449x810-0d416988.webp",
+   "sha256": "0d4169882d36d87f810230c5a740dd3d6c410713ef77ae9ecd62f1c8f35880c3",
+   "bytes": 107572,
+   "uploaded_at": "2026-10-28T20:58:37+00:00",
+   "original_sha256": "9c9687ed5ddfe76d67d56efba4e159652af95f479cda5c05975e5102cb26abcf",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "catamaran-lagoon-38-highlight-03-1449x810",
+   "key": "lagoon/lagoon-38/interior/catamaran-lagoon-38-highlight-03-1449x810-a76f1b83.webp",
+   "sha256": "a76f1b83de968dfa713b6bafe79a701ee6c6fe7835d2ffbede7a1c3517f9fa1d",
+   "bytes": 102022,
+   "uploaded_at": "2026-10-28T20:58:37+00:00",
+   "original_sha256": "59e74f15ed027a45874e7b2c083b2f303fc9191bbe87de7780b8152334004373",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "lagoon-38-8629",
+   "key": "lagoon/lagoon-38/cabin/lagoon-38-8629-78d42fc8.webp",
+   "sha256": "78d42fc87cb9d714cb47d80a53e36ebe8d3a38daa6095806f11355d7cd95570b",
+   "bytes": 108440,
+   "uploaded_at": "2026-10-28T20:58:38+00:00",
+   "original_sha256": "c9307ea157226a36d9a5f06ef4b0135e809c6eed39307b22e4db2142d8ee8678",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "catamaran-lagoon-38-trefil-maj",
+   "key": "lagoon/lagoon-38/plans/catamaran-lagoon-38-trefil-maj-e2186c99.webp",
+   "sha256": "e2186c9969838ed2c79d6be45e17242da487d1ed63eeb93d4665f0ef3261dd2b",
+   "bytes": 122032,
+   "uploaded_at": "2026-10-28T20:58:38+00:00",
+   "original_sha256": "01b035336bda753324856d14522f134634055d73f72bf56c4a9c218941659a84",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "catamaran-lagoon-38-exterior-flybridge-layout",
+   "key": "lagoon/lagoon-38/plans/catamaran-lagoon-38-exterior-flybridge-layout-3abb4971.webp",
+   "sha256": "3abb497192e7dec13faed85fa4922165bbf77ac457904c5018a3a090e64d80b2",
+   "bytes": 86560,
+   "uploaded_at": "2026-10-28T20:58:38+00:00",
+   "original_sha256": "a49b621bb305f9181adafc41b68f540fae41d1267046086af3fa595806302cf5",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "catamaran-lagoon-38-salon-configuration-grande-table-layout",
+   "key": "lagoon/lagoon-38/plans/catamaran-lagoon-38-salon-configuration-grande-table-layout-46ba2a70.webp",
+   "sha256": "46ba2a708855449d3c2021bda95803f176b9b9db09f723e156471c71b1c24705",
+   "bytes": 86040,
+   "uploaded_at": "2026-10-28T20:58:38+00:00",
+   "original_sha256": "83eb8cd580551d4069509d5391d35cce272fecd0b00ec3f2b80bfca0e9e49838",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "catamaran-lagoon-38-salon-configuration-deux-tables-layout",
+   "key": "lagoon/lagoon-38/plans/catamaran-lagoon-38-salon-configuration-deux-tables-layout-7ce094a0.webp",
+   "sha256": "7ce094a0e7f82ef3443fd3312405c6a604ae259ab227ca7e40250ff58ced420e",
+   "bytes": 85802,
+   "uploaded_at": "2026-10-28T20:58:38+00:00",
+   "original_sha256": "f44a60121abc373df06168933da580e77bbe88843873c2d5d218afba441eb379",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "catamaran-lagoon-38-3-cabins-layout",
+   "key": "lagoon/lagoon-38/plans/catamaran-lagoon-38-3-cabins-layout-773380be.webp",
+   "sha256": "773380be64cabe9074ffcde54a230a1596e95f5289335a961cb9054c0ed1de3d",
+   "bytes": 50292,
+   "uploaded_at": "2026-10-28T20:58:39+00:00",
+   "original_sha256": "72018b5e828ec7061f68f9499fff53d226daf55d6d3b91564b786c03a8f695d8",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "l38-layoutlowerdeck4c",
+   "key": "lagoon/lagoon-38/plans/l38-layoutlowerdeck4c-92082315.webp",
+   "sha256": "920823152313735e2dd77c3915f5a17afef8da5a23b4f1af7dab88fa0395c8c1",
+   "bytes": 50758,
+   "uploaded_at": "2026-10-28T20:58:39+00:00",
+   "original_sha256": "54f4185f0e926f414165f01bd9c8391248660ef13d815fefa63084617250af26",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  }
+ ]
+}

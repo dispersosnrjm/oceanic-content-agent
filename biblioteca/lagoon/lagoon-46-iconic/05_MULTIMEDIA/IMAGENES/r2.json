@@ -1,0 +1,411 @@
+{
+ "version": 1,
+ "images": [
+  {
+   "id": "cover-lagoon-46-iconic-03",
+   "key": "lagoon/lagoon-46-iconic/hero/cover-lagoon-46-iconic-03-4084e7c9.webp",
+   "sha256": "4084e7c945c72c8200a202b8457383fd3a40a8f591f130ff6aceb7ecbb242658",
+   "bytes": 126222,
+   "uploaded_at": "2026-10-28T20:58:56+00:00",
+   "original_sha256": "0331abb097f0847881fe5f73182ca0948d2ce730d4aaacd9d27627d57dbd600b",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "lagoon-46-iconic-profil-intro",
+   "key": "lagoon/lagoon-46-iconic/exterior/lagoon-46-iconic-profil-intro-abce53ef.webp",
+   "sha256": "abce53efd1223731c982a6f90d6c6e6e67f1002241db5d6e011e05696833ae7d",
+   "bytes": 37566,
+   "uploaded_at": "2026-10-28T20:58:56+00:00",
+   "original_sha256": "c8b05f7fc17dc9abfcb3e944986a567f0bbb9b97ede015ab16ab3ee4b9a82df6",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "lagoon-46-iconic-slider-19",
+   "key": "lagoon/lagoon-46-iconic/underway/lagoon-46-iconic-slider-19-663fd2b1.webp",
+   "sha256": "663fd2b1e0ff75c78a68e2d78a94501cebbca951cf8a74146af54d5edce93a92",
+   "bytes": 81466,
+   "uploaded_at": "2026-10-28T20:58:56+00:00",
+   "original_sha256": "3365c2e3cb85b2e150fe8d3c3185b5ce035173fa5d13a5225e81c2263f4f7997",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "lagoon-46-iconic-slider-18",
+   "key": "lagoon/lagoon-46-iconic/exterior/lagoon-46-iconic-slider-18-e30fc0ed.webp",
+   "sha256": "e30fc0ed794d07f05c03232d5f9cd7135dc2e02eebb56f13e2f62b5cd71d7d12",
+   "bytes": 147338,
+   "uploaded_at": "2026-10-28T20:58:56+00:00",
+   "original_sha256": "6e95976218875f893b7986db19aec7a2450d0a8d117ea3a4f2eb5466f89e73ee",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "lagoon-46-iconic-slider-23",
+   "key": "lagoon/lagoon-46-iconic/exterior/lagoon-46-iconic-slider-23-73fcf6df.webp",
+   "sha256": "73fcf6df1e42c3f2572a71fe8900b0ec8d3c0b76cdf73c1b3b3db81be8c49f22",
+   "bytes": 51346,
+   "uploaded_at": "2026-10-28T20:58:56+00:00",
+   "original_sha256": "3755d57208f1e4cb9bb0c481ea6b1d1b32e4a64e061ea5ccfe64aa4129933b59",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "lagoon-46-iconic-slider-20",
+   "key": "lagoon/lagoon-46-iconic/detail/lagoon-46-iconic-slider-20-c5ae9f82.webp",
+   "sha256": "c5ae9f82b56bd452749fddb8ab24ade37ef3c519a7c296c39072f2bf68fdb3c2",
+   "bytes": 83752,
+   "uploaded_at": "2026-10-28T20:58:56+00:00",
+   "original_sha256": "9bbb75ac4e37a8107ae80b3ddafc4c303e8e82f62a1a706f88ebe931473256d4",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "lagoon-46-iconic-slider-17",
+   "key": "lagoon/lagoon-46-iconic/exterior/lagoon-46-iconic-slider-17-e4e2bbcd.webp",
+   "sha256": "e4e2bbcd4c8f0d89294662b76b9c8173e1233a76b4a571a2a62921350a79e8f1",
+   "bytes": 56414,
+   "uploaded_at": "2026-10-28T20:58:56+00:00",
+   "original_sha256": "8166413cff25e92fc5538c6a00b6deb95626299f51af22c71b49f3b8bbaccf4b",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "lagoon-46-iconic-slider-25",
+   "key": "lagoon/lagoon-46-iconic/exterior/lagoon-46-iconic-slider-25-832e7186.webp",
+   "sha256": "832e7186b3ca67e506766f7e65e757b4e14ade54a7ae1088975b0e34b1d4b452",
+   "bytes": 78012,
+   "uploaded_at": "2026-10-28T20:58:56+00:00",
+   "original_sha256": "d9a0789a1e867d7d0f49053d57e3d6c811a827b912de96e3c50b7b22b4c90065",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "lagoon-46-iconic-slider-22",
+   "key": "lagoon/lagoon-46-iconic/detail/lagoon-46-iconic-slider-22-1ae9c40c.webp",
+   "sha256": "1ae9c40c62f947a71152000856a9f3c97ad8ba7922173b90f6dba4bf36b55f0b",
+   "bytes": 47230,
+   "uploaded_at": "2026-10-28T20:58:57+00:00",
+   "original_sha256": "479601cb78c785f5976efa278f9064e3032b9f35ce25599af4f4e39c274b8af4",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "lagoon-46-iconic-slider-21-0",
+   "key": "lagoon/lagoon-46-iconic/helm/lagoon-46-iconic-slider-21-0-721ee55b.webp",
+   "sha256": "721ee55bd0cdd2f1b69a50a97fc0373efe153fe9d14d3d1754d1390991075157",
+   "bytes": 64772,
+   "uploaded_at": "2026-10-28T20:58:57+00:00",
+   "original_sha256": "8b541b85b2ed9965d8478f0c65ef9b0926daa7faf45c32eeb0070bbb16b1870a",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "lagoon-46-iconic-slider-11",
+   "key": "lagoon/lagoon-46-iconic/interior/lagoon-46-iconic-slider-11-89c9d49f.webp",
+   "sha256": "89c9d49f4a6c27e340de5b7cbdbcba483ae7bce2e1a16446a7f0cf6bfe053928",
+   "bytes": 75206,
+   "uploaded_at": "2026-10-28T20:58:57+00:00",
+   "original_sha256": "7ba09f5c5ce792a02fb0a155e756ed2eb0de6b9e012a5e845b892fb992ec8f88",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "lagoon-46-iconic-slider-26",
+   "key": "lagoon/lagoon-46-iconic/helm/lagoon-46-iconic-slider-26-02b09235.webp",
+   "sha256": "02b09235ec9da99fe02cad04c11ddb7a09196d993acc5ec5c7aea8012e8ae46f",
+   "bytes": 83412,
+   "uploaded_at": "2026-10-28T20:58:57+00:00",
+   "original_sha256": "60f323753ec8d0cd362f185fe9cd8c25ae6bca926f70c7f3035ffc5189e47c06",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "lagoon-46-iconic-slider-03",
+   "key": "lagoon/lagoon-46-iconic/cabin/lagoon-46-iconic-slider-03-ce7bfe15.webp",
+   "sha256": "ce7bfe15345d6d1209b1d6b944ed946695a3e24c57520dfbd82f2f084d4288d3",
+   "bytes": 62174,
+   "uploaded_at": "2026-10-28T20:58:57+00:00",
+   "original_sha256": "1f65851f3862df00d3896aad5a0a9d96d76febabae12f941cebd970ca211c250",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "lagoon-46-iconic-slider-24",
+   "key": "lagoon/lagoon-46-iconic/cabin/lagoon-46-iconic-slider-24-742a4627.webp",
+   "sha256": "742a4627b05a52746c3378446d7dacbee085db959a1ed4c9827c52b2f52d0d3b",
+   "bytes": 35638,
+   "uploaded_at": "2026-10-28T20:58:57+00:00",
+   "original_sha256": "0388bd700bc4931aa30b1432dc8b664a62363ab253eb0e8ca248e1e1efa6aaaa",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "lagoon-46-iconic-slider-07",
+   "key": "lagoon/lagoon-46-iconic/cabin/lagoon-46-iconic-slider-07-d5ce8cc1.webp",
+   "sha256": "d5ce8cc18c8c3f6e82076b4c6dbf7022488142da9dac2d371d316b95ccfc41b7",
+   "bytes": 52092,
+   "uploaded_at": "2026-10-28T20:58:57+00:00",
+   "original_sha256": "6ef1dcce7e7ca007abcd71111f04a33bd1e52bf1da16bf860ada961c057a332e",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "lagoon-46-iconic-slider-12",
+   "key": "lagoon/lagoon-46-iconic/detail/lagoon-46-iconic-slider-12-6e3d3acd.webp",
+   "sha256": "6e3d3acd003b2a5467450853cf955a094935583a6de6599195924ead885d1aed",
+   "bytes": 57764,
+   "uploaded_at": "2026-10-28T20:58:58+00:00",
+   "original_sha256": "2c3936b5852089241d73bf62040f85824ffdb0f498082abc3f7b066bc7caf68a",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "lagoon-46-iconic-slider-20-2",
+   "key": "lagoon/lagoon-46-iconic/detail/lagoon-46-iconic-slider-20-2-c99c3f70.webp",
+   "sha256": "c99c3f708f11177b59596a5e5ff85a5d4f1109af2a3db75e87a39a66a7e71553",
+   "bytes": 57790,
+   "uploaded_at": "2026-10-28T20:58:59+00:00",
+   "original_sha256": "6087afc9888b1a8bdb6ea58cb36a3e61b22c224281c312816f73690344527ad2",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "lagoon-46-iconic-slider-01",
+   "key": "lagoon/lagoon-46-iconic/cabin/lagoon-46-iconic-slider-01-d17bb041.webp",
+   "sha256": "d17bb0412418d6bad5fe233b4b027707c7bbb2b69b6054797ac8219cbd627e55",
+   "bytes": 45870,
+   "uploaded_at": "2026-10-28T20:58:59+00:00",
+   "original_sha256": "607c4ed2ce4d813e3493e2823162a33a7c6ed792f8917bc4f9d0350841166505",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "lagoon-46-iconic-slider-02",
+   "key": "lagoon/lagoon-46-iconic/cabin/lagoon-46-iconic-slider-02-4db740c2.webp",
+   "sha256": "4db740c2ebf5c06eed01c75ef8422aebccfa6567e8a2051b6c01cefdb1e09779",
+   "bytes": 47720,
+   "uploaded_at": "2026-10-28T20:58:59+00:00",
+   "original_sha256": "fb945324c1e476fdcebf2fc84e02b3439525d0a3dabaa5dc7294ffb6f7cc1453",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "lagoon-46-iconic-slider-08",
+   "key": "lagoon/lagoon-46-iconic/detail/lagoon-46-iconic-slider-08-4b0c9fb9.webp",
+   "sha256": "4b0c9fb9e4fdb9cfa03436875f795ca9c8e9360e96725b1b0b993fa6efb42ae7",
+   "bytes": 77366,
+   "uploaded_at": "2026-10-28T20:58:59+00:00",
+   "original_sha256": "83eb1660af5ba9dd0acf6272cbf62476c17e0bfd1599dd0c0a434da75dd54765",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "lagoon-46-iconic-slider-04",
+   "key": "lagoon/lagoon-46-iconic/detail/lagoon-46-iconic-slider-04-605eb4ac.webp",
+   "sha256": "605eb4ac5ac448fa93ec19f11e0640ab653b677285f7bd92763c615648f80ec5",
+   "bytes": 66778,
+   "uploaded_at": "2026-10-28T20:58:59+00:00",
+   "original_sha256": "cb8060209874ab565def002fd46464d69b1d1d8ebf4534cf96324227ecbf4ee8",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "catamaran-lagoon-46-video-thumbnail",
+   "key": "lagoon/lagoon-46-iconic/other/catamaran-lagoon-46-video-thumbnail-f854c348.webp",
+   "sha256": "f854c3487d4caa088788ade23eb379bd1e591e9c659d7b2b0f7458d00b9bd950",
+   "bytes": 44180,
+   "uploaded_at": "2026-10-28T20:58:59+00:00",
+   "original_sha256": "a6bc42fe9f61ad7dcc5a66c63683f9ae867c4e5a6b3df3f41f6675c634ec89ed",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "lagoon-46-furling-boom-vignette",
+   "key": "lagoon/lagoon-46-iconic/detail/lagoon-46-furling-boom-vignette-91bb30b0.webp",
+   "sha256": "91bb30b0f4173835977c7eac70754467b7874676f5acf34a770434f1279bf859",
+   "bytes": 27290,
+   "uploaded_at": "2026-10-28T20:58:59+00:00",
+   "original_sha256": "b01ebb31cfe0cac7d60d188a1ed7a8d43f78a5232e0296673c61b2338d00596b",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "lagoon46-ncz3020-web",
+   "key": "lagoon/lagoon-46-iconic/cockpit/lagoon46-ncz3020-web-d3876aef.webp",
+   "sha256": "d3876aefadc2bdb8d3766e50359a21faaabd759df08b7573f807dd70a2749c3e",
+   "bytes": 132318,
+   "uploaded_at": "2026-10-28T20:58:59+00:00",
+   "original_sha256": "cb6a92d14457e917854ba70af875d23e96142f08dd9babe2464ae8c50cb3dab6",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "lagoon-46-iconic-parallax-0",
+   "key": "lagoon/lagoon-46-iconic/underway/lagoon-46-iconic-parallax-0-6b60c2df.webp",
+   "sha256": "6b60c2df56f649dd450b8b752a3a374a5b908e75c1c37a2366c7eeb83b53ddb6",
+   "bytes": 105056,
+   "uploaded_at": "2026-10-28T20:59:00+00:00",
+   "original_sha256": "b9479894b4869329b6a64db01b6349577ef166bd6d13ef8964f4330ba8f33c40",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "lagoon-46",
+   "key": "lagoon/lagoon-46-iconic/plans/lagoon-46-c141fd21.webp",
+   "sha256": "c141fd21b4888223b39b951b0795d5730d5ce22ea92ca861171af4efa724d392",
+   "bytes": 144686,
+   "uploaded_at": "2026-10-28T20:59:00+00:00",
+   "original_sha256": "95e0d41f51478764a93e1505464555a581ef49eaa3250a79b13fc64ef7f552eb",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "catamaran-lagoon-46-layout-cockpit",
+   "key": "lagoon/lagoon-46-iconic/plans/catamaran-lagoon-46-layout-cockpit-ef33ec74.webp",
+   "sha256": "ef33ec749280b06b5ad49b394844901a23d71fa0fef852f7f2df324097da71dd",
+   "bytes": 53618,
+   "uploaded_at": "2026-10-28T20:59:00+00:00",
+   "original_sha256": "33a299eb4df224f71f58685373e83eac305994096751e553c53393da25c07853",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "catamaran-lagoon-46-layout-4-cabins",
+   "key": "lagoon/lagoon-46-iconic/plans/catamaran-lagoon-46-layout-4-cabins-6376c18a.webp",
+   "sha256": "6376c18a42c1457162c4c2637ef1dc55bbefd4f8d061ecafda4bf90b27278228",
+   "bytes": 40906,
+   "uploaded_at": "2026-10-28T20:59:00+00:00",
+   "original_sha256": "1e7f2518a4f7529640edd5a3528fef6832510014be3b5e62677eb5cb372399b3",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "catamaran-lagoon-46-layout-3-cabins",
+   "key": "lagoon/lagoon-46-iconic/plans/catamaran-lagoon-46-layout-3-cabins-59796cdc.webp",
+   "sha256": "59796cdc9f6571a1ed6844164d7a671eb55ebfc82bcc51f0c82ec529ad3a7010",
+   "bytes": 41132,
+   "uploaded_at": "2026-10-28T20:59:00+00:00",
+   "original_sha256": "0c35f532efa76bb13bafb867bd5a6b8d45c5d9650afb4fd03caf1d9110a9c244",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  }
+ ]
+}

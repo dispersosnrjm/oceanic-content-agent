@@ -46,7 +46,22 @@
         "full_resolution": true
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/50%20Yacht/50yachtspec-flex-03282024.png",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:35:55Z",
+          "url": "https://www.aquilaboats.com/hubfs/50%20Yacht/50yachtspec-flex-03282024.png",
+          "sha256_observado": "efef8cf2f3138fd6483a3af0ed808dadce8ddb42bb7245a40399fd3d84312b94",
+          "sha256_esperado_anterior": "72a22fe24e6761ee1e8473b6ee874f361e9b9891aa5f28c4829244f6ad91d76e",
+          "last_modified": "Mon, 28 Oct 2024 18:18:15 GMT",
+          "etag": "\"5dd6ebb3a0336703ca33818a4b0225e6\"",
+          "content_type": "image/png",
+          "bytes": 110063
+        }
+      ]
     },
     {
       "id": "aquila-50-yacht-689285028-l2",
@@ -90,7 +105,22 @@
         "full_resolution": true
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/50%20Yacht/aquila-50-yacht-689285028-l2.jpg",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:35:56Z",
+          "url": "https://www.aquilaboats.com/hubfs/50%20Yacht/aquila-50-yacht-689285028-l2.jpg",
+          "sha256_observado": "799d507c46fd230589f434e55ad78115c9574b65a74e0dc4e400519f4af95696",
+          "sha256_esperado_anterior": "1df202c9f123f7c08668cb6e45657ca68b69bbe270c9960a77fedc28d046d40e",
+          "last_modified": "Wed, 18 Dec 2024 14:15:48 GMT",
+          "etag": "\"d3086ebd2370713f4014f327b7af1faf\"",
+          "content_type": "image/jpeg",
+          "bytes": 241857
+        }
+      ]
     },
     {
       "id": "aquila-50-yacht-689285035-l3",
@@ -134,7 +164,22 @@
         "full_resolution": true
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/50%20Yacht/aquila-50-yacht-689285035-l3.jpg",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:35:56Z",
+          "url": "https://www.aquilaboats.com/hubfs/50%20Yacht/aquila-50-yacht-689285035-l3.jpg",
+          "sha256_observado": "456514c8356b5d313839678b77f22ec8aff7771ffadf819fc0b28e670dc7fab8",
+          "sha256_esperado_anterior": "38d08f8659737f8eb854303f09548f5701611c844e79b5d7fc9846d60479d02d",
+          "last_modified": "Wed, 18 Dec 2024 14:15:48 GMT",
+          "etag": "\"fb023d5561652cb2d5c8b20fdfa666c6\"",
+          "content_type": "image/jpeg",
+          "bytes": 226603
+        }
+      ]
     },
     {
       "id": "aquila-50-yacht-689285046-l4",
@@ -177,7 +222,22 @@
         "full_resolution": true
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/50%20Yacht/aquila-50-yacht-689285046-l4.jpg",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:35:57Z",
+          "url": "https://www.aquilaboats.com/hubfs/50%20Yacht/aquila-50-yacht-689285046-l4.jpg",
+          "sha256_observado": "1a991e5eeb2904bbc89bf9c8519e0ca0cbdf1671345b33504a6a7307df458326",
+          "sha256_esperado_anterior": "1021b6664cf4715f66952c9658c713d2fe0c5e21a9bc413787392993eaa52940",
+          "last_modified": "Wed, 18 Dec 2024 14:15:48 GMT",
+          "etag": "\"db4c2ba9027349b6cb8d14b86e0e0428\"",
+          "content_type": "image/jpeg",
+          "bytes": 282349
+        }
+      ]
     },
     {
       "id": "aquila-50-yacht-689285050-l5",
@@ -220,7 +280,22 @@
         "full_resolution": true
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/50%20Yacht/aquila-50-yacht-689285050-l5.jpg",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:35:57Z",
+          "url": "https://www.aquilaboats.com/hubfs/50%20Yacht/aquila-50-yacht-689285050-l5.jpg",
+          "sha256_observado": "bdcc951c6d7dd1f44a06c81e63c9308a743a042ca97f0a79ad0f0b83f74357f5",
+          "sha256_esperado_anterior": "87f106925a9f8f8c1d3e4ddb3dc145b76bf9372b7295e8f60211e3383c2652e1",
+          "last_modified": "Wed, 18 Dec 2024 14:15:48 GMT",
+          "etag": "\"71617b0e2c1cd2108dc5719ee772eea9\"",
+          "content_type": "image/jpeg",
+          "bytes": 201389
+        }
+      ]
     },
     {
       "id": "aquila-50-yacht-689285058-l6",
@@ -263,7 +338,22 @@
         "full_resolution": true
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/50%20Yacht/aquila-50-yacht-689285058-l6.jpg",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:35:58Z",
+          "url": "https://www.aquilaboats.com/hubfs/50%20Yacht/aquila-50-yacht-689285058-l6.jpg",
+          "sha256_observado": "98ecc355ea9c4744459be46ec412bd0020f2d39d86b8f9a2da0412f97ca7ff7f",
+          "sha256_esperado_anterior": "58a0f39922aa3c5adf3c64eee4472249913a3b6024d67434085393baaa067b14",
+          "last_modified": "Wed, 18 Dec 2024 14:15:47 GMT",
+          "etag": "\"c3231b8a41a96b556221dd05d7aca0fe\"",
+          "content_type": "image/jpeg",
+          "bytes": 234468
+        }
+      ]
     },
     {
       "id": "aquila-50-yacht-689285063-l7",
@@ -306,7 +396,22 @@
         "full_resolution": true
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/50%20Yacht/aquila-50-yacht-689285063-l7.jpg",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:35:59Z",
+          "url": "https://www.aquilaboats.com/hubfs/50%20Yacht/aquila-50-yacht-689285063-l7.jpg",
+          "sha256_observado": "0435ac22959052e442367ed1504c630a7339ba9cfc14e5c4aede17abd3f90234",
+          "sha256_esperado_anterior": "f8750dee5c05dbd6694632b07eb8c6096344d999e1d46f1579153f3d818a62c2",
+          "last_modified": "Wed, 18 Dec 2024 14:15:47 GMT",
+          "etag": "\"6fc4abc2f4f51769da1bdee1f85360b9\"",
+          "content_type": "image/jpeg",
+          "bytes": 217592
+        }
+      ]
     },
     {
       "id": "aquila-50-yacht-gallery-08-1140x550",
@@ -392,7 +497,22 @@
         "full_resolution": true
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/50%20Yacht/aquila-50-yacht-689285076-l9.jpg",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:35:59Z",
+          "url": "https://www.aquilaboats.com/hubfs/50%20Yacht/aquila-50-yacht-689285076-l9.jpg",
+          "sha256_observado": "6d34491b17c7a2e08a696d3aba16919f04b59779b1122455106f917b9fe6d5f7",
+          "sha256_esperado_anterior": "f985280e76bb2f274bb6e0b2b4e6bb8653c9cf9daa366f84660b7b562ff315cc",
+          "last_modified": "Wed, 18 Dec 2024 14:15:48 GMT",
+          "etag": "\"df884db0b30ad6626c7a42020456f630\"",
+          "content_type": "image/jpeg",
+          "bytes": 220992
+        }
+      ]
     },
     {
       "id": "aquila-50-yacht-689285084-l10",
@@ -435,7 +555,22 @@
         "full_resolution": true
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/50%20Yacht/aquila-50-yacht-689285084-l10.jpg",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:36:00Z",
+          "url": "https://www.aquilaboats.com/hubfs/50%20Yacht/aquila-50-yacht-689285084-l10.jpg",
+          "sha256_observado": "13ddaefeab90897fdfd91241de8231ba2bf9c667615c696cfdaeeb8cb94db626",
+          "sha256_esperado_anterior": "550e1777ff46f685901e24227c6834f3e7f22296de4d77893c1029c59d507e0a",
+          "last_modified": "Wed, 18 Dec 2024 14:15:47 GMT",
+          "etag": "\"91b08864d292a27f476dc21eb1771364\"",
+          "content_type": "image/jpeg",
+          "bytes": 188736
+        }
+      ]
     },
     {
       "id": "aquila-50-yacht-689285091-l11",
@@ -478,7 +613,22 @@
         "full_resolution": true
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/50%20Yacht/aquila-50-yacht-689285091-l11.jpg",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:36:00Z",
+          "url": "https://www.aquilaboats.com/hubfs/50%20Yacht/aquila-50-yacht-689285091-l11.jpg",
+          "sha256_observado": "679ef616954842fab34d5c6eb61deeec7305ce1c0aa06f0a9950e69a080a22a0",
+          "sha256_esperado_anterior": "b3935a3d93f77426067f3279ea36474d9baa9f099cf044064f4a1b6da4cad3e2",
+          "last_modified": "Wed, 18 Dec 2024 14:15:47 GMT",
+          "etag": "\"f22710f63464b55b5ec59b306254c598\"",
+          "content_type": "image/jpeg",
+          "bytes": 185212
+        }
+      ]
     },
     {
       "id": "aquila-50-yacht-689285097-l12",
@@ -521,7 +671,22 @@
         "full_resolution": true
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/50%20Yacht/aquila-50-yacht-689285097-l12.jpg",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:36:01Z",
+          "url": "https://www.aquilaboats.com/hubfs/50%20Yacht/aquila-50-yacht-689285097-l12.jpg",
+          "sha256_observado": "5e4b66946040e929bd1e851f579860c6ddeb7a12c9e08db8e7f814c9941cedd0",
+          "sha256_esperado_anterior": "8051d675b43fe9d454e79c18a21940ca9b1a5402597a300d2b7f853a20c84050",
+          "last_modified": "Wed, 18 Dec 2024 14:15:48 GMT",
+          "etag": "\"cfdc32d0068ef2a90af726a016d7defb\"",
+          "content_type": "image/jpeg",
+          "bytes": 237760
+        }
+      ]
     },
     {
       "id": "aquila-50-yacht-gallery-13-1140x550",
@@ -607,7 +772,22 @@
         "full_resolution": true
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/50%20Yacht/aquila-50-yacht-689285112-l14.jpg",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:36:02Z",
+          "url": "https://www.aquilaboats.com/hubfs/50%20Yacht/aquila-50-yacht-689285112-l14.jpg",
+          "sha256_observado": "3f936d63f6509ab0c41d7056746ea9026876713bd45d495cd2a6bcb739a4a1db",
+          "sha256_esperado_anterior": "d1753e95314f4143f19d08ecc41e11eee40761521758d9a5a2fb2d76442abd19",
+          "last_modified": "Wed, 18 Dec 2024 14:15:47 GMT",
+          "etag": "\"f83fa8727690b838033379670caa2ebb\"",
+          "content_type": "image/jpeg",
+          "bytes": 193823
+        }
+      ]
     },
     {
       "id": "aquila-50-yacht-689285120-l15",
@@ -650,7 +830,22 @@
         "full_resolution": true
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/50%20Yacht/aquila-50-yacht-689285120-l15.jpg",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:36:02Z",
+          "url": "https://www.aquilaboats.com/hubfs/50%20Yacht/aquila-50-yacht-689285120-l15.jpg",
+          "sha256_observado": "bd09be50c5e2ff3370aaf65f3cdf1f9b28a5bc3a5de436bf0ec9f2b5047b47cf",
+          "sha256_esperado_anterior": "18c4bc81564d8458cd22e0a9eb8a70c11ae0531132078fba9b98b7db36424f21",
+          "last_modified": "Wed, 18 Dec 2024 14:15:47 GMT",
+          "etag": "\"c788bda91707196965cb54bde674bcba\"",
+          "content_type": "image/jpeg",
+          "bytes": 185223
+        }
+      ]
     },
     {
       "id": "aquila-50-yacht-689285128-l16",
@@ -693,7 +888,22 @@
         "full_resolution": true
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/50%20Yacht/aquila-50-yacht-689285128-l16.jpg",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:36:03Z",
+          "url": "https://www.aquilaboats.com/hubfs/50%20Yacht/aquila-50-yacht-689285128-l16.jpg",
+          "sha256_observado": "474c884090b2ebfab341b9dfedbc9a9afea4e57d4b21f5e9be8bc7a846b75e08",
+          "sha256_esperado_anterior": "241fc96f3a6214b84213bd5a7c7d87030d3f6c65802f7589331dec275b86688f",
+          "last_modified": "Wed, 18 Dec 2024 14:15:47 GMT",
+          "etag": "\"b04332f9d7fe6dc9005d11756cbbd273\"",
+          "content_type": "image/jpeg",
+          "bytes": 196728
+        }
+      ]
     },
     {
       "id": "aquila-50-yacht-689285024-l1",
@@ -736,7 +946,22 @@
         "full_resolution": true
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/50%20Yacht/aquila-50-yacht-689285024-l1.jpg",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:36:03Z",
+          "url": "https://www.aquilaboats.com/hubfs/50%20Yacht/aquila-50-yacht-689285024-l1.jpg",
+          "sha256_observado": "40f6768ad9b8b8670a22919eb68599548a8f84a1c781c54a5f069eac7765d99d",
+          "sha256_esperado_anterior": "9def25a02b67f906367b3905392059ca9691b38fb7606cd67415b1be84d4d2f1",
+          "last_modified": "Wed, 18 Dec 2024 14:15:48 GMT",
+          "etag": "\"a66664fc746aa7308ce362af74a59f4b\"",
+          "content_type": "image/jpeg",
+          "bytes": 344768
+        }
+      ]
     },
     {
       "id": "aquila-50-yacht-689236586-campaign-hero",

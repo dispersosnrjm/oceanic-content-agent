@@ -465,7 +465,7 @@
       "sha256": "c37c9d5ca8edf450abab58d495694df8bdc7a042049d457dbbd72e00ba3bc7a7",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "bytes": 61960,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/aqu-30279-47-molokai-model-launch_gallery11.jpg",
@@ -478,7 +478,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/aqu-30279-47-molokai-model-launch_gallery11.jpg",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:35:44Z",
+          "url": "https://www.aquilaboats.com/hubfs/aqu-30279-47-molokai-model-launch_gallery11.jpg",
+          "sha256_observado": "3ebbc0a589400520dd3e26d6c6a3b4f3df76f2508718c306e55de66f228a5341",
+          "sha256_esperado_anterior": "ca81f1e244f25b12d648e33b028c652fc7a2876a5fa5e3b588f138937660fe61",
+          "last_modified": "Fri, 25 Oct 2024 18:20:02 GMT",
+          "etag": "\"3e52f77ea8068584ecfe1ffac4eaa61d\"",
+          "content_type": "image/jpeg",
+          "bytes": 244781
+        }
+      ]
     },
     {
       "id": "aqu-30279-47-molokai-model-launch-gallery12",
@@ -594,7 +609,7 @@
       "sha256": "c2a77a67c17c95cdcca84d33c0df60eee1dc2cef84888510763e55eb150a9207",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "bytes": 56488,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/aqu-30279-47-molokai-model-launch_gallery14.jpg",
@@ -607,7 +622,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/aqu-30279-47-molokai-model-launch_gallery14.jpg",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:35:44Z",
+          "url": "https://www.aquilaboats.com/hubfs/aqu-30279-47-molokai-model-launch_gallery14.jpg",
+          "sha256_observado": "f66ba0e922f02b0c7060451c20b0a8fe28cdc67f6b9d68a1fceeb21a2a7c83b3",
+          "sha256_esperado_anterior": "1ffa57b736ee32c60630c22cf6bffa7be555db89c6dabd562ebf9e108c7b0bcf",
+          "last_modified": "Fri, 25 Oct 2024 18:19:55 GMT",
+          "etag": "\"b846d95a9d925c97d566fb8e61968d59\"",
+          "content_type": "image/jpeg",
+          "bytes": 224052
+        }
+      ]
     },
     {
       "id": "aqu-30279-47-molokai-model-launch-gallery15",

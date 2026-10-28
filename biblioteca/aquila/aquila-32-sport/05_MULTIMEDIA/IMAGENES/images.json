@@ -46,7 +46,22 @@
         "full_resolution": true
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/32%20Sport/aqu-profile-line-art-flex-callout-32s-copy.png",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:35:03Z",
+          "url": "https://www.aquilaboats.com/hubfs/32%20Sport/aqu-profile-line-art-flex-callout-32s-copy.png",
+          "sha256_observado": "1cc4a5fd5053d8288c5b1aa1b5e5364bb8de4987a72bd58bcc53d1841d654827",
+          "sha256_esperado_anterior": "e7d251e6542140b8cd1ccd556c2ba4cf3ac0a16d9418212dbb4b6320f5a7464c",
+          "last_modified": "Fri, 25 Oct 2024 19:46:23 GMT",
+          "etag": "\"1ac0909def01add1feef400db459b13c\"",
+          "content_type": "image/png",
+          "bytes": 38785
+        }
+      ]
     },
     {
       "id": "aquila32s-glamour-deck-layout2-11172020",
@@ -89,7 +104,22 @@
         "full_resolution": true
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/32%20Sport/aquila32s-glamour-deck-layout2-11172020.png",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:35:03Z",
+          "url": "https://www.aquilaboats.com/hubfs/32%20Sport/aquila32s-glamour-deck-layout2-11172020.png",
+          "sha256_observado": "eb1f248fc30173717b8443f348a078b6c5c4853b6ebba929a02ff66e3f59fba0",
+          "sha256_esperado_anterior": "4e71373d0a4e1e6a153974c46478b187641b2719ab02cf0469ecebd69c0129a5",
+          "last_modified": "Fri, 25 Oct 2024 19:48:56 GMT",
+          "etag": "\"6bf34ea6bb42358151b8d701807fb61b\"",
+          "content_type": "image/png",
+          "bytes": 92603
+        }
+      ]
     },
     {
       "id": "32s-gallery2-11162020",
@@ -119,7 +149,7 @@
       "sha256": "91992b0747b9961d298e33644075c0e04b87bf3fb5ceea4ca7127ffe71219579",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "bytes": 92346,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/32%20Sport/32s-gallery2-11162020.png",
@@ -132,7 +162,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/32%20Sport/32s-gallery2-11162020.png",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:35:04Z",
+          "url": "https://www.aquilaboats.com/hubfs/32%20Sport/32s-gallery2-11162020.png",
+          "sha256_observado": "6a1962cd42c0baa30a6075a17c0346a61111175479e1a3c645eeac7ebf24c098",
+          "sha256_esperado_anterior": "df8f067832f6f8091d86fc3cf00802b763bfb704607d7b1aaecb267436b383bd",
+          "last_modified": "Fri, 25 Oct 2024 20:13:41 GMT",
+          "etag": "\"2e06099ac11c49febd385ce3751a2ff3\"",
+          "content_type": "image/png",
+          "bytes": 1222539
+        }
+      ]
     },
     {
       "id": "32s-gallery3-11162020",
@@ -162,7 +207,7 @@
       "sha256": "8960080574d1850f77ff44f6f444e08288dd62f7dfc7a5c8f90c02dab43095f9",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "bytes": 55122,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/32%20Sport/32s-gallery3-11162020.png",
@@ -175,7 +220,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/32%20Sport/32s-gallery3-11162020.png",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:35:05Z",
+          "url": "https://www.aquilaboats.com/hubfs/32%20Sport/32s-gallery3-11162020.png",
+          "sha256_observado": "3a1df3c4345f5220892f81eaadb8d42187eba5cf7ea2834a589de2253849b509",
+          "sha256_esperado_anterior": "dd388a308223431652217b73747f24971013fccd612647d92c63163930ee9abe",
+          "last_modified": "Fri, 25 Oct 2024 20:13:41 GMT",
+          "etag": "\"0842c87fecbd8fd7d80f43fb86e03e5e\"",
+          "content_type": "image/png",
+          "bytes": 1014299
+        }
+      ]
     },
     {
       "id": "32s-gallery4-11162020",
@@ -205,7 +265,7 @@
       "sha256": "f57beca3701f670fde6c8588060cc51a3b41e4132fa1128bea9e7f98427e2d78",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "bytes": 54876,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/32%20Sport/32s-gallery4-11162020.png",
@@ -218,7 +278,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/32%20Sport/32s-gallery4-11162020.png",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:35:06Z",
+          "url": "https://www.aquilaboats.com/hubfs/32%20Sport/32s-gallery4-11162020.png",
+          "sha256_observado": "88f20a8253eae78426cac0dac198512589f16d51f213e408798fe2d5840e1aae",
+          "sha256_esperado_anterior": "6051eeb9db00509f338ec1afd5e805dd21e2ab78ffed653d10ca0870e4d17026",
+          "last_modified": "Fri, 25 Oct 2024 20:13:41 GMT",
+          "etag": "\"5973f08e1171950fc818ba6cef4c49df\"",
+          "content_type": "image/png",
+          "bytes": 978270
+        }
+      ]
     },
     {
       "id": "32-gallery-07302019-11",
@@ -248,7 +323,7 @@
       "sha256": "f865e8a2b1d688a39dffbb8aaee6ebcf9864196dba280b1c0ed56d41948a5906",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "bytes": 48896,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/32%20Sport/32-gallery-07302019-(11).jpg",
@@ -261,7 +336,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/32%20Sport/32-gallery-07302019-(11).jpg",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:35:07Z",
+          "url": "https://www.aquilaboats.com/hubfs/32%20Sport/32-gallery-07302019-(11).jpg",
+          "sha256_observado": "d029b7b6c865cb0196fae5e19552b9307b9d257df28389907ed49ef1d2eff28b",
+          "sha256_esperado_anterior": "2c5b404773e27ad9adc83f3332c29bfb44139423b450ac9b68a4998237a8e4fd",
+          "last_modified": "Fri, 25 Oct 2024 20:13:39 GMT",
+          "etag": "\"bcdb9c0e6bb5262d874aebdbe585f2e4\"",
+          "content_type": "image/jpeg",
+          "bytes": 99319
+        }
+      ]
     },
     {
       "id": "aquila32-bedroom-gallery-12142020",
@@ -291,7 +381,7 @@
       "sha256": "ea42d3de41730bff6206bca8069bc55f77ebca6ab91b033421947a96d39cace6",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "bytes": 38076,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/32%20Sport/aquila32-bedroom-gallery-12142020.png",
@@ -304,7 +394,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/32%20Sport/aquila32-bedroom-gallery-12142020.png",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:35:08Z",
+          "url": "https://www.aquilaboats.com/hubfs/32%20Sport/aquila32-bedroom-gallery-12142020.png",
+          "sha256_observado": "fca7e7f33a25ae61d50d241e4687da68a15d3f296b21f4fbcb145f986d453ebd",
+          "sha256_esperado_anterior": "ecc57056d56dc906726c9825f5a29ffa158c6e0b935b65c298df5789de6576f3",
+          "last_modified": "Fri, 25 Oct 2024 20:13:41 GMT",
+          "etag": "\"a71d5672e4a58e0b5b0313885c746b96\"",
+          "content_type": "image/png",
+          "bytes": 1058958
+        }
+      ]
     },
     {
       "id": "32-gallery-07302019-14",
@@ -334,7 +439,7 @@
       "sha256": "cb927b6677d3194ba2cf5806c076fe38d800bbe0704fca2e42ec419ff9b11ef8",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "bytes": 69462,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/32%20Sport/32-gallery-07302019-(14).jpg",
@@ -347,7 +452,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/32%20Sport/32-gallery-07302019-(14).jpg",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:35:08Z",
+          "url": "https://www.aquilaboats.com/hubfs/32%20Sport/32-gallery-07302019-(14).jpg",
+          "sha256_observado": "12b3ad38d087c6bcb4ae7eb625727685e39d862fe8192b9366c971488475da35",
+          "sha256_esperado_anterior": "27be727eceb3dbf142da6fa529207bd5f8eeca26e778ef358d536b42846fe5d5",
+          "last_modified": "Fri, 25 Oct 2024 20:13:39 GMT",
+          "etag": "\"09283393675cea075f4c8aa85daf6ebb\"",
+          "content_type": "image/jpeg",
+          "bytes": 130346
+        }
+      ]
     },
     {
       "id": "32-gallery-07302019-16",
@@ -377,7 +497,7 @@
       "sha256": "30c415dd87a34ccedbdd53a1b286b05adfaf9328ef2d37e31af7dc5ecf716452",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "bytes": 32038,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/32%20Sport/32-gallery-07302019-(16).jpg",
@@ -390,7 +510,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/32%20Sport/32-gallery-07302019-(16).jpg",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:35:09Z",
+          "url": "https://www.aquilaboats.com/hubfs/32%20Sport/32-gallery-07302019-(16).jpg",
+          "sha256_observado": "a51103ee6a8be38ebf1bd23cdc5bd3a214f069db7c93a180861b96b84625879e",
+          "sha256_esperado_anterior": "78e7b8cd2cc1699ada13ede9b8d64c2dfe7041da338b5891e2b8b41a5ebee049",
+          "last_modified": "Fri, 25 Oct 2024 20:13:39 GMT",
+          "etag": "\"984442c9a02fb7c0f30e8873f5627b9c\"",
+          "content_type": "image/jpeg",
+          "bytes": 69328
+        }
+      ]
     },
     {
       "id": "32-gallery-07302019-10",
@@ -420,7 +555,7 @@
       "sha256": "57806e66ccd14b28a4d2434cab78d135e295e6bd970164baa8fbc5bb1bee8102",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "bytes": 42936,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/32%20Sport/32-gallery-07302019-(10).jpg",
@@ -433,7 +568,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/32%20Sport/32-gallery-07302019-(10).jpg",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:35:09Z",
+          "url": "https://www.aquilaboats.com/hubfs/32%20Sport/32-gallery-07302019-(10).jpg",
+          "sha256_observado": "ad23db6949cd84f0b4707513c3af06e673e55fdc611de5e83945ef01fe33b2a1",
+          "sha256_esperado_anterior": "5e4e72bf31c2858d996e8f4e24c7df2aafa8f2f49e3b067e9bc0bd7b21acdf27",
+          "last_modified": "Fri, 25 Oct 2024 20:13:39 GMT",
+          "etag": "\"de11bfd702b5bdc71b882e8a53f5f20b\"",
+          "content_type": "image/jpeg",
+          "bytes": 90560
+        }
+      ]
     },
     {
       "id": "32s-gallery1-11162020",
@@ -463,7 +613,7 @@
       "sha256": "86e1b0862fc00c5028a80ce3ea45622250b396f934ac2e6e6049929e5cb9bca8",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "hero_rank": 2,
       "bytes": 72250,
       "original": {
@@ -477,7 +627,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/32%20Sport/32s-gallery1-11162020.png",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:35:10Z",
+          "url": "https://www.aquilaboats.com/hubfs/32%20Sport/32s-gallery1-11162020.png",
+          "sha256_observado": "8907b9d63f2d09e24d3780182067a11de6f1b838bda9be625c0687423c2adfe4",
+          "sha256_esperado_anterior": "44256b176f16cb5733a4a2f58b5f9106263ec99ea45a4c5c59e975cca68687b7",
+          "last_modified": "Fri, 25 Oct 2024 20:13:41 GMT",
+          "etag": "\"d4f9d42462e1ec79cae6fb977c5b29af\"",
+          "content_type": "image/png",
+          "bytes": 1049571
+        }
+      ]
     },
     {
       "id": "aquila32-hero-11132020",
@@ -521,7 +686,22 @@
         "full_resolution": true
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/32%20Sport/aquila32-hero-11132020.png",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:35:11Z",
+          "url": "https://www.aquilaboats.com/hubfs/32%20Sport/aquila32-hero-11132020.png",
+          "sha256_observado": "815ca103dffac71464ca91aef70ba4f259662aeddfad0c73964010c1552791bd",
+          "sha256_esperado_anterior": "810b02fd2a903531dfd3ab64639449fc0e0094f13b867abd5391c0fd78c524e8",
+          "last_modified": "Fri, 25 Oct 2024 19:32:26 GMT",
+          "etag": "\"07eeb6bb29fc664882a6fa4ab3101147\"",
+          "content_type": "image/png",
+          "bytes": 620498
+        }
+      ]
     }
   ]
 }

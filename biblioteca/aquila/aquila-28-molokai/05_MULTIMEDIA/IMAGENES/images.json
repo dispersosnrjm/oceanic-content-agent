@@ -46,7 +46,22 @@
         "full_resolution": true
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/28%20Molokai/aqu-profile-line-art-flex-callout-28m-copy.png",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:34:45Z",
+          "url": "https://www.aquilaboats.com/hubfs/28%20Molokai/aqu-profile-line-art-flex-callout-28m-copy.png",
+          "sha256_observado": "74d3efbc4b44d314efb17073f1bf8e264b789dccb0b24856a80ee9959a56ab90",
+          "sha256_esperado_anterior": "89976ab40aedcae9f68a86153c0f7e0043e0f551ace59a70c30aa022aec0c4fc",
+          "last_modified": "Fri, 25 Oct 2024 19:03:13 GMT",
+          "etag": "\"bea512d04c3637fa6ac2b281e0bf25a8\"",
+          "content_type": "image/png",
+          "bytes": 34738
+        }
+      ]
     },
     {
       "id": "aqu-10698-28-molokai-gallery2",
@@ -76,7 +91,7 @@
       "sha256": "1ae5c5b7cd0be47bde9d992d1a29e69d13a6e68ad1d034e9037bfd2527b99820",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "bytes": 75934,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/28%20Molokai/aqu-10698-28-molokai-gallery2.jpg",
@@ -89,7 +104,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/28%20Molokai/aqu-10698-28-molokai-gallery2.jpg",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:34:46Z",
+          "url": "https://www.aquilaboats.com/hubfs/28%20Molokai/aqu-10698-28-molokai-gallery2.jpg",
+          "sha256_observado": "dd8d014bd8344670b3a157ef9f0ae5cbadbb5f6d1849cbfe09f8d48a04c84819",
+          "sha256_esperado_anterior": "f4064bfb25a659089060670adb4405ff9d56221dbb311524e2c7e49f4ca10aa6",
+          "last_modified": "Fri, 25 Oct 2024 18:54:13 GMT",
+          "etag": "\"c957980f3f86adb065936652c881474e\"",
+          "content_type": "image/jpeg",
+          "bytes": 135028
+        }
+      ]
     },
     {
       "id": "aqu-10698-28-molokai-gallery3",
@@ -119,7 +149,7 @@
       "sha256": "6c9e7fca082e18a8c21666f72f7f476d71ff4f64dfe6b1012ab8607f74a03c6d",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "bytes": 58108,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/28%20Molokai/aqu-10698-28-molokai-gallery3.jpg",
@@ -132,7 +162,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/28%20Molokai/aqu-10698-28-molokai-gallery3.jpg",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:34:46Z",
+          "url": "https://www.aquilaboats.com/hubfs/28%20Molokai/aqu-10698-28-molokai-gallery3.jpg",
+          "sha256_observado": "cbf7c9a92a14bbb546a2be6bfd664d2f2775f65d77c6847f51aa9a51cb9041bd",
+          "sha256_esperado_anterior": "5b721bd56452f97b3e11220dc5427011486dff9f80f378f2c23ce597676036ec",
+          "last_modified": "Fri, 25 Oct 2024 18:54:13 GMT",
+          "etag": "\"b5483c22af2df99d26461c579a1e2dae\"",
+          "content_type": "image/jpeg",
+          "bytes": 90278
+        }
+      ]
     },
     {
       "id": "aqu-10698-28-molokai-gallery4",
@@ -162,7 +207,7 @@
       "sha256": "84c53193218b66d84bf4b427d67f729691643fbaec663a23ce2d46d6a8680dd3",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "hero_rank": 2,
       "bytes": 48768,
       "original": {
@@ -176,7 +221,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/28%20Molokai/aqu-10698-28-molokai-gallery4.jpg",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:34:47Z",
+          "url": "https://www.aquilaboats.com/hubfs/28%20Molokai/aqu-10698-28-molokai-gallery4.jpg",
+          "sha256_observado": "8e8de4c4a6d496b116cb90ff714df66e28d22b045f32f9c746de2ce6d2f30cfe",
+          "sha256_esperado_anterior": "797daeb0212e909b54d3c88aab5a52de7bc589b711061ad406b41f30562e1554",
+          "last_modified": "Fri, 25 Oct 2024 18:54:12 GMT",
+          "etag": "\"1e15657a60daf4d19a843b0182706a39\"",
+          "content_type": "image/jpeg",
+          "bytes": 75671
+        }
+      ]
     },
     {
       "id": "aqu-10698-28-molokai-gallery5",
@@ -206,7 +266,7 @@
       "sha256": "b4659e881b45ed4249c7d4499ee86932e3814c72faa44f3d77b2217c8fd31fba",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "hero_rank": 3,
       "bytes": 45362,
       "original": {
@@ -220,7 +280,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/28%20Molokai/aqu-10698-28-molokai-gallery5.jpg",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:34:47Z",
+          "url": "https://www.aquilaboats.com/hubfs/28%20Molokai/aqu-10698-28-molokai-gallery5.jpg",
+          "sha256_observado": "84ad02fbd998cd953f308e8c4fc7a34766455795a3fe7c83b6b73cfc35f74a36",
+          "sha256_esperado_anterior": "bdbea5a8c491f7d40398b219925553c3de9f9e3b47e746f8c284571f38b46597",
+          "last_modified": "Fri, 25 Oct 2024 18:54:13 GMT",
+          "etag": "\"4ab8188fe6622f97cc0620dd2c5ad71d\"",
+          "content_type": "image/jpeg",
+          "bytes": 74262
+        }
+      ]
     },
     {
       "id": "aqu-10698-28-molokai-gallery6",
@@ -250,7 +325,7 @@
       "sha256": "d0a2d4c4a40c60721abeac852858abdad808354f5d49c5cc025503bd2e31ef42",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "bytes": 39560,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/28%20Molokai/aqu-10698-28-molokai-gallery6.jpg",
@@ -263,7 +338,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/28%20Molokai/aqu-10698-28-molokai-gallery6.jpg",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:34:48Z",
+          "url": "https://www.aquilaboats.com/hubfs/28%20Molokai/aqu-10698-28-molokai-gallery6.jpg",
+          "sha256_observado": "4ea07709986b43b8444cd02d524c6ddcf2270729f83bb762366fb918fe1fe9a0",
+          "sha256_esperado_anterior": "d9be3d0919310ebdff2cad4c6edc83d36e874b56d6feccccec6007a12f5453cb",
+          "last_modified": "Fri, 25 Oct 2024 18:54:13 GMT",
+          "etag": "\"5bda31fee9d440be1c09dfae6f5ec184\"",
+          "content_type": "image/jpeg",
+          "bytes": 68603
+        }
+      ]
     },
     {
       "id": "aqu-10698-28-molokai-gallery7",
@@ -293,7 +383,7 @@
       "sha256": "bac4d0c50ff84cbc79674e30cf60c2b06076f52bc2ed29a0628c95e75b36c45d",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "bytes": 52044,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/28%20Molokai/aqu-10698-28-molokai-gallery7.jpg",
@@ -306,7 +396,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/28%20Molokai/aqu-10698-28-molokai-gallery7.jpg",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:34:48Z",
+          "url": "https://www.aquilaboats.com/hubfs/28%20Molokai/aqu-10698-28-molokai-gallery7.jpg",
+          "sha256_observado": "092ddee20e875386f7a0bcbbc4f0a725c8074da28402499224bda8ad48236a0c",
+          "sha256_esperado_anterior": "731e8b1c4da1aa32f92c40be72027dbd0769474a0a799ca06555b6782d26b4b8",
+          "last_modified": "Fri, 25 Oct 2024 18:54:13 GMT",
+          "etag": "\"7874e539718abc592c5b278a910914df\"",
+          "content_type": "image/jpeg",
+          "bytes": 78813
+        }
+      ]
     },
     {
       "id": "aqu-10698-28-molokai-gallery8",
@@ -336,7 +441,7 @@
       "sha256": "397dcb8b3eaf8845f4ea9cb66d5ba1f737c61e6c0ebf2123b4aaa78a45fb31c9",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "bytes": 33028,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/28%20Molokai/aqu-10698-28-molokai-gallery8.jpg",
@@ -349,7 +454,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/28%20Molokai/aqu-10698-28-molokai-gallery8.jpg",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:34:49Z",
+          "url": "https://www.aquilaboats.com/hubfs/28%20Molokai/aqu-10698-28-molokai-gallery8.jpg",
+          "sha256_observado": "b221cf9b3bc5979d8d24c52ed99ac07ab07ec146234f18aa167eaad739a7eda1",
+          "sha256_esperado_anterior": "ec1ea8ac85130825c215de319ea71ab6f43b101212177ec2430626f0c81bab67",
+          "last_modified": "Fri, 25 Oct 2024 18:54:12 GMT",
+          "etag": "\"d352374845ff6a5bdf4d5083b4b3df26\"",
+          "content_type": "image/jpeg",
+          "bytes": 62459
+        }
+      ]
     },
     {
       "id": "aqu-10698-28-molokai-gallery9",
@@ -379,7 +499,7 @@
       "sha256": "3ba6e7891207c4955ab299caf2dccd44dc076530f38411bbb5d4edb346b8cd4c",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "bytes": 45454,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/28%20Molokai/aqu-10698-28-molokai-gallery9.jpg",
@@ -392,7 +512,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/28%20Molokai/aqu-10698-28-molokai-gallery9.jpg",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:34:49Z",
+          "url": "https://www.aquilaboats.com/hubfs/28%20Molokai/aqu-10698-28-molokai-gallery9.jpg",
+          "sha256_observado": "0ca94aa33b9835ee4dd3147c9b5c6b4208b4c52f9b0c195d0abc5f15065c44d4",
+          "sha256_esperado_anterior": "e727b77aa96ca30d44af718659fc2f32ee7444a24f088dfc4836cb9ad71a4f08",
+          "last_modified": "Fri, 25 Oct 2024 18:54:12 GMT",
+          "etag": "\"83adf455587d41443392d30f4353835f\"",
+          "content_type": "image/jpeg",
+          "bytes": 76223
+        }
+      ]
     },
     {
       "id": "aqu-10698-28-molokai-gallery10",
@@ -422,7 +557,7 @@
       "sha256": "dd16aa2e5d68e38373ee959c2929c3f51b23f1885d75b56b5d46a4e2b72ec1c9",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "bytes": 49974,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/28%20Molokai/aqu-10698-28-molokai-gallery10.jpg",
@@ -435,7 +570,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/28%20Molokai/aqu-10698-28-molokai-gallery10.jpg",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:34:50Z",
+          "url": "https://www.aquilaboats.com/hubfs/28%20Molokai/aqu-10698-28-molokai-gallery10.jpg",
+          "sha256_observado": "6c491998ed179337b9403f3c7422f55a70b0ba61958c09b64b328b4d488fc0ec",
+          "sha256_esperado_anterior": "fa50e7422e7d96c3162e7100a6db7a0e04739efb8d7b367c585f4ee2ce2ba691",
+          "last_modified": "Fri, 25 Oct 2024 18:54:13 GMT",
+          "etag": "\"64c00909870922c09414c6e89a98d8b4\"",
+          "content_type": "image/jpeg",
+          "bytes": 78821
+        }
+      ]
     },
     {
       "id": "aqu-10698-28-molokai-gallery11",
@@ -465,7 +615,7 @@
       "sha256": "c057048d1a71f4f267ccb91d8acfe54f2e6428239c480cee3995c189d6350aef",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "bytes": 73276,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/28%20Molokai/aqu-10698-28-molokai-gallery11.jpg",
@@ -478,7 +628,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/28%20Molokai/aqu-10698-28-molokai-gallery11.jpg",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:34:50Z",
+          "url": "https://www.aquilaboats.com/hubfs/28%20Molokai/aqu-10698-28-molokai-gallery11.jpg",
+          "sha256_observado": "ff7903af7d4cd1513970dcede4ee403b2afc1e7eb94d078bef588086bdb9aca7",
+          "sha256_esperado_anterior": "3aadc21ca367ef9e46fe954f24816108f40688edec6b1a54d3ba25e8555e7129",
+          "last_modified": "Fri, 25 Oct 2024 18:54:13 GMT",
+          "etag": "\"a7d4740e72f6c57abcf07aa5b17c4e91\"",
+          "content_type": "image/jpeg",
+          "bytes": 101732
+        }
+      ]
     },
     {
       "id": "aqu-10698-28-molokai-gallery12",
@@ -508,7 +673,7 @@
       "sha256": "4266e8a588ea1db771c1a188025b2b297d18cb077ea517f1dce819a0e9d3563c",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "bytes": 47810,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/28%20Molokai/aqu-10698-28-molokai-gallery12.jpg",
@@ -521,7 +686,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/28%20Molokai/aqu-10698-28-molokai-gallery12.jpg",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:34:51Z",
+          "url": "https://www.aquilaboats.com/hubfs/28%20Molokai/aqu-10698-28-molokai-gallery12.jpg",
+          "sha256_observado": "1c3324f76d8d5359b769a7d5b3e5300e62a519582f9fa60dd95d0817a72f3ba8",
+          "sha256_esperado_anterior": "68a3ee3fe063b6d2fa270a3771e426ba93c90cba49b3f526015aba3940ae4224",
+          "last_modified": "Fri, 25 Oct 2024 18:54:13 GMT",
+          "etag": "\"5b58f9b8e992e58f8e855992e2cfffd2\"",
+          "content_type": "image/jpeg",
+          "bytes": 78466
+        }
+      ]
     },
     {
       "id": "aqu-10698-28-molokai-gallery13",
@@ -551,7 +731,7 @@
       "sha256": "7c7788a8a85f9f18e5e9e3933a6f82051c9780ffc4feadd8241f1dd2751cb869",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "bytes": 64014,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/28%20Molokai/aqu-10698-28-molokai-gallery13.jpg",
@@ -564,7 +744,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/28%20Molokai/aqu-10698-28-molokai-gallery13.jpg",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:34:52Z",
+          "url": "https://www.aquilaboats.com/hubfs/28%20Molokai/aqu-10698-28-molokai-gallery13.jpg",
+          "sha256_observado": "e17fc5ecc6ac7fb267caf6cff26be8a9fd4760827ef6e4b1c4f62cd0d520c2ea",
+          "sha256_esperado_anterior": "8e229420492f5d9f86d9ece25840866876f1e19312b7e7e43b788a115751e277",
+          "last_modified": "Fri, 25 Oct 2024 18:54:13 GMT",
+          "etag": "\"beb2bce0a41a8b95ef4c33ed8cfe6fff\"",
+          "content_type": "image/jpeg",
+          "bytes": 95367
+        }
+      ]
     },
     {
       "id": "aqu-10698-28-molokai-gallery15-1",
@@ -594,7 +789,7 @@
       "sha256": "3fd03a8613cc6c229ce890e0939d9d93501fae471fb0035dee0ff16587f92b1d",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "bytes": 90126,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/28%20Molokai/aqu-10698-28-molokai-gallery15-(1).jpg",
@@ -607,7 +802,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/28%20Molokai/aqu-10698-28-molokai-gallery15-(1).jpg",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:34:52Z",
+          "url": "https://www.aquilaboats.com/hubfs/28%20Molokai/aqu-10698-28-molokai-gallery15-(1).jpg",
+          "sha256_observado": "177323455848722d553ad0bdfc508a03a9aeabc042c0578784abc35d2f517f1e",
+          "sha256_esperado_anterior": "d33257f2e7a70eb4d7b0f43e05b2d7a0dc438df07558ef744909b3f21b804419",
+          "last_modified": "Fri, 25 Oct 2024 18:54:13 GMT",
+          "etag": "\"dbce2df2740418afbb8052b6fa5c4cd5\"",
+          "content_type": "image/jpeg",
+          "bytes": 120291
+        }
+      ]
     },
     {
       "id": "aqu-10698-28-molokai-gallery16-1",
@@ -637,7 +847,7 @@
       "sha256": "1d697bcdf0d782ffa711cd4da1366fbff6c746bb57e0d127905b9076935a4b5e",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "bytes": 37928,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/28%20Molokai/aqu-10698-28-molokai-gallery16-(1).jpg",
@@ -650,7 +860,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/28%20Molokai/aqu-10698-28-molokai-gallery16-(1).jpg",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:34:53Z",
+          "url": "https://www.aquilaboats.com/hubfs/28%20Molokai/aqu-10698-28-molokai-gallery16-(1).jpg",
+          "sha256_observado": "e18bbbe375a543ec097ff685902e2ba0de1e78e8caba46e55146a3f8d6968705",
+          "sha256_esperado_anterior": "a83175a271597a9cf646ca368c0d09879424300a344ec2c2e928f7baabd41677",
+          "last_modified": "Fri, 25 Oct 2024 18:54:13 GMT",
+          "etag": "\"2073f53d190d306297b06a376f711bf0\"",
+          "content_type": "image/jpeg",
+          "bytes": 62839
+        }
+      ]
     },
     {
       "id": "aqu-10698-28-molokai-gallery17-1",
@@ -680,7 +905,7 @@
       "sha256": "1b2349dcc60b0f5f9c7eaaa9175002f11ccd29b0c4131900b483155e790c0f8c",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "bytes": 22530,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/28%20Molokai/aqu-10698-28-molokai-gallery17-(1).jpg",
@@ -693,7 +918,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/28%20Molokai/aqu-10698-28-molokai-gallery17-(1).jpg",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:34:53Z",
+          "url": "https://www.aquilaboats.com/hubfs/28%20Molokai/aqu-10698-28-molokai-gallery17-(1).jpg",
+          "sha256_observado": "72e03e4a1d757c3752a056bbbe2aa410bb000fcadec8b34cc9eecb5deb9464ce",
+          "sha256_esperado_anterior": "8e981aeff7d4f9df7b7c0a25bbe77d846f4ba6d9bc43d7feae05594c92f77448",
+          "last_modified": "Fri, 25 Oct 2024 18:54:12 GMT",
+          "etag": "\"f463bfd2a2d5a8a62ab1e951c488aee4\"",
+          "content_type": "image/jpeg",
+          "bytes": 46850
+        }
+      ]
     },
     {
       "id": "aqu-10698-28-molokai-gallery1",
@@ -723,7 +963,7 @@
       "sha256": "a36b9f608f3e2bb2f5efaeaff804b453330c44ff1e51ad35677620dedffb92c2",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "bytes": 30120,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/28%20Molokai/aqu-10698-28-molokai-gallery1.jpg",
@@ -736,7 +976,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/28%20Molokai/aqu-10698-28-molokai-gallery1.jpg",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:34:53Z",
+          "url": "https://www.aquilaboats.com/hubfs/28%20Molokai/aqu-10698-28-molokai-gallery1.jpg",
+          "sha256_observado": "24cf5d80662aee0d1b5c54be4be3974879abae96e2b0f57a3aecfa11500134bf",
+          "sha256_esperado_anterior": "65245b2b93f86967d430ea68f0b1b271b19048a14bdac5426629c5322442ba02",
+          "last_modified": "Fri, 25 Oct 2024 18:54:12 GMT",
+          "etag": "\"8bbbf0f6984814e840ec47dad8471002\"",
+          "content_type": "image/jpeg",
+          "bytes": 57080
+        }
+      ]
     },
     {
       "id": "offshore-line-hero-molokai-hero-12082021",
@@ -780,7 +1035,22 @@
         "full_resolution": true
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/28%20Molokai/offshore-line-hero-molokai-hero-12082021.jpg",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:34:54Z",
+          "url": "https://www.aquilaboats.com/hubfs/28%20Molokai/offshore-line-hero-molokai-hero-12082021.jpg",
+          "sha256_observado": "6a4d903b360001803a1f6e0594e715dc879e503f11af818b0bb88be53a0a8047",
+          "sha256_esperado_anterior": "ac2b0962451c8fa05d9c99bd09e75238ff0f6bd16fa803b577d539e2c7941ea6",
+          "last_modified": "Fri, 25 Oct 2024 18:22:12 GMT",
+          "etag": "\"562bcea8990701497f76e7ad8e5732d0\"",
+          "content_type": "image/jpeg",
+          "bytes": 127998
+        }
+      ]
     }
   ]
 }

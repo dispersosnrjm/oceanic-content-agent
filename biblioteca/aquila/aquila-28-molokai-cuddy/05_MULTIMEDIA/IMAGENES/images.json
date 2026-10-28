@@ -63,7 +63,7 @@
       "sha256": "fd98bf932d8e48dceeba4f3077e052dfcb7a3b0172bb11d240a61aaa8f02f230",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "hero_rank": 2,
       "bytes": 48300,
       "original": {
@@ -77,7 +77,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/28%20Molokai%20Cuddy/28-offshore-line-cuddy-gallery2.jpg",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:34:55Z",
+          "url": "https://www.aquilaboats.com/hubfs/28%20Molokai%20Cuddy/28-offshore-line-cuddy-gallery2.jpg",
+          "sha256_observado": "99d865cdcddfd5b656723a1e9a9dd7174fe21d3690fba86c1ea9d159eb7fd230",
+          "sha256_esperado_anterior": "cf80a56c6e5bc0d373bdb926ee64dbf0dc5c31ba4011159f3afab340106ede67",
+          "last_modified": "Fri, 25 Oct 2024 19:17:40 GMT",
+          "etag": "\"9df22cb96cda3333a5962148843921b0\"",
+          "content_type": "image/jpeg",
+          "bytes": 231300
+        }
+      ]
     },
     {
       "id": "28-offshore-line-cuddy-gallery3",
@@ -107,7 +122,7 @@
       "sha256": "17bcc0aa6300f42e094a4ef3bf0a9a847188163e941edced0207ccbcfa211e87",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "hero_rank": 3,
       "bytes": 90806,
       "original": {
@@ -121,7 +136,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/28%20Molokai%20Cuddy/28-offshore-line-cuddy-gallery3.jpg",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:34:55Z",
+          "url": "https://www.aquilaboats.com/hubfs/28%20Molokai%20Cuddy/28-offshore-line-cuddy-gallery3.jpg",
+          "sha256_observado": "6554dbef7faf09cd054c335cb8e8172f11f18925bec78d1038b9fa7772bb8aa1",
+          "sha256_esperado_anterior": "5f5613746f954f1240145d9751e8506e8f028311754f156846fe468f2a046028",
+          "last_modified": "Fri, 25 Oct 2024 19:17:40 GMT",
+          "etag": "\"ebd6bdaa114fa34e1ba5ebeb5fb5f7d9\"",
+          "content_type": "image/jpeg",
+          "bytes": 331029
+        }
+      ]
     },
     {
       "id": "28-offshore-line-cuddy-gallery4",
@@ -151,7 +181,7 @@
       "sha256": "d9b871fc4cb35a33708cf0602d391162bbd9389a3715ce72739ec0e0f5b14a62",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "bytes": 49804,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/28%20Molokai%20Cuddy/28-offshore-line-cuddy-gallery4.jpg",
@@ -164,7 +194,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/28%20Molokai%20Cuddy/28-offshore-line-cuddy-gallery4.jpg",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:34:56Z",
+          "url": "https://www.aquilaboats.com/hubfs/28%20Molokai%20Cuddy/28-offshore-line-cuddy-gallery4.jpg",
+          "sha256_observado": "4b67457aa6f455eac9e681df671b147e6d920ebec93c504e4be60ead8da9265d",
+          "sha256_esperado_anterior": "9f010f2ef0acb40e004f90c8a04a5047b00bcfbadf274572b1e3ff8bfd9ca156",
+          "last_modified": "Fri, 25 Oct 2024 19:17:40 GMT",
+          "etag": "\"3b74ba5ff836c595110823ceb9b45c8c\"",
+          "content_type": "image/jpeg",
+          "bytes": 240512
+        }
+      ]
     },
     {
       "id": "28-offshore-line-cuddy-gallery5",
@@ -194,7 +239,7 @@
       "sha256": "96ef835e56ae1ddc53a99026fa990f4dc9494b132f119597c5a7a094bdd19f29",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "bytes": 57922,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/28%20Molokai%20Cuddy/28-offshore-line-cuddy-gallery5.jpg",
@@ -207,7 +252,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/28%20Molokai%20Cuddy/28-offshore-line-cuddy-gallery5.jpg",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:34:56Z",
+          "url": "https://www.aquilaboats.com/hubfs/28%20Molokai%20Cuddy/28-offshore-line-cuddy-gallery5.jpg",
+          "sha256_observado": "54add434889b58c4fea5ee8be1fad38ddddb9eef23e2f722ac00b34f453aadd5",
+          "sha256_esperado_anterior": "ac838c81ec5d618805fa74cd34003da75530e935d4a39c83379e7ada00881892",
+          "last_modified": "Fri, 25 Oct 2024 19:17:40 GMT",
+          "etag": "\"ad46c6fb4f71db88ab3b79183c6c5184\"",
+          "content_type": "image/jpeg",
+          "bytes": 250405
+        }
+      ]
     },
     {
       "id": "28-offshore-line-cuddy-gallery6",
@@ -237,7 +297,7 @@
       "sha256": "2ab811256b05c1fd16b660a3ddbaea5880e080cee3e3d5e0ca2d374de5d08e52",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "bytes": 47102,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/28%20Molokai%20Cuddy/28-offshore-line-cuddy-gallery6.jpg",
@@ -250,7 +310,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/28%20Molokai%20Cuddy/28-offshore-line-cuddy-gallery6.jpg",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:34:57Z",
+          "url": "https://www.aquilaboats.com/hubfs/28%20Molokai%20Cuddy/28-offshore-line-cuddy-gallery6.jpg",
+          "sha256_observado": "58ac363ea034181d73f9417e9fd2d4fb9d91580476428b7957ef68215f924ac0",
+          "sha256_esperado_anterior": "9842e431cec31db75f669edadd5f0421fa6ea56b03cf90cf5b8227fe5481bddf",
+          "last_modified": "Fri, 25 Oct 2024 19:17:39 GMT",
+          "etag": "\"39dcd86339e4c38e7d92c64aaaa7a1b6\"",
+          "content_type": "image/jpeg",
+          "bytes": 210376
+        }
+      ]
     },
     {
       "id": "28-offshore-line-cuddy-gallery7",
@@ -280,7 +355,7 @@
       "sha256": "96f7facb9f2f104e2767b66af4fd1f7db10842fa4138a8f9e1965e3f25eff8b8",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "bytes": 30646,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/28%20Molokai%20Cuddy/28-offshore-line-cuddy-gallery7.jpg",
@@ -293,7 +368,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/28%20Molokai%20Cuddy/28-offshore-line-cuddy-gallery7.jpg",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:34:58Z",
+          "url": "https://www.aquilaboats.com/hubfs/28%20Molokai%20Cuddy/28-offshore-line-cuddy-gallery7.jpg",
+          "sha256_observado": "7790916716334aabfb5e05abd8ca0239aac913ffe60ad2d6b9c50cfcf7d32fa4",
+          "sha256_esperado_anterior": "cf63f47a57888c1b3033cbf62f02ebe48448481fe7720d92f0e0c568ab79cf23",
+          "last_modified": "Fri, 25 Oct 2024 19:17:39 GMT",
+          "etag": "\"e8d69c1e41c7c3efb71970a2a04fe78f\"",
+          "content_type": "image/jpeg",
+          "bytes": 183373
+        }
+      ]
     },
     {
       "id": "28-offshore-line-cuddy-gallery8",
@@ -323,7 +413,7 @@
       "sha256": "2926d0e025522bbef31ce0631f78bdb857b7d148684b8ee371412662dd699c79",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "bytes": 55790,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/28%20Molokai%20Cuddy/28-offshore-line-cuddy-gallery8.jpg",
@@ -336,7 +426,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/28%20Molokai%20Cuddy/28-offshore-line-cuddy-gallery8.jpg",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:34:58Z",
+          "url": "https://www.aquilaboats.com/hubfs/28%20Molokai%20Cuddy/28-offshore-line-cuddy-gallery8.jpg",
+          "sha256_observado": "3d4b8f8323f86060e3152b3a680b2ab4bbc1db02a6ba58fec5d006fd40afe2f1",
+          "sha256_esperado_anterior": "f677d9007cd340ae5fd5d5f9beb78e9bed417cee9d0b49f67b38401b326adb3d",
+          "last_modified": "Fri, 25 Oct 2024 19:17:40 GMT",
+          "etag": "\"fdc250b6ebced189785a2d529c6e19b0\"",
+          "content_type": "image/jpeg",
+          "bytes": 249550
+        }
+      ]
     },
     {
       "id": "28-offshore-line-cuddy-gallery9",
@@ -366,7 +471,7 @@
       "sha256": "e04b2e162840860c51f015f0e8b51531d322154431b80dff5257d2566ae7110b",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "bytes": 58802,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/28%20Molokai%20Cuddy/28-offshore-line-cuddy-gallery9.jpg",
@@ -379,7 +484,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/28%20Molokai%20Cuddy/28-offshore-line-cuddy-gallery9.jpg",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:34:59Z",
+          "url": "https://www.aquilaboats.com/hubfs/28%20Molokai%20Cuddy/28-offshore-line-cuddy-gallery9.jpg",
+          "sha256_observado": "d05eafe5655b54e6bb8103ef64bbb8bddb6b531fb57c6a95ea46d10d6cfdcb68",
+          "sha256_esperado_anterior": "7ffb7809227a40ec42c9bd85e2917c052dc796458f9490eda7bc87218fb14e29",
+          "last_modified": "Fri, 25 Oct 2024 19:17:40 GMT",
+          "etag": "\"726a1ce1706ce3a029cf8b11274594f7\"",
+          "content_type": "image/jpeg",
+          "bytes": 249164
+        }
+      ]
     },
     {
       "id": "28-offshore-line-cuddy-gallery10",
@@ -409,7 +529,7 @@
       "sha256": "8f79ba1d285febbd276be2b57b105fc3da67a155c3a139426531cbceb26b47b7",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "bytes": 51462,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/28%20Molokai%20Cuddy/28-offshore-line-cuddy-gallery10.jpg",
@@ -422,7 +542,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/28%20Molokai%20Cuddy/28-offshore-line-cuddy-gallery10.jpg",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:35:00Z",
+          "url": "https://www.aquilaboats.com/hubfs/28%20Molokai%20Cuddy/28-offshore-line-cuddy-gallery10.jpg",
+          "sha256_observado": "9d282b6a281b0fdb2e7fd8eb2b1d2b0ba110d30956326cfd2b52568a538da035",
+          "sha256_esperado_anterior": "4c284c7dc5d73ef3822741f2f104a24545a1943617b9a46477cb79c793f31455",
+          "last_modified": "Fri, 25 Oct 2024 19:17:40 GMT",
+          "etag": "\"ca97996dd3ef4f7633ee91fb7095c636\"",
+          "content_type": "image/jpeg",
+          "bytes": 232749
+        }
+      ]
     },
     {
       "id": "28-offshore-line-cuddy-gallery11",
@@ -495,7 +630,7 @@
       "sha256": "829ac110d5cd3dde43593bc8226002d84a41c27631459cda2a44b6373a99e8a1",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "bytes": 47630,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/28%20Molokai%20Cuddy/28-offshore-line-cuddy-gallery12.jpg",
@@ -508,7 +643,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/28%20Molokai%20Cuddy/28-offshore-line-cuddy-gallery12.jpg",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:35:00Z",
+          "url": "https://www.aquilaboats.com/hubfs/28%20Molokai%20Cuddy/28-offshore-line-cuddy-gallery12.jpg",
+          "sha256_observado": "6e0c869c4b750078085c0f273c52fbe26d6e2a72c503efcb20bad59bad7509a8",
+          "sha256_esperado_anterior": "80d5f30a2a6ba2e38cbece10c6b093a82c1111049b73c322db9770abbda84776",
+          "last_modified": "Fri, 25 Oct 2024 19:17:40 GMT",
+          "etag": "\"56e73801203d053eca077572c183875e\"",
+          "content_type": "image/jpeg",
+          "bytes": 239658
+        }
+      ]
     },
     {
       "id": "28-offshore-line-cuddy-gallery13",
@@ -538,7 +688,7 @@
       "sha256": "79f424c461249f79227781016b60fe7678e061cd56ec104474dc64252e4d2159",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "bytes": 45954,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/28%20Molokai%20Cuddy/28-offshore-line-cuddy-gallery13.jpg",
@@ -551,7 +701,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/28%20Molokai%20Cuddy/28-offshore-line-cuddy-gallery13.jpg",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:35:01Z",
+          "url": "https://www.aquilaboats.com/hubfs/28%20Molokai%20Cuddy/28-offshore-line-cuddy-gallery13.jpg",
+          "sha256_observado": "88e2a4e9cf703e263445721c155abfaa6e3d24839e0dd057ceb8831e63f08e3c",
+          "sha256_esperado_anterior": "69756a0b5a9225ab9cb28fc9604b191c6e097cd579b59d17b77027a5329a45bf",
+          "last_modified": "Fri, 25 Oct 2024 19:17:40 GMT",
+          "etag": "\"f49c461b06005bd53bff81c460435161\"",
+          "content_type": "image/jpeg",
+          "bytes": 235859
+        }
+      ]
     },
     {
       "id": "28-offshore-line-cuddy-gallery14",
@@ -581,7 +746,7 @@
       "sha256": "8f604e3c59ceaeb0820e9c6fa8e6ecfd76fc19d9a756a68d4934b2653dc1e47d",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "bytes": 69766,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/28%20Molokai%20Cuddy/28-offshore-line-cuddy-gallery14.jpg",
@@ -594,7 +759,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/28%20Molokai%20Cuddy/28-offshore-line-cuddy-gallery14.jpg",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:35:02Z",
+          "url": "https://www.aquilaboats.com/hubfs/28%20Molokai%20Cuddy/28-offshore-line-cuddy-gallery14.jpg",
+          "sha256_observado": "3f448dca92b4c694e8735c847dd1494882524b31fad5e00560f4597a5d3174fa",
+          "sha256_esperado_anterior": "294dadfa94fed61f2908160666b74b6b738c0d8dd2975441e955d91fcc39269c",
+          "last_modified": "Fri, 25 Oct 2024 19:17:40 GMT",
+          "etag": "\"ef80d4275086a681f8db202740b33dae\"",
+          "content_type": "image/jpeg",
+          "bytes": 279107
+        }
+      ]
     },
     {
       "id": "28-offshore-line-cuddy-gallery1",
@@ -624,7 +804,7 @@
       "sha256": "0d0d765cf8356708c746b97e5e2cdefb89bb1c26f2e603ad280bf061ef6bef8f",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "bytes": 47346,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/28%20Molokai%20Cuddy/28-offshore-line-cuddy-gallery1.jpg",
@@ -637,7 +817,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/28%20Molokai%20Cuddy/28-offshore-line-cuddy-gallery1.jpg",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:35:02Z",
+          "url": "https://www.aquilaboats.com/hubfs/28%20Molokai%20Cuddy/28-offshore-line-cuddy-gallery1.jpg",
+          "sha256_observado": "c2c1df95cb663e1ec8c00252b93a75d11e278531e0d7672491b59c7ed99353c3",
+          "sha256_esperado_anterior": "697acdc09c7230d8d7eda2551fb1b9fb1823f910b8ce989fb7004b4255f7b02a",
+          "last_modified": "Fri, 25 Oct 2024 19:17:40 GMT",
+          "etag": "\"5abb515419f81f230b31c3c7764af976\"",
+          "content_type": "image/jpeg",
+          "bytes": 213202
+        }
+      ]
     },
     {
       "id": "408923490-aqu-10698-28-offshore-line-molokai-cuddy-website-hero-molokai-cuddy",
@@ -681,7 +876,22 @@
         "full_resolution": true
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/28%20Molokai%20Cuddy/408923490-aqu-10698_28-offshore-line-molokai-cuddy-website-hero-molokai-cuddy.jpg",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:35:03Z",
+          "url": "https://www.aquilaboats.com/hubfs/28%20Molokai%20Cuddy/408923490-aqu-10698_28-offshore-line-molokai-cuddy-website-hero-molokai-cuddy.jpg",
+          "sha256_observado": "25c65eb1bb3202ee50bb139a7f9e304e17e0985c7ff58d0814124a4cefa1339f",
+          "sha256_esperado_anterior": "5f006d3c899300a7612778c02a76866c465ac2f82ae5e490282f76a219fd8901",
+          "last_modified": "Fri, 25 Oct 2024 18:23:36 GMT",
+          "etag": "\"ce7ea1f5e4d4f781fc5d6b5ebc7fceb0\"",
+          "content_type": "image/jpeg",
+          "bytes": 145947
+        }
+      ]
     }
   ]
 }

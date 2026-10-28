@@ -680,7 +680,7 @@
       "sha256": "1cf16165652aba3b9be8b1197ec96b5d9d1f1997f518519368a5d837e592c53d",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "bytes": 46668,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/54%20Yacht/aquila54-gallery17-04272021.png",
@@ -693,7 +693,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/54%20Yacht/aquila54-gallery17-04272021.png",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:36:04Z",
+          "url": "https://www.aquilaboats.com/hubfs/54%20Yacht/aquila54-gallery17-04272021.png",
+          "sha256_observado": "d36e969bc8253980abc594ce9ef3d9026a49a0f3d7b060743ff5e440f52237f8",
+          "sha256_esperado_anterior": "433fdc0caa9e0f25c6fe0a25fdb1a7b92e4fd4dc92d7e6774680fd6c8e712098",
+          "last_modified": "Mon, 28 Oct 2024 19:05:54 GMT",
+          "etag": "\"dea40bbef37aa65bada325c7b69d9920\"",
+          "content_type": "image/png",
+          "bytes": 653754
+        }
+      ]
     },
     {
       "id": "aquila54-gallery1-04272021",
@@ -766,7 +781,7 @@
       "sha256": "613af40f9275342d3db54750267f07c4ce996d7c271dff0acc882a0ea571874c",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "bytes": 43460,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/54%20Yacht/54galleydown-image2-05222023.png",
@@ -779,7 +794,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/54%20Yacht/54galleydown-image2-05222023.png",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:36:05Z",
+          "url": "https://www.aquilaboats.com/hubfs/54%20Yacht/54galleydown-image2-05222023.png",
+          "sha256_observado": "d770de262ea8bcb6993dbed407b48f524e1ad3d8f65204d6585836da3355a89e",
+          "sha256_esperado_anterior": "0a8075b65ff58417bf21a43d0350aa624529a4a7a97fa7c654b5c00b4062f167",
+          "last_modified": "Mon, 28 Oct 2024 19:14:54 GMT",
+          "etag": "\"936527e7eaa9b1f06423d7ea9e23b52f\"",
+          "content_type": "image/png",
+          "bytes": 686804
+        }
+      ]
     },
     {
       "id": "54galleydown-image3-05222023",
@@ -809,7 +839,7 @@
       "sha256": "6549f06d5443f58eb4da5e9a306b325c11ad87107792b9620b5cf1d8c80356a4",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "bytes": 49814,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/54%20Yacht/54galleydown-image3-05222023.png",
@@ -822,7 +852,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/54%20Yacht/54galleydown-image3-05222023.png",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:36:06Z",
+          "url": "https://www.aquilaboats.com/hubfs/54%20Yacht/54galleydown-image3-05222023.png",
+          "sha256_observado": "b4913001efdbbb43292b5a8d41663befc005053fcee6c5bce0f805c1b86b4f46",
+          "sha256_esperado_anterior": "c7df739124a630f359d54b62d2b0ed76cbf917c907656153033ff1a62ffd260c",
+          "last_modified": "Mon, 28 Oct 2024 19:14:54 GMT",
+          "etag": "\"342427b14e17a5c239d8ee083df21c3d\"",
+          "content_type": "image/png",
+          "bytes": 698251
+        }
+      ]
     },
     {
       "id": "54galleydown-image4-05222023",
@@ -852,7 +897,7 @@
       "sha256": "e69f4b017d7c459a4d6bbbfa2b3f5807f80885b1acf58347635cf32e9463cdd1",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "bytes": 53198,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/54%20Yacht/54galleydown-image4-05222023.png",
@@ -865,7 +910,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/54%20Yacht/54galleydown-image4-05222023.png",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:36:07Z",
+          "url": "https://www.aquilaboats.com/hubfs/54%20Yacht/54galleydown-image4-05222023.png",
+          "sha256_observado": "2088b8c757018547c81a77748f858a755159dfea979479820b1a406bac18a741",
+          "sha256_esperado_anterior": "533f2ebd7d6dc02719010e2eddb2e210878380fdb85633629f120e3ffdd27a6d",
+          "last_modified": "Mon, 28 Oct 2024 19:14:55 GMT",
+          "etag": "\"e4fce95f6da12d94a7f585eeae18f61b\"",
+          "content_type": "image/png",
+          "bytes": 709203
+        }
+      ]
     },
     {
       "id": "54galleydown-image5-05222023",
@@ -895,7 +955,7 @@
       "sha256": "f14f9e97fc94c0a94b26df7759a9eae8892a6a77fd2081ca0ffdc43a9b7a9d4a",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "bytes": 40018,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/54%20Yacht/54galleydown-image5-05222023.png",
@@ -908,7 +968,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/54%20Yacht/54galleydown-image5-05222023.png",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:36:07Z",
+          "url": "https://www.aquilaboats.com/hubfs/54%20Yacht/54galleydown-image5-05222023.png",
+          "sha256_observado": "d6868943ebe191e59ae3ad54abe1bc6f8500fe81ab1493262a182fb7a32e6950",
+          "sha256_esperado_anterior": "80db53e6a7bb5319b016efcee7e45a7bf3200b3fe38de3062a22810530fbe0ad",
+          "last_modified": "Mon, 28 Oct 2024 19:14:54 GMT",
+          "etag": "\"53cd2554fb47d15fe8f637db0228837b\"",
+          "content_type": "image/png",
+          "bytes": 643974
+        }
+      ]
     },
     {
       "id": "54galleydown-image6-05222023",
@@ -938,7 +1013,7 @@
       "sha256": "68f4507125b2a010f3b77818ac12caf1ab2ee94dc8ecfa84669e5da55b787dc1",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "bytes": 36176,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/54%20Yacht/54galleydown-image6-05222023.png",
@@ -951,7 +1026,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/54%20Yacht/54galleydown-image6-05222023.png",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:36:08Z",
+          "url": "https://www.aquilaboats.com/hubfs/54%20Yacht/54galleydown-image6-05222023.png",
+          "sha256_observado": "b62d4d5da56a990dded436e87ae9ed28aadc2ac414492b31b0e1d12effc7262b",
+          "sha256_esperado_anterior": "8ac758b6879d850a32a5384a42e7a22e938af787eec0f455f9148b74eae69503",
+          "last_modified": "Mon, 28 Oct 2024 19:14:54 GMT",
+          "etag": "\"0024be880eef4be7ee52941b9bcc3a76\"",
+          "content_type": "image/png",
+          "bytes": 656626
+        }
+      ]
     },
     {
       "id": "54galleydown-image7-05222023",
@@ -981,7 +1071,7 @@
       "sha256": "d94724e9d6e6fceef627d69bcf14a28612b9e00357aac9d950a8b45cd815aaca",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "bytes": 49650,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/54%20Yacht/54galleydown-image7-05222023.png",
@@ -994,7 +1084,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/54%20Yacht/54galleydown-image7-05222023.png",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:36:09Z",
+          "url": "https://www.aquilaboats.com/hubfs/54%20Yacht/54galleydown-image7-05222023.png",
+          "sha256_observado": "4f2ab9fc5fea1c45a7c63a5c91ed1a5692cf6a98cc13e0b14770ad60ac1d728a",
+          "sha256_esperado_anterior": "ac83692104738457992e6aab94247fbdff41838d5539e9bda1707fa5cec66433",
+          "last_modified": "Mon, 28 Oct 2024 19:14:54 GMT",
+          "etag": "\"9ae8f60dcbbbb8bd0d4823686b616fad\"",
+          "content_type": "image/png",
+          "bytes": 700216
+        }
+      ]
     },
     {
       "id": "54galleydown-image8-05222023",
@@ -1024,7 +1129,7 @@
       "sha256": "4794928c71bfa6a135fb882d91476db6d46b7661b6b101a7860c663864d9e3b3",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "bytes": 44554,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/54%20Yacht/54galleydown-image8-05222023.png",
@@ -1037,7 +1142,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/54%20Yacht/54galleydown-image8-05222023.png",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:36:09Z",
+          "url": "https://www.aquilaboats.com/hubfs/54%20Yacht/54galleydown-image8-05222023.png",
+          "sha256_observado": "77443c7170174d2eada01da841d1d19285182b22a094b64741b8eac2165cf9a9",
+          "sha256_esperado_anterior": "aa0c1205ab2748c0ed92123c370661a955ee1da862cc2ff46e1b73e5e4cbd390",
+          "last_modified": "Mon, 28 Oct 2024 19:14:55 GMT",
+          "etag": "\"4372f90ce70ea7303fbdd30fa0818b66\"",
+          "content_type": "image/png",
+          "bytes": 642851
+        }
+      ]
     },
     {
       "id": "54galleydown-image9-05222023",
@@ -1067,7 +1187,7 @@
       "sha256": "53a977c11cc57c9d268766f8ebeabbf6120164672c76df5adf9d2d13b88c576d",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "bytes": 32930,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/54%20Yacht/54galleydown-image9-05222023.png",
@@ -1080,7 +1200,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/54%20Yacht/54galleydown-image9-05222023.png",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:36:10Z",
+          "url": "https://www.aquilaboats.com/hubfs/54%20Yacht/54galleydown-image9-05222023.png",
+          "sha256_observado": "89025bc84ab4f8b17b6127162c310cdce9b57dc068f994a8fd9677f48e3ef07a",
+          "sha256_esperado_anterior": "f9f94c34637ef9e5ac0f4ee2a92eb027d3cb8bbf0269528ef4c70bbc0b13996e",
+          "last_modified": "Mon, 28 Oct 2024 19:14:54 GMT",
+          "etag": "\"da6829a50bf010d493492c02125fb417\"",
+          "content_type": "image/png",
+          "bytes": 636495
+        }
+      ]
     },
     {
       "id": "54galleydown-image10-05222023",
@@ -1110,7 +1245,7 @@
       "sha256": "b8e5bc02824f94ba157a161a1718dfe96cf3deaa1f253c6ceea52fb56f8ed118",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "bytes": 37152,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/54%20Yacht/54galleydown-image10-05222023.png",
@@ -1123,7 +1258,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/54%20Yacht/54galleydown-image10-05222023.png",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:36:11Z",
+          "url": "https://www.aquilaboats.com/hubfs/54%20Yacht/54galleydown-image10-05222023.png",
+          "sha256_observado": "a65483df1b1bd4440beda8f79424d0409721168fd17a2ca214fa819643ea8b39",
+          "sha256_esperado_anterior": "fd7bb04d273ed883cb2053cf82024495dfa1a76ac38d0d46f4e9b2d5cf77e4dc",
+          "last_modified": "Mon, 28 Oct 2024 19:14:55 GMT",
+          "etag": "\"d138c8f8ccd472615d812fd87b2db219\"",
+          "content_type": "image/png",
+          "bytes": 698625
+        }
+      ]
     },
     {
       "id": "54galleydown-image1-05222023",
@@ -1153,7 +1303,7 @@
       "sha256": "6a33068b83af92121d1823b9e82f46eec5cb67e0c8cab7e1dfa01eb534be4e83",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "bytes": 29324,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/54%20Yacht/54galleydown-image1-05222023.png",
@@ -1166,7 +1316,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/54%20Yacht/54galleydown-image1-05222023.png",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:36:12Z",
+          "url": "https://www.aquilaboats.com/hubfs/54%20Yacht/54galleydown-image1-05222023.png",
+          "sha256_observado": "fcd02cd87e2880a4c9bdbe97ecee53ce6b1124d755ac989c932b49b10284b897",
+          "sha256_esperado_anterior": "5c628d54e33f16bf932d0d3cc11bf613280972572e9e480364524fcdbe387f38",
+          "last_modified": "Mon, 28 Oct 2024 19:14:54 GMT",
+          "etag": "\"30cc1df436f69093b167566a3fbb6ae3\"",
+          "content_type": "image/png",
+          "bytes": 642170
+        }
+      ]
     },
     {
       "id": "aquila54-hero-04272021",

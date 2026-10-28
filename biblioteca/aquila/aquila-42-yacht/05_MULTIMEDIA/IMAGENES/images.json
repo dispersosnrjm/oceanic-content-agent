@@ -46,7 +46,22 @@
         "full_resolution": true
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/42%20Yacht/aqu-20849-42-yacht-model-launch_flex-callout.png",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:35:31Z",
+          "url": "https://www.aquilaboats.com/hubfs/42%20Yacht/aqu-20849-42-yacht-model-launch_flex-callout.png",
+          "sha256_observado": "195d1595a2142768d8a6566a96ace70f13290826e3d79e83031a3d4c57f66568",
+          "sha256_esperado_anterior": "9cff42aa0482dd8a2390fa3eceb9becb703409b721dfea533ca6e713c81b7fc6",
+          "last_modified": "Mon, 28 Oct 2024 17:13:07 GMT",
+          "etag": "\"e71da18b4e94218d731eea477f14ade5\"",
+          "content_type": "image/png",
+          "bytes": 39264
+        }
+      ]
     },
     {
       "id": "aquila-42-yacht-2",
@@ -76,7 +91,7 @@
       "sha256": "ac2a655cf4cc7247dfde6863830cb68306c001c41de6ad8834bcab4ceaf939d4",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "hero_rank": 2,
       "bytes": 40060,
       "original": {
@@ -90,7 +105,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/42%20Yacht/aquila-42-yacht-2.jpg",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:35:31Z",
+          "url": "https://www.aquilaboats.com/hubfs/42%20Yacht/aquila-42-yacht-2.jpg",
+          "sha256_observado": "b2ad6b845de81a90d1671efc3adc72dbceac2cafe3b5f739fc4f497dbd947d44",
+          "sha256_esperado_anterior": "bdfd4ea26570663437cfa0e059240ea0842cee7b1e42e9a292738cca6e719659",
+          "last_modified": "Mon, 28 Oct 2024 17:24:56 GMT",
+          "etag": "\"b9df2de833f6906cb5756bf7148ff19e\"",
+          "content_type": "image/jpeg",
+          "bytes": 64801
+        }
+      ]
     },
     {
       "id": "aquila-42-yacht-3",
@@ -120,7 +150,7 @@
       "sha256": "ccfc355a3b1272a99924d76d0e865d68b166514e53ae8255c50ba8a454195416",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "hero_rank": 3,
       "bytes": 65810,
       "original": {
@@ -134,7 +164,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/42%20Yacht/aquila-42-yacht-3.jpg",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:35:32Z",
+          "url": "https://www.aquilaboats.com/hubfs/42%20Yacht/aquila-42-yacht-3.jpg",
+          "sha256_observado": "08f93b82fdae9e8b92f56c0f18ec5f5c04c2167e376f80017d00abff51681f65",
+          "sha256_esperado_anterior": "19db9f5d0dbaeab686b213039486d7cdaabb52162e07e10adf04432dd0d02a32",
+          "last_modified": "Mon, 28 Oct 2024 17:24:57 GMT",
+          "etag": "\"37ab3e27412e5259c1495634b4c64380\"",
+          "content_type": "image/jpeg",
+          "bytes": 93139
+        }
+      ]
     },
     {
       "id": "aquila-42-yacht-4",
@@ -164,7 +209,7 @@
       "sha256": "be4957b6c415aa2337fca851159efabf8f65f09430ae09655a4baf7aa5ea5074",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "bytes": 54438,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/42%20Yacht/aquila-42-yacht-4.jpg",
@@ -177,7 +222,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/42%20Yacht/aquila-42-yacht-4.jpg",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:35:32Z",
+          "url": "https://www.aquilaboats.com/hubfs/42%20Yacht/aquila-42-yacht-4.jpg",
+          "sha256_observado": "dad8939263f945cb33ccd25c809f7e9264a7cfc13d9be1ac83ab7d4905e6e9f6",
+          "sha256_esperado_anterior": "f076465fafeddedace9f614809f4632da7f0e4df1ad4a5e27a0c4072882bb853",
+          "last_modified": "Mon, 28 Oct 2024 17:24:57 GMT",
+          "etag": "\"05e4a14ad88dbb85f91f7d9e85bc5b1e\"",
+          "content_type": "image/jpeg",
+          "bytes": 81595
+        }
+      ]
     },
     {
       "id": "aquila-42-yacht-5",
@@ -207,7 +267,7 @@
       "sha256": "c6591e8a38c2ebfbfedab3adea89e383c18220a147b8235d7495d807a8c7850e",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "bytes": 74440,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/42%20Yacht/aquila-42-yacht-5.jpg",
@@ -220,7 +280,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/42%20Yacht/aquila-42-yacht-5.jpg",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:35:33Z",
+          "url": "https://www.aquilaboats.com/hubfs/42%20Yacht/aquila-42-yacht-5.jpg",
+          "sha256_observado": "380a5f0b311b08f933eb76a8c1c7486abfca2e5f7e52bcd1c95fc955e9b8c8da",
+          "sha256_esperado_anterior": "45e1b5ca2f7b8e25388bbc85391a5e42a2e842200025a71ef064e76de3d190f9",
+          "last_modified": "Mon, 28 Oct 2024 17:24:57 GMT",
+          "etag": "\"c5cf62b1e51b6ea3548f1f47635a864c\"",
+          "content_type": "image/jpeg",
+          "bytes": 302051
+        }
+      ]
     },
     {
       "id": "aquila-42-yacht-6",
@@ -250,7 +325,7 @@
       "sha256": "355311e7c318212a9be930e02599514e187c9ee6e9001fe90df165d2da7b881a",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "bytes": 81432,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/42%20Yacht/aquila-42-yacht-6.jpg",
@@ -263,7 +338,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/42%20Yacht/aquila-42-yacht-6.jpg",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:35:34Z",
+          "url": "https://www.aquilaboats.com/hubfs/42%20Yacht/aquila-42-yacht-6.jpg",
+          "sha256_observado": "e05a8f1a60eab4f1481c1c6d98f06b9f1fbf4ae981947aaf2685b20b074d4f0c",
+          "sha256_esperado_anterior": "25ef182196a41dd805c2ff62b15f4866cf23e84f08e34ed626ce4605fc7078ed",
+          "last_modified": "Mon, 28 Oct 2024 17:24:57 GMT",
+          "etag": "\"263d343b360b393f721d2f4c182ca5af\"",
+          "content_type": "image/jpeg",
+          "bytes": 294527
+        }
+      ]
     },
     {
       "id": "aquila-42-yacht-7",
@@ -293,7 +383,7 @@
       "sha256": "794a4f4e8f62b13205eff6686f15ab7dfea60b17c2ac188f7d97e65e61d706a8",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "bytes": 65800,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/42%20Yacht/aquila-42-yacht-7.jpg",
@@ -306,7 +396,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/42%20Yacht/aquila-42-yacht-7.jpg",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:35:34Z",
+          "url": "https://www.aquilaboats.com/hubfs/42%20Yacht/aquila-42-yacht-7.jpg",
+          "sha256_observado": "ff7fbba8bafe8735d39b00191d409daaf1f2b50e5a80a167ac06d137adf44d39",
+          "sha256_esperado_anterior": "d0ee09ad85a9c9f876f6a157c7e5d8cf5f4f93c9d3b39bcf43f36272644aa69f",
+          "last_modified": "Mon, 28 Oct 2024 17:24:57 GMT",
+          "etag": "\"7eb60c81f8d57266fab878e310592433\"",
+          "content_type": "image/jpeg",
+          "bytes": 99781
+        }
+      ]
     },
     {
       "id": "aquila-42-yacht-8",
@@ -336,7 +441,7 @@
       "sha256": "9347384f6d18d99a58cd1b794f7f859ee177bdcde63b4bf07d6dcd3ab78e7d9a",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "bytes": 40096,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/42%20Yacht/aquila-42-yacht-8.jpg",
@@ -349,7 +454,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/42%20Yacht/aquila-42-yacht-8.jpg",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:35:35Z",
+          "url": "https://www.aquilaboats.com/hubfs/42%20Yacht/aquila-42-yacht-8.jpg",
+          "sha256_observado": "8e6d3e2a1d8f4b55c0eadb23a1862cd1da9d336ae4c424e8ad13b13847f82592",
+          "sha256_esperado_anterior": "2551c62bd42f5849370fd274ea7e0e5de6f09298aeb0b7aec657ce5aeaf308e5",
+          "last_modified": "Mon, 28 Oct 2024 17:24:56 GMT",
+          "etag": "\"103fee4a8e9fc3a12e8b838480e71816\"",
+          "content_type": "image/jpeg",
+          "bytes": 194129
+        }
+      ]
     },
     {
       "id": "aquila-42-yacht-9",
@@ -379,7 +499,7 @@
       "sha256": "f42fde9f8191f6be442ec5fb60a70b2e8ce325e9e009b56deb6a7d3cf20009db",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "bytes": 58542,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/42%20Yacht/aquila-42-yacht-9.jpg",
@@ -392,7 +512,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/42%20Yacht/aquila-42-yacht-9.jpg",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:35:35Z",
+          "url": "https://www.aquilaboats.com/hubfs/42%20Yacht/aquila-42-yacht-9.jpg",
+          "sha256_observado": "82b05253014668925024fb2467e202171f1267bbb38b6c475bf2add9d77f96a2",
+          "sha256_esperado_anterior": "e21de64c60e386d5998a7efeb8828a65572c2fd3761a105e62d08b29af429cab",
+          "last_modified": "Mon, 28 Oct 2024 17:24:55 GMT",
+          "etag": "\"191903acc4dcd22abe0fddd69f27c2c8\"",
+          "content_type": "image/jpeg",
+          "bytes": 233212
+        }
+      ]
     },
     {
       "id": "aquila-42-yacht-10",
@@ -422,7 +557,7 @@
       "sha256": "b7dc916f412e7d3dcc1387536e157f8b6a72020011ba66aa2fee93b42fc454bd",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "bytes": 46976,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/42%20Yacht/aquila-42-yacht-10.jpg",
@@ -435,7 +570,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/42%20Yacht/aquila-42-yacht-10.jpg",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:35:36Z",
+          "url": "https://www.aquilaboats.com/hubfs/42%20Yacht/aquila-42-yacht-10.jpg",
+          "sha256_observado": "7a323a36bbfa4bc3182163bbeec2fd1b5eab545a300cdcd22e4a499ad6230d64",
+          "sha256_esperado_anterior": "0fc6fc724676d35bc5e38d49d7e7d7bec3194d046dc32ec39cc23b210e84b9ad",
+          "last_modified": "Mon, 28 Oct 2024 17:24:57 GMT",
+          "etag": "\"51f9546e120b1e7af94e0ecdd812f525\"",
+          "content_type": "image/jpeg",
+          "bytes": 212250
+        }
+      ]
     },
     {
       "id": "aquila-42-yacht-11",
@@ -465,7 +615,7 @@
       "sha256": "827f32e671dd2e7119e2e231acc4a1af6f1e7858bc60bed1b4c5bf872cd627bd",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "bytes": 20476,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/42%20Yacht/aquila-42-yacht-11.jpg",
@@ -478,7 +628,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/42%20Yacht/aquila-42-yacht-11.jpg",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:35:36Z",
+          "url": "https://www.aquilaboats.com/hubfs/42%20Yacht/aquila-42-yacht-11.jpg",
+          "sha256_observado": "b8531b691057bda0e1cbd9b2e8ef4cbba184ec7a9f341e8f71fd2fab39381541",
+          "sha256_esperado_anterior": "e6f20f85c213a0a416bfb1f08f49e7ec8c8bff637686608a1bd82c74cfaf94ab",
+          "last_modified": "Mon, 28 Oct 2024 17:24:56 GMT",
+          "etag": "\"caddc87db25e2d788a892fe74b8836c0\"",
+          "content_type": "image/jpeg",
+          "bytes": 44634
+        }
+      ]
     },
     {
       "id": "aquila-42-yacht-12",
@@ -508,7 +673,7 @@
       "sha256": "234d8b7857f23e3b144d00aa3829c72845e9e08a7fc2eb61171b9088199a0304",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "bytes": 18610,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/42%20Yacht/aquila-42-yacht-12.jpg",
@@ -521,7 +686,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/42%20Yacht/aquila-42-yacht-12.jpg",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:35:37Z",
+          "url": "https://www.aquilaboats.com/hubfs/42%20Yacht/aquila-42-yacht-12.jpg",
+          "sha256_observado": "8b08f1f0b27f78e8e0ec8115d51b2d031255b85628e993c3aa0bf175b63ee8f2",
+          "sha256_esperado_anterior": "8dfac65f8d4d4b5ed67aac8b071a4a06a8be415f2069b90fa1b1e055368f6f5e",
+          "last_modified": "Mon, 28 Oct 2024 17:24:56 GMT",
+          "etag": "\"0fc8c678337e71f10ae1230fde5b7a8d\"",
+          "content_type": "image/jpeg",
+          "bytes": 44948
+        }
+      ]
     },
     {
       "id": "aquila-42-yacht-13",
@@ -551,7 +731,7 @@
       "sha256": "f2419960d9b2429ed6e97151dea3317169eb5ba05f0707d57882acbcb931d48f",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "bytes": 40298,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/42%20Yacht/aquila-42-yacht-13.jpg",
@@ -564,7 +744,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/42%20Yacht/aquila-42-yacht-13.jpg",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:35:37Z",
+          "url": "https://www.aquilaboats.com/hubfs/42%20Yacht/aquila-42-yacht-13.jpg",
+          "sha256_observado": "b82cb35ed5611cbd75b799eb9b34a45242a3d630793cfae8e9ece5068b138c4d",
+          "sha256_esperado_anterior": "dc878ef667137a096f6e026fa04f78f2eaf8c45bfa8b6f0de30e9e8b65f71e39",
+          "last_modified": "Mon, 28 Oct 2024 17:24:57 GMT",
+          "etag": "\"ed109d70b22b368e9bab0a5ef7613d6c\"",
+          "content_type": "image/jpeg",
+          "bytes": 70119
+        }
+      ]
     },
     {
       "id": "aquila-42-yacht-14",
@@ -594,7 +789,7 @@
       "sha256": "ba2b3e5f3b39b50ab68cdd43fdac16021760fab355f8111bf7e68809b05d2745",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "bytes": 56010,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/42%20Yacht/aquila-42-yacht-14.jpg",
@@ -607,7 +802,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/42%20Yacht/aquila-42-yacht-14.jpg",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:35:38Z",
+          "url": "https://www.aquilaboats.com/hubfs/42%20Yacht/aquila-42-yacht-14.jpg",
+          "sha256_observado": "1f0a7029b82df4de26abc7dd920347fefdb3046708f13343f32ca5f6092f4d66",
+          "sha256_esperado_anterior": "05bf5b7fe1693fa63ee445fd643c734505d2041b9c5033b2b554c1d57ace5413",
+          "last_modified": "Mon, 28 Oct 2024 17:24:56 GMT",
+          "etag": "\"722f0fd6ac10585396f158a900ba7320\"",
+          "content_type": "image/jpeg",
+          "bytes": 71579
+        }
+      ]
     },
     {
       "id": "aquila-42-yacht-15",
@@ -637,7 +847,7 @@
       "sha256": "96e1d341854c92953244c9efba9cd8bc7f78f33763ef1cd46aa73364c60f6169",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "bytes": 40100,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/42%20Yacht/aquila-42-yacht-15.jpg",
@@ -650,7 +860,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/42%20Yacht/aquila-42-yacht-15.jpg",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:35:38Z",
+          "url": "https://www.aquilaboats.com/hubfs/42%20Yacht/aquila-42-yacht-15.jpg",
+          "sha256_observado": "8338687d0672a63cd6b9ef34f380d13295964316e61a7076c4b03544378b23cf",
+          "sha256_esperado_anterior": "bfc4c6692642c149f99118176976b66dca90ccf9d4b1f1024c79a20c8460495e",
+          "last_modified": "Mon, 28 Oct 2024 17:24:56 GMT",
+          "etag": "\"6db42f2918259c6840cc4188ec33fe7e\"",
+          "content_type": "image/jpeg",
+          "bytes": 68737
+        }
+      ]
     },
     {
       "id": "aquila-42-yacht-16",
@@ -680,7 +905,7 @@
       "sha256": "649eb3b6e895ec95cd1546060a89f43243e530ae0c30cd64acadf64b221e48ef",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "bytes": 55250,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/42%20Yacht/aquila-42-yacht-16.jpg",
@@ -693,7 +918,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/42%20Yacht/aquila-42-yacht-16.jpg",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:35:39Z",
+          "url": "https://www.aquilaboats.com/hubfs/42%20Yacht/aquila-42-yacht-16.jpg",
+          "sha256_observado": "df2d347b04194799970d0038ce6097f99765743f589be48cddcd8628a434d1e5",
+          "sha256_esperado_anterior": "01e2835f751e4d4f986e557b505e639f282b5141778a72732b81a7efd4cf3286",
+          "last_modified": "Mon, 28 Oct 2024 17:22:21 GMT",
+          "etag": "\"f871a24c5d3c0949933e54fd01c12a02\"",
+          "content_type": "image/jpeg",
+          "bytes": 241655
+        }
+      ]
     },
     {
       "id": "aquila-42-yacht-1",
@@ -723,7 +963,7 @@
       "sha256": "641c9659e73961562d68ce43ea19f079f8eeca105721740164de166b5bd36fb9",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "bytes": 44092,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/42%20Yacht/aquila-42-yacht-1.jpg",
@@ -736,7 +976,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/42%20Yacht/aquila-42-yacht-1.jpg",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:35:39Z",
+          "url": "https://www.aquilaboats.com/hubfs/42%20Yacht/aquila-42-yacht-1.jpg",
+          "sha256_observado": "9ea282be023ed7f591c9702f1f1e7c08f0fda4a53b21a893de23e679fd930b15",
+          "sha256_esperado_anterior": "8312013a4be07a0d001cbc79b0e277fdf9f16cd90e0dc010c02a6b7e4cba6315",
+          "last_modified": "Mon, 28 Oct 2024 17:24:56 GMT",
+          "etag": "\"9469fd31a0390b06d93a846fe97deed7\"",
+          "content_type": "image/jpeg",
+          "bytes": 69116
+        }
+      ]
     },
     {
       "id": "aqu-20849-42-yacht-model-launch-hero",
@@ -780,7 +1035,22 @@
         "full_resolution": true
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/42%20Yacht/aqu-20849-42-yacht-model-launch-hero.jpg",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:35:40Z",
+          "url": "https://www.aquilaboats.com/hubfs/42%20Yacht/aqu-20849-42-yacht-model-launch-hero.jpg",
+          "sha256_observado": "04b00a694adf9cf7a406adbda8a549f9d0bd7fb42fff227f514f2cd9e3910a73",
+          "sha256_esperado_anterior": "297cd0c05c43ef255abd0c252ef78705751f6821241880d93355a46e4db891a4",
+          "last_modified": "Mon, 28 Oct 2024 16:58:24 GMT",
+          "etag": "\"831e96a20cf763b26a89cea7df2cc3ac\"",
+          "content_type": "image/jpeg",
+          "bytes": 165584
+        }
+      ]
     }
   ]
 }

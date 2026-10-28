@@ -46,7 +46,22 @@
         "full_resolution": true
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/70%20Luxury/aqu-profile-line-art-flex-callout-70l-copy.png",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:36:12Z",
+          "url": "https://www.aquilaboats.com/hubfs/70%20Luxury/aqu-profile-line-art-flex-callout-70l-copy.png",
+          "sha256_observado": "1a9a14ed29d6bfb6ffe84af0837a1ce00bed22cb45d8340c4ccf0916e6a1f6be",
+          "sha256_esperado_anterior": "7cf7864394b29b9883ae4edc167b1465cb77d7725d4be1d7eba51d17aa744ab1",
+          "last_modified": "Mon, 28 Oct 2024 19:29:26 GMT",
+          "etag": "\"b56d7e4f69427d9ecb2d52673acb62ed\"",
+          "content_type": "image/png",
+          "bytes": 33481
+        }
+      ]
     },
     {
       "id": "aquila70-gallery-02-03232021",
@@ -76,7 +91,7 @@
       "sha256": "9cd8241b87dd1f0cc7aaf3621362459f3b23a63a53504d7016da54c22f48bb2e",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "hero_rank": 2,
       "bytes": 59350,
       "original": {
@@ -90,7 +105,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/70%20Luxury/aquila70-gallery-02-03232021.jpg",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:36:13Z",
+          "url": "https://www.aquilaboats.com/hubfs/70%20Luxury/aquila70-gallery-02-03232021.jpg",
+          "sha256_observado": "c635a3d843421ba6624392c49f50ddbf5f832fe154cf98382f4fab21b6f9152b",
+          "sha256_esperado_anterior": "953b979efd44796f7ef8e3fce5d856c232c0153fe061b5f7518d6b30324dc83c",
+          "last_modified": "Mon, 28 Oct 2024 19:23:37 GMT",
+          "etag": "\"cd5f9dd0f31f17253ff94f18a3624f8b\"",
+          "content_type": "image/jpeg",
+          "bytes": 88913
+        }
+      ]
     },
     {
       "id": "aquila70-gallery-03-03232021",
@@ -120,7 +150,7 @@
       "sha256": "fae8058249e63ed98a4e71e1f4aa95feb4627bfab2a79e19e3b36ba29c780f71",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "hero_rank": 3,
       "bytes": 19402,
       "original": {
@@ -134,7 +164,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/70%20Luxury/aquila70-gallery-03-03232021.jpg",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:36:13Z",
+          "url": "https://www.aquilaboats.com/hubfs/70%20Luxury/aquila70-gallery-03-03232021.jpg",
+          "sha256_observado": "6603bd884eca16c338887eaa81a646ab4328057d2fd0a7b24a3ac621cacd0e86",
+          "sha256_esperado_anterior": "7aaa480ef70917ac4e77da6bb97206ba3c1c3bf002585191c88034f48468747b",
+          "last_modified": "Mon, 28 Oct 2024 19:24:02 GMT",
+          "etag": "\"90d737f0ef88d4688cb0985b14dc9eb5\"",
+          "content_type": "image/jpeg",
+          "bytes": 41192
+        }
+      ]
     },
     {
       "id": "aquila70-gallery-04-03232021",
@@ -164,7 +209,7 @@
       "sha256": "efc4e361b3d87185d67d2c483e22f56d2a7b25bb56d3b25eb3c351ca2c8de077",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "bytes": 47368,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/70%20Luxury/aquila70-gallery-04-03232021.jpg",
@@ -177,7 +222,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/70%20Luxury/aquila70-gallery-04-03232021.jpg",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:36:13Z",
+          "url": "https://www.aquilaboats.com/hubfs/70%20Luxury/aquila70-gallery-04-03232021.jpg",
+          "sha256_observado": "06f4f84dcc22deae927ab757e5d5c33c0c1982646310d98f7df03c1af25f18e3",
+          "sha256_esperado_anterior": "222c272a9c1299a7c3f678538b4d8677e319d777ea332192aaafb78cdee434c1",
+          "last_modified": "Mon, 28 Oct 2024 19:24:30 GMT",
+          "etag": "\"89e845ef47926711acbbc8db7c348f5f\"",
+          "content_type": "image/jpeg",
+          "bytes": 72013
+        }
+      ]
     },
     {
       "id": "aquila70-gallery-05-03232021",
@@ -207,7 +267,7 @@
       "sha256": "3972906bb51ee22c0f28266fc51419cf5988bfcebb4d6860ce7f3c859c756875",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "bytes": 44190,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/70%20Luxury/aquila70-gallery-05-03232021.jpg",
@@ -220,7 +280,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/70%20Luxury/aquila70-gallery-05-03232021.jpg",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:36:14Z",
+          "url": "https://www.aquilaboats.com/hubfs/70%20Luxury/aquila70-gallery-05-03232021.jpg",
+          "sha256_observado": "6358e96a56f05c5570d6c2267b512cfc61068c3ea194c4d0f79dbb7d614c6bc4",
+          "sha256_esperado_anterior": "efe81eb679359474f36622526372d8d232c61b40d85dd2f9a74d7e5d63bff296",
+          "last_modified": "Mon, 28 Oct 2024 19:24:55 GMT",
+          "etag": "\"d3e9152d7e36974493ef3ca34c6785c8\"",
+          "content_type": "image/jpeg",
+          "bytes": 73472
+        }
+      ]
     },
     {
       "id": "aquila70-gallery-06-03232021",
@@ -250,7 +325,7 @@
       "sha256": "66aa14cdb0b1152f36d65a9b00701dc07fb3f4e8b6ae90813cf427a1c0e4cab0",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "bytes": 41598,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/70%20Luxury/aquila70-gallery-06-03232021.jpg",
@@ -263,7 +338,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/70%20Luxury/aquila70-gallery-06-03232021.jpg",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:36:15Z",
+          "url": "https://www.aquilaboats.com/hubfs/70%20Luxury/aquila70-gallery-06-03232021.jpg",
+          "sha256_observado": "13dace0da854845109721fa53bc147a24d1f5e427f8746c434f4608e598476cc",
+          "sha256_esperado_anterior": "8fdd9db6e12cdbddec2c38aa988b2c7319a024bb7b330523e2a565fa3968a7c8",
+          "last_modified": "Mon, 28 Oct 2024 19:25:11 GMT",
+          "etag": "\"49a3c37dbdba208b06d9e45d13c711b3\"",
+          "content_type": "image/jpeg",
+          "bytes": 66101
+        }
+      ]
     },
     {
       "id": "aquila70-gallery-07-03232021",
@@ -293,7 +383,7 @@
       "sha256": "631544741b511d1353975beac978dc27e2ee885fce3b8a1c71637575a0e541f5",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "bytes": 51590,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/70%20Luxury/aquila70-gallery-07-03232021.jpg",
@@ -306,7 +396,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/70%20Luxury/aquila70-gallery-07-03232021.jpg",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:36:15Z",
+          "url": "https://www.aquilaboats.com/hubfs/70%20Luxury/aquila70-gallery-07-03232021.jpg",
+          "sha256_observado": "c85be40c5915a9b7dcc3b7ebf2fa83c7579a58228ca9bf04da2b00d03343884a",
+          "sha256_esperado_anterior": "7ac6ba2defe79ba66e261e33d6c1cffdcfb52144ed7124827c577eef83695618",
+          "last_modified": "Mon, 28 Oct 2024 19:25:29 GMT",
+          "etag": "\"3b7e2ca7f37830b2004a2060b6494f6a\"",
+          "content_type": "image/jpeg",
+          "bytes": 111355
+        }
+      ]
     },
     {
       "id": "aquila70-gallery-08-03232021",
@@ -336,7 +441,7 @@
       "sha256": "8bb5a37522906aa355fe9d14e9641a984d690a99be0dc2974bc1f521ba3e2bb2",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "bytes": 55150,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/70%20Luxury/aquila70-gallery-08-03232021.jpg",
@@ -349,7 +454,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/70%20Luxury/aquila70-gallery-08-03232021.jpg",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:36:15Z",
+          "url": "https://www.aquilaboats.com/hubfs/70%20Luxury/aquila70-gallery-08-03232021.jpg",
+          "sha256_observado": "dd49dff7870ff685f81ce0530a3faa1dfaed13bc5f04631d0ff86e6891001953",
+          "sha256_esperado_anterior": "889000cc4f2b93592b994e5ffd682a2f99956162f0c475c49e9ef2faff9649ac",
+          "last_modified": "Mon, 28 Oct 2024 19:25:48 GMT",
+          "etag": "\"c68aed2361f1d5cf128bd9bedd74cb0b\"",
+          "content_type": "image/jpeg",
+          "bytes": 87880
+        }
+      ]
     },
     {
       "id": "aquila70-gallery-09-03232021",
@@ -392,7 +512,22 @@
         "full_resolution": true
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/70%20Luxury/aquila70-gallery-09-03232021.jpg",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:36:16Z",
+          "url": "https://www.aquilaboats.com/hubfs/70%20Luxury/aquila70-gallery-09-03232021.jpg",
+          "sha256_observado": "f67a32fbea218b1d905f65fcb61296987055435e7a33c48f00a5af287e327761",
+          "sha256_esperado_anterior": "7503616c730de5972c5583ee9cd041ea61b1b47734eee0082bdba2068b847744",
+          "last_modified": "Mon, 28 Oct 2024 19:26:06 GMT",
+          "etag": "\"00c6d61a638556a6c4a511c7a0598334\"",
+          "content_type": "image/jpeg",
+          "bytes": 78038
+        }
+      ]
     },
     {
       "id": "aquila70-gallery-10-03232021",
@@ -422,7 +557,7 @@
       "sha256": "81abc1227a4229a6f51ccf56b3ebeba1f190f02b04b379801da07ff9a31a317d",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "bytes": 46706,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/70%20Luxury/aquila70-gallery-10-03232021.jpg",
@@ -435,7 +570,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/70%20Luxury/aquila70-gallery-10-03232021.jpg",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:36:16Z",
+          "url": "https://www.aquilaboats.com/hubfs/70%20Luxury/aquila70-gallery-10-03232021.jpg",
+          "sha256_observado": "bd801b9cbacead73f30a44418aa77e203d89ca71de59675719239b22910e100b",
+          "sha256_esperado_anterior": "93b68b4dc9ae74cfb9bbb43c1d904d873e75ba41ae57f04a3c45deec38a0e320",
+          "last_modified": "Mon, 28 Oct 2024 19:26:27 GMT",
+          "etag": "\"e78060613ddc2e4297fc7e9d45e9bc6c\"",
+          "content_type": "image/jpeg",
+          "bytes": 82829
+        }
+      ]
     },
     {
       "id": "aquila70-gallery-11-03232021",
@@ -465,7 +615,7 @@
       "sha256": "ef90329d1ef3467e537fc106129ee66aeb419f3ca8236d9a30687ff8641c9331",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "bytes": 65584,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/70%20Luxury/aquila70-gallery-11-03232021.jpg",
@@ -478,7 +628,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/70%20Luxury/aquila70-gallery-11-03232021.jpg",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:36:17Z",
+          "url": "https://www.aquilaboats.com/hubfs/70%20Luxury/aquila70-gallery-11-03232021.jpg",
+          "sha256_observado": "afd8208313affd98df6c795f71b5030c2513bd3c92ec334171717e8e0953acd0",
+          "sha256_esperado_anterior": "b2796b5d460f95fd9c6d4fb576f6f846486ce09d5c8a6af292521fb6a4594c3e",
+          "last_modified": "Mon, 28 Oct 2024 19:26:49 GMT",
+          "etag": "\"1797ef00603015b918c7cbe0a726f25a\"",
+          "content_type": "image/jpeg",
+          "bytes": 82877
+        }
+      ]
     },
     {
       "id": "aquila70-gallery-12-03232021",
@@ -508,7 +673,7 @@
       "sha256": "dac7b424c44f0b4827cb8a0350117b2c584a586f12a6cce76b7f62c1f5ccd168",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "bytes": 39862,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/70%20Luxury/aquila70-gallery-12-03232021.jpg",
@@ -521,7 +686,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/70%20Luxury/aquila70-gallery-12-03232021.jpg",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:36:17Z",
+          "url": "https://www.aquilaboats.com/hubfs/70%20Luxury/aquila70-gallery-12-03232021.jpg",
+          "sha256_observado": "4211adf742e0bd6b21a76c903849b39f640538c2a1db5836f581878826750ff9",
+          "sha256_esperado_anterior": "4d59c9307f0f8016fa51a1c734d2a80810d45bf46a03db5a036e6b3d30954a8d",
+          "last_modified": "Mon, 28 Oct 2024 19:27:13 GMT",
+          "etag": "\"46179daf78b05edcbb9fdfc2f2bb23aa\"",
+          "content_type": "image/jpeg",
+          "bytes": 76303
+        }
+      ]
     },
     {
       "id": "aquila70-gallery-13-03232021",
@@ -551,7 +731,7 @@
       "sha256": "6e18585ee80dba49ecf24f3582318ecf05433978a36e2bab57c979451e163652",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "bytes": 50184,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/70%20Luxury/aquila70-gallery-13-03232021.jpg",
@@ -564,7 +744,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/70%20Luxury/aquila70-gallery-13-03232021.jpg",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:36:18Z",
+          "url": "https://www.aquilaboats.com/hubfs/70%20Luxury/aquila70-gallery-13-03232021.jpg",
+          "sha256_observado": "77c5b2bdfeb35b88974f36dcf789b4c4ea5400a647777ef9ca34786c9def02b0",
+          "sha256_esperado_anterior": "6aed11205105c010078225fd1044f9244c49b4269edcd51753d139d5d5b77ac9",
+          "last_modified": "Mon, 28 Oct 2024 19:27:41 GMT",
+          "etag": "\"699efd77faad9c820a8a2f23ddf0cbcf\"",
+          "content_type": "image/jpeg",
+          "bytes": 85195
+        }
+      ]
     },
     {
       "id": "aquila70-gallery-14-03232021",
@@ -594,7 +789,7 @@
       "sha256": "b5171c5a33d7b93bea8468274af64dae7557f96797b5b4d671925ab47ffdc477",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "bytes": 47512,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/70%20Luxury/aquila70-gallery-14-03232021.jpg",
@@ -607,7 +802,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/70%20Luxury/aquila70-gallery-14-03232021.jpg",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:36:18Z",
+          "url": "https://www.aquilaboats.com/hubfs/70%20Luxury/aquila70-gallery-14-03232021.jpg",
+          "sha256_observado": "13f9c03a44710bf653d6a3681a88588173193228942b634b7443cc722bacb1ac",
+          "sha256_esperado_anterior": "a834bcb5b46bcf8922a0492865f51a9f743ab4dfc413a8fa3bbb7537c6f5c9b9",
+          "last_modified": "Mon, 28 Oct 2024 19:28:02 GMT",
+          "etag": "\"e74ce90df32c8a92c79619bb876f0cd2\"",
+          "content_type": "image/jpeg",
+          "bytes": 74672
+        }
+      ]
     },
     {
       "id": "aquila70-gallery-15-03232021",
@@ -637,7 +847,7 @@
       "sha256": "ac57e07ec40b7737ed7bce428155dd33176385cbef8a6afcd71249510b3d11b4",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "bytes": 62574,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/70%20Luxury/aquila70-gallery-15-03232021.jpg",
@@ -650,7 +860,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/70%20Luxury/aquila70-gallery-15-03232021.jpg",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:36:19Z",
+          "url": "https://www.aquilaboats.com/hubfs/70%20Luxury/aquila70-gallery-15-03232021.jpg",
+          "sha256_observado": "8041edf5a24f7bc6bdc09ba386cf848e0193df2c8d148bb9d4968a83ac23e094",
+          "sha256_esperado_anterior": "3a25714ab472b3314911fd4b47b780078aa1e5d6fb3bd8f5a53088c9e142be99",
+          "last_modified": "Mon, 28 Oct 2024 19:28:34 GMT",
+          "etag": "\"53d90c6cc765dcd813294a2915f2820a\"",
+          "content_type": "image/jpeg",
+          "bytes": 80558
+        }
+      ]
     },
     {
       "id": "aquila70-gallery-16-03232021",
@@ -680,7 +905,7 @@
       "sha256": "b9aa7fee49d03f0240b575cc40e2ec871ccf5d947602cf7903fc4f194ac4c3ff",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "bytes": 23358,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/70%20Luxury/aquila70-gallery-16-03232021.jpg",
@@ -693,7 +918,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/70%20Luxury/aquila70-gallery-16-03232021.jpg",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:36:19Z",
+          "url": "https://www.aquilaboats.com/hubfs/70%20Luxury/aquila70-gallery-16-03232021.jpg",
+          "sha256_observado": "5cb42a6b53598235e7600965d4cdef073eb580d0f6c54b077e9f651120d73d65",
+          "sha256_esperado_anterior": "f0370834152f365b132265acac8bb344f77c480c6a27bad7d5d48e9a92061a11",
+          "last_modified": "Mon, 28 Oct 2024 19:29:02 GMT",
+          "etag": "\"809eb824b7a9606e7b276b87d3d8cd95\"",
+          "content_type": "image/jpeg",
+          "bytes": 57247
+        }
+      ]
     },
     {
       "id": "aquila70-galery20-03042021",
@@ -723,7 +963,7 @@
       "sha256": "69a07ece816041052d009a8f7de727544ef47518b2b3fb976de861970c224c6a",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "bytes": 31020,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/70%20Luxury/aquila70-galery20-03042021.png",
@@ -736,7 +976,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/70%20Luxury/aquila70-galery20-03042021.png",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:36:20Z",
+          "url": "https://www.aquilaboats.com/hubfs/70%20Luxury/aquila70-galery20-03042021.png",
+          "sha256_observado": "736b19bcf7e82dc7988dbbe22d15c7ac0b6847d3d0e8a5e3038fc5e104e2f0cf",
+          "sha256_esperado_anterior": "66224976911e43ba915a5a75c3763d71462b71321e549c7baa4dc211a7ce4527",
+          "last_modified": "Mon, 28 Oct 2024 19:21:00 GMT",
+          "etag": "\"b7e90244161c5457215dbeae6f2f05bb\"",
+          "content_type": "image/png",
+          "bytes": 496455
+        }
+      ]
     },
     {
       "id": "image-48",
@@ -766,7 +1021,7 @@
       "sha256": "30c9676e287914ef44eb77688722f54cd7745e3235748b5bc30facd6dcdbe837",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "bytes": 45308,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/70%20Luxury/image%20(48).png",
@@ -779,7 +1034,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/70%20Luxury/image%20(48).png",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:36:21Z",
+          "url": "https://www.aquilaboats.com/hubfs/70%20Luxury/image%20(48).png",
+          "sha256_observado": "2833989a30357ebe272597b793ef49240ebf4753d3094d8f9a7f82e6feeabd18",
+          "sha256_esperado_anterior": "d0f6e2c063809dcdebfa83c9982e49c0f48ccc3cdbc4871dfdb3d3f8f1510b55",
+          "last_modified": "Mon, 28 Oct 2024 19:33:19 GMT",
+          "etag": "\"5f6ac97d073b0d866d35d9fbc68e8d4e\"",
+          "content_type": "image/png",
+          "bytes": 585937
+        }
+      ]
     },
     {
       "id": "image-49",
@@ -809,7 +1079,7 @@
       "sha256": "18be4b5aa158b5f40f788842f67deaced32febae6d9ccc1ae84d74d8839c12df",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "bytes": 42040,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/70%20Luxury/image%20(49).png",
@@ -822,7 +1092,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/70%20Luxury/image%20(49).png",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:36:23Z",
+          "url": "https://www.aquilaboats.com/hubfs/70%20Luxury/image%20(49).png",
+          "sha256_observado": "79f047e691aa67113e6c62940e5768c9339c31b6e27f8641a079ef2d1b95d5d2",
+          "sha256_esperado_anterior": "a8e5975785bf93fbcff0374915094567888f8cc5802e93e82ec0f145b55f405b",
+          "last_modified": "Mon, 28 Oct 2024 19:33:19 GMT",
+          "etag": "\"c141427db4f2fdfe5327da661c0015e0\"",
+          "content_type": "image/png",
+          "bytes": 681895
+        }
+      ]
     },
     {
       "id": "image-50",
@@ -852,7 +1137,7 @@
       "sha256": "430aeb9cf96a04724a5544c767d45bc4c51363d2937c95047f5ca018a368b026",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "bytes": 36224,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/70%20Luxury/image%20(50).png",
@@ -865,7 +1150,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/70%20Luxury/image%20(50).png",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:36:25Z",
+          "url": "https://www.aquilaboats.com/hubfs/70%20Luxury/image%20(50).png",
+          "sha256_observado": "689fe8c1d53393f95c4997fb2ee70f585455ff28fb90991bae98c0dfb3708ba7",
+          "sha256_esperado_anterior": "f32973009162b617c35672a43f53a5c106aee0403ca1c0bd2af5b1f85be70a9e",
+          "last_modified": "Mon, 28 Oct 2024 19:33:19 GMT",
+          "etag": "\"77b76571b3c801e51232da3d4fe3d960\"",
+          "content_type": "image/png",
+          "bytes": 645772
+        }
+      ]
     },
     {
       "id": "image-51",
@@ -895,7 +1195,7 @@
       "sha256": "d0ee52e5d8eeff2c51d7fc52c710bba074a8c53f0ca9ca721250efd9860daa6a",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "bytes": 46706,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/70%20Luxury/image%20(51).png",
@@ -908,7 +1208,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/70%20Luxury/image%20(51).png",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:36:26Z",
+          "url": "https://www.aquilaboats.com/hubfs/70%20Luxury/image%20(51).png",
+          "sha256_observado": "592ec7227f5b343fea9c0cb70fdf9cef967e4d03bab6115e9d181355ead5002c",
+          "sha256_esperado_anterior": "7a80cdebb354ca6fd966b7fab9a8c1c1275f406d6b739650e8032bf958247e78",
+          "last_modified": "Mon, 28 Oct 2024 19:33:19 GMT",
+          "etag": "\"ebd50ed36b5265b17ed9d23477b0f099\"",
+          "content_type": "image/png",
+          "bytes": 564618
+        }
+      ]
     },
     {
       "id": "image-52",
@@ -938,7 +1253,7 @@
       "sha256": "0f9422c0c875f239cd0fd60c2b9ae23d5a168ee59a4dc2966d763981d8036cac",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "bytes": 25756,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/70%20Luxury/image%20(52).png",
@@ -951,7 +1266,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/70%20Luxury/image%20(52).png",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:36:28Z",
+          "url": "https://www.aquilaboats.com/hubfs/70%20Luxury/image%20(52).png",
+          "sha256_observado": "3763e7c862ead0d082a5b5db34f8ef867c73d13ac9f69ed537f5a974c9216b48",
+          "sha256_esperado_anterior": "8b709b7fba2a2d365746ff8d00a10fb691dd8d78b7e07043c40cf839be87a206",
+          "last_modified": "Mon, 28 Oct 2024 19:33:19 GMT",
+          "etag": "\"d5f4f943929ebd0b9c75c4f2db890a75\"",
+          "content_type": "image/png",
+          "bytes": 518142
+        }
+      ]
     },
     {
       "id": "image-53",
@@ -981,7 +1311,7 @@
       "sha256": "3a424d41bd7c7bd86f31d22f3c55074d36f0a897334a70860d9bb7f32d332ec0",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "bytes": 29816,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/70%20Luxury/image%20(53).png",
@@ -994,7 +1324,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/70%20Luxury/image%20(53).png",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:36:30Z",
+          "url": "https://www.aquilaboats.com/hubfs/70%20Luxury/image%20(53).png",
+          "sha256_observado": "f1f57124335bb66ee2afbebb3f7009abe252ba929e50346d001471a568d59ba3",
+          "sha256_esperado_anterior": "34512ece4c43805397925f924621e67a3acb2d018ad2648e35082aa9b7e00327",
+          "last_modified": "Mon, 28 Oct 2024 19:33:18 GMT",
+          "etag": "\"0af1860d16008ab70b09f5ff5178c45d\"",
+          "content_type": "image/png",
+          "bytes": 409064
+        }
+      ]
     },
     {
       "id": "image-47",
@@ -1024,7 +1369,7 @@
       "sha256": "096a2b00d14db0c6670a362e0b7e2c3ea5e706cb3a2954b95c339b2a691dc489",
       "collected_at": "2026-09-30",
       "downloaded_at": "2026-10-01",
-      "download_status": "WEB_COPY (original no disponible; desde CDN)",
+      "download_status": "WEB_COPY",
       "bytes": 49478,
       "original": {
         "url": "https://46024423.fs1.hubspotusercontent-na1.net/hubfs/46024423/70%20Luxury/image%20(47).png",
@@ -1037,7 +1382,22 @@
         "full_resolution": false
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/70%20Luxury/image%20(47).png",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:36:31Z",
+          "url": "https://www.aquilaboats.com/hubfs/70%20Luxury/image%20(47).png",
+          "sha256_observado": "eadc321fae1efa4d36c8bcf7c7e31f41e6a3fda06c28317fa0b35373d4f8a027",
+          "sha256_esperado_anterior": "c402695e0f9e0d3ff58872b9966b02b45609c558d15d000b665af4334655289a",
+          "last_modified": "Mon, 28 Oct 2024 19:33:19 GMT",
+          "etag": "\"87427588af3e740d36c8cfa9225af305\"",
+          "content_type": "image/png",
+          "bytes": 711736
+        }
+      ]
     },
     {
       "id": "aquila70-hero-03232021",
@@ -1081,7 +1441,22 @@
         "full_resolution": true
       },
       "downloaded_from": "https://www.aquilaboats.com/hubfs/70%20Luxury/aquila70-hero-03232021.jpg",
-      "web_quality": 75
+      "web_quality": 75,
+      "review_log": [
+        {
+          "decision": "accepted_by_rule",
+          "rule": "last_modified_anterior_al_registro+dimensiones_coinciden",
+          "by": "ap-001",
+          "at": "2026-10-28T16:36:32Z",
+          "url": "https://www.aquilaboats.com/hubfs/70%20Luxury/aquila70-hero-03232021.jpg",
+          "sha256_observado": "1d3e9ca4e9d3594abcc1c274686e6d2a59a64f522dd0199c052ef5418ee4c4b5",
+          "sha256_esperado_anterior": "2030abc4d4d0c95d5b7421bb8991597b1cba5a466cb868893171fdee4bf14c1e",
+          "last_modified": "Mon, 28 Oct 2024 17:04:03 GMT",
+          "etag": "\"c02997cd9c9a97c859e0bc9764276dbb\"",
+          "content_type": "image/jpeg",
+          "bytes": 157462
+        }
+      ]
     }
   ]
 }

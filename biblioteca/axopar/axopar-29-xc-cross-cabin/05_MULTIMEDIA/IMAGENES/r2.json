@@ -1,0 +1,616 @@
+{
+ "version": 1,
+ "images": [
+  {
+   "id": "axopar-29-xc-cross-cabin-dji-20250608220901-0021-d",
+   "key": "axopar/axopar-29-xc-cross-cabin/exterior/axopar-29-xc-cross-cabin-dji-20250608220901-0021-d-e3bb65fc.webp",
+   "sha256": "e3bb65fc011af76bb0abd9939be4bf2dce49dc5c54189f8d80d7c61e28e1bed1",
+   "bytes": 358532,
+   "uploaded_at": "2026-10-28T21:59:07+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-29-xc-cross-cabin-dji-20250608220901-0021-d-m",
+   "key": "axopar/axopar-29-xc-cross-cabin/exterior/axopar-29-xc-cross-cabin-dji-20250608220901-0021-d-m-15d7e16a.webp",
+   "sha256": "15d7e16a4e6219814522b200c81d93c33299fb231a4e539ba6655bb041ee3b82",
+   "bytes": 298758,
+   "uploaded_at": "2026-10-28T21:59:07+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-29-xc-cross-cabin-8739",
+   "key": "axopar/axopar-29-xc-cross-cabin/exterior/axopar-29-xc-cross-cabin-8739-c0768fab.webp",
+   "sha256": "c0768fabdaadf89e3e0960f60eedc5b1c0a0034cdb40f051eeca11ec425b9aab",
+   "bytes": 131162,
+   "uploaded_at": "2026-10-28T21:59:07+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-29-xc-cross-cabin-8739-m",
+   "key": "axopar/axopar-29-xc-cross-cabin/cabin/axopar-29-xc-cross-cabin-8739-m-d85cfada.webp",
+   "sha256": "d85cfadac6d31eef5772ad8d75648164ded0a8cf44801f46ed59ded2cc99431e",
+   "bytes": 87130,
+   "uploaded_at": "2026-10-28T21:59:07+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-29-xc-cross-cabin-axopar-shoot-16-may-mallorca-dng-dscf4961-raf",
+   "key": "axopar/axopar-29-xc-cross-cabin/interior/axopar-29-xc-cross-cabin-axopar-shoot-16-may-mallorca-dng-dscf4961-raf-b5671c95.webp",
+   "sha256": "b5671c95f02d1ce5a1479505213ac8223d56caa5cef6ce593fe67980e7df98bf",
+   "bytes": 125984,
+   "uploaded_at": "2026-10-28T21:59:07+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-29-xc-0v9a0038-edit",
+   "key": "axopar/axopar-29-xc-cross-cabin/helm/axopar-29-xc-0v9a0038-edit-1fbe4e1d.webp",
+   "sha256": "1fbe4e1dac64c8d25cdca3ea0bc6fa37fb61577a4ec76b81deff09ecb2e8d5cc",
+   "bytes": 81472,
+   "uploaded_at": "2026-10-28T21:59:07+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-29-xc-0v9a0174-edit-axedit",
+   "key": "axopar/axopar-29-xc-cross-cabin/other/axopar-29-xc-0v9a0174-edit-axedit-be823829.webp",
+   "sha256": "be8238291e985e31b9bee998e6bef382fd114eb33a1759ff3302e5dac522c0a8",
+   "bytes": 79824,
+   "uploaded_at": "2026-10-28T21:59:07+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "ax29-crosscabin-aftcabin-00008",
+   "key": "axopar/axopar-29-xc-cross-cabin/other/ax29-crosscabin-aftcabin-00008-46ca5ea7.webp",
+   "sha256": "46ca5ea7667f0f63765b87f974be690cc706dda4db00495bd7bedadcdaa17ed4",
+   "bytes": 35508,
+   "uploaded_at": "2026-10-28T21:59:07+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-29-xc-dji-20241002180652-0180-d",
+   "key": "axopar/axopar-29-xc-cross-cabin/exterior/axopar-29-xc-dji-20241002180652-0180-d-662bab4c.webp",
+   "sha256": "662bab4cda77be93045bd2fef34d64a1e1c849bd1877991faeb8002b1b593765",
+   "bytes": 95702,
+   "uploaded_at": "2026-10-28T21:59:08+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-29-xc-0v9a0223",
+   "key": "axopar/axopar-29-xc-cross-cabin/other/axopar-29-xc-0v9a0223-fefc4d6b.webp",
+   "sha256": "fefc4d6b91dd6a5892154e33d93c2b0263b4cea902a8dcd122e6b54e3fa3761a",
+   "bytes": 88284,
+   "uploaded_at": "2026-10-28T21:59:08+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-29-xc-0v9a0335-edit",
+   "key": "axopar/axopar-29-xc-cross-cabin/cabin/axopar-29-xc-0v9a0335-edit-5899649f.webp",
+   "sha256": "5899649f3fddc885e73fc031afc80755f1776bdbeeb21b9f93c7868960033238",
+   "bytes": 68074,
+   "uploaded_at": "2026-10-28T21:59:08+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-29-xc-0v9a9992-edit",
+   "key": "axopar/axopar-29-xc-cross-cabin/other/axopar-29-xc-0v9a9992-edit-c3fe0b75.webp",
+   "sha256": "c3fe0b759489b0884931547bc4b6ab216925c156976e32abd12a0a6d141fdcdf",
+   "bytes": 76010,
+   "uploaded_at": "2026-10-28T21:59:08+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-29-xc-0v9a0064-edit",
+   "key": "axopar/axopar-29-xc-cross-cabin/cabin/axopar-29-xc-0v9a0064-edit-de98064f.webp",
+   "sha256": "de98064f63e4dff5bbeae518bfeb766cda53b5b51ce06afe73ee4dac70ea31e7",
+   "bytes": 87360,
+   "uploaded_at": "2026-10-28T21:59:08+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-29-xc-cross-cabin-axopar-shoot-16-may-mallorca-dng-dscf5082-raf",
+   "key": "axopar/axopar-29-xc-cross-cabin/interior/axopar-29-xc-cross-cabin-axopar-shoot-16-may-mallorca-dng-dscf5082-raf-3ed869be.webp",
+   "sha256": "3ed869be6d76de454b06584e82171909b38f9058b74261397b1f51d58e7dab07",
+   "bytes": 96212,
+   "uploaded_at": "2026-10-28T21:59:08+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-29-sun-top-axopar-shoot-16-may-mallorca-dng-dscf4693-raf",
+   "key": "axopar/axopar-29-xc-cross-cabin/interior/axopar-29-sun-top-axopar-shoot-16-may-mallorca-dng-dscf4693-raf-bb431254.webp",
+   "sha256": "bb43125499df1afc556468f4e4058039dfff4a785e1b62285603dbf545ba4044",
+   "bytes": 149468,
+   "uploaded_at": "2026-10-28T21:59:08+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "29-xc-open-aft-squash",
+   "key": "axopar/axopar-29-xc-cross-cabin/other/29-xc-open-aft-squash-21592bb4.webp",
+   "sha256": "21592bb4640150d1c33a245fefc4ed283bd35868b66c4cc3d804196aecbc2e62",
+   "bytes": 83062,
+   "uploaded_at": "2026-10-28T21:59:08+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "29-xc-aft-deck-bench-petrol",
+   "key": "axopar/axopar-29-xc-cross-cabin/other/29-xc-aft-deck-bench-petrol-4cd3f291.webp",
+   "sha256": "4cd3f2912009eff968a07affd8d8810fef872319a86cae6d0cc22db19ee17b3c",
+   "bytes": 83532,
+   "uploaded_at": "2026-10-28T21:59:22+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "29-xc-wet-bar-hunter",
+   "key": "axopar/axopar-29-xc-cross-cabin/other/29-xc-wet-bar-hunter-e42f1c74.webp",
+   "sha256": "e42f1c74ddb3945fa10581b001c93efc6e6e8dcddadd7170db75e193b4cc6724",
+   "bytes": 81464,
+   "uploaded_at": "2026-10-28T21:59:22+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "29-xc-aft-cabin-sphere",
+   "key": "axopar/axopar-29-xc-cross-cabin/other/29-xc-aft-cabin-sphere-ef286aa0.webp",
+   "sha256": "ef286aa05d66e29e5b6c8382485d946519c9998891705b31884300de9f5674e2",
+   "bytes": 83472,
+   "uploaded_at": "2026-10-28T21:59:22+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-29-xc-open-aft-fwd-facing-lounge",
+   "key": "axopar/axopar-29-xc-cross-cabin/other/axopar-29-xc-open-aft-fwd-facing-lounge-d0bb3315.webp",
+   "sha256": "d0bb331508ca1ae8dd61f8931df69fe9dc778d3bf3570605c8e69c228a8a7345",
+   "bytes": 47956,
+   "uploaded_at": "2026-10-28T21:59:23+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-29-xc-aft-deck-bench-l-sofa",
+   "key": "axopar/axopar-29-xc-cross-cabin/other/axopar-29-xc-aft-deck-bench-l-sofa-f2ff2671.webp",
+   "sha256": "f2ff2671886ebde3da55869b02994d86c21794990136a001d56d3633ff93ff24",
+   "bytes": 48382,
+   "uploaded_at": "2026-10-28T21:59:23+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-29-xc-wet-bar-sphere",
+   "key": "axopar/axopar-29-xc-cross-cabin/other/axopar-29-xc-wet-bar-sphere-9730b037.webp",
+   "sha256": "9730b037057742bcf75d1825f04a6d942b379d93f19f451f0920d46fe884bdc1",
+   "bytes": 49086,
+   "uploaded_at": "2026-10-28T21:59:23+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "aft-cabin-fwd-lounge-fenderbox-wetbar",
+   "key": "axopar/axopar-29-xc-cross-cabin/other/aft-cabin-fwd-lounge-fenderbox-wetbar-951fcfeb.webp",
+   "sha256": "951fcfeb5b06dc24d41c0d36b96da7b627e98ff5c3a0dd9b5e97e575c624ef95",
+   "bytes": 45468,
+   "uploaded_at": "2026-10-28T21:59:23+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "ax29xc-aftcab-1",
+   "key": "axopar/axopar-29-xc-cross-cabin/other/ax29xc-aftcab-1-7508ff18.webp",
+   "sha256": "7508ff186ac36c1b684ff99580ee191e061cf2c32e940a7a070a0346410e8202",
+   "bytes": 50350,
+   "uploaded_at": "2026-10-28T21:59:23+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-29-xc-cross-cabin-0x0a3091",
+   "key": "axopar/axopar-29-xc-cross-cabin/exterior/axopar-29-xc-cross-cabin-0x0a3091-ebc792b8.webp",
+   "sha256": "ebc792b847cf68990b8635bc12ba66e880c2fd3a4bf2447851616ecfb50c3a35",
+   "bytes": 741582,
+   "uploaded_at": "2026-10-28T21:59:23+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-29-xc-sunset-vaasa-4",
+   "key": "axopar/axopar-29-xc-cross-cabin/other/axopar-29-xc-sunset-vaasa-4-90d84f4c.webp",
+   "sha256": "90d84f4c4241f98f83ce36e2253f180213c537b4e95f87c50a6aef4ffdc061ff",
+   "bytes": 33174,
+   "uploaded_at": "2026-10-28T21:59:23+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-29-xc-dji-20241002172741-0111-d",
+   "key": "axopar/axopar-29-xc-cross-cabin/exterior/axopar-29-xc-dji-20241002172741-0111-d-49df6240.webp",
+   "sha256": "49df6240d408fdb53fa18db0eee978ec0b8462872ff494dd2ec22efbb5a56031",
+   "bytes": 105520,
+   "uploaded_at": "2026-10-28T21:59:23+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-29-xc-cross-cabin-brabus-line-square",
+   "key": "axopar/axopar-29-xc-cross-cabin/other/axopar-29-xc-cross-cabin-brabus-line-square-4fc6b36d.webp",
+   "sha256": "4fc6b36dd0986608ca9986ea2127d42d88c3288a30ef4f44f8ca1343d3192251",
+   "bytes": 457334,
+   "uploaded_at": "2026-10-28T21:59:23+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-29-xc-brabus-line-color-edition",
+   "key": "axopar/axopar-29-xc-cross-cabin/other/axopar-29-xc-brabus-line-color-edition-2ea37acf.webp",
+   "sha256": "2ea37acf4b58d12653af3d412e980762fe4ff0f6b9286b229d22002c1abe8a87",
+   "bytes": 75016,
+   "uploaded_at": "2026-10-28T21:59:24+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-29-xc-brabus-line-color-edition-platinum-grey",
+   "key": "axopar/axopar-29-xc-cross-cabin/detail/axopar-29-xc-brabus-line-color-edition-platinum-grey-d138a85f.webp",
+   "sha256": "d138a85fdc3b1ba1bf82ae65743aadd74541c949ac4f845843b086a8a2b15b12",
+   "bytes": 70892,
+   "uploaded_at": "2026-10-28T21:59:24+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-29-xc-glacier-blue",
+   "key": "axopar/axopar-29-xc-cross-cabin/detail/axopar-29-xc-glacier-blue-4b70be95.webp",
+   "sha256": "4b70be9525bd0fd4a817420eebf949dfb4e3b2ac496feae7770751e3e1aaef2f",
+   "bytes": 71230,
+   "uploaded_at": "2026-10-28T21:59:24+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-29-xc-pearl-white",
+   "key": "axopar/axopar-29-xc-cross-cabin/detail/axopar-29-xc-pearl-white-2b9632d1.webp",
+   "sha256": "2b9632d1de8d3950ceba0c76e396198ec85c77c7f704c4273501bc86ede1f57f",
+   "bytes": 70928,
+   "uploaded_at": "2026-10-28T21:59:24+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-29-xc-cross-cabin-099a2510",
+   "key": "axopar/axopar-29-xc-cross-cabin/interior/axopar-29-xc-cross-cabin-099a2510-837441b3.webp",
+   "sha256": "837441b3c5c93d8bc451ae9af4edc197dcb40ce54dc14160bac8d283db85b364",
+   "bytes": 147494,
+   "uploaded_at": "2026-10-28T21:59:24+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-29-xc-cross-cabin-099a2027",
+   "key": "axopar/axopar-29-xc-cross-cabin/interior/axopar-29-xc-cross-cabin-099a2027-4734400c.webp",
+   "sha256": "4734400c96c7a70d1045ec209e0b5253b6197de4cc6ad5723c47921cfb89cc6e",
+   "bytes": 211298,
+   "uploaded_at": "2026-10-28T21:59:24+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-29-xc-cross-cabin-0x0a3045",
+   "key": "axopar/axopar-29-xc-cross-cabin/interior/axopar-29-xc-cross-cabin-0x0a3045-c3b7fbc2.webp",
+   "sha256": "c3b7fbc2b2627e1ebd4f2152ee87fe190a4f218a9052002a62a450e8a8dba3fb",
+   "bytes": 103862,
+   "uploaded_at": "2026-10-28T21:59:24+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-29-xc-cross-cabin-099a2514",
+   "key": "axopar/axopar-29-xc-cross-cabin/interior/axopar-29-xc-cross-cabin-099a2514-b04aaf67.webp",
+   "sha256": "b04aaf677fcb567765dde7f5b3770f7197b726317c0f7cc7d2b6be5b85196972",
+   "bytes": 82284,
+   "uploaded_at": "2026-10-28T21:59:24+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-29-xc-cross-cabin-099a2675",
+   "key": "axopar/axopar-29-xc-cross-cabin/interior/axopar-29-xc-cross-cabin-099a2675-e2e59881.webp",
+   "sha256": "e2e5988107fabe71a6de11532b39343e00fb8d27fd61f26a1735ba7aa0b4341a",
+   "bytes": 132790,
+   "uploaded_at": "2026-10-28T21:59:24+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-29-xc-cross-cabin-0x0a3058",
+   "key": "axopar/axopar-29-xc-cross-cabin/interior/axopar-29-xc-cross-cabin-0x0a3058-ade73744.webp",
+   "sha256": "ade7374497d72f9eee0482c585804d094eadb878b71a21276ec79a30ac6c2ac4",
+   "bytes": 236292,
+   "uploaded_at": "2026-10-28T21:59:24+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "silvertex-petrol",
+   "key": "axopar/axopar-29-xc-cross-cabin/detail/silvertex-petrol-5c2a5e85.webp",
+   "sha256": "5c2a5e85a7f6480c2c0aa5e903e450085afc3b1de1442c232efcea9cf41d74ac",
+   "bytes": 238130,
+   "uploaded_at": "2026-10-28T21:59:25+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "silvertex-squash",
+   "key": "axopar/axopar-29-xc-cross-cabin/detail/silvertex-squash-3eae5cab.webp",
+   "sha256": "3eae5cab65f41062aaa15e81e57574d8ddaddee02f764030782a1eab045d7548",
+   "bytes": 256140,
+   "uploaded_at": "2026-10-28T21:59:25+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "silvertex-hunter",
+   "key": "axopar/axopar-29-xc-cross-cabin/detail/silvertex-hunter-dbb7bd09.webp",
+   "sha256": "dbb7bd094e7e4a8f8469fb946f802a1ef1016ad7c43698ccb82523353493791d",
+   "bytes": 215262,
+   "uploaded_at": "2026-10-28T21:59:25+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "linetex-sphere",
+   "key": "axopar/axopar-29-xc-cross-cabin/detail/linetex-sphere-bd369f4d.webp",
+   "sha256": "bd369f4d410d3d75569d0735bce4b63cbf66519c25161c559b1dc89b3e710b10",
+   "bytes": 46824,
+   "uploaded_at": "2026-10-28T21:59:25+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "linetex-dust",
+   "key": "axopar/axopar-29-xc-cross-cabin/detail/linetex-dust-023498ff.webp",
+   "sha256": "023498ff2bd7a3673474ab76c3629ca154939a4111162804611ac49b630d2c8a",
+   "bytes": 42742,
+   "uploaded_at": "2026-10-28T21:59:25+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "linetex-chalk",
+   "key": "axopar/axopar-29-xc-cross-cabin/detail/linetex-chalk-cb57b7c0.webp",
+   "sha256": "cb57b7c0430787a05d77b079a80e9f4e73f421f2bcb9385ae07dab4e959bcdb7",
+   "bytes": 23782,
+   "uploaded_at": "2026-10-28T21:59:25+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "taupe",
+   "key": "axopar/axopar-29-xc-cross-cabin/detail/taupe-d2b3c49e.webp",
+   "sha256": "d2b3c49e158c8e4a92419bbb0c956717c1a1f69e7d79c72281bda4e44b2190b2",
+   "bytes": 279842,
+   "uploaded_at": "2026-10-28T21:59:25+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "natural",
+   "key": "axopar/axopar-29-xc-cross-cabin/detail/natural-68bb359e.webp",
+   "sha256": "68bb359e1e0049286ae99c2318e0420d8e94ef331a2c764aed78a2be51d7a7e5",
+   "bytes": 107502,
+   "uploaded_at": "2026-10-28T21:59:25+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antracite",
+   "key": "axopar/axopar-29-xc-cross-cabin/detail/antracite-aa32cfbd.webp",
+   "sha256": "aa32cfbd51bd59cac832812659e08eebba52a549c60c6231bb6d4489caff3631",
+   "bytes": 198608,
+   "uploaded_at": "2026-10-28T21:59:26+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  }
+ ]
+}

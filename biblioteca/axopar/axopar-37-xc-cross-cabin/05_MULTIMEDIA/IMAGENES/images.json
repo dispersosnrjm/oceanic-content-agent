@@ -1342,7 +1342,7 @@
       "sha256": "c83ab80fc2edb21fcdb184b248b2eb0abc26bfe96b994adc9b2d9ba29120ff04",
       "collected_at": "2026-09-23",
       "downloaded_at": "2026-09-23",
-      "download_status": "WEB_COPY",
+      "download_status": "REQUIRES_REVIEW (original cambió)",
       "category_confidence": "alta",
       "model_year_tag": null,
       "copyright_notice": null,
@@ -1358,7 +1358,12 @@
         "full_resolution": true
       },
       "bytes": 76556,
-      "web_quality": 75
+      "web_quality": 75,
+      "restore_check": {
+        "url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTMzOTIsInRpbWVzdGFtcCI6MTc3Mjc5Mzg5MSwidmVyc2lvbiI6MTc3Mjc3Nzk3Nn0:axopar:3tp5_EXise7SJ1Q_kZxG9YQF3JlH3uuii0asdUJkbSs/download",
+        "expected_sha256": "b81d498cfa6071720e149d1ae0b6ed2c3e5349a7b270b39f55f04b2885861a99",
+        "downloaded_sha256": "b8c8908bf671101c371509c3bb7c288324e42e1885f0367ab7c06c6097b86ebd"
+      }
     },
     {
       "id": "ax37xc-platinum-grey-petrol",
@@ -1386,7 +1391,7 @@
       "sha256": "53786814baeb9b657d451473f430d89fe8a731d9e39be11dcca2d22f14777965",
       "collected_at": "2026-09-23",
       "downloaded_at": "2026-09-23",
-      "download_status": "WEB_COPY",
+      "download_status": "REQUIRES_REVIEW (original cambió)",
       "category_confidence": "alta",
       "model_year_tag": null,
       "copyright_notice": null,
@@ -1402,7 +1407,12 @@
         "full_resolution": true
       },
       "bytes": 71724,
-      "web_quality": 75
+      "web_quality": 75,
+      "restore_check": {
+        "url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTMzOTAsInRpbWVzdGFtcCI6MTc3Mjc5Mzg5MSwidmVyc2lvbiI6MTc3Mjc3Nzk3Nn0:axopar:uvNLPhE5X54DynJqRUB6AtVA1fvkerjt-N5Jpn1vw_k/download",
+        "expected_sha256": "4123e56f9434502a0db2929c363118705a4b533b8d8002db0e29cf43abd5d6a8",
+        "downloaded_sha256": "df69f47726610eccf7d3cfb9d9a9a4c4bf1db794e97c863d663fd4a49a1aab4c"
+      }
     },
     {
       "id": "ax37xc-glacier-blue-cobre",
@@ -1430,7 +1440,7 @@
       "sha256": "be3373255757d7d8f1f3579a477a5b1de1ebe78f28f852c5a53598997323a1b9",
       "collected_at": "2026-09-23",
       "downloaded_at": "2026-09-23",
-      "download_status": "WEB_COPY",
+      "download_status": "REQUIRES_REVIEW (original cambió)",
       "category_confidence": "alta",
       "model_year_tag": null,
       "copyright_notice": null,
@@ -1446,7 +1456,12 @@
         "full_resolution": true
       },
       "bytes": 75438,
-      "web_quality": 75
+      "web_quality": 75,
+      "restore_check": {
+        "url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTMzOTMsInRpbWVzdGFtcCI6MTc3Mjc5Mzg5MSwidmVyc2lvbiI6MTc3Mjc3Nzk3Nn0:axopar:xEkhlHE4mV11lBK7qEofLLwoKsTYqdTD93WDmNuhNtE/download",
+        "expected_sha256": "c467ae5534946712753e05288ea6bfc4ae73fbccafc0fd2eedee9b68bdd3c84d",
+        "downloaded_sha256": "5f59e7097efc9c41b731fc75e01aee7eebd11c032b5bbd90b6d607713933ed52"
+      }
     },
     {
       "id": "ax37xc-agate-baltic",
@@ -1474,7 +1489,7 @@
       "sha256": "6b5d000eeb67559b9f366015d95432846d2fa14832dd55ecec772e6700cd1352",
       "collected_at": "2026-09-23",
       "downloaded_at": "2026-09-23",
-      "download_status": "WEB_COPY",
+      "download_status": "REQUIRES_REVIEW (original cambió)",
       "category_confidence": "alta",
       "model_year_tag": null,
       "copyright_notice": null,
@@ -1490,7 +1505,12 @@
         "full_resolution": true
       },
       "bytes": 74222,
-      "web_quality": 75
+      "web_quality": 75,
+      "restore_check": {
+        "url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTMzODksInRpbWVzdGFtcCI6MTc3Mjc5Mzg5MSwidmVyc2lvbiI6MTc3Mjc3Nzk3Nn0:axopar:P0-w8BHzJ_K93yPk1l1mZkFnBBz10nkxI-j8Xpf4Rz4/download",
+        "expected_sha256": "30d6c114cf3fcc30d1d3ce2ce07afad45bcbfd7bbced79c44416220b6fd73ede",
+        "downloaded_sha256": "37e7989e06a7fc4faae1feedc88128bd8083616e73b5ba38a61a99eee53257c9"
+      }
     },
     {
       "id": "axopar-37-xc-cross-cabin-brabus-performance-line-kbp00230",
@@ -1888,7 +1908,7 @@
       "sha256": "d51592c5c495c4a2aae776b25ac7383a35f576e30bfbc1c2e8e4173aa026eee0",
       "collected_at": "2026-09-23",
       "downloaded_at": "2026-09-23",
-      "download_status": "WEB_COPY",
+      "download_status": "REQUIRES_REVIEW (original cambió)",
       "category_confidence": "alta",
       "model_year_tag": null,
       "copyright_notice": null,
@@ -1904,7 +1924,12 @@
         "full_resolution": true
       },
       "bytes": 51674,
-      "web_quality": 75
+      "web_quality": 75,
+      "restore_check": {
+        "url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTM0NTYsInRpbWVzdGFtcCI6MTc3Mjc5NjI3OCwidmVyc2lvbiI6MTc3Mjc5NjIxNX0:axopar:7GRQLFDXoTi_2LwgtmEuJ5GCiNaZOOc0s1dQRqCRUKE/download",
+        "expected_sha256": "0b5574ec30bcc3c6a2ac534dbf11bcd5eb5510b4165859b7d5f93609c8428e58",
+        "downloaded_sha256": "db35b1c52afa3da1c5480ab5114f13cc67a7ce4db77e613a95838798b4829824"
+      }
     },
     {
       "id": "ax37xc-aft-bench",
@@ -1933,7 +1958,7 @@
       "sha256": "7fcac5112823c6dcc066a97296088106fa454f8b7484cf8c72e17ebc439e6ae8",
       "collected_at": "2026-09-23",
       "downloaded_at": "2026-09-23",
-      "download_status": "WEB_COPY",
+      "download_status": "REQUIRES_REVIEW (original cambió)",
       "category_confidence": "alta",
       "model_year_tag": null,
       "copyright_notice": null,
@@ -1949,7 +1974,12 @@
         "full_resolution": true
       },
       "bytes": 77682,
-      "web_quality": 75
+      "web_quality": 75,
+      "restore_check": {
+        "url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc1OTIsInRpbWVzdGFtcCI6MTc4NzgyOTUyMiwidmVyc2lvbiI6MTc4NzgyOTM0Nn0:axopar:QHCfU8O2SXYeCkVI5ehgvgIHhWEpR7IZYtupoUbbfa8/download",
+        "expected_sha256": "d3be6c445811d1936b19ba871cdc00887a20998c92b428081c40aa4e96d13e75",
+        "downloaded_sha256": "98c76e74c637ac280d906fe73661fe7a0f387c4fd4dd3a167f8d2415b86b917a"
+      }
     },
     {
       "id": "wbg-0000-ax37xc-wet-bar",
@@ -1978,7 +2008,7 @@
       "sha256": "57b4f80bc765ed483fe3a0afdd46f61f2fb47f21c9064e7cf74f04f198b72be6",
       "collected_at": "2026-09-23",
       "downloaded_at": "2026-09-23",
-      "download_status": "WEB_COPY",
+      "download_status": "REQUIRES_REVIEW (original cambió)",
       "category_confidence": "alta",
       "model_year_tag": null,
       "copyright_notice": null,
@@ -1994,7 +2024,12 @@
         "full_resolution": true
       },
       "bytes": 54354,
-      "web_quality": 75
+      "web_quality": 75,
+      "restore_check": {
+        "url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTM0NTksInRpbWVzdGFtcCI6MTc3Mjc5NjM2MiwidmVyc2lvbiI6MTc3Mjc5NjIxNX0:axopar:g_f4myKfdOO63E4Z-frzySH8aPnrg8WM2r3sQZR7Pt8/download",
+        "expected_sha256": "869fbc7e34233a56b5affa3c24ff2c1f5924894d6a74fed14234bd049eb979dd",
+        "downloaded_sha256": "20924ff58c11410f77cf7d17bc21aaa43938d068c485bbfb817be662bf8ef814"
+      }
     },
     {
       "id": "ax37xc-multi-storage",
@@ -2023,7 +2058,7 @@
       "sha256": "6deb0ef0aa9cff6b66aa9c7be7bc41b4f8dd4d96f7e9051dc00fdb133b8d28c3",
       "collected_at": "2026-09-23",
       "downloaded_at": "2026-09-23",
-      "download_status": "WEB_COPY",
+      "download_status": "REQUIRES_REVIEW (original cambió)",
       "category_confidence": "alta",
       "model_year_tag": null,
       "copyright_notice": null,
@@ -2039,7 +2074,12 @@
         "full_resolution": true
       },
       "bytes": 76404,
-      "web_quality": 75
+      "web_quality": 75,
+      "restore_check": {
+        "url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc1OTMsInRpbWVzdGFtcCI6MTc4NzgyOTU1MCwidmVyc2lvbiI6MTc4NzgyOTM0Nn0:axopar:Mz8UXhE3pGfYX9hmmVXGImluWbo01GZxP6Nli0FTYjE/download",
+        "expected_sha256": "6e2343d7ff76f43b0ecfba820970b9e7aebf1493c8156a432026007e16db191d",
+        "downloaded_sha256": "a34b363da08ec176ffd92dc32db20774f56cda49613a979a1a199032254962b4"
+      }
     },
     {
       "id": "wbg-0002-ax37xc-usofa-table",
@@ -2068,7 +2108,7 @@
       "sha256": "3615505e89f6d803877ccc073d68fe79dcd14bc0eac4a3be90221ada56f6d45a",
       "collected_at": "2026-09-23",
       "downloaded_at": "2026-09-23",
-      "download_status": "WEB_COPY",
+      "download_status": "REQUIRES_REVIEW (original cambió)",
       "category_confidence": "alta",
       "model_year_tag": null,
       "copyright_notice": null,
@@ -2084,7 +2124,12 @@
         "full_resolution": true
       },
       "bytes": 56210,
-      "web_quality": 75
+      "web_quality": 75,
+      "restore_check": {
+        "url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTM0NTcsInRpbWVzdGFtcCI6MTc3Mjc5NjQzOSwidmVyc2lvbiI6MTc3Mjc5NjIxNX0:axopar:dTvSW0vHsao6tP3CnXkXdvxuiCjdkrHjTNiEPWHiNlU/download",
+        "expected_sha256": "a8725c61ed1587e65d34469f7f8f7fa3fcd965f85949bb331923d673b5ab5c9b",
+        "downloaded_sha256": "86823c99f8cad4c333985bde6818d4acfda48ca229aeeb2fb0c004690d741847"
+      }
     },
     {
       "id": "wbg-0001-ax37xc-usofa",
@@ -2113,7 +2158,7 @@
       "sha256": "33045496a7e54b56e35890a2f84deb66c8569c6b131ab37152638ea130119ade",
       "collected_at": "2026-09-23",
       "downloaded_at": "2026-09-23",
-      "download_status": "WEB_COPY",
+      "download_status": "REQUIRES_REVIEW (original cambió)",
       "category_confidence": "alta",
       "model_year_tag": null,
       "copyright_notice": null,
@@ -2129,7 +2174,12 @@
         "full_resolution": true
       },
       "bytes": 54870,
-      "web_quality": 75
+      "web_quality": 75,
+      "restore_check": {
+        "url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTM0NTUsInRpbWVzdGFtcCI6MTc3Mjc5NjQ2OCwidmVyc2lvbiI6MTc3Mjc5NjIxNX0:axopar:_SBlFKQLTtgnphx186CizfyRQgCCeCi31en2xwd1aSE/download",
+        "expected_sha256": "6d08a85a03f4a398c55dcf2dcaab11cb031b8d7662a2b2b2efae487b6f1852eb",
+        "downloaded_sha256": "68119a6bd518c02592b2f32f9ac4736b61d913117e49835fd6fb354e9ab92d7e"
+      }
     },
     {
       "id": "wbg-0006-ax37xc-aft-cabin",
@@ -2158,7 +2208,7 @@
       "sha256": "42ffcf4d380c04e0637dfa5a8d8595134587b0dbc8017023d44c6f389ef3cd8b",
       "collected_at": "2026-09-23",
       "downloaded_at": "2026-09-23",
-      "download_status": "WEB_COPY",
+      "download_status": "REQUIRES_REVIEW (original cambió)",
       "category_confidence": "alta",
       "model_year_tag": null,
       "copyright_notice": null,
@@ -2174,7 +2224,12 @@
         "full_resolution": true
       },
       "bytes": 55150,
-      "web_quality": 75
+      "web_quality": 75,
+      "restore_check": {
+        "url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTM0NjEsInRpbWVzdGFtcCI6MTc3Mjc5NjQ5NiwidmVyc2lvbiI6MTc3Mjc5NjIxNX0:axopar:jTYfl0rKbqdJQAOkz56k2ZJNSexMtWQkI510y941A1g/download",
+        "expected_sha256": "a0b2201fef378396c8c0c03377ce0a49479ec7d8150c373273867d732df15483",
+        "downloaded_sha256": "0738f35fb4e70004869208ef9b2f2106fa1f2868823e02c1eb6ce6fcef40a6a7"
+      }
     },
     {
       "id": "aft-bench",
@@ -2203,7 +2258,7 @@
       "sha256": "25a4341be07dd77dc7fde71c815144d7bf4eaaa3ba82bde11c47af2369e11443",
       "collected_at": "2026-09-23",
       "downloaded_at": "2026-09-23",
-      "download_status": "WEB_COPY",
+      "download_status": "REQUIRES_REVIEW (original cambió)",
       "category_confidence": "alta",
       "model_year_tag": null,
       "copyright_notice": null,
@@ -2219,7 +2274,12 @@
         "full_resolution": true
       },
       "bytes": 49286,
-      "web_quality": 75
+      "web_quality": 75,
+      "restore_check": {
+        "url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc1OTQsInRpbWVzdGFtcCI6MTc4NzgzMTQ3MywidmVyc2lvbiI6MTc4NzgzMTM5NX0:axopar:xIPdOS-ML61_DK1kpAkogEmI7C3jpvz0VuriBoL1aQQ/download",
+        "expected_sha256": "0143a944ea718df73245d5e5254559302dd6888a1dac1fa1cab9ce8363903aba",
+        "downloaded_sha256": "13b36bf2cde8c958e0850c718072122d43fb7aa2e05cfd060a454757b6d2a096"
+      }
     },
     {
       "id": "ax37xcxc-wetbar-petrol-hires",
@@ -2248,7 +2308,7 @@
       "sha256": "2c1917957e0382445d6ad322fa9d2fa549656e838f455eed8e865a125721f5cb",
       "collected_at": "2026-09-23",
       "downloaded_at": "2026-09-23",
-      "download_status": "WEB_COPY",
+      "download_status": "REQUIRES_REVIEW (original cambió)",
       "category_confidence": "alta",
       "model_year_tag": null,
       "copyright_notice": null,
@@ -2264,7 +2324,12 @@
         "full_resolution": true
       },
       "bytes": 53606,
-      "web_quality": 75
+      "web_quality": 75,
+      "restore_check": {
+        "url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTIwMDksInRpbWVzdGFtcCI6MTc3MDIwNDA0MCwidmVyc2lvbiI6MTc3MDIwMzk0Mn0:axopar:E5Oqd_117J9uVtQrY1CLWLzfuNNsZg3b7E66dFCBYto/download",
+        "expected_sha256": "99ec3bf522edda23197d89ced3c9bd23e20c60cb899e64aa7b7c691e137cdcba",
+        "downloaded_sha256": "d4cf04f04b71abe97575fdc107839aa9e8baabfe0915bc291ddf21196c0c5ece"
+      }
     },
     {
       "id": "multi-storage",
@@ -2293,7 +2358,7 @@
       "sha256": "5e7ab644f52fe6c5953f6f48bd922c1769233b4c0e76dbe870e7f1ad3eb74c9f",
       "collected_at": "2026-09-23",
       "downloaded_at": "2026-09-23",
-      "download_status": "WEB_COPY",
+      "download_status": "REQUIRES_REVIEW (original cambió)",
       "category_confidence": "alta",
       "model_year_tag": null,
       "copyright_notice": null,
@@ -2309,7 +2374,12 @@
         "full_resolution": true
       },
       "bytes": 48212,
-      "web_quality": 75
+      "web_quality": 75,
+      "restore_check": {
+        "url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc1OTUsInRpbWVzdGFtcCI6MTc4NzgzMTUzMCwidmVyc2lvbiI6MTc4NzgzMTM5NX0:axopar:6IQjQ90bWetjkos-mubiGdriv-uYWVLh-WJLCuGioTg/download",
+        "expected_sha256": "7370556f55cbc5a6ce853ea421b85e758283074dd758efe080b7c8b17b0b8092",
+        "downloaded_sha256": "92e1fd187d51fae406c1fff3d8d62aea6660c00446ad6f55d569f3d2b68c1867"
+      }
     },
     {
       "id": "aft-cabin-std",
@@ -2338,7 +2408,7 @@
       "sha256": "6688f701fbd8ca1eee64c8beeff5ef9d2f303524d304b801b67f879a1c1da513",
       "collected_at": "2026-09-23",
       "downloaded_at": "2026-09-23",
-      "download_status": "WEB_COPY",
+      "download_status": "REQUIRES_REVIEW (original cambió)",
       "category_confidence": "alta",
       "model_year_tag": null,
       "copyright_notice": null,
@@ -2354,7 +2424,12 @@
         "full_resolution": true
       },
       "bytes": 49632,
-      "web_quality": 75
+      "web_quality": 75,
+      "restore_check": {
+        "url": "https://brand.axopar.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTc1OTYsInRpbWVzdGFtcCI6MTc4NzgzMTU3NiwidmVyc2lvbiI6MTc4NzgzMTM5NX0:axopar:eQPYri5q-N7jC0Bw8kMIXnRmv8aI1MjgzisKjMm9Hbg/download",
+        "expected_sha256": "79d3beed6d78e2225f44c180de939f7c3bc38436ceffea0cff2ce09e3ddea58b",
+        "downloaded_sha256": "12592294a044d94de8ee66ec57102a4b46dc1b4350683f073d3f3b16e24a52cb"
+      }
     },
     {
       "id": "ax37xc-aftcabin-petrol-hires",
@@ -2383,7 +2458,7 @@
       "sha256": "26c57a3705a760c38f9c20be29098e50da6b1e386296ea5a3e55f6014fdc9fe5",
       "collected_at": "2026-09-23",
       "downloaded_at": "2026-09-23",
-      "download_status": "WEB_COPY",
+      "download_status": "REQUIRES_REVIEW (original cambió)",
       "category_confidence": "alta",
       "model_year_tag": null,
       "copyright_notice": null,
@@ -2399,7 +2474,12 @@
         "full_resolution": true
       },
       "bytes": 53274,
-      "web_quality": 75
+      "web_quality": 75,
+      "restore_check": {
+        "url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTIwMTAsInRpbWVzdGFtcCI6MTc3MDIwNDIwNywidmVyc2lvbiI6MTc3MDIwMzk0Mn0:axopar:hwwbHzq3ONRKl_46iswlzhgtf9nAGcgaYZFfJfRfQ8o/download",
+        "expected_sha256": "1c5e6632940abc8311ecb1e5bef1ba973081398ec545ea6bf389f778456ac06a",
+        "downloaded_sha256": "4f208f515ef023a7b95ec30588726d17420a24dcc6e24f00fd4d9522f272b467"
+      }
     },
     {
       "id": "petrol-front",
@@ -2563,7 +2643,7 @@
       "sha256": "cbca95647249314a691b1866636956167a07550b1daa0b15a54533265e8b46af",
       "collected_at": "2026-09-23",
       "downloaded_at": "2026-09-23",
-      "download_status": "WEB_COPY",
+      "download_status": "REQUIRES_REVIEW (original cambió)",
       "category_confidence": "media",
       "model_year_tag": null,
       "copyright_notice": null,
@@ -2579,7 +2659,12 @@
         "full_resolution": true
       },
       "bytes": 290632,
-      "web_quality": 75
+      "web_quality": 75,
+      "restore_check": {
+        "url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTUyNjYsInRpbWVzdGFtcCI6MTc3NTU0MzMwOSwidmVyc2lvbiI6MTc3NTU0MjYwN30:axopar:0nSHQ91EIUIzfRmgbqjsWmFN8WuVI4R8BqhEg_yZ6Qc/download",
+        "expected_sha256": "29588770abc16910a412412030abf81f8d23f4d274a272ae732d49daa2b21e06",
+        "downloaded_sha256": "2ecefd47db8c14d3cbcdbc867af00e11d0faebddaeaa995bf79ee01757e0c724"
+      }
     },
     {
       "id": "natural",
@@ -2608,7 +2693,7 @@
       "sha256": "8a3c981164bd4852e6537973dd35bd7720ecb1d772deaa14378d5b1370dd6eef",
       "collected_at": "2026-09-23",
       "downloaded_at": "2026-09-23",
-      "download_status": "WEB_COPY",
+      "download_status": "REQUIRES_REVIEW (original cambió)",
       "category_confidence": "media",
       "model_year_tag": null,
       "copyright_notice": null,
@@ -2624,7 +2709,12 @@
         "full_resolution": true
       },
       "bytes": 107980,
-      "web_quality": 75
+      "web_quality": 75,
+      "restore_check": {
+        "url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTUyNjQsInRpbWVzdGFtcCI6MTc3NTU0MzM3OCwidmVyc2lvbiI6MTc3NTU0MjYwN30:axopar:sy5VxqaYNXCl_nSOgSSwV9jzbYFakoxTn6hzQRXAR9U/download",
+        "expected_sha256": "3ffdc40d10e702727ffe307d698c04c020ac4f9c0d5526a31c05a4ffff5f9c3b",
+        "downloaded_sha256": "b96834ab740354ca45c85c508f0ad3118f76749fce8d853227678296f011f150"
+      }
     },
     {
       "id": "antracite",
@@ -2653,7 +2743,7 @@
       "sha256": "97535b2b1019f4bda93484f5666d1848c1cb11e50eb27388cdaa0fd3e79e4de6",
       "collected_at": "2026-09-23",
       "downloaded_at": "2026-09-23",
-      "download_status": "WEB_COPY",
+      "download_status": "REQUIRES_REVIEW (original cambió)",
       "category_confidence": "media",
       "model_year_tag": null,
       "copyright_notice": null,
@@ -2669,7 +2759,12 @@
         "full_resolution": true
       },
       "bytes": 206690,
-      "web_quality": 75
+      "web_quality": 75,
+      "restore_check": {
+        "url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTUyNjUsInRpbWVzdGFtcCI6MTc3NTU0MzQ0NywidmVyc2lvbiI6MTc3NTU0MjYwN30:axopar:g0X8j3rgAsJX7kOoxJkFMMS2NxMoaWMZ3fIQOY8kpVA/download",
+        "expected_sha256": "1799c28553a2ac54b4ca39786f0192bcdf50121d12914505df91c3e70a09f468",
+        "downloaded_sha256": "ef439941c5025d2b01e215c271ddcd21cb8af1865c6d305183dece84a2e78063"
+      }
     },
     {
       "id": "axcopar-37-xc-cross-cabin-iconic-edition-surroundings",
@@ -2698,7 +2793,7 @@
       "sha256": "e2ed1915547b6e518dea2f7204a2cd0298e0dc34ac9761db88c7ce7c8fd42d07",
       "collected_at": "2026-09-23",
       "downloaded_at": "2026-09-23",
-      "download_status": "WEB_COPY",
+      "download_status": "REQUIRES_REVIEW (original cambió)",
       "category_confidence": "alta",
       "model_year_tag": null,
       "copyright_notice": null,
@@ -2714,7 +2809,12 @@
         "full_resolution": true
       },
       "bytes": 185572,
-      "web_quality": 75
+      "web_quality": 75,
+      "restore_check": {
+        "url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTUyOTMsInRpbWVzdGFtcCI6MTc3NTYyODcwNCwidmVyc2lvbiI6MTc3NTYyODU1N30:axopar:Ph1wrPirlui8jHtMsHm7UtpBjssPYUFMjDCkapoyEbc/download",
+        "expected_sha256": "962e9eb3652b586f1778256c929b7aa713ea5f7f1ac3092bd07007b71c239d8d",
+        "downloaded_sha256": "797dd05c40f35173ae60f3246a19fa3c75d0672def9c2fece8772c3b11cd5e62"
+      }
     },
     {
       "id": "axopar-37-xc-cross-cabin-iconic-edition-surroundings-mobile-2",
@@ -2743,7 +2843,7 @@
       "sha256": "70732b28ca579dc65dc349f3943bda884a6d1a4dd926b79d5943fd3968770d1d",
       "collected_at": "2026-09-23",
       "downloaded_at": "2026-09-23",
-      "download_status": "WEB_COPY",
+      "download_status": "REQUIRES_REVIEW (original cambió)",
       "category_confidence": "alta",
       "model_year_tag": null,
       "copyright_notice": null,
@@ -2759,7 +2859,12 @@
         "full_resolution": true
       },
       "bytes": 95062,
-      "web_quality": 75
+      "web_quality": 75,
+      "restore_check": {
+        "url": "https://axopar.frontify.com/api/asset/eyJjbGllbnRJZCI6ImNvbnRlbnRmdWwiLCJpZCI6MTUzMzAsInRpbWVzdGFtcCI6MTc3NTgxMzE3OSwidmVyc2lvbiI6MTc3NTgwODkzNH0:axopar:mabIIrkUApwv43rNkT1S-1bqaH1t0jteNmHlDCUVEqM/download",
+        "expected_sha256": "6264b2b8f7d7ade07087af790ade3d51f592f926a27175f41e24377d8d06f7a2",
+        "downloaded_sha256": "8b458dfba8c98837f1decb51afec2257046f232ee0d811cb3fa8cf354d6888be"
+      }
     }
   ]
 }

@@ -1,0 +1,655 @@
+{
+ "version": 1,
+ "images": [
+  {
+   "id": "axopar-38-sun-top-dsc05301-axedit",
+   "key": "axopar/axopar-38-sun-top/other/axopar-38-sun-top-dsc05301-axedit-96f9eb34.webp",
+   "sha256": "96f9eb34f71a2c4eaf12990f0befc1f5e7d5933be8baf11482d300d67a58aeb2",
+   "bytes": 94312,
+   "uploaded_at": "2026-10-28T21:59:51+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-38-sun-top-dsc05301-axedit-2",
+   "key": "axopar/axopar-38-sun-top/other/axopar-38-sun-top-dsc05301-axedit-2-636d5b0e.webp",
+   "sha256": "636d5b0e197ff9b344ae4c78ed8e5baf2b38985450c2d23479e7712163300737",
+   "bytes": 88422,
+   "uploaded_at": "2026-10-28T21:59:51+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-38-sun-top-dsc08618",
+   "key": "axopar/axopar-38-sun-top/other/axopar-38-sun-top-dsc08618-6f62af61.webp",
+   "sha256": "6f62af61d203a61ef9695a38b6989c376b7f170431160d410cb9fd8988f6e298",
+   "bytes": 84762,
+   "uploaded_at": "2026-10-28T21:59:51+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-38-sun-top-dsc08604-mobile",
+   "key": "axopar/axopar-38-sun-top/other/axopar-38-sun-top-dsc08604-mobile-449b1b75.webp",
+   "sha256": "449b1b75ec1824400b0702f8c7ca9fe47aa83dee2e8f9fc898ce2743b03370fb",
+   "bytes": 116382,
+   "uploaded_at": "2026-10-28T21:59:51+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-38-sun-top-dsc07924",
+   "key": "axopar/axopar-38-sun-top/other/axopar-38-sun-top-dsc07924-f714af78.webp",
+   "sha256": "f714af78127d64af61981e7defd78b0efcbde7100e8c6cf067c522bae58bf184",
+   "bytes": 65774,
+   "uploaded_at": "2026-10-28T21:59:52+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-38-sun-top-dsc07924-mobile",
+   "key": "axopar/axopar-38-sun-top/other/axopar-38-sun-top-dsc07924-mobile-9e2167ac.webp",
+   "sha256": "9e2167ac32ca1c78012257e4a995fb1303086b3cc49420817917714baca99cad",
+   "bytes": 88178,
+   "uploaded_at": "2026-10-28T21:59:52+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-38-sun-top-dsc05754",
+   "key": "axopar/axopar-38-sun-top/other/axopar-38-sun-top-dsc05754-f7497521.webp",
+   "sha256": "f7497521b5ab1a662f539c645e7a0ac1998078380cdfc2eeb7d9863670dc7e8b",
+   "bytes": 124562,
+   "uploaded_at": "2026-10-28T21:59:52+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-38-sun-top-dsc05754-mobile",
+   "key": "axopar/axopar-38-sun-top/other/axopar-38-sun-top-dsc05754-mobile-d559f14b.webp",
+   "sha256": "d559f14bd3a4d91b88c4172768eb694b8c53f040ebeb5b1d1b409b4cd3dc506c",
+   "bytes": 176884,
+   "uploaded_at": "2026-10-28T21:59:52+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "open-aft-standard-fore-deck",
+   "key": "axopar/axopar-38-sun-top/other/open-aft-standard-fore-deck-50483aee.webp",
+   "sha256": "50483aee101ee99564a9d8f0ae252fab321c889bc095116134289714bdd09c2f",
+   "bytes": 88154,
+   "uploaded_at": "2026-10-28T21:59:52+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "38-st-aftbench-aft",
+   "key": "axopar/axopar-38-sun-top/other/38-st-aftbench-aft-f94929d8.webp",
+   "sha256": "f94929d8d445ca34616b766fb349f8c7b752aa14918021c29bd420dd89e5e598",
+   "bytes": 88090,
+   "uploaded_at": "2026-10-28T21:59:52+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "centerline-wet-bar-port-b-seat-sofa-bow-u-sofa",
+   "key": "axopar/axopar-38-sun-top/other/centerline-wet-bar-port-b-seat-sofa-bow-u-sofa-400ebf10.webp",
+   "sha256": "400ebf100e24d9dfaeba4601753fff9c1678155015a5caf7fe45373f726f0470",
+   "bytes": 92522,
+   "uploaded_at": "2026-10-28T21:59:52+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "cockpit-u-sofa-b-seats-bow-u-sofa",
+   "key": "axopar/axopar-38-sun-top/other/cockpit-u-sofa-b-seats-bow-u-sofa-a914484d.webp",
+   "sha256": "a914484d078218c913224ae735167369fbdaeed99698168bebaa5afbc5271116",
+   "bytes": 98846,
+   "uploaded_at": "2026-10-28T21:59:52+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "u-sofa-sunbed-stbd-b-seat-fbox-wet-bar-bow-u-sofa",
+   "key": "axopar/axopar-38-sun-top/other/u-sofa-sunbed-stbd-b-seat-fbox-wet-bar-bow-u-sofa-c09b07ba.webp",
+   "sha256": "c09b07ba7b37d557c772d66eb619ae6a46e49ea89cf5b9516b756c8d642f6fb6",
+   "bytes": 92916,
+   "uploaded_at": "2026-10-28T21:59:52+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "38-st-sunbedtable-aft",
+   "key": "axopar/axopar-38-sun-top/other/38-st-sunbedtable-aft-f3aaa9bd.webp",
+   "sha256": "f3aaa9bd00fe7635a16b73302abd3f73901d6eb4c0ea5e618c287bbe3e40a937",
+   "bytes": 88598,
+   "uploaded_at": "2026-10-28T21:59:53+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "38-st-sunbedcushion-aft",
+   "key": "axopar/axopar-38-sun-top/other/38-st-sunbedcushion-aft-502922f8.webp",
+   "sha256": "502922f8bd43f297290c59266c14e81fee5c9919abeddb2f917d00078fa77d69",
+   "bytes": 88112,
+   "uploaded_at": "2026-10-28T21:59:53+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "aft-cabin-starboard-b-seat-fbox-wet-bar-cockpit-sofa-bow-sun-lounge-in-bow",
+   "key": "axopar/axopar-38-sun-top/other/aft-cabin-starboard-b-seat-fbox-wet-bar-cockpit-sofa-bow-sun-lounge-in-bow-0080133f.webp",
+   "sha256": "0080133f769883407ffa6e3cbd10973def2e0ebeb59d290bca6ddabd3e369f94",
+   "bytes": 91776,
+   "uploaded_at": "2026-10-28T21:59:53+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-38-sun-top-dsc09664",
+   "key": "axopar/axopar-38-sun-top/cockpit/axopar-38-sun-top-dsc09664-a5a07a47.webp",
+   "sha256": "a5a07a47a734f9d84a7e6911a8035e73445255c8c4d27c30539cca784c6217e6",
+   "bytes": 82668,
+   "uploaded_at": "2026-10-28T21:59:53+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-38-sun-top-dji-20260501100601-0300-d",
+   "key": "axopar/axopar-38-sun-top/exterior/axopar-38-sun-top-dji-20260501100601-0300-d-02181694.webp",
+   "sha256": "02181694da38d761060e3906d820515f615cc989b597ef421c469561ebf001c2",
+   "bytes": 264398,
+   "uploaded_at": "2026-10-28T21:59:53+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "basecamp",
+   "key": "axopar/axopar-38-sun-top/detail/basecamp-3c78215a.webp",
+   "sha256": "3c78215a4a84b0494eaa33fc079722a1155e0210026ed7c19ac83ce718574561",
+   "bytes": 117660,
+   "uploaded_at": "2026-10-28T21:59:53+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "monterra",
+   "key": "axopar/axopar-38-sun-top/detail/monterra-f68688ea.webp",
+   "sha256": "f68688ea837de15b40433824fc5a1f6661d0f6574b992a2dca0c9bf9c6f0df12",
+   "bytes": 570066,
+   "uploaded_at": "2026-10-28T21:59:53+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "silvertex-petrol",
+   "key": "axopar/axopar-38-sun-top/detail/silvertex-petrol-5c2a5e85.webp",
+   "sha256": "5c2a5e85a7f6480c2c0aa5e903e450085afc3b1de1442c232efcea9cf41d74ac",
+   "bytes": 238130,
+   "uploaded_at": "2026-10-28T21:59:53+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "silvertex-squash",
+   "key": "axopar/axopar-38-sun-top/detail/silvertex-squash-3eae5cab.webp",
+   "sha256": "3eae5cab65f41062aaa15e81e57574d8ddaddee02f764030782a1eab045d7548",
+   "bytes": 256140,
+   "uploaded_at": "2026-10-28T21:59:53+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "silvertex-hunter",
+   "key": "axopar/axopar-38-sun-top/detail/silvertex-hunter-dbb7bd09.webp",
+   "sha256": "dbb7bd094e7e4a8f8469fb946f802a1ef1016ad7c43698ccb82523353493791d",
+   "bytes": 215262,
+   "uploaded_at": "2026-10-28T21:59:53+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "linetex-sphere",
+   "key": "axopar/axopar-38-sun-top/detail/linetex-sphere-bd369f4d.webp",
+   "sha256": "bd369f4d410d3d75569d0735bce4b63cbf66519c25161c559b1dc89b3e710b10",
+   "bytes": 46824,
+   "uploaded_at": "2026-10-28T21:59:54+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "linetex-dust",
+   "key": "axopar/axopar-38-sun-top/detail/linetex-dust-023498ff.webp",
+   "sha256": "023498ff2bd7a3673474ab76c3629ca154939a4111162804611ac49b630d2c8a",
+   "bytes": 42742,
+   "uploaded_at": "2026-10-28T21:59:54+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "linetex-chalk",
+   "key": "axopar/axopar-38-sun-top/detail/linetex-chalk-cb57b7c0.webp",
+   "sha256": "cb57b7c0430787a05d77b079a80e9f4e73f421f2bcb9385ae07dab4e959bcdb7",
+   "bytes": 23782,
+   "uploaded_at": "2026-10-28T21:59:54+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "taupe",
+   "key": "axopar/axopar-38-sun-top/detail/taupe-d2b3c49e.webp",
+   "sha256": "d2b3c49e158c8e4a92419bbb0c956717c1a1f69e7d79c72281bda4e44b2190b2",
+   "bytes": 279842,
+   "uploaded_at": "2026-10-28T21:59:54+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antracite",
+   "key": "axopar/axopar-38-sun-top/detail/antracite-aa32cfbd.webp",
+   "sha256": "aa32cfbd51bd59cac832812659e08eebba52a549c60c6231bb6d4489caff3631",
+   "bytes": 198608,
+   "uploaded_at": "2026-10-28T21:59:54+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-38-sun-top-dji-20260501101521-0332-d",
+   "key": "axopar/axopar-38-sun-top/exterior/axopar-38-sun-top-dji-20260501101521-0332-d-649b572b.webp",
+   "sha256": "649b572b8d5bf767f2e4d1371235739cd23376327c2a56dd943a2e7531878bff",
+   "bytes": 161588,
+   "uploaded_at": "2026-10-28T21:59:54+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-38-sun-top-dsc01020",
+   "key": "axopar/axopar-38-sun-top/other/axopar-38-sun-top-dsc01020-2445db3f.webp",
+   "sha256": "2445db3fa0da143270200348d9aca1185985a0f9793577e2ce2a9f347421738c",
+   "bytes": 66278,
+   "uploaded_at": "2026-10-28T21:59:54+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-38-sun-top-dji-20260504124910-0077-d",
+   "key": "axopar/axopar-38-sun-top/exterior/axopar-38-sun-top-dji-20260504124910-0077-d-71300b9b.webp",
+   "sha256": "71300b9b680b3478a7fe44673575cc67f92312f34394c5717a33c88ee7f11a5c",
+   "bytes": 501952,
+   "uploaded_at": "2026-10-28T21:59:54+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-38-sun-top-dsc01563",
+   "key": "axopar/axopar-38-sun-top/other/axopar-38-sun-top-dsc01563-d018e78e.webp",
+   "sha256": "d018e78e992d0c3338a3c9f1170829ae256a068dbc4a7210b4ea528f9155e7fe",
+   "bytes": 176632,
+   "uploaded_at": "2026-10-28T21:59:54+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-38-sun-top-dji-20260501101521-0332-d-2",
+   "key": "axopar/axopar-38-sun-top/exterior/axopar-38-sun-top-dji-20260501101521-0332-d-2-a1b3c59a.webp",
+   "sha256": "a1b3c59a9f0194981f2caf896600caf80db901596369b47c32c29e204673ea24",
+   "bytes": 127336,
+   "uploaded_at": "2026-10-28T21:59:55+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-38-sun-top-dsc07587",
+   "key": "axopar/axopar-38-sun-top/underway/axopar-38-sun-top-dsc07587-27fcc6c9.webp",
+   "sha256": "27fcc6c944d54c216808892483b5dfc5ee0c7f271cfe97f8901dcc7011c4b3e9",
+   "bytes": 111680,
+   "uploaded_at": "2026-10-28T21:59:55+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-38-sun-top-dsc00693-axedit",
+   "key": "axopar/axopar-38-sun-top/other/axopar-38-sun-top-dsc00693-axedit-277d7df5.webp",
+   "sha256": "277d7df5ff6e4e10cb3e0821c4b4da487852d5e48b4addbb497747b82a91010e",
+   "bytes": 70472,
+   "uploaded_at": "2026-10-28T21:59:55+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-38-sun-top-dji-20260503141702-0011-d",
+   "key": "axopar/axopar-38-sun-top/exterior/axopar-38-sun-top-dji-20260503141702-0011-d-33838d41.webp",
+   "sha256": "33838d41107aad632ed0858f8946c2b0dbfc1a0b9553882bbed362187ac75202",
+   "bytes": 194404,
+   "uploaded_at": "2026-10-28T21:59:55+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-38-sun-top-dsc05335",
+   "key": "axopar/axopar-38-sun-top/other/axopar-38-sun-top-dsc05335-2f95e830.webp",
+   "sha256": "2f95e8304566199cfd9a2a3c9f6ff7a2a3455c84bd227a3337d158f6539aae79",
+   "bytes": 91746,
+   "uploaded_at": "2026-10-28T21:59:55+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-38-sun-top-dsc03967",
+   "key": "axopar/axopar-38-sun-top/other/axopar-38-sun-top-dsc03967-be507d1d.webp",
+   "sha256": "be507d1dfaca0601b2c6c4ba7223dea2c984ed64e1cd117f50679c6e028f5174",
+   "bytes": 61996,
+   "uploaded_at": "2026-10-28T21:59:55+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-38-sun-top-dsc09315",
+   "key": "axopar/axopar-38-sun-top/exterior/axopar-38-sun-top-dsc09315-2eee039a.webp",
+   "sha256": "2eee039ad6f3eca49f0b7fdb374d9de497ced8385050ae4f5e28422f1a91b5cf",
+   "bytes": 121418,
+   "uploaded_at": "2026-10-28T21:59:55+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-38-sun-top-dji-20260503142731-0051-d",
+   "key": "axopar/axopar-38-sun-top/exterior/axopar-38-sun-top-dji-20260503142731-0051-d-0e07dfed.webp",
+   "sha256": "0e07dfedc01267b24945d56790fb49f5f67eb4adb78f5e025abebbaa630d1111",
+   "bytes": 157582,
+   "uploaded_at": "2026-10-28T21:59:55+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-38-sun-top-dsc08221-square",
+   "key": "axopar/axopar-38-sun-top/other/axopar-38-sun-top-dsc08221-square-0f7e3078.webp",
+   "sha256": "0f7e3078a6d824af7f553a4d19733ac2fdb9b10ea7808fe7b09f841e56d0ad1e",
+   "bytes": 106030,
+   "uploaded_at": "2026-10-28T21:59:56+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-38-sun-top-dsc07711",
+   "key": "axopar/axopar-38-sun-top/other/axopar-38-sun-top-dsc07711-41e3cfac.webp",
+   "sha256": "41e3cfac43dd9155dcc6ea967f09b4f312c69c5570fdbebd264d9d7bc9c58da6",
+   "bytes": 59754,
+   "uploaded_at": "2026-10-28T21:59:56+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-38-sun-top-dsc03912",
+   "key": "axopar/axopar-38-sun-top/other/axopar-38-sun-top-dsc03912-09cc8241.webp",
+   "sha256": "09cc824138edcf4302385b6b63710a6ab9a1a0c464ef63e23a3aea1d4213fbfb",
+   "bytes": 40114,
+   "uploaded_at": "2026-10-28T21:59:56+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-38-st-color-edition",
+   "key": "axopar/axopar-38-sun-top/other/axopar-38-st-color-edition-70b31e53.webp",
+   "sha256": "70b31e5331fdfaf4a5b1b4464ae94451401619b13141c95c4257d42a7f525375",
+   "bytes": 62650,
+   "uploaded_at": "2026-10-28T21:59:56+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-38-sun-top-brabus-line-color-edition-miami-blue",
+   "key": "axopar/axopar-38-sun-top/detail/axopar-38-sun-top-brabus-line-color-edition-miami-blue-70f02150.webp",
+   "sha256": "70f02150e50a2bd9e8ad81087e84f1702d9cebd460bdd3dcd668fe66a1518106",
+   "bytes": 63854,
+   "uploaded_at": "2026-10-28T21:59:56+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-38-sun-top-brabus-line-color-edition-platinum-grey",
+   "key": "axopar/axopar-38-sun-top/detail/axopar-38-sun-top-brabus-line-color-edition-platinum-grey-58940941.webp",
+   "sha256": "58940941648f7e666797db96e1c99015f0481f435292bb6dc9047dfb95066cc2",
+   "bytes": 58936,
+   "uploaded_at": "2026-10-28T21:59:56+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-38-sun-top-brabus-line-color-edition-glacier-blue",
+   "key": "axopar/axopar-38-sun-top/detail/axopar-38-sun-top-brabus-line-color-edition-glacier-blue-859829e7.webp",
+   "sha256": "859829e7f02fb08708fb2c4749c31a19887bb5ea419782ee0420658c8f55d153",
+   "bytes": 60612,
+   "uploaded_at": "2026-10-28T21:59:56+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-38-sun-top-brabus-line-color-edition-pearl-white",
+   "key": "axopar/axopar-38-sun-top/detail/axopar-38-sun-top-brabus-line-color-edition-pearl-white-4107cfad.webp",
+   "sha256": "4107cfad9a4d6daa65dbe74cdc45843d8d4b55ed1e350e8a5c94d22771aa7647",
+   "bytes": 60814,
+   "uploaded_at": "2026-10-28T21:59:56+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-38-sun-top-brabus-performance-line",
+   "key": "axopar/axopar-38-sun-top/other/axopar-38-sun-top-brabus-performance-line-d04abae9.webp",
+   "sha256": "d04abae9f0d90a762b123f90e9320ccba050707225d2247828d66ef8eb8d68f3",
+   "bytes": 59188,
+   "uploaded_at": "2026-10-28T21:59:56+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-38-st-bpl",
+   "key": "axopar/axopar-38-sun-top/underway/axopar-38-st-bpl-05eabf72.webp",
+   "sha256": "05eabf72275d80029920310b3d09659222a64e72cc717a9bdac88b8070119051",
+   "bytes": 54932,
+   "uploaded_at": "2026-10-28T21:59:56+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  }
+ ]
+}

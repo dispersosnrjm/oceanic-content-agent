@@ -1,0 +1,512 @@
+{
+ "version": 1,
+ "images": [
+  {
+   "id": "axopar-45-cross-top-11",
+   "key": "axopar/axopar-45-cross-top/exterior/axopar-45-cross-top-11-f963614e.webp",
+   "sha256": "f963614e0d429367e7ac4131a5e20baf2e901d62a4e50b523b3ba8d6d396a40c",
+   "bytes": 87332,
+   "uploaded_at": "2026-10-28T22:00:10+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "ax45-xt-efoil-k0a8252-m",
+   "key": "axopar/axopar-45-cross-top/other/ax45-xt-efoil-k0a8252-m-11af2fbd.webp",
+   "sha256": "11af2fbd5e2e3a7fdad386d816ed0676a1456a986ad65cbab1488d8b1616fa30",
+   "bytes": 84066,
+   "uploaded_at": "2026-10-28T22:00:10+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-45-cross-top-a1209778",
+   "key": "axopar/axopar-45-cross-top/exterior/axopar-45-cross-top-a1209778-64b2c76e.webp",
+   "sha256": "64b2c76ecb4e57d42c81930d53adfe4a8fe2c09905b1a3ca9d23059b78623052",
+   "bytes": 377950,
+   "uploaded_at": "2026-10-28T22:00:10+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-45-xt-cross-top-brabus-line-6171",
+   "key": "axopar/axopar-45-cross-top/exterior/axopar-45-xt-cross-top-brabus-line-6171-0babeb68.webp",
+   "sha256": "0babeb68b1d8a197e7716de9a4bbbe65294b4c9e541edf42f119e3602ab3433b",
+   "bytes": 125718,
+   "uploaded_at": "2026-10-28T22:00:10+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-45-cross-top-5",
+   "key": "axopar/axopar-45-cross-top/interior/axopar-45-cross-top-5-d1d589a5.webp",
+   "sha256": "d1d589a5195939a305443f5ab81b44671ab6d6ab7c16a84b47e5613e3ef7d44a",
+   "bytes": 105646,
+   "uploaded_at": "2026-10-28T22:00:10+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-45-cross-top-10",
+   "key": "axopar/axopar-45-cross-top/exterior/axopar-45-cross-top-10-a46eba9b.webp",
+   "sha256": "a46eba9b3042af883077312b32987f17fe8ba9f1adce5a900a397e9af86ce9a3",
+   "bytes": 169314,
+   "uploaded_at": "2026-10-28T22:00:10+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-45-cross-top-20",
+   "key": "axopar/axopar-45-cross-top/interior/axopar-45-cross-top-20-39e420a8.webp",
+   "sha256": "39e420a8e68a11130b18e6d85d9ddfec7332d93e4a65216532c082d5b1c270aa",
+   "bytes": 158798,
+   "uploaded_at": "2026-10-28T22:00:10+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-45-dsc02368",
+   "key": "axopar/axopar-45-cross-top/interior/axopar-45-dsc02368-31575687.webp",
+   "sha256": "31575687d3f46b76ace825025dc196df00a184460fcdbe6bd4b09f106d8f972b",
+   "bytes": 48336,
+   "uploaded_at": "2026-10-28T22:00:10+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-45-cross-top-14",
+   "key": "axopar/axopar-45-cross-top/interior/axopar-45-cross-top-14-165e060a.webp",
+   "sha256": "165e060a3ed05633488be4f4fc6cb4ad7e6694be6cb3d631eac1bc233483ea0e",
+   "bytes": 143174,
+   "uploaded_at": "2026-10-28T22:00:11+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "ax45-xt-efoil-q9a8337",
+   "key": "axopar/axopar-45-cross-top/other/ax45-xt-efoil-q9a8337-08f32077.webp",
+   "sha256": "08f320771460cd97ab23a9934a77a453e0e2bb9ba678c93a770191c1135feb4c",
+   "bytes": 118644,
+   "uploaded_at": "2026-10-28T22:00:11+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "ax45-xt-efoil-q6a8384",
+   "key": "axopar/axopar-45-cross-top/cockpit/ax45-xt-efoil-q6a8384-ad4377eb.webp",
+   "sha256": "ad4377ebed5b290ee69717adcfb6daba2395bd82a797aecd8d2b02f158fef3fe",
+   "bytes": 186976,
+   "uploaded_at": "2026-10-28T22:00:11+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "ax45-xt-efoil-q9a8400",
+   "key": "axopar/axopar-45-cross-top/helm/ax45-xt-efoil-q9a8400-3f56cefd.webp",
+   "sha256": "3f56cefd1ade6b5d9f687986bdfa2ccd1be6a0405b797ce9d7828f1016f2e6ab",
+   "bytes": 70644,
+   "uploaded_at": "2026-10-28T22:00:11+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "ax45-xt-efoil-q6a8829",
+   "key": "axopar/axopar-45-cross-top/cockpit/ax45-xt-efoil-q6a8829-b1e579dd.webp",
+   "sha256": "b1e579ddcbbe91cfda3669deadf634dbb12dd5f395f656fd305d8d978dcc1268",
+   "bytes": 141140,
+   "uploaded_at": "2026-10-28T22:00:11+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "ax45-xt-efoil-dji-0182",
+   "key": "axopar/axopar-45-cross-top/exterior/ax45-xt-efoil-dji-0182-85a628a7.webp",
+   "sha256": "85a628a7a0297ef58e82d201e4f2f997a06b1594d794d2d9ed0891a361555cca",
+   "bytes": 244244,
+   "uploaded_at": "2026-10-28T22:00:11+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-45-xt-cross-top-brabus-line-10",
+   "key": "axopar/axopar-45-cross-top/exterior/axopar-45-xt-cross-top-brabus-line-10-f620bd5e.webp",
+   "sha256": "f620bd5e2c6eec98d73d1daaadb9780c639f281ae96688f68ba001497035a413",
+   "bytes": 74362,
+   "uploaded_at": "2026-10-28T22:00:11+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "ax45-xt-efoil-q9a8308",
+   "key": "axopar/axopar-45-cross-top/other/ax45-xt-efoil-q9a8308-8ef8f217.webp",
+   "sha256": "8ef8f2172d3b5589f2e07bbc256fe67efc5a1d7560ba281c82b805d8019615a6",
+   "bytes": 106952,
+   "uploaded_at": "2026-10-28T22:00:11+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-45-cross-top-2",
+   "key": "axopar/axopar-45-cross-top/exterior/axopar-45-cross-top-2-d5f1e0ee.webp",
+   "sha256": "d5f1e0eeacc3a9c59eb95a1dd616316d431ab70a7cc5735c79c19fa6478bbec2",
+   "bytes": 308564,
+   "uploaded_at": "2026-10-28T22:00:11+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-45-dsc02381",
+   "key": "axopar/axopar-45-cross-top/interior/axopar-45-dsc02381-60039578.webp",
+   "sha256": "600395787c7d96831afbe80b67ce5430bdf4d57d074bfee261938d970dbf5efa",
+   "bytes": 45158,
+   "uploaded_at": "2026-10-28T22:00:11+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-45-dsc02392",
+   "key": "axopar/axopar-45-cross-top/interior/axopar-45-dsc02392-03534d96.webp",
+   "sha256": "03534d96e8b1ba816cdef9fb15af29c93587e2d057c933688dfd8c08c732fbc2",
+   "bytes": 60596,
+   "uploaded_at": "2026-10-28T22:00:11+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-45-cross-top-miami-blue-2160x2160",
+   "key": "axopar/axopar-45-cross-top/other/axopar-45-cross-top-miami-blue-2160x2160-ae4199fe.webp",
+   "sha256": "ae4199fe70e0b239e3691ed7521643463decc1d2f370b9c476964d91e7582ef6",
+   "bytes": 60780,
+   "uploaded_at": "2026-10-28T22:00:12+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-45-cross-top-platinum-grey-2160x2160",
+   "key": "axopar/axopar-45-cross-top/detail/axopar-45-cross-top-platinum-grey-2160x2160-f15faebd.webp",
+   "sha256": "f15faebd6e86e01554e1726866f49b8b77c6d4dcdf470f5a0409625e1252851f",
+   "bytes": 55280,
+   "uploaded_at": "2026-10-28T22:00:12+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-45-cross-top-glacier-blue",
+   "key": "axopar/axopar-45-cross-top/detail/axopar-45-cross-top-glacier-blue-1700e757.webp",
+   "sha256": "1700e7577a6fbaa33e3480f3be5acb6ac248872dccaee7f9c83d6675c73f6722",
+   "bytes": 58178,
+   "uploaded_at": "2026-10-28T22:00:12+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-45-cross-top-pearl-white",
+   "key": "axopar/axopar-45-cross-top/detail/axopar-45-cross-top-pearl-white-41b3d43b.webp",
+   "sha256": "41b3d43b033d6c949e5b32e5fa27801c3c385132427f7c1534291de825465c3f",
+   "bytes": 57386,
+   "uploaded_at": "2026-10-28T22:00:12+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-45-cross-top-brabus-performance-line-099a2832",
+   "key": "axopar/axopar-45-cross-top/exterior/axopar-45-cross-top-brabus-performance-line-099a2832-6d3c3f79.webp",
+   "sha256": "6d3c3f79bac0dc1dc90985f92c166849783a57d91b50a9510463744a97428af4",
+   "bytes": 145628,
+   "uploaded_at": "2026-10-28T22:00:12+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-45-cross-top-brabus-performance-line-099a2774",
+   "key": "axopar/axopar-45-cross-top/exterior/axopar-45-cross-top-brabus-performance-line-099a2774-3720ae67.webp",
+   "sha256": "3720ae6735d8bfdb7ce9aff0ac60fef8a40e62aeeb813f13af3219d1bc02b1a9",
+   "bytes": 85998,
+   "uploaded_at": "2026-10-28T22:00:12+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "ax45stxt-open-aft",
+   "key": "axopar/axopar-45-cross-top/other/ax45stxt-open-aft-3a7cf9af.webp",
+   "sha256": "3a7cf9af5843a176ffecb0a9c419eeb2d2da4e8704f91414c03250c04a7f816a",
+   "bytes": 86350,
+   "uploaded_at": "2026-10-28T22:00:12+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "ax45stxt-u-sofa",
+   "key": "axopar/axopar-45-cross-top/other/ax45stxt-u-sofa-da3d5a8e.webp",
+   "sha256": "da3d5a8e10526398518ca318773f467d76634b6f35627299d7564408f7940f74",
+   "bytes": 94356,
+   "uploaded_at": "2026-10-28T22:00:13+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "ax45stxt-aft-cabin",
+   "key": "axopar/axopar-45-cross-top/other/ax45stxt-aft-cabin-109f2936.webp",
+   "sha256": "109f293677cd6bc6ce14bd6f91bfb2cad0c4d7b7de81efe1915f3d4f5856931a",
+   "bytes": 90340,
+   "uploaded_at": "2026-10-28T22:00:13+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-45-cross-top-5-2",
+   "key": "axopar/axopar-45-cross-top/exterior/axopar-45-cross-top-5-2-6aef3c18.webp",
+   "sha256": "6aef3c18ebedcd529b3889c033ca17b68b12b58a1767c17374817fb0323bfd68",
+   "bytes": 114990,
+   "uploaded_at": "2026-10-28T22:00:13+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "silvertex-petrol",
+   "key": "axopar/axopar-45-cross-top/detail/silvertex-petrol-5c2a5e85.webp",
+   "sha256": "5c2a5e85a7f6480c2c0aa5e903e450085afc3b1de1442c232efcea9cf41d74ac",
+   "bytes": 238130,
+   "uploaded_at": "2026-10-28T22:00:13+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "silvertex-squash",
+   "key": "axopar/axopar-45-cross-top/detail/silvertex-squash-3eae5cab.webp",
+   "sha256": "3eae5cab65f41062aaa15e81e57574d8ddaddee02f764030782a1eab045d7548",
+   "bytes": 256140,
+   "uploaded_at": "2026-10-28T22:00:13+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "silvertex-hunter",
+   "key": "axopar/axopar-45-cross-top/detail/silvertex-hunter-dbb7bd09.webp",
+   "sha256": "dbb7bd094e7e4a8f8469fb946f802a1ef1016ad7c43698ccb82523353493791d",
+   "bytes": 215262,
+   "uploaded_at": "2026-10-28T22:00:13+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "linetex-sphere",
+   "key": "axopar/axopar-45-cross-top/detail/linetex-sphere-bd369f4d.webp",
+   "sha256": "bd369f4d410d3d75569d0735bce4b63cbf66519c25161c559b1dc89b3e710b10",
+   "bytes": 46824,
+   "uploaded_at": "2026-10-28T22:00:13+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "linetex-dust",
+   "key": "axopar/axopar-45-cross-top/detail/linetex-dust-023498ff.webp",
+   "sha256": "023498ff2bd7a3673474ab76c3629ca154939a4111162804611ac49b630d2c8a",
+   "bytes": 42742,
+   "uploaded_at": "2026-10-28T22:00:13+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "linetex-chalk",
+   "key": "axopar/axopar-45-cross-top/detail/linetex-chalk-cb57b7c0.webp",
+   "sha256": "cb57b7c0430787a05d77b079a80e9f4e73f421f2bcb9385ae07dab4e959bcdb7",
+   "bytes": 23782,
+   "uploaded_at": "2026-10-28T22:00:13+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "taupe",
+   "key": "axopar/axopar-45-cross-top/detail/taupe-d2b3c49e.webp",
+   "sha256": "d2b3c49e158c8e4a92419bbb0c956717c1a1f69e7d79c72281bda4e44b2190b2",
+   "bytes": 279842,
+   "uploaded_at": "2026-10-28T22:00:13+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "natural",
+   "key": "axopar/axopar-45-cross-top/detail/natural-68bb359e.webp",
+   "sha256": "68bb359e1e0049286ae99c2318e0420d8e94ef331a2c764aed78a2be51d7a7e5",
+   "bytes": 107502,
+   "uploaded_at": "2026-10-28T22:00:13+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antracite",
+   "key": "axopar/axopar-45-cross-top/detail/antracite-aa32cfbd.webp",
+   "sha256": "aa32cfbd51bd59cac832812659e08eebba52a549c60c6231bb6d4489caff3631",
+   "bytes": 198608,
+   "uploaded_at": "2026-10-28T22:00:14+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "ax45-xt-efoil-q9a8325",
+   "key": "axopar/axopar-45-cross-top/other/ax45-xt-efoil-q9a8325-aad7ecec.webp",
+   "sha256": "aad7ecece7bfbd4938164fdaed3742ae4c81f285e95c644856bdc56cfd188265",
+   "bytes": 97548,
+   "uploaded_at": "2026-10-28T22:00:14+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  }
+ ]
+}

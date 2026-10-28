@@ -1,0 +1,590 @@
+{
+ "version": 1,
+ "images": [
+  {
+   "id": "axopar-25-cross-bow-c4a9334",
+   "key": "axopar/axopar-25-cross-bow/other/axopar-25-cross-bow-c4a9334-5d89dd92.webp",
+   "sha256": "5d89dd925213e150dc22cf76f0c12d3857f07e078b2415b207d995a024ab2da1",
+   "bytes": 129646,
+   "uploaded_at": "2026-10-28T21:58:38+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-25-cross-bow-c4a9334-m",
+   "key": "axopar/axopar-25-cross-bow/other/axopar-25-cross-bow-c4a9334-m-8eaa17b8.webp",
+   "sha256": "8eaa17b8150ee012c6aa43e64978ed8de437198e862ed771a491353dd4865580",
+   "bytes": 138340,
+   "uploaded_at": "2026-10-28T21:58:38+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-25-cross-bow-c4a2268",
+   "key": "axopar/axopar-25-cross-bow/other/axopar-25-cross-bow-c4a2268-f82dcc17.webp",
+   "sha256": "f82dcc17b2541ff1f86a8597d1cf951f7848de381780a3a9e2d21671999e5b5c",
+   "bytes": 387182,
+   "uploaded_at": "2026-10-28T21:58:38+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-25-cross-bow-c4a1386",
+   "key": "axopar/axopar-25-cross-bow/other/axopar-25-cross-bow-c4a1386-8598e739.webp",
+   "sha256": "8598e739ddbf83cc341fa54125b3ff2b8c0cd06bcabb4c25e5fc893856870d03",
+   "bytes": 260988,
+   "uploaded_at": "2026-10-28T21:58:38+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-25-cross-bow-c4a1386-mobile",
+   "key": "axopar/axopar-25-cross-bow/other/axopar-25-cross-bow-c4a1386-mobile-bc82fe76.webp",
+   "sha256": "bc82fe76420f8441e51006e953cf0fab722cff744407d50e95d00107e515ea5f",
+   "bytes": 428790,
+   "uploaded_at": "2026-10-28T21:58:38+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-25-cross-bow-c4a1948",
+   "key": "axopar/axopar-25-cross-bow/underway/axopar-25-cross-bow-c4a1948-9912e971.webp",
+   "sha256": "9912e9718171974da9483966dfd2077b6124584ad68c9f963168e0fb3b0f092c",
+   "bytes": 133822,
+   "uploaded_at": "2026-10-28T21:58:38+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-25-cross-bow-c4a1862-mobile",
+   "key": "axopar/axopar-25-cross-bow/underway/axopar-25-cross-bow-c4a1862-mobile-97b66b43.webp",
+   "sha256": "97b66b43fc0fd634a1b19e45b1a8ad15507c50d402550f0cdc82d0220ab94b0b",
+   "bytes": 213750,
+   "uploaded_at": "2026-10-28T21:58:38+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-25-cross-bow-c4a2812",
+   "key": "axopar/axopar-25-cross-bow/cabin/axopar-25-cross-bow-c4a2812-cfbd960a.webp",
+   "sha256": "cfbd960a4bdc528c64335ae51e6b8e9564d5ca0fe882a448a1d4bef1cb7659f5",
+   "bytes": 134918,
+   "uploaded_at": "2026-10-28T21:58:38+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-25-cross-bow-c4a0129",
+   "key": "axopar/axopar-25-cross-bow/helm/axopar-25-cross-bow-c4a0129-53dbbb36.webp",
+   "sha256": "53dbbb361437f6e1d6d796a9d5d779968f8f4416e2260e8ed681f8b5ae67eb2e",
+   "bytes": 108286,
+   "uploaded_at": "2026-10-28T21:58:39+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-25-cross-bow-c4a0308",
+   "key": "axopar/axopar-25-cross-bow/other/axopar-25-cross-bow-c4a0308-d79a97e8.webp",
+   "sha256": "d79a97e808426ebb9a4ebd81bc256ffd285d387e31a116e65bd9b6633057c344",
+   "bytes": 93770,
+   "uploaded_at": "2026-10-28T21:58:39+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-25-cross-bow-c4a1958",
+   "key": "axopar/axopar-25-cross-bow/other/axopar-25-cross-bow-c4a1958-bbcaf604.webp",
+   "sha256": "bbcaf60400011f86f9b3c5295a86089036d43bde33305e572c64424cbb7dac43",
+   "bytes": 150238,
+   "uploaded_at": "2026-10-28T21:58:39+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-25-cross-bow-c4a3474",
+   "key": "axopar/axopar-25-cross-bow/other/axopar-25-cross-bow-c4a3474-67df579e.webp",
+   "sha256": "67df579e0726c8d15dd29b03b27c0573a5de6f6c2d4538395d290d2560f486bb",
+   "bytes": 102280,
+   "uploaded_at": "2026-10-28T21:58:39+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-25-cross-bow-c4a0325",
+   "key": "axopar/axopar-25-cross-bow/interior/axopar-25-cross-bow-c4a0325-a2860a29.webp",
+   "sha256": "a2860a29a35eda62e02ee6fcc82d8ffead551fc84e7cc2f703e83c7e93f639fa",
+   "bytes": 90902,
+   "uploaded_at": "2026-10-28T21:58:39+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-25-cross-bow-c4a4209",
+   "key": "axopar/axopar-25-cross-bow/exterior/axopar-25-cross-bow-c4a4209-038b9c4e.webp",
+   "sha256": "038b9c4e2fe4eebe73517cd2403a4bc557a6dd7d31e0af3c3378fd1cb713b3a9",
+   "bytes": 229598,
+   "uploaded_at": "2026-10-28T21:58:39+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-25-cross-bow-c4a2010",
+   "key": "axopar/axopar-25-cross-bow/exterior/axopar-25-cross-bow-c4a2010-9f3b08e9.webp",
+   "sha256": "9f3b08e91bbc6d9269c56c4f1c64e9062aaf7fba774d9416f4d1e6093a6a9900",
+   "bytes": 300294,
+   "uploaded_at": "2026-10-28T21:58:39+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-25-cross-bow-dji-0249",
+   "key": "axopar/axopar-25-cross-bow/exterior/axopar-25-cross-bow-dji-0249-08421264.webp",
+   "sha256": "08421264bda327102c245c7374a9e204f89ea5c1aa88d8b4831e98e8f8ef22a7",
+   "bytes": 106384,
+   "uploaded_at": "2026-10-28T21:58:39+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-25-cross-bow-0x0a4999",
+   "key": "axopar/axopar-25-cross-bow/exterior/axopar-25-cross-bow-0x0a4999-908b8fda.webp",
+   "sha256": "908b8fdad75bf01de08c04a423daec4039c0b246ffa94777b008e1f975ca3864",
+   "bytes": 275478,
+   "uploaded_at": "2026-10-28T21:58:40+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-25-cross-bow-c4a8113",
+   "key": "axopar/axopar-25-cross-bow/exterior/axopar-25-cross-bow-c4a8113-cc81dc2b.webp",
+   "sha256": "cc81dc2bf0713ae1ca6fe878bffe93a9929cbc7381844a76d0ed45ff17822b11",
+   "bytes": 183122,
+   "uploaded_at": "2026-10-28T21:58:40+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-25-cross-bow-brabus-line-1",
+   "key": "axopar/axopar-25-cross-bow/other/axopar-25-cross-bow-brabus-line-1-44875b43.webp",
+   "sha256": "44875b43299675cf9c2115782b3dfcecdae889e202b14b4adfbf651aaa357eed",
+   "bytes": 60826,
+   "uploaded_at": "2026-10-28T21:58:40+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-25-cross-bow-brabus-line-miami-blue-2",
+   "key": "axopar/axopar-25-cross-bow/other/axopar-25-cross-bow-brabus-line-miami-blue-2-4c23e0d5.webp",
+   "sha256": "4c23e0d5958cb425e7fbde9e216986133fbb5c485a696d24ba4d225535876fdf",
+   "bytes": 63316,
+   "uploaded_at": "2026-10-28T21:58:40+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-25-cross-bow-brabus-line-platinum-grey-2",
+   "key": "axopar/axopar-25-cross-bow/detail/axopar-25-cross-bow-brabus-line-platinum-grey-2-f0f86a49.webp",
+   "sha256": "f0f86a4976412676245e7baf84b0842eff1437f63b12a4c0c56b525a7623c816",
+   "bytes": 59588,
+   "uploaded_at": "2026-10-28T21:58:40+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-25-cross-bow-glacier-blue",
+   "key": "axopar/axopar-25-cross-bow/detail/axopar-25-cross-bow-glacier-blue-954b2ca4.webp",
+   "sha256": "954b2ca43d846401cb37ed04f836b01e4e0e635b826e2da3f499f708c7470163",
+   "bytes": 61190,
+   "uploaded_at": "2026-10-28T21:58:40+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-25-cross-bow-pearl-white",
+   "key": "axopar/axopar-25-cross-bow/detail/axopar-25-cross-bow-pearl-white-51573695.webp",
+   "sha256": "51573695ec691a1f573d657d82bbafb6e45ee7f055401e545f6c73c15628d681",
+   "bytes": 60800,
+   "uploaded_at": "2026-10-28T21:58:40+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-25-cross-bow-brabus-performance-line-1",
+   "key": "axopar/axopar-25-cross-bow/other/axopar-25-cross-bow-brabus-performance-line-1-41e85431.webp",
+   "sha256": "41e85431306a9a996a89b95125da6b50d15efd06271498ada21782cab9342baa",
+   "bytes": 61120,
+   "uploaded_at": "2026-10-28T21:58:40+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-25-cross-bow-mediterrana-edition-1",
+   "key": "axopar/axopar-25-cross-bow/other/axopar-25-cross-bow-mediterrana-edition-1-17bb5a19.webp",
+   "sha256": "17bb5a199d460202a705943080b112a1d026f3c8840c1773c9c4932926e1fac2",
+   "bytes": 75326,
+   "uploaded_at": "2026-10-28T21:58:41+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "ax25-cross-bow-petrol-camera-siderear",
+   "key": "axopar/axopar-25-cross-bow/other/ax25-cross-bow-petrol-camera-siderear-d8d46e42.webp",
+   "sha256": "d8d46e425cb86e6797ae961e68ba520e5f69c58641c601e44aeca6a77def460f",
+   "bytes": 73296,
+   "uploaded_at": "2026-10-28T21:58:41+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "ax25-cross-bow-squash-camera-siderear",
+   "key": "axopar/axopar-25-cross-bow/other/ax25-cross-bow-squash-camera-siderear-3d0d05b3.webp",
+   "sha256": "3d0d05b3eccc5030e052ceae1d8a74e74522a0f2dcf0087d3f60562758783c46",
+   "bytes": 77780,
+   "uploaded_at": "2026-10-28T21:58:41+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "ax25-cross-bow-sphere-camera-siderear",
+   "key": "axopar/axopar-25-cross-bow/other/ax25-cross-bow-sphere-camera-siderear-b1265652.webp",
+   "sha256": "b1265652d49ce0d0edc286edb3779f7164c9d29b98604730970faba6acb3f54d",
+   "bytes": 75024,
+   "uploaded_at": "2026-10-28T21:58:41+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "ax25-cross-bow-hunter-camera-siderear",
+   "key": "axopar/axopar-25-cross-bow/other/ax25-cross-bow-hunter-camera-siderear-0a2c9afd.webp",
+   "sha256": "0a2c9afd770e02ec8adbe5ce0648f891506108f83bf40864eab007ae3ae874aa",
+   "bytes": 73620,
+   "uploaded_at": "2026-10-28T21:58:41+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "ax25-cross-bow-taupe-camera-siderear",
+   "key": "axopar/axopar-25-cross-bow/other/ax25-cross-bow-taupe-camera-siderear-3535fbdf.webp",
+   "sha256": "3535fbdf7f85fc7644b26e4077df18aaeffbc593f7327b9b50107c0ea15a9e28",
+   "bytes": 75600,
+   "uploaded_at": "2026-10-28T21:58:41+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-25-range-aft-sofa-chalk",
+   "key": "axopar/axopar-25-cross-bow/other/axopar-25-range-aft-sofa-chalk-a359db3a.webp",
+   "sha256": "a359db3a9fc490327310f680f2936e5fb15e058545acaff2055bcac0be5ffb54",
+   "bytes": 45978,
+   "uploaded_at": "2026-10-28T21:58:41+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-25-range-u-sofa-corn",
+   "key": "axopar/axopar-25-cross-bow/other/axopar-25-range-u-sofa-corn-092f15f6.webp",
+   "sha256": "092f15f671ee72975a328706cc5c00a227a023de879649fdbc7491355e942798",
+   "bytes": 45008,
+   "uploaded_at": "2026-10-28T21:58:41+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-25-u-sofa-sunbed-linetex-dust",
+   "key": "axopar/axopar-25-cross-bow/other/axopar-25-u-sofa-sunbed-linetex-dust-77ce2bb0.webp",
+   "sha256": "77ce2bb064e83537cc7c3570724a1cfe31bc5d983b5571b45dee22097c1cb18a",
+   "bytes": 49510,
+   "uploaded_at": "2026-10-28T21:58:41+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-25-multi-storage-petrol",
+   "key": "axopar/axopar-25-cross-bow/other/axopar-25-multi-storage-petrol-b89793e9.webp",
+   "sha256": "b89793e944a1f52c562150211d2d8e0e0bdbdaed2b3dd803aec13155b6fe4d2f",
+   "bytes": 45002,
+   "uploaded_at": "2026-10-28T21:58:41+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-25-multi-storage-mediterrana-drivers-sofa",
+   "key": "axopar/axopar-25-cross-bow/other/axopar-25-multi-storage-mediterrana-drivers-sofa-9d239d8a.webp",
+   "sha256": "9d239d8a01d125a5a7123519076b202c956555a137ce9f6455e96bffe1a15b01",
+   "bytes": 64430,
+   "uploaded_at": "2026-10-28T21:58:42+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "silvertex-petrol",
+   "key": "axopar/axopar-25-cross-bow/detail/silvertex-petrol-5c2a5e85.webp",
+   "sha256": "5c2a5e85a7f6480c2c0aa5e903e450085afc3b1de1442c232efcea9cf41d74ac",
+   "bytes": 238130,
+   "uploaded_at": "2026-10-28T21:58:42+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "silvertex-squash",
+   "key": "axopar/axopar-25-cross-bow/detail/silvertex-squash-3eae5cab.webp",
+   "sha256": "3eae5cab65f41062aaa15e81e57574d8ddaddee02f764030782a1eab045d7548",
+   "bytes": 256140,
+   "uploaded_at": "2026-10-28T21:58:42+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "silvertex-hunter",
+   "key": "axopar/axopar-25-cross-bow/detail/silvertex-hunter-dbb7bd09.webp",
+   "sha256": "dbb7bd094e7e4a8f8469fb946f802a1ef1016ad7c43698ccb82523353493791d",
+   "bytes": 215262,
+   "uploaded_at": "2026-10-28T21:58:42+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "linetex-sphere",
+   "key": "axopar/axopar-25-cross-bow/detail/linetex-sphere-bd369f4d.webp",
+   "sha256": "bd369f4d410d3d75569d0735bce4b63cbf66519c25161c559b1dc89b3e710b10",
+   "bytes": 46824,
+   "uploaded_at": "2026-10-28T21:58:42+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "linetex-dust",
+   "key": "axopar/axopar-25-cross-bow/detail/linetex-dust-023498ff.webp",
+   "sha256": "023498ff2bd7a3673474ab76c3629ca154939a4111162804611ac49b630d2c8a",
+   "bytes": 42742,
+   "uploaded_at": "2026-10-28T21:58:42+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "linetex-chalk",
+   "key": "axopar/axopar-25-cross-bow/detail/linetex-chalk-cb57b7c0.webp",
+   "sha256": "cb57b7c0430787a05d77b079a80e9f4e73f421f2bcb9385ae07dab4e959bcdb7",
+   "bytes": 23782,
+   "uploaded_at": "2026-10-28T21:58:42+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "taupe",
+   "key": "axopar/axopar-25-cross-bow/detail/taupe-d2b3c49e.webp",
+   "sha256": "d2b3c49e158c8e4a92419bbb0c956717c1a1f69e7d79c72281bda4e44b2190b2",
+   "bytes": 279842,
+   "uploaded_at": "2026-10-28T21:58:43+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "natural",
+   "key": "axopar/axopar-25-cross-bow/detail/natural-68bb359e.webp",
+   "sha256": "68bb359e1e0049286ae99c2318e0420d8e94ef331a2c764aed78a2be51d7a7e5",
+   "bytes": 107502,
+   "uploaded_at": "2026-10-28T21:58:43+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antracite",
+   "key": "axopar/axopar-25-cross-bow/detail/antracite-aa32cfbd.webp",
+   "sha256": "aa32cfbd51bd59cac832812659e08eebba52a549c60c6231bb6d4489caff3631",
+   "bytes": 198608,
+   "uploaded_at": "2026-10-28T21:58:43+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-25-cross-bow-0x0a5148",
+   "key": "axopar/axopar-25-cross-bow/other/axopar-25-cross-bow-0x0a5148-28b7c9ba.webp",
+   "sha256": "28b7c9ba2f3ad4b6fe3ec9373f84452002677e35002b722b009a47353db1190c",
+   "bytes": 47926,
+   "uploaded_at": "2026-10-28T21:58:43+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  }
+ ]
+}

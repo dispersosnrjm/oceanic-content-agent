@@ -1,0 +1,512 @@
+{
+ "version": 1,
+ "images": [
+  {
+   "id": "axopar-22-spyder-gallery-21-648",
+   "key": "axopar/axopar-22-spyder/other/axopar-22-spyder-gallery-21-648-12aaf6db.webp",
+   "sha256": "12aaf6db70d0da1edb7148343b7114eca801773d63ca6ef8cce23f5824ae209a",
+   "bytes": 74486,
+   "uploaded_at": "2026-10-28T21:58:26+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-22-spyder-my2021-ax26-5-21-558",
+   "key": "axopar/axopar-22-spyder/interior/axopar-22-spyder-my2021-ax26-5-21-558-0eb35d17.webp",
+   "sha256": "0eb35d17ce35ee8787895d1ee0c4cee702c29a64ed9b2b787464766642f6323a",
+   "bytes": 59594,
+   "uploaded_at": "2026-10-28T21:58:26+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "ax22-spyder-petrol-aft-sofa",
+   "key": "axopar/axopar-22-spyder/other/ax22-spyder-petrol-aft-sofa-c8013fd5.webp",
+   "sha256": "c8013fd58738bcbd946f7eccbac45476e504a779ef9490be4234a91102924923",
+   "bytes": 42920,
+   "uploaded_at": "2026-10-28T21:58:26+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "ax22-spyder-squash-u-sofa-table",
+   "key": "axopar/axopar-22-spyder/other/ax22-spyder-squash-u-sofa-table-d23187db.webp",
+   "sha256": "d23187db0a1cee90a089905bb849d2ccbebe8960c117da49277135885cad9e1b",
+   "bytes": 47054,
+   "uploaded_at": "2026-10-28T21:58:26+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "ax22-spyder-sphere-u-sofa-sunbed",
+   "key": "axopar/axopar-22-spyder/other/ax22-spyder-sphere-u-sofa-sunbed-b4be10b9.webp",
+   "sha256": "b4be10b90deb2e9256b22c098313db656201eff9569f4c4434ba5652e8ac98c3",
+   "bytes": 44172,
+   "uploaded_at": "2026-10-28T21:58:26+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "ax22-spyder-hunter-multi-storage",
+   "key": "axopar/axopar-22-spyder/other/ax22-spyder-hunter-multi-storage-f89c9247.webp",
+   "sha256": "f89c924751e128b6a5a3540b2b9c286504c743dd3d9fd80f5c72c1576ecc4a56",
+   "bytes": 43470,
+   "uploaded_at": "2026-10-28T21:58:26+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "ax22-spyder-taupe-multi-storage-mediterrana",
+   "key": "axopar/axopar-22-spyder/other/ax22-spyder-taupe-multi-storage-mediterrana-3eeb63a5.webp",
+   "sha256": "3eeb63a5c1805929fd1a9a829125ee02e8b1bcf41f90c9a201a758876e216f54",
+   "bytes": 45518,
+   "uploaded_at": "2026-10-28T21:58:26+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-22-spyder-gallery-q6a0740",
+   "key": "axopar/axopar-22-spyder/other/axopar-22-spyder-gallery-q6a0740-9a67439c.webp",
+   "sha256": "9a67439c11fd0796fbe9e93cbf59f39311d33d546f6d3399ca04b4df2d1f2e05",
+   "bytes": 107840,
+   "uploaded_at": "2026-10-28T21:58:26+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-22-spyder-my2021-ax26-5-21-547",
+   "key": "axopar/axopar-22-spyder/exterior/axopar-22-spyder-my2021-ax26-5-21-547-b6043d1d.webp",
+   "sha256": "b6043d1db9436d9e3fd29125be873497db6b0256eab091bbe87280b41b463f42",
+   "bytes": 184206,
+   "uploaded_at": "2026-10-28T21:58:27+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-22-spyder-4",
+   "key": "axopar/axopar-22-spyder/interior/axopar-22-spyder-4-32b01401.webp",
+   "sha256": "32b0140137a107f51dd740355323bcb27477d79e3f9167baa8483257225b72d3",
+   "bytes": 83464,
+   "uploaded_at": "2026-10-28T21:58:27+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "22spyder-k0a7100",
+   "key": "axopar/axopar-22-spyder/exterior/22spyder-k0a7100-fc070fc4.webp",
+   "sha256": "fc070fc4ccee50beb02a5189d8d5c2837889b7d55cbaddd98814b4749212e316",
+   "bytes": 244760,
+   "uploaded_at": "2026-10-28T21:58:27+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "22spyder-q9a7133",
+   "key": "axopar/axopar-22-spyder/interior/22spyder-q9a7133-d0c77040.webp",
+   "sha256": "d0c77040e7d50cda84584246055a1ce21e02697b46c4aa95d93fd8cfc6bf20e7",
+   "bytes": 71602,
+   "uploaded_at": "2026-10-28T21:58:27+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-22-spyder-back-to-basics-9238",
+   "key": "axopar/axopar-22-spyder/exterior/axopar-22-spyder-back-to-basics-9238-59921f87.webp",
+   "sha256": "59921f87c8b33ad75b33500e5ce58185d94f4f00a81df243ea74659a25c7b5a3",
+   "bytes": 147494,
+   "uploaded_at": "2026-10-28T21:58:27+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "22-spyder-q6a0319",
+   "key": "axopar/axopar-22-spyder/exterior/22-spyder-q6a0319-c9d9a295.webp",
+   "sha256": "c9d9a29530b931327f9d4e16eb26221f96b9a90f73acaca74bdde842b9477b2d",
+   "bytes": 96490,
+   "uploaded_at": "2026-10-28T21:58:27+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-22-spyder-brabus-line-1",
+   "key": "axopar/axopar-22-spyder/other/axopar-22-spyder-brabus-line-1-4a173367.webp",
+   "sha256": "4a173367d373cade76fcfbc208605e54da866b7b827de4f9cbf61c969b6c8d7d",
+   "bytes": 44352,
+   "uploaded_at": "2026-10-28T21:58:27+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-22-spyder-miami-blue-side-view-1",
+   "key": "axopar/axopar-22-spyder/other/axopar-22-spyder-miami-blue-side-view-1-80d95ddd.webp",
+   "sha256": "80d95ddd5c94929be7b5b2248579f3fb36224d60bd631cb59788e58db6ab3b3e",
+   "bytes": 47032,
+   "uploaded_at": "2026-10-28T21:58:27+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-22-spyder-miami-blue-side-view",
+   "key": "axopar/axopar-22-spyder/detail/axopar-22-spyder-miami-blue-side-view-387bfbba.webp",
+   "sha256": "387bfbbada3972e1b8778f3ce4af007b4c3392e300c17c62b772c6b50f3a931a",
+   "bytes": 40488,
+   "uploaded_at": "2026-10-28T21:58:28+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-22-spyder-platinum-grey-side-view",
+   "key": "axopar/axopar-22-spyder/detail/axopar-22-spyder-platinum-grey-side-view-3a83a5bd.webp",
+   "sha256": "3a83a5bd1b23a0325d3d2822ea6acfb3ba5b77105ecc72e0b0fb5cbadc233bfc",
+   "bytes": 36552,
+   "uploaded_at": "2026-10-28T21:58:28+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-22-spyder-glacier-blue",
+   "key": "axopar/axopar-22-spyder/detail/axopar-22-spyder-glacier-blue-e5c36aa0.webp",
+   "sha256": "e5c36aa07d932321eae7b2228b9ee7d8596aee1967c45d9123c0d8c7f602340a",
+   "bytes": 43492,
+   "uploaded_at": "2026-10-28T21:58:28+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-22-spyder-pearl-white",
+   "key": "axopar/axopar-22-spyder/detail/axopar-22-spyder-pearl-white-af65bd11.webp",
+   "sha256": "af65bd11790876e809f4755c0255ca1899aee42b976caf158defd8c8e92e681e",
+   "bytes": 43800,
+   "uploaded_at": "2026-10-28T21:58:28+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-22-spyder-brabus-performance-line-1",
+   "key": "axopar/axopar-22-spyder/other/axopar-22-spyder-brabus-performance-line-1-4c70c25f.webp",
+   "sha256": "4c70c25f759602886e2093457e078971950b6edec64d1c8d38d1111efdcee2e9",
+   "bytes": 44750,
+   "uploaded_at": "2026-10-28T21:58:28+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-22-spyder-the-mediterrana-edition-1",
+   "key": "axopar/axopar-22-spyder/other/axopar-22-spyder-the-mediterrana-edition-1-eefe64c9.webp",
+   "sha256": "eefe64c909418d3e4220747b42d78f0ae2f848dc393599505cf812ced34a0de7",
+   "bytes": 62014,
+   "uploaded_at": "2026-10-28T21:58:28+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-22-spyder-axopar-x-jobe-edition-1",
+   "key": "axopar/axopar-22-spyder/other/axopar-22-spyder-axopar-x-jobe-edition-1-f1037eeb.webp",
+   "sha256": "f1037eebcbccd9898a905325449b771eeb3f6bac4ac37c706cfeba02478f1011",
+   "bytes": 42022,
+   "uploaded_at": "2026-10-28T21:58:28+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-22-spyder-axopar-x-jobe-edition",
+   "key": "axopar/axopar-22-spyder/other/axopar-22-spyder-axopar-x-jobe-edition-3c23b5a5.webp",
+   "sha256": "3c23b5a5971d894b245983877fe983b100d35df3f900359a466e6a31bd5d13aa",
+   "bytes": 36730,
+   "uploaded_at": "2026-10-28T21:58:28+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-22-aft-sofa-petrol",
+   "key": "axopar/axopar-22-spyder/other/axopar-22-aft-sofa-petrol-256d829f.webp",
+   "sha256": "256d829f8cc9c578d5d0313bd0289880ef908c6f165076bdcd760056035e39f9",
+   "bytes": 40818,
+   "uploaded_at": "2026-10-28T21:58:29+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-22-u-sofa-corn-fwd-facing-seat-bolsters-table",
+   "key": "axopar/axopar-22-spyder/other/axopar-22-u-sofa-corn-fwd-facing-seat-bolsters-table-e541f11e.webp",
+   "sha256": "e541f11e570953b57e4f1bd0ce651624088485c13d57a09dd7d4abcadbcee9a6",
+   "bytes": 43662,
+   "uploaded_at": "2026-10-28T21:58:29+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-22-u-sofa-sunbed-sphere",
+   "key": "axopar/axopar-22-spyder/other/axopar-22-u-sofa-sunbed-sphere-d7742539.webp",
+   "sha256": "d7742539cca414785e665fabf0b4b951e748639fc7ea813451638f9353dd0873",
+   "bytes": 44614,
+   "uploaded_at": "2026-10-28T21:58:29+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-22-multi-storage-fwd-facing-seat-bolsters-table-hunter",
+   "key": "axopar/axopar-22-spyder/other/axopar-22-multi-storage-fwd-facing-seat-bolsters-table-hunter-13b4d001.webp",
+   "sha256": "13b4d00167a21a095f311bcfa389a89511452d021399d9ac4098890cc8790b1b",
+   "bytes": 41026,
+   "uploaded_at": "2026-10-28T21:58:29+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-22-multi-storage-drivers-sofa-mediterrana",
+   "key": "axopar/axopar-22-spyder/other/axopar-22-multi-storage-drivers-sofa-mediterrana-3f7f62a9.webp",
+   "sha256": "3f7f62a9cb329852d53e468c8e9d7097d3fb7c06b531579af8a2a2b995e10eb5",
+   "bytes": 60608,
+   "uploaded_at": "2026-10-28T21:58:29+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "silvertex-petrol",
+   "key": "axopar/axopar-22-spyder/detail/silvertex-petrol-5c2a5e85.webp",
+   "sha256": "5c2a5e85a7f6480c2c0aa5e903e450085afc3b1de1442c232efcea9cf41d74ac",
+   "bytes": 238130,
+   "uploaded_at": "2026-10-28T21:58:29+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "silvertex-squash",
+   "key": "axopar/axopar-22-spyder/detail/silvertex-squash-3eae5cab.webp",
+   "sha256": "3eae5cab65f41062aaa15e81e57574d8ddaddee02f764030782a1eab045d7548",
+   "bytes": 256140,
+   "uploaded_at": "2026-10-28T21:58:29+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "silvertex-hunter",
+   "key": "axopar/axopar-22-spyder/detail/silvertex-hunter-dbb7bd09.webp",
+   "sha256": "dbb7bd094e7e4a8f8469fb946f802a1ef1016ad7c43698ccb82523353493791d",
+   "bytes": 215262,
+   "uploaded_at": "2026-10-28T21:58:29+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "linetex-sphere",
+   "key": "axopar/axopar-22-spyder/detail/linetex-sphere-bd369f4d.webp",
+   "sha256": "bd369f4d410d3d75569d0735bce4b63cbf66519c25161c559b1dc89b3e710b10",
+   "bytes": 46824,
+   "uploaded_at": "2026-10-28T21:58:30+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "linetex-dust",
+   "key": "axopar/axopar-22-spyder/detail/linetex-dust-023498ff.webp",
+   "sha256": "023498ff2bd7a3673474ab76c3629ca154939a4111162804611ac49b630d2c8a",
+   "bytes": 42742,
+   "uploaded_at": "2026-10-28T21:58:30+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "linetex-chalk",
+   "key": "axopar/axopar-22-spyder/detail/linetex-chalk-cb57b7c0.webp",
+   "sha256": "cb57b7c0430787a05d77b079a80e9f4e73f421f2bcb9385ae07dab4e959bcdb7",
+   "bytes": 23782,
+   "uploaded_at": "2026-10-28T21:58:30+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "taupe",
+   "key": "axopar/axopar-22-spyder/detail/taupe-d2b3c49e.webp",
+   "sha256": "d2b3c49e158c8e4a92419bbb0c956717c1a1f69e7d79c72281bda4e44b2190b2",
+   "bytes": 279842,
+   "uploaded_at": "2026-10-28T21:58:30+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "natural",
+   "key": "axopar/axopar-22-spyder/detail/natural-68bb359e.webp",
+   "sha256": "68bb359e1e0049286ae99c2318e0420d8e94ef331a2c764aed78a2be51d7a7e5",
+   "bytes": 107502,
+   "uploaded_at": "2026-10-28T21:58:30+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "antracite",
+   "key": "axopar/axopar-22-spyder/detail/antracite-aa32cfbd.webp",
+   "sha256": "aa32cfbd51bd59cac832812659e08eebba52a549c60c6231bb6d4489caff3631",
+   "bytes": 198608,
+   "uploaded_at": "2026-10-28T21:58:30+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "axopar-22-spyder-17-1",
+   "key": "axopar/axopar-22-spyder/interior/axopar-22-spyder-17-1-b02ebb63.webp",
+   "sha256": "b02ebb63745888866abb6e95466450e18a19507842f8b474c2744330ea2345c7",
+   "bytes": 75694,
+   "uploaded_at": "2026-10-28T21:58:30+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  }
+ ]
+}

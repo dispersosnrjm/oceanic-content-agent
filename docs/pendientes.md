@@ -68,17 +68,13 @@ errores, con sus `r2.json` creados.
 > verificación contra `original.sha256` (riesgo de recompresión del hash). Cierre: 266 imágenes en R2 verificadas con
 > `--verify-remote`.
 
-## Aquila: 134 imágenes en REQUIRES_REVIEW (en investigación)
+## Aquila: aceptada y subida a R2 (cerrado el 28 de octubre)
 
-- **Estado (28 de octubre de 2026):** una corrida de `media --restore` sobre Aquila dejó 134 imágenes en
-  `REQUIRES_REVIEW (original cambió)` en 9 modelos (`aquila-28-molokai` 18, `aquila-28-molokai-cuddy` 14, `aquila-32-sport` 12,
-  `aquila-36-sport` 19, `aquila-42-yacht` 18, `aquila-47-molokai` 2, `aquila-50-yacht` 15, `aquila-54-yacht` 11 y
-  `aquila-70-luxury` 25). Los cambios en los `images.json` de esos modelos están **sin commitear**.
-- **Causa:** sin determinar. La descarga no coincide con `original.sha256`; hay que comprobar si el original cambió de verdad o si
-  la URL oficial sirve bytes distintos del mismo archivo (falso positivo de la verificación).
-- Esas imágenes no se publican ni se exportan mientras estén en `REQUIRES_REVIEW`. No se ha subido nada de Aquila a R2 (no hay
-  `r2.json` de Aquila).
-- No se commitean esos `images.json` hasta cerrar la investigación.
+- Las 134 imágenes que estaban en `REQUIRES_REVIEW (original cambió)` se aceptaron por regla objetiva (aprobador ap-001, ver
+  "Notas para el Pull Request"); sus `images.json` y `multimedia.md` están commiteados.
+- Las 308 imágenes de Aquila están subidas a R2 y verificadas con `--verify-remote` (metadato sha256, no bytes); el registro de lo
+  subido es cada `r2.json`, que es la fuente de verdad de lo publicado.
+- Saffier y Solaris siguen pendientes por separado (ver sus secciones).
 
 ## Otros pendientes ya acordados
 
@@ -86,6 +82,9 @@ errores, con sus `r2.json` creados.
   proceso escribe `images.json`, `r2.json` o `readiness.json` mientras corren (`JSONDecodeError`). Solución: trabajar sobre una
   copia temporal de unos 19 MB, con verificación de lectura completa. Mientras tanto, no correr las pruebas durante una carga.
 - **CHANGELOG.md:** se actualiza en un solo commit al final de la integración.
+- **Opcional, no bloquea: sincronizar el inventario con lo real.** Una pasada que actualice `sha256`, `bytes` y `web_quality` de
+  `images.json` con los valores de las copias web publicadas (hoy el inventario conserva los de una conversión anterior; las 308
+  copias de Aquila difieren por la versión del codificador y `r2.json` ya guarda los reales).
 - **`--accept-changed` y `--reject`** para imágenes `REQUIRES_REVIEW`, y **idempotencia por imagen** (id + `original_sha256`):
   se reabren cuando el agente corra en más de un equipo o cuando se midan las marcas grandes.
 - **Después del lanzamiento:** workflow de GitHub Actions y `tools/pipeline.py`, línea base para `publish_tier`, videos livianos
@@ -93,7 +92,7 @@ errores, con sus `r2.json` creados.
 
 ## Notas para el Pull Request
 
-- **Aquila, aceptación por regla (cierra la sección "Aquila: 134 imágenes en REQUIRES_REVIEW").** Las 134 imágenes se aceptaron
+- **Aquila, aceptación por regla (ver la sección "Aquila: aceptada y subida a R2").** Las 134 imágenes se aceptaron
   el 2026-10-28 con `--accept-by-rule` (aprobador ap-001): `last_modified` anterior al registro y dimensiones iguales; cada una
   tiene su entrada en `review_log`. Al aceptar, el estado de 104 registros pasó de `WEB_COPY (original no disponible; desde CDN)`
   a `WEB_COPY`. No se pierde información: el bloque `original` queda idéntico y el dato equivalente sigue en

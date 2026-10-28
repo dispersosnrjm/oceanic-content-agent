@@ -1,0 +1,19 @@
+{
+ "version": 1,
+ "images": [
+  {
+   "id": "rib-alum-360-1",
+   "key": "oceanic-power/oceanic-power-rib-alum-360/exterior/rib-alum-360-1-22cdb71d.webp",
+   "sha256": "22cdb71dd76db537bb84fe073acefeed67e2b7e4cb8ce792ddd29258ab81c643",
+   "bytes": 7566,
+   "uploaded_at": "2026-10-26T20:22:42+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   },
+   "original_sha256": "0e0430f6cf48b61c5e5c98c3a9c0542ea094283ab0d0fcc6852e6b25b106961e"
+  }
+ ]
+}

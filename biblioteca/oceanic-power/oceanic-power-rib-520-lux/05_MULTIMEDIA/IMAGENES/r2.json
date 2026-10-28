@@ -1,0 +1,19 @@
+{
+ "version": 1,
+ "images": [
+  {
+   "id": "rib-520-lux-1",
+   "key": "oceanic-power/oceanic-power-rib-520-lux/exterior/rib-520-lux-1-847648b6.webp",
+   "sha256": "847648b683761431401c4bfbcd57da26492718578ffce6634aa919eae183549a",
+   "bytes": 6710,
+   "uploaded_at": "2026-10-26T20:22:30+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   },
+   "original_sha256": "f2d9e72aeaac328f870909ee46abf2dd2248603217b4e742c9a4d1550b1ffa67"
+  }
+ ]
+}

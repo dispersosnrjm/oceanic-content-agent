@@ -1,0 +1,19 @@
+{
+ "version": 1,
+ "images": [
+  {
+   "id": "rib-750-lux-1",
+   "key": "oceanic-power/oceanic-power-rib-750-lux/exterior/rib-750-lux-1-2017aabb.webp",
+   "sha256": "2017aabbc186c5de1cc04f1d1f478ffbb175a8578bb833692850797ab575ac36",
+   "bytes": 7980,
+   "uploaded_at": "2026-10-26T20:22:36+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   },
+   "original_sha256": "1ddb93e21af88f9eea9179366061724a215e23ccdf20a4f4af3f49a05577793f"
+  }
+ ]
+}

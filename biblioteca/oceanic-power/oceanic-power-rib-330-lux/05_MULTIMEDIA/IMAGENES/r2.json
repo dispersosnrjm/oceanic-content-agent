@@ -1,0 +1,19 @@
+{
+ "version": 1,
+ "images": [
+  {
+   "id": "rib-330-lux-2",
+   "key": "oceanic-power/oceanic-power-rib-330-lux/exterior/rib-330-lux-2-ed928b03.webp",
+   "sha256": "ed928b03be0f09fedadfeaf33c34c1118406c994923c9b63aef490a9a8dd6f21",
+   "bytes": 6500,
+   "uploaded_at": "2026-10-26T20:22:26+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   },
+   "original_sha256": "fdea573b8dc747e6c1df972747a94bb0be95c1dba8169e2466500a02db92f47d"
+  }
+ ]
+}

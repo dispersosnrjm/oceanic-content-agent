@@ -1,0 +1,19 @@
+{
+ "version": 1,
+ "images": [
+  {
+   "id": "rib-380-lux-1",
+   "key": "oceanic-power/oceanic-power-rib-380-lux/exterior/rib-380-lux-1-6ec22717.webp",
+   "sha256": "6ec227173ecbcc433156764c3f914288bc0ba1d6d477aa45149e488f346830e2",
+   "bytes": 5622,
+   "uploaded_at": "2026-10-26T20:22:27+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   },
+   "original_sha256": "cfef85764558daa5ec6aebc26a4a64f328b40efd993f8f05233ca1a0bfa40e82"
+  }
+ ]
+}

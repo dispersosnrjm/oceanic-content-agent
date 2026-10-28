@@ -1,0 +1,19 @@
+{
+ "version": 1,
+ "images": [
+  {
+   "id": "rib-430-lux-1",
+   "key": "oceanic-power/oceanic-power-rib-430-lux/exterior/rib-430-lux-1-cb972a69.webp",
+   "sha256": "cb972a697b1700550caa34f8e98ec52efa60072deaf8bbb84d48073da8d2da64",
+   "bytes": 6128,
+   "uploaded_at": "2026-10-26T20:22:29+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   },
+   "original_sha256": "f05ac8ec4e63cc20728620021d9f1ac09e0c5dd72f292d674bfe52666a17eab4"
+  }
+ ]
+}

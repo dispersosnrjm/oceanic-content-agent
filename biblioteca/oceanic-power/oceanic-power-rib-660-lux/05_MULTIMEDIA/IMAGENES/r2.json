@@ -1,0 +1,19 @@
+{
+ "version": 1,
+ "images": [
+  {
+   "id": "rib-660-lux-1",
+   "key": "oceanic-power/oceanic-power-rib-660-lux/exterior/rib-660-lux-1-bbefba34.webp",
+   "sha256": "bbefba3443ab8219f317559faa9c05dd1d64952d5fc2384b11e200ea6a7404f9",
+   "bytes": 5960,
+   "uploaded_at": "2026-10-26T20:22:34+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   },
+   "original_sha256": "01b7b6f7ca609a9546ba9da86fe6605e9ac492a1cf8796ff5839f36f7a29738f"
+  }
+ ]
+}

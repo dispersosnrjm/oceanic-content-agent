@@ -4,11 +4,13 @@ from pathlib import Path
 
 try:
     from tests import _netguard  # noqa: F401  (bloquea la red en las pruebas)
+    from tests import _realdata
 except ImportError:  # unittest discover -s tests
     import _netguard  # noqa: F401
+    import _realdata
 from oceanic import media, readiness, rsc, specs
 
-PILOT = Path(__file__).resolve().parents[2] / "biblioteca" / "axopar" / "axopar-37-xc-cross-cabin"
+PILOT = _realdata.snapshot_root() / "biblioteca" / "axopar" / "axopar-37-xc-cross-cabin"  # copia temporal (render escribe)
 
 
 def _record(value, sid="S1"):

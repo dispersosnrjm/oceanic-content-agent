@@ -12,8 +12,10 @@ from PIL import Image
 
 try:
     from tests import _netguard  # noqa: F401  (bloquea la red en las pruebas)
+    from tests import _realdata
 except ImportError:  # unittest discover -s tests
     import _netguard  # noqa: F401
+    import _realdata
 from oceanic import exporter, media, r2
 
 
@@ -368,7 +370,7 @@ class Restore(unittest.TestCase):
         self.assertEqual(self.calls, [])
 
     def test_all_real_inventories_pass_the_path_check(self):
-        lib = Path(__file__).resolve().parents[2] / "biblioteca"
+        lib = _realdata.snapshot_root() / "biblioteca"  # copia temporal: no lee el arbol de trabajo
         n = 0
         for f in lib.glob("*/*/05_MULTIMEDIA/IMAGENES/images.json"):
             for rec in json.loads(f.read_text(encoding="utf-8"))["images"]:

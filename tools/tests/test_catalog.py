@@ -9,11 +9,13 @@ from unittest import mock
 
 try:
     from tests import _netguard  # noqa: F401  (bloquea la red en las pruebas)
+    from tests import _realdata
 except ImportError:  # unittest discover -s tests
     import _netguard  # noqa: F401
+    import _realdata
 from oceanic import catalog, exporter, r2
 
-ROOT = Path(__file__).resolve().parents[2]
+ROOT = _realdata.snapshot_root()  # copia temporal de la biblioteca real: ninguna prueba lee el arbol de trabajo
 GEN = "2026-10-19T12:00:00Z"
 MODEL = "switch/switch-one-design"
 
@@ -336,7 +338,7 @@ class Publish(unittest.TestCase):
             self.assertIn(name, text)
 
     def test_no_delete_in_catalog_code(self):
-        src = (ROOT / "tools" / "oceanic" / "catalog.py").read_text(encoding="utf-8").lower()
+        src = Path(catalog.__file__).read_text(encoding="utf-8").lower()
         self.assertNotIn("delete", src)
 
 

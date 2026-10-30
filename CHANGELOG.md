@@ -46,10 +46,33 @@ Rama `integracion-portal`. Cambios aditivos: no se reformateó ningún archivo e
 - `docs/OPERACION_R2.md`: instrucciones de la primera carga, por marca, de menor a mayor.
 - Pruebas nuevas: `test_mediarules`, `test_r2`, `test_restore`, `test_lint`, `test_export`, `test_catalog`.
 - Dependencias: `boto3`, `jsonschema`.
+- **Contrato 1.1.0 del export** (`schema_version` 1.1.0, campos nuevos opcionales; un export 1.0.0 sigue validando). Cada imagen
+  exportada trae `alfa` (1 % o más de los píxeles con alfa < 255, leyendo la copia web en solo lectura) y `fondo_sugerido`
+  (`claro` u `oscuro` según la luminosidad media de los píxeles opacos; umbral 128). Una imagen con `alfa` verdadero nunca se
+  ofrece como portada ni para compartir: su `hero_rank` sale en `null` y su candidata sale con `available: false` y
+  `blocked_reason: "alfa"`. El informe cuenta las imágenes con transparencia y los modelos que pierden la portada por esto.
+- **`python -m oceanic backup-photos` y `restore-photos`**: respaldo de las fotos en R2. Copia cada imagen registrada en un
+  `r2.json` a `recoveryphotos/<clave>` con una copia dentro del servidor (sin descargar) y guarda a su lado una libreta
+  `recoveryphotos/_ledger/<clave>.json` (marca, modelo, categoría, id, claves, sha256, bytes, origen, fechas, versión del agente).
+  Simulación por defecto, `--apply` escribe, `--verify` es de solo lectura (existencia, sha256 y tamaño). Nunca borra ni pisa.
+  `restore-photos` devuelve una foto solo si su clave original no existe, verificando el sha256 contra la libreta; si existe con
+  otro hash exige `--force-restore-id=<clave>`. El cliente R2 suma únicamente `copy_object` (copia en el bucket) y el tamaño en
+  `head_object`; sigue sin ningún método de borrado.
+- **Aceptación por regla de imágenes cambiadas**: `media --restore --accept-by-rule --by=ap-NNN` acepta una imagen en
+  `REQUIRES_REVIEW (original cambió)` solo si su `last_modified` es anterior al registro y las dimensiones coinciden, y deja la
+  decisión en `review_log` (aprobador, regla, hash observado y esperado). `--by` solo admite un código de aprobador `ap-NNN`, nunca
+  correos ni nombres. El bloque `original` no se toca. Aplicada a las 134 imágenes de Aquila el 2026-10-28 (aprobador ap-001).
+- Cargas a R2: Aquila (308), Lagoon (416), Axopar (750) y Beneteau (1.158) más las marcas anteriores: 3.051 imágenes, con su
+  `r2.json` versionado, verificación remota sin diferencias y respaldo en `recoveryphotos/`. Quedan fuera de esta entrega las 21
+  muestras de color del Axopar 37 XC (en `REQUIRES_REVIEW`), Saffier (bloqueo antibots) y Solaris (captcha).
+- `docs/pendientes.md`: pendientes formales y notas para el Pull Request.
+- Pruebas: las que usan datos reales leen una copia temporal de la biblioteca (`tests/_realdata.py`), sin las `.webp`, y ya no leen
+  ni escriben el árbol real; se acabó la intermitencia por escrituras concurrentes. La suite tiene 208 pruebas.
 
 ### Cambiado
 - R2 es el destino único de las copias web (antes, ZIP a Drive); `zip` queda solo para los usados.
 - `.gitignore`: `dist/portal/`.
+- `media --restore` ya no pisa registros buenos si la red falla: un fallo solo va al informe cuando el registro ya tiene copia, y acepta URLs con espacios (las usa sin espacios y las informa como `url_con_espacios`).
 - `docs/PROCESO.md` y `CLAUDE.md`: comandos nuevos, "Dónde vive cada cosa", contrato con el portal y regla de credenciales.
 
 ### Pendiente después del lanzamiento

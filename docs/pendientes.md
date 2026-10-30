@@ -76,6 +76,14 @@ errores, con sus `r2.json` creados.
   subido es cada `r2.json`, que es la fuente de verdad de lo publicado.
 - Saffier y Solaris siguen pendientes por separado (ver sus secciones).
 
+## Axopar 37 XC Cross Cabin: 21 muestras de color fuera de esta entrega (28 de octubre)
+
+- En `axopar-37-xc-cross-cabin` (paquete curated), 21 imágenes de muestras de color (`ax37xc-<color>-<color>`, de frontify) cambiaron
+  de contenido respecto del hash registrado el 2026-09-23: mismas dimensiones y formato, bytes distintos, sin `etag` ni
+  `last_modified` en la respuesta, así que la regla objetiva de Aquila no se puede aplicar.
+- Decisión del PM: quedan en `REQUIRES_REVIEW (original cambió)`, sin aceptar y fuera de R2 y del export, sin hoja de contactos por
+  ahora. Las otras 29 imágenes del modelo sí están subidas. Se reabre si se decide revisarlas a la vista o aceptarlas.
+
 ## Otros pendientes ya acordados
 
 - **Pruebas con copia temporal de la biblioteca** (antes del Pull Request). Las pruebas que leen datos reales fallan si otro
@@ -99,6 +107,9 @@ errores, con sus `r2.json` creados.
   `original.full_resolution` (falso) y en `downloaded_from` del registro. Los `multimedia.md` se regeneraron con ese estado.
 - **4 URLs con espacios en el inventario de Aquila (las corrige Nico):** `aquila-35-sport`, `aquila-45-sport` y dos de
   `aquila-50-sail`. `restore` las usa sin espacios y lo informa como `url_con_espacios`.
+- **Beneteau, 2 imágenes sin hash previo (subidas).** `antares-9-exterior-design-04-0` y `oceanis-52-interior-4-0` estaban en
+  `PENDING` (nunca descargadas): se bajaron por primera vez del sitio oficial el 28 de octubre, no había hash con que compararlas
+  (no es un cambio de contenido) y se subieron a R2. Decisión del PM: quedan como subidas.
 - **Las `.webp` no se versionan** (`.gitignore`); se regeneran con `media --restore`. R2 es el destino único.
 - **`restore` reevalúa un `REQUIRES_REVIEW` solo con `--accept-by-rule`**, que exige `--by=ap-NNN` (código de aprobador; no
   acepta correos ni nombres). Sin esa bandera, una imagen cambiada queda en `REQUIRES_REVIEW` y no se publica.

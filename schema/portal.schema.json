@@ -54,8 +54,9 @@
               "image_id": { "$ref": "#/$defs/image_id" },
               "hero_rank": { "type": ["integer", "null"], "minimum": 1 },
               "reason": { "type": ["string", "null"], "description": "Motivo registrado en images.json (hero_reason)." },
-              "available": { "type": "boolean", "description": "true si la imagen está en images[] con archivo y clave R2." },
-              "key": { "type": ["string", "null"] }
+              "available": { "type": "boolean", "description": "true si la imagen está en images[] con archivo y clave R2 y no tiene transparencia." },
+              "key": { "type": ["string", "null"] },
+              "blocked_reason": { "enum": ["alfa"], "description": "Opcional (1.1.0). \"alfa\": la imagen tiene transparencia significativa y nunca se ofrece como portada ni para compartir; en ese caso available es false y key es null." }
             }
           }
         }
@@ -114,7 +115,9 @@
           "height": { "type": "integer", "minimum": 1 },
           "hero_rank": { "type": ["integer", "null"], "minimum": 1 },
           "copyright_notice": { "type": ["string", "null"] },
-          "alt": { "$ref": "#/$defs/i18n_string", "description": "Formato exacto '<modelo>, <categoría en español>'." }
+          "alt": { "$ref": "#/$defs/i18n_string", "description": "Formato exacto '<modelo>, <categoría en español>'." },
+          "alfa": { "type": "boolean", "description": "Opcional (1.1.0). true si la copia web tiene transparencia significativa (1 % o más de los píxeles con alfa < 255). Una imagen con alfa verdadera nunca es portada ni imagen para compartir (og:image); su hero_rank se exporta en null. Ausente si la copia no se pudo analizar." },
+          "fondo_sugerido": { "enum": ["claro", "oscuro", null], "description": "Opcional (1.1.0). Solo con alfa verdadera: fondo sobre el que pintar la imagen. Luminosidad media (0 a 255) de los píxeles con alfa >= 128; media >= 128 (contenido claro) pide fondo \"oscuro\", si no \"claro\". null si no hay alfa o no hay píxeles opacos." }
         }
       }
     },

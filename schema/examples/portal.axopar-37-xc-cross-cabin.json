@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0.0",
+  "schema_version": "1.1.0",
   "generated_at": "2026-10-19T12:00:00Z",
   "identity": {
     "brand": {
@@ -12,7 +12,7 @@
     "model_year": "2027",
     "range": "Axopar 37",
     "variant": "XC Cross Cabin",
-    "content_hash": "4596ae3b24f97d4e3a076402a0707f99e2a822e3403413cf0b25d4da4877f174",
+    "content_hash": "1ac41f38d78345738187817e65a0285af25cc2ffb762439a96fe8f670a32b77e",
     "source_url": "https://www.axopar.com/boat-models/axopar-37/axopar-37-xc-cross-cabin/"
   },
   "texts": {
@@ -63,35 +63,35 @@
         "hero_rank": 1,
         "reason": "Exterior MY2026 del 37 XC (tags out, my26), el más reciente del DAM; ya usado a ancho completo en la web oficial; 8004x5339.",
         "available": true,
-        "key": "axopar/axopar-37-xc-cross-cabin/exterior/axopar-37-xc-cross-cabin-099a1865-d5b23ee3.webp"
+        "key": "axopar/axopar-37-xc-cross-cabin/exterior/axopar-37-xc-cross-cabin-099a1865-7c492a64.webp"
       },
       {
         "image_id": "axopar-37-xc-cross-cabin-099a8696",
         "hero_rank": 2,
         "reason": "Exterior MY2025 (tags out, my25), 8192x5464, sin gráficas de paquete en el título.",
         "available": true,
-        "key": "axopar/axopar-37-xc-cross-cabin/exterior/axopar-37-xc-cross-cabin-099a8696-1d0817a6.webp"
+        "key": "axopar/axopar-37-xc-cross-cabin/exterior/axopar-37-xc-cross-cabin-099a8696-e18b7174.webp"
       },
       {
         "image_id": "axopar-37-xc-cross-cabin-my2024-2",
         "hero_rank": 3,
         "reason": "Navegando (tags out, my24, prio2), transmite performance; 4414x2943.",
         "available": true,
-        "key": "axopar/axopar-37-xc-cross-cabin/underway/axopar-37-xc-cross-cabin-my2024-2-0017cad0.webp"
+        "key": "axopar/axopar-37-xc-cross-cabin/underway/axopar-37-xc-cross-cabin-my2024-2-0e39408d.webp"
       },
       {
         "image_id": "axopar-37-xc-bltp-dji-0254-axedit",
         "hero_rank": 4,
         "reason": "Aérea con dron del 37 XC; muestra el concepto completo del casco y la cabina.",
         "available": true,
-        "key": "axopar/axopar-37-xc-cross-cabin/exterior/axopar-37-xc-bltp-dji-0254-axedit-85214ce8.webp"
+        "key": "axopar/axopar-37-xc-cross-cabin/exterior/axopar-37-xc-bltp-dji-0254-axedit-d9bde0a2.webp"
       },
       {
         "image_id": "axopar-37-xc-cross-cabin-brabus-performance-line-kbp00230",
         "hero_rank": 5,
         "reason": "Exterior MY2025 de gran impacto, pero muestra el paquete BRABUS Performance Line (gráficas), no el barco base.",
         "available": true,
-        "key": "axopar/axopar-37-xc-cross-cabin/exterior/axopar-37-xc-cross-cabin-brabus-performance-line-kbp00230-33c3f9cb.webp"
+        "key": "axopar/axopar-37-xc-cross-cabin/exterior/axopar-37-xc-cross-cabin-brabus-performance-line-kbp00230-400756c9.webp"
       }
     ]
   },
@@ -1328,602 +1328,408 @@
     {
       "id": "axopar-37-xc-cross-cabin-099a1865",
       "category": "EXTERIOR",
-      "key": "axopar/axopar-37-xc-cross-cabin/exterior/axopar-37-xc-cross-cabin-099a1865-d5b23ee3.webp",
+      "key": "axopar/axopar-37-xc-cross-cabin/exterior/axopar-37-xc-cross-cabin-099a1865-7c492a64.webp",
       "width": 2560,
       "height": 1708,
       "hero_rank": 1,
       "copyright_notice": "© 2025 Axopar Boats Oy",
       "alt": {
         "es": "Axopar 37 XC Cross Cabin, exterior"
-      }
+      },
+      "alfa": false,
+      "fondo_sugerido": null
     },
     {
       "id": "axopar-37-xc-cross-cabin-099a8696",
       "category": "EXTERIOR",
-      "key": "axopar/axopar-37-xc-cross-cabin/exterior/axopar-37-xc-cross-cabin-099a8696-1d0817a6.webp",
+      "key": "axopar/axopar-37-xc-cross-cabin/exterior/axopar-37-xc-cross-cabin-099a8696-e18b7174.webp",
       "width": 2560,
       "height": 1708,
       "hero_rank": 2,
       "copyright_notice": "© 2025 Axopar Boats Oy",
       "alt": {
         "es": "Axopar 37 XC Cross Cabin, exterior"
-      }
+      },
+      "alfa": false,
+      "fondo_sugerido": null
     },
     {
       "id": "axopar-37-xc-cross-cabin-my2024-2",
       "category": "UNDERWAY",
-      "key": "axopar/axopar-37-xc-cross-cabin/underway/axopar-37-xc-cross-cabin-my2024-2-0017cad0.webp",
+      "key": "axopar/axopar-37-xc-cross-cabin/underway/axopar-37-xc-cross-cabin-my2024-2-0e39408d.webp",
       "width": 2560,
       "height": 1707,
       "hero_rank": 3,
       "copyright_notice": "Axopar Boats 2023 ©",
       "alt": {
         "es": "Axopar 37 XC Cross Cabin, navegando"
-      }
+      },
+      "alfa": false,
+      "fondo_sugerido": null
     },
     {
       "id": "axopar-37-xc-bltp-dji-0254-axedit",
       "category": "EXTERIOR",
-      "key": "axopar/axopar-37-xc-cross-cabin/exterior/axopar-37-xc-bltp-dji-0254-axedit-85214ce8.webp",
+      "key": "axopar/axopar-37-xc-cross-cabin/exterior/axopar-37-xc-bltp-dji-0254-axedit-d9bde0a2.webp",
       "width": 2560,
       "height": 1706,
       "hero_rank": 4,
       "copyright_notice": null,
       "alt": {
         "es": "Axopar 37 XC Cross Cabin, exterior"
-      }
+      },
+      "alfa": false,
+      "fondo_sugerido": null
     },
     {
       "id": "axopar-37-xc-cross-cabin-brabus-performance-line-kbp00230",
       "category": "EXTERIOR",
-      "key": "axopar/axopar-37-xc-cross-cabin/exterior/axopar-37-xc-cross-cabin-brabus-performance-line-kbp00230-33c3f9cb.webp",
+      "key": "axopar/axopar-37-xc-cross-cabin/exterior/axopar-37-xc-cross-cabin-brabus-performance-line-kbp00230-400756c9.webp",
       "width": 2560,
       "height": 1707,
       "hero_rank": 5,
       "copyright_notice": "© 2025 Axopar Boats Oy",
       "alt": {
         "es": "Axopar 37 XC Cross Cabin, exterior"
-      }
-    },
-    {
-      "id": "aft-bench",
-      "category": "OTHER",
-      "key": "axopar/axopar-37-xc-cross-cabin/other/aft-bench-25a4341b.webp",
-      "width": 1259,
-      "height": 1600,
-      "hero_rank": null,
-      "copyright_notice": null,
-      "alt": {
-        "es": "Axopar 37 XC Cross Cabin, otra vista"
-      }
-    },
-    {
-      "id": "aft-cabin-std",
-      "category": "OTHER",
-      "key": "axopar/axopar-37-xc-cross-cabin/other/aft-cabin-std-6688f701.webp",
-      "width": 1259,
-      "height": 1600,
-      "hero_rank": null,
-      "copyright_notice": null,
-      "alt": {
-        "es": "Axopar 37 XC Cross Cabin, otra vista"
-      }
-    },
-    {
-      "id": "antracite",
-      "category": "DETAIL",
-      "key": "axopar/axopar-37-xc-cross-cabin/detail/antracite-97535b2b.webp",
-      "width": 1233,
-      "height": 1233,
-      "hero_rank": null,
-      "copyright_notice": null,
-      "alt": {
-        "es": "Axopar 37 XC Cross Cabin, detalle"
-      }
-    },
-    {
-      "id": "ax37xc-aft-bench",
-      "category": "OTHER",
-      "key": "axopar/axopar-37-xc-cross-cabin/other/ax37xc-aft-bench-7fcac511.webp",
-      "width": 1353,
-      "height": 1600,
-      "hero_rank": null,
-      "copyright_notice": null,
-      "alt": {
-        "es": "Axopar 37 XC Cross Cabin, otra vista"
-      }
-    },
-    {
-      "id": "ax37xc-aftcabin-petrol-hires",
-      "category": "OTHER",
-      "key": "axopar/axopar-37-xc-cross-cabin/other/ax37xc-aftcabin-petrol-hires-26c57a37.webp",
-      "width": 1259,
-      "height": 1600,
-      "hero_rank": null,
-      "copyright_notice": null,
-      "alt": {
-        "es": "Axopar 37 XC Cross Cabin, otra vista"
-      }
-    },
-    {
-      "id": "ax37xc-agate-baltic",
-      "category": "OTHER",
-      "key": "axopar/axopar-37-xc-cross-cabin/other/ax37xc-agate-baltic-6b5d000e.webp",
-      "width": 1600,
-      "height": 1600,
-      "hero_rank": null,
-      "copyright_notice": null,
-      "alt": {
-        "es": "Axopar 37 XC Cross Cabin, otra vista"
-      }
-    },
-    {
-      "id": "ax37xc-glacier-blue-cobre",
-      "category": "OTHER",
-      "key": "axopar/axopar-37-xc-cross-cabin/other/ax37xc-glacier-blue-cobre-be337325.webp",
-      "width": 1600,
-      "height": 1600,
-      "hero_rank": null,
-      "copyright_notice": null,
-      "alt": {
-        "es": "Axopar 37 XC Cross Cabin, otra vista"
-      }
-    },
-    {
-      "id": "ax37xc-miami-blue-sandstone",
-      "category": "OTHER",
-      "key": "axopar/axopar-37-xc-cross-cabin/other/ax37xc-miami-blue-sandstone-c83ab80f.webp",
-      "width": 1600,
-      "height": 1600,
-      "hero_rank": null,
-      "copyright_notice": null,
-      "alt": {
-        "es": "Axopar 37 XC Cross Cabin, otra vista"
-      }
-    },
-    {
-      "id": "ax37xc-multi-storage",
-      "category": "OTHER",
-      "key": "axopar/axopar-37-xc-cross-cabin/other/ax37xc-multi-storage-6deb0ef0.webp",
-      "width": 1353,
-      "height": 1600,
-      "hero_rank": null,
-      "copyright_notice": null,
-      "alt": {
-        "es": "Axopar 37 XC Cross Cabin, otra vista"
-      }
-    },
-    {
-      "id": "ax37xc-platinum-grey-petrol",
-      "category": "OTHER",
-      "key": "axopar/axopar-37-xc-cross-cabin/other/ax37xc-platinum-grey-petrol-53786814.webp",
-      "width": 1600,
-      "height": 1600,
-      "hero_rank": null,
-      "copyright_notice": null,
-      "alt": {
-        "es": "Axopar 37 XC Cross Cabin, otra vista"
-      }
-    },
-    {
-      "id": "ax37xcxc-wetbar-petrol-hires",
-      "category": "OTHER",
-      "key": "axopar/axopar-37-xc-cross-cabin/other/ax37xcxc-wetbar-petrol-hires-2c191795.webp",
-      "width": 1259,
-      "height": 1600,
-      "hero_rank": null,
-      "copyright_notice": null,
-      "alt": {
-        "es": "Axopar 37 XC Cross Cabin, otra vista"
-      }
-    },
-    {
-      "id": "axcopar-37-xc-cross-cabin-iconic-edition-surroundings",
-      "category": "OTHER",
-      "key": "axopar/axopar-37-xc-cross-cabin/other/axcopar-37-xc-cross-cabin-iconic-edition-surroundings-e2ed1915.webp",
-      "width": 1600,
-      "height": 802,
-      "hero_rank": null,
-      "copyright_notice": null,
-      "alt": {
-        "es": "Axopar 37 XC Cross Cabin, otra vista"
-      }
+      },
+      "alfa": false,
+      "fondo_sugerido": null
     },
     {
       "id": "axopar-37-xc-bltp-662a1511",
       "category": "OTHER",
-      "key": "axopar/axopar-37-xc-cross-cabin/other/axopar-37-xc-bltp-662a1511-f2702288.webp",
+      "key": "axopar/axopar-37-xc-cross-cabin/other/axopar-37-xc-bltp-662a1511-6de71656.webp",
       "width": 1600,
       "height": 1068,
       "hero_rank": null,
       "copyright_notice": "Copyright © 2021 Dolf Vermeulen",
       "alt": {
         "es": "Axopar 37 XC Cross Cabin, otra vista"
-      }
+      },
+      "alfa": false,
+      "fondo_sugerido": null
     },
     {
       "id": "axopar-37-xc-bltp-my2020-a45i3759",
       "category": "EXTERIOR",
-      "key": "axopar/axopar-37-xc-cross-cabin/exterior/axopar-37-xc-bltp-my2020-a45i3759-b93c7b74.webp",
+      "key": "axopar/axopar-37-xc-cross-cabin/exterior/axopar-37-xc-bltp-my2020-a45i3759-6604d231.webp",
       "width": 1067,
       "height": 1600,
       "hero_rank": null,
       "copyright_notice": "Copyright © 2020 Dolf Vermeulen",
       "alt": {
         "es": "Axopar 37 XC Cross Cabin, exterior"
-      }
+      },
+      "alfa": false,
+      "fondo_sugerido": null
     },
     {
       "id": "axopar-37-xc-bltp-my2020-dji-0858",
       "category": "EXTERIOR",
-      "key": "axopar/axopar-37-xc-cross-cabin/exterior/axopar-37-xc-bltp-my2020-dji-0858-8a45b45d.webp",
+      "key": "axopar/axopar-37-xc-cross-cabin/exterior/axopar-37-xc-bltp-my2020-dji-0858-59199b17.webp",
       "width": 1066,
       "height": 1600,
       "hero_rank": null,
       "copyright_notice": "Copyright © 2020 Dolf Vermeulen",
       "alt": {
         "es": "Axopar 37 XC Cross Cabin, exterior"
-      }
+      },
+      "alfa": false,
+      "fondo_sugerido": null
     },
     {
       "id": "axopar-37-xc-bltp-r7a1726-axedit",
       "category": "EXTERIOR",
-      "key": "axopar/axopar-37-xc-cross-cabin/exterior/axopar-37-xc-bltp-r7a1726-axedit-8eef1ef9.webp",
+      "key": "axopar/axopar-37-xc-cross-cabin/exterior/axopar-37-xc-bltp-r7a1726-axedit-ea5685f4.webp",
       "width": 1600,
       "height": 1067,
       "hero_rank": null,
       "copyright_notice": "© 2020 Axopar Boats Oy",
       "alt": {
         "es": "Axopar 37 XC Cross Cabin, exterior"
-      }
+      },
+      "alfa": false,
+      "fondo_sugerido": null
     },
     {
       "id": "axopar-37-xc-bltp-r7a2211",
       "category": "CABIN",
-      "key": "axopar/axopar-37-xc-cross-cabin/cabin/axopar-37-xc-bltp-r7a2211-452f0785.webp",
+      "key": "axopar/axopar-37-xc-cross-cabin/cabin/axopar-37-xc-bltp-r7a2211-2165f5fc.webp",
       "width": 1600,
       "height": 1067,
       "hero_rank": null,
       "copyright_notice": "© 2020 Axopar Boats Oy",
       "alt": {
         "es": "Axopar 37 XC Cross Cabin, camarote"
-      }
+      },
+      "alfa": false,
+      "fondo_sugerido": null
     },
     {
       "id": "axopar-37-xc-cross-cabin",
       "category": "OTHER",
-      "key": "axopar/axopar-37-xc-cross-cabin/other/axopar-37-xc-cross-cabin-60516548.webp",
+      "key": "axopar/axopar-37-xc-cross-cabin/other/axopar-37-xc-cross-cabin-2bf1ad60.webp",
       "width": 1600,
       "height": 1200,
       "hero_rank": null,
       "copyright_notice": null,
       "alt": {
         "es": "Axopar 37 XC Cross Cabin, otra vista"
-      }
+      },
+      "alfa": false,
+      "fondo_sugerido": null
     },
     {
       "id": "axopar-37-xc-cross-cabin-099a9348",
       "category": "INTERIOR",
-      "key": "axopar/axopar-37-xc-cross-cabin/interior/axopar-37-xc-cross-cabin-099a9348-a71d4ae4.webp",
+      "key": "axopar/axopar-37-xc-cross-cabin/interior/axopar-37-xc-cross-cabin-099a9348-6bd2eaf9.webp",
       "width": 1600,
       "height": 1068,
       "hero_rank": null,
       "copyright_notice": "© 2025 Axopar Boats Oy",
       "alt": {
         "es": "Axopar 37 XC Cross Cabin, interior"
-      }
+      },
+      "alfa": false,
+      "fondo_sugerido": null
     },
     {
       "id": "axopar-37-xc-cross-cabin-8569",
       "category": "OTHER",
-      "key": "axopar/axopar-37-xc-cross-cabin/other/axopar-37-xc-cross-cabin-8569-0d1ab393.webp",
+      "key": "axopar/axopar-37-xc-cross-cabin/other/axopar-37-xc-cross-cabin-8569-aed41733.webp",
       "width": 1600,
       "height": 1067,
       "hero_rank": null,
       "copyright_notice": "Niklas Frank",
       "alt": {
         "es": "Axopar 37 XC Cross Cabin, otra vista"
-      }
+      },
+      "alfa": false,
+      "fondo_sugerido": null
     },
     {
       "id": "axopar-37-xc-cross-cabin-9664-axedit",
       "category": "EXTERIOR",
-      "key": "axopar/axopar-37-xc-cross-cabin/exterior/axopar-37-xc-cross-cabin-9664-axedit-3892b922.webp",
+      "key": "axopar/axopar-37-xc-cross-cabin/exterior/axopar-37-xc-cross-cabin-9664-axedit-963bfcb1.webp",
       "width": 1600,
       "height": 1067,
       "hero_rank": null,
       "copyright_notice": "Niklas Frank",
       "alt": {
         "es": "Axopar 37 XC Cross Cabin, exterior"
-      }
+      },
+      "alfa": false,
+      "fondo_sugerido": null
     },
     {
       "id": "axopar-37-xc-cross-cabin-brabus-performance-line-kbp00210",
       "category": "COCKPIT",
-      "key": "axopar/axopar-37-xc-cross-cabin/cockpit/axopar-37-xc-cross-cabin-brabus-performance-line-kbp00210-be49660f.webp",
+      "key": "axopar/axopar-37-xc-cross-cabin/cockpit/axopar-37-xc-cross-cabin-brabus-performance-line-kbp00210-2fea97d1.webp",
       "width": 1600,
       "height": 1067,
       "hero_rank": null,
       "copyright_notice": "© 2025 Axopar Boats Oy",
       "alt": {
         "es": "Axopar 37 XC Cross Cabin, cockpit"
-      }
+      },
+      "alfa": false,
+      "fondo_sugerido": null
     },
     {
       "id": "axopar-37-xc-cross-cabin-brabus-performance-line-kbp00227-axedit-2",
       "category": "INTERIOR",
-      "key": "axopar/axopar-37-xc-cross-cabin/interior/axopar-37-xc-cross-cabin-brabus-performance-line-kbp00227-axedit-2-7025e1ab.webp",
+      "key": "axopar/axopar-37-xc-cross-cabin/interior/axopar-37-xc-cross-cabin-brabus-performance-line-kbp00227-axedit-2-8e3ad88f.webp",
       "width": 1600,
       "height": 1067,
       "hero_rank": null,
       "copyright_notice": "© 2025 Axopar Boats Oy",
       "alt": {
         "es": "Axopar 37 XC Cross Cabin, interior"
-      }
+      },
+      "alfa": false,
+      "fondo_sugerido": null
     },
     {
       "id": "axopar-37-xc-cross-cabin-brabus-performance-line-kbp01223",
       "category": "EXTERIOR",
-      "key": "axopar/axopar-37-xc-cross-cabin/exterior/axopar-37-xc-cross-cabin-brabus-performance-line-kbp01223-ba0b0a19.webp",
+      "key": "axopar/axopar-37-xc-cross-cabin/exterior/axopar-37-xc-cross-cabin-brabus-performance-line-kbp01223-2b12b095.webp",
       "width": 1600,
       "height": 1067,
       "hero_rank": null,
       "copyright_notice": "© 2025 Axopar Boats Oy",
       "alt": {
         "es": "Axopar 37 XC Cross Cabin, exterior"
-      }
-    },
-    {
-      "id": "axopar-37-xc-cross-cabin-iconic-edition-surroundings-mobile-2",
-      "category": "OTHER",
-      "key": "axopar/axopar-37-xc-cross-cabin/other/axopar-37-xc-cross-cabin-iconic-edition-surroundings-mobile-2-70732b28.webp",
-      "width": 803,
-      "height": 1600,
-      "hero_rank": null,
-      "copyright_notice": null,
-      "alt": {
-        "es": "Axopar 37 XC Cross Cabin, otra vista"
-      }
+      },
+      "alfa": false,
+      "fondo_sugerido": null
     },
     {
       "id": "axopar-37-xc-cross-cabin-my2024-099a3604",
       "category": "INTERIOR",
-      "key": "axopar/axopar-37-xc-cross-cabin/interior/axopar-37-xc-cross-cabin-my2024-099a3604-3bb7c0b9.webp",
+      "key": "axopar/axopar-37-xc-cross-cabin/interior/axopar-37-xc-cross-cabin-my2024-099a3604-9b93da96.webp",
       "width": 1600,
       "height": 1068,
       "hero_rank": null,
       "copyright_notice": "Axopar Boats 2023 ©",
       "alt": {
         "es": "Axopar 37 XC Cross Cabin, interior"
-      }
+      },
+      "alfa": false,
+      "fondo_sugerido": null
     },
     {
       "id": "axopar-37-xc-cross-cabin-my2024-099a3613",
       "category": "HELM",
-      "key": "axopar/axopar-37-xc-cross-cabin/helm/axopar-37-xc-cross-cabin-my2024-099a3613-a594ae76.webp",
+      "key": "axopar/axopar-37-xc-cross-cabin/helm/axopar-37-xc-cross-cabin-my2024-099a3613-b14534c8.webp",
       "width": 1600,
       "height": 1068,
       "hero_rank": null,
       "copyright_notice": "Axopar Boats 2023 ©",
       "alt": {
         "es": "Axopar 37 XC Cross Cabin, puesto de mando"
-      }
+      },
+      "alfa": false,
+      "fondo_sugerido": null
     },
     {
       "id": "axopar-37-xc-cross-cabin-my2024-5",
       "category": "HELM",
-      "key": "axopar/axopar-37-xc-cross-cabin/helm/axopar-37-xc-cross-cabin-my2024-5-20a8b00e.webp",
+      "key": "axopar/axopar-37-xc-cross-cabin/helm/axopar-37-xc-cross-cabin-my2024-5-4f90423f.webp",
       "width": 1600,
       "height": 1068,
       "hero_rank": null,
       "copyright_notice": "Axopar Boats 2023 ©",
       "alt": {
         "es": "Axopar 37 XC Cross Cabin, puesto de mando"
-      }
+      },
+      "alfa": false,
+      "fondo_sugerido": null
     },
     {
       "id": "axopar-37-xc-cross-cabin-my2024-9",
       "category": "EXTERIOR",
-      "key": "axopar/axopar-37-xc-cross-cabin/exterior/axopar-37-xc-cross-cabin-my2024-9-bbf8b866.webp",
+      "key": "axopar/axopar-37-xc-cross-cabin/exterior/axopar-37-xc-cross-cabin-my2024-9-df5c035e.webp",
       "width": 1600,
       "height": 1068,
       "hero_rank": null,
       "copyright_notice": "Axopar Boats 2023 ©",
       "alt": {
         "es": "Axopar 37 XC Cross Cabin, exterior"
-      }
+      },
+      "alfa": false,
+      "fondo_sugerido": null
     },
     {
       "id": "axopar-37-xc-mediterrana-c4a4285",
       "category": "OTHER",
-      "key": "axopar/axopar-37-xc-cross-cabin/other/axopar-37-xc-mediterrana-c4a4285-6af307d5.webp",
+      "key": "axopar/axopar-37-xc-cross-cabin/other/axopar-37-xc-mediterrana-c4a4285-8a888daf.webp",
       "width": 1600,
       "height": 1068,
       "hero_rank": null,
       "copyright_notice": "© 2022 Axopar Boats Oy",
       "alt": {
         "es": "Axopar 37 XC Cross Cabin, otra vista"
-      }
+      },
+      "alfa": false,
+      "fondo_sugerido": null
     },
     {
       "id": "axopar-37-xc-mediterrana-c4a4929",
       "category": "OTHER",
-      "key": "axopar/axopar-37-xc-cross-cabin/other/axopar-37-xc-mediterrana-c4a4929-ed70a073.webp",
+      "key": "axopar/axopar-37-xc-cross-cabin/other/axopar-37-xc-mediterrana-c4a4929-8fabf59d.webp",
       "width": 1600,
       "height": 1068,
       "hero_rank": null,
       "copyright_notice": "© 2022 Axopar Boats Oy",
       "alt": {
         "es": "Axopar 37 XC Cross Cabin, otra vista"
-      }
+      },
+      "alfa": false,
+      "fondo_sugerido": null
     },
     {
       "id": "axopar-37-xc-mediterrana-c4a5052",
       "category": "OTHER",
-      "key": "axopar/axopar-37-xc-cross-cabin/other/axopar-37-xc-mediterrana-c4a5052-b29e3dd1.webp",
+      "key": "axopar/axopar-37-xc-cross-cabin/other/axopar-37-xc-mediterrana-c4a5052-c4f589f8.webp",
       "width": 1600,
       "height": 1068,
       "hero_rank": null,
       "copyright_notice": "© 2022 Axopar Boats Oy",
       "alt": {
         "es": "Axopar 37 XC Cross Cabin, otra vista"
-      }
+      },
+      "alfa": false,
+      "fondo_sugerido": null
     },
     {
       "id": "axopar-37-xc-mediterrana-c4a5133",
       "category": "INTERIOR",
-      "key": "axopar/axopar-37-xc-cross-cabin/interior/axopar-37-xc-mediterrana-c4a5133-e17f44b4.webp",
+      "key": "axopar/axopar-37-xc-cross-cabin/interior/axopar-37-xc-mediterrana-c4a5133-4c947d86.webp",
       "width": 1600,
       "height": 1068,
       "hero_rank": null,
       "copyright_notice": "© 2022 Axopar Boats Oy",
       "alt": {
         "es": "Axopar 37 XC Cross Cabin, interior"
-      }
+      },
+      "alfa": false,
+      "fondo_sugerido": null
     },
     {
       "id": "axopar-37-xc-mediterrana-my2023-c4a5238",
       "category": "INTERIOR",
-      "key": "axopar/axopar-37-xc-cross-cabin/interior/axopar-37-xc-mediterrana-my2023-c4a5238-1ab4e5df.webp",
+      "key": "axopar/axopar-37-xc-cross-cabin/interior/axopar-37-xc-mediterrana-my2023-c4a5238-76f211ec.webp",
       "width": 1600,
       "height": 1068,
       "hero_rank": null,
       "copyright_notice": "© 2022 Axopar Boats Oy",
       "alt": {
         "es": "Axopar 37 XC Cross Cabin, interior"
-      }
+      },
+      "alfa": false,
+      "fondo_sugerido": null
     },
     {
       "id": "hunter-sage",
       "category": "DETAIL",
-      "key": "axopar/axopar-37-xc-cross-cabin/detail/hunter-sage-86df985a.webp",
+      "key": "axopar/axopar-37-xc-cross-cabin/detail/hunter-sage-c149099b.webp",
       "width": 1600,
       "height": 1067,
       "hero_rank": null,
       "copyright_notice": "Niklas Frank",
       "alt": {
         "es": "Axopar 37 XC Cross Cabin, detalle"
-      }
-    },
-    {
-      "id": "multi-storage",
-      "category": "OTHER",
-      "key": "axopar/axopar-37-xc-cross-cabin/other/multi-storage-5e7ab644.webp",
-      "width": 1259,
-      "height": 1600,
-      "hero_rank": null,
-      "copyright_notice": null,
-      "alt": {
-        "es": "Axopar 37 XC Cross Cabin, otra vista"
-      }
-    },
-    {
-      "id": "natural",
-      "category": "DETAIL",
-      "key": "axopar/axopar-37-xc-cross-cabin/detail/natural-8a3c9811.webp",
-      "width": 1233,
-      "height": 1233,
-      "hero_rank": null,
-      "copyright_notice": null,
-      "alt": {
-        "es": "Axopar 37 XC Cross Cabin, detalle"
-      }
+      },
+      "alfa": false,
+      "fondo_sugerido": null
     },
     {
       "id": "petrol-front",
       "category": "DETAIL",
-      "key": "axopar/axopar-37-xc-cross-cabin/detail/petrol-front-f221dadf.webp",
+      "key": "axopar/axopar-37-xc-cross-cabin/detail/petrol-front-8dd8d5ef.webp",
       "width": 1600,
       "height": 1067,
       "hero_rank": null,
       "copyright_notice": "Niklas Frank",
       "alt": {
         "es": "Axopar 37 XC Cross Cabin, detalle"
-      }
+      },
+      "alfa": false,
+      "fondo_sugerido": null
     },
     {
       "id": "squash-corn",
       "category": "DETAIL",
-      "key": "axopar/axopar-37-xc-cross-cabin/detail/squash-corn-48157de5.webp",
+      "key": "axopar/axopar-37-xc-cross-cabin/detail/squash-corn-36de42f5.webp",
       "width": 1600,
       "height": 1067,
       "hero_rank": null,
       "copyright_notice": "Niklas Frank",
       "alt": {
         "es": "Axopar 37 XC Cross Cabin, detalle"
-      }
-    },
-    {
-      "id": "taupe",
-      "category": "DETAIL",
-      "key": "axopar/axopar-37-xc-cross-cabin/detail/taupe-cbca9564.webp",
-      "width": 1233,
-      "height": 1233,
-      "hero_rank": null,
-      "copyright_notice": null,
-      "alt": {
-        "es": "Axopar 37 XC Cross Cabin, detalle"
-      }
-    },
-    {
-      "id": "wbg-0000-ax37xc-wet-bar",
-      "category": "OTHER",
-      "key": "axopar/axopar-37-xc-cross-cabin/other/wbg-0000-ax37xc-wet-bar-57b4f80b.webp",
-      "width": 1353,
-      "height": 1600,
-      "hero_rank": null,
-      "copyright_notice": null,
-      "alt": {
-        "es": "Axopar 37 XC Cross Cabin, otra vista"
-      }
-    },
-    {
-      "id": "wbg-0001-ax37xc-usofa",
-      "category": "OTHER",
-      "key": "axopar/axopar-37-xc-cross-cabin/other/wbg-0001-ax37xc-usofa-33045496.webp",
-      "width": 1353,
-      "height": 1600,
-      "hero_rank": null,
-      "copyright_notice": null,
-      "alt": {
-        "es": "Axopar 37 XC Cross Cabin, otra vista"
-      }
-    },
-    {
-      "id": "wbg-0002-ax37xc-usofa-table",
-      "category": "OTHER",
-      "key": "axopar/axopar-37-xc-cross-cabin/other/wbg-0002-ax37xc-usofa-table-3615505e.webp",
-      "width": 1353,
-      "height": 1600,
-      "hero_rank": null,
-      "copyright_notice": null,
-      "alt": {
-        "es": "Axopar 37 XC Cross Cabin, otra vista"
-      }
-    },
-    {
-      "id": "wbg-0003-ax37xc-open-aft",
-      "category": "OTHER",
-      "key": "axopar/axopar-37-xc-cross-cabin/other/wbg-0003-ax37xc-open-aft-d51592c5.webp",
-      "width": 1353,
-      "height": 1600,
-      "hero_rank": null,
-      "copyright_notice": null,
-      "alt": {
-        "es": "Axopar 37 XC Cross Cabin, otra vista"
-      }
-    },
-    {
-      "id": "wbg-0006-ax37xc-aft-cabin",
-      "category": "OTHER",
-      "key": "axopar/axopar-37-xc-cross-cabin/other/wbg-0006-ax37xc-aft-cabin-42ffcf4d.webp",
-      "width": 1353,
-      "height": 1600,
-      "hero_rank": null,
-      "copyright_notice": null,
-      "alt": {
-        "es": "Axopar 37 XC Cross Cabin, otra vista"
-      }
+      },
+      "alfa": false,
+      "fondo_sugerido": null
     }
   ],
   "videos": [
@@ -2284,78 +2090,6 @@
         "rule": "hero-image"
       },
       {
-        "target": "image:aft-bench",
-        "change_kind": "new",
-        "tier": "auto",
-        "rule": "image-same-model"
-      },
-      {
-        "target": "image:aft-cabin-std",
-        "change_kind": "new",
-        "tier": "auto",
-        "rule": "image-same-model"
-      },
-      {
-        "target": "image:antracite",
-        "change_kind": "new",
-        "tier": "auto",
-        "rule": "image-same-model"
-      },
-      {
-        "target": "image:ax37xc-aft-bench",
-        "change_kind": "new",
-        "tier": "auto",
-        "rule": "image-same-model"
-      },
-      {
-        "target": "image:ax37xc-aftcabin-petrol-hires",
-        "change_kind": "new",
-        "tier": "auto",
-        "rule": "image-same-model"
-      },
-      {
-        "target": "image:ax37xc-agate-baltic",
-        "change_kind": "new",
-        "tier": "auto",
-        "rule": "image-same-model"
-      },
-      {
-        "target": "image:ax37xc-glacier-blue-cobre",
-        "change_kind": "new",
-        "tier": "auto",
-        "rule": "image-same-model"
-      },
-      {
-        "target": "image:ax37xc-miami-blue-sandstone",
-        "change_kind": "new",
-        "tier": "auto",
-        "rule": "image-same-model"
-      },
-      {
-        "target": "image:ax37xc-multi-storage",
-        "change_kind": "new",
-        "tier": "auto",
-        "rule": "image-same-model"
-      },
-      {
-        "target": "image:ax37xc-platinum-grey-petrol",
-        "change_kind": "new",
-        "tier": "auto",
-        "rule": "image-same-model"
-      },
-      {
-        "target": "image:ax37xcxc-wetbar-petrol-hires",
-        "change_kind": "new",
-        "tier": "auto",
-        "rule": "image-same-model"
-      },
-      {
-        "target": "image:axcopar-37-xc-cross-cabin-iconic-edition-surroundings",
-        "change_kind": "new",
-        "tier": "auto",
-        "rule": "image-same-model"
-      },
-      {
         "target": "image:axopar-37-xc-bltp-662a1511",
         "change_kind": "new",
         "tier": "auto",
@@ -2428,12 +2162,6 @@
         "rule": "image-same-model"
       },
       {
-        "target": "image:axopar-37-xc-cross-cabin-iconic-edition-surroundings-mobile-2",
-        "change_kind": "new",
-        "tier": "auto",
-        "rule": "image-same-model"
-      },
-      {
         "target": "image:axopar-37-xc-cross-cabin-my2024-099a3604",
         "change_kind": "new",
         "tier": "auto",
@@ -2494,18 +2222,6 @@
         "rule": "image-same-model"
       },
       {
-        "target": "image:multi-storage",
-        "change_kind": "new",
-        "tier": "auto",
-        "rule": "image-same-model"
-      },
-      {
-        "target": "image:natural",
-        "change_kind": "new",
-        "tier": "auto",
-        "rule": "image-same-model"
-      },
-      {
         "target": "image:petrol-front",
         "change_kind": "new",
         "tier": "auto",
@@ -2513,42 +2229,6 @@
       },
       {
         "target": "image:squash-corn",
-        "change_kind": "new",
-        "tier": "auto",
-        "rule": "image-same-model"
-      },
-      {
-        "target": "image:taupe",
-        "change_kind": "new",
-        "tier": "auto",
-        "rule": "image-same-model"
-      },
-      {
-        "target": "image:wbg-0000-ax37xc-wet-bar",
-        "change_kind": "new",
-        "tier": "auto",
-        "rule": "image-same-model"
-      },
-      {
-        "target": "image:wbg-0001-ax37xc-usofa",
-        "change_kind": "new",
-        "tier": "auto",
-        "rule": "image-same-model"
-      },
-      {
-        "target": "image:wbg-0002-ax37xc-usofa-table",
-        "change_kind": "new",
-        "tier": "auto",
-        "rule": "image-same-model"
-      },
-      {
-        "target": "image:wbg-0003-ax37xc-open-aft",
-        "change_kind": "new",
-        "tier": "auto",
-        "rule": "image-same-model"
-      },
-      {
-        "target": "image:wbg-0006-ax37xc-aft-cabin",
         "change_kind": "new",
         "tier": "auto",
         "rule": "image-same-model"

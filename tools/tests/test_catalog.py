@@ -196,7 +196,7 @@ class Publish(unittest.TestCase):
 
     def _old_pointer(self, h="a" * 64):
         body = (json.dumps({"schema_version": "1.0.0", "content_hash": h, "generated_at": "2026-10-01T00:00:00Z",
-                            "path": f"catalog/1.0.0/{h}/index.json"}, indent=2) + "\n").encode("utf-8")
+                            "path": f"catalog/{self.index['schema_version']}/{h}/index.json"}, indent=2) + "\n").encode("utf-8")
         return {"catalog/latest.json": {"body": body, "type": "x", "cache": "x", "meta": {"sha256": "z"}}}, body
 
     def test_previous_pointer_is_archived_immutably_before_overwrite(self):
@@ -284,7 +284,7 @@ class Publish(unittest.TestCase):
         self.assertFalse(rep["ok"])
         self.assertIn("no existe", rep["errors"][0])
         # catalogo sin index.json (solo otros archivos): tampoco
-        client.objects[f"catalog/1.0.0/{'d' * 64}/models/x/portal.json"] = {"body": b"{}", "type": "", "cache": "", "meta": {}}
+        client.objects[f"catalog/{self.index['schema_version']}/{'d' * 64}/models/x/portal.json"] = {"body": b"{}", "type": "", "cache": "", "meta": {}}
         self.assertFalse(catalog.rollback(client, "d" * 64, apply=True)["ok"])
         self.assertFalse(catalog.rollback(client, "no-es-un-hash", apply=True)["ok"])
         self.assertEqual(client.puts.count("catalog/latest.json"), 1)  # solo la publicacion inicial
@@ -293,13 +293,13 @@ class Publish(unittest.TestCase):
         client = self._published()
         key = f"{self.prefix}/index.json"
         idx = json.loads(client.objects[key]["body"])
-        client.objects[f"catalog/1.0.0/{'e' * 64}/index.json"] = {"body": json.dumps(idx).encode(), "type": "", "cache": "",
+        client.objects[f"catalog/{self.index['schema_version']}/{'e' * 64}/index.json"] = {"body": json.dumps(idx).encode(), "type": "", "cache": "",
                                                                   "meta": {}}  # index de otro hash
         self.assertFalse(catalog.rollback(client, "e" * 64, apply=True)["ok"])
         idx["preview"] = True
         h = "f" * 64
         idx["catalog_hash"] = h
-        client.objects[f"catalog/1.0.0/{h}/index.json"] = {"body": json.dumps(idx).encode(), "type": "", "cache": "",
+        client.objects[f"catalog/{self.index['schema_version']}/{h}/index.json"] = {"body": json.dumps(idx).encode(), "type": "", "cache": "",
                                                            "meta": {}}
         rep = catalog.rollback(client, h, apply=True)
         self.assertFalse(rep["ok"])

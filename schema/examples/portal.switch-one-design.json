@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0.0",
+  "schema_version": "1.1.0",
   "generated_at": "2026-10-19T12:00:00Z",
   "identity": {
     "brand": {
@@ -12,7 +12,7 @@
     "model_year": null,
     "range": "One Design",
     "variant": "Switch One Design",
-    "content_hash": "535499defd72799f6e0486519b69ec139b04bbdc03958b07d7218ec041d9b031",
+    "content_hash": "dae5f5e85f40c02a450430b72c0672d92f2ea0004ac2857110ee2ac2003e478d",
     "source_url": "https://www.switchonedesign.com/"
   },
   "texts": {
@@ -63,21 +63,21 @@
         "hero_rank": 1,
         "reason": "Exterior horizontal del modelo; Solo en la página del modelo (sección 'Página home'). Categoría EXTERIOR por revisión visual (2026-10-01).",
         "available": true,
-        "key": "switch/switch-one-design/exterior/812873-1cf5bc9083984895aafc6431b91c023df000-029ced3a.webp"
+        "key": "switch/switch-one-design/exterior/812873-1cf5bc9083984895aafc6431b91c023df000-06be5fed.webp"
       },
       {
         "image_id": "812873-aca22ddcd50f4870854d27e2dbf9aa09-mv2",
         "hero_rank": 2,
         "reason": "Exterior horizontal del modelo; Solo en la página del modelo (sección 'Página home'). Categoría UNDERWAY por revisión visual (2026-10-01).",
         "available": true,
-        "key": "switch/switch-one-design/underway/812873-aca22ddcd50f4870854d27e2dbf9aa09-mv2-621e74c8.webp"
+        "key": "switch/switch-one-design/underway/812873-aca22ddcd50f4870854d27e2dbf9aa09-mv2-5b014a71.webp"
       },
       {
         "image_id": "812873-6c212ac952ef4f96909807cf5d4809dd-mv2",
         "hero_rank": 3,
         "reason": "Exterior horizontal del modelo; Solo en la página del modelo (sección 'Página home'). Categoría UNDERWAY por revisión visual (2026-10-01).",
         "available": true,
-        "key": "switch/switch-one-design/underway/812873-6c212ac952ef4f96909807cf5d4809dd-mv2-be4c21d6.webp"
+        "key": "switch/switch-one-design/underway/812873-6c212ac952ef4f96909807cf5d4809dd-mv2-3f32ae31.webp"
       }
     ]
   },
@@ -178,146 +178,170 @@
     {
       "id": "812873-1cf5bc9083984895aafc6431b91c023df000",
       "category": "EXTERIOR",
-      "key": "switch/switch-one-design/exterior/812873-1cf5bc9083984895aafc6431b91c023df000-029ced3a.webp",
+      "key": "switch/switch-one-design/exterior/812873-1cf5bc9083984895aafc6431b91c023df000-06be5fed.webp",
       "width": 1920,
       "height": 1080,
       "hero_rank": 1,
       "copyright_notice": null,
       "alt": {
         "es": "Switch One Design, exterior"
-      }
+      },
+      "alfa": false,
+      "fondo_sugerido": null
     },
     {
       "id": "812873-aca22ddcd50f4870854d27e2dbf9aa09-mv2",
       "category": "UNDERWAY",
-      "key": "switch/switch-one-design/underway/812873-aca22ddcd50f4870854d27e2dbf9aa09-mv2-621e74c8.webp",
+      "key": "switch/switch-one-design/underway/812873-aca22ddcd50f4870854d27e2dbf9aa09-mv2-5b014a71.webp",
       "width": 1184,
       "height": 844,
       "hero_rank": 2,
       "copyright_notice": null,
       "alt": {
         "es": "Switch One Design, navegando"
-      }
+      },
+      "alfa": false,
+      "fondo_sugerido": null
     },
     {
       "id": "812873-6c212ac952ef4f96909807cf5d4809dd-mv2",
       "category": "UNDERWAY",
-      "key": "switch/switch-one-design/underway/812873-6c212ac952ef4f96909807cf5d4809dd-mv2-be4c21d6.webp",
+      "key": "switch/switch-one-design/underway/812873-6c212ac952ef4f96909807cf5d4809dd-mv2-3f32ae31.webp",
       "width": 1637,
       "height": 973,
       "hero_rank": 3,
       "copyright_notice": null,
       "alt": {
         "es": "Switch One Design, navegando"
-      }
+      },
+      "alfa": false,
+      "fondo_sugerido": null
     },
     {
       "id": "812873-0f0c080cfb13486b9509a61014be0d6d-mv2",
       "category": "DETAIL",
-      "key": "switch/switch-one-design/detail/812873-0f0c080cfb13486b9509a61014be0d6d-mv2-f61bbcbd.webp",
+      "key": "switch/switch-one-design/detail/812873-0f0c080cfb13486b9509a61014be0d6d-mv2-c4024330.webp",
       "width": 1080,
       "height": 1080,
       "hero_rank": null,
       "copyright_notice": null,
       "alt": {
         "es": "Switch One Design, detalle"
-      }
+      },
+      "alfa": false,
+      "fondo_sugerido": null
     },
     {
       "id": "812873-0fe4d663964f489b9368382abeea8cbd-mv2",
       "category": "UNDERWAY",
-      "key": "switch/switch-one-design/underway/812873-0fe4d663964f489b9368382abeea8cbd-mv2-b95dee1d.webp",
+      "key": "switch/switch-one-design/underway/812873-0fe4d663964f489b9368382abeea8cbd-mv2-d57f7f1c.webp",
       "width": 1080,
       "height": 1080,
       "hero_rank": null,
       "copyright_notice": null,
       "alt": {
         "es": "Switch One Design, navegando"
-      }
+      },
+      "alfa": false,
+      "fondo_sugerido": null
     },
     {
       "id": "812873-3fd20a857ade40fe9a635948e7fcb737-mv2",
       "category": "DETAIL",
-      "key": "switch/switch-one-design/detail/812873-3fd20a857ade40fe9a635948e7fcb737-mv2-1a07d07b.webp",
+      "key": "switch/switch-one-design/detail/812873-3fd20a857ade40fe9a635948e7fcb737-mv2-120c1d85.webp",
       "width": 1600,
       "height": 1046,
       "hero_rank": null,
       "copyright_notice": null,
       "alt": {
         "es": "Switch One Design, detalle"
-      }
+      },
+      "alfa": false,
+      "fondo_sugerido": null
     },
     {
       "id": "812873-5e70edeeb8d04cb7aaab473d1cd2c789-mv2",
       "category": "UNDERWAY",
-      "key": "switch/switch-one-design/underway/812873-5e70edeeb8d04cb7aaab473d1cd2c789-mv2-deaea901.webp",
+      "key": "switch/switch-one-design/underway/812873-5e70edeeb8d04cb7aaab473d1cd2c789-mv2-eb3c43f0.webp",
       "width": 1600,
       "height": 694,
       "hero_rank": null,
       "copyright_notice": null,
       "alt": {
         "es": "Switch One Design, navegando"
-      }
+      },
+      "alfa": false,
+      "fondo_sugerido": null
     },
     {
       "id": "812873-6d4bdc5197e34aa9ade27be8d5f49a04-mv2",
       "category": "EXTERIOR",
-      "key": "switch/switch-one-design/exterior/812873-6d4bdc5197e34aa9ade27be8d5f49a04-mv2-682b7429.webp",
+      "key": "switch/switch-one-design/exterior/812873-6d4bdc5197e34aa9ade27be8d5f49a04-mv2-532319d0.webp",
       "width": 918,
       "height": 1600,
       "hero_rank": null,
       "copyright_notice": null,
       "alt": {
         "es": "Switch One Design, exterior"
-      }
+      },
+      "alfa": true,
+      "fondo_sugerido": "claro"
     },
     {
       "id": "812873-884c8293d1aa4909b4fc6f79989f366c-mv2",
       "category": "DETAIL",
-      "key": "switch/switch-one-design/detail/812873-884c8293d1aa4909b4fc6f79989f366c-mv2-e652e778.webp",
+      "key": "switch/switch-one-design/detail/812873-884c8293d1aa4909b4fc6f79989f366c-mv2-078154ea.webp",
       "width": 1080,
       "height": 1080,
       "hero_rank": null,
       "copyright_notice": null,
       "alt": {
         "es": "Switch One Design, detalle"
-      }
+      },
+      "alfa": false,
+      "fondo_sugerido": null
     },
     {
       "id": "812873-9eea8b64eac04c968f10f12f765e1ffb-mv2",
       "category": "UNDERWAY",
-      "key": "switch/switch-one-design/underway/812873-9eea8b64eac04c968f10f12f765e1ffb-mv2-1fb86cd1.webp",
+      "key": "switch/switch-one-design/underway/812873-9eea8b64eac04c968f10f12f765e1ffb-mv2-10c743e5.webp",
       "width": 1080,
       "height": 1080,
       "hero_rank": null,
       "copyright_notice": null,
       "alt": {
         "es": "Switch One Design, navegando"
-      }
+      },
+      "alfa": false,
+      "fondo_sugerido": null
     },
     {
       "id": "812873-c690e0eaafa44136b9ed16255613a426-mv2",
       "category": "DETAIL",
-      "key": "switch/switch-one-design/detail/812873-c690e0eaafa44136b9ed16255613a426-mv2-b74596a9.webp",
+      "key": "switch/switch-one-design/detail/812873-c690e0eaafa44136b9ed16255613a426-mv2-9c4cef31.webp",
       "width": 1600,
       "height": 759,
       "hero_rank": null,
       "copyright_notice": null,
       "alt": {
         "es": "Switch One Design, detalle"
-      }
+      },
+      "alfa": true,
+      "fondo_sugerido": "claro"
     },
     {
       "id": "812873-f32d3f6f9b014643ae131db48931ff79-mv2",
       "category": "UNDERWAY",
-      "key": "switch/switch-one-design/underway/812873-f32d3f6f9b014643ae131db48931ff79-mv2-e1ed61be.webp",
+      "key": "switch/switch-one-design/underway/812873-f32d3f6f9b014643ae131db48931ff79-mv2-2043d096.webp",
       "width": 1600,
       "height": 694,
       "hero_rank": null,
       "copyright_notice": null,
       "alt": {
         "es": "Switch One Design, navegando"
-      }
+      },
+      "alfa": false,
+      "fondo_sugerido": null
     }
   ],
   "videos": [],

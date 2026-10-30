@@ -1,8 +1,10 @@
 import copy
+import hashlib
 import json
 import re
 import tempfile
 import unittest
+from collections import Counter
 from pathlib import Path
 from unittest import mock
 
@@ -245,6 +247,129 @@ class RequiresReview(unittest.TestCase):
             images, _, _ = exporter._build_images(pkg, "marca", "modelo", "Modelo", True, omitted, [])
         self.assertEqual([i["id"] for i in images], ["bueno"])
         self.assertEqual(omitted["REQUIRES_REVIEW"], 1)
+
+
+class Alpha(unittest.TestCase):
+    """alfa, fondo_sugerido y regla de portada (contrato 1.1.0). Usa imagenes sinteticas en una carpeta temporal."""
+
+    @staticmethod
+    def _img(path, size=(40, 40), rgb=(255, 255, 255), transparent_fraction=0.0, mode="RGBA"):
+        from PIL import Image
+        im = Image.new(mode, size, rgb + ((255,) if mode == "RGBA" else ()))
+        if transparent_fraction:
+            n = int(size[0] * size[1] * transparent_fraction)
+            for k in range(n):
+                im.putpixel((k % size[0], k // size[0]), rgb + (0,))
+        path.parent.mkdir(parents=True, exist_ok=True)
+        im.save(path, "WEBP", lossless=True)
+        return path
+
+    def test_opaque_images_have_no_alpha(self):
+        with tempfile.TemporaryDirectory() as t:
+            rgb = self._img(Path(t) / "a.webp", mode="RGB")
+            rgba_opaque = self._img(Path(t) / "b.webp")
+            self.assertEqual(exporter.analyze_alpha(rgb), (False, None))
+            self.assertEqual(exporter.analyze_alpha(rgba_opaque), (False, None))
+
+    def test_threshold_is_one_percent_of_pixels(self):
+        with tempfile.TemporaryDirectory() as t:
+            poco = self._img(Path(t) / "p.webp", size=(100, 100), transparent_fraction=0.005)
+            mucho = self._img(Path(t) / "m.webp", size=(100, 100), transparent_fraction=0.05)
+            self.assertEqual(exporter.analyze_alpha(poco), (False, None))
+            self.assertTrue(exporter.analyze_alpha(mucho)[0])
+
+    def test_background_follows_the_luminosity_of_the_opaque_pixels(self):
+        with tempfile.TemporaryDirectory() as t:
+            claro = self._img(Path(t) / "c.webp", rgb=(240, 240, 240), transparent_fraction=0.5)
+            oscuro = self._img(Path(t) / "o.webp", rgb=(20, 20, 20), transparent_fraction=0.5)
+            self.assertEqual(exporter.analyze_alpha(claro), (True, "oscuro"))   # contenido claro pide fondo oscuro
+            self.assertEqual(exporter.analyze_alpha(oscuro), (True, "claro"))   # contenido oscuro pide fondo claro
+
+    def test_hidden_colour_under_transparent_pixels_is_ignored(self):
+        from PIL import Image
+        with tempfile.TemporaryDirectory() as t:
+            im = Image.new("RGBA", (40, 40), (0, 0, 0, 0))            # negro oculto, todo transparente
+            for x in range(20):
+                for y in range(40):
+                    im.putpixel((x, y), (250, 250, 250, 255))         # mitad opaca y clara
+            p = Path(t) / "h.webp"
+            im.save(p, "WEBP", lossless=True, exact=True)
+            self.assertEqual(exporter.analyze_alpha(p), (True, "oscuro"))
+
+    def test_fully_transparent_and_unreadable_files(self):
+        with tempfile.TemporaryDirectory() as t:
+            vacia = self._img(Path(t) / "v.webp", transparent_fraction=1.0)
+            self.assertEqual(exporter.analyze_alpha(vacia), (True, None))
+            self.assertIsNone(exporter.analyze_alpha(Path(t) / "no-existe.webp"))
+            (Path(t) / "roto.webp").write_bytes(b"no es una imagen")
+            self.assertIsNone(exporter.analyze_alpha(Path(t) / "roto.webp"))
+
+    def _package(self, tmp, with_files=True):
+        pkg = Path(tmp) / "biblioteca" / "marca" / "modelo"
+        inv = pkg / "05_MULTIMEDIA" / "IMAGENES"
+        inv.mkdir(parents=True)
+        base = {"scope": "THIS_MODEL", "category": "PLANS", "width": 40, "height": 40, "download_status": "WEB_COPY",
+                "hero_candidate": True, "hero_reason": "prueba"}
+        recs = []
+        for i, (name, frac) in enumerate((("transparente", 0.5), ("opaca", 0.0))):
+            f = pkg / "05_MULTIMEDIA" / "IMAGENES" / "PLANS" / f"{name}.webp"
+            if with_files:
+                self._img(f, rgb=(240, 240, 240), transparent_fraction=frac)
+            sha = hashlib.sha256(name.encode()).hexdigest()
+            recs.append(dict(base, id=name, file=f"05_MULTIMEDIA/IMAGENES/PLANS/{name}.webp", sha256=sha, hero_rank=i + 1))
+        (inv / "images.json").write_text(json.dumps({"images": recs}), encoding="utf-8")
+        return pkg
+
+    def test_transparent_image_is_never_a_cover_candidate(self):
+        with tempfile.TemporaryDirectory() as t:
+            pkg = self._package(t)
+            images, heroes, _ = exporter._build_images(pkg, "marca", "modelo", "Modelo", True, Counter(), [])
+        by = {i["id"]: i for i in images}
+        self.assertTrue(by["transparente"]["alfa"])
+        self.assertEqual(by["transparente"]["fondo_sugerido"], "oscuro")
+        self.assertIsNone(by["transparente"]["hero_rank"])           # no se ofrece como portada
+        self.assertFalse(by["opaca"]["alfa"])
+        self.assertIsNone(by["opaca"]["fondo_sugerido"])
+        self.assertEqual(by["opaca"]["hero_rank"], 2)
+        h = {x["image_id"]: x for x in heroes}
+        self.assertFalse(h["transparente"]["available"])
+        self.assertIsNone(h["transparente"]["key"])
+        self.assertEqual(h["transparente"]["blocked_reason"], "alfa")
+        self.assertTrue(h["opaca"]["available"])
+        self.assertNotIn("blocked_reason", h["opaca"])
+
+    def test_missing_files_omit_the_alpha_fields_and_keep_the_cover(self):
+        with tempfile.TemporaryDirectory() as t:
+            pkg = self._package(t, with_files=False)
+            images, heroes, _ = exporter._build_images(pkg, "marca", "modelo", "Modelo", True, Counter(), [])
+        self.assertTrue(all("alfa" not in i and "fondo_sugerido" not in i for i in images))
+        self.assertTrue(all(h["available"] and "blocked_reason" not in h for h in heroes))
+
+    def test_stats_list_transparent_images(self):
+        docs = {"m/a": {"images": [{"id": "x", "category": "PLANS", "alfa": True, "fondo_sugerido": "oscuro"},
+                                   {"id": "y", "category": "HERO", "alfa": False, "fondo_sugerido": None},
+                                   {"id": "z", "category": "HERO"}]}}
+        s = exporter._alpha_stats(docs)
+        self.assertEqual(s["summary"], {"con_alfa": 1, "fondo_oscuro": 1, "opacas": 1, "sin_analisis": 1})
+        self.assertEqual([i["id"] for i in s["transparent_images"]], ["x"])
+
+    def test_schema_accepts_the_new_fields_and_rejects_bad_values(self):
+        from jsonschema import Draft202012Validator, FormatChecker
+        v = Draft202012Validator(_load(ROOT / "schema" / "portal.schema.json"), format_checker=FormatChecker())
+        doc = _load(ROOT / "schema" / "examples" / "portal.switch-one-design.json")
+        self.assertEqual(list(v.iter_errors(doc)), [])
+        self.assertTrue(any(i.get("alfa") for i in doc["images"]))    # el ejemplo muestra el caso con transparencia
+        bad = copy.deepcopy(doc)
+        bad["images"][0]["fondo_sugerido"] = "gris"
+        self.assertTrue(list(v.iter_errors(bad)))
+        bad2 = copy.deepcopy(doc)
+        bad2["candidates"]["hero_images"][0]["blocked_reason"] = "otro"
+        self.assertTrue(list(v.iter_errors(bad2)))
+        antiguo = copy.deepcopy(doc)                                   # un export 1.0.0 (sin los campos) sigue validando
+        for i in antiguo["images"]:
+            i.pop("alfa", None)
+            i.pop("fondo_sugerido", None)
+        self.assertEqual(list(v.iter_errors(antiguo)), [])
 
 
 class Examples(unittest.TestCase):

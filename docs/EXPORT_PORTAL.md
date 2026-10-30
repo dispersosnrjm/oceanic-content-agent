@@ -1,4 +1,4 @@
-# Exportación para el portal (contrato v1.0.0) · BORRADOR
+# Exportación para el portal (contrato v1.1.0) · BORRADOR
 
 > Borrador de la tarea 1 (contrato). Describe lo que el motor va a entregar; los comandos `export-portal` y
 > `publish-export` y el código llegan en las tareas siguientes. Lo que ya existe y puede usar el equipo del portal:
@@ -117,8 +117,19 @@ no `"NO DECLARADO"`.
   detalle, navegando, planos). El administrador podrá editar el alt de una imagen concreta; cambiar `alt_label_es` solo
   cambia el texto alternativo al reexportar y no pisa lo editado por imagen.
 - `hero_rank` ordena las portadas candidatas; la elección final es del administrador.
-- Los ejemplos de `schema/examples/` usan el sha256 de la copia web registrado en `images.json` (aún no hay `r2.json`); en
-  la exportación real la clave sale del archivo subido.
+- **Transparencia (contrato 1.1.0, campos opcionales).** Cada imagen trae `alfa` y `fondo_sugerido`, calculados leyendo la copia
+  web (solo lectura). `alfa` es verdadero si el 1 % o más de los píxeles tiene alfa menor que 255 (las copias RGBA casi
+  opacas, con menos de 1 %, cuentan como opacas). `fondo_sugerido` solo se informa con `alfa` verdadero: es la luminosidad
+  media (0 a 255, pesos Rec. 601) de los píxeles con alfa mayor o igual que 128; con media mayor o igual que 128 el
+  contenido es claro y pide fondo `"oscuro"`, si no `"claro"` (el umbral 128 es el punto medio de la escala y se puede
+  ajustar en `exporter.LIGHT_THRESHOLD`). Si la copia no se puede leer, los dos campos se omiten.
+- **Regla de portada:** una imagen con `alfa` verdadero nunca se elige como portada ni como imagen para compartir
+  (`og:image`), porque varios visores ignoran el alfa y la muestran con negro. El export lo aplica así: en `images[]` su
+  `hero_rank` va en `null`, y en `candidates.hero_images` esa candidata sale con `available: false`, `key: null` y
+  `blocked_reason: "alfa"`. El portal debe pintar estas imágenes sobre una tarjeta con el `fondo_sugerido` y no usarlas
+  en la portada ni en las metaetiquetas, aunque su categoría sea HERO.
+- Los ejemplos de `schema/examples/` se generan con el exportador (`export-portal --preview-keys` para un modelo); la clave de
+  cada imagen sale del `r2.json` del modelo cuando existe y, si no, del sha256 de la copia web.
 
 ### Videos
 

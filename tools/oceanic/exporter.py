@@ -20,7 +20,11 @@ from . import lint as textlint
 from . import mediarules
 
 ROOT = Path(__file__).resolve().parents[2]
-SCHEMA_VERSION = "1.0.0"
+SCHEMA_VERSION = "1.1.0"
+# Transparencia de las copias web (campos `alfa` y `fondo_sugerido`, contrato 1.1.0)
+ALPHA_MIN_FRACTION = 0.01   # alfa significativa: 1 % o mas de los pixeles con alfa < 255 (criterio de la ronda 002)
+ALPHA_OPAQUE_MIN = 128      # pixeles "opacos" para medir la luminosidad: alfa >= 128
+LIGHT_THRESHOLD = 128       # luminosidad media (0 a 255, Rec. 601) >= 128: contenido claro, pide fondo oscuro
 TIME_KEYS = {"generated_at", "accessed_at", "uploaded_at", "collected_at"}
 SECTIONS = {"introduccion": "introduccion", "diseno": "diseno", "performance": "performance",
             "ingenieria": "ingenieria", "experiencia_a_bordo": "experiencia-a-bordo"}
@@ -271,6 +275,32 @@ def _load_r2_keys(pkg: Path, brand: str, slug: str) -> dict:
     return {e["id"]: e["key"] for e in _json(path).get("images", []) if not e.get("superseded")}
 
 
+def analyze_alpha(path: Path):
+    """(alfa, fondo_sugerido) de una copia web, solo lectura; None si no se puede leer.
+
+    alfa: el 1 % o mas de los pixeles tiene alfa < 255. fondo_sugerido solo con alfa verdadera: luminosidad media (0 a 255)
+    de los pixeles con alfa >= 128; media >= 128 -> el contenido es claro y pide fondo "oscuro", si no "claro".
+    """
+    try:
+        from PIL import Image, ImageStat
+        with Image.open(path) as im:
+            if "A" not in im.getbands():
+                return False, None
+            rgba = im.convert("RGBA")
+            alpha = rgba.getchannel("A")
+            hist = alpha.histogram()
+            total = sum(hist)
+            if not total or (total - hist[255]) / total < ALPHA_MIN_FRACTION:
+                return False, None
+            mask = alpha.point(lambda v: 255 if v >= ALPHA_OPAQUE_MIN else 0)
+            if not mask.getbbox():
+                return True, None
+            mean = ImageStat.Stat(rgba.convert("RGB").convert("L"), mask).mean[0]
+            return True, "oscuro" if mean >= LIGHT_THRESHOLD else "claro"
+    except Exception:  # noqa: BLE001 - archivo ausente o ilegible: el campo se omite
+        return None
+
+
 def _build_images(pkg, brand, slug, model_name, preview_keys, omitted: Counter, manual: list):
     inv = _json(pkg / "05_MULTIMEDIA" / "IMAGENES" / "images.json")["images"]
     r2 = _load_r2_keys(pkg, brand, slug)
@@ -318,10 +348,18 @@ def _build_images(pkg, brand, slug, model_name, preview_keys, omitted: Counter, 
         else:
             omitted["sin_subir_a_r2"] += 1
             continue
-        images.append({"id": rec["id"], "category": category, "key": key, "width": w, "height": h,
-                       "hero_rank": rec.get("hero_rank"), "copyright_notice": rec.get("copyright_notice"),
-                       "alt": {"es": mediarules.alt_text(model_name, category)}})
+        img = {"id": rec["id"], "category": category, "key": key, "width": w, "height": h,
+               "hero_rank": rec.get("hero_rank"), "copyright_notice": rec.get("copyright_notice"),
+               "alt": {"es": mediarules.alt_text(model_name, category)}}
+        alpha = analyze_alpha(pkg / rec["file"])
+        if alpha is not None:
+            img["alfa"], img["fondo_sugerido"] = alpha
+        images.append(img)
     images.sort(key=lambda i: (i["hero_rank"] if i["hero_rank"] is not None else 10 ** 6, i["id"]))
+    transparent = {i["id"] for i in images if i.get("alfa")}
+    for i in images:
+        if i["id"] in transparent:
+            i["hero_rank"] = None  # una imagen con transparencia nunca se ofrece como portada ni para compartir
     heroes = sorted((r for r in inv if r.get("hero_candidate") and r.get("scope") == "THIS_MODEL"),
                     key=lambda r: (r.get("hero_rank") or 10 ** 6, r["id"]))
     bad = [r for r in heroes if not mediarules.valid_image_id(r["id"])]
@@ -329,8 +367,14 @@ def _build_images(pkg, brand, slug, model_name, preview_keys, omitted: Counter, 
         omitted["portada_candidata_id_invalido"] += len(bad)
         heroes = [r for r in heroes if mediarules.valid_image_id(r["id"])]
     keys = {i["id"]: i["key"] for i in images}
-    hero_images = [{"image_id": r["id"], "hero_rank": r.get("hero_rank"), "reason": r.get("hero_reason"),
-                    "available": r["id"] in keys, "key": keys.get(r["id"])} for r in heroes]
+    hero_images = []
+    for r in heroes:
+        blocked = r["id"] in transparent
+        entry = {"image_id": r["id"], "hero_rank": r.get("hero_rank"), "reason": r.get("hero_reason"),
+                 "available": r["id"] in keys and not blocked, "key": None if blocked else keys.get(r["id"])}
+        if blocked:
+            entry["blocked_reason"] = "alfa"
+        hero_images.append(entry)
     return images, hero_images, key_source
 
 
@@ -595,7 +639,7 @@ def export_portal(root: Path = ROOT, out: Path | None = None, preview_keys: bool
 def build_report(docs, infos, brands, index, preview_keys, generated_at) -> dict:
     by_brand: dict[str, Counter] = {}
     omitted, key_source, tiers = Counter(), Counter(), Counter()
-    manual, third_party, no_hero, lint_bad, notes = [], [], [], [], []
+    manual, third_party, no_hero, lint_bad, notes, lost_hero_alpha = [], [], [], [], [], []
     per_model_omitted = {}
     unverified = []
     for key, doc in sorted(docs.items()):
@@ -612,6 +656,8 @@ def build_report(docs, infos, brands, index, preview_keys, generated_at) -> dict
             unverified.append({"model": key, "videos": info["unverified_videos"]})
         if not any(h["available"] for h in doc["candidates"]["hero_images"]):
             no_hero.append(key)
+            if any(h.get("blocked_reason") for h in doc["candidates"]["hero_images"]):
+                lost_hero_alpha.append(key)
         if not doc["lint_ok"]:
             lint_bad.append({"model": key, "violations": len(doc["lint_violations"]),
                              "rules": sorted({v["rule"] for v in doc["lint_violations"]})})
@@ -635,11 +681,31 @@ def build_report(docs, infos, brands, index, preview_keys, generated_at) -> dict
         "lint_failed_models": lint_bad,
         "lint": _lint_stats(docs, brands),
         "models_without_hero_candidate": no_hero,
+        "models_without_hero_candidate_due_to_alpha": lost_hero_alpha,
+        "alpha": _alpha_stats(docs),
         "internal_notes_removed": {"total": notes_total, "details": notes,
                                    "brands": {b: v["texts"]["es"]["internal_notes_removed"] for b, v in brands.items()}},
         "publish_tier": dict(tiers),
         "catalog_hash": index["catalog_hash"],
     }
+
+
+def _alpha_stats(docs) -> dict:
+    """Transparencia de las imagenes publicadas (campos alfa y fondo_sugerido)."""
+    stats = Counter()
+    transparent = []
+    for key, doc in sorted(docs.items()):
+        for i in doc["images"]:
+            if "alfa" not in i:
+                stats["sin_analisis"] += 1
+            elif i["alfa"]:
+                stats["con_alfa"] += 1
+                stats["fondo_" + str(i["fondo_sugerido"])] += 1
+                transparent.append({"model": key, "id": i["id"], "category": i["category"],
+                                    "fondo_sugerido": i["fondo_sugerido"]})
+            else:
+                stats["opacas"] += 1
+    return {"summary": dict(stats), "transparent_images": transparent}
 
 
 def _lint_stats(docs, brands) -> dict:
@@ -684,7 +750,9 @@ def summary_lines(report: dict) -> list[str]:
         for b, v in lint["by_brand"].items() if v["model_violations"] + v["brand_text_violations"]))
     lines.append(f"Modelos con lint_ok false: {len(report['lint_failed_models'])}"
                  f" · marcas con lint_ok false: {len(report['brands']['lint_failed'])}")
-    lines.append(f"Modelos sin portada candidata disponible: {len(report['models_without_hero_candidate'])}")
+    lines.append(f"Modelos sin portada candidata disponible: {len(report['models_without_hero_candidate'])}"
+                 f" (por transparencia: {len(report['models_without_hero_candidate_due_to_alpha'])})")
+    lines.append(f"Imágenes con transparencia: {report['alpha']['summary'].get('con_alfa', 0)}")
     lines.append(f"Descargas manuales (requires_manual_download): {len(report['requires_manual_download'])}")
     lines.append(f"Videos third_party excluidos (modelos): {len(report['third_party_videos'])}"
                  f" · modelos con videos sin verificar: {len(report['unverified_videos'])}")

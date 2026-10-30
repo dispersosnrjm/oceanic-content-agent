@@ -4,7 +4,8 @@
 
 Garantias:
   * Dry-run por defecto: sin red ni credenciales.
-  * Solo lectura y escritura de objetos nuevos: el cliente expone SOLO head_object y put_object.
+  * Solo lectura y escritura de objetos nuevos: el cliente expone SOLO head_object, get_object, put_object y copy_object
+    (copia dentro del bucket, usada por backup-photos / restore-photos; nunca descarga ni quita nada).
     Una clave existente con el mismo sha256 se omite; con otro sha256 es un error y no se pisa.
   * Credenciales solo por variables de entorno; nunca se imprimen ni se guardan (ni valores, ni
     endpoint, ni bucket). r2.json no guarda cuenta ni bucket.
@@ -87,7 +88,7 @@ _TRANSIENT_NAMES = {"EndpointConnectionError", "ConnectTimeoutError", "ReadTimeo
 
 
 class R2Client:
-    """Envoltorio minimo de boto3: SOLO head_object y put_object."""
+    """Envoltorio minimo de boto3: SOLO head_object, get_object, put_object y copy_object."""
 
     def __init__(self, env=None):
         env = os.environ if env is None else env
@@ -118,7 +119,7 @@ class R2Client:
         return (R2Transient if transient else R2Error)(msg)
 
     def head_object(self, key: str):
-        """None si no existe; si existe, {"sha256": <metadata o None>}."""
+        """None si no existe; si existe, {"sha256": <metadata o None>, "size": <bytes>}."""
         try:
             r = self._s3.head_object(Bucket=self._bucket, Key=key)
         except Exception as exc:  # noqa: BLE001
@@ -128,7 +129,7 @@ class R2Client:
             if code in ("404", "NoSuchKey", "NotFound") or status == 404:
                 return None
             raise self._wrap(exc) from None
-        return {"sha256": (r.get("Metadata") or {}).get("sha256")}
+        return {"sha256": (r.get("Metadata") or {}).get("sha256"), "size": r.get("ContentLength")}
 
     def get_object(self, key: str):
         """Solo lectura: los bytes del objeto, o None si no existe."""
@@ -141,6 +142,18 @@ class R2Client:
             status = (resp.get("ResponseMetadata") or {}).get("HTTPStatusCode")
             if code in ("404", "NoSuchKey", "NotFound") or status == 404:
                 return None
+            raise self._wrap(exc) from None
+
+    def copy_object(self, src_key: str, dst_key: str):
+        """Copia un objeto a otra clave dentro del bucket, en el servidor, conservando tipo, cache y metadatos.
+
+        Es una copia pura: no descarga, no quita nada. Quien la llama decide antes que la clave destino no exista
+        (backup-photos) o que se pide pisarla de forma explicita (restore-photos --force-restore-id).
+        """
+        try:
+            self._s3.copy_object(Bucket=self._bucket, Key=dst_key,
+                                 CopySource={"Bucket": self._bucket, "Key": src_key}, MetadataDirective="COPY")
+        except Exception as exc:  # noqa: BLE001
             raise self._wrap(exc) from None
 
     def put_object(self, key: str, body: bytes, content_type: str, cache_control: str, metadata: dict):

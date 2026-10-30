@@ -333,10 +333,11 @@ class NoDeleteTests(R2Base):
         src = Path(r2.__file__).read_text(encoding="utf-8").lower()
         self.assertNotIn("delete", src)
 
-    def test_client_has_only_head_get_and_put(self):
-        # get_object es de solo lectura (catalog/latest.json antes de sobrescribirlo); no hay ningun metodo de borrado
+    def test_client_has_only_head_get_put_and_copy(self):
+        # get_object es de solo lectura (catalog/latest.json antes de sobrescribirlo); copy_object solo copia dentro del
+        # bucket (backup-photos / restore-photos); no hay ningun metodo de borrado
         public = {n for n in dir(r2.R2Client) if not n.startswith("_")}
-        self.assertEqual(public, {"head_object", "get_object", "put_object"})
+        self.assertEqual(public, {"head_object", "get_object", "put_object", "copy_object"})
 
     def test_publish_never_calls_delete(self):
         md = self.lib.model("marca", "uno", [{"id": "a", "seed": 1}])

@@ -208,3 +208,41 @@ los catálogos y las copias del historial se conservan.
 `publish-export` se niega a subir un export con `preview: true` (el que se genera con `--preview-keys`) o con hashes o
 archivos inconsistentes. `catalog/latest.json` es la única clave que se sobrescribe y solo se escribe al final, si todo lo
 demás subió sin errores.
+
+
+## Respaldo de fotos: `backup-photos` y `restore-photos`
+
+Ninguna foto se pierde aunque se borre o se pise por error el lugar que lee el portal. Las claves ya llevan el hash y son
+inmutables, pero eso no protege de un borrado manual. Estos dos comandos hacen y usan una copia aparte, dentro del mismo
+bucket, bajo el prefijo `recoveryphotos/`, que el portal nunca lee.
+
+```powershell
+cd C:\local\claude\oceanic-content-agent\tools
+python -m oceanic backup-photos  <marca|ruta_modelo|--all>              # simulación (solo lee el bucket: HEAD)
+python -m oceanic backup-photos  <marca|ruta_modelo|--all> --apply      # copia y escribe la libreta
+python -m oceanic backup-photos  <marca|ruta_modelo|--all> --verify     # solo lectura: existencia, sha256 y tamaño
+python -m oceanic restore-photos <clave|marca/modelo|marca|--all>       # simulación
+python -m oceanic restore-photos <clave|marca/modelo|marca|--all> --apply [--force-restore-id=<clave>]
+```
+
+**Rutas.** Por cada imagen registrada en un `r2.json` (incluidos los registros de los paquetes curated en `_r2/`):
+- `recoveryphotos/<la misma clave>`: copia del objeto hecha dentro del servidor (`copy_object`), sin descargar. Conserva tipo,
+  cache y el metadato `sha256`.
+- `recoveryphotos/_ledger/<clave>.json`: la libreta de la imagen.
+
+**Libreta.** Un JSON por imagen con marca, modelo, categoría, id, clave original y de respaldo, `sha256` y bytes de la copia web,
+`original_sha256` y URL de origen (del inventario), fecha de subida (de `r2.json`), fecha y motivo del respaldo y la versión del
+agente (commit corto). No lleva correos, cuenta, nombre del bucket ni claves.
+
+**Garantías.**
+- Simulación por defecto. `--apply` solo escribe bajo `recoveryphotos/`; no borra y no pisa. El cliente R2 sigue sin ningún
+  método de borrado: se le agregó solo `copy_object` (copia dentro del bucket) y la prueba que impide la palabra de borrado
+  en `r2.py`, `catalog.py` y `backup.py` sigue pasando.
+- Un respaldo que ya existe con el mismo sha256 se omite (idempotente, reanudable); con otro sha256 es un ERROR y no se toca.
+- `restore-photos` lee la libreta, comprueba el sha256 del respaldo contra la libreta (antes), copia el respaldo a la clave original
+  **solo si esa clave no existe** y vuelve a comprobar el sha256 (después). Si la clave original existe con otro sha256 no la pisa:
+  lo informa y exige `--force-restore-id=<esa clave>`. Una clave que ya está en su sitio con el hash correcto se salta.
+- Necesitan las variables `R2_*` en la sesión, como `publish-r2`; nunca se imprimen.
+
+**Orden recomendado.** Después de `publish-r2 <marca> --apply`, correr `backup-photos <marca>` (simulación), `--apply`, y repetir
+la simulación (debe dar 0 por copiar) y `--verify`.

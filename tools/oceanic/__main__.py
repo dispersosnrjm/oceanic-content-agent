@@ -59,6 +59,12 @@ def main(argv: list[str]) -> int:
     if cmd == "publish-r2":
         from . import r2
         return r2.main_cli(args, ROOT)
+    if cmd == "backup-photos":
+        from . import backup
+        return backup.main_backup(args, ROOT)
+    if cmd == "restore-photos":
+        from . import backup
+        return backup.main_restore(args, ROOT)
     if cmd == "r2-backfill":
         from . import r2
         return r2.main_backfill(args, ROOT)

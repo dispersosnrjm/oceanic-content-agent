@@ -20,7 +20,7 @@ from . import lint as textlint
 from . import mediarules
 
 ROOT = Path(__file__).resolve().parents[2]
-SCHEMA_VERSION = "1.1.0"
+SCHEMA_VERSION = "1.2.0"
 # Transparencia de las copias web (campos `alfa` y `fondo_sugerido`, contrato 1.1.0)
 ALPHA_MIN_FRACTION = 0.01   # alfa significativa: 1 % o mas de los pixeles con alfa < 255 (criterio de la ronda 002)
 ALPHA_OPAQUE_MIN = 128      # pixeles "opacos" para medir la luminosidad: alfa >= 128
@@ -612,7 +612,8 @@ def export_portal(root: Path = ROOT, out: Path | None = None, preview_keys: bool
                     "path": f"models/{d['identity']['brand']['slug']}/{d['identity']['slug']}/portal.json",
                     "content_hash": d["identity"]["content_hash"], "content_status": d["readiness"]["content_status"],
                     "lint_ok": d["lint_ok"], "publish_tier": d["publish_tier"]["overall"],
-                    "images": len(d["images"]), "videos": len(d["videos"])}
+                    "images": len(d["images"]), "videos": len(d["videos"]),
+                    **listing_fields(d)}
                    for _, d in sorted(docs.items())],
     }
     body = json.loads(json.dumps(index))
@@ -634,6 +635,15 @@ def export_portal(root: Path = ROOT, out: Path | None = None, preview_keys: bool
             (out / "schema").mkdir(parents=True, exist_ok=True)
             shutil.copyfile(root / "schema" / name, out / "schema" / name)
     return {"docs": docs, "brands": brands, "index": index, "report": report, "out": out}
+
+
+def listing_fields(doc: dict) -> dict:
+    """Datos de listado que el indice copia del portal.json (contrato 1.2.0), para que el portal no lea un archivo por modelo.
+    cover: clave R2 de la primera portada disponible (hero_images ya viene por hero_rank y sin imagenes con alfa)."""
+    specs = {s["key"]: s["display_value"] for s in doc["specs"]}
+    cover = next((h["key"] for h in doc["candidates"]["hero_images"] if h["available"] and h["key"]), None)
+    return {"boat_type": doc["identity"]["boat_type"], "cover": cover,
+            "eslora_total": specs.get("eslora_total"), "manga_casco": specs.get("manga_casco")}
 
 
 def build_report(docs, infos, brands, index, preview_keys, generated_at) -> dict:

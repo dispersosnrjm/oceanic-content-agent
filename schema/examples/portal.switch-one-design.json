@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.1.0",
+  "schema_version": "1.2.0",
   "generated_at": "2026-10-19T12:00:00Z",
   "identity": {
     "brand": {
@@ -12,7 +12,7 @@
     "model_year": null,
     "range": "One Design",
     "variant": "Switch One Design",
-    "content_hash": "dae5f5e85f40c02a450430b72c0672d92f2ea0004ac2857110ee2ac2003e478d",
+    "content_hash": "0d30de3a1590d441d455e43d2ff1e1fef590982cc967229a4992f7188d964547",
     "source_url": "https://www.switchonedesign.com/"
   },
   "texts": {

@@ -394,7 +394,11 @@
               "lint_ok": { "type": "boolean" },
               "publish_tier": { "enum": ["auto", "review", "blocked"] },
               "images": { "type": "integer", "minimum": 0 },
-              "videos": { "type": "integer", "minimum": 0 }
+              "videos": { "type": "integer", "minimum": 0 },
+              "boat_type": { "enum": ["catamaran_motor", "catamaran_vela", "motor", "motor_electrico", "vela", null], "description": "Opcional (1.2.0). Mismo valor que identity.boat_type del portal.json." },
+              "cover": { "type": ["string", "null"], "description": "Opcional (1.2.0). Clave R2 completa de la portada: primera candidata disponible por hero_rank, nunca una imagen con alfa verdadera. null si no hay candidata o el modelo no tiene imágenes." },
+              "eslora_total": { "type": ["string", "null"], "description": "Opcional (1.2.0). display_value de la especificación eslora_total (VERIFIED) de specs[]; null si no está." },
+              "manga_casco": { "type": ["string", "null"], "description": "Opcional (1.2.0). display_value de la especificación manga_casco (VERIFIED) de specs[]; null si no está." }
             }
           }
         }

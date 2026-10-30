@@ -374,6 +374,119 @@ class Alpha(unittest.TestCase):
         self.assertEqual(list(v.iter_errors(antiguo)), [])
 
 
+class Listing(unittest.TestCase):
+    """Datos de listado del indice (contrato 1.2.0): boat_type, cover, eslora_total y manga_casco."""
+
+    @staticmethod
+    def _doc(heroes, specs=(), boat_type="motor"):
+        return {"identity": {"boat_type": boat_type}, "candidates": {"hero_images": heroes},
+                "specs": [{"key": k, "display_value": v} for k, v in specs]}
+
+    @staticmethod
+    def _hero(image_id, key, available=True, blocked=False):
+        h = {"image_id": image_id, "hero_rank": 1, "reason": None, "available": available and not blocked,
+             "key": None if blocked or not available else key}
+        if blocked:
+            h["blocked_reason"] = "alfa"
+        return h
+
+    def test_normal_case(self):
+        doc = self._doc([self._hero("a", "m/x/hero/a-11111111.webp"), self._hero("b", "m/x/hero/b-22222222.webp")],
+                        [("eslora_total", "11,16 m"), ("manga_casco", "3,51 m"), ("camarotes", "2")], "catamaran_vela")
+        self.assertEqual(exporter.listing_fields(doc), {"boat_type": "catamaran_vela", "cover": "m/x/hero/a-11111111.webp",
+                                                         "eslora_total": "11,16 m", "manga_casco": "3,51 m"})
+
+    def test_null_cases(self):
+        sin_imagenes = exporter.listing_fields(self._doc([]))
+        self.assertEqual(sin_imagenes, {"boat_type": "motor", "cover": None, "eslora_total": None, "manga_casco": None})
+        solo_eslora = exporter.listing_fields(self._doc([], [("eslora_total", "9 m")]))
+        self.assertEqual((solo_eslora["eslora_total"], solo_eslora["manga_casco"]), ("9 m", None))
+        no_subida = exporter.listing_fields(self._doc([self._hero("a", "k", available=False)]))
+        self.assertIsNone(no_subida["cover"])
+
+    def test_cover_skips_transparent_images(self):
+        doc = self._doc([self._hero("a", "k-a", blocked=True), self._hero("b", "m/x/hero/b-22222222.webp")])
+        self.assertEqual(exporter.listing_fields(doc)["cover"], "m/x/hero/b-22222222.webp")
+        todas = self._doc([self._hero("a", "k-a", blocked=True), self._hero("b", "k-b", blocked=True)])
+        self.assertIsNone(exporter.listing_fields(todas)["cover"])
+
+    def test_package_with_transparent_first_candidate_exports_the_opaque_cover(self):
+        with tempfile.TemporaryDirectory() as t:
+            pkg = Alpha()._package(t)
+            images, heroes, _ = exporter._build_images(pkg, "marca", "modelo", "Modelo", True, Counter(), [])
+        cover = exporter.listing_fields(self._doc(heroes))["cover"]
+        by = {i["id"]: i for i in images}
+        self.assertEqual(cover, by["opaca"]["key"])
+        self.assertNotEqual(cover, by["transparente"]["key"])
+
+    def test_schema_version_is_1_2_0(self):
+        self.assertEqual(exporter.SCHEMA_VERSION, "1.2.0")
+
+
+class ListingFullExport(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        cls.res = exporter.export_portal(ROOT, preview_keys=True, generated_at=GEN, write=False)
+        cls.docs = cls.res["docs"]
+        cls.index = cls.res["index"]
+
+    def test_every_entry_carries_the_four_fields(self):
+        for e in self.index["models"]:
+            for k in ("boat_type", "cover", "eslora_total", "manga_casco"):
+                self.assertIn(k, e, f"{e['brand']}/{e['slug']}")
+
+    def test_fields_match_the_model_document(self):
+        for e in self.index["models"]:
+            d = self.docs[f"{e['brand']}/{e['slug']}"]
+            specs = {s["key"]: s["display_value"] for s in d["specs"]}
+            self.assertEqual(e["boat_type"], d["identity"]["boat_type"])
+            self.assertEqual(e["eslora_total"], specs.get("eslora_total"))
+            self.assertEqual(e["manga_casco"], specs.get("manga_casco"))
+            first = next((h["key"] for h in d["candidates"]["hero_images"] if h["available"]), None)
+            self.assertEqual(e["cover"], first)
+
+    def test_cover_is_a_published_image_and_never_transparent(self):
+        for e in self.index["models"]:
+            if e["cover"] is None:
+                continue
+            d = self.docs[f"{e['brand']}/{e['slug']}"]
+            img = next(i for i in d["images"] if i["key"] == e["cover"])
+            self.assertIsNot(img.get("alfa"), True, e["cover"])
+        for e in self.index["models"]:
+            if e["images"] == 0:
+                self.assertIsNone(e["cover"])
+
+    def test_nulls_exist_in_the_real_catalog(self):
+        self.assertTrue(any(e["cover"] is None for e in self.index["models"]))
+        self.assertTrue(any(e["cover"] for e in self.index["models"]))
+
+    def test_catalog_hash_depends_on_the_new_fields_and_is_reproducible(self):
+        body = json.loads(json.dumps(self.index))
+        body["catalog_hash"] = None
+        self.assertEqual(exporter.canonical_hash(body), self.index["catalog_hash"])
+        for e in body["models"]:
+            for k in ("boat_type", "cover", "eslora_total", "manga_casco"):
+                e.pop(k)
+        self.assertNotEqual(exporter.canonical_hash(body), self.index["catalog_hash"])
+        again = exporter.export_portal(ROOT, preview_keys=True, generated_at="2031-02-03T04:05:06Z", write=False)
+        self.assertEqual(again["index"]["catalog_hash"], self.index["catalog_hash"])
+
+    def test_schema_compatibility_with_a_1_1_0_reader_and_bad_values(self):
+        from jsonschema import Draft202012Validator, FormatChecker
+        schema = _load(ROOT / "schema" / "portal.schema.json")
+        v = Draft202012Validator({"$ref": "#/$defs/index", "$defs": schema["$defs"]}, format_checker=FormatChecker())
+        self.assertEqual(list(v.iter_errors(self.index)), [])
+        antiguo = copy.deepcopy(self.index)                      # un indice 1.1.0 (sin los campos) sigue validando
+        for e in antiguo["models"]:
+            for k in ("boat_type", "cover", "eslora_total", "manga_casco"):
+                e.pop(k)
+        self.assertEqual(list(v.iter_errors(antiguo)), [])
+        for k, bad in (("boat_type", "yate"), ("cover", 5), ("eslora_total", 11.2), ("manga_casco", ["3 m"])):
+            malo = copy.deepcopy(self.index)
+            malo["models"][0][k] = bad
+            self.assertTrue(list(v.iter_errors(malo)), k)
+
+
 class Examples(unittest.TestCase):
     def test_examples_validate(self):
         from jsonschema import Draft202012Validator, FormatChecker

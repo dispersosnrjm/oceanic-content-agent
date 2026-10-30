@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.1.0",
+  "schema_version": "1.2.0",
   "generated_at": "2026-10-19T12:00:00Z",
   "identity": {
     "brand": {
@@ -12,7 +12,7 @@
     "model_year": "2027",
     "range": "Axopar 37",
     "variant": "XC Cross Cabin",
-    "content_hash": "1ac41f38d78345738187817e65a0285af25cc2ffb762439a96fe8f670a32b77e",
+    "content_hash": "a1b59defa36b73ee2617f4b9fbbd26a14ec31377506ccc66aed3a92f2070f49d",
     "source_url": "https://www.axopar.com/boat-models/axopar-37/axopar-37-xc-cross-cabin/"
   },
   "texts": {

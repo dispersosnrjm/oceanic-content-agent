@@ -2,6 +2,14 @@
 
 Formato: [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/). Versionado semántico.
 
+## [1.2.0]: datos de listado en el índice
+
+### Añadido
+- Contrato 1.2.0 (minor, compatible): cada entrada de `index.json › models[]` trae `boat_type`, `cover` (clave R2 de la
+  portada, nunca una imagen con alfa verdadero), `eslora_total` y `manga_casco` (`display_value` VERIFIED), todos opcionales
+  y `null` si no hay dato. El portal lista barcos sin leer un `portal.json` por modelo. `catalog_hash` cambia (catálogo nuevo
+  en `catalog/1.2.0/{hash}/`) y sigue siendo reproducible.
+
 ## [1.1.0]: integración con el portal
 
 Rama `integracion-portal`. Cambios aditivos: no se reformateó ningún archivo existente y no se tocaron los paquetes curated,

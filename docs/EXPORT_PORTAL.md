@@ -1,4 +1,4 @@
-# Exportación para el portal (contrato v1.1.0) · BORRADOR
+# Exportación para el portal (contrato v1.2.0) · BORRADOR
 
 > Borrador de la tarea 1 (contrato). Describe lo que el motor va a entregar; los comandos `export-portal` y
 > `publish-export` y el código llegan en las tareas siguientes. Lo que ya existe y puede usar el equipo del portal:
@@ -54,6 +54,29 @@ catalog/latest.json      único objeto mutable: { schema_version, content_hash, 
 índice contiene el `content_hash` de cada modelo, así que dos exports iguales dan la misma ruta). **Excepción documentada:**
 `catalog/latest.json` es la única clave que se sobrescribe; el código no borra nada. **El portal importa siempre desde R2**;
 ningún campo del contrato es una ruta local: las imágenes son claves R2 y los videos y documentos, URL.
+
+## Datos de listado en `index.json` (contrato 1.2.0)
+
+Cada entrada de `models[]` copia del `portal.json` lo que el portal necesita para listar barcos sin leer un archivo por
+modelo (en Cloudflare Workers, plan gratuito, hay 10 ms de CPU y 50 subrequests por invocación, y cada lectura de R2
+cuenta). Los cuatro campos son opcionales en el esquema y valen `null` cuando no existe el dato:
+
+| Campo | Qué es |
+|---|---|
+| `boat_type` | el mismo valor que `identity.boat_type` del `portal.json` |
+| `cover` | clave R2 completa de la portada: la primera candidata de `candidates.hero_images` con `available: true` (ya ordenadas por `hero_rank`; las imágenes con `alfa` verdadero salen bloqueadas, así que nunca son portada). `null` si no hay candidata disponible o el modelo no tiene imágenes publicadas |
+| `eslora_total` | `display_value` de la especificación `eslora_total` de `specs[]` (solo VERIFIED), o `null` |
+| `manga_casco` | `display_value` de la especificación `manga_casco` de `specs[]` (solo VERIFIED), o `null` |
+
+Como el índice cambia, `catalog_hash` cambia: es un catálogo nuevo, que se publica en `catalog/1.2.0/{hash}/`. Dos
+exportaciones del mismo contenido siguen dando el mismo hash.
+
+**Compatibilidad.** El cambio es un minor (campos nuevos y opcionales). Un lector 1.1.0 que solo interpreta el JSON lee los
+campos que conocía e ignora los nuevos. Ojo: el esquema 1.1.0 declara `additionalProperties: false` en las entradas de
+`models[]`, así que un lector que además **valide** el índice 1.2.0 contra el esquema 1.1.0 lo rechazaría; debe validar contra
+el esquema que viaja con el catálogo (`catalog/1.2.0/{hash}/schema/portal.schema.json`) o no validar en tiempo de ejecución.
+Un índice 1.1.0 (sin los cuatro campos) sí valida contra el esquema 1.2.0. El `portal.json` de cada modelo no cambia de forma.
+El portal que use los campos debe tratar la ausencia como `null` (índices anteriores).
 
 ## Versionado
 

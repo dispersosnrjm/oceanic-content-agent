@@ -59,6 +59,12 @@ def main(argv: list[str]) -> int:
     if cmd == "publish-r2":
         from . import r2
         return r2.main_cli(args, ROOT)
+    if cmd == "usados-fotos":
+        from . import usados_media
+        return usados_media.main_download(args, ROOT)
+    if cmd == "publish-usados":
+        from . import usados_media
+        return usados_media.main_publish(args, ROOT)
     if cmd == "backup-photos":
         from . import backup
         return backup.main_backup(args, ROOT)

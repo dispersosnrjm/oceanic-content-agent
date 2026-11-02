@@ -9,6 +9,13 @@ Formato: [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/). Versionado
   portada, nunca una imagen con alfa verdadero), `eslora_total` y `manga_casco` (`display_value` VERIFIED), todos opcionales
   y `null` si no hay dato. El portal lista barcos sin leer un `portal.json` por modelo. `catalog_hash` cambia (catálogo nuevo
   en `catalog/1.2.0/{hash}/`) y sigue siendo reproducible.
+- **Fotos de usados** (`tools/oceanic/usados_media.py`): `python -m oceanic usados-fotos` baja de a una, con pausa, las fotos
+  que listan las fichas de `usados/` (copias web WebP 1600 px q75, no versionadas) y `python -m oceanic publish-usados
+  [--apply] [--only=<slug>]` las sube a R2 con la clave `usados/{slug}/other/foto-NN-{sha256[:8]}.webp` (inmutable, nunca
+  pisa ni borra; simulación por defecto). Lo subido queda en `usados/<slug>.r2.json`. 98 fotos de 11 avisos.
+
+### Cambiado
+- `usados/oyster56/ficha.txt`: se quitó el correo del contacto (queda solo el nombre).
 
 ## [1.1.0]: integración con el portal
 

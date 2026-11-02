@@ -14,7 +14,7 @@ Revisé el texto y las fotos de cada aviso. Puntos a corregir o decidir antes de
 3. XO DFNDR 8 (2024): tarjeta sin precio y sin ficha propia.
 4. Oceanis 30.1 (2021) y Oceanis 58 (2013): marcados VENDIDO en el índice, sin ficha. Se listan en LEEME.txt solo
    como referencia.
-5. Oyster 56: la ficha nombra a un contacto con su correo; revisar si se mantiene en la nueva web.
+5. Oyster 56: la ficha nombraba a un contacto con su correo; el correo se quitó de la ficha el 2026-11-02 (decisión Oceanic) y quedó solo el nombre. Revisar si el nombre se mantiene en la nueva web.
 6. Yate "Isla Jéchica II": la ficha enlaza un PDF con más información (anotado en su ficha.txt).
 7. Oceanis 41: una de las 4 fotos es el plano de distribución (3 cabinas, 2 baños), no una foto.
 8. Antares 8: varias fotos parecen imágenes de catálogo de Beneteau, no del barco usado; revisar si se usan.

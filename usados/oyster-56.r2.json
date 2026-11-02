@@ -1,0 +1,135 @@
+{
+ "version": 1,
+ "images": [
+  {
+   "id": "foto-01",
+   "key": "usados/oyster-56/other/foto-01-49d47f81.webp",
+   "sha256": "49d47f818405183d53ed2bc449c4a0f26de1dba0bbbaa72ce1dc98a4cd322640",
+   "bytes": 60888,
+   "uploaded_at": "2026-11-02T18:31:53+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "foto-02",
+   "key": "usados/oyster-56/other/foto-02-a66b86f2.webp",
+   "sha256": "a66b86f21e609b48e6d8f4e96b439b8c3845c6426ea825830fe2fd02eca460e0",
+   "bytes": 38828,
+   "uploaded_at": "2026-11-02T18:31:54+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "foto-03",
+   "key": "usados/oyster-56/other/foto-03-3bb24835.webp",
+   "sha256": "3bb248357caa3ca29c42e98cec7241fedc27a6a526b605a085f039392499b939",
+   "bytes": 84992,
+   "uploaded_at": "2026-11-02T18:31:55+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "foto-04",
+   "key": "usados/oyster-56/other/foto-04-e6ecf5c8.webp",
+   "sha256": "e6ecf5c84eb82a7834b5c8a8e7472d2f95ede0126198ea887905d0505cd75274",
+   "bytes": 70310,
+   "uploaded_at": "2026-11-02T18:31:56+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "foto-05",
+   "key": "usados/oyster-56/other/foto-05-006d41e5.webp",
+   "sha256": "006d41e57005069cac9245699f553bd37a2a7e1cd39999b96e3bba9c3130c82b",
+   "bytes": 60798,
+   "uploaded_at": "2026-11-02T18:31:57+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "foto-06",
+   "key": "usados/oyster-56/other/foto-06-26c37890.webp",
+   "sha256": "26c378901fc41beafbcc85a92be6a8d5d2c10f5dc724cd4f38848eba8b641def",
+   "bytes": 74900,
+   "uploaded_at": "2026-11-02T18:31:58+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "foto-07",
+   "key": "usados/oyster-56/other/foto-07-c3737971.webp",
+   "sha256": "c37379712374a0d1fd9299d40453ff1194ca11d900ee2a8a92b7ed78a616f956",
+   "bytes": 9602,
+   "uploaded_at": "2026-11-02T18:31:59+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "foto-08",
+   "key": "usados/oyster-56/other/foto-08-d9586fc4.webp",
+   "sha256": "d9586fc4500cb66255869d70407474be9f677dd277175c497119a3a4dbf1b872",
+   "bytes": 75826,
+   "uploaded_at": "2026-11-02T18:32:00+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "foto-09",
+   "key": "usados/oyster-56/other/foto-09-26f411b0.webp",
+   "sha256": "26f411b0c45c2e462c0b45a495cbe48e492c0f3a488972dc5f26b8568ab80b21",
+   "bytes": 87888,
+   "uploaded_at": "2026-11-02T18:32:01+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "foto-10",
+   "key": "usados/oyster-56/other/foto-10-0bdcc5cb.webp",
+   "sha256": "0bdcc5cbc7e0d99e5e074113002ee5b79f3a52adb8b7d3f3121ce881a6c7ae1b",
+   "bytes": 27422,
+   "uploaded_at": "2026-11-02T18:32:02+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  }
+ ]
+}

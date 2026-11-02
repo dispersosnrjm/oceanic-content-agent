@@ -1,0 +1,83 @@
+{
+ "version": 1,
+ "images": [
+  {
+   "id": "foto-01",
+   "key": "usados/oceanis-47-3/other/foto-01-8ab24aa3.webp",
+   "sha256": "8ab24aa3a13d6ebdb6b6b6c9eeb23aa58f785dff4f66d8a8507e34e2bc5ff5cb",
+   "bytes": 97918,
+   "uploaded_at": "2026-11-02T18:32:16+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "foto-02",
+   "key": "usados/oceanis-47-3/other/foto-02-5d74e783.webp",
+   "sha256": "5d74e78352db46cd42118cfff2ce4d709a2c9097dfc4e71574b58faef14ede17",
+   "bytes": 56712,
+   "uploaded_at": "2026-11-02T18:32:17+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "foto-03",
+   "key": "usados/oceanis-47-3/other/foto-03-409f73ca.webp",
+   "sha256": "409f73ca9b648d4dd4cb1f568d2939ae974e448df52b4736e5bbb2613ea55b78",
+   "bytes": 134118,
+   "uploaded_at": "2026-11-02T18:32:18+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "foto-04",
+   "key": "usados/oceanis-47-3/other/foto-04-ebad1587.webp",
+   "sha256": "ebad158783cb468382abedbe2c10b66b3d3df332f5dbf2e50de5a11e8c93b6ad",
+   "bytes": 95090,
+   "uploaded_at": "2026-11-02T18:32:19+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "foto-05",
+   "key": "usados/oceanis-47-3/other/foto-05-12e4a796.webp",
+   "sha256": "12e4a7962cb6bbcbe8695819bd94b7c4efb6670bb2ba9f86d962ce019921c9d1",
+   "bytes": 46114,
+   "uploaded_at": "2026-11-02T18:32:20+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "foto-06",
+   "key": "usados/oceanis-47-3/other/foto-06-f3c0ac88.webp",
+   "sha256": "f3c0ac8883db694f4f168f2c25831d924cf09d16c20e527f9112c82413fa19e3",
+   "bytes": 35610,
+   "uploaded_at": "2026-11-02T18:32:21+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  }
+ ]
+}

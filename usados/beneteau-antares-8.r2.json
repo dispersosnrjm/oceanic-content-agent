@@ -1,0 +1,161 @@
+{
+ "version": 1,
+ "images": [
+  {
+   "id": "foto-01",
+   "key": "usados/beneteau-antares-8/other/foto-01-879d4c02.webp",
+   "sha256": "879d4c022d73d40ef335e9fa89c0d556bfbb7fd6ad520b7e3e9120a7409fd37a",
+   "bytes": 144932,
+   "uploaded_at": "2026-11-02T18:30:42+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "foto-02",
+   "key": "usados/beneteau-antares-8/other/foto-02-5dae3f02.webp",
+   "sha256": "5dae3f023ccc1d9679906167c47af010c479edf5b7556ad173be3e7ad36c4166",
+   "bytes": 140518,
+   "uploaded_at": "2026-11-02T18:30:43+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "foto-03",
+   "key": "usados/beneteau-antares-8/other/foto-03-c466a638.webp",
+   "sha256": "c466a6383659266662bd84abb07c43060a5f9bba2885477c0fc9fcdcde3797b4",
+   "bytes": 152232,
+   "uploaded_at": "2026-11-02T18:30:44+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "foto-04",
+   "key": "usados/beneteau-antares-8/other/foto-04-7a97e238.webp",
+   "sha256": "7a97e238f338d71186c7493cca4a121ee4ab04a0404c4286ccfe2941b94aa1b9",
+   "bytes": 135958,
+   "uploaded_at": "2026-11-02T18:30:46+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "foto-05",
+   "key": "usados/beneteau-antares-8/other/foto-05-5eeed4ff.webp",
+   "sha256": "5eeed4ff28f515a45f508d3a9bdeac346b1422a91b1f27ab8af3def21d5456c9",
+   "bytes": 200170,
+   "uploaded_at": "2026-11-02T18:30:47+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "foto-06",
+   "key": "usados/beneteau-antares-8/other/foto-06-6b36110e.webp",
+   "sha256": "6b36110e2401b0d16eb6758be9606fb545b72f171be5bf40478f406db57bf47b",
+   "bytes": 211222,
+   "uploaded_at": "2026-11-02T18:30:48+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "foto-07",
+   "key": "usados/beneteau-antares-8/other/foto-07-f2e9c919.webp",
+   "sha256": "f2e9c919a87138a3a86985d4911c647881cd2e78d4efcdd7de9e5a07e6704caa",
+   "bytes": 148488,
+   "uploaded_at": "2026-11-02T18:30:49+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "foto-08",
+   "key": "usados/beneteau-antares-8/other/foto-08-aebb2b84.webp",
+   "sha256": "aebb2b84bc884ce9a38063a4d78ac6b0f5afcaa9cc897be6ab53d3c26bd9b8b9",
+   "bytes": 220078,
+   "uploaded_at": "2026-11-02T18:30:50+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "foto-09",
+   "key": "usados/beneteau-antares-8/other/foto-09-6730fb8d.webp",
+   "sha256": "6730fb8df837d97db5614a991d059331a8e1ad11e19d2d4286f8126dc4a5284f",
+   "bytes": 94240,
+   "uploaded_at": "2026-11-02T18:30:51+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "foto-10",
+   "key": "usados/beneteau-antares-8/other/foto-10-385adbf6.webp",
+   "sha256": "385adbf661491f3dc31e7bf7a82b1c031ec54447145e5443b179d3ecbeeca0a8",
+   "bytes": 68378,
+   "uploaded_at": "2026-11-02T18:30:52+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "foto-11",
+   "key": "usados/beneteau-antares-8/other/foto-11-769cb3db.webp",
+   "sha256": "769cb3dbe5c9395c5f6962634df924e007abde36b2185d30b3f03c97932bdfc0",
+   "bytes": 192934,
+   "uploaded_at": "2026-11-02T18:30:53+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "foto-12",
+   "key": "usados/beneteau-antares-8/other/foto-12-eceb6762.webp",
+   "sha256": "eceb6762b2cd938cfbd5d0136c7c3dfc3f3070a1e62a88bb093e367b4dc4df15",
+   "bytes": 202760,
+   "uploaded_at": "2026-11-02T18:30:54+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  }
+ ]
+}

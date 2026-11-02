@@ -1,0 +1,96 @@
+{
+ "version": 1,
+ "images": [
+  {
+   "id": "foto-01",
+   "key": "usados/yate-isla-jechica-ii/other/foto-01-b2968d89.webp",
+   "sha256": "b2968d8925ee5ffcedb9a46fda4af565a00ca1f7b11456ad7279b8ab52c32272",
+   "bytes": 80578,
+   "uploaded_at": "2026-11-02T18:31:02+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "foto-02",
+   "key": "usados/yate-isla-jechica-ii/other/foto-02-153f9f69.webp",
+   "sha256": "153f9f69b979a05179ed4fc3480db7ed22a1971ca52ce1275e7953eaa54704b2",
+   "bytes": 81118,
+   "uploaded_at": "2026-11-02T18:31:03+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "foto-03",
+   "key": "usados/yate-isla-jechica-ii/other/foto-03-41b697f8.webp",
+   "sha256": "41b697f8d454f73ab5903ce7113bc1feff8c323ed34ca47db465bf3456fb324f",
+   "bytes": 60002,
+   "uploaded_at": "2026-11-02T18:31:04+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "foto-04",
+   "key": "usados/yate-isla-jechica-ii/other/foto-04-197ed7c6.webp",
+   "sha256": "197ed7c66f2ffd06a67e1c08a7eed7ab40abc0737f8f027522635e1ef3676bf3",
+   "bytes": 106872,
+   "uploaded_at": "2026-11-02T18:31:05+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "foto-05",
+   "key": "usados/yate-isla-jechica-ii/other/foto-05-5348bb4c.webp",
+   "sha256": "5348bb4cabdb10a5f58b6200ce7db7faedbbd9f55780fa918504c28548d37f35",
+   "bytes": 77028,
+   "uploaded_at": "2026-11-02T18:31:07+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "foto-06",
+   "key": "usados/yate-isla-jechica-ii/other/foto-06-f42553eb.webp",
+   "sha256": "f42553eb761ab2fdf2febb2fd12a0a73456c0c12654e7e1f987e4d226d12c70c",
+   "bytes": 65912,
+   "uploaded_at": "2026-11-02T18:31:08+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "foto-07",
+   "key": "usados/yate-isla-jechica-ii/other/foto-07-e37d7b79.webp",
+   "sha256": "e37d7b793c381f8fa61c5ef32305f8cf04c7319c29818f5f6cbe48480601f857",
+   "bytes": 34232,
+   "uploaded_at": "2026-11-02T18:31:09+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  }
+ ]
+}

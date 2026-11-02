@@ -1,0 +1,70 @@
+{
+ "version": 1,
+ "images": [
+  {
+   "id": "foto-01",
+   "key": "usados/lagoon-39/other/foto-01-34b6409b.webp",
+   "sha256": "34b6409b20322e298e27f50b0d57ee3c6ceb8bb76e67f51d4e4dc0fa2379d91c",
+   "bytes": 111018,
+   "uploaded_at": "2026-11-02T18:30:57+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "foto-02",
+   "key": "usados/lagoon-39/other/foto-02-90a3e9f5.webp",
+   "sha256": "90a3e9f5ea25649132928b118c25ecc83e3d84b7d87dbe81f2e02756a96467bc",
+   "bytes": 33010,
+   "uploaded_at": "2026-11-02T18:30:58+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "foto-03",
+   "key": "usados/lagoon-39/other/foto-03-937a8257.webp",
+   "sha256": "937a825774a67783b6dd6d9a9eb550aae08f06c123a413fbec038854af1cd71b",
+   "bytes": 167490,
+   "uploaded_at": "2026-11-02T18:30:59+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "foto-04",
+   "key": "usados/lagoon-39/other/foto-04-9b73741d.webp",
+   "sha256": "9b73741d775d879e0ab13e1a4096b58b341967f757f0389195a56ab516bc556f",
+   "bytes": 160558,
+   "uploaded_at": "2026-11-02T18:31:00+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "foto-05",
+   "key": "usados/lagoon-39/other/foto-05-cc8136d8.webp",
+   "sha256": "cc8136d8cbc182bb18ec6a0fb5b2151e623fa780bdd1e9d38c9258755f0fae02",
+   "bytes": 73966,
+   "uploaded_at": "2026-11-02T18:31:01+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  }
+ ]
+}

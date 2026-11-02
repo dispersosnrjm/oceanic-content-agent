@@ -1,0 +1,174 @@
+{
+ "version": 1,
+ "images": [
+  {
+   "id": "foto-01",
+   "key": "usados/aguantao/other/foto-01-c560a3e6.webp",
+   "sha256": "c560a3e66df6fa6a666bbe221243af6e0b5934250b00ed474dc160f7f4889349",
+   "bytes": 122918,
+   "uploaded_at": "2026-11-02T18:32:03+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "foto-02",
+   "key": "usados/aguantao/other/foto-02-6672e9b6.webp",
+   "sha256": "6672e9b626ba0c69dc1288a234d8c63f973c642ebde86841162c71e4fcfdcba3",
+   "bytes": 152266,
+   "uploaded_at": "2026-11-02T18:32:04+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "foto-03",
+   "key": "usados/aguantao/other/foto-03-763a7ed6.webp",
+   "sha256": "763a7ed634df8069cb09d1f3f4070a8b5035a28a20d29506c37ba8c58fcd6553",
+   "bytes": 108676,
+   "uploaded_at": "2026-11-02T18:32:05+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "foto-04",
+   "key": "usados/aguantao/other/foto-04-fa809f8d.webp",
+   "sha256": "fa809f8dc58b0f9700d42ef267ade27d18a134c9c6e7471b84277d2dab46800e",
+   "bytes": 121888,
+   "uploaded_at": "2026-11-02T18:32:06+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "foto-05",
+   "key": "usados/aguantao/other/foto-05-2a21b539.webp",
+   "sha256": "2a21b5394427bb4d887953303affbd1c5be7a9a3a859ef7730ca1e8f7f3311bf",
+   "bytes": 104774,
+   "uploaded_at": "2026-11-02T18:32:07+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "foto-06",
+   "key": "usados/aguantao/other/foto-06-345d87f1.webp",
+   "sha256": "345d87f11e0c0bc8c405bc1caa1071300005427ba3e9d233a1499b6317b4e152",
+   "bytes": 155416,
+   "uploaded_at": "2026-11-02T18:32:08+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "foto-07",
+   "key": "usados/aguantao/other/foto-07-0fa1e489.webp",
+   "sha256": "0fa1e489ef436694dd2fbc2b85c5b33c08a48b6449243bd68d6f62f86a1b9b24",
+   "bytes": 65990,
+   "uploaded_at": "2026-11-02T18:32:09+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "foto-08",
+   "key": "usados/aguantao/other/foto-08-2e412e2d.webp",
+   "sha256": "2e412e2d40095658013ce39fa08ee68b0c2aba9185380764e02e5e81b8ad08c9",
+   "bytes": 101108,
+   "uploaded_at": "2026-11-02T18:32:11+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "foto-09",
+   "key": "usados/aguantao/other/foto-09-ca79fd88.webp",
+   "sha256": "ca79fd88e6eae7b919badeda7ca3c488d4dcc63f1b3c5cbff510d518ed5879e5",
+   "bytes": 162378,
+   "uploaded_at": "2026-11-02T18:32:12+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "foto-10",
+   "key": "usados/aguantao/other/foto-10-8a04c6e6.webp",
+   "sha256": "8a04c6e6475b2f11998dc0a1934cc7baab2d6f327e969f98aa27c0bffadfd72b",
+   "bytes": 112402,
+   "uploaded_at": "2026-11-02T18:32:12+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "foto-11",
+   "key": "usados/aguantao/other/foto-11-be4d702d.webp",
+   "sha256": "be4d702dbc42c061137698f3f3b5e932bfd58f8bbd632a4cb4670c4834c0ef6a",
+   "bytes": 134010,
+   "uploaded_at": "2026-11-02T18:32:14+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "foto-12",
+   "key": "usados/aguantao/other/foto-12-663657e2.webp",
+   "sha256": "663657e27de4eac9e8e1c3914b613252ac5c8913c65b0bff388d503375653942",
+   "bytes": 108002,
+   "uploaded_at": "2026-11-02T18:32:15+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "foto-13",
+   "key": "usados/aguantao/other/foto-13-a8303bc3.webp",
+   "sha256": "a8303bc3b38e5c52838a16912ba59e54569684a67472327ac1d0911b659df48e",
+   "bytes": 83454,
+   "uploaded_at": "2026-11-02T18:32:15+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  }
+ ]
+}

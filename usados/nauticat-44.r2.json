@@ -1,0 +1,70 @@
+{
+ "version": 1,
+ "images": [
+  {
+   "id": "foto-01",
+   "key": "usados/nauticat-44/other/foto-01-c8d6ed61.webp",
+   "sha256": "c8d6ed616197ea49695e7d46b75e5bff9cca38b910dad72a9a3e8617317231de",
+   "bytes": 37448,
+   "uploaded_at": "2026-11-02T18:31:31+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "foto-02",
+   "key": "usados/nauticat-44/other/foto-02-0375e23a.webp",
+   "sha256": "0375e23ae7c2acd990ec968fe375c09ff3a8578517d385ccd62377de03784360",
+   "bytes": 32014,
+   "uploaded_at": "2026-11-02T18:31:32+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "foto-03",
+   "key": "usados/nauticat-44/other/foto-03-f2f3bed6.webp",
+   "sha256": "f2f3bed69a1b8c3cbfd228617e62e1123291172582fc8fddae459caab3145f7c",
+   "bytes": 38570,
+   "uploaded_at": "2026-11-02T18:31:33+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "foto-04",
+   "key": "usados/nauticat-44/other/foto-04-43993f0b.webp",
+   "sha256": "43993f0bb04533dce6f32f5c70773733cc9df6b456968a7c005540a419fd48fc",
+   "bytes": 50956,
+   "uploaded_at": "2026-11-02T18:31:34+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "foto-05",
+   "key": "usados/nauticat-44/other/foto-05-ea0a8a4d.webp",
+   "sha256": "ea0a8a4d05e2dc0a6001f9c1e955f8fbe9f88f821f6a3affcc448dca27f8fa21",
+   "bytes": 76668,
+   "uploaded_at": "2026-11-02T18:31:35+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  }
+ ]
+}

@@ -1,0 +1,57 @@
+{
+ "version": 1,
+ "images": [
+  {
+   "id": "foto-01",
+   "key": "usados/beneteau-oceanis-41/other/foto-01-8c8c5f43.webp",
+   "sha256": "8c8c5f43dbdec327d874410a7ee7ce12a73b100e8f0a5eae1694e6b959330e5c",
+   "bytes": 99286,
+   "uploaded_at": "2026-11-02T18:30:13+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "foto-02",
+   "key": "usados/beneteau-oceanis-41/other/foto-02-c8865a5d.webp",
+   "sha256": "c8865a5dc0c96abaf6300ba7bc1ecb417d1d19334e0f28c6a26234778e62b88b",
+   "bytes": 39934,
+   "uploaded_at": "2026-11-02T18:30:14+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "foto-03",
+   "key": "usados/beneteau-oceanis-41/other/foto-03-67bc96f5.webp",
+   "sha256": "67bc96f54dcada8e823b608fae9b377465a9402e29cc7eb0884ba003ff00551a",
+   "bytes": 15956,
+   "uploaded_at": "2026-11-02T18:30:15+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "foto-04",
+   "key": "usados/beneteau-oceanis-41/other/foto-04-c391a151.webp",
+   "sha256": "c391a151dcdfe784f795263e7393852ca735f6218ef8dd6a7faba25280f8fd20",
+   "bytes": 70474,
+   "uploaded_at": "2026-11-02T18:30:16+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  }
+ ]
+}

@@ -1,0 +1,96 @@
+{
+ "version": 1,
+ "images": [
+  {
+   "id": "foto-01",
+   "key": "usados/jeanneau-sun-odyssey-349/other/foto-01-ef29a6e1.webp",
+   "sha256": "ef29a6e10f6e4da8c8cf54c6e56d1a7d675a8b4d9052e55fda39804a3d72c66f",
+   "bytes": 97662,
+   "uploaded_at": "2026-11-02T18:31:10+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "foto-02",
+   "key": "usados/jeanneau-sun-odyssey-349/other/foto-02-e45108b7.webp",
+   "sha256": "e45108b778982db3ff88923d3424026e661eaa8d61a485830ae8643e0968746e",
+   "bytes": 158066,
+   "uploaded_at": "2026-11-02T18:31:11+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "foto-03",
+   "key": "usados/jeanneau-sun-odyssey-349/other/foto-03-c2c4dfcd.webp",
+   "sha256": "c2c4dfcd148bd81d320714862bb3e1845d24768eaf8aca50af6349896431e6c2",
+   "bytes": 93392,
+   "uploaded_at": "2026-11-02T18:31:12+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "foto-04",
+   "key": "usados/jeanneau-sun-odyssey-349/other/foto-04-3338e35e.webp",
+   "sha256": "3338e35e954d2422d25f9d3e5a37004195a87104693bc6e5a7993f83ce9ccbd5",
+   "bytes": 113074,
+   "uploaded_at": "2026-11-02T18:31:13+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "foto-05",
+   "key": "usados/jeanneau-sun-odyssey-349/other/foto-05-a90108f3.webp",
+   "sha256": "a90108f3e6ad2076aa8f4d341e648bf77ae9c105924a27ddabe90449f985c75d",
+   "bytes": 41290,
+   "uploaded_at": "2026-11-02T18:31:14+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "foto-06",
+   "key": "usados/jeanneau-sun-odyssey-349/other/foto-06-817a662f.webp",
+   "sha256": "817a662fb7b3b98953c0050a8a3ac751551874c5eb1f2f020384c0060e32a588",
+   "bytes": 83878,
+   "uploaded_at": "2026-11-02T18:31:15+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  },
+  {
+   "id": "foto-07",
+   "key": "usados/jeanneau-sun-odyssey-349/other/foto-07-487ebce9.webp",
+   "sha256": "487ebce9f65a5a1f6e5f7cbb836ce88a72261b0c96b1bc53c13b42cc63b393b7",
+   "bytes": 137386,
+   "uploaded_at": "2026-11-02T18:31:16+00:00",
+   "encoder": {
+    "pillow": "13.0.0",
+    "libwebp": "1.6.0",
+    "quality": 75,
+    "method": 6
+   }
+  }
+ ]
+}
